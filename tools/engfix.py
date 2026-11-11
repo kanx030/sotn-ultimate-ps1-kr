@@ -11,7 +11,7 @@ Every edit asserts the US bytes first and is skipped when already applied (idemp
   young." is painted into the 256x256 8bpp background (file 0x8000-0x17FFF, CLUT at 0x1A000). The English
   ink (+3 px halo) is inpainted from the surrounding sand (diffusion + seeded noise, quantised to the CLUT),
   then GO_TEXT is drawn in Galmuri11 (cream fill, 1 px dark outline), centred on the same two rows.
-  The blackletter GAME OVER sprites (file 0x0000-0x3FFF) are redrawn as 게임오버 (see gameover_title).
+  The blackletter GAME OVER sprites (file 0x0000-0x3FFF) are redrawn as GO_TITLE (see gameover_title).
 - DRA status screen name (g_MenuStr[0] "ALUCARD" / [42] "ALUCART" when the Alucart set is worn), drawn by
   MenuDrawStr(str, 0x80, 0x28) at 0x800F521C: 알카드 / 알카트 in Galmuri11 (11 px, as large as the English
   word looks) instead of 7 px Galmuri7. The word is cut into 8x7 tiles; each tile is a g7 "carrier"
@@ -136,30 +136,40 @@ def gameover_image(us):
     return img.tobytes(), rgb
 
 
-GO_TITLE = '게임오버'                 # replaces the 8 blackletter cells G A M E O V E R (32x32 each, 4bpp)
-GO_TITLE_SIZE = (24, 48)               # glyph body h, w inside each 64x32 cell pair
+GO_TITLE = '다시 관 속으로'           # replaces the blackletter GAME OVER (8 sprites of 32x32, 4bpp, side by side)
+GO_TITLE_H = 24                        # glyph body height; rings add 5 px on each side (32 px row)
+GO_TITLE_WEIGHT = 500
+GO_TITLE_STRETCH = 1.15
 
 
 def gameover_title():
-    """F_GO 0x0000-0x3FFF: 256x128 4bpp, 8 letters x 4 rows. Each letter is drawn in place (sprites sit
-    side by side, 32 px apart) and the rows are glow steps. Original encoding: D = 1 on the letter body,
-    2..6 on 1-px rings outward; row k shows D + (3 - k), cut off above 6. Each Hangul syllable takes two
-    cells (64x32), so the 8 sprites read 게 임 오 버 with no code change."""
+    """F_GO 0x0000-0x3FFF: 256x128 4bpp, 8 letter cells x 4 rows. The 8 sprites sit side by side, 32 px
+    apart, and stay still, so the row is one 256x32 canvas: the text is drawn across all 8 cells. The 4 rows
+    are glow steps. Original encoding: D = 1 on the letter body, 2..6 on 1-px rings outward; row k shows
+    D + (3 - k), cut off above 6."""
     import numpy as np, gfx
     from PIL import Image
-    h, w = GO_TITLE_SIZE
+    h = GO_TITLE_H
+    def syl(ch):
+        c = gfx.noto(ch, 40, GO_TITLE_WEIGHT, serif=True)
+        return c, int(c.shape[1] * h / c.shape[0] * GO_TITLE_STRETCH)
+    parts = [None if ch == ' ' else syl(ch) for ch in GO_TITLE]
+    gap, sp = 6, 8
+    tot = sum(sp if p is None else p[1] for p in parts) + gap * (len(parts) - 1)
+    assert tot <= 256 - 12, tot
+    cur = np.zeros((32, 256), bool); x = (256 - tot) // 2; y = (32 - h) // 2
+    for p in parts:
+        if p is None: x += sp + gap; continue
+        c, w = p
+        cur[y:y + h, x:x + w] = np.asarray(Image.fromarray((c * 255).astype(np.uint8)).resize((w, h), Image.LANCZOS)) > 110
+        x += w + gap
+    D = np.zeros((32, 256), np.uint8); D[cur] = 1
+    for v in range(2, 7):
+        n = gfx.dilate(cur); D[n & ~cur] = v; cur = n
     sheet = np.zeros((128, 256), np.uint8)
-    for i, ch in enumerate(GO_TITLE):
-        c = gfx.noto(ch, 40, 600, serif=True)
-        m = np.asarray(Image.fromarray((c * 255).astype(np.uint8)).resize((w, h), Image.LANCZOS)) > 110
-        cur = np.zeros((32, 64), bool)
-        cur[(32 - h) // 2:(32 - h) // 2 + h, (64 - w) // 2:(64 - w) // 2 + w] = m
-        D = np.zeros((32, 64), np.uint8); D[cur] = 1
-        for v in range(2, 7):
-            n = gfx.dilate(cur); D[n & ~cur] = v; cur = n
-        for k in range(4):
-            val = D.astype(int) + (3 - k); val[(D == 0) | (val > 6)] = 0
-            sheet[k * 32:(k + 1) * 32, i * 64:(i + 1) * 64] = val
+    for k in range(4):
+        val = D.astype(int) + (3 - k); val[(D == 0) | (val > 6)] = 0
+        sheet[k * 32:(k + 1) * 32] = val
     return bytes((sheet[:, 0::2] | (sheet[:, 1::2] << 4)).astype(np.uint8).ravel())
 
 
