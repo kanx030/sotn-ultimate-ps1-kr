@@ -11,7 +11,8 @@ Every edit asserts the US bytes first and is skipped when already applied (idemp
   young." is painted into the 256x256 8bpp background (file 0x8000-0x17FFF, CLUT at 0x1A000). The English
   ink (+3 px halo) is inpainted from the surrounding sand (diffusion + seeded noise, quantised to the CLUT),
   then GO_TEXT is drawn in Galmuri11 (cream fill, 1 px dark outline), centred on the same two rows.
-  The blackletter GAME OVER sprites (file 0x0000-0x3FFF) are redrawn as GO_TITLE (see gameover_title).
+  The blackletter GAME OVER (file 0x0000-0x3FFF) is redrawn as GO_TITLE with its own CLUT: the glow rows
+  go white -> blood red, and DRA holds each row 45 frames instead of 4 (_gameover_slow).
 - DRA status screen name (g_MenuStr[0] "ALUCARD" / [42] "ALUCART" when the Alucart set is worn), drawn by
   MenuDrawStr(str, 0x80, 0x28) at 0x800F521C: 알카드 / 알카트 in Galmuri11 (11 px, as large as the English
   word looks) instead of 7 px Galmuri7. The word is cut into 8x7 tiles; each tile is a g7 "carrier"
@@ -19,7 +20,7 @@ Every edit asserts the US bytes first and is skipped when already applied (idemp
   path draws it. A thunk (in DRA_A's leftover free pool) draws the top tile row at y-2 and the bottom row
   7 px lower; v0 at the call is the game's "Alucart set worn" flag. DRA_A keeps 알카드/알카트 as fallback.
 """
-import struct
+import os, struct
 
 FILES = ('DRA.BIN', 'ST/SEL/SEL.BIN', 'BIN/SELRIC2.BIN', 'BIN/F_GO.BIN')
 LOG = []
@@ -136,40 +137,92 @@ def gameover_image(us):
     return img.tobytes(), rgb
 
 
-GO_TITLE = '다시 관 속으로'           # replaces the blackletter GAME OVER (8 sprites of 32x32, 4bpp, side by side)
+GO_CLUT_TITLE = 0x18000                # F_GO: CLUT of the title letters (16 colours, 1..6 used)
+GO_TITLE = '영원한 안식'             # replaces the blackletter GAME OVER (8 sprites of 32x32, 4bpp, side by side)
 GO_TITLE_H = 24                        # glyph body height; rings add 5 px on each side (32 px row)
-GO_TITLE_WEIGHT = 500
-GO_TITLE_STRETCH = 1.15
+GO_TITLE_W = 236                       # stretch the line to about the width of the original 8 letters
+GO_FONT = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'work', 'fonts', 'Hahmlet-VF.ttf')
+GO_FONT_WEIGHT = 700                   # Hahmlet (OFL, github.com/hyper-type/hahmlet): sharp calligraphic serif
+
+
+GO_RED = {1: (255, 72, 56), 2: (232, 32, 24), 3: (184, 12, 8), 4: (136, 0, 0), 5: (88, 0, 0), 6: (40, 0, 8)}
+
+
+def go_title_index():
+    """(row, brightness level 1..6) -> CLUT index. Row k shows levels 4-k..6; level 6 is shared, so
+    3+4+5+6-3 = 15 colours fit the 4bpp CLUT."""
+    idx, n = {}, 1
+    for r in range(4):
+        for v in range(4 - r, 6):
+            idx[(r, v)] = n; n += 1
+    for r in range(4):
+        idx[(r, 6)] = n
+    assert n == 15
+    return idx
+
+
+def go_title_clut(us):
+    """The glow rows are shown in order 0 -> 3 (step 7), then row 3 stays. Row 0 keeps the original white/
+    blue, row 3 is blood red, rows 1-2 in between: the title turns red as its glow grows."""
+    c = struct.unpack_from('<16H', us, GO_CLUT_TITLE)
+    rgb = lambda w: (((w & 31) << 3), ((w >> 5) & 31) << 3, ((w >> 10) & 31) << 3)
+    enc = lambda t: 0x8000 | (min(t[0], 255) >> 3) | ((min(t[1], 255) >> 3) << 5) | ((min(t[2], 255) >> 3) << 10)
+    out = [0] * 16
+    for (r, v), i in go_title_index().items():
+        t = r / 3 if v < 6 else 0.5
+        o, red = rgb(c[v]), GO_RED[v]
+        out[i] = enc(tuple(round(o[j] * (1 - t) + red[j] * t) for j in range(3)))
+    return struct.pack('<16H', *out)
 
 
 def gameover_title():
-    """F_GO 0x0000-0x3FFF: 256x128 4bpp, 8 letter cells x 4 rows. The 8 sprites sit side by side, 32 px
-    apart, and stay still, so the row is one 256x32 canvas: the text is drawn across all 8 cells. The 4 rows
-    are glow steps. Original encoding: D = 1 on the letter body, 2..6 on 1-px rings outward; row k shows
-    D + (3 - k), cut off above 6."""
+    """F_GO 0x0000-0x3FFF: 256x128 4bpp, 4 rows of 256x32. DRA draws one 256x32 quad of it (0x800E4A1C) and
+    steps v 0 -> 0x60 every 4 frames, then holds row 3. Original encoding: the letter is a white blob
+    (1) with darker inner lines (2-4), then 1-px rings 2..6 outward; row k shows D + (3 - k), cut off
+    above 6. Same here: glyph = 1, its 1-px outline inside the merged silhouette = 3 ("engraved" lines
+    like the blackletter), then the rings."""
     import numpy as np, gfx
-    from PIL import Image
+    from PIL import Image, ImageDraw, ImageFont
     h = GO_TITLE_H
-    def syl(ch):
-        c = gfx.noto(ch, 40, GO_TITLE_WEIGHT, serif=True)
-        return c, int(c.shape[1] * h / c.shape[0] * GO_TITLE_STRETCH)
-    parts = [None if ch == ' ' else syl(ch) for ch in GO_TITLE]
-    gap, sp = 6, 8
-    tot = sum(sp if p is None else p[1] for p in parts) + gap * (len(parts) - 1)
+    f = ImageFont.truetype(GO_FONT, h * 5)
+    f.set_variation_by_axes([GO_FONT_WEIGHT])
+    ims = []
+    for ch in GO_TITLE:
+        if ch == ' ':
+            ims.append(None); continue
+        l, t, r, b = f.getbbox(ch)
+        im = Image.new('L', (r - l + 10, b - t + 10)); ImageDraw.Draw(im).text((5 - l, 5 - t), ch, font=f, fill=255)
+        ims.append(im.crop(im.getbbox()))
+    H = max(im.height for im in ims if im)
+    gap, sp = 6, 10
+    nat = sum(sp if im is None else im.width * h / H for im in ims) + gap * (len(ims) - 1)
+    k = (GO_TITLE_W - sp * ims.count(None) - gap * (len(ims) - 1)) / (nat - sp * ims.count(None) - gap * (len(ims) - 1))
+    cur = np.zeros((32, 256), bool)
+    parts = []
+    for im in ims:
+        if im is None:
+            parts.append((None, sp)); continue
+        hh = max(1, round(im.height * h / H)); ww = round(im.width * h / H * k)
+        parts.append((np.asarray(im.resize((ww, hh), Image.LANCZOS)) > 110, ww))
+    tot = sum(w for _, w in parts) + gap * (len(parts) - 1)
     assert tot <= 256 - 12, tot
-    cur = np.zeros((32, 256), bool); x = (256 - tot) // 2; y = (32 - h) // 2
-    for p in parts:
-        if p is None: x += sp + gap; continue
-        c, w = p
-        cur[y:y + h, x:x + w] = np.asarray(Image.fromarray((c * 255).astype(np.uint8)).resize((w, h), Image.LANCZOS)) > 110
+    x = (256 - tot) // 2
+    for m, w in parts:
+        if m is not None:
+            y = (32 - h) // 2 + (h - m.shape[0]) // 2
+            cur[y:y + m.shape[0], x:x + w] = m
         x += w + gap
-    D = np.zeros((32, 256), np.uint8); D[cur] = 1
+    D = np.zeros((32, 256), np.uint8)
+    sil = gfx.dilate(cur); D[sil] = 3; D[cur] = 1
+    c2 = sil
     for v in range(2, 7):
-        n = gfx.dilate(cur); D[n & ~cur] = v; cur = n
+        n = gfx.dilate(c2); D[n & ~c2] = v; c2 = n
     sheet = np.zeros((128, 256), np.uint8)
-    for k in range(4):
-        val = D.astype(int) + (3 - k); val[(D == 0) | (val > 6)] = 0
-        sheet[k * 32:(k + 1) * 32] = val
+    idx = go_title_index()
+    for r in range(4):
+        val = D.astype(int) + (3 - r)
+        m = (D > 0) & (val <= 6)
+        sheet[r * 32:(r + 1) * 32][m] = [idx[(r, v)] for v in val[m]]
     return bytes((sheet[:, 0::2] | (sheet[:, 1::2] << 4)).astype(np.uint8).ravel())
 
 
@@ -193,6 +246,10 @@ def _gameover(d):
         assert cur == us[0:0x4000], 'F_GO title letters are not US'
         d[0:0x4000] = title
         out.append('title -> ' + GO_TITLE)
+    clut = go_title_clut(us)
+    if bytes(d[GO_CLUT_TITLE:GO_CLUT_TITLE + 32]) != clut:
+        assert bytes(d[GO_CLUT_TITLE:GO_CLUT_TITLE + 32]) == us[GO_CLUT_TITLE:GO_CLUT_TITLE + 32]
+        d[GO_CLUT_TITLE:GO_CLUT_TITLE + 32] = clut
     return 'F_GO ' + ', '.join(out)
 
 
@@ -243,6 +300,34 @@ def name_setup():
     return _NAME
 
 
+def _alloc(d, n):
+    import draa
+    for sp in draa.LAST_FREE:
+        a = (sp[0] + 3) & ~3
+        if a + n <= sp[1]:
+            sp[0] = a + n
+            assert bytes(d[a - DRA:a + n - DRA]) == bytes(n), hex(a)
+            return a
+    raise SystemExit('engfix: no DRA room (%d bytes)' % n)
+
+
+GO_ROW_TIMERS = (0x800E4D70, 0x800E4DD8)   # step 7: "ori v0,zero,4" = passes per glow row (one pass a frame)
+GO_ROW_FRAMES = 45                         # 4 -> 45: each glow row stays 0.75 s, so the white -> red turn is seen
+
+
+def _gameover_slow(d):
+    import struct as st
+    out = []
+    for a in GO_ROW_TIMERS:
+        cur = st.unpack_from('<I', d, a - DRA)[0]
+        if cur == 0x34020000 | GO_ROW_FRAMES:
+            out.append('already'); continue
+        assert cur == 0x34020004, hex(a)
+        st.pack_into('<I', d, a - DRA, 0x34020000 | GO_ROW_FRAMES)
+        out.append('%d' % GO_ROW_FRAMES)
+    return 'game over glow rows: ' + '/'.join(out)
+
+
 def _status_name(d):
     import draa
     from asm import Asm, jal_word
@@ -256,14 +341,7 @@ def _status_name(d):
         top, bot, W = names[word]
         offs[word] = (len(blob), len(blob) + len(top), W)
         blob += top + bot
-    def alloc(n):
-        for sp in draa.LAST_FREE:
-            a = (sp[0] + 3) & ~3
-            if a + n <= sp[1]:
-                sp[0] = a + n
-                assert bytes(d[a - DRA:a + n - DRA]) == bytes(n), hex(a)
-                return a
-        raise SystemExit('engfix: no DRA room for the status name (%d bytes)' % n)
+    alloc = lambda n: _alloc(d, n)
     data_va = alloc(len(blob))
     d[data_va - DRA:data_va - DRA + len(blob)] = blob
     code_va = alloc(4 * 40)
@@ -298,6 +376,7 @@ def patch(rel, data):
         LOG.append(_spell_or(d))
         if getattr(__import__('draa'), 'LAST_FREE', None) is not None:
             LOG.append(_status_name(d))
+        LOG.append(_gameover_slow(d))
     elif rel in ('ST/SEL/SEL.BIN', 'BIN/SELRIC2.BIN'):
         LOG.append(_sel_tags(d, rel))
     elif rel == 'BIN/F_GO.BIN':
