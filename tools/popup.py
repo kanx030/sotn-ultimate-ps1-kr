@@ -10,8 +10,8 @@ type 3 = the 'PROTECTION FROM' rect (entry 6, placed left) + word.  The quad wid
 = (u1-u0)/2), height is fixed 8 rows, so rects can be re-laid out freely as long as height stays 8.
 
 This module redraws the words with Galmuri7 (OFL) Hangul in the Saturn-approved wording (words.SEGS of the
-Saturn handoff), re-packs them into the same area and rewrites the rect table.  Colours follow the original:
-box = palette index 2, letters = 4 (upper rows) / 5 (lower rows), background 0.
+Saturn handoff), re-packs them into the same area and rewrites the rect table.  Colours follow the original
+(letters = 4 upper rows / 5 lower rows) but without the box: transparent 0 with a palette-2 drop shadow.
 
 Build use:
     import popup
@@ -91,7 +91,8 @@ def _font():
     return _G
 
 def word_image(s):
-    """8 rows x (text width + 2) of palette indices: box 2, letters 4 (rows 0-3) / 5 (rows 4-6)."""
+    """8 rows x (text width + 2) of palette indices: transparent 0, letters 4 (rows 0-3) / 5 (rows 4-6),
+    drop shadow 2."""
     G = _font(); pts = []; x = 0
     for i, c in enumerate(s):
         gw, gh, xo, yo, dw, rows = G[ord(c)]
@@ -102,9 +103,11 @@ def word_image(s):
                     pts.append((top + y, x + xo + xx))
         x += dw if i < len(s) - 1 else gw + xo
     w = x + 2
-    im = [[2] * w for _ in range(RH)]
-    for y, xx in pts:
+    im = [[0] * w for _ in range(RH)]          # no box (it looked like an opaque square behind the Hangul)
+    for y, xx in pts:                           # 1-px drop shadow (palette 2, the old box colour) right-down
         assert 0 <= y < RH, (s, y)
+        if y + 1 < RH: im[y + 1][xx + 2] = 2
+    for y, xx in pts:
         im[y][xx + 1] = 4 if y < 4 else 5
     return im
 

@@ -12,7 +12,7 @@ Every edit asserts the US bytes first and is skipped when already applied (idemp
   ink (+3 px halo) is inpainted from the surrounding sand (diffusion + seeded noise, quantised to the CLUT),
   then GO_TEXT is drawn in Galmuri11 (cream fill, 1 px dark outline), centred on the same two rows.
   The blackletter GAME OVER (file 0x0000-0x3FFF) is redrawn as GO_TITLE with its own CLUT: the glow rows
-  go white -> blood red, and DRA holds each row 45 frames instead of 4 (_gameover_slow).
+  go orange -> blood red, and DRA holds each row 40 frames instead of 4 (_gameover_slow).
 - DRA status screen name (g_MenuStr[0] "ALUCARD" / [42] "ALUCART" when the Alucart set is worn), drawn by
   MenuDrawStr(str, 0x80, 0x28) at 0x800F521C: 알카드 / 알카트 in Galmuri11 (11 px, as large as the English
   word looks) instead of 7 px Galmuri7. The word is cut into 8x7 tiles; each tile is a g7 "carrier"
@@ -145,7 +145,8 @@ GO_FONT = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'work',
 GO_FONT_WEIGHT = 700                   # Hahmlet (OFL, github.com/hyper-type/hahmlet): sharp calligraphic serif
 
 
-GO_RED = {1: (255, 72, 56), 2: (232, 32, 24), 3: (184, 12, 8), 4: (136, 0, 0), 5: (88, 0, 0), 6: (40, 0, 8)}
+GO_ORANGE = {1: (255, 196, 96), 2: (248, 150, 48), 3: (224, 104, 16), 4: (176, 64, 0), 5: (120, 36, 0), 6: (64, 16, 0)}
+GO_BLOOD = {1: (184, 12, 12), 2: (150, 6, 6), 3: (112, 0, 0), 4: (80, 0, 0), 5: (52, 0, 0), 6: (28, 0, 0)}
 
 
 def go_title_index():
@@ -162,15 +163,16 @@ def go_title_index():
 
 
 def go_title_clut(us):
-    """The glow rows are shown in order 0 -> 3 (step 7), then row 3 stays. Row 0 keeps the original white/
-    blue, row 3 is blood red, rows 1-2 in between: the title turns red as its glow grows."""
-    c = struct.unpack_from('<16H', us, GO_CLUT_TITLE)
-    rgb = lambda w: (((w & 31) << 3), ((w >> 5) & 31) << 3, ((w >> 10) & 31) << 3)
+    """The glow rows are shown in order 0 -> 3 (step 7), then row 3 stays. Colour by the pixel's role
+    (D = level - (3 - row): 1 letter, 2-3 inner line / first ring, up to 6 outer ring) and by row:
+    row 0 orange, row 3 blood red, rows 1-2 in between. Level 6 is one shared dark colour."""
     enc = lambda t: 0x8000 | (min(t[0], 255) >> 3) | ((min(t[1], 255) >> 3) << 5) | ((min(t[2], 255) >> 3) << 10)
     out = [0] * 16
     for (r, v), i in go_title_index().items():
-        t = r / 3 if v < 6 else 0.5
-        o, red = rgb(c[v]), GO_RED[v]
+        if v == 6:
+            out[i] = enc((48, 6, 0)); continue
+        D, t = v - (3 - r), r / 3
+        o, red = GO_ORANGE[D], GO_BLOOD[D]
         out[i] = enc(tuple(round(o[j] * (1 - t) + red[j] * t) for j in range(3)))
     return struct.pack('<16H', *out)
 
@@ -312,7 +314,7 @@ def _alloc(d, n):
 
 
 GO_ROW_TIMERS = (0x800E4D70, 0x800E4DD8)   # step 7: "ori v0,zero,4" = passes per glow row (one pass a frame)
-GO_ROW_FRAMES = 45                         # 4 -> 45: each glow row stays 0.75 s, so the white -> red turn is seen
+GO_ROW_FRAMES = 40                         # 4 -> 40: 3 row changes over 2 s; with the fade-in, orange -> blood red in ~3 s
 
 
 def _gameover_slow(d):
