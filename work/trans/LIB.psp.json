@@ -1,0 +1,135 @@
+{
+"file": "ST/LIB/LIB.BIN",
+"script": "psp",
+"alt_start": 187704,
+"items": [
+{
+"off": 187746,
+"en": "It's been a long",
+"cap": 16,
+"ko": "정말 오랜만이군,",
+"gap": "0111010304",
+"newline_after": true
+},
+{
+"off": 187767,
+"en": "time, ",
+"cap": 6,
+"ko": "노인장",
+"gap": "0318",
+"newline_after": false
+},
+{
+"off": 187775,
+"en": "old one...",
+"cap": 10,
+"ko": "...",
+"gap": "033c110206138bb220080105010111060b093aa40a0204",
+"newline_after": true
+},
+{
+"off": 187808,
+"en": "Eh? Why, it's Master",
+"cap": 20,
+"ko": "어? 이런, 알카드",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 187831,
+"en": "Alucard! ...Come to",
+"cap": 19,
+"ko": "도련님 아니십니까!",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 187853,
+"en": "visit, have we?",
+"cap": 15,
+"ko": "...들르신 겁니까?",
+"gap": "0330060500800b093aa50a0203",
+"newline_after": true
+},
+{
+"off": 187881,
+"en": "I need your help.",
+"cap": 17,
+"ko": "도움이 필요하오.",
+"gap": "03381103060501010b093aa60a0203",
+"newline_after": true
+},
+{
+"off": 187913,
+"en": "Oh, but Young Master,",
+"cap": 21,
+"ko": "하지만 도련님,",
+"gap": "010308",
+"newline_after": true
+},
+{
+"off": 187937,
+"en": "I could never betray",
+"cap": 20,
+"ko": "저는 백작님을 배신할",
+"gap": "0111040304",
+"newline_after": true
+},
+{
+"off": 187962,
+"en": "the good Count...",
+"cap": 17,
+"ko": "수는 없습니다...",
+"gap": "0330060500800b093aa70a0203",
+"newline_after": true
+},
+{
+"off": 187992,
+"en": "You won't go",
+"cap": 12,
+"ko": "보답은",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 188007,
+"en": "unrewarded...",
+"cap": 13,
+"ko": "하겠소...",
+"gap": "03300b030a060501010b093aa80a11050203",
+"newline_after": true
+},
+{
+"off": 188038,
+"en": "Really?",
+"cap": 7,
+"ko": "정말입니까?",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 188048,
+"en": "In that case,",
+"cap": 13,
+"ko": "그렇다면",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 188064,
+"en": "just tell me",
+"cap": 12,
+"ko": "필요한 걸",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 188079,
+"en": "what you need!",
+"cap": 14,
+"ko": "말씀만 하십시오!",
+"gap": "033011",
+"newline_after": false
+}
+]
+}

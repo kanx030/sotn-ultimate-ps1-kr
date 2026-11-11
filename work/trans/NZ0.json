@@ -1,0 +1,195 @@
+{
+"file": "ST/NZ0/NZ0.BIN",
+"alt_start": 15116,
+"items": [
+{
+"off": 15152,
+"en": "So we meet again,",
+"cap": 17,
+"after": "010304",
+"newline_after": true,
+"ko": "또 만났네요,",
+"gap": "010304"
+},
+{
+"off": 15172,
+"en": "Alucard.",
+"cap": 8,
+"after": "033006",
+"newline_after": true,
+"ko": "알카드.",
+"gap": "0330061394499224010500810b09366a0a0204"
+},
+{
+"off": 15199,
+"en": "It seems so.",
+"cap": 12,
+"after": "033006",
+"newline_after": true,
+"ko": "그런 듯하군.",
+"gap": "0330060501000b09366b0a02031104"
+},
+{
+"off": 15226,
+"en": "As friendly as",
+"cap": 14,
+"after": "010304",
+"newline_after": true,
+"ko": "여전히",
+"gap": "010304"
+},
+{
+"off": 15243,
+"en": "ever, I see.",
+"cap": 12,
+"after": "010310",
+"newline_after": true,
+"ko": "다정하네요.",
+"gap": "0103101105"
+},
+{
+"off": 15260,
+"en": "It's strange. ",
+"cap": 14,
+"after": "032011",
+"newline_after": true,
+"ko": "이상해요.",
+"gap": "032011060203"
+},
+{
+"off": 15280,
+"en": "This",
+"cap": 4,
+"after": "010304",
+"newline_after": true,
+"ko": " ",
+"gap": "010304"
+},
+{
+"off": 15287,
+"en": "castle is different",
+"cap": 19,
+"after": "010304",
+"newline_after": true,
+"ko": "성이 제 기억과는",
+"gap": "0103040202"
+},
+{
+"off": 15311,
+"en": "than I remember it.",
+"cap": 19,
+"after": "033006",
+"newline_after": true,
+"ko": "달라졌어요.",
+"gap": "03300605008102042e2e2e2e2e2e2e2e2e010b09366c0a02021107"
+},
+{
+"off": 15357,
+"en": "This castle is a",
+"cap": 16,
+"after": "010304",
+"newline_after": true,
+"ko": "이 성은",
+"gap": "010304"
+},
+{
+"off": 15376,
+"en": "creature of Chaos.",
+"cap": 18,
+"after": "010310",
+"newline_after": true,
+"ko": "혼돈의 피조물이다.",
+"gap": "010310"
+},
+{
+"off": 15397,
+"en": "It may take many",
+"cap": 16,
+"after": "010304",
+"newline_after": true,
+"ko": "여러 모습으로",
+"gap": "010304"
+},
+{
+"off": 15416,
+"en": "incarnations.",
+"cap": 13,
+"after": "033806",
+"newline_after": true,
+"ko": "바뀔 수 있지.",
+"gap": "0338060501000b09366d0a02031108"
+},
+{
+"off": 15444,
+"en": "So I can't trust my",
+"cap": 19,
+"after": "010304",
+"newline_after": true,
+"ko": "그럼 기억은",
+"gap": "010304"
+},
+{
+"off": 15466,
+"en": "memories, ",
+"cap": 10,
+"after": "110968",
+"newline_after": false,
+"ko": "믿을 수 없겠네요. ",
+"gap": "1109"
+},
+{
+"off": 15478,
+"en": "huh?",
+"cap": 4,
+"after": "010310",
+"newline_after": true,
+"ko": "음...",
+"gap": "010310"
+},
+{
+"off": 15485,
+"en": "Oh well, I'll do my",
+"cap": 19,
+"after": "010308",
+"newline_after": true,
+"ko": "뭐, 최선을 다해 보죠.",
+"gap": "010308110a"
+},
+{
+"off": 15509,
+"en": "best.",
+"cap": 5,
+"after": "031847",
+"newline_after": false,
+"ko": "조심해요.",
+"gap": "0318"
+},
+{
+"off": 15516,
+"en": "Good luck.",
+"cap": 10,
+"after": "110b03",
+"newline_after": true,
+"ko": " ",
+"gap": "110b033006080b100c140111110d00000000814d08800880000000824c00000883ffff000000"
+},
+{
+"off": 15564,
+"en": " `ab",
+"cap": 4,
+"after": "1b1112",
+"newline_after": true,
+"ko": "",
+"gap": "1b1112130ff0ff032c05746b2936b6849e405543ef3615403bd24e63419e3f9641d5f1b04733e2c3f95f4ba41ce437f1763448f464204643ec21b5413f924d944ede749f96339b0493cf580245f4187418f3b194bfbc842f6049458d4fb348f449f447f4406d3fe5f44efe1673bf2b180492b74aeb2e4bdf3102c23242c540427f43054fd84f9f0465f248d840e840ac7ea3d9a41014ef942f71404541464f84d5f4197165f941084df745f304645854f4c42065f0d942462447f74456247437f448f30204548c84f8b3052e4feaa44f4408f748f2948fb4eb01a0453372b45383f92b48f6a4d804ac044f7a3ad28456f0453352e2d4f804e804cf51054018244db438c24e83d9746f6044142f4d9625402f460148015fab741b6404f160454251634282007140ff0155bf5bf5bf5bf0ff01fd6335765357011c54003141d1942cb6442cb01245f103146d7a38b6538b01234f032487da38b8478a45084b193b37c580d7457249a1429a420638574282a34f03143613e6938b74b40438048d844ad74c4043c042cd484c4b744c9041e68186334f03118739b948b035ca38b744f036c741f3408b738b738b738d73626334f0303192446f3848b038ba38b744f038d5814208b738b738b741e63086434f0303"
+},
+{
+"off": 16034,
+"en": "eT",
+"cap": 2,
+"after": "03b984",
+"newline_after": false,
+"ko": "",
+"gap": "03b984"
+}
+]
+}

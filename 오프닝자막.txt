@@ -1,0 +1,87 @@
+﻿# 월하의 야상곡 얼티밋 PS1 - 오프닝 자막 (게임 시작 전 아래에서 위로 올라가는 글)
+# 수정 방법: "@"로 시작하는 줄 아래의 한글 줄만 고치세요. (@줄, 줄 순서는 그대로)
+# 한글 줄 하나가 화면의 한 줄입니다 (위에서부터 차례로, 왼쪽 정렬).
+# [숫자]는 영어 원문 길이로 참고용입니다. 자막 전체가 한 덩어리라 줄마다 길이가 달라도 됩니다.
+# 한 줄은 한글 약 24자까지 화면에 들어갑니다. 비워 두면 그 줄은 빈 줄로 나옵니다.
+# 다 고치면 "오프닝 자막 반영해줘"라고 말해 주세요.
+
+@자막|ST0|CRAWL|2c58 [23] It was Richter Belmont,
+전설의 뱀파이어 헌터
+@자막|ST0|CRAWL|2c71 [29] the legendary vampire hunter,
+리히터 벨몬드는 
+@자막|ST0|CRAWL|2c90 [31] who succeeded in finally ending
+마침내 어둠의 사제 샤프트에 의해
+@자막|ST0|CRAWL|2cb1 [28] the menace of Count Dracula,
+무덤에서 되살아난 
+@자막|ST0|CRAWL|2ccf [33] Lord of the Vampires who had been
+흡혈귀의 군주, 드라큘라 백작의
+@자막|ST0|CRAWL|2cf2 [30] brought back from the grave by
+위협을 끝내는 데
+@자막|ST0|CRAWL|2d12 [22] the dark priest Shaft.
+성공했다.
+@자막|ST0|CRAWL|2d2a [33] However, one night 4 years later,
+그러나 4년 후의 어느 밤,
+@자막|ST0|CRAWL|2d4d [31] under the glare of a full moon,
+보름달이 환하게 빛나던 때,
+@자막|ST0|CRAWL|2d6e [30] Richter mysteriously vanished.
+리히터는 홀연히 자취를 감췄다.
+@자막|ST0|CRAWL|2d8e [30] With no idea of where to begin
+그의 동생 마리아 라네드는
+@자막|ST0|CRAWL|2dae [24] her search, Maria Renard
+어디서부터 찾을지도 모른 채
+@자막|ST0|CRAWL|2dc8 [24] set out to look for him.
+그를 찾아 길을 떠났다.
+@자막|ST0|CRAWL|2de2 [33] It was then that fate intervened.
+바로 그때, 운명이 개입했다.
+@자막|ST0|CRAWL|2e05 [35] Castlevania, the castle of Dracula,
+백 년에 한 번 나타난다는
+@자막|ST0|CRAWL|2e2a [31] which is rumored to appear once
+드라큘라의 성. 
+@자막|ST0|CRAWL|2e4b [23] every century, suddenly
+악마성이 마치 그녀에게
+@자막|ST0|CRAWL|2e64 [33] materialized from out of the mist
+길을 알려 주려는 듯
+@자막|ST0|CRAWL|2e87 [26] as if to show her the way.
+안개 속에서 나타났다.
+@자막|ST0|CRAWL|2ea3 [31] Meanwhile, powerful forces were
+한편, 강대한 힘들이 
+@자막|ST0|CRAWL|2ec4 [26] struggling for the soul of
+알카드라는 한 사내의
+@자막|ST0|CRAWL|2ee0 [20] a man named Alucard.
+영혼을 노리고 있었다.
+@자막|ST0|CRAWL|2ef6 [29] The very same Alucard who had
+그 알카드는 일찍이
+@자막|ST0|CRAWL|2f15 [32] teamed up with Trevor Belmont to
+트레버 벨몬드와 손을 잡고
+@자막|ST0|CRAWL|2f37 [27] battle his immortal father,
+불멸의 아버지인
+@자막|ST0|CRAWL|2f54 [25] Count Vlad Tepes Dracula.
+드라큘라와 싸웠던 자다.
+@자막|ST0|CRAWL|2f6f [36] Alucard, in order to purge the world
+알카드는 저주받은 자신의 피로부터
+@자막|ST0|CRAWL|2f95 [29] of his own cursed blood line,
+세상을 지키기 위해
+@자막|ST0|CRAWL|2fb4 [33] had submerged his vampiric powers
+흡혈귀의 힘을 봉인하고
+@자막|ST0|CRAWL|2fd7 [34] and entered into what was supposed
+영원히 깨지 않을
+@자막|ST0|CRAWL|2ffb [25] to be an eternal slumber.
+잠에 들었을 터였다.
+@자막|ST0|CRAWL|3016 [33] But now, he is awake and aware of
+그러나 이제 그는 눈을 떴고,
+@자막|ST0|CRAWL|3039 [27] the evil once again at work
+고향 땅에서 다시금 꿈틀대는
+@자막|ST0|CRAWL|3055 [16] in his homeland.
+악을 느끼고 있다
+@자막|ST0|CRAWL|3068 [32] The time has once again come for
+선과 악의 세력이 다시 한 번
+@자막|ST0|CRAWL|308a [30] the forces of Good and Evil to
+태고의 싸움을 벌일 때가 왔다.
+@자막|ST0|CRAWL|30aa [31] engage in their ancient battle.
+그리고 지금, 저마다의 생각을 품은
+@자막|ST0|CRAWL|30cb [35] Dracula's castle beckons for you...
+숙명의 영혼들이 드라큘라 성으로 모여든다.
+@자막|ST0|CRAWL|30f0 [28] And no man can say who shall
+어둠 속에 떠오른 달만이
+@자막|ST0|CRAWL|310e [18] emerge victorious.
+진실을 알고 있는 것일까.

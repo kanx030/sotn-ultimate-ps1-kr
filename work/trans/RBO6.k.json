@@ -1,0 +1,189 @@
+{
+ "file": "BOSS/RBO6/RBO6.BIN",
+ "blocks": [
+  {
+   "voice": "411b",
+   "items": [
+    0
+   ],
+   "k_text": "호오,누군가했더니… /오랜만이구나,내아들아.",
+   "en": "Father..."
+  },
+  {
+   "voice": "411d",
+   "items": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "k_text": "변함없이인간놈들의 /편을드는거냐… /설마,놈들이/네어머니에게한짓을/잊은건아니겠지?",
+   "en": "Well met,  / my son! / It's been a long / time."
+  },
+  {
+   "voice": "411e",
+   "items": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "k_text": "어찌잊을수있겠는가.그러나,/어머니는인간들을향한복수를/바라지는않으셨어.",
+   "en": "I was hoping  / we / would not see each / other again.  /  I can't / allow you to leave / here,  / Father."
+  },
+  {
+   "voice": "411f",
+   "items": [
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "k_text": "아직도그런잠꼬대를하는거냐./뭐,좋다.이번에야말로 /그미천한피를없애고,/우리일족으로가담시켜주마.",
+   "en": "You have ever been / the ally of humans. / Have you forgotten / what they did to / your Mother?"
+  },
+  {
+   "voice": "4220",
+   "items": [
+    18,
+    19,
+    20,
+    21,
+    22,
+    23
+   ],
+   "k_text": "어머니의이름을걸고… /드라큘라.  /또다시,당신을쓰러트리겠어.",
+   "en": "Think you I would / forget such a thing? / No.  / But neither do / I seek revenge / against them."
+  },
+  {
+   "voice": "4221",
+   "items": [
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34
+   ],
+   "k_text": "",
+   "en": "Still uttering the / same nonsense.  / No / matter.  / Now is the / time to put aside / your weak  / human side / and join me  / in / remaking this world!"
+  },
+  {
+   "voice": "4222",
+   "items": [
+    35,
+    36,
+    37,
+    38,
+    39
+   ],
+   "k_text": "있어야핥곳으로돌아가! /더이상,어머니를괴롭히지마…",
+   "en": "Dracula,  / in the name / of my Mother,  / I will / defeat you again."
+  },
+  {
+   "voice": "4224",
+   "items": [
+    40,
+    41,
+    42,
+    43
+   ],
+   "k_text": "힘이란,지킬것이있어야비로소/한계를뛰어넘을수있는법./사랑하는사람을잃고, /사랑을멈췄을때. /당신은이미지고있었어…",
+   "en": "Go back whence you  / came! / Trouble the soul of / my Mother no more!"
+  },
+  {
+   "voice": "4225",
+   "items": [
+    44,
+    45,
+    46,
+    47
+   ],
+   "k_text": "그런가…짓궂은일이군… /힘을원함으로인해잃은것이 /나의패인일줄이야…",
+   "en": "How?  / that I / have been so / defeated?"
+  },
+  {
+   "voice": "4226",
+   "items": [
+    48,
+    49,
+    50
+   ],
+   "k_text": "알카드여,가르쳐다오. /리사는,마지막에뭐라고말했지…?",
+   "en": "You have been doomed / ever since you lost / the ability to love."
+  },
+  {
+   "voice": "4227",
+   "items": [
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60
+   ],
+   "k_text": "인간을원망해서는안된다. /만약,인간이용서핥수없는존재라면/스스로멸망의길을걸을것이니,/그세상의주민이아닌자는, /참견해서는안된다고… /그리고,아버지… /당신을영원히사랑하고있다고…",
+   "en": "Ah / @sarcasm. / 'For what profit is / it to man  / if he / gains the world, / and loses his own / soul'?.  / XMatthew  / I believe."
+  },
+  {
+   "voice": "4228",
+   "items": [
+    61,
+    62,
+    63,
+    64
+   ],
+   "k_text": "리사… /나는,틀렸던것인가…",
+   "en": "Tell me.  / What...  / What were / Lisa's last words?"
+  },
+  {
+   "voice": "4229",
+   "items": [
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80
+   ],
+   "k_text": "깊은사랑으로인해,사랑을잃다… /그것도진실인가… /뱉/ 기힌둬상/직녀휴변/벌/틀/전딘됐/죽/샤/켜/넘../브/넘/!/?/슨/존/택/?/돋/선/!뭉/빨/방/줘/런/버/념/(/링/너듬/닦/닦/견/없좋/서/능/놈「!/뢰해째러/켈말/몬쓰돼녹노/전/돈/휴/잘/담/져광/초/찾/누눕맷/맷/책/철/콤/렇둠둠/든/곡/몰/넣/뱉·/듬/수/샤/산/극눈넣찌럽녀/브쇠쇠새새브브준애/애/감켈/념/덤/본등/든/눕/본콤/닐때/잠닦복럽/빌/샤/달력/더답달몬던/복/쇼/솟/색콤/콤콤/었/생/상/탑/백/묘/약수복/·/버/ /?/삼/?/\"/져/빵/늘/좌쫓좌좌킨킨죠쫓/딩불/보듬/능/능/습/불늘/능능능능능/져닌져럽/룡보/보/줘델/승녀슨/ 니붙도솟앙상앞렵른/「/았/룡/류/놓/복/복/백들/변/놓/놓/솔/쇠/슷/님때/뢰/풍/재/겨/포/당/차초/놓/등/본/본/본/특/뭔/!빈/방/)",
+   "en": "She said  / \"Do not / hate humans.  / If you / cannot live with / them,  / then at least / do them no harm. /  For their's is / already a hard lot.\" /  She also said to / tell you  / that she / would love you  / for / all of eternity..."
+  },
+  {
+   "voice": "422a",
+   "items": [
+    81,
+    82,
+    83,
+    84,
+    85
+   ],
+   "k_text": "",
+   "en": "Lisa,  / forgive me. / Farewell my son... /  `aecd / Bw"
+  }
+ ]
+}

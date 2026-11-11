@@ -1,0 +1,11142 @@
+[
+ {
+  "id": "equip_000",
+  "cat": "equip",
+  "idx": [
+   0
+  ],
+  "va": "0x800DE408",
+  "len": 12,
+  "en": "Empty hand",
+  "refs": [
+   18844
+  ],
+  "engine": "A",
+  "ko": "맨손",
+  "k_ko": "맨손",
+  "k_hex": "1cff761cff91",
+  "limit": 16,
+  "k_ko_auto": "맨손",
+  "hex": "1c ff 76 1c ff 91 ff 00",
+  "cells": 2
+ },
+ {
+  "id": "equip_001",
+  "cat": "equip",
+  "idx": [
+   1
+  ],
+  "va": "0x800DE3DC",
+  "len": 16,
+  "en": "Monster vial 1",
+  "refs": [
+   18896
+  ],
+  "engine": "A",
+  "ko": "캡슐 몬스터1",
+  "k_ko": "캡슐 몬스터1",
+  "k_hex": "3effbf20ff94001cff7a00ff9500ffca11",
+  "limit": 16,
+  "k_ko_auto": "캡슐 몬스터1",
+  "hex": "3e ff bf 20 ff 94 00 1c ff 7a 00 ff 95 00 ff ca 11 ff 00",
+  "cells": 7
+ },
+ {
+  "id": "equip_002",
+  "cat": "equip",
+  "idx": [
+   2
+  ],
+  "va": "0x800DE3B0",
+  "len": 16,
+  "en": "Monster vial 2",
+  "refs": [
+   18948
+  ],
+  "engine": "A",
+  "ko": "캡슐 몬스터2",
+  "k_ko": "캡슐 몬스터2",
+  "k_hex": "3effbf20ff94001cff7a00ff9500ffca12",
+  "limit": 16,
+  "k_ko_auto": "캡슐 몬스터2",
+  "hex": "3e ff bf 20 ff 94 00 1c ff 7a 00 ff 95 00 ff ca 12 ff 00",
+  "cells": 7
+ },
+ {
+  "id": "equip_003",
+  "cat": "equip",
+  "idx": [
+   3
+  ],
+  "va": "0x800DE384",
+  "len": 16,
+  "en": "Monster vial 3",
+  "refs": [
+   19000
+  ],
+  "engine": "A",
+  "ko": "캡슐 몬스터3",
+  "k_ko": "캡슐 몬스터3",
+  "k_hex": "3effbf20ff94001cff7a00ff9500ffca13",
+  "limit": 16,
+  "k_ko_auto": "캡슐 몬스터3",
+  "hex": "3e ff bf 20 ff 94 00 1c ff 7a 00 ff 95 00 ff ca 13 ff 00",
+  "cells": 7
+ },
+ {
+  "id": "equip_004",
+  "cat": "equip",
+  "idx": [
+   4
+  ],
+  "va": "0x800DE358",
+  "len": 12,
+  "en": "Shield rod",
+  "refs": [
+   19052
+  ],
+  "engine": "A",
+  "ko": "실드 로드",
+  "k_ko": "실드 로드",
+  "k_hex": "20ff9600ff660000ff6f00ff66",
+  "limit": 16,
+  "k_ko_auto": "실드 로드",
+  "hex": "20 ff 96 00 ff 66 00 00 ff 6f 00 ff 66 ff 00",
+  "cells": 5
+ },
+ {
+  "id": "equip_005",
+  "cat": "equip",
+  "idx": [
+   5
+  ],
+  "va": "0x800DE32C",
+  "len": 16,
+  "en": "Leather shield",
+  "refs": [
+   19104
+  ],
+  "engine": "A",
+  "ko": "레더 실드",
+  "k_ko": "레더 실드",
+  "k_hex": "00ff6d00ff5a0020ff9600ff66",
+  "limit": 16,
+  "k_ko_auto": "레더 실드",
+  "hex": "00 ff 6d 00 ff 5a 00 20 ff 96 00 ff 66 ff 00",
+  "cells": 5
+ },
+ {
+  "id": "equip_006",
+  "cat": "equip",
+  "idx": [
+   6
+  ],
+  "va": "0x800DE300",
+  "len": 15,
+  "en": "Knight shield",
+  "refs": [
+   19156
+  ],
+  "engine": "A",
+  "ko": "나이트 실드",
+  "k_ko": "나이트 실드",
+  "k_hex": "00ff5000ffa900ffce0020ff9600ff66",
+  "limit": 16,
+  "k_ko_auto": "나이트 실드",
+  "hex": "00 ff 50 00 ff a9 00 ff ce 00 20 ff 96 00 ff 66 ff 00",
+  "cells": 6
+ },
+ {
+  "id": "equip_007",
+  "cat": "equip",
+  "idx": [
+   7
+  ],
+  "va": "0x800DE2D4",
+  "len": 13,
+  "en": "Iron shield",
+  "refs": [
+   19208
+  ],
+  "engine": "A",
+  "ko": "아이언 실드",
+  "k_ko": "아이언 실드",
+  "k_hex": "00ff9800ffa91cff9b0020ff9600ff66",
+  "limit": 16,
+  "k_ko_auto": "아이언 실드",
+  "hex": "00 ff 98 00 ff a9 1c ff 9b 00 20 ff 96 00 ff 66 ff 00",
+  "cells": 6
+ },
+ {
+  "id": "equip_008",
+  "cat": "equip",
+  "idx": [
+   8
+  ],
+  "va": "0x800DE2B0",
+  "len": 16,
+  "en": "AxeLord shield",
+  "refs": [
+   19260
+  ],
+  "engine": "A",
+  "ko": "액스 아머의 방패",
+  "k_ko": "엑스 아머 방패",
+  "k_hex": "0aff9c00ff950000ff9800ff770062ff7e00ffd1",
+  "limit": 16,
+  "k_ko_auto": "엑스 아머 방패",
+  "hex": "0a ff 99 00 ff 95 00 00 ff 98 00 ff 77 00 ff a8 00 62 ff 7e 00 ff d1 ff 00",
+  "cells": 9
+ },
+ {
+  "id": "equip_009",
+  "cat": "equip",
+  "idx": [
+   9
+  ],
+  "va": "0x800DE280",
+  "len": 15,
+  "en": "Herald shield",
+  "refs": [
+   19312
+  ],
+  "engine": "A",
+  "ko": "문장의 방패",
+  "k_ko": "문장의 방패",
+  "k_hex": "1cff7c62ffaa00ffa80062ff7e00ffd1",
+  "limit": 16,
+  "k_ko_auto": "문장의 방패",
+  "hex": "1c ff 7c 62 ff aa 00 ff a8 00 62 ff 7e 00 ff d1 ff 00",
+  "cells": 6
+ },
+ {
+  "id": "equip_010",
+  "cat": "equip",
+  "idx": [
+   10
+  ],
+  "va": "0x800DE258",
+  "len": 13,
+  "en": "Dark shield",
+  "refs": [
+   19364
+  ],
+  "engine": "A",
+  "ko": "다크 실드",
+  "k_ko": "다크 실드",
+  "k_hex": "00ff5e00ffc60020ff9600ff66",
+  "limit": 16,
+  "k_ko_auto": "다크 실드",
+  "hex": "00 ff 5e 00 ff c6 00 20 ff 96 00 ff 66 ff 00",
+  "cells": 5
+ },
+ {
+  "id": "equip_011",
+  "cat": "equip",
+  "idx": [
+   11
+  ],
+  "va": "0x800DE234",
+  "len": 16,
+  "en": "Goddess shield",
+  "refs": [
+   19416
+  ],
+  "engine": "A",
+  "ko": "여신의 방패",
+  "k_ko": "여신 방패",
+  "k_hex": "00ff9d1cff960062ff7e00ffd1",
+  "limit": 16,
+  "k_ko_auto": "여신 방패",
+  "hex": "00 ff 9d 1c ff 96 00 ff a8 00 62 ff 7e 00 ff d1 ff 00",
+  "cells": 6
+ },
+ {
+  "id": "equip_012",
+  "cat": "equip",
+  "idx": [
+   12
+  ],
+  "va": "0x800DE208",
+  "len": 15,
+  "en": "Shaman shield",
+  "refs": [
+   19468
+  ],
+  "engine": "A",
+  "ko": "샤먼의 방패",
+  "k_ko": "샤먼 방패",
+  "k_hex": "00ff8c1cff770062ff7e00ffd1",
+  "limit": 16,
+  "k_ko_auto": "샤먼 방패",
+  "hex": "00 ff 8c 1c ff 77 00 ff a8 00 62 ff 7e 00 ff d1 ff 00",
+  "cells": 6
+ },
+ {
+  "id": "equip_013",
+  "cat": "equip",
+  "idx": [
+   13
+  ],
+  "va": "0x800DE1DC",
+  "len": 15,
+  "en": "Medusa shield",
+  "refs": [
+   19520
+  ],
+  "engine": "A",
+  "ko": "메두사의 방패",
+  "k_ko": "메두사 방패",
+  "k_hex": "00ff7800ff5f00ff8a0062ff7e00ffd1",
+  "limit": 16,
+  "k_ko_auto": "메두사 방패",
+  "hex": "00 ff 78 00 ff 5f 00 ff 8a 00 ff a8 00 62 ff 7e 00 ff d1 ff 00",
+  "cells": 7
+ },
+ {
+  "id": "equip_014",
+  "cat": "equip",
+  "idx": [
+   14
+  ],
+  "va": "0x800DE1B4",
+  "len": 14,
+  "en": "Skull shield",
+  "refs": [
+   19572
+  ],
+  "engine": "A",
+  "ko": "해골의 방패",
+  "k_ko": "해골 방패",
+  "k_hex": "00ffd920ff460062ff7e00ffd1",
+  "limit": 16,
+  "k_ko_auto": "해골 방패",
+  "hex": "00 ff d9 20 ff 46 00 ff a8 00 62 ff 7e 00 ff d1 ff 00",
+  "cells": 6
+ },
+ {
+  "id": "equip_015",
+  "cat": "equip",
+  "idx": [
+   15
+  ],
+  "va": "0x800DE188",
+  "len": 13,
+  "en": "Fire shield",
+  "refs": [
+   19624
+  ],
+  "engine": "A",
+  "ko": "플레임 실드",
+  "k_ko": "플레임 실드",
+  "k_hex": "20ffd600ff6d3cffa90020ff9600ff66",
+  "limit": 16,
+  "k_ko_auto": "플레임 실드",
+  "hex": "20 ff d6 00 ff 6d 3c ff a9 00 20 ff 96 00 ff 66 ff 00",
+  "cells": 6
+ },
+ {
+  "id": "equip_016",
+  "cat": "equip",
+  "idx": [
+   16
+  ],
+  "va": "0x800DE15C",
+  "len": 16,
+  "en": "Alucard shield",
+  "refs": [
+   19676
+  ],
+  "engine": "A",
+  "ko": "알카드 실드",
+  "k_ko": "알카드 실드",
+  "k_hex": "20ff9800ffbe00ff660020ff9600ff66",
+  "limit": 16,
+  "k_ko_auto": "알카드 실드",
+  "hex": "20 ff 98 00 ff be 00 ff 66 00 20 ff 96 00 ff 66 ff 00",
+  "cells": 6
+ },
+ {
+  "id": "equip_017",
+  "cat": "equip",
+  "idx": [
+   17
+  ],
+  "va": "0x800DE134",
+  "len": 15,
+  "en": "Sword of Dawn",
+  "refs": [
+   19728
+  ],
+  "engine": "A",
+  "ko": "새벽의 검",
+  "k_ko": "아카츠키 검",
+  "k_hex": "00ff9800ffbe00ffbc00ffc7003cff43",
+  "limit": 16,
+  "k_ko_auto": "아카츠키 검",
+  "hex": "00 ff 8b 0a ff 82 00 ff a8 00 3c ff 43 ff 00",
+  "cells": 5
+ },
+ {
+  "id": "equip_018",
+  "cat": "equip",
+  "idx": [
+   18
+  ],
+  "va": "0x800DE108",
+  "len": 10,
+  "en": "Basilard",
+  "refs": [
+   19780
+  ],
+  "engine": "A",
+  "ko": "바젤라드",
+  "k_ko": "바제랄드",
+  "k_hex": "00ff7e00ffad20ff6a00ff66",
+  "limit": 16,
+  "k_ko_auto": "바제랄드",
+  "hex": "00 ff 7e 20 ff ad 00 ff 6a 00 ff 66 ff 00",
+  "cells": 4
+ },
+ {
+  "id": "equip_019",
+  "cat": "equip",
+  "idx": [
+   19
+  ],
+  "va": "0x800DE0E4",
+  "len": 13,
+  "en": "Short sword",
+  "refs": [
+   19832
+  ],
+  "engine": "A",
+  "ko": "숏 소드",
+  "k_ko": "쇼트 소드",
+  "k_hex": "00ff9200ffce0000ff9100ff66",
+  "limit": 16,
+  "k_ko_auto": "쇼트 소드",
+  "hex": "61 ff 92 00 00 ff 91 00 ff 66 ff 00",
+  "cells": 4
+ },
+ {
+  "id": "equip_020",
+  "cat": "equip",
+  "idx": [
+   20
+  ],
+  "va": "0x800DE0C0",
+  "len": 14,
+  "en": "Combat knife",
+  "refs": [
+   19884
+  ],
+  "engine": "A",
+  "ko": "컴뱃 나이프",
+  "k_ko": "컴뱃 나이프",
+  "k_hex": "3cffc061ff7f0000ff5000ffa900ffd6",
+  "limit": 16,
+  "k_ko_auto": "컴뱃 나이프",
+  "hex": "3c ff c0 61 ff 7f 00 00 ff 50 00 ff a9 00 ff d6 ff 00",
+  "cells": 6
+ },
+ {
+  "id": "equip_021",
+  "cat": "equip",
+  "idx": [
+   21
+  ],
+  "va": "0x800DE0A0",
+  "len": 10,
+  "en": "Nunchaku",
+  "refs": [
+   19936
+  ],
+  "engine": "A",
+  "ko": "톤파",
+  "k_ko": "톤파",
+  "k_hex": "1cffcc00ffd0",
+  "limit": 16,
+  "k_ko_auto": "톤파",
+  "hex": "1c ff cc 00 ff d0 ff 00",
+  "cells": 2
+ },
+ {
+  "id": "equip_022",
+  "cat": "equip",
+  "idx": [
+   22
+  ],
+  "va": "0x800DE074",
+  "len": 11,
+  "en": "Were Bane",
+  "refs": [
+   19988
+  ],
+  "engine": "A",
+  "ko": "웨어 버스터",
+  "k_ko": "웨어 버스터",
+  "k_hex": "00ffa400ff9b0000ff8000ff9500ffca",
+  "limit": 16,
+  "k_ko_auto": "웨어 버스터",
+  "hex": "00 ff a4 00 ff 9b 00 00 ff 80 00 ff 95 00 ff ca ff 00",
+  "cells": 6
+ },
+ {
+  "id": "equip_023",
+  "cat": "equip",
+  "idx": [
+   23
+  ],
+  "va": "0x800DE04C",
+  "len": 8,
+  "en": "Rapier",
+  "refs": [
+   20040
+  ],
+  "engine": "A",
+  "ko": "레이피어",
+  "k_ko": "레이피어",
+  "k_hex": "00ff6d00ffa900ffd700ff9b",
+  "limit": 16,
+  "k_ko_auto": "레이피어",
+  "hex": "00 ff 6d 00 ff a9 00 ff d7 00 ff 9b ff 00",
+  "cells": 4
+ },
+ {
+  "id": "equip_024",
+  "cat": "equip",
+  "idx": [
+   24
+  ],
+  "va": "0x800DE02C",
+  "len": 12,
+  "en": "Karma Coin",
+  "refs": [
+   20092
+  ],
+  "engine": "A",
+  "ko": "봄버 코인",
+  "k_ko": "봄버 코인",
+  "k_hex": "3cff8300ff800000ffc21cffa9",
+  "limit": 16,
+  "k_ko_auto": "봄버 코인",
+  "hex": "3c ff 83 00 ff 80 00 00 ff c2 1c ff a9 ff 00",
+  "cells": 5
+ },
+ {
+  "id": "equip_025",
+  "cat": "equip",
+  "idx": [
+   25
+  ],
+  "va": "0x800DDFFC",
+  "len": 15,
+  "en": "Magic Missile",
+  "refs": [
+   20144
+  ],
+  "engine": "A",
+  "ko": "매직 미사일",
+  "k_ko": "매직 미사일",
+  "k_hex": "00ff760affb40000ff7d00ff8a20ffa9",
+  "limit": 16,
+  "k_ko_auto": "매직 미사일",
+  "hex": "00 ff 76 0a ff b4 00 00 ff 7d 00 ff 8a 20 ff a9 ff 00",
+  "cells": 6
+ },
+ {
+  "id": "equip_026",
+  "cat": "equip",
+  "idx": [
+   26
+  ],
+  "va": "0x800DDFD0",
+  "len": 10,
+  "en": "Red Rust",
+  "refs": [
+   20196
+  ],
+  "engine": "A",
+  "ko": "아카사비",
+  "k_ko": "아카사비",
+  "k_hex": "00ff9800ffbe00ff8a00ff86",
+  "limit": 16,
+  "k_ko_auto": "아카사비",
+  "hex": "00 ff 98 00 ff be 00 ff 8a 00 ff 86 ff 00",
+  "cells": 4
+ },
+ {
+  "id": "equip_027",
+  "cat": "equip",
+  "idx": [
+   27
+  ],
+  "va": "0x800DDFA8",
+  "len": 11,
+  "en": "Takemitsu",
+  "refs": [
+   20248
+  ],
+  "engine": "A",
+  "ko": "다케미츠",
+  "k_ko": "죽도",
+  "k_hex": "0affb000ff5c",
+  "limit": 16,
+  "k_ko_auto": "죽도",
+  "hex": "00 ff 5e 00 ff c1 00 ff 7d 00 ff bc ff 00",
+  "cells": 4
+ },
+ {
+  "id": "equip_028",
+  "cat": "equip",
+  "idx": [
+   28
+  ],
+  "va": "0x800DDF84",
+  "len": 8,
+  "en": "Shotel",
+  "refs": [
+   20300
+  ],
+  "engine": "A",
+  "ko": "쇼텔",
+  "k_ko": "쇼텔",
+  "k_hex": "00ff9220ffcb",
+  "limit": 16,
+  "k_ko_auto": "쇼텔",
+  "hex": "00 ff 92 20 ff cb ff 00",
+  "cells": 2
+ },
+ {
+  "id": "equip_029",
+  "cat": "equip",
+  "idx": [
+   29
+  ],
+  "va": "0x800DDF64",
+  "len": 8,
+  "en": "Orange",
+  "refs": [
+   20352
+  ],
+  "engine": "A",
+  "ko": "귤",
+  "k_ko": "귤",
+  "k_hex": "20ff4b",
+  "limit": 16,
+  "k_ko_auto": "귤",
+  "hex": "20 ff 4b ff 00",
+  "cells": 1
+ },
+ {
+  "id": "equip_030",
+  "cat": "equip",
+  "idx": [
+   30
+  ],
+  "va": "0x800DDF40",
+  "len": 7,
+  "en": "Apple",
+  "refs": [
+   20404
+  ],
+  "engine": "A",
+  "ko": "사과",
+  "k_ko": "사과",
+  "k_hex": "00ff8a00ff47",
+  "limit": 16,
+  "k_ko_auto": "사과",
+  "hex": "00 ff 8a 00 ff 47 ff 00",
+  "cells": 2
+ },
+ {
+  "id": "equip_031",
+  "cat": "equip",
+  "idx": [
+   31
+  ],
+  "va": "0x800DDF18",
+  "len": 8,
+  "en": "Banana",
+  "refs": [
+   20456
+  ],
+  "engine": "A",
+  "ko": "바나나",
+  "k_ko": "바나나",
+  "k_hex": "00ff7e00ff5000ff50",
+  "limit": 16,
+  "k_ko_auto": "바나나",
+  "hex": "00 ff 7e 00 ff 50 00 ff 50 ff 00",
+  "cells": 3
+ },
+ {
+  "id": "equip_032",
+  "cat": "equip",
+  "idx": [
+   32
+  ],
+  "va": "0x800DDEF0",
+  "len": 8,
+  "en": "Grapes",
+  "refs": [
+   20508
+  ],
+  "engine": "A",
+  "ko": "포도",
+  "k_ko": "포도",
+  "k_hex": "00ffd400ff5c",
+  "limit": 16,
+  "k_ko_auto": "포도",
+  "hex": "00 ff d4 00 ff 5c ff 00",
+  "cells": 2
+ },
+ {
+  "id": "equip_033",
+  "cat": "equip",
+  "idx": [
+   33
+  ],
+  "va": "0x800DDEC4",
+  "len": 12,
+  "en": "Strawberry",
+  "refs": [
+   20560
+  ],
+  "engine": "A",
+  "ko": "딸기",
+  "k_ko": "딸기",
+  "k_hex": "20ff6800ff4d",
+  "limit": 16,
+  "k_ko_auto": "딸기",
+  "hex": "20 ff 68 00 ff 4d ff 00",
+  "cells": 2
+ },
+ {
+  "id": "equip_034",
+  "cat": "equip",
+  "idx": [
+   34
+  ],
+  "va": "0x800DDE9C",
+  "len": 11,
+  "en": "Pineapple",
+  "refs": [
+   20612
+  ],
+  "engine": "A",
+  "ko": "파인애플",
+  "k_ko": "파인애플",
+  "k_hex": "00ffd01cffa900ff9920ffd6",
+  "limit": 16,
+  "k_ko_auto": "파인애플",
+  "hex": "00 ff d0 1c ff a9 00 ff 99 20 ff d6 ff 00",
+  "cells": 4
+ },
+ {
+  "id": "equip_035",
+  "cat": "equip",
+  "idx": [
+   35
+  ],
+  "va": "0x800DDE74",
+  "len": 9,
+  "en": "Peanuts",
+  "refs": [
+   20664
+  ],
+  "engine": "A",
+  "ko": "땅콩",
+  "k_ko": "땅콩",
+  "k_hex": "62ff6862ffc2",
+  "limit": 16,
+  "k_ko_auto": "땅콩",
+  "hex": "62 ff 68 62 ff c2 ff 00",
+  "cells": 2
+ },
+ {
+  "id": "equip_036",
+  "cat": "equip",
+  "idx": [
+   36
+  ],
+  "va": "0x800DDE4C",
+  "len": 11,
+  "en": "Toadstool",
+  "refs": [
+   20716
+  ],
+  "engine": "A",
+  "ko": "독버섯",
+  "k_ko": "광대버섯",
+  "k_hex": "62ff4700ff5900ff8061ff8d",
+  "limit": 16,
+  "k_ko_auto": "광대버섯",
+  "hex": "0a ff 5c 00 ff 80 61 ff 8d ff 00",
+  "cells": 3
+ },
+ {
+  "id": "equip_037",
+  "cat": "equip",
+  "idx": [
+   37
+  ],
+  "va": "0x800DDE24",
+  "len": 10,
+  "en": "Shiitake",
+  "refs": [
+   20768
+  ],
+  "engine": "A",
+  "ko": "맛있는 버섯",
+  "k_ko": "맛있는 버섯",
+  "k_hex": "61ff75fcffa91cff560000ff8061ff8d",
+  "limit": 16,
+  "k_ko_auto": "맛있는 버섯",
+  "hex": "61 ff 75 fc ff a9 1c ff 56 00 00 ff 80 61 ff 8d ff 00",
+  "cells": 6
+ },
+ {
+  "id": "equip_038",
+  "cat": "equip",
+  "idx": [
+   38
+  ],
+  "va": "0x800DDDFC",
+  "len": 12,
+  "en": "Cheesecake",
+  "refs": [
+   20820
+  ],
+  "engine": "A",
+  "ko": "치즈케이크",
+  "k_ko": "치즈 케이크",
+  "k_hex": "00ffbd00ffb30000ffc100ffa900ffc6",
+  "limit": 16,
+  "k_ko_auto": "치즈 케이크",
+  "hex": "00 ff bd 00 ff b3 00 ff c1 00 ff a9 00 ff c6 ff 00",
+  "cells": 5
+ },
+ {
+  "id": "equip_039",
+  "cat": "equip",
+  "idx": [
+   39
+  ],
+  "va": "0x800DDDD0",
+  "len": 11,
+  "en": "Shortcake",
+  "refs": [
+   20872
+  ],
+  "engine": "A",
+  "ko": "쇼트케이크",
+  "k_ko": "쇼트 케이크",
+  "k_hex": "00ff9200ffce0000ffc100ffa900ffc6",
+  "limit": 16,
+  "k_ko_auto": "쇼트 케이크",
+  "hex": "00 ff 92 00 ff ce 00 ff c1 00 ff a9 00 ff c6 ff 00",
+  "cells": 5
+ },
+ {
+  "id": "equip_040",
+  "cat": "equip",
+  "idx": [
+   40
+  ],
+  "va": "0x800DDDA8",
+  "len": 6,
+  "en": "Tart",
+  "refs": [
+   20924
+  ],
+  "engine": "A",
+  "ko": "딸기 타르트",
+  "k_ko": "딸기 타르트",
+  "k_hex": "20ff6800ff4d0000ffc800ff7300ffce",
+  "limit": 16,
+  "k_ko_auto": "딸기 타르트",
+  "hex": "20 ff 68 00 ff 4d 00 00 ff c8 00 ff 73 00 ff ce ff 00",
+  "cells": 6
+ },
+ {
+  "id": "equip_041",
+  "cat": "equip",
+  "idx": [
+   41
+  ],
+  "va": "0x800DDD84",
+  "len": 9,
+  "en": "Parfait",
+  "refs": [
+   20976
+  ],
+  "engine": "A",
+  "ko": "파르페",
+  "k_ko": "파르페",
+  "k_hex": "00ffd000ff7300ffd3",
+  "limit": 16,
+  "k_ko_auto": "파르페",
+  "hex": "00 ff d0 00 ff 73 00 ff d3 ff 00",
+  "cells": 3
+ },
+ {
+  "id": "equip_042",
+  "cat": "equip",
+  "idx": [
+   42
+  ],
+  "va": "0x800DDD5C",
+  "len": 9,
+  "en": "Pudding",
+  "refs": [
+   21028
+  ],
+  "engine": "A",
+  "ko": "푸딩 아라모드",
+  "k_ko": "푸딩 아라모드",
+  "k_hex": "00ffd562ff670000ff9800ff6a00ff7a00ff66",
+  "limit": 16,
+  "k_ko_auto": "푸딩 아라모드",
+  "hex": "00 ff d5 62 ff 67 00 00 ff 98 00 ff 6a 00 ff 7a 00 ff 66 ff 00",
+  "cells": 7
+ },
+ {
+  "id": "equip_043",
+  "cat": "equip",
+  "idx": [
+   43
+  ],
+  "va": "0x800DDD3C",
+  "len": 11,
+  "en": "Ice cream",
+  "refs": [
+   21080
+  ],
+  "engine": "A",
+  "ko": "아이스크림",
+  "k_ko": "아이스크림",
+  "k_hex": "00ff9800ffa900ff9500ffc63cff74",
+  "limit": 16,
+  "k_ko_auto": "아이스크림",
+  "hex": "00 ff 98 00 ff a9 00 ff 95 00 ff c6 3c ff 74 ff 00",
+  "cells": 5
+ },
+ {
+  "id": "equip_044",
+  "cat": "equip",
+  "idx": [
+   44
+  ],
+  "va": "0x800DDD10",
+  "len": 13,
+  "en": "Frankfurter",
+  "refs": [
+   21132
+  ],
+  "engine": "A",
+  "ko": "프랑크푸르트",
+  "k_ko": "프랑크푸르트",
+  "k_hex": "00ffd662ff6a00ffc600ffd500ff7300ffce",
+  "limit": 16,
+  "k_ko_auto": "프랑크푸르트",
+  "hex": "00 ff d6 62 ff 6a 00 ff c6 00 ff d5 00 ff 73 00 ff ce ff 00",
+  "cells": 6
+ },
+ {
+  "id": "equip_045",
+  "cat": "equip",
+  "idx": [
+   45
+  ],
+  "va": "0x800DDCEC",
+  "len": 11,
+  "en": "Hamburger",
+  "refs": [
+   21184
+  ],
+  "engine": "A",
+  "ko": "햄버거",
+  "k_ko": "햄버거",
+  "k_hex": "3cffd900ff8000ff43",
+  "limit": 16,
+  "k_ko_auto": "햄버거",
+  "hex": "3c ff d9 00 ff 80 00 ff 43 ff 00",
+  "cells": 3
+ },
+ {
+  "id": "equip_046",
+  "cat": "equip",
+  "idx": [
+   46
+  ],
+  "va": "0x800DDCC8",
+  "len": 7,
+  "en": "Pizza",
+  "refs": [
+   21236
+  ],
+  "engine": "A",
+  "ko": "피자",
+  "k_ko": "피자",
+  "k_hex": "00ffd700ffaa",
+  "limit": 16,
+  "k_ko_auto": "피자",
+  "hex": "00 ff d7 00 ff aa ff 00",
+  "cells": 2
+ },
+ {
+  "id": "equip_047",
+  "cat": "equip",
+  "idx": [
+   47
+  ],
+  "va": "0x800DDCA4",
+  "len": 8,
+  "en": "Cheese",
+  "refs": [
+   21288
+  ],
+  "engine": "A",
+  "ko": "치즈",
+  "k_ko": "치즈",
+  "k_hex": "00ffbd00ffb3",
+  "limit": 16,
+  "k_ko_auto": "치즈",
+  "hex": "00 ff bd 00 ff b3 ff 00",
+  "cells": 2
+ },
+ {
+  "id": "equip_048",
+  "cat": "equip",
+  "idx": [
+   48
+  ],
+  "va": "0x800DDC78",
+  "len": 14,
+  "en": "Ham and eggs",
+  "refs": [
+   21340
+  ],
+  "engine": "A",
+  "ko": "햄 에그",
+  "k_ko": "햄에그",
+  "k_hex": "3cffd900ff9c00ff4c",
+  "limit": 16,
+  "k_ko_auto": "햄에그",
+  "hex": "3c ff d9 00 00 ff 9c 00 ff 4c ff 00",
+  "cells": 4
+ },
+ {
+  "id": "equip_049",
+  "cat": "equip",
+  "idx": [
+   49
+  ],
+  "va": "0x800DDC4C",
+  "len": 10,
+  "en": "Omelette",
+  "refs": [
+   21392
+  ],
+  "engine": "A",
+  "ko": "미트 오물렛",
+  "k_ko": "미트 오물렛",
+  "k_hex": "00ff7d00ffce0000ff9e20ff7c61ff6d",
+  "limit": 16,
+  "k_ko_auto": "미트 오물렛",
+  "hex": "00 ff 7d 00 ff ce 00 00 ff 9e 20 ff 7c 61 ff 6d ff 00",
+  "cells": 6
+ },
+ {
+  "id": "equip_050",
+  "cat": "equip",
+  "idx": [
+   50
+  ],
+  "va": "0x800DDC20",
+  "len": 13,
+  "en": "Morning set",
+  "refs": [
+   21444
+  ],
+  "engine": "A",
+  "ko": "모닝 세트",
+  "k_ko": "모닝세트",
+  "k_hex": "00ff7a62ff5700ff8e00ffce",
+  "limit": 16,
+  "k_ko_auto": "모닝세트",
+  "hex": "00 ff 7a 62 ff 57 00 00 ff 8e 00 ff ce ff 00",
+  "cells": 5
+ },
+ {
+  "id": "equip_051",
+  "cat": "equip",
+  "idx": [
+   51
+  ],
+  "va": "0x800DDBF4",
+  "len": 9,
+  "en": "Lunch A",
+  "refs": [
+   21496
+  ],
+  "engine": "A",
+  "ko": "A 런치",
+  "k_ko": "A런치",
+  "k_hex": "211cff6c00ffbd",
+  "limit": 16,
+  "k_ko_auto": "A런치",
+  "hex": "21 00 1c ff 6c 00 ff bd ff 00",
+  "cells": 4
+ },
+ {
+  "id": "equip_052",
+  "cat": "equip",
+  "idx": [
+   52
+  ],
+  "va": "0x800DDBD4",
+  "len": 9,
+  "en": "Lunch B",
+  "refs": [
+   21548
+  ],
+  "engine": "A",
+  "ko": "B 런치",
+  "k_ko": "B런치",
+  "k_hex": "221cff6c00ffbd",
+  "limit": 16,
+  "k_ko_auto": "B런치",
+  "hex": "22 00 1c ff 6c 00 ff bd ff 00",
+  "cells": 4
+ },
+ {
+  "id": "equip_053",
+  "cat": "equip",
+  "idx": [
+   53
+  ],
+  "va": "0x800DDBB4",
+  "len": 12,
+  "en": "Curry rice",
+  "refs": [
+   21600
+  ],
+  "engine": "A",
+  "ko": "카레라이스",
+  "k_ko": "카레라이스",
+  "k_hex": "00ffbe00ff6d00ff6a00ffa900ff95",
+  "limit": 16,
+  "k_ko_auto": "카레라이스",
+  "hex": "00 ff be 00 ff 6d 00 ff 6a 00 ff a9 00 ff 95 ff 00",
+  "cells": 5
+ },
+ {
+  "id": "equip_054",
+  "cat": "equip",
+  "idx": [
+   54
+  ],
+  "va": "0x800DDB80",
+  "len": 13,
+  "en": "Gyros plate",
+  "refs": [
+   21652
+  ],
+  "engine": "A",
+  "ko": "도리아",
+  "k_ko": "도리아",
+  "k_hex": "00ff5c00ff7400ff98",
+  "limit": 16,
+  "k_ko_auto": "도리아",
+  "hex": "00 ff 5c 00 ff 74 00 ff 98 ff 00",
+  "cells": 3
+ },
+ {
+  "id": "equip_055",
+  "cat": "equip",
+  "idx": [
+   55
+  ],
+  "va": "0x800DDB60",
+  "len": 11,
+  "en": "Spaghetti",
+  "refs": [
+   21704
+  ],
+  "engine": "A",
+  "ko": "스파게티",
+  "k_ko": "스파게티",
+  "k_hex": "00ff9500ffd000ff4400ffcf",
+  "limit": 16,
+  "k_ko_auto": "스파게티",
+  "hex": "00 ff 95 00 ff d0 00 ff 44 00 ff cf ff 00",
+  "cells": 4
+ },
+ {
+  "id": "equip_056",
+  "cat": "equip",
+  "idx": [
+   56
+  ],
+  "va": "0x800DDB34",
+  "len": 13,
+  "en": "Grape juice",
+  "refs": [
+   21756
+  ],
+  "engine": "A",
+  "ko": "와인",
+  "k_ko": "와인",
+  "k_hex": "00ff9f1cffa9",
+  "limit": 16,
+  "k_ko_auto": "와인",
+  "hex": "00 ff 9f 1c ff a9 ff 00",
+  "cells": 2
+ },
+ {
+  "id": "equip_057",
+  "cat": "equip",
+  "idx": [
+   57
+  ],
+  "va": "0x800DDB10",
+  "len": 12,
+  "en": "Barley tea",
+  "refs": [
+   21808
+  ],
+  "engine": "A",
+  "ko": "맥주",
+  "k_ko": "맥주",
+  "k_hex": "0aff7600ffb0",
+  "limit": 16,
+  "k_ko_auto": "맥주",
+  "hex": "0a ff 76 00 ff b0 ff 00",
+  "cells": 2
+ },
+ {
+  "id": "equip_058",
+  "cat": "equip",
+  "idx": [
+   58
+  ],
+  "va": "0x800DDAEC",
+  "len": 11,
+  "en": "Green tea",
+  "refs": [
+   21860
+  ],
+  "engine": "A",
+  "ko": "사케",
+  "k_ko": "일본주",
+  "k_hex": "20ffa91cff8300ffb0",
+  "limit": 16,
+  "k_ko_auto": "일본주",
+  "hex": "00 ff 8a 00 ff c1 ff 00",
+  "cells": 2
+ },
+ {
+  "id": "equip_059",
+  "cat": "equip",
+  "idx": [
+   59
+  ],
+  "va": "0x800DDAC8",
+  "len": 7,
+  "en": "Natou",
+  "refs": [
+   21912
+  ],
+  "engine": "A",
+  "ko": "낫토",
+  "k_ko": "발효콩",
+  "k_hex": "20ff7e00ffdf62ffc2",
+  "limit": 16,
+  "k_ko_auto": "발효콩",
+  "hex": "61 ff 50 00 ff cc ff 00",
+  "cells": 2
+ },
+ {
+  "id": "equip_060",
+  "cat": "equip",
+  "idx": [
+   60
+  ],
+  "va": "0x800DDA9C",
+  "len": 7,
+  "en": "Ramen",
+  "refs": [
+   21964
+  ],
+  "engine": "A",
+  "ko": "라멘",
+  "k_ko": "라면",
+  "k_hex": "00ff6a1cff79",
+  "limit": 16,
+  "k_ko_auto": "라면",
+  "hex": "00 ff 6a 1c ff 78 ff 00",
+  "cells": 2
+ },
+ {
+  "id": "equip_061",
+  "cat": "equip",
+  "idx": [
+   61
+  ],
+  "va": "0x800DDA70",
+  "len": 11,
+  "en": "Miso soup",
+  "refs": [
+   22016
+  ],
+  "engine": "A",
+  "ko": "된장국",
+  "k_ko": "된장국",
+  "k_hex": "1cff5d62ffaa0aff49",
+  "limit": 16,
+  "k_ko_auto": "된장국",
+  "hex": "1c ff 5d 62 ff aa 0a ff 49 ff 00",
+  "cells": 3
+ },
+ {
+  "id": "equip_062",
+  "cat": "equip",
+  "idx": [
+   62
+  ],
+  "va": "0x800DDA4C",
+  "len": 7,
+  "en": "Sushi",
+  "refs": [
+   22068
+  ],
+  "engine": "A",
+  "ko": "초밥",
+  "k_ko": "초밥",
+  "k_hex": "00ffb93eff7e",
+  "limit": 16,
+  "k_ko_auto": "초밥",
+  "hex": "00 ff b9 3e ff 7e ff 00",
+  "cells": 2
+ },
+ {
+  "id": "equip_063",
+  "cat": "equip",
+  "idx": [
+   63
+  ],
+  "va": "0x800DDA24",
+  "len": 10,
+  "en": "Pork bun",
+  "refs": [
+   22120
+  ],
+  "engine": "A",
+  "ko": "고기만두",
+  "k_ko": "고기만두",
+  "k_hex": "00ff4600ff4d1cff7500ff5f",
+  "limit": 16,
+  "k_ko_auto": "고기만두",
+  "hex": "00 ff 46 00 ff 4d 1c ff 75 00 ff 5f ff 00",
+  "cells": 4
+ },
+ {
+  "id": "equip_064",
+  "cat": "equip",
+  "idx": [
+   64
+  ],
+  "va": "0x800DD9F8",
+  "len": 14,
+  "en": "Red bean bun",
+  "refs": [
+   22172
+  ],
+  "engine": "A",
+  "ko": "팥만두",
+  "k_ko": "팥빵",
+  "k_hex": "64ffd062ff87",
+  "limit": 16,
+  "k_ko_auto": "팥빵",
+  "hex": "64 ff d0 1c ff 75 00 ff 5f ff 00",
+  "cells": 3
+ },
+ {
+  "id": "equip_065",
+  "cat": "equip",
+  "idx": [
+   65
+  ],
+  "va": "0x800DD9C8",
+  "len": 13,
+  "en": "Chinese bun",
+  "refs": [
+   22224
+  ],
+  "engine": "A",
+  "ko": "딤섬",
+  "k_ko": "간식",
+  "k_hex": "1cff400aff96",
+  "limit": 16,
+  "k_ko_auto": "간식",
+  "hex": "3c ff 67 3c ff 8d ff 00",
+  "cells": 2
+ },
+ {
+  "id": "equip_066",
+  "cat": "equip",
+  "idx": [
+   66
+  ],
+  "va": "0x800DD998",
+  "len": 13,
+  "en": "Dim Sum set",
+  "refs": [
+   22276
+  ],
+  "engine": "A",
+  "ko": "딤섬 세트",
+  "k_ko": "간식세트",
+  "k_hex": "1cff400aff9600ff8e00ffce",
+  "limit": 16,
+  "k_ko_auto": "간식세트",
+  "hex": "3c ff 67 3c ff 8d 00 00 ff 8e 00 ff ce ff 00",
+  "cells": 5
+ },
+ {
+  "id": "equip_067",
+  "cat": "equip",
+  "idx": [
+   67
+  ],
+  "va": "0x800DD970",
+  "len": 11,
+  "en": "Pot roast",
+  "refs": [
+   22328
+  ],
+  "engine": "A",
+  "ko": "맛있는 고기",
+  "k_ko": "맛있는 고기",
+  "k_hex": "61ff75fcffa91cff560000ff4600ff4d",
+  "limit": 16,
+  "k_ko_auto": "맛있는 고기",
+  "hex": "61 ff 75 fc ff a9 1c ff 56 00 00 ff 46 00 ff 4d ff 00",
+  "cells": 6
+ },
+ {
+  "id": "equip_068",
+  "cat": "equip",
+  "idx": [
+   68
+  ],
+  "va": "0x800DD944",
+  "len": 9,
+  "en": "Sirloin",
+  "refs": [
+   22380
+  ],
+  "engine": "A",
+  "ko": "비프",
+  "k_ko": "비프",
+  "k_hex": "00ff8600ffd6",
+  "limit": 16,
+  "k_ko_auto": "비프",
+  "hex": "00 ff 86 00 ff d6 ff 00",
+  "cells": 2
+ },
+ {
+  "id": "equip_069",
+  "cat": "equip",
+  "idx": [
+   69
+  ],
+  "va": "0x800DD924",
+  "len": 8,
+  "en": "Turkey",
+  "refs": [
+   22432
+  ],
+  "engine": "A",
+  "ko": "칠면조",
+  "k_ko": "칠면조",
+  "k_hex": "20ffbd1cff7900ffaf",
+  "limit": 16,
+  "k_ko_auto": "칠면조",
+  "hex": "20 ff bd 1c ff 79 00 ff af ff 00",
+  "cells": 3
+ },
+ {
+  "id": "equip_070",
+  "cat": "equip",
+  "idx": [
+   70
+  ],
+  "va": "0x800DD8FC",
+  "len": 13,
+  "en": "Meal ticket",
+  "refs": [
+   22484
+  ],
+  "engine": "A",
+  "ko": "식권",
+  "k_ko": "식사권",
+  "k_hex": "0aff9600ff8a1cff4a",
+  "limit": 16,
+  "k_ko_auto": "식사권",
+  "hex": "0a ff 96 1c ff 4a ff 00",
+  "cells": 2
+ },
+ {
+  "id": "equip_071",
+  "cat": "equip",
+  "idx": [
+   71
+  ],
+  "va": "0x800DD8D0",
+  "len": 14,
+  "en": "Neutron bomb",
+  "refs": [
+   22536
+  ],
+  "engine": "A",
+  "ko": "뉴트론 봄",
+  "k_ko": "뉴트론 봄",
+  "k_hex": "00ff5500ffce1cff6f003cff83",
+  "limit": 16,
+  "k_ko_auto": "뉴트론 봄",
+  "hex": "00 ff 55 00 ff ce 1c ff 6f 00 3c ff 83 ff 00",
+  "cells": 5
+ },
+ {
+  "id": "equip_072",
+  "cat": "equip",
+  "idx": [
+   72
+  ],
+  "va": "0x800DD8A4",
+  "len": 15,
+  "en": "Power of Sire",
+  "refs": [
+   22588
+  ],
+  "engine": "A",
+  "ko": "아버지의 위광",
+  "k_ko": "아버지의 위광",
+  "k_hex": "00ff9800ff8000ffb400ffa80000ffa562ff47",
+  "limit": 16,
+  "k_ko_auto": "아버지의 위광",
+  "hex": "00 ff 98 00 ff 80 00 ff b4 00 ff a8 00 00 ff a5 62 ff 47 ff 00",
+  "cells": 7
+ },
+ {
+  "id": "equip_073",
+  "cat": "equip",
+  "idx": [
+   73
+  ],
+  "va": "0x800DD898",
+  "len": 11,
+  "en": "Pentagram",
+  "refs": [
+   22640
+  ],
+  "engine": "A",
+  "ko": "펜타그램",
+  "k_ko": "펜타그램",
+  "k_hex": "1cffd300ffc800ff4c3cff6b",
+  "limit": 16,
+  "k_ko_auto": "펜타그램",
+  "hex": "1c ff d3 00 ff c8 00 ff 4c 3c ff 6b ff 00",
+  "cells": 4
+ },
+ {
+  "id": "equip_074",
+  "cat": "equip",
+  "idx": [
+   74
+  ],
+  "va": "0x800DD888",
+  "len": 15,
+  "en": "Bat Pentagram",
+  "refs": [
+   22692
+  ],
+  "engine": "A",
+  "ko": "배트 펜타그램",
+  "k_ko": "배트 펜타그램",
+  "k_hex": "00ff7f00ffce001cffd300ffc800ff4c3cff6b",
+  "limit": 16,
+  "k_ko_auto": "배트 펜타그램",
+  "hex": "00 ff 7f 00 ff ce 00 1c ff d3 00 ff c8 00 ff 4c 3c ff 6b ff 00",
+  "cells": 7
+ },
+ {
+  "id": "equip_075",
+  "cat": "equip",
+  "idx": [
+   75
+  ],
+  "va": "0x800DD87C",
+  "len": 10,
+  "en": "Shuriken",
+  "refs": [
+   22744
+  ],
+  "engine": "A",
+  "ko": "수리검",
+  "k_ko": "수리검",
+  "k_hex": "00ff9300ff743cff43",
+  "limit": 16,
+  "k_ko_auto": "수리검",
+  "hex": "00 ff 93 00 ff 74 3c ff 43 ff 00",
+  "cells": 3
+ },
+ {
+  "id": "equip_076",
+  "cat": "equip",
+  "idx": [
+   76
+  ],
+  "va": "0x800DD84C",
+  "len": 16,
+  "en": "Cross shuriken",
+  "refs": [
+   22796
+  ],
+  "engine": "A",
+  "ko": "십자 수리검",
+  "k_ko": "십자 수리검",
+  "k_hex": "3eff9600ffaa0000ff9300ff743cff43",
+  "limit": 16,
+  "k_ko_auto": "십자 수리검",
+  "hex": "3e ff 96 00 ff aa 00 00 ff 93 00 ff 74 3c ff 43 ff 00",
+  "cells": 6
+ },
+ {
+  "id": "equip_077",
+  "cat": "equip",
+  "idx": [
+   77
+  ],
+  "va": "0x800DD81C",
+  "len": 14,
+  "en": "Buffalo star",
+  "refs": [
+   22848
+  ],
+  "engine": "A",
+  "ko": "야규 수리검",
+  "k_ko": "야규 수리검",
+  "k_hex": "00ff9a00ff4b0000ff9300ff743cff43",
+  "limit": 16,
+  "k_ko_auto": "야규 수리검",
+  "hex": "00 ff 9a 00 ff 4b 00 00 ff 93 00 ff 74 3c ff 43 ff 00",
+  "cells": 6
+ },
+ {
+  "id": "equip_078",
+  "cat": "equip",
+  "idx": [
+   78
+  ],
+  "va": "0x800DD7EC",
+  "len": 12,
+  "en": "Flame star",
+  "refs": [
+   22900
+  ],
+  "engine": "A",
+  "ko": "불꽃 수리검",
+  "k_ko": "불꽃 수리검",
+  "k_hex": "20ff8463fffd0000ff9300ff743cff43",
+  "limit": 16,
+  "k_ko_auto": "불꽃 수리검",
+  "hex": "20 ff 84 63 ff fd 00 00 ff 93 00 ff 74 3c ff 43 ff 00",
+  "cells": 6
+ },
+ {
+  "id": "equip_079",
+  "cat": "equip",
+  "idx": [
+   79
+  ],
+  "va": "0x800DD7C4",
+  "len": 5,
+  "en": "TNT",
+  "refs": [
+   22952
+  ],
+  "engine": "A",
+  "ko": "폭뢰",
+  "k_ko": "폭뢰",
+  "k_hex": "0affd400ff71",
+  "limit": 16,
+  "k_ko_auto": "폭뢰",
+  "hex": "0a ff d4 00 ff 71 ff 00",
+  "cells": 2
+ },
+ {
+  "id": "equip_080",
+  "cat": "equip",
+  "idx": [
+   80
+  ],
+  "va": "0x800DD794",
+  "len": 13,
+  "en": "Bwaka knife",
+  "refs": [
+   23004
+  ],
+  "engine": "A",
+  "ko": "브와카 나이프",
+  "k_ko": "브와카 나이프",
+  "k_hex": "00ff8500ff9f00ffbe0000ff5000ffa900ffd6",
+  "limit": 16,
+  "k_ko_auto": "브와카 나이프",
+  "hex": "00 ff 85 00 ff 9f 00 ff be 00 00 ff 50 00 ff a9 00 ff d6 ff 00",
+  "cells": 7
+ },
+ {
+  "id": "equip_081",
+  "cat": "equip",
+  "idx": [
+   81
+  ],
+  "va": "0x800DD768",
+  "len": 11,
+  "en": "Boomerang",
+  "refs": [
+   23056
+  ],
+  "engine": "A",
+  "ko": "부메랑",
+  "k_ko": "부메랑",
+  "k_hex": "00ff8400ff7862ff6a",
+  "limit": 16,
+  "k_ko_auto": "부메랑",
+  "hex": "00 ff 84 00 ff 78 62 ff 6a ff 00",
+  "cells": 3
+ },
+ {
+  "id": "equip_082",
+  "cat": "equip",
+  "idx": [
+   82
+  ],
+  "va": "0x800DD740",
+  "len": 9,
+  "en": "Javelin",
+  "refs": [
+   23108
+  ],
+  "engine": "A",
+  "ko": "재블린",
+  "k_ko": "자벨린",
+  "k_hex": "00ffaa20ff811cff74",
+  "limit": 16,
+  "k_ko_auto": "자벨린",
+  "hex": "00 ff ab 20 ff 85 1c ff 74 ff 00",
+  "cells": 3
+ },
+ {
+  "id": "equip_083",
+  "cat": "equip",
+  "idx": [
+   83
+  ],
+  "va": "0x800DD71C",
+  "len": 9,
+  "en": "Tyrfing",
+  "refs": [
+   23160
+  ],
+  "engine": "A",
+  "ko": "티르빙",
+  "k_ko": "티르핑",
+  "k_hex": "00ffcf00ff7362ffd7",
+  "limit": 16,
+  "k_ko_auto": "티르핑",
+  "hex": "00 ff cf 00 ff 73 62 ff 86 ff 00",
+  "cells": 3
+ },
+ {
+  "id": "equip_084",
+  "cat": "equip",
+  "idx": [
+   84
+  ],
+  "va": "0x800DD6FC",
+  "len": 10,
+  "en": "Namakura",
+  "refs": [
+   23212
+  ],
+  "engine": "A",
+  "ko": "나마쿠라",
+  "k_ko": "나마쿠라",
+  "k_hex": "00ff5000ff7500ffc300ff6a",
+  "limit": 16,
+  "k_ko_auto": "나마쿠라",
+  "hex": "00 ff 50 00 ff 75 00 ff c3 00 ff 6a ff 00",
+  "cells": 4
+ },
+ {
+  "id": "equip_085",
+  "cat": "equip",
+  "idx": [
+   85
+  ],
+  "va": "0x800DD6CC",
+  "len": 16,
+  "en": "Knuckle duster",
+  "refs": [
+   23264
+  ],
+  "engine": "A",
+  "ko": "너클",
+  "k_ko": "너클",
+  "k_hex": "00ff5120ffc6",
+  "limit": 16,
+  "k_ko_auto": "너클",
+  "hex": "00 ff 51 20 ff c6 ff 00",
+  "cells": 2
+ },
+ {
+  "id": "equip_086",
+  "cat": "equip",
+  "idx": [
+   86
+  ],
+  "va": "0x800DD6A4",
+  "len": 9,
+  "en": "Gladius",
+  "refs": [
+   23316
+  ],
+  "engine": "A",
+  "ko": "글라디우스",
+  "k_ko": "그라디우스",
+  "k_hex": "00ff4c00ff6a00ff6700ffa200ff95",
+  "limit": 16,
+  "k_ko_auto": "그라디우스",
+  "hex": "20 ff 4c 00 ff 6a 00 ff 67 00 ff a2 00 ff 95 ff 00",
+  "cells": 5
+ },
+ {
+  "id": "equip_087",
+  "cat": "equip",
+  "idx": [
+   87
+  ],
+  "va": "0x800DD680",
+  "len": 10,
+  "en": "Scimitar",
+  "refs": [
+   23368
+  ],
+  "engine": "A",
+  "ko": "시미터",
+  "k_ko": "시미터",
+  "k_hex": "00ff9600ff7d00ffca",
+  "limit": 16,
+  "k_ko_auto": "시미터",
+  "hex": "00 ff 96 00 ff 7d 00 ff ca ff 00",
+  "cells": 3
+ },
+ {
+  "id": "equip_088",
+  "cat": "equip",
+  "idx": [
+   88
+  ],
+  "va": "0x800DD658",
+  "len": 9,
+  "en": "Cutlass",
+  "refs": [
+   23420
+  ],
+  "engine": "A",
+  "ko": "커틀러스",
+  "k_ko": "커틀러스",
+  "k_hex": "00ffc020ffce00ff6c00ff95",
+  "limit": 16,
+  "k_ko_auto": "커틀러스",
+  "hex": "00 ff c0 20 ff ce 00 ff 6c 00 ff 95 ff 00",
+  "cells": 4
+ },
+ {
+  "id": "equip_089",
+  "cat": "equip",
+  "idx": [
+   89
+  ],
+  "va": "0x800DD634",
+  "len": 7,
+  "en": "Saber",
+  "refs": [
+   23472
+  ],
+  "engine": "A",
+  "ko": "세이버",
+  "k_ko": "세이버",
+  "k_hex": "00ff8e00ffa900ff80",
+  "limit": 16,
+  "k_ko_auto": "세이버",
+  "hex": "00 ff 8e 00 ff a9 00 ff 80 ff 00",
+  "cells": 3
+ },
+ {
+  "id": "equip_090",
+  "cat": "equip",
+  "idx": [
+   90
+  ],
+  "va": "0x800DD614",
+  "len": 10,
+  "en": "Falchion",
+  "refs": [
+   23524
+  ],
+  "engine": "A",
+  "ko": "팔시온",
+  "k_ko": "파르시온",
+  "k_hex": "00ffd000ff7300ff961cff9e",
+  "limit": 16,
+  "k_ko_auto": "파르시온",
+  "hex": "20 ff d0 00 ff 96 1c ff 9e ff 00",
+  "cells": 3
+ },
+ {
+  "id": "equip_091",
+  "cat": "equip",
+  "idx": [
+   91
+  ],
+  "va": "0x800DD5F4",
+  "len": 12,
+  "en": "Broadsword",
+  "refs": [
+   23576
+  ],
+  "engine": "A",
+  "ko": "카츠발게르",
+  "k_ko": "카츠발게르",
+  "k_hex": "00ffbe00ffbc20ff7e00ff4400ff73",
+  "limit": 16,
+  "k_ko_auto": "카츠발게르",
+  "hex": "00 ff be 00 ff bc 20 ff 7e 00 ff 44 00 ff 73 ff 00",
+  "cells": 5
+ },
+ {
+  "id": "equip_092",
+  "cat": "equip",
+  "idx": [
+   92
+  ],
+  "va": "0x800DD5CC",
+  "len": 10,
+  "en": "Bekatowa",
+  "refs": [
+   23628
+  ],
+  "engine": "A",
+  "ko": "베카토와",
+  "k_ko": "베카트와",
+  "k_hex": "00ff8100ffbe00ffce00ff9f",
+  "limit": 16,
+  "k_ko_auto": "베카트와",
+  "hex": "00 ff 81 00 ff be 00 ff cc 00 ff 9f ff 00",
+  "cells": 4
+ },
+ {
+  "id": "equip_093",
+  "cat": "equip",
+  "idx": [
+   93
+  ],
+  "va": "0x800DD598",
+  "len": 16,
+  "en": "Damascus sword",
+  "refs": [
+   23680
+  ],
+  "engine": "A",
+  "ko": "다마스커스 소드",
+  "k_ko": "다마스커스 소드",
+  "k_hex": "00ff5e00ff7500ff9500ffc000ff950000ff9100ff66",
+  "limit": 16,
+  "k_ko_auto": "다마스커스 소드",
+  "hex": "00 ff 5e 00 ff 75 00 ff 95 00 ff c0 00 ff 95 00 00 ff 91 00 ff 66 ff 00",
+  "cells": 8
+ },
+ {
+  "id": "equip_094",
+  "cat": "equip",
+  "idx": [
+   94
+  ],
+  "va": "0x800DD568",
+  "len": 14,
+  "en": "Hunter sword",
+  "refs": [
+   23732
+  ],
+  "engine": "A",
+  "ko": "자드플라테",
+  "k_ko": "자드프라우테",
+  "k_hex": "00ffaa00ff6600ffd600ff6a00ffa200ffcb",
+  "limit": 16,
+  "k_ko_auto": "자드프라우테",
+  "hex": "00 ff aa 00 ff 66 20 ff d6 00 ff 6a 00 ff cb ff 00",
+  "cells": 5
+ },
+ {
+  "id": "equip_095",
+  "cat": "equip",
+  "idx": [
+   95
+  ],
+  "va": "0x800DD544",
+  "len": 7,
+  "en": "Estoc",
+  "refs": [
+   23784
+  ],
+  "engine": "A",
+  "ko": "에스톡",
+  "k_ko": "에스턱",
+  "k_hex": "00ff9c00ff950affca",
+  "limit": 16,
+  "k_ko_auto": "에스턱",
+  "hex": "00 ff 9c 00 ff 95 0a ff cc ff 00",
+  "cells": 3
+ },
+ {
+  "id": "equip_096",
+  "cat": "equip",
+  "idx": [
+   96
+  ],
+  "va": "0x800DD514",
+  "len": 15,
+  "en": "Bastard sword",
+  "refs": [
+   23836
+  ],
+  "engine": "A",
+  "ko": "바스타드 소드",
+  "k_ko": "배스터드 소드",
+  "k_hex": "00ff7f00ff9500ffca00ff660000ff9100ff66",
+  "limit": 16,
+  "k_ko_auto": "배스터드 소드",
+  "hex": "00 ff 7e 00 ff 95 00 ff c8 00 ff 66 00 00 ff 91 00 ff 66 ff 00",
+  "cells": 7
+ },
+ {
+  "id": "equip_097",
+  "cat": "equip",
+  "idx": [
+   97
+  ],
+  "va": "0x800DD4F4",
+  "len": 16,
+  "en": "Jewel knuckles",
+  "refs": [
+   23888
+  ],
+  "engine": "A",
+  "ko": "다이아 너클",
+  "k_ko": "다이아 너클",
+  "k_hex": "00ff5e00ffa900ff980000ff5120ffc6",
+  "limit": 16,
+  "k_ko_auto": "다이아 너클",
+  "hex": "00 ff 5e 00 ff a9 00 ff 98 00 00 ff 51 20 ff c6 ff 00",
+  "cells": 6
+ },
+ {
+  "id": "equip_098",
+  "cat": "equip",
+  "idx": [
+   98
+  ],
+  "va": "0x800DD4CC",
+  "len": 10,
+  "en": "Claymore",
+  "refs": [
+   23940
+  ],
+  "engine": "A",
+  "ko": "클레이모어",
+  "k_ko": "클레이모어",
+  "k_hex": "20ffc600ff6d00ffa900ff7a00ff9b",
+  "limit": 16,
+  "k_ko_auto": "클레이모어",
+  "hex": "20 ff c6 00 ff 6d 00 ff a9 00 ff 7a 00 ff 9b ff 00",
+  "cells": 5
+ },
+ {
+  "id": "equip_099",
+  "cat": "equip",
+  "idx": [
+   99
+  ],
+  "va": "0x800DD4A8",
+  "len": 8,
+  "en": "Talwar",
+  "refs": [
+   23992
+  ],
+  "engine": "A",
+  "ko": "탈와르",
+  "k_ko": "타르워르",
+  "k_hex": "00ffc800ff7300ffa300ff73",
+  "limit": 16,
+  "k_ko_auto": "타르워르",
+  "hex": "20 ff c8 00 ff 9f 00 ff 73 ff 00",
+  "cells": 3
+ },
+ {
+  "id": "equip_100",
+  "cat": "equip",
+  "idx": [
+   100
+  ],
+  "va": "0x800DD48C",
+  "len": 8,
+  "en": "Katana",
+  "refs": [
+   24044
+  ],
+  "engine": "A",
+  "ko": "카타나",
+  "k_ko": "카타나",
+  "k_hex": "00ffbe00ffc800ff50",
+  "limit": 16,
+  "k_ko_auto": "카타나",
+  "hex": "00 ff be 00 ff c8 00 ff 50 ff 00",
+  "cells": 3
+ },
+ {
+  "id": "equip_101",
+  "cat": "equip",
+  "idx": [
+   101
+  ],
+  "va": "0x800DD464",
+  "len": 11,
+  "en": "Flamberge",
+  "refs": [
+   24096
+  ],
+  "engine": "A",
+  "ko": "플랑베르주",
+  "k_ko": "플랑베르주",
+  "k_hex": "20ffd662ff6a00ff8100ff7300ffb0",
+  "limit": 16,
+  "k_ko_auto": "플랑베르주",
+  "hex": "20 ff d6 62 ff 6a 00 ff 81 00 ff 73 00 ff b0 ff 00",
+  "cells": 5
+ },
+ {
+  "id": "equip_102",
+  "cat": "equip",
+  "idx": [
+   102
+  ],
+  "va": "0x800DD438",
+  "len": 11,
+  "en": "Iron Fist",
+  "refs": [
+   24148
+  ],
+  "engine": "A",
+  "ko": "카이저 너클",
+  "k_ko": "카이저 너클",
+  "k_hex": "00ffbe00ffa900ffac0000ff5120ffc6",
+  "limit": 16,
+  "k_ko_auto": "카이저 너클",
+  "hex": "00 ff be 00 ff a9 00 ff ac 00 00 ff 51 20 ff c6 ff 00",
+  "cells": 6
+ },
+ {
+  "id": "equip_103",
+  "cat": "equip",
+  "idx": [
+   103
+  ],
+  "va": "0x800DD410",
+  "len": 13,
+  "en": "Zwei hander",
+  "refs": [
+   24200
+  ],
+  "engine": "A",
+  "ko": "츠바이핸더",
+  "k_ko": "츠바이핸더",
+  "k_hex": "00ffbc00ff7e00ffa91cffd900ff5a",
+  "limit": 16,
+  "k_ko_auto": "츠바이핸더",
+  "hex": "00 ff bc 00 ff 7e 00 ff a9 1c ff d9 00 ff 5a ff 00",
+  "cells": 5
+ },
+ {
+  "id": "equip_104",
+  "cat": "equip",
+  "idx": [
+   104
+  ],
+  "va": "0x800DD3E4",
+  "len": 16,
+  "en": "Sword of Hador",
+  "refs": [
+   24252
+  ],
+  "engine": "A",
+  "ko": "헬게의 검",
+  "k_ko": "헤르게의 검",
+  "k_hex": "00ffdb00ff7300ff4400ffa8003cff43",
+  "limit": 16,
+  "k_ko_auto": "헤르게의 검",
+  "hex": "20 ff db 00 ff 44 00 ff a8 00 3c ff 43 ff 00",
+  "cells": 5
+ },
+ {
+  "id": "equip_105",
+  "cat": "equip",
+  "idx": [
+   105
+  ],
+  "va": "0x800DD3C0",
+  "len": 9,
+  "en": "Luminus",
+  "refs": [
+   24304
+  ],
+  "engine": "A",
+  "ko": "오르크리스트",
+  "k_ko": "올크리스트",
+  "k_hex": "20ff9e00ffc600ff7400ff9500ffce",
+  "limit": 16,
+  "k_ko_auto": "올크리스트",
+  "hex": "00 ff 9e 00 ff 73 00 ff c6 00 ff 74 00 ff 95 00 ff ce ff 00",
+  "cells": 6
+ },
+ {
+  "id": "equip_106",
+  "cat": "equip",
+  "idx": [
+   106
+  ],
+  "va": "0x800DD3A0",
+  "len": 8,
+  "en": "Harper",
+  "refs": [
+   24356
+  ],
+  "engine": "A",
+  "ko": "하르페",
+  "k_ko": "하루파",
+  "k_hex": "00ffd800ff7200ffd0",
+  "limit": 16,
+  "k_ko_auto": "하루파",
+  "hex": "00 ff d8 00 ff 73 00 ff d3 ff 00",
+  "cells": 3
+ },
+ {
+  "id": "equip_107",
+  "cat": "equip",
+  "idx": [
+   107
+  ],
+  "va": "0x800DD378",
+  "len": 16,
+  "en": "Obsidian sword",
+  "refs": [
+   24408
+  ],
+  "engine": "A",
+  "ko": "흑요석의 검",
+  "k_ko": "흑요석 검",
+  "k_hex": "0affee00ffa10aff8d003cff43",
+  "limit": 16,
+  "k_ko_auto": "흑요석 검",
+  "hex": "0a ff ee 00 ff a1 0a ff 8d 00 ff a8 00 3c ff 43 ff 00",
+  "cells": 6
+ },
+ {
+  "id": "equip_108",
+  "cat": "equip",
+  "idx": [
+   108
+  ],
+  "va": "0x800DD354",
+  "len": 6,
+  "en": "Gram",
+  "refs": [
+   24460
+  ],
+  "engine": "A",
+  "ko": "마도 그람",
+  "k_ko": "명검 그람",
+  "k_hex": "62ff793cff430000ff4c3cff6a",
+  "limit": 16,
+  "k_ko_auto": "명검 그람",
+  "hex": "00 ff 75 00 ff 5c 00 00 ff 4c 3c ff 6a ff 00",
+  "cells": 5
+ },
+ {
+  "id": "equip_109",
+  "cat": "equip",
+  "idx": [
+   109
+  ],
+  "va": "0x800DD32C",
+  "len": 13,
+  "en": "Jewel sword",
+  "refs": [
+   24512
+  ],
+  "engine": "A",
+  "ko": "주얼 소드",
+  "k_ko": "쥬엘 소드",
+  "k_hex": "00ffb220ff9c0000ff9100ff66",
+  "limit": 16,
+  "k_ko_auto": "쥬엘 소드",
+  "hex": "00 ff b0 20 ff 9b 00 00 ff 91 00 ff 66 ff 00",
+  "cells": 5
+ },
+ {
+  "id": "equip_110",
+  "cat": "equip",
+  "idx": [
+   110
+  ],
+  "va": "0x800DD300",
+  "len": 10,
+  "en": "Mormegil",
+  "refs": [
+   24564
+  ],
+  "engine": "A",
+  "ko": "홀리 버스터",
+  "k_ko": "홀리 버스터",
+  "k_hex": "20ffdc00ff740000ff8000ff9500ffca",
+  "limit": 16,
+  "k_ko_auto": "홀리 버스터",
+  "hex": "20 ff dc 00 ff 74 00 00 ff 80 00 ff 95 00 ff ca ff 00",
+  "cells": 6
+ },
+ {
+  "id": "equip_111",
+  "cat": "equip",
+  "idx": [
+   111
+  ],
+  "va": "0x800DD2D4",
+  "len": 11,
+  "en": "Firebrand",
+  "refs": [
+   24616
+  ],
+  "engine": "A",
+  "ko": "아그니의 염검",
+  "k_ko": "아그니의 염검",
+  "k_hex": "00ff9800ff4c00ff5700ffa8003cff9d3cff43",
+  "limit": 16,
+  "k_ko_auto": "아그니의 염검",
+  "hex": "00 ff 98 00 ff 4c 00 ff 57 00 ff a8 00 3c ff 9d 3c ff 43 ff 00",
+  "cells": 7
+ },
+ {
+  "id": "equip_112",
+  "cat": "equip",
+  "idx": [
+   112
+  ],
+  "va": "0x800DD2AC",
+  "len": 14,
+  "en": "Thunderbrand",
+  "refs": [
+   24668
+  ],
+  "engine": "A",
+  "ko": "인드라의 뇌검",
+  "k_ko": "인드라의 뇌검",
+  "k_hex": "1cffa900ff6600ff6a00ffa80000ff543cff43",
+  "limit": 16,
+  "k_ko_auto": "인드라의 뇌검",
+  "hex": "1c ff a9 00 ff 66 00 ff 6a 00 ff a8 00 00 ff 54 3c ff 43 ff 00",
+  "cells": 7
+ },
+ {
+  "id": "equip_113",
+  "cat": "equip",
+  "idx": [
+   113
+  ],
+  "va": "0x800DD284",
+  "len": 10,
+  "en": "Icebrand",
+  "refs": [
+   24720
+  ],
+  "engine": "A",
+  "ko": "라하브의 빙검",
+  "k_ko": "라하브의 빙검",
+  "k_hex": "00ff6a00ffd800ff8500ffa80062ff863cff43",
+  "limit": 16,
+  "k_ko_auto": "라하브의 빙검",
+  "hex": "00 ff 6a 00 ff d8 00 ff 85 00 ff a8 00 62 ff 86 3c ff 43 ff 00",
+  "cells": 7
+ },
+ {
+  "id": "equip_114",
+  "cat": "equip",
+  "idx": [
+   114
+  ],
+  "va": "0x800DD260",
+  "len": 13,
+  "en": "Stone sword",
+  "refs": [
+   24772
+  ],
+  "engine": "A",
+  "ko": "미리칸의 석도",
+  "k_ko": "밀리칸의 석도",
+  "k_hex": "20ff7d00ff741cffbe00ffa8000aff8d00ff5c",
+  "limit": 16,
+  "k_ko_auto": "밀리칸의 석도",
+  "hex": "00 ff 7d 00 ff 74 1c ff be 00 ff a8 00 0a ff 8d 00 ff 5c ff 00",
+  "cells": 7
+ },
+ {
+  "id": "equip_115",
+  "cat": "equip",
+  "idx": [
+   115
+  ],
+  "va": "0x800DD230",
+  "len": 12,
+  "en": "Holy sword",
+  "refs": [
+   24824
+  ],
+  "engine": "A",
+  "ko": "홀리 소드",
+  "k_ko": "홀리 소드",
+  "k_hex": "20ffdc00ff740000ff9100ff66",
+  "limit": 16,
+  "k_ko_auto": "홀리 소드",
+  "hex": "20 ff dc 00 ff 74 00 00 ff 91 00 ff 66 ff 00",
+  "cells": 5
+ },
+ {
+  "id": "equip_116",
+  "cat": "equip",
+  "idx": [
+   116
+  ],
+  "va": "0x800DD1FC",
+  "len": 14,
+  "en": "Terminus Est",
+  "refs": [
+   24876
+  ],
+  "engine": "A",
+  "ko": "흐룬팅",
+  "k_ko": "흐룬팅",
+  "k_hex": "00ffee1cff7262ffcf",
+  "limit": 16,
+  "k_ko_auto": "흐룬팅",
+  "hex": "00 ff ee 1c ff 72 62 ff cf ff 00",
+  "cells": 3
+ },
+ {
+  "id": "equip_117",
+  "cat": "equip",
+  "idx": [
+   117
+  ],
+  "va": "0x800DD1D4",
+  "len": 8,
+  "en": "Marsil",
+  "refs": [
+   24928
+  ],
+  "engine": "A",
+  "ko": "레바테인",
+  "k_ko": "레바테인",
+  "k_hex": "00ff6d00ff7e00ffcb1cffa9",
+  "limit": 16,
+  "k_ko_auto": "레바테인",
+  "hex": "00 ff 6d 00 ff 7e 00 ff cb 1c ff a9 ff 00",
+  "cells": 4
+ },
+ {
+  "id": "equip_118",
+  "cat": "equip",
+  "idx": [
+   118
+  ],
+  "va": "0x800DD1B0",
+  "len": 12,
+  "en": "Dark Blade",
+  "refs": [
+   24980
+  ],
+  "engine": "A",
+  "ko": "글람드링",
+  "k_ko": "그람드링",
+  "k_hex": "00ff4c3cff6a00ff6662ff74",
+  "limit": 16,
+  "k_ko_auto": "그람드링",
+  "hex": "20 ff 4c 3c ff 6a 00 ff 66 62 ff 74 ff 00",
+  "cells": 4
+ },
+ {
+  "id": "equip_119",
+  "cat": "equip",
+  "idx": [
+   119
+  ],
+  "va": "0x800DD1A0",
+  "len": 14,
+  "en": "Heaven sword",
+  "refs": [
+   25032
+  ],
+  "engine": "A",
+  "ko": "헤븐즈 소드",
+  "k_ko": "헤븐즈 소드",
+  "k_hex": "00ffdb1cff8500ffb30000ff9100ff66",
+  "limit": 16,
+  "k_ko_auto": "헤븐즈 소드",
+  "hex": "00 ff db 1c ff 85 00 ff b3 00 00 ff 91 00 ff 66 ff 00",
+  "cells": 6
+ },
+ {
+  "id": "equip_120",
+  "cat": "equip",
+  "idx": [
+   120
+  ],
+  "va": "0x800DD174",
+  "len": 16,
+  "en": "Fist of Tulkas",
+  "refs": [
+   25084
+  ],
+  "engine": "A",
+  "ko": "오리하르콘",
+  "k_ko": "오리하르콘",
+  "k_hex": "00ff9e00ff7400ffd800ff731cffc2",
+  "limit": 16,
+  "k_ko_auto": "오리하르콘",
+  "hex": "00 ff 9e 00 ff 74 00 ff d8 00 ff 73 1c ff c2 ff 00",
+  "cells": 5
+ },
+ {
+  "id": "equip_121",
+  "cat": "equip",
+  "idx": [
+   121
+  ],
+  "va": "0x800DD14C",
+  "len": 10,
+  "en": "Gurthang",
+  "refs": [
+   25136
+  ],
+  "engine": "A",
+  "ko": "다인슬레이프",
+  "k_ko": "다인슬레이프",
+  "k_hex": "00ff5e1cffa920ff9500ff6d00ffa900ffd6",
+  "limit": 16,
+  "k_ko_auto": "다인슬레이프",
+  "hex": "00 ff 5e 1c ff a9 20 ff 95 00 ff 6d 00 ff a9 00 ff d6 ff 00",
+  "cells": 6
+ },
+ {
+  "id": "equip_122",
+  "cat": "equip",
+  "idx": [
+   122
+  ],
+  "va": "0x800DD120",
+  "len": 13,
+  "en": "Mourneblade",
+  "refs": [
+   25188
+  ],
+  "engine": "A",
+  "ko": "몬 블레이드",
+  "k_ko": "몬 블레이드",
+  "k_hex": "1cff7a0020ff8500ff6d00ffa900ff66",
+  "limit": 16,
+  "k_ko_auto": "몬 블레이드",
+  "hex": "1c ff 7a 00 20 ff 85 00 ff 6d 00 ff a9 00 ff 66 ff 00",
+  "cells": 6
+ },
+ {
+  "id": "equip_123",
+  "cat": "equip",
+  "idx": [
+   123
+  ],
+  "va": "0x800DD0F4",
+  "len": 15,
+  "en": "Alucard sword",
+  "refs": [
+   25240
+  ],
+  "engine": "A",
+  "ko": "알카드 소드",
+  "k_ko": "알카드 소드",
+  "k_hex": "20ff9800ffbe00ff660000ff9100ff66",
+  "limit": 16,
+  "k_ko_auto": "알카드 소드",
+  "hex": "20 ff 98 00 ff be 00 ff 66 00 00 ff 91 00 ff 66 ff 00",
+  "cells": 6
+ },
+ {
+  "id": "equip_124",
+  "cat": "equip",
+  "idx": [
+   124
+  ],
+  "va": "0x800DD0C8",
+  "len": 15,
+  "en": "Mablung Sword",
+  "refs": [
+   25292
+  ],
+  "engine": "A",
+  "ko": "레무리아 소드",
+  "k_ko": "레무리아 소드",
+  "k_hex": "00ff6d00ff7c00ff7400ff980000ff9100ff66",
+  "limit": 16,
+  "k_ko_auto": "레무리아 소드",
+  "hex": "00 ff 6d 00 ff 7c 00 ff 74 00 ff 98 00 00 ff 91 00 ff 66 ff 00",
+  "cells": 7
+ },
+ {
+  "id": "equip_125",
+  "cat": "equip",
+  "idx": [
+   125
+  ],
+  "va": "0x800DD09C",
+  "len": 11,
+  "en": "Badelaire",
+  "refs": [
+   25344
+  ],
+  "engine": "A",
+  "ko": "발자이의 언월도",
+  "k_ko": "발자이의 언월도",
+  "k_hex": "20ff7e00ffaa00ffa900ffa8001cff9b20ffa300ff5c",
+  "limit": 16,
+  "k_ko_auto": "발자이의 언월도",
+  "hex": "20 ff 7e 00 ff aa 00 ff a9 00 ff a8 00 1c ff 9b 20 ff a3 00 ff 5c ff 00",
+  "cells": 8
+ },
+ {
+  "id": "equip_126",
+  "cat": "equip",
+  "idx": [
+   126
+  ],
+  "va": "0x800DD06C",
+  "len": 16,
+  "en": "Sword Familiar",
+  "refs": [
+   25396
+  ],
+  "engine": "A",
+  "ko": "사역마의 검",
+  "k_ko": "사역마의 검",
+  "k_hex": "00ff8a0aff9d00ff7500ffa8003cff43",
+  "limit": 16,
+  "k_ko_auto": "사역마의 검",
+  "hex": "00 ff 8a 0a ff 9d 00 ff 75 00 ff a8 00 3c ff 43 ff 00",
+  "cells": 6
+ },
+ {
+  "id": "equip_127",
+  "cat": "equip",
+  "idx": [
+   127
+  ],
+  "va": "0x800DD044",
+  "len": 13,
+  "en": "Great Sword",
+  "refs": [
+   25448
+  ],
+  "engine": "A",
+  "ko": "그레이트 소드",
+  "k_ko": "그레이트 소드",
+  "k_hex": "00ff4c00ff6d00ffa900ffce0000ff9100ff66",
+  "limit": 16,
+  "k_ko_auto": "그레이트 소드",
+  "hex": "00 ff 4c 00 ff 6d 00 ff a9 00 ff ce 00 00 ff 91 00 ff 66 ff 00",
+  "cells": 7
+ },
+ {
+  "id": "equip_128",
+  "cat": "equip",
+  "idx": [
+   128
+  ],
+  "va": "0x800DD020",
+  "len": 6,
+  "en": "Mace",
+  "refs": [
+   25500
+  ],
+  "engine": "A",
+  "ko": "메이스",
+  "k_ko": "메이스",
+  "k_hex": "00ff7800ffa900ff95",
+  "limit": 16,
+  "k_ko_auto": "메이스",
+  "hex": "00 ff 78 00 ff a9 00 ff 95 ff 00",
+  "cells": 3
+ },
+ {
+  "id": "equip_129",
+  "cat": "equip",
+  "idx": [
+   129
+  ],
+  "va": "0x800DD004",
+  "len": 13,
+  "en": "Morningstar",
+  "refs": [
+   25552
+  ],
+  "engine": "A",
+  "ko": "모닝 스타",
+  "k_ko": "모닝스타",
+  "k_hex": "00ff7a62ff5700ff9500ffc8",
+  "limit": 16,
+  "k_ko_auto": "모닝스타",
+  "hex": "00 ff 7a 62 ff 57 00 00 ff 95 00 ff c8 ff 00",
+  "cells": 5
+ },
+ {
+  "id": "equip_130",
+  "cat": "equip",
+  "idx": [
+   130
+  ],
+  "va": "0x800DCFE4",
+  "len": 10,
+  "en": "Holy rod",
+  "refs": [
+   25604
+  ],
+  "engine": "A",
+  "ko": "홀리 로드",
+  "k_ko": "홀리 로드",
+  "k_hex": "20ffdc00ff740000ff6f00ff66",
+  "limit": 16,
+  "k_ko_auto": "홀리 로드",
+  "hex": "20 ff dc 00 ff 74 00 00 ff 6f 00 ff 66 ff 00",
+  "cells": 5
+ },
+ {
+  "id": "equip_131",
+  "cat": "equip",
+  "idx": [
+   131
+  ],
+  "va": "0x800DCFC8",
+  "len": 12,
+  "en": "Star flail",
+  "refs": [
+   25656
+  ],
+  "engine": "A",
+  "ko": "스타 플레일",
+  "k_ko": "스타 플레일",
+  "k_hex": "00ff9500ffc80020ffd600ff6d20ffa9",
+  "limit": 16,
+  "k_ko_auto": "스타 플레일",
+  "hex": "00 ff 95 00 ff c8 00 20 ff d6 00 ff 6d 20 ff a9 ff 00",
+  "cells": 6
+ },
+ {
+  "id": "equip_132",
+  "cat": "equip",
+  "idx": [
+   132
+  ],
+  "va": "0x800DCFA0",
+  "len": 10,
+  "en": "Moon rod",
+  "refs": [
+   25708
+  ],
+  "engine": "A",
+  "ko": "문 로드",
+  "k_ko": "문 로드",
+  "k_hex": "1cff7c0000ff6f00ff66",
+  "limit": 16,
+  "k_ko_auto": "문 로드",
+  "hex": "1c ff 7c 00 00 ff 6f 00 ff 66 ff 00",
+  "cells": 4
+ },
+ {
+  "id": "equip_133",
+  "cat": "equip",
+  "idx": [
+   133
+  ],
+  "va": "0x800DCF7C",
+  "len": 9,
+  "en": "Chakram",
+  "refs": [
+   25760
+  ],
+  "engine": "A",
+  "ko": "차크람",
+  "k_ko": "차크람",
+  "k_hex": "00ffb600ffc63cff6a",
+  "limit": 16,
+  "k_ko_auto": "차크람",
+  "hex": "00 ff b6 00 ff c6 3c ff 6a ff 00",
+  "cells": 3
+ },
+ {
+  "id": "equip_134",
+  "cat": "equip",
+  "idx": [
+   134
+  ],
+  "va": "0x800DCF50",
+  "len": 16,
+  "en": "Fire boomerang",
+  "refs": [
+   25812
+  ],
+  "engine": "A",
+  "ko": "불꽃 부메랑",
+  "k_ko": "불꽃 부메랑",
+  "k_hex": "20ff8463fffd0000ff8400ff7862ff6a",
+  "limit": 16,
+  "k_ko_auto": "불꽃 부메랑",
+  "hex": "20 ff 84 63 ff fd 00 00 ff 84 00 ff 78 62 ff 6a ff 00",
+  "cells": 6
+ },
+ {
+  "id": "equip_135",
+  "cat": "equip",
+  "idx": [
+   135
+  ],
+  "va": "0x800DCF28",
+  "len": 11,
+  "en": "Iron ball",
+  "refs": [
+   25864
+  ],
+  "engine": "A",
+  "ko": "철구",
+  "k_ko": "철구",
+  "k_hex": "20ffb700ff49",
+  "limit": 16,
+  "k_ko_auto": "철구",
+  "hex": "20 ff b7 00 ff 49 ff 00",
+  "cells": 2
+ },
+ {
+  "id": "equip_136",
+  "cat": "equip",
+  "idx": [
+   136
+  ],
+  "va": "0x800DCEF8",
+  "len": 16,
+  "en": "Holbein dagger",
+  "refs": [
+   25916
+  ],
+  "engine": "A",
+  "ko": "재빠른 단도",
+  "k_ko": "재빠른 단도",
+  "k_hex": "00ffab00ff871cff73001cff5e00ff5c",
+  "limit": 16,
+  "k_ko_auto": "재빠른 단도",
+  "hex": "00 ff ab 00 ff 87 1c ff 73 00 1c ff 5e 00 ff 5c ff 00",
+  "cells": 6
+ },
+ {
+  "id": "equip_137",
+  "cat": "equip",
+  "idx": [
+   137
+  ],
+  "va": "0x800DCECC",
+  "len": 15,
+  "en": "Blue knuckles",
+  "refs": [
+   25968
+  ],
+  "engine": "A",
+  "ko": "블루 너클",
+  "k_ko": "블루 너클",
+  "k_hex": "20ff8500ff720000ff5120ffc6",
+  "limit": 16,
+  "k_ko_auto": "블루 너클",
+  "hex": "20 ff 85 00 ff 72 00 00 ff 51 20 ff c6 ff 00",
+  "cells": 5
+ },
+ {
+  "id": "equip_138",
+  "cat": "equip",
+  "idx": [
+   138
+  ],
+  "va": "0x800DCEA4",
+  "len": 10,
+  "en": "Dynamite",
+  "refs": [
+   26020
+  ],
+  "engine": "A",
+  "ko": "다이너마이트",
+  "k_ko": "다이너마이트",
+  "k_hex": "00ff5e00ffa900ff5100ff7500ffa900ffce",
+  "limit": 16,
+  "k_ko_auto": "다이너마이트",
+  "hex": "00 ff 5e 00 ff a9 00 ff 51 00 ff 75 00 ff a9 00 ff ce ff 00",
+  "cells": 6
+ },
+ {
+  "id": "equip_139",
+  "cat": "equip",
+  "idx": [
+   139
+  ],
+  "va": "0x800DCE70",
+  "len": 16,
+  "en": "Osafune katana",
+  "refs": [
+   26072
+  ],
+  "engine": "A",
+  "ko": "비젠 오사후네",
+  "k_ko": "비젠 오사후네",
+  "k_hex": "00ff861cffad0000ff9e00ff8a00ffec00fffe",
+  "limit": 16,
+  "k_ko_auto": "비젠 오사후네",
+  "hex": "00 ff 86 1c ff ad 00 00 ff 9e 00 ff 8a 00 ff ec 00 ff fe ff 00",
+  "cells": 7
+ },
+ {
+  "id": "equip_140",
+  "cat": "equip",
+  "idx": [
+   140
+  ],
+  "va": "0x800DCE40",
+  "len": 10,
+  "en": "Masamune",
+  "refs": [
+   26124
+  ],
+  "engine": "A",
+  "ko": "마사무네",
+  "k_ko": "마사무네",
+  "k_hex": "00ff7500ff8a00ff7c00fffe",
+  "limit": 16,
+  "k_ko_auto": "마사무네",
+  "hex": "00 ff 75 00 ff 8a 00 ff 7c 00 ff fe ff 00",
+  "cells": 4
+ },
+ {
+  "id": "equip_141",
+  "cat": "equip",
+  "idx": [
+   141
+  ],
+  "va": "0x800DCE10",
+  "len": 10,
+  "en": "Muramasa",
+  "refs": [
+   26176
+  ],
+  "engine": "A",
+  "ko": "요도 무라마사",
+  "k_ko": "요도 무라마사",
+  "k_hex": "00ffa100ff5c0000ff7c00ff6a00ff7500ff8a",
+  "limit": 16,
+  "k_ko_auto": "요도 무라마사",
+  "hex": "00 ff a1 00 ff 5c 00 00 ff 7c 00 ff 6a 00 ff 75 00 ff 8a ff 00",
+  "cells": 7
+ },
+ {
+  "id": "equip_142",
+  "cat": "equip",
+  "idx": [
+   142
+  ],
+  "va": "0x800DCDE0",
+  "len": 15,
+  "en": "Heart Refresh",
+  "refs": [
+   26228
+  ],
+  "engine": "A",
+  "ko": "하트 리페어",
+  "k_ko": "하트 리페어",
+  "k_hex": "00ffd800ffce0000ff7400ffd300ff9b",
+  "limit": 16,
+  "k_ko_auto": "하트 리페어",
+  "hex": "00 ff d8 00 ff ce 00 00 ff 74 00 ff d3 00 ff 9b ff 00",
+  "cells": 6
+ },
+ {
+  "id": "equip_143",
+  "cat": "equip",
+  "idx": [
+   143
+  ],
+  "va": "0x800DCDB4",
+  "len": 11,
+  "en": "Runesword",
+  "refs": [
+   26280
+  ],
+  "engine": "A",
+  "ko": "헤븐즈 룬",
+  "k_ko": "헤븐즈 룬",
+  "k_hex": "00ffdb1cff8500ffb3001cff72",
+  "limit": 16,
+  "k_ko_auto": "헤븐즈 룬",
+  "hex": "00 ff db 1c ff 85 00 ff b3 00 1c ff 72 ff 00",
+  "cells": 5
+ },
+ {
+  "id": "equip_144",
+  "cat": "equip",
+  "idx": [
+   144
+  ],
+  "va": "0x800DCD88",
+  "len": 11,
+  "en": "Antivenom",
+  "refs": [
+   26332
+  ],
+  "engine": "A",
+  "ko": "세럼",
+  "k_ko": "세이람",
+  "k_hex": "00ff8e00ffa93cff6a",
+  "limit": 16,
+  "k_ko_auto": "세이람",
+  "hex": "00 ff 8e 3c ff 6c ff 00",
+  "cells": 2
+ },
+ {
+  "id": "equip_145",
+  "cat": "equip",
+  "idx": [
+   145
+  ],
+  "va": "0x800DCD60",
+  "len": 9,
+  "en": "Uncurse",
+  "refs": [
+   26384
+  ],
+  "engine": "A",
+  "ko": "언커스",
+  "k_ko": "언커스",
+  "k_hex": "1cff9b00ffc000ff95",
+  "limit": 16,
+  "k_ko_auto": "언커스",
+  "hex": "1c ff 9b 00 ff c0 00 ff 95 ff 00",
+  "cells": 3
+ },
+ {
+  "id": "equip_146",
+  "cat": "equip",
+  "idx": [
+   146
+  ],
+  "va": "0x800DCD3C",
+  "len": 12,
+  "en": "Life apple",
+  "refs": [
+   26436
+  ],
+  "engine": "A",
+  "ko": "생명의 영약",
+  "k_ko": "생명의 영약",
+  "k_hex": "62ff8b62ff7900ffa80062ff9d0aff9a",
+  "limit": 16,
+  "k_ko_auto": "생명의 영약",
+  "hex": "62 ff 8b 62 ff 79 00 ff a8 00 62 ff 9d 0a ff 9a ff 00",
+  "cells": 6
+ },
+ {
+  "id": "equip_147",
+  "cat": "equip",
+  "idx": [
+   147
+  ],
+  "va": "0x800DCD18",
+  "len": 8,
+  "en": "Hammer",
+  "refs": [
+   26488
+  ],
+  "engine": "A",
+  "ko": "해머",
+  "k_ko": "해머",
+  "k_hex": "00ffd900ff77",
+  "limit": 16,
+  "k_ko_auto": "해머",
+  "hex": "00 ff d9 00 ff 77 ff 00",
+  "cells": 2
+ },
+ {
+  "id": "equip_148",
+  "cat": "equip",
+  "idx": [
+   148
+  ],
+  "va": "0x800DCCE8",
+  "len": 13,
+  "en": "Str. potion",
+  "refs": [
+   26540
+  ],
+  "engine": "A",
+  "ko": "힘의 약",
+  "k_ko": "힘의 약",
+  "k_hex": "3cffef00ffa8000aff9a",
+  "limit": 16,
+  "k_ko_auto": "힘의 약",
+  "hex": "3c ff ef 00 ff a8 00 0a ff 9a ff 00",
+  "cells": 4
+ },
+ {
+  "id": "equip_149",
+  "cat": "equip",
+  "idx": [
+   149
+  ],
+  "va": "0x800DCCB8",
+  "len": 13,
+  "en": "Luck potion",
+  "refs": [
+   26592
+  ],
+  "engine": "A",
+  "ko": "럭키 드럭",
+  "k_ko": "럭키 드러그",
+  "k_hex": "0aff6c00ffc70000ff6600ff6c00ff4c",
+  "limit": 16,
+  "k_ko_auto": "럭키 드러그",
+  "hex": "0a ff 6c 00 ff c7 00 00 ff 66 0a ff 6c ff 00",
+  "cells": 5
+ },
+ {
+  "id": "equip_150",
+  "cat": "equip",
+  "idx": [
+   150
+  ],
+  "va": "0x800DCC88",
+  "len": 14,
+  "en": "Smart potion",
+  "refs": [
+   26644
+  ],
+  "engine": "A",
+  "ko": "지력의 약",
+  "k_ko": "지력의 약",
+  "k_hex": "00ffb40aff6e00ffa8000aff9a",
+  "limit": 16,
+  "k_ko_auto": "지력의 약",
+  "hex": "00 ff b4 0a ff 6e 00 ff a8 00 0a ff 9a ff 00",
+  "cells": 5
+ },
+ {
+  "id": "equip_151",
+  "cat": "equip",
+  "idx": [
+   151
+  ],
+  "va": "0x800DCC58",
+  "len": 15,
+  "en": "Attack potion",
+  "refs": [
+   26696
+  ],
+  "engine": "A",
+  "ko": "어택 포션",
+  "k_ko": "어택 포션",
+  "k_hex": "00ff9b0affc90000ffd41cff8f",
+  "limit": 16,
+  "k_ko_auto": "어택 포션",
+  "hex": "00 ff 9b 0a ff c9 00 00 ff d4 1c ff 8f ff 00",
+  "cells": 5
+ },
+ {
+  "id": "equip_152",
+  "cat": "equip",
+  "idx": [
+   152
+  ],
+  "va": "0x800DCC28",
+  "len": 15,
+  "en": "Shield potion",
+  "refs": [
+   26748
+  ],
+  "engine": "A",
+  "ko": "실드 포션",
+  "k_ko": "실드 포션",
+  "k_hex": "20ff9600ff660000ffd41cff8f",
+  "limit": 16,
+  "k_ko_auto": "실드 포션",
+  "hex": "20 ff 96 00 ff 66 00 00 ff d4 1c ff 8f ff 00",
+  "cells": 5
+ },
+ {
+  "id": "equip_153",
+  "cat": "equip",
+  "idx": [
+   153
+  ],
+  "va": "0x800DCBF8",
+  "len": 13,
+  "en": "Resist fire",
+  "refs": [
+   26800
+  ],
+  "engine": "A",
+  "ko": "레지스트 파이어",
+  "k_ko": "레지스트 파이어",
+  "k_hex": "00ff6d00ffb400ff9500ffce0000ffd000ffa900ff9b",
+  "limit": 16,
+  "k_ko_auto": "레지스트 파이어",
+  "hex": "00 ff 6d 00 ff b4 00 ff 95 00 ff ce 00 00 ff d0 00 ff a9 00 ff 9b ff 00",
+  "cells": 8
+ },
+ {
+  "id": "equip_154",
+  "cat": "equip",
+  "idx": [
+   154
+  ],
+  "va": "0x800DCBC4",
+  "len": 16,
+  "en": "Resist thunder",
+  "refs": [
+   26852
+  ],
+  "engine": "A",
+  "ko": "레지스트 선더",
+  "k_ko": "레지스트 선더",
+  "k_hex": "00ff6d00ffb400ff9500ffce001cff8d00ff5a",
+  "limit": 16,
+  "k_ko_auto": "레지스트 선더",
+  "hex": "00 ff 6d 00 ff b4 00 ff 95 00 ff ce 00 1c ff 8d 00 ff 5a ff 00",
+  "cells": 7
+ },
+ {
+  "id": "equip_155",
+  "cat": "equip",
+  "idx": [
+   155
+  ],
+  "va": "0x800DCB94",
+  "len": 13,
+  "en": "Resist ice ",
+  "refs": [
+   26904
+  ],
+  "engine": "A",
+  "ko": "레지스트 아이스",
+  "k_ko": "레지스트 아이스",
+  "k_hex": "00ff6d00ffb400ff9500ffce0000ff9800ffa900ff95",
+  "limit": 16,
+  "k_ko_auto": "레지스트 아이스",
+  "hex": "00 ff 6d 00 ff b4 00 ff 95 00 ff ce 00 00 ff 98 00 ff a9 00 ff 95 ff 00",
+  "cells": 8
+ },
+ {
+  "id": "equip_156",
+  "cat": "equip",
+  "idx": [
+   156
+  ],
+  "va": "0x800DCB64",
+  "len": 14,
+  "en": "Resist stone",
+  "refs": [
+   26956
+  ],
+  "engine": "A",
+  "ko": "레지스트 스톤",
+  "k_ko": "레지스트 스톤",
+  "k_hex": "00ff6d00ffb400ff9500ffce0000ff951cffcc",
+  "limit": 16,
+  "k_ko_auto": "레지스트 스톤",
+  "hex": "00 ff 6d 00 ff b4 00 ff 95 00 ff ce 00 00 ff 95 1c ff cc ff 00",
+  "cells": 7
+ },
+ {
+  "id": "equip_157",
+  "cat": "equip",
+  "idx": [
+   157
+  ],
+  "va": "0x800DCB38",
+  "len": 13,
+  "en": "Resist holy",
+  "refs": [
+   27008
+  ],
+  "engine": "A",
+  "ko": "레지스트 홀리",
+  "k_ko": "레지스트 홀리",
+  "k_hex": "00ff6d00ffb400ff9500ffce0020ffdc00ff74",
+  "limit": 16,
+  "k_ko_auto": "레지스트 홀리",
+  "hex": "00 ff 6d 00 ff b4 00 ff 95 00 ff ce 00 20 ff dc 00 ff 74 ff 00",
+  "cells": 7
+ },
+ {
+  "id": "equip_158",
+  "cat": "equip",
+  "idx": [
+   158
+  ],
+  "va": "0x800DCB0C",
+  "len": 13,
+  "en": "Resist dark",
+  "refs": [
+   27060
+  ],
+  "engine": "A",
+  "ko": "레지스트 다크",
+  "k_ko": "레지스트 다크",
+  "k_hex": "00ff6d00ffb400ff9500ffce0000ff5e00ffc6",
+  "limit": 16,
+  "k_ko_auto": "레지스트 다크",
+  "hex": "00 ff 6d 00 ff b4 00 ff 95 00 ff ce 00 00 ff 5e 00 ff c6 ff 00",
+  "cells": 7
+ },
+ {
+  "id": "equip_159",
+  "cat": "equip",
+  "idx": [
+   159
+  ],
+  "va": "0x800DCAE4",
+  "len": 8,
+  "en": "Potion",
+  "refs": [
+   27112
+  ],
+  "engine": "A",
+  "ko": "포션",
+  "k_ko": "포션",
+  "k_hex": "00ffd41cff8f",
+  "limit": 16,
+  "k_ko_auto": "포션",
+  "hex": "00 ff d4 1c ff 8f ff 00",
+  "cells": 2
+ },
+ {
+  "id": "equip_160",
+  "cat": "equip",
+  "idx": [
+   160
+  ],
+  "va": "0x800DCAB8",
+  "len": 13,
+  "en": "High potion",
+  "refs": [
+   27164
+  ],
+  "engine": "A",
+  "ko": "하이 포션",
+  "k_ko": "하이 포션",
+  "k_hex": "00ffd800ffa90000ffd41cff8f",
+  "limit": 16,
+  "k_ko_auto": "하이 포션",
+  "hex": "00 ff d8 00 ff a9 00 00 ff d4 1c ff 8f ff 00",
+  "cells": 5
+ },
+ {
+  "id": "equip_161",
+  "cat": "equip",
+  "idx": [
+   161
+  ],
+  "va": "0x800DCA90",
+  "len": 8,
+  "en": "Elixir",
+  "refs": [
+   27216
+  ],
+  "engine": "A",
+  "ko": "엑스 포션",
+  "k_ko": "엑스 포션",
+  "k_hex": "0aff9c00ff950000ffd41cff8f",
+  "limit": 16,
+  "k_ko_auto": "엑스 포션",
+  "hex": "0a ff 9c 00 ff 95 00 00 ff d4 1c ff 8f ff 00",
+  "cells": 5
+ },
+ {
+  "id": "equip_162",
+  "cat": "equip",
+  "idx": [
+   162
+  ],
+  "va": "0x800DCA68",
+  "len": 13,
+  "en": "Manna prism",
+  "refs": [
+   27268
+  ],
+  "engine": "A",
+  "ko": "마나 프리즘",
+  "k_ko": "마나 프리즘",
+  "k_hex": "00ff7500ff500000ffd600ff743cffb3",
+  "limit": 16,
+  "k_ko_auto": "마나 프리즘",
+  "hex": "00 ff 75 00 ff 50 00 00 ff d6 00 ff 74 3c ff b3 ff 00",
+  "cells": 6
+ },
+ {
+  "id": "equip_163",
+  "cat": "equip",
+  "idx": [
+   163
+  ],
+  "va": "0x800DCA40",
+  "len": 14,
+  "en": "Vorpal blade",
+  "refs": [
+   27320
+  ],
+  "engine": "A",
+  "ko": "소닉 블레이드",
+  "k_ko": "소닉 블레이드",
+  "k_hex": "00ff910aff570020ff8500ff6d00ffa900ff66",
+  "limit": 16,
+  "k_ko_auto": "소닉 블레이드",
+  "hex": "00 ff 91 0a ff 57 00 20 ff 85 00 ff 6d 00 ff a9 00 ff 66 ff 00",
+  "cells": 7
+ },
+ {
+  "id": "equip_164",
+  "cat": "equip",
+  "idx": [
+   164
+  ],
+  "va": "0x800DCA10",
+  "len": 13,
+  "en": "Crissaegrim",
+  "refs": [
+   27372
+  ],
+  "engine": "A",
+  "ko": "발만웨",
+  "k_ko": "발만웨",
+  "k_hex": "20ff7e1cff7500ffa4",
+  "limit": 16,
+  "k_ko_auto": "발만웨",
+  "hex": "20 ff 7e 1c ff 75 00 ff a4 ff 00",
+  "cells": 3
+ },
+ {
+  "id": "equip_165",
+  "cat": "equip",
+  "idx": [
+   165
+  ],
+  "va": "0x800DC9E8",
+  "len": 11,
+  "en": "Yasutsuna",
+  "refs": [
+   27424
+  ],
+  "engine": "A",
+  "ko": "야스츠나",
+  "k_ko": "야스츠나",
+  "k_hex": "00ff9a00ff9500ffbc00ff50",
+  "limit": 16,
+  "k_ko_auto": "야스츠나",
+  "hex": "00 ff 9a 00 ff 95 00 ff bc 00 ff 50 ff 00",
+  "cells": 4
+ },
+ {
+  "id": "equip_166",
+  "cat": "equip",
+  "idx": [
+   166
+  ],
+  "va": "0x800DC9B4",
+  "len": 14,
+  "en": "Library card",
+  "refs": [
+   27476
+  ],
+  "engine": "A",
+  "ko": "매지컬 티켓",
+  "k_ko": "매지컬 티켓",
+  "k_hex": "00ff7600ffb420ffc00000ffcf61ffc1",
+  "limit": 16,
+  "k_ko_auto": "매지컬 티켓",
+  "hex": "00 ff 76 00 ff b4 20 ff c0 00 00 ff cf 61 ff c1 ff 00",
+  "cells": 6
+ },
+ {
+  "id": "equip_167",
+  "cat": "equip",
+  "idx": [
+   167
+  ],
+  "va": "0x800DC984",
+  "len": 16,
+  "en": "Alucart shield",
+  "refs": [
+   27528
+  ],
+  "engine": "A",
+  "ko": "알카트 실드",
+  "k_ko": "알카트 실드",
+  "k_hex": "20ff9800ffbe00ffce0020ff9600ff66",
+  "limit": 16,
+  "k_ko_auto": "알카트 실드",
+  "hex": "20 ff 98 00 ff be 00 ff ce 00 20 ff 96 00 ff 66 ff 00",
+  "cells": 6
+ },
+ {
+  "id": "equip_168",
+  "cat": "equip",
+  "idx": [
+   168
+  ],
+  "va": "0x800DC95C",
+  "len": 15,
+  "en": "Alucart sword",
+  "refs": [
+   27580
+  ],
+  "engine": "A",
+  "ko": "알카트 소드",
+  "k_ko": "알카트 소드",
+  "k_hex": "20ff9800ffbe00ffce0000ff9100ff66",
+  "limit": 16,
+  "k_ko_auto": "알카트 소드",
+  "hex": "20 ff 98 00 ff be 00 ff ce 00 00 ff 91 00 ff 66 ff 00",
+  "cells": 6
+ },
+ {
+  "id": "equip_169",
+  "cat": "equip",
+  "idx": [
+   169
+  ],
+  "va": "0x800DC934",
+  "len": 13,
+  "en": "Smelly rice",
+  "refs": [
+   27632
+  ],
+  "engine": "A",
+  "ko": "상한 밥",
+  "limit": 16,
+  "k_ko_auto": "상한 밥",
+  "hex": "62 ff 8a 1c ff d8 00 3e ff 7e ff 00",
+  "cells": 4
+ },
+ {
+  "id": "equip_170",
+  "cat": "equip",
+  "idx": [
+   170
+  ],
+  "va": "0x800DC900",
+  "len": 16,
+  "en": "Delicious meal",
+  "refs": [
+   27684
+  ],
+  "engine": "A",
+  "ko": "맛있는 밥",
+  "limit": 16,
+  "k_ko_auto": "맛있는 식사",
+  "hex": "61 ff 75 fc ff a9 1c ff 56 00 3e ff 7e ff 00",
+  "cells": 5
+ },
+ {
+  "id": "equip_171",
+  "cat": "equip",
+  "idx": [
+   171
+  ],
+  "va": "0x800DC8D0",
+  "len": 14,
+  "en": "Signed board",
+  "refs": [
+   27736
+  ],
+  "engine": "A",
+  "ko": "사인 색지",
+  "limit": 16,
+  "k_ko_auto": "사인 색지",
+  "hex": "00 ff 8a 1c ff a9 00 0a ff 8b 00 ff b4 ff 00",
+  "cells": 5
+ },
+ {
+  "id": "equip_172",
+  "cat": "equip",
+  "idx": [
+   172
+  ],
+  "va": "0x800DC8B4",
+  "len": 15,
+  "en": "Alucard spear",
+  "refs": [
+   27788
+  ],
+  "engine": "A",
+  "ko": "알카드 스피어",
+  "limit": 16,
+  "k_ko_auto": "알카드 스피어",
+  "hex": "20 ff 98 00 ff be 00 ff 66 00 00 ff 95 00 ff d7 00 ff 9b ff 00",
+  "cells": 7
+ },
+ {
+  "id": "equip_173",
+  "cat": "equip",
+  "idx": [
+   173
+  ],
+  "va": "0x800DC888",
+  "len": 16,
+  "en": "Woodland shld.",
+  "refs": [
+   27840
+  ],
+  "engine": "A",
+  "ko": "우드랜드 실드",
+  "limit": 16,
+  "k_ko_auto": "우드랜드 실드",
+  "hex": "00 ff a2 00 ff 66 1c ff 6b 00 ff 66 00 20 ff 96 00 ff 66 ff 00",
+  "cells": 7
+ },
+ {
+  "id": "equip_174",
+  "cat": "equip",
+  "idx": [
+   174
+  ],
+  "va": "0x800DC854",
+  "len": 15,
+  "en": "Astral dagger",
+  "refs": [
+   27892
+  ],
+  "engine": "A",
+  "ko": "아스트랄 대거",
+  "limit": 16,
+  "k_ko_auto": "아스트랄 대거",
+  "hex": "00 ff 98 00 ff 95 00 ff ce 20 ff 6a 00 00 ff 59 00 ff 43 ff 00",
+  "cells": 7
+ },
+ {
+  "id": "equip_175",
+  "cat": "equip",
+  "idx": [
+   175
+  ],
+  "va": "0x800DC824",
+  "len": 16,
+  "en": "Double bl. axe",
+  "refs": [
+   27944
+  ],
+  "engine": "A",
+  "ko": "더블 블레이드 액스",
+  "limit": 16,
+  "k_ko_auto": "더블 액스",
+  "hex": "00 ff 5a 20 ff 85 00 20 ff 85 00 ff 6d 00 ff a9 00 ff 66 00 0a ff 99 00 ff 95 ff 00",
+  "cells": 10
+ },
+ {
+  "id": "acc_000",
+  "cat": "acc",
+  "idx": [
+   0,
+   26,
+   48,
+   57
+  ],
+  "va": "0x800DF230",
+  "len": 6,
+  "en": "----",
+  "refs": [
+   30700,
+   31532,
+   32236,
+   32524
+  ],
+  "engine": "A",
+  "ko": "----",
+  "k_ko": "----",
+  "k_hex": "0d0d0d0d",
+  "limit": 16,
+  "k_ko_auto": "----",
+  "hex": "0d 0d 0d 0d ff 00",
+  "cells": 4
+ },
+ {
+  "id": "acc_001",
+  "cat": "acc",
+  "idx": [
+   1
+  ],
+  "va": "0x800DF218",
+  "len": 13,
+  "en": "Cloth tunic",
+  "refs": [
+   30732
+  ],
+  "engine": "A",
+  "ko": "천옷",
+  "k_ko": "무명옷",
+  "k_hex": "00ff7c62ff7961ff9e",
+  "limit": 16,
+  "k_ko_auto": "무명옷",
+  "hex": "1c ff b7 61 ff 9e ff 00",
+  "cells": 2
+ },
+ {
+  "id": "acc_002",
+  "cat": "acc",
+  "idx": [
+   2
+  ],
+  "va": "0x800DF1F4",
+  "len": 14,
+  "en": "Hide cuirass",
+  "refs": [
+   30764
+  ],
+  "engine": "A",
+  "ko": "가죽 흉갑",
+  "k_ko": "가죽 가슴보호대",
+  "k_hex": "00ff400affb00000ff403cff9500ff8300ffdc00ff59",
+  "limit": 16,
+  "k_ko_auto": "가죽 가슴보호대",
+  "hex": "00 ff 40 0a ff b0 00 62 ff ed 3e ff 40 ff 00",
+  "cells": 5
+ },
+ {
+  "id": "acc_003",
+  "cat": "acc",
+  "idx": [
+   3
+  ],
+  "va": "0x800DF1CC",
+  "len": 16,
+  "en": "Bronze cuirass",
+  "refs": [
+   30796
+  ],
+  "engine": "A",
+  "ko": "구리 흉갑",
+  "k_ko": "청동 가슴보호대",
+  "k_hex": "62ffb762ff5c0000ff403cff9500ff8300ffdc00ff59",
+  "limit": 16,
+  "k_ko_auto": "청동 가슴보호대",
+  "hex": "00 ff 49 00 ff 74 00 62 ff ed 3e ff 40 ff 00",
+  "cells": 5
+ },
+ {
+  "id": "acc_004",
+  "cat": "acc",
+  "idx": [
+   4
+  ],
+  "va": "0x800DF1AC",
+  "len": 14,
+  "en": "Iron cuirass",
+  "refs": [
+   30828
+  ],
+  "engine": "A",
+  "ko": "철 흉갑",
+  "k_ko": "철 가슴보호대",
+  "k_hex": "20ffb70000ff403cff9500ff8300ffdc00ff59",
+  "limit": 16,
+  "k_ko_auto": "철 가슴보호대",
+  "hex": "20 ff b7 00 62 ff ed 3e ff 40 ff 00",
+  "cells": 4
+ },
+ {
+  "id": "acc_005",
+  "cat": "acc",
+  "idx": [
+   5
+  ],
+  "va": "0x800DF18C",
+  "len": 15,
+  "en": "Steel cuirass",
+  "refs": [
+   30860
+  ],
+  "engine": "A",
+  "ko": "강철 흉갑",
+  "k_ko": "강철 가슴보호대",
+  "k_hex": "62ff4020ffb70000ff403cff9500ff8300ffdc00ff59",
+  "limit": 16,
+  "k_ko_auto": "강철 가슴보호대",
+  "hex": "62 ff 40 20 ff b7 00 62 ff ed 3e ff 40 ff 00",
+  "cells": 5
+ },
+ {
+  "id": "acc_006",
+  "cat": "acc",
+  "idx": [
+   6
+  ],
+  "va": "0x800DF16C",
+  "len": 14,
+  "en": "Silver plate",
+  "refs": [
+   30892
+  ],
+  "engine": "A",
+  "ko": "실버 체스트",
+  "k_ko": "실버 체스트",
+  "k_hex": "20ff9600ff800000ffb800ff9500ffce",
+  "limit": 16,
+  "k_ko_auto": "실버 체스트",
+  "hex": "20 ff 96 00 ff 80 00 00 ff b8 00 ff 95 00 ff ce ff 00",
+  "cells": 6
+ },
+ {
+  "id": "acc_007",
+  "cat": "acc",
+  "idx": [
+   7
+  ],
+  "va": "0x800DF14C",
+  "len": 12,
+  "en": "Gold plate",
+  "refs": [
+   30924
+  ],
+  "engine": "A",
+  "ko": "골드 체스트",
+  "k_ko": "골드 체스트",
+  "k_hex": "20ff4600ff660000ffb800ff9500ffce",
+  "limit": 16,
+  "k_ko_auto": "골드 체스트",
+  "hex": "20 ff 46 00 ff 66 00 00 ff b8 00 ff 95 00 ff ce ff 00",
+  "cells": 6
+ },
+ {
+  "id": "acc_008",
+  "cat": "acc",
+  "idx": [
+   8
+  ],
+  "va": "0x800DF128",
+  "len": 15,
+  "en": "Platinum mail",
+  "refs": [
+   30956
+  ],
+  "engine": "A",
+  "ko": "플라티나 체스트",
+  "k_ko": "플래티넘 체스트",
+  "k_hex": "20ffd600ff6b00ffcf3cff510000ffb800ff9500ffce",
+  "limit": 16,
+  "k_ko_auto": "플래티넘 체스트",
+  "hex": "20 ff d6 00 ff 6a 00 ff cf 00 ff 50 00 00 ff b8 00 ff 95 00 ff ce ff 00",
+  "cells": 8
+ },
+ {
+  "id": "acc_009",
+  "cat": "acc",
+  "idx": [
+   9
+  ],
+  "va": "0x800DF100",
+  "len": 15,
+  "en": "Diamond plate",
+  "refs": [
+   30988
+  ],
+  "engine": "A",
+  "ko": "다이아 브레스트",
+  "k_ko": "다이아 브레스트",
+  "k_hex": "00ff5e00ffa900ff980000ff8500ff6d00ff9500ffce",
+  "limit": 16,
+  "k_ko_auto": "다이아 브레스트",
+  "hex": "00 ff 5e 00 ff a9 00 ff 98 00 00 ff 85 00 ff 6d 00 ff 95 00 ff ce ff 00",
+  "cells": 8
+ },
+ {
+  "id": "acc_010",
+  "cat": "acc",
+  "idx": [
+   10
+  ],
+  "va": "0x800DF0E0",
+  "len": 11,
+  "en": "Fire mail",
+  "refs": [
+   31020
+  ],
+  "engine": "A",
+  "ko": "불꽃 흉갑",
+  "k_ko": "화염 가슴보호대",
+  "k_hex": "00ffdd3cff9d0000ff403cff9500ff8300ffdc00ff59",
+  "limit": 16,
+  "k_ko_auto": "화염 가슴보호대",
+  "hex": "20 ff 84 63 ff fd 00 62 ff ed 3e ff 40 ff 00",
+  "cells": 5
+ },
+ {
+  "id": "acc_011",
+  "cat": "acc",
+  "idx": [
+   11
+  ],
+  "va": "0x800DF0B0",
+  "len": 16,
+  "en": "Lightning mail",
+  "refs": [
+   31052
+  ],
+  "engine": "A",
+  "ko": "번개 흉갑",
+  "k_ko": "번개 가슴보호대",
+  "k_hex": "1cff8000ff410000ff403cff9500ff8300ffdc00ff59",
+  "limit": 16,
+  "k_ko_auto": "번개 가슴보호대",
+  "hex": "1c ff 80 00 ff 41 00 62 ff ed 3e ff 40 ff 00",
+  "cells": 5
+ },
+ {
+  "id": "acc_012",
+  "cat": "acc",
+  "idx": [
+   12
+  ],
+  "va": "0x800DF084",
+  "len": 10,
+  "en": "Ice mail",
+  "refs": [
+   31084
+  ],
+  "engine": "A",
+  "ko": "얼음 흉갑",
+  "k_ko": "얼음 가슴보호대",
+  "k_hex": "20ff9b3cffa70000ff403cff9500ff8300ffdc00ff59",
+  "limit": 16,
+  "k_ko_auto": "얼음 가슴보호대",
+  "hex": "20 ff 9b 3c ff a7 00 62 ff ed 3e ff 40 ff 00",
+  "cells": 5
+ },
+ {
+  "id": "acc_013",
+  "cat": "acc",
+  "idx": [
+   13
+  ],
+  "va": "0x800DF054",
+  "len": 16,
+  "en": "Mirror cuirass",
+  "refs": [
+   31116
+  ],
+  "engine": "A",
+  "ko": "미러 퀴러스",
+  "k_ko": "거울 흉갑",
+  "k_hex": "00ff4320ffa20062ffed3eff40",
+  "limit": 16,
+  "k_ko_auto": "거울 흉갑",
+  "hex": "00 ff 7d 00 ff 6c 00 00 ff c4 00 ff 6c 00 ff 95 ff 00",
+  "cells": 6
+ },
+ {
+  "id": "acc_014",
+  "cat": "acc",
+  "idx": [
+   14
+  ],
+  "va": "0x800DF028",
+  "len": 15,
+  "en": "Spike Breaker",
+  "refs": [
+   31148
+  ],
+  "engine": "A",
+  "ko": "스파이크 브레이커",
+  "k_ko": "스파이크 브레이커",
+  "k_hex": "00ff9500ffd000ffa900ffc60000ff8500ff6d00ffa900ffc0",
+  "limit": 16,
+  "k_ko_auto": "스파이크 브레이커",
+  "hex": "00 ff 95 00 ff d0 00 ff a9 00 ff c6 00 00 ff 85 00 ff 6d 00 ff a9 00 ff c0 ff 00",
+  "cells": 9
+ },
+ {
+  "id": "acc_015",
+  "cat": "acc",
+  "idx": [
+   15
+  ],
+  "va": "0x800DF000",
+  "len": 14,
+  "en": "Alucard mail",
+  "refs": [
+   31180
+  ],
+  "engine": "A",
+  "ko": "알카드 메일",
+  "k_ko": "알카드 메일",
+  "k_hex": "20ff9800ffbe00ff660000ff7820ffa9",
+  "limit": 16,
+  "k_ko_auto": "알카드 메일",
+  "hex": "20 ff 98 00 ff be 00 ff 66 00 00 ff 78 20 ff a9 ff 00",
+  "cells": 6
+ },
+ {
+  "id": "acc_016",
+  "cat": "acc",
+  "idx": [
+   16
+  ],
+  "va": "0x800DEFD4",
+  "len": 12,
+  "en": "Dark armor",
+  "refs": [
+   31212
+  ],
+  "engine": "A",
+  "ko": "사악한 흉갑",
+  "k_ko": "사악한 가슴보호대",
+  "k_hex": "00ff8a0aff981cffd80000ff403cff9500ff8300ffdc00ff59",
+  "limit": 16,
+  "k_ko_auto": "사악한 가슴보호대",
+  "hex": "00 ff 8a 0a ff 98 1c ff d8 00 62 ff ed 3e ff 40 ff 00",
+  "cells": 6
+ },
+ {
+  "id": "acc_017",
+  "cat": "acc",
+  "idx": [
+   17
+  ],
+  "va": "0x800DEFA8",
+  "len": 14,
+  "en": "Healing mail",
+  "refs": [
+   31244
+  ],
+  "engine": "A",
+  "ko": "힐링 메일",
+  "k_ko": "힐링 메일",
+  "k_hex": "20ffef62ff740000ff7820ffa9",
+  "limit": 16,
+  "k_ko_auto": "힐링 메일",
+  "hex": "20 ff ef 62 ff 74 00 00 ff 78 20 ff a9 ff 00",
+  "cells": 5
+ },
+ {
+  "id": "acc_018",
+  "cat": "acc",
+  "idx": [
+   18
+  ],
+  "va": "0x800DEF80",
+  "len": 11,
+  "en": "Holy mail",
+  "refs": [
+   31276
+  ],
+  "engine": "A",
+  "ko": "성스러운 흉갑",
+  "k_ko": "성스러운 가슴보호대",
+  "k_hex": "62ff8d00ff9500ff6c1cffa20000ff403cff9500ff8300ffdc00ff59",
+  "limit": 16,
+  "k_ko_auto": "성스러운 가슴보호대",
+  "hex": "62 ff 8d 00 ff 95 00 ff 6c 1c ff a2 00 62 ff ed 3e ff 40 ff 00",
+  "cells": 7
+ },
+ {
+  "id": "acc_019",
+  "cat": "acc",
+  "idx": [
+   19
+  ],
+  "va": "0x800DEF58",
+  "len": 12,
+  "en": "Walk armor",
+  "refs": [
+   31308
+  ],
+  "engine": "A",
+  "ko": "워크 마스터",
+  "k_ko": "워크 마스터",
+  "k_hex": "00ffa300ffc60000ff7500ff9500ffca",
+  "limit": 16,
+  "k_ko_auto": "워크 마스터",
+  "hex": "00 ff a3 00 ff c6 00 00 ff 75 00 ff 95 00 ff ca ff 00",
+  "cells": 6
+ },
+ {
+  "id": "acc_020",
+  "cat": "acc",
+  "idx": [
+   20
+  ],
+  "va": "0x800DEF28",
+  "len": 16,
+  "en": "Brilliant mail",
+  "refs": [
+   31340
+  ],
+  "engine": "A",
+  "ko": "빛의 흉갑",
+  "k_ko": "빛의 가슴보호대",
+  "k_hex": "63ff8600ffa80000ff403cff9500ff8300ffdc00ff59",
+  "limit": 16,
+  "k_ko_auto": "빛의 가슴보호대",
+  "hex": "63 ff 86 00 ff a8 00 62 ff ed 3e ff 40 ff 00",
+  "cells": 5
+ },
+ {
+  "id": "acc_021",
+  "cat": "acc",
+  "idx": [
+   21
+  ],
+  "va": "0x800DEEFC",
+  "len": 11,
+  "en": "Mojo mail",
+  "refs": [
+   31372
+  ],
+  "engine": "A",
+  "ko": "어둠의 흉갑",
+  "k_ko": "어둠의 가슴보호대",
+  "k_hex": "00ff9b3cff5f00ffa80000ff403cff9500ff8300ffdc00ff59",
+  "limit": 16,
+  "k_ko_auto": "어둠의 가슴보호대",
+  "hex": "00 ff 9b 3c ff 5f 00 ff a8 00 62 ff ed 3e ff 40 ff 00",
+  "cells": 6
+ },
+ {
+  "id": "acc_022",
+  "cat": "acc",
+  "idx": [
+   22
+  ],
+  "va": "0x800DEED0",
+  "len": 12,
+  "en": "Fury plate",
+  "refs": [
+   31404
+  ],
+  "engine": "A",
+  "ko": "분노의 흉갑",
+  "k_ko": "분노의 가슴보호대",
+  "k_hex": "1cff8400ff5300ffa80000ff403cff9500ff8300ffdc00ff59",
+  "limit": 16,
+  "k_ko_auto": "분노의 가슴보호대",
+  "hex": "1c ff 84 00 ff 53 00 ff a8 00 62 ff ed 3e ff 40 ff 00",
+  "cells": 6
+ },
+ {
+  "id": "acc_023",
+  "cat": "acc",
+  "idx": [
+   23
+  ],
+  "va": "0x800DEEA0",
+  "len": 15,
+  "en": "Dracula tunic",
+  "refs": [
+   31436
+  ],
+  "engine": "A",
+  "ko": "드라큘라의 옷",
+  "k_ko": "드라큘라 옷",
+  "k_hex": "00ff6600ff6a20ffc500ff6a0061ff9e",
+  "limit": 16,
+  "k_ko_auto": "드라큘라 옷",
+  "hex": "00 ff 66 00 ff 6a 20 ff c5 00 ff 6a 00 ff a8 00 61 ff 9e ff 00",
+  "cells": 7
+ },
+ {
+  "id": "acc_024",
+  "cat": "acc",
+  "idx": [
+   24
+  ],
+  "va": "0x800DEE74",
+  "len": 12,
+  "en": "God's Garb",
+  "refs": [
+   31468
+  ],
+  "engine": "A",
+  "ko": "가브 오브 갓",
+  "k_ko": "가브 오브 갓",
+  "k_hex": "00ff4000ff850000ff9e00ff850061ff40",
+  "limit": 16,
+  "k_ko_auto": "가브 오브 갓",
+  "hex": "00 ff 40 00 ff 85 00 00 ff 9e 00 ff 85 00 61 ff 40 ff 00",
+  "cells": 7
+ },
+ {
+  "id": "acc_025",
+  "cat": "acc",
+  "idx": [
+   25
+  ],
+  "va": "0x800DEE4C",
+  "len": 16,
+  "en": "Axe Lord armor",
+  "refs": [
+   31500
+  ],
+  "engine": "A",
+  "ko": "액스 아머의 갑옷",
+  "k_ko": "엑스 아머의 갑옷",
+  "k_hex": "0aff9c00ff950000ff9800ff7700ffa8003eff4061ff9e",
+  "limit": 16,
+  "k_ko_auto": "엑스 아머의 갑옷",
+  "hex": "0a ff 99 00 ff 95 00 00 ff 98 00 ff 77 00 ff a8 00 3e ff 40 61 ff 9e ff 00",
+  "cells": 9
+ },
+ {
+  "id": "acc_027",
+  "cat": "acc",
+  "idx": [
+   27
+  ],
+  "va": "0x800DEE20",
+  "len": 12,
+  "en": "Sunglasses",
+  "refs": [
+   31564
+  ],
+  "engine": "A",
+  "ko": "안경",
+  "k_ko": "안경",
+  "k_hex": "1cff9862ff45",
+  "limit": 16,
+  "k_ko_auto": "안경",
+  "hex": "1c ff 98 62 ff 45 ff 00",
+  "cells": 2
+ },
+ {
+  "id": "acc_028",
+  "cat": "acc",
+  "idx": [
+   28
+  ],
+  "va": "0x800DEDF8",
+  "len": 15,
+  "en": "Ballroom mask",
+  "refs": [
+   31596
+  ],
+  "engine": "A",
+  "ko": "댄스 마스크",
+  "k_ko": "댄스 마스크",
+  "k_hex": "1cff5900ff950000ff7500ff9500ffc6",
+  "limit": 16,
+  "k_ko_auto": "댄스 마스크",
+  "hex": "1c ff 59 00 ff 95 00 00 ff 75 00 ff 95 00 ff c6 ff 00",
+  "cells": 6
+ },
+ {
+  "id": "acc_029",
+  "cat": "acc",
+  "idx": [
+   29
+  ],
+  "va": "0x800DEDD8",
+  "len": 10,
+  "en": "Bandanna",
+  "refs": [
+   31628
+  ],
+  "engine": "A",
+  "ko": "반다나",
+  "k_ko": "반다나",
+  "k_hex": "1cff7e00ff5e00ff50",
+  "limit": 16,
+  "k_ko_auto": "반다나",
+  "hex": "1c ff 7e 00 ff 5e 00 ff 50 ff 00",
+  "cells": 3
+ },
+ {
+  "id": "acc_030",
+  "cat": "acc",
+  "idx": [
+   30
+  ],
+  "va": "0x800DEDAC",
+  "len": 10,
+  "en": "Felt hat",
+  "refs": [
+   31660
+  ],
+  "engine": "A",
+  "ko": "펠트 모자",
+  "k_ko": "펠트 모자",
+  "k_hex": "20ffd300ffce0000ff7a00ffaa",
+  "limit": 16,
+  "k_ko_auto": "펠트 모자",
+  "hex": "20 ff d3 00 ff ce 00 00 ff 7a 00 ff aa ff 00",
+  "cells": 5
+ },
+ {
+  "id": "acc_031",
+  "cat": "acc",
+  "idx": [
+   31
+  ],
+  "va": "0x800DED94",
+  "len": 12,
+  "en": "Velvet hat",
+  "refs": [
+   31692
+  ],
+  "engine": "A",
+  "ko": "벨벳 모자",
+  "k_ko": "비로도 모자",
+  "k_hex": "00ff8600ff6f00ff5c0000ff7a00ffaa",
+  "limit": 16,
+  "k_ko_auto": "비로도 모자",
+  "hex": "20 ff 81 61 ff 81 00 00 ff 7a 00 ff aa ff 00",
+  "cells": 5
+ },
+ {
+  "id": "acc_032",
+  "cat": "acc",
+  "idx": [
+   32
+  ],
+  "va": "0x800DED7C",
+  "len": 9,
+  "en": "Goggles",
+  "refs": [
+   31724
+  ],
+  "engine": "A",
+  "ko": "고글",
+  "k_ko": "고글",
+  "k_hex": "00ff4620ff4c",
+  "limit": 16,
+  "k_ko_auto": "고글",
+  "hex": "00 ff 46 20 ff 4c ff 00",
+  "cells": 2
+ },
+ {
+  "id": "acc_033",
+  "cat": "acc",
+  "idx": [
+   33
+  ],
+  "va": "0x800DED50",
+  "len": 13,
+  "en": "Leather hat",
+  "refs": [
+   31756
+  ],
+  "engine": "A",
+  "ko": "가죽 모자",
+  "k_ko": "가죽 모자",
+  "k_hex": "00ff400affb00000ff7a00ffaa",
+  "limit": 16,
+  "k_ko_auto": "가죽 모자",
+  "hex": "00 ff 40 0a ff b0 00 00 ff 7a 00 ff aa ff 00",
+  "cells": 5
+ },
+ {
+  "id": "acc_034",
+  "cat": "acc",
+  "idx": [
+   34
+  ],
+  "va": "0x800DED2C",
+  "len": 14,
+  "en": "Holy glasses",
+  "refs": [
+   31788
+  ],
+  "engine": "A",
+  "ko": "성스러운 안경",
+  "k_ko": "성스러운 안경",
+  "k_hex": "62ff8d00ff9500ff6c1cffa2001cff9862ff45",
+  "limit": 16,
+  "k_ko_auto": "성스러운 안경",
+  "hex": "62 ff 8d 00 ff 95 00 ff 6c 1c ff a2 00 1c ff 98 62 ff 45 ff 00",
+  "cells": 7
+ },
+ {
+  "id": "acc_035",
+  "cat": "acc",
+  "idx": [
+   35
+  ],
+  "va": "0x800DED04",
+  "len": 12,
+  "en": "Steel helm",
+  "refs": [
+   31820
+  ],
+  "engine": "A",
+  "ko": "여행자 모자",
+  "k_ko": "여행 모자",
+  "k_hex": "00ff9d62ffd90000ff7a00ffaa",
+  "limit": 16,
+  "k_ko_auto": "여행 모자",
+  "hex": "00 ff 9d 62 ff d9 00 ff aa 00 00 ff 7a 00 ff aa ff 00",
+  "cells": 6
+ },
+ {
+  "id": "acc_036",
+  "cat": "acc",
+  "idx": [
+   36
+  ],
+  "va": "0x800DECDC",
+  "len": 12,
+  "en": "Stone mask",
+  "refs": [
+   31852
+  ],
+  "engine": "A",
+  "ko": "돌가면",
+  "k_ko": "돌가면",
+  "k_hex": "20ff5c00ff401cff79",
+  "limit": 16,
+  "k_ko_auto": "돌가면",
+  "hex": "20 ff 5c 00 ff 40 1c ff 79 ff 00",
+  "cells": 3
+ },
+ {
+  "id": "acc_037",
+  "cat": "acc",
+  "idx": [
+   37
+  ],
+  "va": "0x800DECB0",
+  "len": 9,
+  "en": "Circlet",
+  "refs": [
+   31884
+  ],
+  "engine": "A",
+  "ko": "서클릿",
+  "k_ko": "서클릿",
+  "k_hex": "00ff8d20ffc661ff74",
+  "limit": 16,
+  "k_ko_auto": "서클릿",
+  "hex": "00 ff 8d 20 ff c6 61 ff 74 ff 00",
+  "cells": 3
+ },
+ {
+  "id": "acc_038",
+  "cat": "acc",
+  "idx": [
+   38
+  ],
+  "va": "0x800DEC98",
+  "len": 14,
+  "en": "Gold circlet",
+  "refs": [
+   31916
+  ],
+  "engine": "A",
+  "ko": "은 서클릿",
+  "k_ko": "은 서클릿",
+  "k_hex": "1cffa70000ff8d20ffc661ff74",
+  "limit": 16,
+  "k_ko_auto": "은 서클릿",
+  "hex": "1c ff a7 00 00 ff 8d 20 ff c6 61 ff 74 ff 00",
+  "cells": 5
+ },
+ {
+  "id": "acc_039",
+  "cat": "acc",
+  "idx": [
+   39
+  ],
+  "va": "0x800DEC6C",
+  "len": 14,
+  "en": "Ruby circlet",
+  "refs": [
+   31948
+  ],
+  "engine": "A",
+  "ko": "홍옥석 서클릿",
+  "k_ko": "홍옥석 서클릿",
+  "k_hex": "62ffdc0aff9e0aff8d0000ff8d20ffc661ff74",
+  "limit": 16,
+  "k_ko_auto": "홍옥석 서클릿",
+  "hex": "62 ff dc 0a ff 9e 0a ff 8d 00 00 ff 8d 20 ff c6 61 ff 74 ff 00",
+  "cells": 7
+ },
+ {
+  "id": "acc_040",
+  "cat": "acc",
+  "idx": [
+   40
+  ],
+  "va": "0x800DEC40",
+  "len": 14,
+  "en": "Opal circlet",
+  "refs": [
+   31980
+  ],
+  "engine": "A",
+  "ko": "청옥석 서클릿",
+  "k_ko": "청옥석 서클릿",
+  "k_hex": "62ffb70aff9e0aff8d0000ff8d20ffc661ff74",
+  "limit": 16,
+  "k_ko_auto": "청옥석 서클릿",
+  "hex": "62 ff b7 0a ff 9e 0a ff 8d 00 00 ff 8d 20 ff c6 61 ff 74 ff 00",
+  "cells": 7
+ },
+ {
+  "id": "acc_041",
+  "cat": "acc",
+  "idx": [
+   41
+  ],
+  "va": "0x800DEC14",
+  "len": 15,
+  "en": "Topaz circlet",
+  "refs": [
+   32012
+  ],
+  "engine": "A",
+  "ko": "황옥석 서클릿",
+  "k_ko": "황옥석 서클릿",
+  "k_hex": "62ffdd0aff9e0aff8d0000ff8d20ffc661ff74",
+  "limit": 16,
+  "k_ko_auto": "황옥석 서클릿",
+  "hex": "62 ff dd 0a ff 9e 0a ff 8d 00 00 ff 8d 20 ff c6 61 ff 74 ff 00",
+  "cells": 7
+ },
+ {
+  "id": "acc_042",
+  "cat": "acc",
+  "idx": [
+   42
+  ],
+  "va": "0x800DEBE4",
+  "len": 15,
+  "en": "Beryl circlet",
+  "refs": [
+   32044
+  ],
+  "engine": "A",
+  "ko": "녹주석 서클릿",
+  "k_ko": "녹주석 서클릿",
+  "k_hex": "0aff5300ffb00aff8d0000ff8d20ffc661ff74",
+  "limit": 16,
+  "k_ko_auto": "녹주석 서클릿",
+  "hex": "0a ff 53 00 ff b0 0a ff 8d 00 00 ff 8d 20 ff c6 61 ff 74 ff 00",
+  "cells": 7
+ },
+ {
+  "id": "acc_043",
+  "cat": "acc",
+  "idx": [
+   43
+  ],
+  "va": "0x800DEBB4",
+  "len": 16,
+  "en": "Cat-eye circl.",
+  "refs": [
+   32076
+  ],
+  "engine": "A",
+  "ko": "묘안석 서클릿",
+  "k_ko": "묘안석 서클릿",
+  "k_hex": "00ff7b1cff980aff8d0000ff8d20ffc661ff74",
+  "limit": 16,
+  "k_ko_auto": "묘안석 서클릿",
+  "hex": "00 ff 7b 1c ff 98 0a ff 8d 00 00 ff 8d 20 ff c6 61 ff 74 ff 00",
+  "cells": 7
+ },
+ {
+  "id": "acc_044",
+  "cat": "acc",
+  "idx": [
+   44
+  ],
+  "va": "0x800DEB84",
+  "len": 16,
+  "en": "Coral circlet ",
+  "refs": [
+   32108
+  ],
+  "engine": "A",
+  "ko": "산호 서클릿",
+  "k_ko": "산호 서클릿",
+  "k_hex": "1cff8a00ffdc0000ff8d20ffc661ff74",
+  "limit": 16,
+  "k_ko_auto": "산호 서클릿",
+  "hex": "1c ff 8a 00 ff dc 00 00 ff 8d 20 ff c6 61 ff 74 ff 00",
+  "cells": 6
+ },
+ {
+  "id": "acc_045",
+  "cat": "acc",
+  "idx": [
+   45
+  ],
+  "va": "0x800DEB60",
+  "len": 13,
+  "en": "Dragon helm",
+  "refs": [
+   32140
+  ],
+  "engine": "A",
+  "ko": "에길의 투구",
+  "k_ko": "에길의 투구",
+  "k_hex": "00ff9c20ff4d00ffa80000ffcd00ff49",
+  "limit": 16,
+  "k_ko_auto": "에길의 투구",
+  "hex": "00 ff 9c 20 ff 4d 00 ff a8 00 00 ff cd 00 ff 49 ff 00",
+  "cells": 6
+ },
+ {
+  "id": "acc_046",
+  "cat": "acc",
+  "idx": [
+   46
+  ],
+  "va": "0x800DEB30",
+  "len": 14,
+  "en": "Silver crown",
+  "refs": [
+   32172
+  ],
+  "engine": "A",
+  "ko": "실버 티아라",
+  "k_ko": "실버 티아라",
+  "k_hex": "20ff9600ff800000ffcf00ff9800ff6a",
+  "limit": 16,
+  "k_ko_auto": "실버 티아라",
+  "hex": "20 ff 96 00 ff 80 00 00 ff cf 00 ff 98 00 ff 6a ff 00",
+  "cells": 6
+ },
+ {
+  "id": "acc_047",
+  "cat": "acc",
+  "idx": [
+   47
+  ],
+  "va": "0x800DEB0C",
+  "len": 12,
+  "en": "Wizard hat",
+  "refs": [
+   32204
+  ],
+  "engine": "A",
+  "ko": "와이드 브림 햇",
+  "k_ko": "와이드 브림 햇",
+  "k_hex": "00ff9f00ffa900ff660000ff853cff740061ffd9",
+  "limit": 16,
+  "k_ko_auto": "와이드 브림 햇",
+  "hex": "00 ff 9f 00 ff a9 00 ff 66 00 00 ff 85 3c ff 74 00 61 ff d9 ff 00",
+  "cells": 8
+ },
+ {
+  "id": "acc_049",
+  "cat": "acc",
+  "idx": [
+   49
+  ],
+  "va": "0x800DEAE0",
+  "len": 12,
+  "en": "Cloth cape",
+  "refs": [
+   32268
+  ],
+  "engine": "A",
+  "ko": "천 망토",
+  "k_ko": "무명 망토",
+  "k_hex": "00ff7c62ff790062ff7500ffcc",
+  "limit": 16,
+  "k_ko_auto": "무명 망토",
+  "hex": "1c ff b7 00 62 ff 75 00 ff cc ff 00",
+  "cells": 4
+ },
+ {
+  "id": "acc_050",
+  "cat": "acc",
+  "idx": [
+   50
+  ],
+  "va": "0x800DEAB0",
+  "len": 15,
+  "en": "Reverse cloak",
+  "refs": [
+   32300
+  ],
+  "engine": "A",
+  "ko": "리버시블 망토",
+  "k_ko": "리버시블 망토",
+  "k_hex": "00ff7400ff8000ff9620ff850062ff7500ffcc",
+  "limit": 16,
+  "k_ko_auto": "리버시블 망토",
+  "hex": "00 ff 74 00 ff 80 00 ff 96 20 ff 85 00 62 ff 75 00 ff cc ff 00",
+  "cells": 7
+ },
+ {
+  "id": "acc_051",
+  "cat": "acc",
+  "idx": [
+   51
+  ],
+  "va": "0x800DEA80",
+  "len": 13,
+  "en": "Elven cloak",
+  "refs": [
+   32332
+  ],
+  "engine": "A",
+  "ko": "엘프의 로브",
+  "k_ko": "엘프 로브",
+  "k_hex": "20ff9c00ffd60000ff6f00ff85",
+  "limit": 16,
+  "k_ko_auto": "엘프 로브",
+  "hex": "20 ff 9c 00 ff d6 00 ff a8 00 00 ff 6f 00 ff 85 ff 00",
+  "cells": 6
+ },
+ {
+  "id": "acc_052",
+  "cat": "acc",
+  "idx": [
+   52
+  ],
+  "va": "0x800DEA50",
+  "len": 15,
+  "en": "Crystal cloak",
+  "refs": [
+   32364
+  ],
+  "engine": "A",
+  "ko": "인비저블",
+  "k_ko": "인비저블",
+  "k_hex": "1cffa900ff8600ffac20ff85",
+  "limit": 16,
+  "k_ko_auto": "인비저블",
+  "hex": "1c ff a9 00 ff 86 00 ff ac 20 ff 85 ff 00",
+  "cells": 4
+ },
+ {
+  "id": "acc_053",
+  "cat": "acc",
+  "idx": [
+   53
+  ],
+  "va": "0x800DEA20",
+  "len": 13,
+  "en": "Royal cloak",
+  "refs": [
+   32396
+  ],
+  "engine": "A",
+  "ko": "블루 망토",
+  "k_ko": "블루 망토",
+  "k_hex": "20ff8500ff720062ff7500ffcc",
+  "limit": 16,
+  "k_ko_auto": "블루 망토",
+  "hex": "20 ff 85 00 ff 72 00 62 ff 75 00 ff cc ff 00",
+  "cells": 5
+ },
+ {
+  "id": "acc_054",
+  "cat": "acc",
+  "idx": [
+   54
+  ],
+  "va": "0x800DE9FC",
+  "len": 13,
+  "en": "Blood cloak",
+  "refs": [
+   32428
+  ],
+  "engine": "A",
+  "ko": "피로 물든 망토",
+  "k_ko": "피로 물든 망토",
+  "k_hex": "00ffd700ff6f0020ff7c1cff660062ff7500ffcc",
+  "limit": 16,
+  "k_ko_auto": "피로 물든 망토",
+  "hex": "00 ff d7 00 ff 6f 00 20 ff 7c 1c ff 66 00 62 ff 75 00 ff cc ff 00",
+  "cells": 8
+ },
+ {
+  "id": "acc_055",
+  "cat": "acc",
+  "idx": [
+   55
+  ],
+  "va": "0x800DE9D0",
+  "len": 16,
+  "en": "Joseph's cloak",
+  "refs": [
+   32460
+  ],
+  "engine": "A",
+  "ko": "오더메이드",
+  "k_ko": "오더 메이드",
+  "k_hex": "00ff9e00ff5a0000ff7800ffa900ff66",
+  "limit": 16,
+  "k_ko_auto": "오더 메이드",
+  "hex": "00 ff 9e 00 ff 5a 00 ff 78 00 ff a9 00 ff 66 ff 00",
+  "cells": 5
+ },
+ {
+  "id": "acc_056",
+  "cat": "acc",
+  "idx": [
+   56
+  ],
+  "va": "0x800DE9A0",
+  "len": 16,
+  "en": "Twilight cloak",
+  "refs": [
+   32492
+  ],
+  "engine": "A",
+  "ko": "칠흑의 망토",
+  "k_ko": "칠흑의 망토",
+  "k_hex": "20ffbd0affee00ffa80062ff7500ffcc",
+  "limit": 16,
+  "k_ko_auto": "칠흑의 망토",
+  "hex": "20 ff bd 0a ff ee 00 ff a8 00 62 ff 75 00 ff cc ff 00",
+  "cells": 6
+ },
+ {
+  "id": "acc_058",
+  "cat": "acc",
+  "idx": [
+   58
+  ],
+  "va": "0x800DE97C",
+  "len": 11,
+  "en": "Moonstone",
+  "refs": [
+   32556
+  ],
+  "engine": "A",
+  "ko": "문스톤",
+  "k_ko": "문 스톤",
+  "k_hex": "1cff7c0000ff951cffcc",
+  "limit": 16,
+  "k_ko_auto": "문 스톤",
+  "hex": "1c ff 7c 00 ff 95 1c ff cc ff 00",
+  "cells": 3
+ },
+ {
+  "id": "acc_059",
+  "cat": "acc",
+  "idx": [
+   59
+  ],
+  "va": "0x800DE950",
+  "len": 10,
+  "en": "Sunstone",
+  "refs": [
+   32588
+  ],
+  "engine": "A",
+  "ko": "선스톤",
+  "k_ko": "선 스톤",
+  "k_hex": "1cff8d0000ff951cffcc",
+  "limit": 16,
+  "k_ko_auto": "선 스톤",
+  "hex": "1c ff 8d 00 ff 95 1c ff cc ff 00",
+  "cells": 3
+ },
+ {
+  "id": "acc_060",
+  "cat": "acc",
+  "idx": [
+   60
+  ],
+  "va": "0x800DE924",
+  "len": 12,
+  "en": "Bloodstone",
+  "refs": [
+   32620
+  ],
+  "engine": "A",
+  "ko": "블러드스톤",
+  "k_ko": "블러드 스톤",
+  "k_hex": "20ff8500ff6c00ff660000ff951cffcc",
+  "limit": 16,
+  "k_ko_auto": "블러드 스톤",
+  "hex": "20 ff 85 00 ff 6c 00 ff 66 00 ff 95 1c ff cc ff 00",
+  "cells": 5
+ },
+ {
+  "id": "acc_061",
+  "cat": "acc",
+  "idx": [
+   61
+  ],
+  "va": "0x800DE8F8",
+  "len": 12,
+  "en": "Staurolite",
+  "refs": [
+   32652
+  ],
+  "engine": "A",
+  "ko": "스타우롤라이트",
+  "k_ko": "STAUROLITE",
+  "k_hex": "33342135322f2c293425",
+  "limit": 16,
+  "k_ko_auto": "스타우로라이트",
+  "hex": "00 ff 95 00 ff c8 00 ff a2 20 ff 6f 00 ff 6a 00 ff a9 00 ff ce ff 00",
+  "cells": 7
+ },
+ {
+  "id": "acc_062",
+  "cat": "acc",
+  "idx": [
+   62
+  ],
+  "va": "0x800DE8CC",
+  "len": 15,
+  "en": "Ring of Pales",
+  "refs": [
+   32684
+  ],
+  "engine": "A",
+  "ko": "펄의 반지",
+  "k_ko": "진주 반지",
+  "k_hex": "1cffb400ffb0001cff7e00ffb4",
+  "limit": 16,
+  "k_ko_auto": "진주 반지",
+  "hex": "20 ff d2 00 ff a8 00 1c ff 7e 00 ff b4 ff 00",
+  "cells": 5
+ },
+ {
+  "id": "acc_063",
+  "cat": "acc",
+  "idx": [
+   63
+  ],
+  "va": "0x800DE8AC",
+  "len": 8,
+  "en": "Zircon",
+  "refs": [
+   32716
+  ],
+  "engine": "A",
+  "ko": "지르콘",
+  "k_ko": "지르콘",
+  "k_hex": "00ffb400ff731cffc2",
+  "limit": 16,
+  "k_ko_auto": "지르콘",
+  "hex": "00 ff b4 00 ff 73 1c ff c2 ff 00",
+  "cells": 3
+ },
+ {
+  "id": "acc_064",
+  "cat": "acc",
+  "idx": [
+   64
+  ],
+  "va": "0x800DE884",
+  "len": 12,
+  "en": "Aquamarine",
+  "refs": [
+   32748
+  ],
+  "engine": "A",
+  "ko": "아쿠아마린",
+  "k_ko": "아쿠아마린",
+  "k_hex": "00ff9800ffc300ff9800ff751cff74",
+  "limit": 16,
+  "k_ko_auto": "아쿠아마린",
+  "hex": "00 ff 98 00 ff c3 00 ff 98 00 ff 75 1c ff 74 ff 00",
+  "cells": 5
+ },
+ {
+  "id": "acc_065",
+  "cat": "acc",
+  "idx": [
+   65
+  ],
+  "va": "0x800DE854",
+  "len": 11,
+  "en": "Turquoise",
+  "refs": [
+   32780
+  ],
+  "engine": "A",
+  "ko": "터키석",
+  "k_ko": "터퀴이즈",
+  "k_hex": "00ffca00ffc400ffa900ffb3",
+  "limit": 16,
+  "k_ko_auto": "터퀴이즈",
+  "hex": "00 ff ca 00 ff c7 0a ff 8d ff 00",
+  "cells": 3
+ },
+ {
+  "id": "acc_066",
+  "cat": "acc",
+  "idx": [
+   66
+  ],
+  "va": "0x800DE84C",
+  "len": 6,
+  "en": "Onyx",
+  "refs": [
+   32812
+  ],
+  "engine": "A",
+  "ko": "오닉스",
+  "k_ko": "오닉스",
+  "k_hex": "00ff9e0aff5700ff95",
+  "limit": 16,
+  "k_ko_auto": "오닉스",
+  "hex": "00 ff 9e 0a ff 57 00 ff 95 ff 00",
+  "cells": 3
+ },
+ {
+  "id": "acc_067",
+  "cat": "acc",
+  "idx": [
+   67
+  ],
+  "va": "0x800DE828",
+  "len": 8,
+  "en": "Garnet",
+  "refs": [
+   32844
+  ],
+  "engine": "A",
+  "ko": "가넷",
+  "k_ko": "가넷",
+  "k_hex": "00ff4061fffe",
+  "limit": 16,
+  "k_ko_auto": "가넷",
+  "hex": "00 ff 40 61 ff fe ff 00",
+  "cells": 2
+ },
+ {
+  "id": "acc_068",
+  "cat": "acc",
+  "idx": [
+   68
+  ],
+  "va": "0x800DE820",
+  "len": 6,
+  "en": "Opal",
+  "refs": [
+   32876
+  ],
+  "engine": "A",
+  "ko": "오팔",
+  "k_ko": "오팔",
+  "k_hex": "00ff9e20ffd0",
+  "limit": 16,
+  "k_ko_auto": "오팔",
+  "hex": "00 ff 9e 20 ff d0 ff 00",
+  "cells": 2
+ },
+ {
+  "id": "acc_069",
+  "cat": "acc",
+  "idx": [
+   69
+  ],
+  "va": "0x800DE814",
+  "len": 9,
+  "en": "Diamond",
+  "refs": [
+   32908
+  ],
+  "engine": "A",
+  "ko": "다이아몬드",
+  "k_ko": "다이아몬드",
+  "k_hex": "00ff5e00ffa900ff981cff7a00ff66",
+  "limit": 16,
+  "k_ko_auto": "다이아몬드",
+  "hex": "00 ff 5e 00 ff a9 00 ff 98 1c ff 7a 00 ff 66 ff 00",
+  "cells": 5
+ },
+ {
+  "id": "acc_070",
+  "cat": "acc",
+  "idx": [
+   70
+  ],
+  "va": "0x800DE7E0",
+  "len": 14,
+  "en": "Lapis lazuli",
+  "refs": [
+   32940
+  ],
+  "engine": "A",
+  "ko": "라피스 라줄리",
+  "k_ko": "라피스 라줄리",
+  "k_hex": "00ff6a00ffd700ff950000ff6a20ffb000ff74",
+  "limit": 16,
+  "k_ko_auto": "라피스 라줄리",
+  "hex": "00 ff 6a 00 ff d7 00 ff 95 00 00 ff 6a 20 ff b0 00 ff 74 ff 00",
+  "cells": 7
+ },
+ {
+  "id": "acc_071",
+  "cat": "acc",
+  "idx": [
+   71
+  ],
+  "va": "0x800DE7B8",
+  "len": 14,
+  "en": "Ring of Ares",
+  "refs": [
+   32972
+  ],
+  "engine": "A",
+  "ko": "라우린의 반지",
+  "k_ko": "라우린의 반지",
+  "k_hex": "00ff6a00ffa21cff7400ffa8001cff7e00ffb4",
+  "limit": 16,
+  "k_ko_auto": "라우린의 반지",
+  "hex": "00 ff 6a 00 ff a2 1c ff 74 00 ff a8 00 1c ff 7e 00 ff b4 ff 00",
+  "cells": 7
+ },
+ {
+  "id": "acc_072",
+  "cat": "acc",
+  "idx": [
+   72
+  ],
+  "va": "0x800DE78C",
+  "len": 11,
+  "en": "Gold Ring",
+  "refs": [
+   33004
+  ],
+  "engine": "A",
+  "ko": "금반지",
+  "k_ko": "금반지",
+  "k_hex": "3cff4c1cff7e00ffb4",
+  "limit": 16,
+  "k_ko_auto": "금반지",
+  "hex": "3c ff 4c 1c ff 7e 00 ff b4 ff 00",
+  "cells": 3
+ },
+ {
+  "id": "acc_073",
+  "cat": "acc",
+  "idx": [
+   73
+  ],
+  "va": "0x800DE750",
+  "len": 13,
+  "en": "Silver Ring",
+  "refs": [
+   33036
+  ],
+  "engine": "A",
+  "ko": "은반지",
+  "k_ko": "은반지",
+  "k_hex": "1cffa71cff7e00ffb4",
+  "limit": 16,
+  "k_ko_auto": "은반지",
+  "hex": "1c ff a7 1c ff 7e 00 ff b4 ff 00",
+  "cells": 3
+ },
+ {
+  "id": "acc_074",
+  "cat": "acc",
+  "idx": [
+   74
+  ],
+  "va": "0x800DE718",
+  "len": 15,
+  "en": "Ring of Varda",
+  "refs": [
+   33068
+  ],
+  "engine": "A",
+  "ko": "해골 반지",
+  "k_ko": "해골 반지",
+  "k_hex": "00ffd920ff46001cff7e00ffb4",
+  "limit": 16,
+  "k_ko_auto": "해골 반지",
+  "hex": "00 ff d9 20 ff 46 00 1c ff 7e 00 ff b4 ff 00",
+  "cells": 5
+ },
+ {
+  "id": "acc_075",
+  "cat": "acc",
+  "idx": [
+   75
+  ],
+  "va": "0x800DE6E8",
+  "len": 16,
+  "en": "Ring of Arcana",
+  "refs": [
+   33100
+  ],
+  "engine": "A",
+  "ko": "레어 링",
+  "k_ko": "레어 링",
+  "k_hex": "00ff6d00ff9b0062ff74",
+  "limit": 16,
+  "k_ko_auto": "레어 링",
+  "hex": "00 ff 6d 00 ff 9b 00 62 ff 74 ff 00",
+  "cells": 4
+ },
+ {
+  "id": "acc_076",
+  "cat": "acc",
+  "idx": [
+   76
+  ],
+  "va": "0x800DE6B8",
+  "len": 16,
+  "en": "Mystic pendant",
+  "refs": [
+   33132
+  ],
+  "engine": "A",
+  "ko": "펜던트",
+  "k_ko": "펜던트",
+  "k_hex": "1cffd31cff5a00ffce",
+  "limit": 16,
+  "k_ko_auto": "펜던트",
+  "hex": "1c ff d3 1c ff 5a 00 ff ce ff 00",
+  "cells": 3
+ },
+ {
+  "id": "acc_077",
+  "cat": "acc",
+  "idx": [
+   77
+  ],
+  "va": "0x800DE688",
+  "len": 14,
+  "en": "Heart broach",
+  "refs": [
+   33164
+  ],
+  "engine": "A",
+  "ko": "하트 브로치",
+  "k_ko": "하트 브로치",
+  "k_hex": "00ffd800ffce0000ff8500ff6f00ffbd",
+  "limit": 16,
+  "k_ko_auto": "하트 브로치",
+  "hex": "00 ff d8 00 ff ce 00 00 ff 85 00 ff 6f 00 ff bd ff 00",
+  "cells": 6
+ },
+ {
+  "id": "acc_078",
+  "cat": "acc",
+  "idx": [
+   78
+  ],
+  "va": "0x800DE65C",
+  "len": 15,
+  "en": "Necklace of J",
+  "refs": [
+   33196
+  ],
+  "engine": "A",
+  "ko": "목걸이",
+  "k_ko": "넥클리스",
+  "k_hex": "0afffe20ffc600ff7400ff95",
+  "limit": 16,
+  "k_ko_auto": "넥클리스",
+  "hex": "0a ff 7a 20 ff 43 00 ff a9 ff 00",
+  "cells": 3
+ },
+ {
+  "id": "acc_079",
+  "cat": "acc",
+  "idx": [
+   79
+  ],
+  "va": "0x800DE648",
+  "len": 10,
+  "en": "Gauntlet",
+  "refs": [
+   33228
+  ],
+  "engine": "A",
+  "ko": "건틀릿",
+  "k_ko": "건틀릿",
+  "k_hex": "1cff4320ffce61ff74",
+  "limit": 16,
+  "k_ko_auto": "건틀릿",
+  "hex": "1c ff 43 20 ff ce 61 ff 74 ff 00",
+  "cells": 3
+ },
+ {
+  "id": "acc_080",
+  "cat": "acc",
+  "idx": [
+   80
+  ],
+  "va": "0x800DE630",
+  "len": 14,
+  "en": "Ankh of Life",
+  "refs": [
+   33260
+  ],
+  "engine": "A",
+  "ko": "축복의 앙크",
+  "k_ko": "축복의 앵크",
+  "k_hex": "0affba0aff8300ffa80062ff9900ffc6",
+  "limit": 16,
+  "k_ko_auto": "축복의 앵크",
+  "hex": "0a ff ba 0a ff 83 00 ff a8 00 62 ff 98 00 ff c6 ff 00",
+  "cells": 6
+ },
+ {
+  "id": "acc_081",
+  "cat": "acc",
+  "idx": [
+   81
+  ],
+  "va": "0x800DE604",
+  "len": 16,
+  "en": "Ring of Feanor",
+  "refs": [
+   33292
+  ],
+  "engine": "A",
+  "ko": "마스터 링",
+  "k_ko": "마스터 링",
+  "k_hex": "00ff7500ff9500ffca0062ff74",
+  "limit": 16,
+  "k_ko_auto": "마스터 링",
+  "hex": "00 ff 75 00 ff 95 00 ff ca 00 62 ff 74 ff 00",
+  "cells": 5
+ },
+ {
+  "id": "acc_082",
+  "cat": "acc",
+  "idx": [
+   82
+  ],
+  "va": "0x800DE5E0",
+  "len": 7,
+  "en": "Medal",
+  "refs": [
+   33324
+  ],
+  "engine": "A",
+  "ko": "메달",
+  "k_ko": "메달",
+  "k_hex": "00ff7820ff5e",
+  "limit": 16,
+  "k_ko_auto": "메달",
+  "hex": "00 ff 78 20 ff 5e ff 00",
+  "cells": 2
+ },
+ {
+  "id": "acc_083",
+  "cat": "acc",
+  "idx": [
+   83
+  ],
+  "va": "0x800DE5C0",
+  "len": 10,
+  "en": "Talisman",
+  "refs": [
+   33356
+  ],
+  "engine": "A",
+  "ko": "탈리스만",
+  "k_ko": "타리스만",
+  "k_hex": "00ffc800ff7400ff951cff75",
+  "limit": 16,
+  "k_ko_auto": "타리스만",
+  "hex": "20 ff c8 00 ff 74 00 ff 95 1c ff 75 ff 00",
+  "cells": 4
+ },
+ {
+  "id": "acc_084",
+  "cat": "acc",
+  "idx": [
+   84
+  ],
+  "va": "0x800DE59C",
+  "len": 12,
+  "en": "Duplicator",
+  "refs": [
+   33388
+  ],
+  "engine": "A",
+  "ko": "듀플리케이터",
+  "k_ko": "듀플리케이터",
+  "k_hex": "00ff6020ffd600ff7400ffc100ffa900ffca",
+  "limit": 16,
+  "k_ko_auto": "듀플리케이터",
+  "hex": "00 ff 60 20 ff d6 00 ff 74 00 ff c1 00 ff a9 00 ff ca ff 00",
+  "cells": 6
+ },
+ {
+  "id": "acc_085",
+  "cat": "acc",
+  "idx": [
+   85
+  ],
+  "va": "0x800DE570",
+  "len": 14,
+  "en": "King's stone",
+  "refs": [
+   33420
+  ],
+  "engine": "A",
+  "ko": "킹스톤",
+  "k_ko": "킹 스톤",
+  "k_hex": "62ffc70000ff951cffcc",
+  "limit": 16,
+  "k_ko_auto": "킹 스톤",
+  "hex": "62 ff c7 00 ff 95 1c ff cc ff 00",
+  "cells": 3
+ },
+ {
+  "id": "acc_086",
+  "cat": "acc",
+  "idx": [
+   86
+  ],
+  "va": "0x800DE544",
+  "len": 16,
+  "en": "Covenant stone",
+  "refs": [
+   33452
+  ],
+  "engine": "A",
+  "ko": "메긴교르드",
+  "k_ko": "메긴 교르드",
+  "k_hex": "00ff781cff4d0000ff4800ff7300ff66",
+  "limit": 16,
+  "k_ko_auto": "메긴 교르드",
+  "hex": "00 ff 78 1c ff 4d 00 ff 48 00 ff 73 00 ff 66 ff 00",
+  "cells": 5
+ },
+ {
+  "id": "acc_087",
+  "cat": "acc",
+  "idx": [
+   87
+  ],
+  "va": "0x800DE51C",
+  "len": 11,
+  "en": "Nauglamir",
+  "refs": [
+   33484
+  ],
+  "engine": "A",
+  "ko": "브리싱가멘",
+  "k_ko": "브리싱가멘",
+  "k_hex": "00ff8500ff7462ff9600ff401cff78",
+  "limit": 16,
+  "k_ko_auto": "브리싱가멘",
+  "hex": "00 ff 85 00 ff 74 62 ff 96 00 ff 40 1c ff 78 ff 00",
+  "cells": 5
+ },
+ {
+  "id": "acc_088",
+  "cat": "acc",
+  "idx": [
+   88
+  ],
+  "va": "0x800DE4F0",
+  "len": 14,
+  "en": "Secret boots",
+  "refs": [
+   33516
+  ],
+  "engine": "A",
+  "ko": "시크릿 부츠",
+  "k_ko": "시크릿 부츠",
+  "k_hex": "00ff9600ffc661ff740000ff8400ffbc",
+  "limit": 16,
+  "k_ko_auto": "시크릿 부츠",
+  "hex": "00 ff 96 00 ff c6 61 ff 74 00 00 ff 84 00 ff bc ff 00",
+  "cells": 6
+ },
+ {
+  "id": "acc_089",
+  "cat": "acc",
+  "idx": [
+   89
+  ],
+  "va": "0x800DE4C0",
+  "len": 14,
+  "en": "Alucart mail",
+  "refs": [
+   33548
+  ],
+  "engine": "A",
+  "ko": "알카트 메일",
+  "k_ko": "알카트 메일",
+  "k_hex": "20ff9800ffbe00ffce0000ff7820ffa9",
+  "limit": 16,
+  "k_ko_auto": "알카트 메일",
+  "hex": "20 ff 98 00 ff be 00 ff ce 00 00 ff 78 20 ff a9 ff 00",
+  "cells": 6
+ },
+ {
+  "id": "acc_090",
+  "cat": "acc",
+  "idx": [
+   90
+  ],
+  "va": "0x800DE48C",
+  "len": 15,
+  "en": "Glaring Cloth",
+  "refs": [
+   33580
+  ],
+  "engine": "A",
+  "ko": "글레어링 클로스",
+  "limit": 16,
+  "k_ko_auto": "빛나는 옷",
+  "hex": "20 ff 4c 00 ff 6d 00 ff 9b 62 ff 74 00 20 ff c6 00 ff 6f 00 ff 95 ff 00",
+  "cells": 8
+ },
+ {
+  "id": "acc_091",
+  "cat": "acc",
+  "idx": [
+   91
+  ],
+  "va": "0x800DE458",
+  "len": 16,
+  "en": "Rainbow Mantle",
+  "refs": [
+   33612
+  ],
+  "engine": "A",
+  "ko": "무지갯빛 로브",
+  "limit": 16,
+  "k_ko_auto": "무지개 망토",
+  "hex": "00 ff 7c 00 ff b4 61 ff 41 63 ff 86 00 00 ff 6f 00 ff 85 ff 00",
+  "cells": 7
+ },
+ {
+  "id": "acc_092",
+  "cat": "acc",
+  "idx": [
+   92
+  ],
+  "va": "0x800DE430",
+  "len": 13,
+  "en": "Lyrics card",
+  "refs": [
+   33644
+  ],
+  "engine": "A",
+  "ko": "가사 카드",
+  "limit": 16,
+  "k_ko_auto": "가사 카드",
+  "hex": "00 ff 40 00 ff 8a 00 00 ff be 00 ff 66 ff 00",
+  "cells": 5
+ },
+ {
+  "id": "menu_000",
+  "cat": "menu",
+  "idx": [
+   0
+  ],
+  "va": "0x800DF774",
+  "len": 9,
+  "en": "ALUCARD",
+  "refs": [
+   33676
+  ],
+  "engine": "A",
+  "ko": "알카드",
+  "k_ko_auto": null
+ },
+ {
+  "id": "menu_001",
+  "cat": "menu",
+  "idx": [
+   1
+  ],
+  "va": "0x800DF76C",
+  "len": 5,
+  "en": "STR",
+  "refs": [
+   33680
+  ],
+  "engine": "A",
+  "ko": "힘",
+  "k_ko": "STR",
+  "k_hex": "333432",
+  "k_ko_auto": "힘",
+  "hex": "3c ff ef ff 00",
+  "cells": 1
+ },
+ {
+  "id": "menu_002",
+  "cat": "menu",
+  "idx": [
+   2
+  ],
+  "va": "0x800DF764",
+  "len": 5,
+  "en": "CON",
+  "refs": [
+   33684
+  ],
+  "engine": "A",
+  "ko": "체력",
+  "k_ko": "CON",
+  "k_hex": "232f2e",
+  "k_ko_auto": "체력",
+  "hex": "00 ff b8 0a ff 6e ff 00",
+  "cells": 2
+ },
+ {
+  "id": "menu_003",
+  "cat": "menu",
+  "idx": [
+   3
+  ],
+  "va": "0x800DF75C",
+  "len": 5,
+  "en": "INT",
+  "refs": [
+   33688
+  ],
+  "engine": "A",
+  "ko": "지능",
+  "k_ko": "INT",
+  "k_hex": "292e34",
+  "k_ko_auto": "지력",
+  "hex": "00 ff b4 62 ff 56 ff 00",
+  "cells": 2
+ },
+ {
+  "id": "menu_004",
+  "cat": "menu",
+  "idx": [
+   4
+  ],
+  "va": "0x800DF754",
+  "len": 5,
+  "en": "LCK",
+  "refs": [
+   33692
+  ],
+  "engine": "A",
+  "ko": "행운",
+  "k_ko": "LCK",
+  "k_hex": "2c232b",
+  "k_ko_auto": "행운",
+  "hex": "62 ff d9 1c ff a2 ff 00",
+  "cells": 2
+ },
+ {
+  "id": "menu_005",
+  "cat": "menu",
+  "idx": [
+   5,
+   44
+  ],
+  "va": "0x800DF74C",
+  "len": 5,
+  "en": "EXP",
+  "refs": [
+   33696,
+   33852
+  ],
+  "engine": "A",
+  "ko": "경험치",
+  "k_ko": "EXP",
+  "k_hex": "253830",
+  "k_ko_auto": "경험치",
+  "hex": "62 ff 45 3c ff da 00 ff bd ff 00",
+  "cells": 3
+ },
+ {
+  "id": "menu_006",
+  "cat": "menu",
+  "idx": [
+   6
+  ],
+  "va": "0x800DF744",
+  "len": 6,
+  "en": "NEXT",
+  "refs": [
+   33700
+  ],
+  "engine": "A",
+  "ko": "다음",
+  "k_ko": "NEXT",
+  "k_hex": "2e253834",
+  "k_ko_auto": "다음",
+  "hex": "00 ff 5e 3c ff a7 ff 00",
+  "cells": 2
+ },
+ {
+  "id": "menu_007",
+  "cat": "menu",
+  "idx": [
+   7
+  ],
+  "va": "0x800DF73C",
+  "len": 6,
+  "en": "GOLD",
+  "refs": [
+   33704
+  ],
+  "engine": "A",
+  "ko": "골드",
+  "k_ko": "GOLD",
+  "k_hex": "272f2c24",
+  "k_ko_auto": "골드",
+  "hex": "20 ff 46 00 ff 66 ff 00",
+  "cells": 2
+ },
+ {
+  "id": "menu_008",
+  "cat": "menu",
+  "idx": [
+   8,
+   43
+  ],
+  "va": "0x800DF734",
+  "len": 7,
+  "en": "LEVEL",
+  "refs": [
+   33708,
+   33848
+  ],
+  "engine": "A",
+  "ko": "레벨",
+  "k_ko": "LEVEL",
+  "k_hex": "2c2536252c",
+  "k_ko_auto": "레벨",
+  "hex": "00 ff 6d 20 ff 81 ff 00",
+  "cells": 2
+ },
+ {
+  "id": "menu_009",
+  "cat": "menu",
+  "idx": [
+   9
+  ],
+  "va": "0x800DF72C",
+  "len": 6,
+  "en": "TIME",
+  "refs": [
+   33712
+  ],
+  "engine": "A",
+  "ko": "시간",
+  "k_ko": "TIME",
+  "k_hex": "34292d25",
+  "k_ko_auto": "시간",
+  "hex": "00 ff 96 1c ff 40 ff 00",
+  "cells": 2
+ },
+ {
+  "id": "menu_010",
+  "cat": "menu",
+  "idx": [
+   10
+  ],
+  "va": "0x800DF724",
+  "len": 7,
+  "en": "ROOMS",
+  "refs": [
+   33716
+  ],
+  "engine": "A",
+  "ko": "탐색",
+  "k_ko": "ROOMS",
+  "k_hex": "322f2f2d33",
+  "k_ko_auto": "탐색",
+  "hex": "3c ff c8 0a ff 8b ff 00",
+  "cells": 2
+ },
+ {
+  "id": "menu_011",
+  "cat": "menu",
+  "idx": [
+   11
+  ],
+  "va": "0x800DF71C",
+  "len": 7,
+  "en": "KILLS",
+  "refs": [
+   33720
+  ],
+  "engine": "A",
+  "ko": "처치",
+  "k_ko": "BEAT",
+  "k_hex": "22252134",
+  "k_ko_auto": "처치",
+  "hex": "00 ff b7 00 ff bd ff 00",
+  "cells": 2
+ },
+ {
+  "id": "menu_012",
+  "cat": "menu",
+  "idx": [
+   12
+  ],
+  "va": "0x800DF718",
+  "len": 4,
+  "en": "HP",
+  "refs": [
+   33724
+  ],
+  "engine": "A",
+  "ko": null,
+  "k_ko_auto": null
+ },
+ {
+  "id": "menu_013",
+  "cat": "menu",
+  "idx": [
+   13
+  ],
+  "va": "0x800DF714",
+  "len": 4,
+  "en": "MP",
+  "refs": [
+   33728
+  ],
+  "engine": "A",
+  "ko": null,
+  "k_ko_auto": null
+ },
+ {
+  "id": "menu_014",
+  "cat": "menu",
+  "idx": [
+   14
+  ],
+  "va": "0x800DF70C",
+  "len": 7,
+  "en": "HEART",
+  "refs": [
+   33732
+  ],
+  "engine": "A",
+  "ko": "하트",
+  "k_ko": "HEART",
+  "k_hex": "2825213234",
+  "k_ko_auto": "하트",
+  "hex": "00 ff d8 00 ff ce ff 00",
+  "cells": 2
+ },
+ {
+  "id": "menu_015",
+  "cat": "menu",
+  "idx": [
+   15
+  ],
+  "va": "0x800DF704",
+  "len": 8,
+  "en": "STATUS",
+  "refs": [
+   33736
+  ],
+  "engine": "A",
+  "ko": "상태",
+  "k_ko": "STATUS",
+  "k_hex": "333421343533",
+  "k_ko_auto": "상태",
+  "hex": "62 ff 8a 00 ff c9 ff 00",
+  "cells": 2
+ },
+ {
+  "id": "menu_016",
+  "cat": "menu",
+  "idx": [
+   16
+  ],
+  "va": "0x800DF6F0",
+  "len": 17,
+  "en": "Button settings",
+  "refs": [
+   33740
+  ],
+  "engine": "A",
+  "ko": "버튼 설정",
+  "k_ko": "버튼 설정",
+  "k_hex": "00ff801cffce0020ff8d62ffac",
+  "k_ko_auto": "버튼 설정",
+  "hex": "00 ff 80 1c ff ce 00 20 ff 8d 62 ff ac ff 00",
+  "cells": 5
+ },
+ {
+  "id": "menu_017",
+  "cat": "menu",
+  "idx": [
+   17
+  ],
+  "va": "0x800DF6E0",
+  "len": 14,
+  "en": "Cloak lining",
+  "refs": [
+   33744
+  ],
+  "engine": "A",
+  "ko": "망토 안감",
+  "k_ko": "망토 안팎",
+  "k_hex": "62ff7500ffcc001cff981bffd0",
+  "k_ko_auto": "망토 안팎",
+  "hex": "62 ff 75 00 ff cc 00 1c ff 98 3c ff 40 ff 00",
+  "cells": 5
+ },
+ {
+  "id": "menu_018",
+  "cat": "menu",
+  "idx": [
+   18
+  ],
+  "va": "0x800DF6D0",
+  "len": 13,
+  "en": "Cloak color",
+  "refs": [
+   33748
+  ],
+  "engine": "A",
+  "ko": "망토 색상",
+  "k_ko": "망토 착색",
+  "k_hex": "62ff7500ffcc000affb60aff8b",
+  "k_ko_auto": "망토 착색",
+  "hex": "62 ff 75 00 ff cc 00 0a ff 8b 62 ff 8a ff 00",
+  "cells": 5
+ },
+ {
+  "id": "menu_019",
+  "cat": "menu",
+  "idx": [
+   19
+  ],
+  "va": "0x800DF6C8",
+  "len": 7,
+  "en": "{65}{65}{65}{65}{65}",
+  "refs": [
+   33752
+  ],
+  "engine": "A",
+  "ko": null,
+  "k_ko_auto": null
+ },
+ {
+  "id": "menu_020",
+  "cat": "menu",
+  "idx": [
+   20
+  ],
+  "va": "0x800DF6BC",
+  "len": 10,
+  "en": "Exterior",
+  "refs": [
+   33756
+  ],
+  "engine": "A",
+  "ko": "바깥쪽",
+  "k_ko": "바깥쪽",
+  "k_hex": "00ff7e64ff4e0affb5",
+  "k_ko_auto": "바깥쪽",
+  "hex": "00 ff 7e 64 ff 4e 0a ff b5 ff 00",
+  "cells": 3
+ },
+ {
+  "id": "menu_021",
+  "cat": "menu",
+  "idx": [
+   21
+  ],
+  "va": "0x800DF6B4",
+  "len": 8,
+  "en": "Lining",
+  "refs": [
+   33760
+  ],
+  "engine": "A",
+  "ko": "안쪽",
+  "k_ko": "안쪽",
+  "k_hex": "1cff980affb5",
+  "k_ko_auto": "안쪽",
+  "hex": "1c ff 98 0a ff b5 ff 00",
+  "cells": 2
+ },
+ {
+  "id": "menu_022",
+  "cat": "menu",
+  "idx": [
+   22
+  ],
+  "va": "0x800DF6A8",
+  "len": 12,
+  "en": "Right hand",
+  "refs": [
+   33764
+  ],
+  "engine": "A",
+  "ko": "오른손",
+  "k_ko": "오른손",
+  "k_hex": "00ff9e1cff731cff91",
+  "k_ko_auto": "오른손",
+  "hex": "00 ff 9e 1c ff 73 1c ff 91 ff 00",
+  "cells": 3
+ },
+ {
+  "id": "menu_023",
+  "cat": "menu",
+  "idx": [
+   23
+  ],
+  "va": "0x800DF69C",
+  "len": 11,
+  "en": "Left hand",
+  "refs": [
+   33768
+  ],
+  "engine": "A",
+  "ko": "왼손",
+  "k_ko": "왼손",
+  "k_hex": "1cffa01cff91",
+  "k_ko_auto": "왼손",
+  "hex": "1c ff a0 1c ff 91 ff 00",
+  "cells": 2
+ },
+ {
+  "id": "menu_024",
+  "cat": "menu",
+  "idx": [
+   24
+  ],
+  "va": "0x800DF694",
+  "len": 6,
+  "en": "Jump",
+  "refs": [
+   33772
+  ],
+  "engine": "A",
+  "ko": "점프",
+  "k_ko": "점프",
+  "k_hex": "3cffac00ffd6",
+  "k_ko_auto": "점프",
+  "hex": "3c ff ac 00 ff d6 ff 00",
+  "cells": 2
+ },
+ {
+  "id": "menu_025",
+  "cat": "menu",
+  "idx": [
+   25
+  ],
+  "va": "0x800DF688",
+  "len": 9,
+  "en": "Special",
+  "refs": [
+   33776
+  ],
+  "engine": "A",
+  "ko": "특수",
+  "k_ko": "특수",
+  "k_hex": "0affce00ff93",
+  "k_ko_auto": "특수",
+  "hex": "0a ff ce 00 ff 93 ff 00",
+  "cells": 2
+ },
+ {
+  "id": "menu_026",
+  "cat": "menu",
+  "idx": [
+   26
+  ],
+  "va": "0x800DF680",
+  "len": 6,
+  "en": "Wolf",
+  "refs": [
+   33780
+  ],
+  "engine": "A",
+  "ko": "늑대",
+  "k_ko": "늑대",
+  "k_hex": "0aff5600ff59",
+  "k_ko_auto": "늑대",
+  "hex": "0a ff 56 00 ff 59 ff 00",
+  "cells": 2
+ },
+ {
+  "id": "menu_027",
+  "cat": "menu",
+  "idx": [
+   27
+  ],
+  "va": "0x800DF678",
+  "len": 6,
+  "en": "Mist",
+  "refs": [
+   33784
+  ],
+  "engine": "A",
+  "ko": "안개",
+  "k_ko": "안개",
+  "k_hex": "1cff9800ff41",
+  "k_ko_auto": "안개",
+  "hex": "1c ff 98 00 ff 41 ff 00",
+  "cells": 2
+ },
+ {
+  "id": "menu_028",
+  "cat": "menu",
+  "idx": [
+   28,
+   46
+  ],
+  "va": "0x800DF670",
+  "len": 5,
+  "en": "Bat",
+  "refs": [
+   33788,
+   33860
+  ],
+  "engine": "A",
+  "ko": "박쥐",
+  "k_ko": "박쥐",
+  "k_hex": "0aff7e00ffb1",
+  "k_ko_auto": "박쥐",
+  "hex": "0a ff 7e 00 ff b1 ff 00",
+  "cells": 2
+ },
+ {
+  "id": "menu_029",
+  "cat": "menu",
+  "idx": [
+   29
+  ],
+  "va": "0x800DF668",
+  "len": 6,
+  "en": "{b6}{b2}{ca}{c2}",
+  "refs": [
+   33792
+  ],
+  "engine": "A",
+  "ko": "개발",
+  "k_ko": "개발",
+  "k_hex": "00ff4120ff7e",
+  "k_ko_auto": "개발",
+  "hex": "00 ff 41 20 ff 7e ff 00",
+  "cells": 2
+ },
+ {
+  "id": "menu_030",
+  "cat": "menu",
+  "idx": [
+   30
+  ],
+  "va": "0x800DF660",
+  "len": 8,
+  "en": "Normal",
+  "refs": [
+   33796
+  ],
+  "engine": "A",
+  "ko": "보통",
+  "k_ko": "노멀",
+  "k_hex": "00ff5320ff77",
+  "k_ko_auto": "노멀",
+  "hex": "00 ff 83 62 ff cc ff 00",
+  "cells": 2
+ },
+ {
+  "id": "menu_031",
+  "cat": "menu",
+  "idx": [
+   31
+  ],
+  "va": "0x800DF654",
+  "len": 9,
+  "en": "Reverse",
+  "refs": [
+   33800
+  ],
+  "engine": "A",
+  "ko": "반전",
+  "k_ko": "리버스",
+  "k_hex": "00ff7400ff8000ff95",
+  "k_ko_auto": "리버스",
+  "hex": "1c ff 7e 1c ff ac ff 00",
+  "cells": 2
+ },
+ {
+  "id": "menu_032",
+  "cat": "menu",
+  "idx": [
+   32
+  ],
+  "va": "0x800DF64C",
+  "len": 7,
+  "en": "Sound",
+  "refs": [
+   33804
+  ],
+  "engine": "A",
+  "ko": "사운드",
+  "k_ko": "사운드",
+  "k_hex": "00ff8a1cffa200ff66",
+  "k_ko_auto": "사운드",
+  "hex": "00 ff 8a 1c ff a2 00 ff 66 ff 00",
+  "cells": 3
+ },
+ {
+  "id": "menu_033",
+  "cat": "menu",
+  "idx": [
+   33
+  ],
+  "va": "0x800DF644",
+  "len": 8,
+  "en": "Stereo",
+  "refs": [
+   33808
+  ],
+  "engine": "A",
+  "ko": "스테레오",
+  "k_ko": "스테레오",
+  "k_hex": "00ff9500ffcb00ff6d00ff9e",
+  "k_ko_auto": "스테레오",
+  "hex": "00 ff 95 00 ff cb 00 ff 6d 00 ff 9e ff 00",
+  "cells": 4
+ },
+ {
+  "id": "menu_034",
+  "cat": "menu",
+  "idx": [
+   34
+  ],
+  "va": "0x800DF63C",
+  "len": 6,
+  "en": "Mono",
+  "refs": [
+   33812
+  ],
+  "engine": "A",
+  "ko": "모노",
+  "k_ko": "모노",
+  "k_hex": "00ff7a00ff53",
+  "k_ko_auto": "모노",
+  "hex": "00 ff 7a 00 ff 53 ff 00",
+  "cells": 2
+ },
+ {
+  "id": "menu_035",
+  "cat": "menu",
+  "idx": [
+   35
+  ],
+  "va": "0x800DF62C",
+  "len": 14,
+  "en": "Window color",
+  "refs": [
+   33816
+  ],
+  "engine": "A",
+  "ko": "창 색상",
+  "k_ko": "윈도 컬러",
+  "k_hex": "1cffa500ff5c0020ffc000ff6c",
+  "k_ko_auto": "윈도 컬러",
+  "hex": "62 ff b6 00 0a ff 8b 62 ff 8a ff 00",
+  "cells": 4
+ },
+ {
+  "id": "menu_036",
+  "cat": "menu",
+  "idx": [
+   36
+  ],
+  "va": "0x800DF61C",
+  "len": 13,
+  "en": "Time attack",
+  "refs": [
+   33820
+  ],
+  "engine": "A",
+  "ko": "타임 어택",
+  "k_ko": "타임어택",
+  "k_hex": "00ffc83cffa900ff9b0affc9",
+  "k_ko_auto": "타임어택",
+  "hex": "00 ff c8 3c ff a9 00 00 ff 9b 0a ff c9 ff 00",
+  "cells": 5
+ },
+ {
+  "id": "menu_037",
+  "cat": "menu",
+  "idx": [
+   37
+  ],
+  "va": "0x800DF614",
+  "len": 6,
+  "en": "GOOD",
+  "refs": [
+   33824
+  ],
+  "engine": "A",
+  "ko": "양호",
+  "k_ko": "GOOD",
+  "k_hex": "272f2f24",
+  "k_ko_auto": "정상",
+  "hex": "62 ff 9a 00 ff dc ff 00",
+  "cells": 2
+ },
+ {
+  "id": "menu_038",
+  "cat": "menu",
+  "idx": [
+   38
+  ],
+  "va": "0x800DF60C",
+  "len": 8,
+  "en": "POISON",
+  "refs": [
+   33828
+  ],
+  "engine": "A",
+  "ko": "독",
+  "k_ko": "POISON",
+  "k_hex": "302f29332f2e",
+  "k_ko_auto": "중독",
+  "hex": "0a ff 5c ff 00",
+  "cells": 1
+ },
+ {
+  "id": "menu_039",
+  "cat": "menu",
+  "idx": [
+   39
+  ],
+  "va": "0x800DF604",
+  "len": 7,
+  "en": "STONE",
+  "refs": [
+   33832
+  ],
+  "engine": "A",
+  "ko": "석화",
+  "k_ko": "STONE",
+  "k_hex": "33342f2e25",
+  "k_ko_auto": "석화",
+  "hex": "0a ff 8d 00 ff dd ff 00",
+  "cells": 2
+ },
+ {
+  "id": "menu_040",
+  "cat": "menu",
+  "idx": [
+   40
+  ],
+  "va": "0x800DF5FC",
+  "len": 7,
+  "en": "CURSE",
+  "refs": [
+   33836
+  ],
+  "engine": "A",
+  "ko": "저주",
+  "k_ko": "CURSE",
+  "k_hex": "2335323325",
+  "k_ko_auto": "저주",
+  "hex": "00 ff ac 00 ff b0 ff 00",
+  "cells": 2
+ },
+ {
+  "id": "menu_041",
+  "cat": "menu",
+  "idx": [
+   41
+  ],
+  "va": "0x800DF5DC",
+  "len": 32,
+  "en": "------------------------------",
+  "refs": [
+   33840
+  ],
+  "engine": "A",
+  "ko": null,
+  "k_ko_auto": null
+ },
+ {
+  "id": "menu_042",
+  "cat": "menu",
+  "idx": [
+   42
+  ],
+  "va": "0x800DF5D0",
+  "len": 9,
+  "en": "ALUCART",
+  "refs": [
+   33844
+  ],
+  "engine": "A",
+  "ko": "알카트",
+  "k_ko_auto": null
+ },
+ {
+  "id": "menu_045",
+  "cat": "menu",
+  "idx": [
+   45
+  ],
+  "va": "0x800DF5C4",
+  "len": 9,
+  "en": "alucart",
+  "refs": [
+   33856
+  ],
+  "engine": "A",
+  "ko": "알카트",
+  "k_ko": "알카트",
+  "k_hex": "20ff9800ffbe00ffce",
+  "k_ko_auto": "알카트",
+  "hex": "20 ff 98 00 ff be 00 ff ce ff 00",
+  "cells": 3
+ },
+ {
+  "id": "menu_047",
+  "cat": "menu",
+  "idx": [
+   47
+  ],
+  "va": "0x800DF5BC",
+  "len": 7,
+  "en": "Ghost",
+  "refs": [
+   33864
+  ],
+  "engine": "A",
+  "ko": "고스트",
+  "k_ko": "고스트",
+  "k_hex": "00ff4600ff9500ffce",
+  "k_ko_auto": "고스트",
+  "hex": "00 ff 46 00 ff 95 00 ff ce ff 00",
+  "cells": 3
+ },
+ {
+  "id": "menu_048",
+  "cat": "menu",
+  "idx": [
+   48
+  ],
+  "va": "0x800DF5B4",
+  "len": 8,
+  "en": "Faerie",
+  "refs": [
+   33868
+  ],
+  "engine": "A",
+  "ko": "요정",
+  "k_ko": "요정",
+  "k_hex": "00ffa162ffac",
+  "k_ko_auto": "요정",
+  "hex": "00 ff a1 62 ff ac ff 00",
+  "cells": 2
+ },
+ {
+  "id": "menu_049",
+  "cat": "menu",
+  "idx": [
+   49
+  ],
+  "va": "0x800DF5AC",
+  "len": 7,
+  "en": "Demon",
+  "refs": [
+   33872
+  ],
+  "engine": "A",
+  "ko": "꼬마 악마",
+  "k_ko": "꼬마 악마",
+  "k_hex": "00fffd00ff75000aff9800ff75",
+  "k_ko_auto": "꼬마 악마",
+  "hex": "00 ff fd 00 ff 75 00 0a ff 98 00 ff 75 ff 00",
+  "cells": 5
+ },
+ {
+  "id": "menu_050",
+  "cat": "menu",
+  "idx": [
+   50
+  ],
+  "va": "0x800DF5A4",
+  "len": 7,
+  "en": "Sword",
+  "refs": [
+   33876
+  ],
+  "engine": "A",
+  "ko": "검마",
+  "k_ko": "검마",
+  "k_hex": "3cff4300ff75",
+  "k_ko_auto": "검마",
+  "hex": "3c ff 43 00 ff 75 ff 00",
+  "cells": 2
+ },
+ {
+  "id": "menu_051",
+  "cat": "menu",
+  "idx": [
+   51
+  ],
+  "va": "0x800DF59C",
+  "len": 8,
+  "en": "Sprite",
+  "refs": [
+   33880
+  ],
+  "engine": "A",
+  "ko": "반요정",
+  "k_ko": "요정",
+  "k_hex": "00ffa162ffac",
+  "k_ko_auto": "요정",
+  "hex": "1c ff 7e 00 ff a1 62 ff ac ff 00",
+  "cells": 3
+ },
+ {
+  "id": "menu_052",
+  "cat": "menu",
+  "idx": [
+   52
+  ],
+  "va": "0x800DF590",
+  "len": 9,
+  "en": "N.Devil",
+  "refs": [
+   33884
+  ],
+  "engine": "A",
+  "ko": "코 악마",
+  "k_ko": "코 악마",
+  "k_hex": "00ffc2000aff9800ff75",
+  "k_ko_auto": "코 악마",
+  "hex": "00 ff c2 00 0a ff 98 00 ff 75 ff 00",
+  "cells": 4
+ },
+ {
+  "id": "menu_053",
+  "cat": "menu",
+  "idx": [
+   53
+  ],
+  "va": "0x800DF574",
+  "len": 25,
+  "en": "Richter defeats Dracula",
+  "refs": [
+   33888
+  ],
+  "engine": "A",
+  "ko": "리히터가 드라큘라 격파",
+  "k_ko": "리히터가 드라큘라를 쓰러뜨린다",
+  "k_hex": "00ff7400ffef00ffca00ff400000ff6600ff6a20ffc500ff6a20ff730000ff9700ff6c00ff691cff7400ff5e",
+  "k_ko_auto": "리히터가 드라큘라를 쓰러뜨린다",
+  "hex": "00 ff 74 00 ff ef 00 ff ca 00 ff 40 00 00 ff 66 00 ff 6a 20 ff c5 00 ff 6a 00 0a ff 45 00 ff d0 ff 00",
+  "cells": 12
+ },
+ {
+  "id": "menu_054",
+  "cat": "menu",
+  "idx": [
+   54
+  ],
+  "va": "0x800DF564",
+  "len": 14,
+  "en": "Defeat Olrox",
+  "refs": [
+   33892
+  ],
+  "engine": "A",
+  "ko": "올록스 격파",
+  "k_ko": "올록을 쓰러뜨린다",
+  "k_hex": "20ff9e0aff6f20ffa70000ff9700ff6c00ff691cff7400ff5e",
+  "k_ko_auto": "올록을 쓰러뜨린다",
+  "hex": "20 ff 9e 0a ff 6f 00 ff 95 00 0a ff 45 00 ff d0 ff 00",
+  "cells": 6
+ },
+ {
+  "id": "menu_055",
+  "cat": "menu",
+  "idx": [
+   55
+  ],
+  "va": "0x800DF54C",
+  "len": 24,
+  "en": "Defeat Doppleganger 10",
+  "refs": [
+   33896
+  ],
+  "engine": "A",
+  "ko": "도플갱어10 격파",
+  "k_ko": "도플갱어LV10을 쓰러뜨린다",
+  "k_hex": "00ff5c20ffd662ff4100ff9b2c36111020ffa70000ff9700ff6c00ff691cff7400ff5e",
+  "k_ko_auto": "도플갱어LV10을 쓰러뜨린다",
+  "hex": "00 ff 5c 20 ff d6 62 ff 41 00 ff 9b 11 10 00 0a ff 45 00 ff d0 ff 00",
+  "cells": 9
+ },
+ {
+  "id": "menu_056",
+  "cat": "menu",
+  "idx": [
+   56
+  ],
+  "va": "0x800DF538",
+  "len": 19,
+  "en": "Defeat Granfaloon",
+  "refs": [
+   33900
+  ],
+  "engine": "A",
+  "ko": "그랑팔룬 격파",
+  "k_ko": "레기온을 쓰러뜨린다",
+  "k_hex": "00ff6d00ff4d1cff9e20ffa70000ff9700ff6c00ff691cff7400ff5e",
+  "k_ko_auto": "레기온을 쓰러뜨린다",
+  "hex": "00 ff 4c 62 ff 6a 20 ff d0 1c ff 72 00 0a ff 45 00 ff d0 ff 00",
+  "cells": 7
+ },
+ {
+  "id": "menu_057",
+  "cat": "menu",
+  "idx": [
+   57
+  ],
+  "va": "0x800DF518",
+  "len": 30,
+  "en": "Defeat Minotaur and Werewolf",
+  "refs": [
+   33904
+  ],
+  "engine": "A",
+  "ko": "미노타우로스와 늑대인간 격파",
+  "k_ko": "미노타우르스・웨어울프를 쓰러뜨린다",
+  "k_hex": "00ff7d00ff5300ffc800ffa200ff7300ff956500ffa400ff9b20ffa200ffd620ff730000ff9700ff6c00ff691cff7400ff5e",
+  "k_ko_auto": "미노타우르스・웨어울프를 쓰러뜨린다",
+  "hex": "00 ff 7d 00 ff 53 00 ff c8 00 ff a2 00 ff 6f 00 ff 95 00 ff 9f 00 0a ff 56 00 ff 59 1c ff a9 1c ff 40 00 0a ff 45 00 ff d0 ff 00",
+  "cells": 15
+ },
+ {
+  "id": "menu_058",
+  "cat": "menu",
+  "idx": [
+   58
+  ],
+  "va": "0x800DF508",
+  "len": 15,
+  "en": "Defeat Scylla",
+  "refs": [
+   33908
+  ],
+  "engine": "A",
+  "ko": "스킬라 격파",
+  "k_ko": "스킬라를 쓰러뜨린다",
+  "k_hex": "00ff9520ffc700ff6a20ff730000ff9700ff6c00ff691cff7400ff5e",
+  "k_ko_auto": "스킬라를 쓰러뜨린다",
+  "hex": "00 ff 95 20 ff c7 00 ff 6a 00 0a ff 45 00 ff d0 ff 00",
+  "cells": 6
+ },
+ {
+  "id": "menu_059",
+  "cat": "menu",
+  "idx": [
+   59
+  ],
+  "va": "0x800DF4EC",
+  "len": 26,
+  "en": "Defeat Slogra and Gaibon",
+  "refs": [
+   33912
+  ],
+  "engine": "A",
+  "ko": "슬로그라와 가이본 격파",
+  "k_ko": "베리건과 갸이본을 쓰러뜨린다",
+  "k_hex": "00ff8100ff741cff4300ff470000ff4200ffa91cff8320ffa70000ff9700ff6c00ff691cff7400ff5e",
+  "k_ko_auto": "베리건과 갸이본을 쓰러뜨린다",
+  "hex": "20 ff 95 00 ff 6f 00 ff 4c 00 ff 6a 00 ff 9f 00 00 ff 40 00 ff a9 1c ff 83 00 0a ff 45 00 ff d0 ff 00",
+  "cells": 12
+ },
+ {
+  "id": "menu_060",
+  "cat": "menu",
+  "idx": [
+   60
+  ],
+  "va": "0x800DF4D8",
+  "len": 19,
+  "en": "Defeat Hippogryph",
+  "refs": [
+   33916
+  ],
+  "engine": "A",
+  "ko": "히포그리프 격파",
+  "k_ko": "히포그리프를 쓰러뜨린다",
+  "k_hex": "00ffef00ffd400ff4c00ff7400ffd620ff730000ff9700ff6c00ff691cff7400ff5e",
+  "k_ko_auto": "히포그리프를 쓰러뜨린다",
+  "hex": "00 ff ef 00 ff d4 00 ff 4c 00 ff 74 00 ff d6 00 0a ff 45 00 ff d0 ff 00",
+  "cells": 8
+ },
+ {
+  "id": "menu_061",
+  "cat": "menu",
+  "idx": [
+   61
+  ],
+  "va": "0x800DF4C4",
+  "len": 18,
+  "en": "Defeat Beelzebub",
+  "refs": [
+   33920
+  ],
+  "engine": "A",
+  "ko": "베엘제붑 격파",
+  "k_ko": "베르제브브를 쓰러뜨린다",
+  "k_hex": "00ff8100ff7300ffad00ff8500ff8520ff730000ff9700ff6c00ff691cff7400ff5e",
+  "k_ko_auto": "베르제브브를 쓰러뜨린다",
+  "hex": "00 ff 81 20 ff 9c 00 ff ad 3e ff 84 00 0a ff 45 00 ff d0 ff 00",
+  "cells": 7
+ },
+ {
+  "id": "menu_062",
+  "cat": "menu",
+  "idx": [
+   62
+  ],
+  "va": "0x800DF4B0",
+  "len": 17,
+  "en": "Defeat Succubus",
+  "refs": [
+   33924
+  ],
+  "engine": "A",
+  "ko": "서큐버스 격파",
+  "k_ko": "서큐버스를 쓰러뜨린다",
+  "k_hex": "00ff8d00ffc500ff8000ff9520ff730000ff9700ff6c00ff691cff7400ff5e",
+  "k_ko_auto": "서큐버스를 쓰러뜨린다",
+  "hex": "00 ff 8d 00 ff c5 00 ff 80 00 ff 95 00 0a ff 45 00 ff d0 ff 00",
+  "cells": 7
+ },
+ {
+  "id": "menu_063",
+  "cat": "menu",
+  "idx": [
+   63
+  ],
+  "va": "0x800DF49C",
+  "len": 18,
+  "en": "Defeat Karasuman",
+  "refs": [
+   33928
+  ],
+  "engine": "A",
+  "ko": "카라스만 격파",
+  "k_ko": "말파스를 쓰러뜨린다",
+  "k_hex": "20ff7500ffd000ff9520ff730000ff9700ff6c00ff691cff7400ff5e",
+  "k_ko_auto": "말파스를 쓰러뜨린다",
+  "hex": "00 ff be 00 ff 6a 00 ff 95 1c ff 75 00 0a ff 45 00 ff d0 ff 00",
+  "cells": 7
+ },
+ {
+  "id": "menu_064",
+  "cat": "menu",
+  "idx": [
+   64
+  ],
+  "va": "0x800DF47C",
+  "len": 30,
+  "en": "Defeat Trevor, Grant & Sypha",
+  "refs": [
+   33932
+  ],
+  "engine": "A",
+  "ko": "트레버・그랜트・사이파 격파",
+  "k_ko": "랄프・그랜트・사이퍼를 쓰러뜨린다",
+  "k_hex": "20ff6a00ffd66500ff4c1cff6b00ffce6500ff8a00ffa900ffd220ff730000ff9700ff6c00ff691cff7400ff5e",
+  "k_ko_auto": "랄프・그랜트・사이퍼를 쓰러뜨린다",
+  "hex": "00 ff ce 00 ff 6d 00 ff 80 65 00 ff 4c 1c ff 6b 00 ff ce 65 00 ff 8a 00 ff a9 00 ff d0 00 0a ff 45 00 ff d0 ff 00",
+  "cells": 14
+ },
+ {
+  "id": "menu_065",
+  "cat": "menu",
+  "idx": [
+   65
+  ],
+  "va": "0x800DF46C",
+  "len": 14,
+  "en": "Defeat Death",
+  "refs": [
+   33936
+  ],
+  "engine": "A",
+  "ko": "사신 격파",
+  "k_ko": "데스를 쓰러뜨린다",
+  "k_hex": "00ff5b00ff9520ff730000ff9700ff6c00ff691cff7400ff5e",
+  "k_ko_auto": "데스를 쓰러뜨린다",
+  "hex": "00 ff 8a 1c ff 96 00 0a ff 45 00 ff d0 ff 00",
+  "cells": 5
+ },
+ {
+  "id": "menu_066",
+  "cat": "menu",
+  "idx": [
+   66
+  ],
+  "va": "0x800DF458",
+  "len": 17,
+  "en": "Defeat Cerberus",
+  "refs": [
+   33940
+  ],
+  "engine": "A",
+  "ko": "케르베로스 격파",
+  "k_ko": "켈베로스를 쓰러뜨린다",
+  "k_hex": "20ffc100ff8100ff6f00ff9520ff730000ff9700ff6c00ff691cff7400ff5e",
+  "k_ko_auto": "켈베로스를 쓰러뜨린다",
+  "hex": "00 ff c1 00 ff 73 00 ff 81 00 ff 6f 00 ff 95 00 0a ff 45 00 ff d0 ff 00",
+  "cells": 8
+ },
+ {
+  "id": "menu_067",
+  "cat": "menu",
+  "idx": [
+   67
+  ],
+  "va": "0x800DF440",
+  "len": 22,
+  "en": "Save Richter Belmont",
+  "refs": [
+   33944
+  ],
+  "engine": "A",
+  "ko": "리히터 구출",
+  "k_ko": "리히터 벨몬드를 구한다",
+  "k_hex": "00ff7400ffef00ffca0020ff811cff7a00ff6620ff730000ff491cffd800ff5e",
+  "k_ko_auto": "리히터 벨몬드를 구한다",
+  "hex": "00 ff 74 00 ff ef 00 ff ca 00 00 ff 49 20 ff ba ff 00",
+  "cells": 6
+ },
+ {
+  "id": "menu_068",
+  "cat": "menu",
+  "idx": [
+   68
+  ],
+  "va": "0x800DF430",
+  "len": 15,
+  "en": "Defeat Medusa",
+  "refs": [
+   33948
+  ],
+  "engine": "A",
+  "ko": "메두사 격파",
+  "k_ko": "메두사를 쓰러뜨린다",
+  "k_hex": "00ff7800ff5f00ff8a20ff730000ff9700ff6c00ff691cff7400ff5e",
+  "k_ko_auto": "메두사를 쓰러뜨린다",
+  "hex": "00 ff 78 00 ff 5f 00 ff 8a 00 0a ff 45 00 ff d0 ff 00",
+  "cells": 6
+ },
+ {
+  "id": "menu_069",
+  "cat": "menu",
+  "idx": [
+   69
+  ],
+  "va": "0x800DF418",
+  "len": 21,
+  "en": "Defeat the Creature",
+  "refs": [
+   33952
+  ],
+  "engine": "A",
+  "ko": "크리처 격파",
+  "k_ko": "프랑켄을 쓰러뜨린다",
+  "k_hex": "00ffd662ff6a1cffc120ffa70000ff9700ff6c00ff691cff7400ff5e",
+  "k_ko_auto": "프랑켄을 쓰러뜨린다",
+  "hex": "00 ff c6 00 ff 74 00 ff b7 00 0a ff 45 00 ff d0 ff 00",
+  "cells": 6
+ },
+ {
+  "id": "menu_070",
+  "cat": "menu",
+  "idx": [
+   70
+  ],
+  "va": "0x800DF400",
+  "len": 21,
+  "en": "Defeat Lesser Demon",
+  "refs": [
+   33956
+  ],
+  "engine": "A",
+  "ko": "레서 데몬 격파",
+  "k_ko": "렛서데몬을 쓰러뜨린다",
+  "k_hex": "61ff6d00ff8d00ff5b1cff7a20ffa70000ff9700ff6c00ff691cff7400ff5e",
+  "k_ko_auto": "렛서데몬을 쓰러뜨린다",
+  "hex": "00 ff 6d 00 ff 8d 00 00 ff 5b 1c ff 7a 00 0a ff 45 00 ff d0 ff 00",
+  "cells": 8
+ },
+ {
+  "id": "menu_071",
+  "cat": "menu",
+  "idx": [
+   71
+  ],
+  "va": "0x800DF3E8",
+  "len": 24,
+  "en": "Defeat Doppleganger 40",
+  "refs": [
+   33960
+  ],
+  "engine": "A",
+  "ko": "도플갱어40 격파",
+  "k_ko": "도플갱어LV40을 쓰러뜨린다",
+  "k_hex": "00ff5c20ffd662ff4100ff9b2c36141020ffa70000ff9700ff6c00ff691cff7400ff5e",
+  "k_ko_auto": "도플갱어LV40을 쓰러뜨린다",
+  "hex": "00 ff 5c 20 ff d6 62 ff 41 00 ff 9b 14 10 00 0a ff 45 00 ff d0 ff 00",
+  "cells": 9
+ },
+ {
+  "id": "menu_072",
+  "cat": "menu",
+  "idx": [
+   72
+  ],
+  "va": "0x800DF3D4",
+  "len": 19,
+  "en": "Defeat Akmodan II",
+  "refs": [
+   33964
+  ],
+  "engine": "A",
+  "ko": "아크모단 2세 격파",
+  "k_ko": "미이라남을 쓰러뜨린다",
+  "k_hex": "00ff7d00ffa900ff6a3cff5020ffa70000ff9700ff6c00ff691cff7400ff5e",
+  "k_ko_auto": "미이라남을 쓰러뜨린다",
+  "hex": "00 ff 98 00 ff c6 00 ff 7a 1c ff 5e 00 12 00 ff 8e 00 0a ff 45 00 ff d0 ff 00",
+  "cells": 10
+ },
+ {
+  "id": "menu_073",
+  "cat": "menu",
+  "idx": [
+   73
+  ],
+  "va": "0x800DF3BC",
+  "len": 21,
+  "en": "Defeat Darkwing Bat",
+  "refs": [
+   33968
+  ],
+  "engine": "A",
+  "ko": "다크윙 배트 격파",
+  "k_ko": "큰 박쥐를 쓰러뜨린다",
+  "k_hex": "1cffc6000aff7e00ffb120ff730000ff9700ff6c00ff691cff7400ff5e",
+  "k_ko_auto": "큰 박쥐를 쓰러뜨린다",
+  "hex": "00 ff 5e 00 ff c6 62 ff a5 00 00 ff 7f 00 ff ce 00 0a ff 45 00 ff d0 ff 00",
+  "cells": 9
+ },
+ {
+  "id": "menu_074",
+  "cat": "menu",
+  "idx": [
+   74
+  ],
+  "va": "0x800DF3A8",
+  "len": 17,
+  "en": "Defeat Galamoth",
+  "refs": [
+   33972
+  ],
+  "engine": "A",
+  "ko": "갈라모스 격파",
+  "k_ko": "가라모스를 쓰러뜨린다",
+  "k_hex": "00ff4000ff6a00ff7a00ff9520ff730000ff9700ff6c00ff691cff7400ff5e",
+  "k_ko_auto": "가라모스를 쓰러뜨린다",
+  "hex": "20 ff 40 00 ff 6a 00 ff 7a 00 ff 95 00 0a ff 45 00 ff d0 ff 00",
+  "cells": 7
+ },
+ {
+  "id": "menu_075",
+  "cat": "menu",
+  "idx": [
+   75
+  ],
+  "va": "0x800DF394",
+  "len": 18,
+  "en": "Final Save point",
+  "refs": [
+   33976
+  ],
+  "engine": "A",
+  "ko": "마지막 세이브 지점",
+  "k_ko": "마지막 기록 포인트",
+  "k_hex": "00ff7500ffb40aff750000ff4d0aff6f0000ffd41cffa900ffce",
+  "k_ko_auto": "마지막 기록 포인트",
+  "hex": "00 ff 75 00 ff b4 0a ff 75 00 00 ff 8e 00 ff a9 00 ff 85 00 00 ff b4 3c ff ac ff 00",
+  "cells": 10
+ },
+ {
+  "id": "menu_076",
+  "cat": "menu",
+  "idx": [
+   76
+  ],
+  "va": "0x800DF380",
+  "len": 20,
+  "en": "Meeting with Death",
+  "refs": [
+   33980
+  ],
+  "engine": "A",
+  "ko": "사신과 만남",
+  "k_ko": "데스와 마주친다",
+  "k_hex": "00ff5b00ff9500ff9f0000ff7500ffb01cffbd00ff5e",
+  "k_ko_auto": "데스와 마주친다",
+  "hex": "00 ff 8a 1c ff 96 00 ff 47 00 1c ff 75 3c ff 50 ff 00",
+  "cells": 6
+ },
+ {
+  "id": "menu_077",
+  "cat": "menu",
+  "idx": [
+   77
+  ],
+  "va": "0x800DF360",
+  "len": 29,
+  "en": "Get Holy Glasses from Maria",
+  "refs": [
+   33984
+  ],
+  "engine": "A",
+  "ko": "마리아에게서 안경 입수",
+  "k_ko": "마리아에게 성스러운 안경을 받는다",
+  "k_hex": "00ff7500ff7400ff9800ff9c00ff440062ff8d00ff9500ff6c1cffa2001cff9862ff4520ffa7001eff7e1cff5600ff5e",
+  "k_ko_auto": "마리아에게 성스러운 안경을 받는다",
+  "hex": "00 ff 75 00 ff 74 00 ff 98 00 ff 9c 00 ff 44 00 ff 8d 00 1c ff 98 62 ff 45 00 3e ff a9 00 ff 93 ff 00",
+  "cells": 12
+ },
+ {
+  "id": "menu_078",
+  "cat": "menu",
+  "idx": [
+   78
+  ],
+  "va": "0x800DF340",
+  "len": 31,
+  "en": "Meeting with Master Librarian",
+  "refs": [
+   33988
+  ],
+  "engine": "A",
+  "ko": "사서와 만남",
+  "k_ko": "도서관 주인과 재회한다",
+  "k_hex": "00ff5c00ff8d1cff470000ffb01cffa900ff470000ffab00ffde1cffd800ff5e",
+  "k_ko_auto": "도서관 주인과 재회한다",
+  "hex": "00 ff 8a 00 ff 8d 00 ff 9f 00 1c ff 75 3c ff 50 ff 00",
+  "cells": 6
+ },
+ {
+  "id": "menu_079",
+  "cat": "menu",
+  "idx": [
+   79
+  ],
+  "va": "0x800DF328",
+  "len": 21,
+  "en": "First Maria meeting",
+  "refs": [
+   33992
+  ],
+  "engine": "A",
+  "ko": "마리아와 첫 만남",
+  "k_ko": "처음으로 마리아와 만난다",
+  "k_hex": "00ffb73cffa700ffa700ff6f0000ff7500ff7400ff9800ff9f001cff751cff5000ff5e",
+  "k_ko_auto": "처음으로 마리아와 만난다",
+  "hex": "00 ff 75 00 ff 74 00 ff 98 00 ff 9f 00 61 ff b7 00 1c ff 75 3c ff 50 ff 00",
+  "cells": 9
+ },
+ {
+  "id": "menu_085",
+  "cat": "menu",
+  "idx": [
+   85
+  ],
+  "va": "0x800DF6A8",
+  "len": 12,
+  "en": "Right hand",
+  "refs": [
+   34016
+  ],
+  "engine": "C",
+  "ko": "오른손",
+  "k_ko": "오른손무기",
+  "dx": 16,
+  "dy": 0,
+  "k_ko_auto": "오른손무기",
+  "hex": "fe 10 00 1e 0d 16 ff",
+  "cells": 3
+ },
+ {
+  "id": "menu_086",
+  "cat": "menu",
+  "idx": [
+   86
+  ],
+  "va": "0x800DF31C",
+  "len": 12,
+  "en": " Left hand",
+  "refs": [
+   34020
+  ],
+  "engine": "C",
+  "ko": "왼손",
+  "k_ko": "왼손무기",
+  "dx": 16,
+  "dy": 0,
+  "k_ko_auto": "왼손무기",
+  "hex": "fe 10 00 20 16 ff",
+  "cells": 2
+ },
+ {
+  "id": "menu_087",
+  "cat": "menu",
+  "idx": [
+   87
+  ],
+  "va": "0x800DF310",
+  "len": 9,
+  "en": "   Head",
+  "refs": [
+   34024
+  ],
+  "engine": "C",
+  "ko": "투구",
+  "k_ko": "투구",
+  "dx": 16,
+  "dy": 0,
+  "k_ko_auto": "투구",
+  "hex": "fe 10 00 28 06 ff",
+  "cells": 2
+ },
+ {
+  "id": "menu_088",
+  "cat": "menu",
+  "idx": [
+   88
+  ],
+  "va": "0x800DF304",
+  "len": 9,
+  "en": "   Body",
+  "refs": [
+   34028
+  ],
+  "engine": "C",
+  "ko": "갑옷",
+  "k_ko": "갑옷",
+  "dx": 16,
+  "dy": 0,
+  "k_ko_auto": "갑옷",
+  "hex": "fe 10 00 01 1f ff",
+  "cells": 2
+ },
+ {
+  "id": "menu_089",
+  "cat": "menu",
+  "idx": [
+   89
+  ],
+  "va": "0x800DF2F8",
+  "len": 10,
+  "en": "   Cloak",
+  "refs": [
+   34032
+  ],
+  "engine": "C",
+  "ko": "망토 ",
+  "k_ko": "망토 ",
+  "dx": 16,
+  "dy": 0,
+  "k_ko_auto": "망토 ",
+  "hex": "fe 10 00 0f 27 00 ff",
+  "cells": 3
+ },
+ {
+  "id": "menu_090",
+  "cat": "menu",
+  "idx": [
+   90,
+   91
+  ],
+  "va": "0x800DF2EC",
+  "len": 10,
+  "en": "   Other",
+  "refs": [
+   34036,
+   34040
+  ],
+  "engine": "C",
+  "ko": "기타 ",
+  "k_ko": "기타 ",
+  "dx": 16,
+  "dy": 0,
+  "k_ko_auto": "기타 ",
+  "hex": "fe 10 00 08 24 00 ff",
+  "cells": 3
+ },
+ {
+  "id": "menu_092",
+  "cat": "menu",
+  "idx": [
+   92
+  ],
+  "va": "0x800DF2E4",
+  "len": 7,
+  "en": "Equip",
+  "refs": [
+   34044
+  ],
+  "engine": "C",
+  "ko": "장비",
+  "k_ko": "장비",
+  "dx": -12,
+  "dy": -4,
+  "k_ko_auto": "장비",
+  "hex": "fe fa fc 23 13 ff",
+  "cells": 2
+ },
+ {
+  "id": "menu_093",
+  "cat": "menu",
+  "idx": [
+   93
+  ],
+  "va": "0x800DF2DC",
+  "len": 8,
+  "en": "Spells",
+  "refs": [
+   34048
+  ],
+  "engine": "C",
+  "ko": "필살기",
+  "k_ko": "필살기",
+  "dx": -8,
+  "dy": -4,
+  "k_ko_auto": "필살기",
+  "hex": "fe f8 fc 2b 15 08 ff",
+  "cells": 3
+ },
+ {
+  "id": "menu_094",
+  "cat": "menu",
+  "idx": [
+   94
+  ],
+  "va": "0x800DF2D4",
+  "len": 8,
+  "en": "Relics",
+  "refs": [
+   34052
+  ],
+  "engine": "C",
+  "ko": "마도기",
+  "k_ko": "마도기",
+  "dx": -8,
+  "dy": -4,
+  "k_ko_auto": "마도기",
+  "hex": "fe f8 fc 0e 0a 08 ff",
+  "cells": 3
+ },
+ {
+  "id": "menu_095",
+  "cat": "menu",
+  "idx": [
+   95
+  ],
+  "va": "0x800DF2CC",
+  "len": 8,
+  "en": "System",
+  "refs": [
+   34056
+  ],
+  "engine": "C",
+  "ko": "설정",
+  "k_ko": " 설정 ",
+  "dx": -8,
+  "dy": -4,
+  "k_ko_auto": " 설정 ",
+  "hex": "fe f2 fc 00 2c 2d 00 ff",
+  "cells": 4
+ },
+ {
+  "id": "menu_096",
+  "cat": "menu",
+  "idx": [
+   96
+  ],
+  "va": "0x800DF2C0",
+  "len": 11,
+  "en": "Familiars",
+  "refs": [
+   34060
+  ],
+  "engine": "C",
+  "ko": "사역마",
+  "k_ko": "사역마",
+  "dx": 4,
+  "dy": -4,
+  "k_ko_auto": "사역마",
+  "hex": "fe 04 fc 14 1d 0e ff",
+  "cells": 3
+ },
+ {
+  "id": "menu_097",
+  "cat": "menu",
+  "idx": [
+   97
+  ],
+  "va": "0x800DF2B0",
+  "len": 15,
+  "en": "Familiar List",
+  "refs": [
+   34064
+  ],
+  "engine": "C",
+  "ko": "사역마 일람",
+  "k_ko": "사역마일람",
+  "dx": 10,
+  "dy": -4,
+  "k_ko_auto": "사역마일람",
+  "hex": "fe 10 fc 14 1d 0e 22 0b ff",
+  "cells": 5
+ },
+ {
+  "id": "menu_098",
+  "cat": "menu",
+  "idx": [
+   98
+  ],
+  "va": "0x800DF29C",
+  "len": 20,
+  "en": "Special Moves List",
+  "refs": [
+   34068
+  ],
+  "engine": "C",
+  "ko": "필살기 일람",
+  "k_ko": "필살기일람",
+  "dx": 26,
+  "dy": -4,
+  "k_ko_auto": "필살기일람",
+  "hex": "fe 20 fc 2b 15 08 22 0b ff",
+  "cells": 5
+ },
+ {
+  "id": "menu_099",
+  "cat": "menu",
+  "idx": [
+   99
+  ],
+  "va": "0x800DF290",
+  "len": 9,
+  "en": "S.sword",
+  "refs": [
+   34072
+  ],
+  "engine": "C",
+  "ko": "단검",
+  "k_ko": "단검",
+  "dx": 0,
+  "dy": -4,
+  "k_ko_auto": "단검",
+  "hex": "fe 00 fc 09 02 ff",
+  "cells": 2
+ },
+ {
+  "id": "menu_100",
+  "cat": "menu",
+  "idx": [
+   100
+  ],
+  "va": "0x800DF5A4",
+  "len": 7,
+  "en": "Sword",
+  "refs": [
+   34076
+  ],
+  "engine": "C",
+  "ko": "검",
+  "k_ko": "검",
+  "dx": 0,
+  "dy": -4,
+  "k_ko_auto": "검",
+  "hex": "fe 00 fc 02 ff",
+  "cells": 1
+ },
+ {
+  "id": "menu_101",
+  "cat": "menu",
+  "idx": [
+   101
+  ],
+  "va": "0x800DF284",
+  "len": 9,
+  "en": "Throw 1",
+  "refs": [
+   34080
+  ],
+  "engine": "C",
+  "ko": "투검",
+  "k_ko": "투검",
+  "dx": 0,
+  "dy": -4,
+  "k_ko_auto": "투검",
+  "hex": "fe 00 fc 28 02 ff",
+  "cells": 2
+ },
+ {
+  "id": "menu_102",
+  "cat": "menu",
+  "idx": [
+   102
+  ],
+  "va": "0x800DF27C",
+  "len": 6,
+  "en": "Fist",
+  "refs": [
+   34084
+  ],
+  "engine": "C",
+  "ko": "권",
+  "k_ko": "권",
+  "dx": 0,
+  "dy": -4,
+  "k_ko_auto": "권",
+  "hex": "fe 00 fc 07 ff",
+  "cells": 1
+ },
+ {
+  "id": "menu_103",
+  "cat": "menu",
+  "idx": [
+   103
+  ],
+  "va": "0x800DF274",
+  "len": 6,
+  "en": "Club",
+  "refs": [
+   34088
+  ],
+  "engine": "C",
+  "ko": "곤봉 ",
+  "k_ko": "곤봉 ",
+  "dx": 0,
+  "dy": -4,
+  "k_ko_auto": "곤봉 ",
+  "hex": "fe 00 fc 04 12 00 ff",
+  "cells": 3
+ },
+ {
+  "id": "menu_104",
+  "cat": "menu",
+  "idx": [
+   104
+  ],
+  "va": "0x800DF268",
+  "len": 10,
+  "en": "Two-hand",
+  "refs": [
+   34092
+  ],
+  "engine": "C",
+  "ko": "양손검",
+  "k_ko": "양손검",
+  "dx": 0,
+  "dy": -4,
+  "k_ko_auto": "양손검",
+  "hex": "fe 00 fc 1b 16 02 ff",
+  "cells": 3
+ },
+ {
+  "id": "menu_105",
+  "cat": "menu",
+  "idx": [
+   105
+  ],
+  "va": "0x800DF260",
+  "len": 6,
+  "en": "Food",
+  "refs": [
+   34096
+  ],
+  "engine": "C",
+  "ko": "음식",
+  "k_ko": "음식",
+  "dx": 0,
+  "dy": -4,
+  "k_ko_auto": "음식",
+  "hex": "fe 00 fc 21 19 ff",
+  "cells": 2
+ },
+ {
+  "id": "menu_106",
+  "cat": "menu",
+  "idx": [
+   106
+  ],
+  "va": "0x800DF258",
+  "len": 6,
+  "en": "Bomb",
+  "refs": [
+   34100
+  ],
+  "engine": "C",
+  "ko": "폭탄",
+  "k_ko": "폭탄",
+  "dx": 0,
+  "dy": -4,
+  "k_ko_auto": "폭탄",
+  "hex": "fe 00 fc 2a 25 ff",
+  "cells": 2
+ },
+ {
+  "id": "menu_107",
+  "cat": "menu",
+  "idx": [
+   107
+  ],
+  "va": "0x800DF24C",
+  "len": 9,
+  "en": "Throw 2",
+  "refs": [
+   34104
+  ],
+  "engine": "C",
+  "ko": "사격",
+  "k_ko": "투사",
+  "dx": 0,
+  "dy": -4,
+  "k_ko_auto": "투사",
+  "hex": "fe 00 fc 14 03 ff",
+  "cells": 2
+ },
+ {
+  "id": "menu_108",
+  "cat": "menu",
+  "idx": [
+   108
+  ],
+  "va": "0x800DF244",
+  "len": 8,
+  "en": "Shield",
+  "refs": [
+   34108
+  ],
+  "engine": "C",
+  "ko": "방패",
+  "k_ko": "방패",
+  "dx": 0,
+  "dy": -4,
+  "k_ko_auto": "방패",
+  "hex": "fe 00 fc 11 29 ff",
+  "cells": 2
+ },
+ {
+  "id": "menu_109",
+  "cat": "menu",
+  "idx": [
+   109
+  ],
+  "va": "0x800DF238",
+  "len": 10,
+  "en": "Medicine",
+  "refs": [
+   34112
+  ],
+  "engine": "C",
+  "ko": "약",
+  "k_ko": "약",
+  "dx": 0,
+  "dy": -4,
+  "k_ko_auto": "약",
+  "hex": "fe 00 fc 1a ff",
+  "cells": 1
+ },
+ {
+  "id": "enemy_006",
+  "cat": "enemy",
+  "idx": [
+   6,
+   246
+  ],
+  "va": "0x800E0B6C",
+  "len": 12,
+  "en": "Axe Knight",
+  "refs": [
+   34356,
+   43956
+  ],
+  "engine": "A",
+  "ko": "액스 나이트",
+  "k_ko": "액스 아머",
+  "k_hex": "0aff9900ff950000ff9800ff77",
+  "limit": 16,
+  "k_ko_auto": "액스 아머",
+  "hex": "0a ff 99 00 ff 95 00 00 ff 50 00 ff a9 00 ff ce ff 00",
+  "cells": 6
+ },
+ {
+  "id": "enemy_009",
+  "cat": "enemy",
+  "idx": [
+   9
+  ],
+  "va": "0x800E0B60",
+  "len": 12,
+  "en": "Sword Lord",
+  "refs": [
+   34476
+  ],
+  "engine": "A",
+  "ko": "소드 로드",
+  "k_ko": "빅토리 아머",
+  "k_hex": "0aff8600ffcc00ff740000ff9800ff77",
+  "limit": 16,
+  "k_ko_auto": "빅토리 아머",
+  "hex": "00 ff 91 00 ff 66 00 00 ff 6f 00 ff 66 ff 00",
+  "cells": 5
+ },
+ {
+  "id": "enemy_011",
+  "cat": "enemy",
+  "idx": [
+   11
+  ],
+  "va": "0x800E0B54",
+  "len": 11,
+  "en": "Skelerang",
+  "refs": [
+   34556
+  ],
+  "engine": "A",
+  "ko": "스켈레랑",
+  "k_ko": "부메랑 스켈레톤",
+  "k_hex": "00ff8400ff7862ff6a0000ff9520ffc100ff6d1cffcc",
+  "limit": 16,
+  "k_ko_auto": "부메랑 스켈레톤",
+  "hex": "00 ff 95 20 ff c1 00 ff 6d 62 ff 6a ff 00",
+  "cells": 4
+ },
+ {
+  "id": "enemy_013",
+  "cat": "enemy",
+  "idx": [
+   13
+  ],
+  "va": "0x800E0B44",
+  "len": 15,
+  "en": "Bloody Zombie",
+  "refs": [
+   34636
+  ],
+  "engine": "A",
+  "ko": "블러디 좀비",
+  "k_ko": "블러디 좀비",
+  "k_hex": "20ff8500ff6c00ff67003cffaf00ff86",
+  "limit": 16,
+  "k_ko_auto": "블러디 좀비",
+  "hex": "20 ff 85 00 ff 6c 00 ff 67 00 3c ff af 00 ff 86 ff 00",
+  "cells": 6
+ },
+ {
+  "id": "enemy_014",
+  "cat": "enemy",
+  "idx": [
+   14,
+   15
+  ],
+  "va": "0x800E0B34",
+  "len": 15,
+  "en": "Flying Zombie",
+  "refs": [
+   34676,
+   34716
+  ],
+  "engine": "A",
+  "ko": "플라잉 좀비",
+  "k_ko": "플라잉 좀비",
+  "k_hex": "20ffd600ff6a62ffa9003cffaf00ff86",
+  "limit": 16,
+  "k_ko_auto": "플라잉 좀비",
+  "hex": "20 ff d6 00 ff 6a 62 ff a9 00 3c ff af 00 ff 86 ff 00",
+  "cells": 6
+ },
+ {
+  "id": "enemy_016",
+  "cat": "enemy",
+  "idx": [
+   16
+  ],
+  "va": "0x800E0B24",
+  "len": 15,
+  "en": "Diplocephalus",
+  "refs": [
+   34756
+  ],
+  "engine": "A",
+  "ko": "디플로케팔루스",
+  "k_ko": "암피스바에나",
+  "k_hex": "3cff9800ffd700ff9500ff7e00ff9c00ff50",
+  "limit": 16,
+  "k_ko_auto": "암피스바에나",
+  "hex": "00 ff 67 20 ff d6 00 ff 6f 00 ff c1 20 ff d0 00 ff 72 00 ff 95 ff 00",
+  "cells": 7
+ },
+ {
+  "id": "enemy_020",
+  "cat": "enemy",
+  "idx": [
+   20
+  ],
+  "va": "0x800E0B18",
+  "len": 12,
+  "en": "Owl Knight",
+  "refs": [
+   34916
+  ],
+  "engine": "A",
+  "ko": "올빼미 기사",
+  "k_ko": "오울 아머",
+  "k_hex": "00ff9e20ffa20000ff9800ff77",
+  "limit": 16,
+  "k_ko_auto": "오울 아머",
+  "hex": "20 ff 9e 00 ff 88 00 ff 7d 00 00 ff 4d 00 ff 8a ff 00",
+  "cells": 6
+ },
+ {
+  "id": "enemy_022",
+  "cat": "enemy",
+  "idx": [
+   22
+  ],
+  "va": "0x800E0B10",
+  "len": 5,
+  "en": "Owl",
+  "refs": [
+   34996
+  ],
+  "engine": "A",
+  "ko": "올빼미",
+  "k_ko": "올빼미",
+  "k_hex": "20ff9e00ff8800ff7d",
+  "limit": 16,
+  "k_ko_auto": "올빼미",
+  "hex": "20 ff 9e 00 ff 88 00 ff 7d ff 00",
+  "cells": 3
+ },
+ {
+  "id": "enemy_023",
+  "cat": "enemy",
+  "idx": [
+   23
+  ],
+  "va": "0x800E0B00",
+  "len": 14,
+  "en": "Lesser Demon",
+  "refs": [
+   35036
+  ],
+  "engine": "A",
+  "ko": "레서 데몬",
+  "k_ko": "렛서 데몬",
+  "k_hex": "61ff6d00ff8d0000ff5b1cff7a",
+  "limit": 16,
+  "k_ko_auto": "렛서 데몬",
+  "hex": "00 ff 6d 00 ff 8d 00 00 ff 5b 1c ff 7a ff 00",
+  "cells": 5
+ },
+ {
+  "id": "enemy_027",
+  "cat": "enemy",
+  "idx": [
+   27,
+   29
+  ],
+  "va": "0x800E0AF8",
+  "len": 8,
+  "en": "Merman",
+  "refs": [
+   35196,
+   35276
+  ],
+  "engine": "A",
+  "ko": "머맨",
+  "k_ko": "반어인",
+  "k_hex": "1cff7e00ff9b1cffa9",
+  "limit": 16,
+  "k_ko_auto": "반어인",
+  "hex": "00 ff 77 1c ff 76 ff 00",
+  "cells": 2
+ },
+ {
+  "id": "enemy_031",
+  "cat": "enemy",
+  "idx": [
+   31
+  ],
+  "va": "0x800E0AF0",
+  "len": 8,
+  "en": "Gorgon",
+  "refs": [
+   35356
+  ],
+  "engine": "A",
+  "ko": "고르곤",
+  "k_ko": "고르곤",
+  "k_hex": "00ff4600ff731cff46",
+  "limit": 16,
+  "k_ko_auto": "고르곤",
+  "hex": "00 ff 46 00 ff 73 1c ff 46 ff 00",
+  "cells": 3
+ },
+ {
+  "id": "enemy_034",
+  "cat": "enemy",
+  "idx": [
+   34
+  ],
+  "va": "0x800E0AE4",
+  "len": 12,
+  "en": "Armor Lord",
+  "refs": [
+   35476
+  ],
+  "engine": "A",
+  "ko": "아머 로드",
+  "k_ko": "그레이트 아머",
+  "k_hex": "00ff4c00ff6d00ffa900ffce0000ff9800ff77",
+  "limit": 16,
+  "k_ko_auto": "그레이트 아머",
+  "hex": "00 ff 98 00 ff 77 00 00 ff 6f 00 ff 66 ff 00",
+  "cells": 5
+ },
+ {
+  "id": "enemy_037",
+  "cat": "enemy",
+  "idx": [
+   37
+  ],
+  "va": "0x800E0AD4",
+  "len": 15,
+  "en": "Black Panther",
+  "refs": [
+   35596
+  ],
+  "engine": "A",
+  "ko": "블랙 팬서",
+  "k_ko": "블랙 팬서",
+  "k_hex": "20ff850aff6b001cffd100ff8d",
+  "limit": 16,
+  "k_ko_auto": "블랙 팬서",
+  "hex": "20 ff 85 0a ff 6b 00 1c ff d1 00 ff 8d ff 00",
+  "cells": 5
+ },
+ {
+  "id": "enemy_038",
+  "cat": "enemy",
+  "idx": [
+   38
+  ],
+  "va": "0x800E0AC4",
+  "len": 14,
+  "en": "Dark Octopus",
+  "refs": [
+   35636
+  ],
+  "engine": "A",
+  "ko": "다크 옥토퍼스",
+  "k_ko": "크레이지 옥토퍼스",
+  "k_hex": "00ffc600ff6d00ffa900ffb4000aff9e00ffcc00ffd200ff95",
+  "limit": 16,
+  "k_ko_auto": "크레이지 옥토퍼스",
+  "hex": "00 ff 5e 00 ff c6 00 0a ff 9e 00 ff cc 00 ff d2 00 ff 95 ff 00",
+  "cells": 7
+ },
+ {
+  "id": "enemy_040",
+  "cat": "enemy",
+  "idx": [
+   40
+  ],
+  "va": "0x800E0AB8",
+  "len": 10,
+  "en": "Flea Man",
+  "refs": [
+   35716
+  ],
+  "engine": "A",
+  "ko": "플리 맨",
+  "k_ko": "벼룩남",
+  "k_hex": "00ff820aff723cff50",
+  "limit": 16,
+  "k_ko_auto": "벼룩남",
+  "hex": "20 ff d6 00 ff 74 00 1c ff 76 ff 00",
+  "cells": 4
+ },
+ {
+  "id": "enemy_041",
+  "cat": "enemy",
+  "idx": [
+   41
+  ],
+  "va": "0x800E0AAC",
+  "len": 12,
+  "en": "Flea Armor",
+  "refs": [
+   35756
+  ],
+  "engine": "A",
+  "ko": "플리 아머",
+  "k_ko": "아머드 벼룩남",
+  "k_hex": "00ff9800ff7700ff660000ff820aff723cff50",
+  "limit": 16,
+  "k_ko_auto": "아머드 벼룩남",
+  "hex": "20 ff d6 00 ff 74 00 00 ff 98 00 ff 77 ff 00",
+  "cells": 5
+ },
+ {
+  "id": "enemy_043",
+  "cat": "enemy",
+  "idx": [
+   43
+  ],
+  "va": "0x800E0A9C",
+  "len": 14,
+  "en": "White Dragon",
+  "refs": [
+   35836
+  ],
+  "engine": "A",
+  "ko": "화이트 드래곤",
+  "k_ko": "화이트 드래곤",
+  "k_hex": "00ffdd00ffa900ffce0000ff6600ff6b1cff46",
+  "limit": 16,
+  "k_ko_auto": "화이트 드래곤",
+  "hex": "00 ff dd 00 ff a9 00 ff ce 00 00 ff 66 00 ff 6b 1c ff 46 ff 00",
+  "cells": 7
+ },
+ {
+  "id": "enemy_045",
+  "cat": "enemy",
+  "idx": [
+   45,
+   46
+  ],
+  "va": "0x800E0A90",
+  "len": 10,
+  "en": "Bone Ark",
+  "refs": [
+   35916,
+   35956
+  ],
+  "engine": "A",
+  "ko": "본 아크",
+  "k_ko": "고기동 뼈기둥",
+  "k_hex": "00ff4600ff4d62ff5c0000ff8900ff4d62ff5f",
+  "limit": 16,
+  "k_ko_auto": "고기동 뼈기둥",
+  "hex": "1c ff 83 00 00 ff 98 00 ff c6 ff 00",
+  "cells": 4
+ },
+ {
+  "id": "enemy_048",
+  "cat": "enemy",
+  "idx": [
+   48
+  ],
+  "va": "0x800E0A84",
+  "len": 12,
+  "en": "Flea Rider",
+  "refs": [
+   36036
+  ],
+  "engine": "A",
+  "ko": "플리 라이더",
+  "k_ko": "세무라",
+  "k_hex": "00ff8e00ff7c00ff6a",
+  "limit": 16,
+  "k_ko_auto": "세무라",
+  "hex": "20 ff d6 00 ff 74 00 00 ff 6a 00 ff a9 00 ff 5a ff 00",
+  "cells": 6
+ },
+ {
+  "id": "enemy_049",
+  "cat": "enemy",
+  "idx": [
+   49
+  ],
+  "va": "0x800E0A78",
+  "len": 12,
+  "en": "Marionette",
+  "refs": [
+   36076
+  ],
+  "engine": "A",
+  "ko": "마리오네트",
+  "k_ko": "마리오네트",
+  "k_hex": "00ff7500ff7400ff9e00fffe00ffce",
+  "limit": 16,
+  "k_ko_auto": "마리오네트",
+  "hex": "00 ff 75 00 ff 74 00 ff 9e 00 ff fe 00 ff ce ff 00",
+  "cells": 5
+ },
+ {
+  "id": "enemy_050",
+  "cat": "enemy",
+  "idx": [
+   50,
+   55
+  ],
+  "va": "0x800E0A70",
+  "len": 7,
+  "en": "Olrox",
+  "refs": [
+   36116,
+   36316
+  ],
+  "engine": "A",
+  "ko": "올록스",
+  "k_ko": "올록",
+  "k_hex": "20ff9e0aff6f",
+  "limit": 16,
+  "k_ko_auto": "올록",
+  "hex": "20 ff 9e 0a ff 6f 00 ff 95 ff 00",
+  "cells": 3
+ },
+ {
+  "id": "enemy_061",
+  "cat": "enemy",
+  "idx": [
+   61
+  ],
+  "va": "0x800E0A60",
+  "len": 14,
+  "en": "Wereskeleton",
+  "refs": [
+   36556
+  ],
+  "engine": "A",
+  "ko": "웨어스켈레톤",
+  "k_ko": "워팬서 스켈레톤",
+  "k_hex": "00ffa31cffd100ff8d0000ff9520ffc100ff6d1cffcc",
+  "limit": 16,
+  "k_ko_auto": "워팬서 스켈레톤",
+  "hex": "00 ff a4 00 ff 9b 00 ff 95 20 ff c1 00 ff 6d 1c ff cc ff 00",
+  "cells": 6
+ },
+ {
+  "id": "enemy_064",
+  "cat": "enemy",
+  "idx": [
+   64
+  ],
+  "va": "0x800DF670",
+  "len": 5,
+  "en": "Bat",
+  "refs": [
+   36676
+  ],
+  "engine": "A",
+  "ko": "박쥐",
+  "k_ko": "배트",
+  "k_hex": "00ff7f00ffce",
+  "limit": 16,
+  "k_ko_auto": "배트",
+  "hex": "0a ff 7e 00 ff b1 ff 00",
+  "cells": 2
+ },
+ {
+  "id": "enemy_065",
+  "cat": "enemy",
+  "idx": [
+   65
+  ],
+  "va": "0x800E0A50",
+  "len": 13,
+  "en": "Large Slime",
+  "refs": [
+   36716
+  ],
+  "engine": "A",
+  "ko": "라지 슬라임",
+  "k_ko": "슬라임 라지",
+  "k_hex": "20ff9500ff6a3cffa90000ff6a00ffb4",
+  "limit": 16,
+  "k_ko_auto": "슬라임 라지",
+  "hex": "00 ff 6a 00 ff b4 00 20 ff 95 00 ff 6a 3c ff a9 ff 00",
+  "cells": 6
+ },
+ {
+  "id": "enemy_066",
+  "cat": "enemy",
+  "idx": [
+   66
+  ],
+  "va": "0x800E0A48",
+  "len": 7,
+  "en": "Slime",
+  "refs": [
+   36756
+  ],
+  "engine": "A",
+  "ko": "슬라임",
+  "k_ko": "슬라임",
+  "k_hex": "20ff9500ff6a3cffa9",
+  "limit": 16,
+  "k_ko_auto": "슬라임",
+  "hex": "20 ff 95 00 ff 6a 3c ff a9 ff 00",
+  "cells": 3
+ },
+ {
+  "id": "enemy_067",
+  "cat": "enemy",
+  "idx": [
+   67
+  ],
+  "va": "0x800E0A38",
+  "len": 15,
+  "en": "Phantom Skull",
+  "refs": [
+   36796
+  ],
+  "engine": "A",
+  "ko": "팬텀 스컬",
+  "k_ko": "플라잉 스컬",
+  "k_hex": "20ffd600ff6a62ffa90000ff9520ffc0",
+  "limit": 16,
+  "k_ko_auto": "플라잉 스컬",
+  "hex": "1c ff d1 3c ff ca 00 00 ff 95 20 ff c0 ff 00",
+  "cells": 5
+ },
+ {
+  "id": "enemy_068",
+  "cat": "enemy",
+  "idx": [
+   68
+  ],
+  "va": "0x800E0A28",
+  "len": 13,
+  "en": "Flail Guard",
+  "refs": [
+   36836
+  ],
+  "engine": "A",
+  "ko": "플레일 가드",
+  "k_ko": "스켈레톤 모닝스타",
+  "k_hex": "00ff9520ffc100ff6d1cffcc0000ff7a62ff5700ff9500ffc8",
+  "limit": 16,
+  "k_ko_auto": "스켈레톤 모닝스타",
+  "hex": "20 ff d6 00 ff 6d 20 ff a9 00 00 ff 40 00 ff 66 ff 00",
+  "cells": 6
+ },
+ {
+  "id": "enemy_070",
+  "cat": "enemy",
+  "idx": [
+   70
+  ],
+  "va": "0x800E0A18",
+  "len": 16,
+  "en": "Blood Skeleton",
+  "refs": [
+   36916
+  ],
+  "engine": "A",
+  "ko": "블러드 스켈레톤",
+  "k_ko": "레드 스켈레톤",
+  "k_hex": "00ff6d00ff660000ff9520ffc100ff6d1cffcc",
+  "limit": 16,
+  "k_ko_auto": "레드 스켈레톤",
+  "hex": "20 ff 85 00 ff 6c 00 ff 66 00 00 ff 95 20 ff c1 00 ff 6d 1c ff cc ff 00",
+  "cells": 8
+ },
+ {
+  "id": "enemy_071",
+  "cat": "enemy",
+  "idx": [
+   71
+  ],
+  "va": "0x800E0A08",
+  "len": 16,
+  "en": "Hellfire Beast",
+  "refs": [
+   36956
+  ],
+  "engine": "A",
+  "ko": "헬파이어 비스트",
+  "k_ko": "암두시아스",
+  "k_hex": "3cff9800ff5f00ff9600ff9800ff95",
+  "limit": 16,
+  "k_ko_auto": "암두시아스",
+  "hex": "20 ff db 00 ff d0 00 ff a9 00 ff 9b 00 00 ff 86 00 ff 95 00 ff ce ff 00",
+  "cells": 8
+ },
+ {
+  "id": "enemy_075",
+  "cat": "enemy",
+  "idx": [
+   75
+  ],
+  "va": "0x800E09FC",
+  "len": 10,
+  "en": "Skeleton",
+  "refs": [
+   37116
+  ],
+  "engine": "A",
+  "ko": "스켈레톤",
+  "k_ko": "스켈레톤",
+  "k_hex": "00ff9520ffc100ff6d1cffcc",
+  "limit": 16,
+  "k_ko_auto": "스켈레톤",
+  "hex": "00 ff 95 20 ff c1 00 ff 6d 1c ff cc ff 00",
+  "cells": 4
+ },
+ {
+  "id": "enemy_077",
+  "cat": "enemy",
+  "idx": [
+   77,
+   78
+  ],
+  "va": "0x800E09EC",
+  "len": 13,
+  "en": "Discus Lord",
+  "refs": [
+   37196,
+   37236
+  ],
+  "engine": "A",
+  "ko": "디스커스 로드",
+  "k_ko": "디스크 아머",
+  "k_hex": "00ff6700ff9500ffc60000ff9800ff77",
+  "limit": 16,
+  "k_ko_auto": "디스크 아머",
+  "hex": "00 ff 67 00 ff 95 00 ff c0 00 ff 95 00 00 ff 6f 00 ff 66 ff 00",
+  "cells": 7
+ },
+ {
+  "id": "enemy_079",
+  "cat": "enemy",
+  "idx": [
+   79
+  ],
+  "va": "0x800E09E0",
+  "len": 12,
+  "en": "Fire Demon",
+  "refs": [
+   37276
+  ],
+  "engine": "A",
+  "ko": "파이어 데몬",
+  "k_ko": "플레임 데몬",
+  "k_hex": "20ffd600ff6d3cffa90000ff5b1cff7a",
+  "limit": 16,
+  "k_ko_auto": "플레임 데몬",
+  "hex": "00 ff d0 00 ff a9 00 ff 9b 00 00 ff 5b 1c ff 7a ff 00",
+  "cells": 6
+ },
+ {
+  "id": "enemy_081",
+  "cat": "enemy",
+  "idx": [
+   81
+  ],
+  "va": "0x800E09D0",
+  "len": 14,
+  "en": "Spittle Bone",
+  "refs": [
+   37356
+  ],
+  "engine": "A",
+  "ko": "스피틀 본",
+  "k_ko": "알티바티라에",
+  "k_hex": "20ff9800ffcf00ff7e00ffcf00ff6a00ff9c",
+  "limit": 16,
+  "k_ko_auto": "알티바티라에",
+  "hex": "00 ff 95 00 ff d7 20 ff ce 00 1c ff 83 ff 00",
+  "cells": 5
+ },
+ {
+  "id": "enemy_083",
+  "cat": "enemy",
+  "idx": [
+   83
+  ],
+  "va": "0x800E09C0",
+  "len": 14,
+  "en": "Skeleton Ape",
+  "refs": [
+   37436
+  ],
+  "engine": "A",
+  "ko": "해골 원숭이",
+  "k_ko": "스켈레톤 에이프",
+  "k_hex": "00ff9520ffc100ff6d1cffcc0000ff9c00ffa900ffd6",
+  "limit": 16,
+  "k_ko_auto": "스켈레톤 에이프",
+  "hex": "00 ff d9 20 ff 46 00 1c ff a3 62 ff 93 00 ff a9 ff 00",
+  "cells": 6
+ },
+ {
+  "id": "enemy_085",
+  "cat": "enemy",
+  "idx": [
+   85
+  ],
+  "va": "0x800E09B4",
+  "len": 12,
+  "en": "Stone Rose",
+  "refs": [
+   37516
+  ],
+  "engine": "A",
+  "ko": "스톤 로즈",
+  "k_ko": "식인꽃",
+  "k_hex": "0aff961cffa963fffd",
+  "limit": 16,
+  "k_ko_auto": "식인꽃",
+  "hex": "00 ff 95 1c ff cc 00 00 ff 6f 00 ff b3 ff 00",
+  "cells": 5
+ },
+ {
+  "id": "enemy_088",
+  "cat": "enemy",
+  "idx": [
+   88
+  ],
+  "va": "0x800E09A8",
+  "len": 11,
+  "en": "Ectoplasm",
+  "refs": [
+   37636
+  ],
+  "engine": "A",
+  "ko": "엑토플라즘",
+  "k_ko": "엑토플라즘",
+  "k_hex": "0aff9c00ffcc20ffd600ff6a3cffb3",
+  "limit": 16,
+  "k_ko_auto": "엑토플라즘",
+  "hex": "0a ff 9c 00 ff cc 20 ff d6 00 ff 6a 3c ff b3 ff 00",
+  "cells": 5
+ },
+ {
+  "id": "enemy_090",
+  "cat": "enemy",
+  "idx": [
+   90,
+   183
+  ],
+  "va": "0x800E0998",
+  "len": 13,
+  "en": "Bone Pillar",
+  "refs": [
+   37716,
+   41436
+  ],
+  "engine": "A",
+  "ko": "본 필러",
+  "k_ko": "뼈기둥",
+  "k_hex": "00ff8900ff4d62ff5f",
+  "limit": 16,
+  "k_ko_auto": "뼈기둥",
+  "hex": "1c ff 83 00 20 ff d7 00 ff 6c ff 00",
+  "cells": 4
+ },
+ {
+  "id": "enemy_093",
+  "cat": "enemy",
+  "idx": [
+   93
+  ],
+  "va": "0x800E0988",
+  "len": 13,
+  "en": "Spear Guard",
+  "refs": [
+   37836
+  ],
+  "engine": "A",
+  "ko": "스피어 가드",
+  "k_ko": "아머 나이트",
+  "k_hex": "00ff9800ff770000ff5000ffa900ffce",
+  "limit": 16,
+  "k_ko_auto": "아머 나이트",
+  "hex": "00 ff 95 00 ff d7 00 ff 9b 00 00 ff 40 00 ff 66 ff 00",
+  "cells": 6
+ },
+ {
+  "id": "enemy_097",
+  "cat": "enemy",
+  "idx": [
+   97
+  ],
+  "va": "0x800E097C",
+  "len": 12,
+  "en": "Plate Lord",
+  "refs": [
+   37996
+  ],
+  "engine": "A",
+  "ko": "플레이트 로드",
+  "k_ko": "헤비 아머",
+  "k_hex": "00ffdb00ff860000ff9800ff77",
+  "limit": 16,
+  "k_ko_auto": "헤비 아머",
+  "hex": "20 ff d6 00 ff 6d 00 ff a9 00 ff ce 00 00 ff 6f 00 ff 66 ff 00",
+  "cells": 7
+ },
+ {
+  "id": "enemy_099",
+  "cat": "enemy",
+  "idx": [
+   99
+  ],
+  "va": "0x800E096C",
+  "len": 14,
+  "en": "Frozen Shade",
+  "refs": [
+   38076
+  ],
+  "engine": "A",
+  "ko": "프로즌 셰이드",
+  "k_ko": "프로즌 셰이드",
+  "k_hex": "00ffd600ff6f1cffb30000ff9000ffa900ff66",
+  "limit": 16,
+  "k_ko_auto": "프로즌 셰이드",
+  "hex": "00 ff d6 00 ff 6f 1c ff b3 00 00 ff 90 00 ff a9 00 ff 66 ff 00",
+  "cells": 7
+ },
+ {
+  "id": "enemy_102",
+  "cat": "enemy",
+  "idx": [
+   102
+  ],
+  "va": "0x800E095C",
+  "len": 13,
+  "en": "Bone Musket",
+  "refs": [
+   38196
+  ],
+  "engine": "A",
+  "ko": "본 머스킷",
+  "k_ko": "스켈레톤 건맨",
+  "k_hex": "00ff9520ffc100ff6d1cffcc001cff431cff76",
+  "limit": 16,
+  "k_ko_auto": "스켈레톤 건맨",
+  "hex": "1c ff 83 00 00 ff 77 00 ff 95 61 ff c7 ff 00",
+  "cells": 5
+ },
+ {
+  "id": "enemy_104",
+  "cat": "enemy",
+  "idx": [
+   104
+  ],
+  "va": "0x800E0950",
+  "len": 11,
+  "en": "Dodo Bird",
+  "refs": [
+   38276
+  ],
+  "engine": "A",
+  "ko": "도도새",
+  "k_ko": "도도",
+  "k_hex": "00ff5c00ff5c",
+  "limit": 16,
+  "k_ko_auto": "도도",
+  "hex": "00 ff 5c 00 ff 5c 00 ff 8b ff 00",
+  "cells": 3
+ },
+ {
+  "id": "enemy_105",
+  "cat": "enemy",
+  "idx": [
+   105
+  ],
+  "va": "0x800E0940",
+  "len": 15,
+  "en": "Bone Scimitar",
+  "refs": [
+   38316
+  ],
+  "engine": "A",
+  "ko": "본 시미터",
+  "k_ko": "스켈레톤 솔져",
+  "k_hex": "00ff9520ffc100ff6d1cffcc0020ff9100ffae",
+  "limit": 16,
+  "k_ko_auto": "스켈레톤 솔져",
+  "hex": "1c ff 83 00 00 ff 96 00 ff 7d 00 ff ca ff 00",
+  "cells": 5
+ },
+ {
+  "id": "enemy_106",
+  "cat": "enemy",
+  "idx": [
+   106
+  ],
+  "va": "0x800E0938",
+  "len": 6,
+  "en": "Toad",
+  "refs": [
+   38356
+  ],
+  "engine": "A",
+  "ko": "토드",
+  "k_ko": "토드",
+  "k_hex": "00ffcc00ff66",
+  "limit": 16,
+  "k_ko_auto": "토드",
+  "hex": "00 ff cc 00 ff 66 ff 00",
+  "cells": 2
+ },
+ {
+  "id": "enemy_107",
+  "cat": "enemy",
+  "idx": [
+   107
+  ],
+  "va": "0x800E0930",
+  "len": 6,
+  "en": "Frog",
+  "refs": [
+   38396
+  ],
+  "engine": "A",
+  "ko": "개구리",
+  "k_ko": "프로그",
+  "k_hex": "00ffd600ff6f00ff4c",
+  "limit": 16,
+  "k_ko_auto": "프로그",
+  "hex": "00 ff 41 00 ff 49 00 ff 74 ff 00",
+  "cells": 3
+ },
+ {
+  "id": "enemy_108",
+  "cat": "enemy",
+  "idx": [
+   108
+  ],
+  "va": "0x800E0920",
+  "len": 13,
+  "en": "Bone Archer",
+  "refs": [
+   38436
+  ],
+  "engine": "A",
+  "ko": "본 아처",
+  "k_ko": "아처 스켈레톤",
+  "k_hex": "00ff9800ffb70000ff9520ffc100ff6d1cffcc",
+  "limit": 16,
+  "k_ko_auto": "아처 스켈레톤",
+  "hex": "1c ff 83 00 00 ff 98 00 ff b7 ff 00",
+  "cells": 4
+ },
+ {
+  "id": "enemy_110",
+  "cat": "enemy",
+  "idx": [
+   110
+  ],
+  "va": "0x800E0918",
+  "len": 8,
+  "en": "Zombie",
+  "refs": [
+   38516
+  ],
+  "engine": "A",
+  "ko": "좀비",
+  "k_ko": "좀비",
+  "k_hex": "3cffaf00ff86",
+  "limit": 16,
+  "k_ko_auto": "좀비",
+  "hex": "3c ff af 00 ff 86 ff 00",
+  "cells": 2
+ },
+ {
+  "id": "enemy_111",
+  "cat": "enemy",
+  "idx": [
+   111
+  ],
+  "va": "0x800E0908",
+  "len": 14,
+  "en": "Grave Keeper",
+  "refs": [
+   38556
+  ],
+  "engine": "A",
+  "ko": "묘지기",
+  "k_ko": "그레이브 키퍼",
+  "k_hex": "00ff4c00ff6d00ffa900ff850000ffc700ffd2",
+  "limit": 16,
+  "k_ko_auto": "그레이브 키퍼",
+  "hex": "00 ff 7b 00 ff b4 00 ff 4d ff 00",
+  "cells": 3
+ },
+ {
+  "id": "enemy_113",
+  "cat": "enemy",
+  "idx": [
+   113
+  ],
+  "va": "0x800E08FC",
+  "len": 11,
+  "en": "Tombstone",
+  "refs": [
+   38636
+  ],
+  "engine": "A",
+  "ko": "묘비",
+  "k_ko": "그레이브",
+  "k_hex": "00ff4c00ff6d00ffa900ff85",
+  "limit": 16,
+  "k_ko_auto": "그레이브",
+  "hex": "00 ff 7b 00 ff 86 ff 00",
+  "cells": 2
+ },
+ {
+  "id": "enemy_114",
+  "cat": "enemy",
+  "idx": [
+   114
+  ],
+  "va": "0x800E08F0",
+  "len": 12,
+  "en": "Blue Raven",
+  "refs": [
+   38676
+  ],
+  "engine": "A",
+  "ko": "블루 크로우",
+  "k_ko": "블루 크로우",
+  "k_hex": "20ff8500ff720000ffc600ff6f00ffa2",
+  "limit": 16,
+  "k_ko_auto": "블루 크로우",
+  "hex": "20 ff 85 00 ff 72 00 00 ff c6 00 ff 6f 00 ff a2 ff 00",
+  "cells": 6
+ },
+ {
+  "id": "enemy_115",
+  "cat": "enemy",
+  "idx": [
+   115
+  ],
+  "va": "0x800E08E4",
+  "len": 12,
+  "en": "Black Crow",
+  "refs": [
+   38716
+  ],
+  "engine": "A",
+  "ko": "블랙 크로우",
+  "k_ko": "블랙 크로우",
+  "k_hex": "20ff850aff6b0000ffc600ff6f00ffa2",
+  "limit": 16,
+  "k_ko_auto": "블랙 크로우",
+  "hex": "20 ff 85 0a ff 6b 00 00 ff c6 00 ff 6f 00 ff a2 ff 00",
+  "cells": 6
+ },
+ {
+  "id": "enemy_116",
+  "cat": "enemy",
+  "idx": [
+   116
+  ],
+  "va": "0x800E08D4",
+  "len": 14,
+  "en": "Jack O'Bones",
+  "refs": [
+   38756
+  ],
+  "engine": "A",
+  "ko": "잭 오 본즈",
+  "k_ko": "스로우 마스터",
+  "k_hex": "00ff9500ff6f00ffa20000ff7500ff9500ffca",
+  "limit": 16,
+  "k_ko_auto": "스로우 마스터",
+  "hex": "0a ff ab 00 00 ff 9e 00 1c ff 83 00 ff b3 ff 00",
+  "cells": 6
+ },
+ {
+  "id": "enemy_118",
+  "cat": "enemy",
+  "idx": [
+   118
+  ],
+  "va": "0x800E08C4",
+  "len": 14,
+  "en": "Bone Halberd",
+  "refs": [
+   38836
+  ],
+  "engine": "A",
+  "ko": "본 할버드",
+  "k_ko": "스켈레톤 스피어",
+  "k_hex": "00ff9520ffc100ff6d1cffcc0000ff9500ffd700ff9b",
+  "limit": 16,
+  "k_ko_auto": "스켈레톤 스피어",
+  "hex": "1c ff 83 00 20 ff d8 00 ff 80 00 ff 66 ff 00",
+  "cells": 5
+ },
+ {
+  "id": "enemy_120",
+  "cat": "enemy",
+  "idx": [
+   120
+  ],
+  "va": "0x800E08BC",
+  "len": 8,
+  "en": "Yorick",
+  "refs": [
+   38916
+  ],
+  "engine": "A",
+  "ko": "요릭",
+  "k_ko": "사커 보이",
+  "k_hex": "00ff8a00ffc00000ff8300ffa9",
+  "limit": 16,
+  "k_ko_auto": "사커 보이",
+  "hex": "00 ff a1 0a ff 74 ff 00",
+  "cells": 2
+ },
+ {
+  "id": "enemy_121",
+  "cat": "enemy",
+  "idx": [
+   121
+  ],
+  "va": "0x800E08B4",
+  "len": 7,
+  "en": "Skull",
+  "refs": [
+   38956
+  ],
+  "engine": "A",
+  "ko": "해골",
+  "k_ko": "볼",
+  "k_hex": "20ff83",
+  "limit": 16,
+  "k_ko_auto": "볼",
+  "hex": "00 ff d9 20 ff 46 ff 00",
+  "cells": 2
+ },
+ {
+  "id": "enemy_122",
+  "cat": "enemy",
+  "idx": [
+   122
+  ],
+  "va": "0x800E08A4",
+  "len": 14,
+  "en": "Blade Master",
+  "refs": [
+   38996
+  ],
+  "engine": "A",
+  "ko": "블레이드 마스터",
+  "k_ko": "스켈레톤 블레이즈",
+  "k_hex": "00ff9520ffc100ff6d1cffcc0020ff8500ff6d00ffa900ffb3",
+  "limit": 16,
+  "k_ko_auto": "스켈레톤 블레이즈",
+  "hex": "20 ff 85 00 ff 6d 00 ff a9 00 ff 66 00 00 ff 75 00 ff 95 00 ff ca ff 00",
+  "cells": 8
+ },
+ {
+  "id": "enemy_124",
+  "cat": "enemy",
+  "idx": [
+   124
+  ],
+  "va": "0x800E0894",
+  "len": 15,
+  "en": "Blade Soldier",
+  "refs": [
+   39076
+  ],
+  "engine": "A",
+  "ko": "블레이드 솔저",
+  "k_ko": "블레이즈 노비스",
+  "k_hex": "20ff8500ff6d00ffa900ffb30000ff5300ff8600ff95",
+  "limit": 16,
+  "k_ko_auto": "블레이즈 노비스",
+  "hex": "20 ff 85 00 ff 6d 00 ff a9 00 ff 66 00 20 ff 91 00 ff ac ff 00",
+  "cells": 7
+ },
+ {
+  "id": "enemy_126",
+  "cat": "enemy",
+  "idx": [
+   126
+  ],
+  "va": "0x800E0884",
+  "len": 15,
+  "en": "Nova Skeleton",
+  "refs": [
+   39156
+  ],
+  "engine": "A",
+  "ko": "노바 스켈레톤",
+  "k_ko": "스켈레톤 비머",
+  "k_hex": "00ff9520ffc100ff6d1cffcc0000ff8600ff77",
+  "limit": 16,
+  "k_ko_auto": "스켈레톤 비머",
+  "hex": "00 ff 53 00 ff 7e 00 00 ff 95 20 ff c1 00 ff 6d 1c ff cc ff 00",
+  "cells": 7
+ },
+ {
+  "id": "enemy_128",
+  "cat": "enemy",
+  "idx": [
+   128
+  ],
+  "va": "0x800E0874",
+  "len": 14,
+  "en": "Winged Guard",
+  "refs": [
+   39236
+  ],
+  "engine": "A",
+  "ko": "윙드 가드",
+  "k_ko": "플라잉 스켈레톤",
+  "k_hex": "20ffd600ff6a62ffa90000ff9520ffc100ff6d1cffcc",
+  "limit": 16,
+  "k_ko_auto": "플라잉 스켈레톤",
+  "hex": "62 ff a5 00 ff 66 00 00 ff 40 00 ff 66 ff 00",
+  "cells": 5
+ },
+ {
+  "id": "enemy_129",
+  "cat": "enemy",
+  "idx": [
+   129,
+   138
+  ],
+  "va": "0x800E0864",
+  "len": 16,
+  "en": "Spectral Sword",
+  "refs": [
+   39276,
+   39636
+  ],
+  "engine": "A",
+  "ko": "스펙트럴 소드",
+  "k_ko": "룰러 소드",
+  "k_hex": "20ff7200ff6c0000ff9100ff66",
+  "limit": 16,
+  "k_ko_auto": "룰러 소드",
+  "hex": "00 ff 95 0a ff d3 00 ff ce 20 ff 6c 00 00 ff 91 00 ff 66 ff 00",
+  "cells": 7
+ },
+ {
+  "id": "enemy_130",
+  "cat": "enemy",
+  "idx": [
+   130
+  ],
+  "va": "0x800E0854",
+  "len": 13,
+  "en": "Poltergeist",
+  "refs": [
+   39316
+  ],
+  "engine": "A",
+  "ko": "폴터가이스트",
+  "k_ko": "폴터가이스트",
+  "k_hex": "20ffd400ffca00ff4000ffa900ff9500ffce",
+  "limit": 16,
+  "k_ko_auto": "폴터가이스트",
+  "hex": "20 ff d4 00 ff ca 00 ff 40 00 ff a9 00 ff 95 00 ff ce ff 00",
+  "cells": 6
+ },
+ {
+  "id": "enemy_131",
+  "cat": "enemy",
+  "idx": [
+   131
+  ],
+  "va": "0x800E0848",
+  "len": 9,
+  "en": "Lossoth",
+  "refs": [
+   39356
+  ],
+  "engine": "A",
+  "ko": "로소스",
+  "k_ko": "비프론",
+  "k_hex": "00ff8600ffd61cff6f",
+  "limit": 16,
+  "k_ko_auto": "비프론",
+  "hex": "00 ff 6f 00 ff 91 00 ff 95 ff 00",
+  "cells": 3
+ },
+ {
+  "id": "enemy_133",
+  "cat": "enemy",
+  "idx": [
+   133
+  ],
+  "va": "0x800E0834",
+  "len": 17,
+  "en": "Valhalla Knight",
+  "refs": [
+   39436
+  ],
+  "engine": "A",
+  "ko": "발할라 나이트",
+  "k_ko": "데드 트루퍼",
+  "k_hex": "00ff5b00ff660000ffce00ff7200ffd2",
+  "limit": 16,
+  "k_ko_auto": "데드 트루퍼",
+  "hex": "20 ff 7e 20 ff d8 00 ff 6a 00 00 ff 50 00 ff a9 00 ff ce ff 00",
+  "cells": 7
+ },
+ {
+  "id": "enemy_136",
+  "cat": "enemy",
+  "idx": [
+   136
+  ],
+  "va": "0x800E0820",
+  "len": 17,
+  "en": "Spectral Sword ",
+  "refs": [
+   39556
+  ],
+  "engine": "A",
+  "ko": "스펙트럴 소드2",
+  "k_ko": "룰러 소드LV2",
+  "k_hex": "20ff7200ff6c0000ff9100ff662c3612",
+  "limit": 16,
+  "k_ko_auto": "룰러 소드LV2",
+  "hex": "00 ff 95 0a ff d3 00 ff ce 20 ff 6c 00 00 ff 91 00 ff 66 12 ff 00",
+  "cells": 8
+ },
+ {
+  "id": "enemy_137",
+  "cat": "enemy",
+  "idx": [
+   137
+  ],
+  "va": "0x800E0810",
+  "len": 14,
+  "en": "Puppet Sword",
+  "refs": [
+   39596
+  ],
+  "engine": "A",
+  "ko": "퍼펫 소드",
+  "k_ko": "퍼핏 소드",
+  "k_hex": "00ffd261ffd70000ff9100ff66",
+  "limit": 16,
+  "k_ko_auto": "퍼핏 소드",
+  "hex": "00 ff d2 61 ff d3 00 00 ff 91 00 ff 66 ff 00",
+  "cells": 5
+ },
+ {
+  "id": "enemy_139",
+  "cat": "enemy",
+  "idx": [
+   139
+  ],
+  "va": "0x800E0808",
+  "len": 7,
+  "en": "Spear",
+  "refs": [
+   39676
+  ],
+  "engine": "A",
+  "ko": "스피어",
+  "k_ko": "스피어",
+  "k_hex": "00ff9500ffd700ff9b",
+  "limit": 16,
+  "k_ko_auto": "스피어",
+  "hex": "00 ff 95 00 ff d7 00 ff 9b ff 00",
+  "cells": 3
+ },
+ {
+  "id": "enemy_140",
+  "cat": "enemy",
+  "idx": [
+   140
+  ],
+  "va": "0x800DF244",
+  "len": 8,
+  "en": "Shield",
+  "refs": [
+   39716
+  ],
+  "engine": "A",
+  "ko": "실드",
+  "k_ko": "실드",
+  "k_hex": "20ff9600ff66",
+  "limit": 16,
+  "k_ko_auto": "실드",
+  "hex": "20 ff 96 00 ff 66 ff 00",
+  "cells": 2
+ },
+ {
+  "id": "enemy_141",
+  "cat": "enemy",
+  "idx": [
+   141
+  ],
+  "va": "0x800E07FC",
+  "len": 12,
+  "en": "Orobourous",
+  "refs": [
+   39756
+  ],
+  "engine": "A",
+  "ko": "오로보로스",
+  "k_ko": "케찰코아틀",
+  "k_hex": "00ffc120ffb600ffc200ff9820ffce",
+  "limit": 16,
+  "k_ko_auto": "케찰코아틀",
+  "hex": "00 ff 9e 00 ff 6f 00 ff 83 00 ff 6f 00 ff 95 ff 00",
+  "cells": 5
+ },
+ {
+  "id": "enemy_142",
+  "cat": "enemy",
+  "idx": [
+   142
+  ],
+  "va": "0x800E07F0",
+  "len": 10,
+  "en": "Oruburos",
+  "refs": [
+   39796
+  ],
+  "engine": "A",
+  "ko": "오로보로스",
+  "k_ko": "케찰코아틀",
+  "k_hex": "00ffc120ffb600ffc200ff9820ffce",
+  "limit": 16,
+  "k_ko_auto": "케찰코아틀",
+  "hex": "00 ff 9e 00 ff 6f 00 ff 83 00 ff 6f 00 ff 95 ff 00",
+  "cells": 5
+ },
+ {
+  "id": "enemy_143",
+  "cat": "enemy",
+  "idx": [
+   143
+  ],
+  "va": "0x800E07E0",
+  "len": 16,
+  "en": "Oruburos Rider",
+  "refs": [
+   39836
+  ],
+  "engine": "A",
+  "ko": "오로보로스 기수",
+  "k_ko": "케찰코아틀 라이더",
+  "k_hex": "00ffc120ffb600ffc200ff9820ffce0000ff6a00ffa900ff5a",
+  "limit": 16,
+  "k_ko_auto": "케찰코아틀 라이더",
+  "hex": "00 ff 9e 00 ff 6f 00 ff 83 00 ff 6f 00 ff 95 00 00 ff 4d 00 ff 93 ff 00",
+  "cells": 8
+ },
+ {
+  "id": "enemy_144",
+  "cat": "enemy",
+  "idx": [
+   144,
+   145
+  ],
+  "va": "0x800E07D0",
+  "len": 14,
+  "en": "Dragon Rider",
+  "refs": [
+   39876,
+   39916
+  ],
+  "engine": "A",
+  "ko": "드래곤 라이더",
+  "k_ko": "화이트 드래곤 라이더",
+  "k_hex": "00ffdd00ffa900ffce0000ff6600ff6b1cff460000ff6a00ffa900ff5a",
+  "limit": 16,
+  "k_ko_auto": "화이트 드래곤 라이더",
+  "hex": "00 ff 66 00 ff 6b 1c ff 46 00 00 ff 6a 00 ff a9 00 ff 5a ff 00",
+  "cells": 7
+ },
+ {
+  "id": "enemy_146",
+  "cat": "enemy",
+  "idx": [
+   146
+  ],
+  "va": "0x800E07C8",
+  "len": 8,
+  "en": "Dhuron",
+  "refs": [
+   39956
+  ],
+  "engine": "A",
+  "ko": "듀론",
+  "k_ko": "듀라한 스켈레톤",
+  "k_hex": "00ff6000ff6a1cffd80000ff9520ffc100ff6d1cffcc",
+  "limit": 16,
+  "k_ko_auto": "듀라한 스켈레톤",
+  "hex": "00 ff 60 1c ff 6f ff 00",
+  "cells": 2
+ },
+ {
+  "id": "enemy_148",
+  "cat": "enemy",
+  "idx": [
+   148
+  ],
+  "va": "0x800E07BC",
+  "len": 11,
+  "en": "Fire Warg",
+  "refs": [
+   40036
+  ],
+  "engine": "A",
+  "ko": "파이어 와그",
+  "k_ko": "펜릴",
+  "k_hex": "1cffd320ff74",
+  "limit": 16,
+  "k_ko_auto": "펜릴",
+  "hex": "00 ff d0 00 ff a9 00 ff 9b 00 00 ff 9f 00 ff 4c ff 00",
+  "cells": 6
+ },
+ {
+  "id": "enemy_151",
+  "cat": "enemy",
+  "idx": [
+   151
+  ],
+  "va": "0x800E07B0",
+  "len": 12,
+  "en": "Warg Rider",
+  "refs": [
+   40156
+  ],
+  "engine": "A",
+  "ko": "와그 라이더",
+  "k_ko": "펜릴 라이더",
+  "k_hex": "1cffd320ff740000ff6a00ffa900ff5a",
+  "limit": 16,
+  "k_ko_auto": "펜릴 라이더",
+  "hex": "00 ff 9f 00 ff 4c 00 00 ff 6a 00 ff a9 00 ff 5a ff 00",
+  "cells": 6
+ },
+ {
+  "id": "enemy_153",
+  "cat": "enemy",
+  "idx": [
+   153
+  ],
+  "va": "0x800E07A4",
+  "len": 12,
+  "en": "Cave Troll",
+  "refs": [
+   40236
+  ],
+  "engine": "A",
+  "ko": "동굴 트롤",
+  "k_ko": "츄파카브라",
+  "k_hex": "00ffbb00ffd000ffbe00ff8500ff6a",
+  "limit": 16,
+  "k_ko_auto": "츄파카브라",
+  "hex": "62 ff 5c 20 ff 49 00 00 ff ce 20 ff 6f ff 00",
+  "cells": 5
+ },
+ {
+  "id": "enemy_156",
+  "cat": "enemy",
+  "idx": [
+   156
+  ],
+  "va": "0x800DF5BC",
+  "len": 7,
+  "en": "Ghost",
+  "refs": [
+   40356
+  ],
+  "engine": "A",
+  "ko": "고스트",
+  "k_ko": "고스트",
+  "k_hex": "00ff4600ff9500ffce",
+  "limit": 16,
+  "k_ko_auto": "고스트",
+  "hex": "00 ff 46 00 ff 95 00 ff ce ff 00",
+  "cells": 3
+ },
+ {
+  "id": "enemy_157",
+  "cat": "enemy",
+  "idx": [
+   157
+  ],
+  "va": "0x800E0798",
+  "len": 11,
+  "en": "Thornweed",
+  "refs": [
+   40396
+  ],
+  "engine": "A",
+  "ko": "가시풀",
+  "k_ko": "우네",
+  "k_hex": "00ffa200fffe",
+  "limit": 16,
+  "k_ko_auto": "우네",
+  "hex": "00 ff 40 00 ff 96 20 ff d5 ff 00",
+  "cells": 3
+ },
+ {
+  "id": "enemy_158",
+  "cat": "enemy",
+  "idx": [
+   158,
+   159
+  ],
+  "va": "0x800E078C",
+  "len": 12,
+  "en": "Corpseweed",
+  "refs": [
+   40436,
+   40476
+  ],
+  "engine": "A",
+  "ko": "시체풀",
+  "k_ko": "인면초",
+  "k_hex": "1cffa91cff7900ffb9",
+  "limit": 16,
+  "k_ko_auto": "인면초",
+  "hex": "00 ff 96 00 ff b8 20 ff d5 ff 00",
+  "cells": 3
+ },
+ {
+  "id": "enemy_161",
+  "cat": "enemy",
+  "idx": [
+   161,
+   162
+  ],
+  "va": "0x800E0780",
+  "len": 12,
+  "en": "Venus Weed",
+  "refs": [
+   40556,
+   40596
+  ],
+  "engine": "A",
+  "ko": "비너스 위드",
+  "k_ko": "알라 우네",
+  "k_hex": "20ff9800ff6a0000ffa200fffe",
+  "limit": 16,
+  "k_ko_auto": "알라 우네",
+  "hex": "00 ff 86 00 ff 51 00 ff 95 00 00 ff a5 00 ff 66 ff 00",
+  "cells": 6
+ },
+ {
+  "id": "enemy_165",
+  "cat": "enemy",
+  "idx": [
+   165
+  ],
+  "va": "0x800E0770",
+  "len": 13,
+  "en": "Bomb Knight",
+  "refs": [
+   40716
+  ],
+  "engine": "A",
+  "ko": "봄 나이트",
+  "k_ko": "봄버 아머",
+  "k_hex": "3cff8300ff800000ff9800ff77",
+  "limit": 16,
+  "k_ko_auto": "봄버 아머",
+  "hex": "3c ff 83 00 00 ff 50 00 ff a9 00 ff ce ff 00",
+  "cells": 5
+ },
+ {
+  "id": "enemy_167",
+  "cat": "enemy",
+  "idx": [
+   167
+  ],
+  "va": "0x800E0760",
+  "len": 13,
+  "en": "Rock Knight",
+  "refs": [
+   40796
+  ],
+  "engine": "A",
+  "ko": "록 나이트",
+  "k_ko": "록 아머",
+  "k_hex": "0aff6f0000ff9800ff77",
+  "limit": 16,
+  "k_ko_auto": "록 아머",
+  "hex": "0a ff 6f 00 00 ff 50 00 ff a9 00 ff ce ff 00",
+  "cells": 5
+ },
+ {
+  "id": "enemy_169",
+  "cat": "enemy",
+  "idx": [
+   169,
+   379
+  ],
+  "va": "0x800E0754",
+  "len": 9,
+  "en": "Dracula",
+  "refs": [
+   40876,
+   49276
+  ],
+  "engine": "A",
+  "ko": "드라큘라",
+  "k_ko": "드라큘라",
+  "k_hex": "00ff6600ff6a20ffc500ff6a",
+  "limit": 16,
+  "k_ko_auto": "드라큘라",
+  "hex": "00 ff 66 00 ff 6a 20 ff c5 00 ff 6a ff 00",
+  "cells": 4
+ },
+ {
+  "id": "enemy_172",
+  "cat": "enemy",
+  "idx": [
+   172
+  ],
+  "va": "0x800E0744",
+  "len": 15,
+  "en": "Greater Demon",
+  "refs": [
+   40996
+  ],
+  "engine": "A",
+  "ko": "아크데몬",
+  "k_ko": "그레이터 데몬",
+  "k_hex": "00ff4c00ff6d00ffa900ffca0000ff5b1cff7a",
+  "limit": 16,
+  "k_ko_auto": "그레이터 데몬",
+  "hex": "00 ff 98 00 ff c6 00 ff 5b 1c ff 7a ff 00",
+  "cells": 4
+ },
+ {
+  "id": "enemy_175",
+  "cat": "enemy",
+  "idx": [
+   175
+  ],
+  "va": "0x800E073C",
+  "len": 6,
+  "en": "Warg",
+  "refs": [
+   41116
+  ],
+  "engine": "A",
+  "ko": "와그",
+  "k_ko": "안파우그리아",
+  "k_hex": "1cff9800ffd000ffa200ff4c00ff7400ff98",
+  "limit": 16,
+  "k_ko_auto": "안파우그리아",
+  "hex": "00 ff 9f 00 ff 4c ff 00",
+  "cells": 2
+ },
+ {
+  "id": "enemy_178",
+  "cat": "enemy",
+  "idx": [
+   178
+  ],
+  "va": "0x800E0730",
+  "len": 9,
+  "en": "Slinger",
+  "refs": [
+   41236
+  ],
+  "engine": "A",
+  "ko": "슬링어",
+  "k_ko": "스켈레톤 리브",
+  "k_hex": "00ff9520ffc100ff6d1cffcc0000ff7400ff85",
+  "limit": 16,
+  "k_ko_auto": "스켈레톤 리브",
+  "hex": "20 ff 95 62 ff 74 00 ff 9b ff 00",
+  "cells": 3
+ },
+ {
+  "id": "enemy_180",
+  "cat": "enemy",
+  "idx": [
+   180
+  ],
+  "va": "0x800E0720",
+  "len": 14,
+  "en": "Corner Guard",
+  "refs": [
+   41316
+  ],
+  "engine": "A",
+  "ko": "코너 가드",
+  "k_ko": "슬란트 가더",
+  "k_hex": "20ff951cff6a00ffce0000ff4000ff5a",
+  "limit": 16,
+  "k_ko_auto": "슬란트 가더",
+  "hex": "00 ff c2 00 ff 51 00 00 ff 40 00 ff 66 ff 00",
+  "cells": 5
+ },
+ {
+  "id": "enemy_182",
+  "cat": "enemy",
+  "idx": [
+   182
+  ],
+  "va": "0x800E0714",
+  "len": 11,
+  "en": "Bitterfly",
+  "refs": [
+   41396
+  ],
+  "engine": "A",
+  "ko": "비터플라이",
+  "k_ko": "촌촌",
+  "k_hex": "1cffb91cffb9",
+  "limit": 16,
+  "k_ko_auto": "촌촌",
+  "hex": "00 ff 86 00 ff ca 20 ff d6 00 ff 6a 00 ff a9 ff 00",
+  "cells": 5
+ },
+ {
+  "id": "enemy_185",
+  "cat": "enemy",
+  "idx": [
+   185
+  ],
+  "va": "0x800E0704",
+  "len": 13,
+  "en": "Spiked Ball",
+  "refs": [
+   41516
+  ],
+  "engine": "A",
+  "ko": "가시 철구",
+  "k_ko": "지옥의 철구",
+  "k_hex": "00ffb40aff9e00ffa80020ffb700ff49",
+  "limit": 16,
+  "k_ko_auto": "지옥의 철구",
+  "hex": "00 ff 40 00 ff 96 00 20 ff b7 00 ff 49 ff 00",
+  "cells": 5
+ },
+ {
+  "id": "enemy_186",
+  "cat": "enemy",
+  "idx": [
+   186
+  ],
+  "va": "0x800DCD18",
+  "len": 8,
+  "en": "Hammer",
+  "refs": [
+   41556
+  ],
+  "engine": "A",
+  "ko": "해머",
+  "k_ko": "해머 셰이커",
+  "k_hex": "00ffd900ff770000ff9000ffa900ffc0",
+  "limit": 16,
+  "k_ko_auto": "해머 셰이커",
+  "hex": "00 ff d9 00 ff 77 ff 00",
+  "cells": 2
+ },
+ {
+  "id": "enemy_188",
+  "cat": "enemy",
+  "idx": [
+   188
+  ],
+  "va": "0x800E06FC",
+  "len": 8,
+  "en": "Gurkha",
+  "refs": [
+   41636
+  ],
+  "engine": "A",
+  "ko": "구르카",
+  "k_ko": "구르카 마스터",
+  "k_hex": "00ff4900ff7300ffbe0000ff7500ff9500ffca",
+  "limit": 16,
+  "k_ko_auto": "구르카 마스터",
+  "hex": "00 ff 49 00 ff 73 00 ff be ff 00",
+  "cells": 3
+ },
+ {
+  "id": "enemy_190",
+  "cat": "enemy",
+  "idx": [
+   190
+  ],
+  "va": "0x800E06F4",
+  "len": 7,
+  "en": "Blade",
+  "refs": [
+   41716
+  ],
+  "engine": "A",
+  "ko": "블레이드",
+  "k_ko": "레드 스매셔",
+  "k_hex": "00ff6d00ff660000ff9500ff7600ff8f",
+  "limit": 16,
+  "k_ko_auto": "레드 스매셔",
+  "hex": "20 ff 85 00 ff 6d 00 ff a9 00 ff 66 ff 00",
+  "cells": 4
+ },
+ {
+  "id": "enemy_193",
+  "cat": "enemy",
+  "idx": [
+   193
+  ],
+  "va": "0x800E06E4",
+  "len": 13,
+  "en": "Ouija Table",
+  "refs": [
+   41836
+  ],
+  "engine": "A",
+  "ko": "위저 테이블",
+  "k_ko": "턴네이트 테이블",
+  "k_hex": "1cffca00fffe00ffa900ffce0000ffcb00ffa920ff85",
+  "limit": 16,
+  "k_ko_auto": "턴네이트 테이블",
+  "hex": "00 ff a5 00 ff ac 00 00 ff cb 00 ff a9 20 ff 85 ff 00",
+  "cells": 6
+ },
+ {
+  "id": "enemy_195",
+  "cat": "enemy",
+  "idx": [
+   195
+  ],
+  "va": "0x800E06D4",
+  "len": 16,
+  "en": "Sniper of Goth",
+  "refs": [
+   41916
+  ],
+  "engine": "A",
+  "ko": "고트의 저격수",
+  "k_ko": "아마라릭 스나이퍼",
+  "k_hex": "00ff9800ff7500ff6a0aff740000ff9500ff5000ffa900ffd2",
+  "limit": 16,
+  "k_ko_auto": "아마라릭 스나이퍼",
+  "hex": "00 ff 46 00 ff ce 00 ff a8 00 00 ff ac 0a ff 45 00 ff 93 ff 00",
+  "cells": 7
+ },
+ {
+  "id": "enemy_198",
+  "cat": "enemy",
+  "idx": [
+   198,
+   199
+  ],
+  "va": "0x800E06C8",
+  "len": 10,
+  "en": "Galamoth",
+  "refs": [
+   42036,
+   42076
+  ],
+  "engine": "A",
+  "ko": "갈라모스",
+  "k_ko": "가라모스",
+  "k_hex": "00ff4000ff6a00ff7a00ff95",
+  "limit": 16,
+  "k_ko_auto": "가라모스",
+  "hex": "20 ff 40 00 ff 6a 00 ff 7a 00 ff 95 ff 00",
+  "cells": 4
+ },
+ {
+  "id": "enemy_203",
+  "cat": "enemy",
+  "idx": [
+   203
+  ],
+  "va": "0x800E06BC",
+  "len": 12,
+  "en": "Minotaurus",
+  "refs": [
+   42236
+  ],
+  "engine": "A",
+  "ko": "미노타우로스",
+  "k_ko": "미노타우르스",
+  "k_hex": "00ff7d00ff5300ffc800ffa200ff7300ff95",
+  "limit": 16,
+  "k_ko_auto": "미노타우르스",
+  "hex": "00 ff 7d 00 ff 53 00 ff c8 00 ff a2 00 ff 6f 00 ff 95 ff 00",
+  "cells": 6
+ },
+ {
+  "id": "enemy_206",
+  "cat": "enemy",
+  "idx": [
+   206,
+   389
+  ],
+  "va": "0x800E06B0",
+  "len": 10,
+  "en": "Werewolf",
+  "refs": [
+   42356,
+   49676
+  ],
+  "engine": "A",
+  "ko": "늑대인간",
+  "k_ko": "웨어 울프",
+  "k_hex": "00ffa400ff9b0020ffa200ffd6",
+  "limit": 16,
+  "k_ko_auto": "웨어 울프",
+  "hex": "0a ff 56 00 ff 59 1c ff a9 1c ff 40 ff 00",
+  "cells": 4
+ },
+ {
+  "id": "enemy_211",
+  "cat": "enemy",
+  "idx": [
+   211
+  ],
+  "va": "0x800E06A0",
+  "len": 14,
+  "en": "Paranthropus",
+  "refs": [
+   42556
+  ],
+  "engine": "A",
+  "ko": "파란트로푸스",
+  "k_ko": "큰 해골",
+  "k_hex": "1cffc60000ffd920ff46",
+  "limit": 16,
+  "k_ko_auto": "큰 해골",
+  "hex": "00 ff d0 1c ff 6a 00 ff ce 00 ff 6f 00 ff d5 00 ff 95 ff 00",
+  "cells": 6
+ },
+ {
+  "id": "enemy_214",
+  "cat": "enemy",
+  "idx": [
+   214
+  ],
+  "va": "0x800E0698",
+  "len": 8,
+  "en": "Mudman",
+  "refs": [
+   42676
+  ],
+  "engine": "A",
+  "ko": "머드맨",
+  "k_ko": "머드맨",
+  "k_hex": "00ff7700ff661cff76",
+  "limit": 16,
+  "k_ko_auto": "머드맨",
+  "hex": "00 ff 77 00 ff 66 1c ff 76 ff 00",
+  "cells": 3
+ },
+ {
+  "id": "enemy_216",
+  "cat": "enemy",
+  "idx": [
+   216
+  ],
+  "va": "0x800E0688",
+  "len": 14,
+  "en": "Ghost Dancer",
+  "refs": [
+   42756
+  ],
+  "engine": "A",
+  "ko": "고스트 댄서",
+  "k_ko": "스켈레톤 점퍼",
+  "k_hex": "00ff9520ffc100ff6d1cffcc003cffac00ffd2",
+  "limit": 16,
+  "k_ko_auto": "스켈레톤 점퍼",
+  "hex": "00 ff 46 00 ff 95 00 ff ce 00 1c ff 59 00 ff 8d ff 00",
+  "cells": 6
+ },
+ {
+  "id": "enemy_217",
+  "cat": "enemy",
+  "idx": [
+   217
+  ],
+  "va": "0x800E0678",
+  "len": 13,
+  "en": "Frozen Half",
+  "refs": [
+   42796
+  ],
+  "engine": "A",
+  "ko": "프로즌 하프",
+  "k_ko": "프로즌 하프",
+  "k_hex": "00ffd600ff6f1cffb30000ffd800ffd6",
+  "limit": 16,
+  "k_ko_auto": "프로즌 하프",
+  "hex": "00 ff d6 00 ff 6f 1c ff b3 00 00 ff d8 00 ff d6 ff 00",
+  "cells": 6
+ },
+ {
+  "id": "enemy_221",
+  "cat": "enemy",
+  "idx": [
+   221
+  ],
+  "va": "0x800E0668",
+  "len": 13,
+  "en": "Salem Witch",
+  "refs": [
+   42956
+  ],
+  "engine": "A",
+  "ko": "알리오룸나스",
+  "k_ko": "알리오룸나스",
+  "k_hex": "20ff9800ff7400ff9e3cff7200ff5000ff95",
+  "limit": 16,
+  "k_ko_auto": "알리오룸나스",
+  "hex": "20 ff 98 00 ff 74 00 ff 9e 3c ff 72 00 ff 50 00 ff 95 ff 00",
+  "cells": 6
+ },
+ {
+  "id": "enemy_224",
+  "cat": "enemy",
+  "idx": [
+   224
+  ],
+  "va": "0x800E065C",
+  "len": 9,
+  "en": "Azaghal",
+  "refs": [
+   43076
+  ],
+  "engine": "A",
+  "ko": "아자갈",
+  "k_ko": "브로",
+  "k_hex": "00ff8500ff6f",
+  "limit": 16,
+  "k_ko_auto": "브로",
+  "hex": "00 ff 98 00 ff aa 20 ff 40 ff 00",
+  "cells": 3
+ },
+ {
+  "id": "enemy_225",
+  "cat": "enemy",
+  "idx": [
+   225
+  ],
+  "va": "0x800E0650",
+  "len": 9,
+  "en": "Gremlin",
+  "refs": [
+   43116
+  ],
+  "engine": "A",
+  "ko": "그렘린",
+  "k_ko": "유코바치",
+  "k_hex": "00ffa600ffc200ff7e00ffbd",
+  "limit": 16,
+  "k_ko_auto": "유코바치",
+  "hex": "00 ff 4c 3c ff 6d 1c ff 74 ff 00",
+  "cells": 3
+ },
+ {
+  "id": "enemy_227",
+  "cat": "enemy",
+  "idx": [
+   227
+  ],
+  "va": "0x800E0640",
+  "len": 14,
+  "en": "Hunting Girl",
+  "refs": [
+   43196
+  ],
+  "engine": "A",
+  "ko": "헌팅 걸",
+  "k_ko": "네메시스",
+  "k_hex": "00fffe00ff7800ff9600ff95",
+  "limit": 16,
+  "k_ko_auto": "네메시스",
+  "hex": "1c ff da 62 ff cf 00 20 ff 43 ff 00",
+  "cells": 4
+ },
+ {
+  "id": "enemy_228",
+  "cat": "enemy",
+  "idx": [
+   228
+  ],
+  "va": "0x800E0630",
+  "len": 14,
+  "en": "Vandal Sword",
+  "refs": [
+   43236
+  ],
+  "engine": "A",
+  "ko": "반달 소드",
+  "k_ko": "아라스톨",
+  "k_hex": "00ff9800ff6a00ff9520ffcc",
+  "limit": 16,
+  "k_ko_auto": "아라스톨",
+  "hex": "1c ff 7e 20 ff 5e 00 00 ff 91 00 ff 66 ff 00",
+  "cells": 5
+ },
+ {
+  "id": "enemy_229",
+  "cat": "enemy",
+  "idx": [
+   229
+  ],
+  "va": "0x800E0628",
+  "len": 8,
+  "en": "Salome",
+  "refs": [
+   43276
+  ],
+  "engine": "A",
+  "ko": "살로메",
+  "k_ko": "사우지네",
+  "k_hex": "00ff8a00ffa200ffb400fffe",
+  "limit": 16,
+  "k_ko_auto": "사우지네",
+  "hex": "20 ff 8a 00 ff 6f 00 ff 78 ff 00",
+  "cells": 3
+ },
+ {
+  "id": "enemy_233",
+  "cat": "enemy",
+  "idx": [
+   233
+  ],
+  "va": "0x800E0620",
+  "len": 8,
+  "en": "Ctulhu",
+  "refs": [
+   43436
+  ],
+  "engine": "A",
+  "ko": "크툴루",
+  "k_ko": "데빌",
+  "k_hex": "00ff5b20ff86",
+  "limit": 16,
+  "k_ko_auto": "데빌",
+  "hex": "00 ff c6 20 ff cd 00 ff 72 ff 00",
+  "cells": 3
+ },
+ {
+  "id": "enemy_236",
+  "cat": "enemy",
+  "idx": [
+   236
+  ],
+  "va": "0x800E0614",
+  "len": 9,
+  "en": "Malachi",
+  "refs": [
+   43556
+  ],
+  "engine": "A",
+  "ko": "말라키",
+  "k_ko": "이빌",
+  "k_hex": "00ffa920ff86",
+  "limit": 16,
+  "k_ko_auto": "이빌",
+  "hex": "20 ff 75 00 ff 6a 00 ff c7 ff 00",
+  "cells": 3
+ },
+ {
+  "id": "enemy_239",
+  "cat": "enemy",
+  "idx": [
+   239
+  ],
+  "va": "0x800E060C",
+  "len": 7,
+  "en": "Harpy",
+  "refs": [
+   43676
+  ],
+  "engine": "A",
+  "ko": "하피",
+  "k_ko": "하르피이아",
+  "k_hex": "00ffd800ff7300ffd700ffa900ff98",
+  "limit": 16,
+  "k_ko_auto": "하르피이아",
+  "hex": "00 ff d8 00 ff d7 ff 00",
+  "cells": 2
+ },
+ {
+  "id": "enemy_243",
+  "cat": "enemy",
+  "idx": [
+   243
+  ],
+  "va": "0x800E0604",
+  "len": 8,
+  "en": "Slogra",
+  "refs": [
+   43836
+  ],
+  "engine": "A",
+  "ko": "슬로그라",
+  "k_ko": "베리건",
+  "k_hex": "00ff8100ff741cff43",
+  "limit": 16,
+  "k_ko_auto": "베리건",
+  "hex": "20 ff 95 00 ff 6f 00 ff 4c 00 ff 6a ff 00",
+  "cells": 4
+ },
+ {
+  "id": "enemy_247",
+  "cat": "enemy",
+  "idx": [
+   247
+  ],
+  "va": "0x800E05F8",
+  "len": 11,
+  "en": "Spellbook",
+  "refs": [
+   43996
+  ],
+  "engine": "A",
+  "ko": "주문서",
+  "k_ko": "주법전",
+  "k_hex": "00ffb03eff801cffac",
+  "limit": 16,
+  "k_ko_auto": "주법전",
+  "hex": "00 ff b0 1c ff 7c 00 ff 8d ff 00",
+  "cells": 3
+ },
+ {
+  "id": "enemy_249",
+  "cat": "enemy",
+  "idx": [
+   249,
+   251
+  ],
+  "va": "0x800E05EC",
+  "len": 12,
+  "en": "Magic Tome",
+  "refs": [
+   44076,
+   44156
+  ],
+  "engine": "A",
+  "ko": "마법서",
+  "k_ko": "마법전",
+  "k_hex": "00ff753eff801cffac",
+  "limit": 16,
+  "k_ko_auto": "마법전",
+  "hex": "00 ff 75 3e ff 80 00 ff 8d ff 00",
+  "cells": 3
+ },
+ {
+  "id": "enemy_253",
+  "cat": "enemy",
+  "idx": [
+   253
+  ],
+  "va": "0x800E05DC",
+  "len": 16,
+  "en": "Doppleganger10",
+  "refs": [
+   44236
+  ],
+  "engine": "A",
+  "ko": "도플갱어10",
+  "k_ko": "도플갱어LV10",
+  "k_hex": "00ff5c20ffd662ff4100ff9b2c361110",
+  "limit": 16,
+  "k_ko_auto": "도플갱어LV10",
+  "hex": "00 ff 5c 20 ff d6 62 ff 41 00 ff 9b 11 10 ff 00",
+  "cells": 6
+ },
+ {
+  "id": "enemy_254",
+  "cat": "enemy",
+  "idx": [
+   254
+  ],
+  "va": "0x800E05D4",
+  "len": 8,
+  "en": "Gaibon",
+  "refs": [
+   44276
+  ],
+  "engine": "A",
+  "ko": "가이본",
+  "k_ko": "갸이본",
+  "k_hex": "00ff4200ffa91cff83",
+  "limit": 16,
+  "k_ko_auto": "갸이본",
+  "hex": "00 ff 40 00 ff a9 1c ff 83 ff 00",
+  "cells": 3
+ },
+ {
+  "id": "enemy_261",
+  "cat": "enemy",
+  "idx": [
+   261
+  ],
+  "va": "0x800E05C8",
+  "len": 12,
+  "en": "Skull Lord",
+  "refs": [
+   44556
+  ],
+  "engine": "A",
+  "ko": "스컬 로드",
+  "k_ko": "대망령",
+  "k_hex": "00ff5962ff7562ff6e",
+  "limit": 16,
+  "k_ko_auto": "대망령",
+  "hex": "00 ff 95 20 ff c0 00 00 ff 6f 00 ff 66 ff 00",
+  "cells": 5
+ },
+ {
+  "id": "enemy_262",
+  "cat": "enemy",
+  "idx": [
+   262
+  ],
+  "va": "0x800E05C0",
+  "len": 6,
+  "en": "Lion",
+  "refs": [
+   44596
+  ],
+  "engine": "A",
+  "ko": "사자",
+  "k_ko": "라이온",
+  "k_hex": "00ff6a00ffa91cff9e",
+  "limit": 16,
+  "k_ko_auto": "라이온",
+  "hex": "00 ff 8a 00 ff aa ff 00",
+  "cells": 2
+ },
+ {
+  "id": "enemy_264",
+  "cat": "enemy",
+  "idx": [
+   264
+  ],
+  "va": "0x800E05B4",
+  "len": 9,
+  "en": "Tin man",
+  "refs": [
+   44676
+  ],
+  "engine": "A",
+  "ko": "틴 맨",
+  "k_ko": "틴맨",
+  "k_hex": "1cffcf1cff76",
+  "limit": 16,
+  "k_ko_auto": "틴맨",
+  "hex": "1c ff cf 00 1c ff 76 ff 00",
+  "cells": 3
+ },
+ {
+  "id": "enemy_267",
+  "cat": "enemy",
+  "idx": [
+   267
+  ],
+  "va": "0x800E05A8",
+  "len": 12,
+  "en": "Akmodan II",
+  "refs": [
+   44796
+  ],
+  "engine": "A",
+  "ko": "아크모단 2세",
+  "k_ko": "미이라남",
+  "k_hex": "00ff7d00ffa900ff6a3cff50",
+  "limit": 16,
+  "k_ko_auto": "미이라남",
+  "hex": "00 ff 98 00 ff c6 00 ff 7a 1c ff 5e 00 12 00 ff 8e ff 00",
+  "cells": 7
+ },
+ {
+  "id": "enemy_271",
+  "cat": "enemy",
+  "idx": [
+   271
+  ],
+  "va": "0x800E0598",
+  "len": 16,
+  "en": "Cloaked knight",
+  "refs": [
+   44956
+  ],
+  "engine": "A",
+  "ko": "망토 기사",
+  "k_ko": "플라잉 아머",
+  "k_hex": "20ffd600ff6a62ffa90000ff9800ff77",
+  "limit": 16,
+  "k_ko_auto": "플라잉 아머",
+  "hex": "62 ff 75 00 ff cc 00 00 ff 4d 00 ff 8a ff 00",
+  "cells": 5
+ },
+ {
+  "id": "enemy_273",
+  "cat": "enemy",
+  "idx": [
+   273
+  ],
+  "va": "0x800E0588",
+  "len": 14,
+  "en": "Darkwing Bat",
+  "refs": [
+   45036
+  ],
+  "engine": "A",
+  "ko": "다크윙 배트",
+  "k_ko": "큰 박쥐",
+  "k_hex": "1cffc6000aff7e00ffb1",
+  "limit": 16,
+  "k_ko_auto": "큰 박쥐",
+  "hex": "00 ff 5e 00 ff c6 62 ff a5 00 00 ff 7f 00 ff ce ff 00",
+  "cells": 6
+ },
+ {
+  "id": "enemy_277",
+  "cat": "enemy",
+  "idx": [
+   277
+  ],
+  "va": "0x800E057C",
+  "len": 10,
+  "en": "Fishhead",
+  "refs": [
+   45196
+  ],
+  "engine": "A",
+  "ko": "피시헤드",
+  "k_ko": "피시 헤드",
+  "k_hex": "00ffd700ff960000ffdb00ff66",
+  "limit": 16,
+  "k_ko_auto": "피시 헤드",
+  "hex": "00 ff d7 00 ff 96 00 ff db 00 ff 66 ff 00",
+  "cells": 4
+ },
+ {
+  "id": "enemy_280",
+  "cat": "enemy",
+  "idx": [
+   280
+  ],
+  "va": "0x800E0570",
+  "len": 11,
+  "en": "Karasuman",
+  "refs": [
+   45316
+  ],
+  "engine": "A",
+  "ko": "카라스만",
+  "k_ko": "말파스",
+  "k_hex": "20ff7500ffd000ff95",
+  "limit": 16,
+  "k_ko_auto": "말파스",
+  "hex": "00 ff be 00 ff 6a 00 ff 95 1c ff 75 ff 00",
+  "cells": 4
+ },
+ {
+  "id": "enemy_284",
+  "cat": "enemy",
+  "idx": [
+   284
+  ],
+  "va": "0x800E0568",
+  "len": 5,
+  "en": "Imp",
+  "refs": [
+   45476
+  ],
+  "engine": "A",
+  "ko": "임프",
+  "k_ko": "임프",
+  "k_hex": "3cffa900ffd6",
+  "limit": 16,
+  "k_ko_auto": "임프",
+  "hex": "3c ff a9 00 ff d6 ff 00",
+  "cells": 2
+ },
+ {
+  "id": "enemy_285",
+  "cat": "enemy",
+  "idx": [
+   285
+  ],
+  "va": "0x800E0558",
+  "len": 13,
+  "en": "Balloon pod",
+  "refs": [
+   45516
+  ],
+  "engine": "A",
+  "ko": "벌룬 포드",
+  "k_ko": "벌룬",
+  "k_hex": "20ff801cff72",
+  "limit": 16,
+  "k_ko_auto": "벌룬",
+  "hex": "20 ff 80 1c ff 72 00 00 ff d4 00 ff 66 ff 00",
+  "cells": 5
+ },
+ {
+  "id": "enemy_287",
+  "cat": "enemy",
+  "idx": [
+   287
+  ],
+  "va": "0x800E0550",
+  "len": 8,
+  "en": "Scylla",
+  "refs": [
+   45596
+  ],
+  "engine": "A",
+  "ko": "스킬라",
+  "k_ko": "스킬라",
+  "k_hex": "00ff9520ffc700ff6a",
+  "limit": 16,
+  "k_ko_auto": "스킬라",
+  "hex": "00 ff 95 20 ff c7 00 ff 6a ff 00",
+  "cells": 3
+ },
+ {
+  "id": "enemy_294",
+  "cat": "enemy",
+  "idx": [
+   294
+  ],
+  "va": "0x800E0540",
+  "len": 13,
+  "en": "Scylla wyrm",
+  "refs": [
+   45876
+  ],
+  "engine": "A",
+  "ko": "스킬라 웜",
+  "k_ko": "스킬라 테일",
+  "k_hex": "00ff9520ffc700ff6a0000ffcb20ffa9",
+  "limit": 16,
+  "k_ko_auto": "스킬라 테일",
+  "hex": "00 ff 95 20 ff c7 00 ff 6a 00 3c ff a3 ff 00",
+  "cells": 5
+ },
+ {
+  "id": "enemy_295",
+  "cat": "enemy",
+  "idx": [
+   295,
+   296
+  ],
+  "va": "0x800E0534",
+  "len": 12,
+  "en": "Granfaloon",
+  "refs": [
+   45916,
+   45956
+  ],
+  "engine": "A",
+  "ko": "그랑팔룬",
+  "k_ko": "레기온",
+  "k_hex": "00ff6d00ff4d1cff9e",
+  "limit": 16,
+  "k_ko_auto": "레기온",
+  "hex": "00 ff 4c 62 ff 6a 20 ff d0 1c ff 72 ff 00",
+  "cells": 4
+ },
+ {
+  "id": "enemy_300",
+  "cat": "enemy",
+  "idx": [
+   300
+  ],
+  "va": "0x800E0528",
+  "len": 12,
+  "en": "Hippogryph",
+  "refs": [
+   46116
+  ],
+  "engine": "A",
+  "ko": "히포그리프",
+  "k_ko": "히포그리프",
+  "k_hex": "00ffef00ffd400ff4c00ff7400ffd6",
+  "limit": 16,
+  "k_ko_auto": "히포그리프",
+  "hex": "00 ff ef 00 ff d4 00 ff 4c 00 ff 74 00 ff d6 ff 00",
+  "cells": 5
+ },
+ {
+  "id": "enemy_303",
+  "cat": "enemy",
+  "idx": [
+   303,
+   304
+  ],
+  "va": "0x800E0518",
+  "len": 13,
+  "en": "Medusa Head",
+  "refs": [
+   46236,
+   46276
+  ],
+  "engine": "A",
+  "ko": "메두사 헤드",
+  "k_ko": "메두사 헤드",
+  "k_hex": "00ff7800ff5f00ff8a0000ffdb00ff66",
+  "limit": 16,
+  "k_ko_auto": "메두사 헤드",
+  "hex": "00 ff 78 00 ff 5f 00 ff 8a 00 00 ff db 00 ff 66 ff 00",
+  "cells": 6
+ },
+ {
+  "id": "enemy_305",
+  "cat": "enemy",
+  "idx": [
+   305
+  ],
+  "va": "0x800E0510",
+  "len": 8,
+  "en": "Archer",
+  "refs": [
+   46316
+  ],
+  "engine": "A",
+  "ko": "아처",
+  "k_ko": "아처",
+  "k_hex": "00ff9800ffb7",
+  "limit": 16,
+  "k_ko_auto": "아처",
+  "hex": "00 ff 98 00 ff b7 ff 00",
+  "cells": 2
+ },
+ {
+  "id": "enemy_307",
+  "cat": "enemy",
+  "idx": [
+   307
+  ],
+  "va": "0x800E04FC",
+  "len": 17,
+  "en": "Richter Belmont",
+  "refs": [
+   46396
+  ],
+  "engine": "A",
+  "ko": "리히터 벨몬드",
+  "k_ko": "리히터 벨몬드",
+  "k_hex": "00ff7400ffef00ffca0020ff811cff7a00ff66",
+  "limit": 16,
+  "k_ko_auto": "리히터 벨몬드",
+  "hex": "00 ff 74 00 ff ef 00 ff ca 00 20 ff 81 1c ff 7a 00 ff 66 ff 00",
+  "cells": 7
+ },
+ {
+  "id": "enemy_322",
+  "cat": "enemy",
+  "idx": [
+   322
+  ],
+  "va": "0x800E04F0",
+  "len": 11,
+  "en": "Scarecrow",
+  "refs": [
+   46996
+  ],
+  "engine": "A",
+  "ko": "허수아비",
+  "k_ko": "스케어크로우",
+  "k_hex": "00ff9500ffc100ff9b00ffc600ff6f00ffa2",
+  "limit": 16,
+  "k_ko_auto": "스케어크로우",
+  "hex": "00 ff da 00 ff 93 00 ff 98 00 ff 86 ff 00",
+  "cells": 4
+ },
+ {
+  "id": "enemy_323",
+  "cat": "enemy",
+  "idx": [
+   323
+  ],
+  "va": "0x800E04E8",
+  "len": 8,
+  "en": "Schmoo",
+  "refs": [
+   47036
+  ],
+  "engine": "A",
+  "ko": "슈무",
+  "k_ko": "큐우",
+  "k_hex": "00ffc500ffa2",
+  "limit": 16,
+  "k_ko_auto": "큐우",
+  "hex": "00 ff 94 00 ff 7c ff 00",
+  "cells": 2
+ },
+ {
+  "id": "enemy_324",
+  "cat": "enemy",
+  "idx": [
+   324
+  ],
+  "va": "0x800E04DC",
+  "len": 11,
+  "en": "Beezelbub",
+  "refs": [
+   47076
+  ],
+  "engine": "A",
+  "ko": "베엘제붑",
+  "k_ko": "베르제브브",
+  "k_hex": "00ff8100ff7300ffad00ff8500ff85",
+  "limit": 16,
+  "k_ko_auto": "베르제브브",
+  "hex": "00 ff 81 20 ff 9c 00 ff ad 3e ff 84 ff 00",
+  "cells": 4
+ },
+ {
+  "id": "enemy_328",
+  "cat": "enemy",
+  "idx": [
+   328
+  ],
+  "va": "0x800E04CC",
+  "len": 13,
+  "en": "Fake Trevor",
+  "refs": [
+   47236
+  ],
+  "engine": "A",
+  "ko": "트레버 페이크",
+  "k_ko": "랄프 페이크",
+  "k_hex": "20ff6a00ffd60000ffd300ffa900ffc6",
+  "limit": 16,
+  "k_ko_auto": "랄프 페이크",
+  "hex": "00 ff ce 00 ff 6d 00 ff 80 00 00 ff d3 00 ff a9 00 ff c6 ff 00",
+  "cells": 7
+ },
+ {
+  "id": "enemy_334",
+  "cat": "enemy",
+  "idx": [
+   334
+  ],
+  "va": "0x800E04C0",
+  "len": 12,
+  "en": "Fake Grant",
+  "refs": [
+   47476
+  ],
+  "engine": "A",
+  "ko": "그랜트 페이크",
+  "k_ko": "그랜트 페이크",
+  "k_hex": "00ff4c1cff6b00ffce0000ffd300ffa900ffc6",
+  "limit": 16,
+  "k_ko_auto": "그랜트 페이크",
+  "hex": "00 ff 4c 1c ff 6b 00 ff ce 00 00 ff d3 00 ff a9 00 ff c6 ff 00",
+  "cells": 7
+ },
+ {
+  "id": "enemy_337",
+  "cat": "enemy",
+  "idx": [
+   337
+  ],
+  "va": "0x800E04B4",
+  "len": 12,
+  "en": "Fake Sypha",
+  "refs": [
+   47596
+  ],
+  "engine": "A",
+  "ko": "사이파 페이크",
+  "k_ko": "사이퍼 페이크",
+  "k_hex": "00ff8a00ffa900ffd20000ffd300ffa900ffc6",
+  "limit": 16,
+  "k_ko_auto": "사이퍼 페이크",
+  "hex": "00 ff 8a 00 ff a9 00 ff d0 00 00 ff d3 00 ff a9 00 ff c6 ff 00",
+  "cells": 7
+ },
+ {
+  "id": "enemy_342",
+  "cat": "enemy",
+  "idx": [
+   342
+  ],
+  "va": "0x800E04A8",
+  "len": 10,
+  "en": "Succubus",
+  "refs": [
+   47796
+  ],
+  "engine": "A",
+  "ko": "서큐버스",
+  "k_ko": "서큐버스",
+  "k_hex": "00ff8d00ffc500ff8000ff95",
+  "limit": 16,
+  "k_ko_auto": "서큐버스",
+  "hex": "00 ff 8d 00 ff c5 00 ff 80 00 ff 95 ff 00",
+  "cells": 4
+ },
+ {
+  "id": "enemy_350",
+  "cat": "enemy",
+  "idx": [
+   350
+  ],
+  "va": "0x800E0498",
+  "len": 13,
+  "en": "Killer Fish",
+  "refs": [
+   48116
+  ],
+  "engine": "A",
+  "ko": "킬러 피시",
+  "k_ko": "킬러 피시",
+  "k_hex": "20ffc700ff6c0000ffd700ff96",
+  "limit": 16,
+  "k_ko_auto": "킬러 피시",
+  "hex": "20 ff c7 00 ff 6c 00 00 ff d7 00 ff 96 ff 00",
+  "cells": 5
+ },
+ {
+  "id": "enemy_351",
+  "cat": "enemy",
+  "idx": [
+   351
+  ],
+  "va": "0x800E0490",
+  "len": 7,
+  "en": "Shaft",
+  "refs": [
+   48156
+  ],
+  "engine": "A",
+  "ko": "샤프트",
+  "k_ko": "샤프트",
+  "k_hex": "00ff8c00ffd600ffce",
+  "limit": 16,
+  "k_ko_auto": "샤프트",
+  "hex": "00 ff 8c 00 ff d6 00 ff ce ff 00",
+  "cells": 3
+ },
+ {
+  "id": "enemy_356",
+  "cat": "enemy",
+  "idx": [
+   356,
+   361
+  ],
+  "va": "0x800E0488",
+  "len": 7,
+  "en": "Death",
+  "refs": [
+   48356,
+   48556
+  ],
+  "engine": "A",
+  "ko": "사신",
+  "k_ko": "데스",
+  "k_hex": "00ff5b00ff95",
+  "limit": 16,
+  "k_ko_auto": "데스",
+  "hex": "00 ff 8a 1c ff 96 ff 00",
+  "cells": 2
+ },
+ {
+  "id": "enemy_363",
+  "cat": "enemy",
+  "idx": [
+   363
+  ],
+  "va": "0x800E047C",
+  "len": 10,
+  "en": "Cerberos",
+  "refs": [
+   48636
+  ],
+  "engine": "A",
+  "ko": "케르베로스",
+  "k_ko": "켈베로스",
+  "k_hex": "20ffc100ff8100ff6f00ff95",
+  "limit": 16,
+  "k_ko_auto": "켈베로스",
+  "hex": "00 ff c1 00 ff 73 00 ff 81 00 ff 6f 00 ff 95 ff 00",
+  "cells": 5
+ },
+ {
+  "id": "enemy_366",
+  "cat": "enemy",
+  "idx": [
+   366
+  ],
+  "va": "0x800E0474",
+  "len": 8,
+  "en": "Medusa",
+  "refs": [
+   48756
+  ],
+  "engine": "A",
+  "ko": "메두사",
+  "k_ko": "메두사",
+  "k_hex": "00ff7800ff5f00ff8a",
+  "limit": 16,
+  "k_ko_auto": "메두사",
+  "hex": "00 ff 78 00 ff 5f 00 ff 8a ff 00",
+  "cells": 3
+ },
+ {
+  "id": "enemy_370",
+  "cat": "enemy",
+  "idx": [
+   370
+  ],
+  "va": "0x800E0464",
+  "len": 14,
+  "en": "The Creature",
+  "refs": [
+   48916
+  ],
+  "engine": "A",
+  "ko": "크리처",
+  "k_ko": "프랑켄",
+  "k_hex": "00ffd662ff6a1cffc1",
+  "limit": 16,
+  "k_ko_auto": "프랑켄",
+  "hex": "00 ff c6 00 ff 74 00 ff b7 ff 00",
+  "cells": 3
+ },
+ {
+  "id": "enemy_372",
+  "cat": "enemy",
+  "idx": [
+   372
+  ],
+  "va": "0x800E0454",
+  "len": 16,
+  "en": "Doppleganger40",
+  "refs": [
+   48996
+  ],
+  "engine": "A",
+  "ko": "도플갱어40",
+  "k_ko": "도플갱어LV40",
+  "k_hex": "00ff5c20ffd662ff4100ff9b2c361410",
+  "limit": 16,
+  "k_ko_auto": "도플갱어LV40",
+  "hex": "00 ff 5c 20 ff d6 62 ff 41 00 ff 9b 14 10 ff 00",
+  "cells": 6
+ },
+ {
+  "id": "enemy_384",
+  "cat": "enemy",
+  "idx": [
+   384
+  ],
+  "va": "0x800E0444",
+  "len": 13,
+  "en": "Stone Skull",
+  "refs": [
+   49476
+  ],
+  "engine": "A",
+  "ko": "스톤 스컬",
+  "k_ko": "스핀 헤드",
+  "k_hex": "00ff951cffd70000ffdb00ff66",
+  "limit": 16,
+  "k_ko_auto": "스핀 헤드",
+  "hex": "00 ff 95 1c ff cc 00 00 ff 95 20 ff c0 ff 00",
+  "cells": 5
+ },
+ {
+  "id": "enemy_386",
+  "cat": "enemy",
+  "idx": [
+   386
+  ],
+  "va": "0x800E0438",
+  "len": 10,
+  "en": "Minotaur",
+  "refs": [
+   49556
+  ],
+  "engine": "A",
+  "ko": "미노타우로스",
+  "k_ko": "미노타우르스",
+  "k_hex": "00ff7d00ff5300ffc800ffa200ff7300ff95",
+  "limit": 16,
+  "k_ko_auto": "미노타우르스",
+  "hex": "00 ff 7d 00 ff 53 00 ff c8 00 ff a2 00 ff 6f 00 ff 95 ff 00",
+  "cells": 6
+ },
+ {
+  "id": "enemy_392",
+  "cat": "enemy",
+  "idx": [
+   392,
+   393
+  ],
+  "va": "0x800E0424",
+  "len": 17,
+  "en": "Blue Venus Weed",
+  "refs": [
+   49796,
+   49836
+  ],
+  "engine": "A",
+  "ko": "푸른 비너스 위드",
+  "k_ko": "블루 알라 우네",
+  "k_hex": "20ff8500ff720020ff9800ff6a0000ffa200fffe",
+  "limit": 16,
+  "k_ko_auto": "블루 알라 우네",
+  "hex": "00 ff d5 1c ff 73 00 00 ff 86 00 ff 51 00 ff 95 00 00 ff a5 00 ff 66 ff 00",
+  "cells": 9
+ },
+ {
+  "id": "enemy_396",
+  "cat": "enemy",
+  "idx": [
+   396
+  ],
+  "va": "0x800E0418",
+  "len": 10,
+  "en": "Guardian",
+  "refs": [
+   49956
+  ],
+  "engine": "A",
+  "ko": "가디언",
+  "k_ko": "파이널 가드",
+  "k_hex": "00ffd000ffa920ff510000ff4000ff66",
+  "limit": 16,
+  "k_ko_auto": "파이널 가드",
+  "hex": "00 ff 40 00 ff 67 1c ff 9b ff 00",
+  "cells": 3
+ },
+ {
+  "id": "enemy_400",
+  "cat": "enemy",
+  "idx": [
+   400,
+   415,
+   416
+  ],
+  "va": "0x800E040C",
+  "len": 10,
+  "en": "Gargoyle",
+  "refs": [
+   50116,
+   50716,
+   50756
+  ],
+  "engine": "A",
+  "ko": "가고일",
+  "limit": 16,
+  "k_ko_auto": "가고일",
+  "hex": "00 ff 40 00 ff 46 20 ff a9 ff 00",
+  "cells": 3
+ },
+ {
+  "id": "enemy_401",
+  "cat": "enemy",
+  "idx": [
+   401
+  ],
+  "va": "0x800E03FC",
+  "len": 14,
+  "en": "Copper Armor",
+  "refs": [
+   50156
+  ],
+  "engine": "A",
+  "ko": "코퍼 아머",
+  "limit": 16,
+  "k_ko_auto": "코퍼 아머",
+  "hex": "00 ff c2 00 ff d2 00 00 ff 98 00 ff 77 ff 00",
+  "cells": 5
+ },
+ {
+  "id": "enemy_402",
+  "cat": "enemy",
+  "idx": [
+   402
+  ],
+  "va": "0x800E03F4",
+  "len": 7,
+  "en": "Ifrit",
+  "refs": [
+   50196
+  ],
+  "engine": "A",
+  "ko": "이프리트",
+  "limit": 16,
+  "k_ko_auto": "이프리트",
+  "hex": "00 ff a9 00 ff d6 00 ff 74 00 ff ce ff 00",
+  "cells": 4
+ },
+ {
+  "id": "enemy_404",
+  "cat": "enemy",
+  "idx": [
+   404
+  ],
+  "va": "0x800E03E0",
+  "len": 17,
+  "en": "Skeleton Leader",
+  "refs": [
+   50276
+  ],
+  "engine": "A",
+  "ko": "해골 리더",
+  "limit": 16,
+  "k_ko_auto": "스켈레톤 리더",
+  "hex": "00 ff d9 20 ff 46 00 00 ff 74 00 ff 5a ff 00",
+  "cells": 5
+ },
+ {
+  "id": "enemy_405",
+  "cat": "enemy",
+  "idx": [
+   405
+  ],
+  "va": "0x800E03D4",
+  "len": 10,
+  "en": "Gardener",
+  "refs": [
+   50316
+  ],
+  "engine": "A",
+  "ko": "정원사",
+  "limit": 16,
+  "k_ko_auto": "가드너",
+  "hex": "62 ff ac 1c ff a3 00 ff 8a ff 00",
+  "cells": 3
+ },
+ {
+  "id": "enemy_406",
+  "cat": "enemy",
+  "idx": [
+   406
+  ],
+  "va": "0x800E03C0",
+  "len": 17,
+  "en": "Human Face Tree",
+  "refs": [
+   50356
+  ],
+  "engine": "A",
+  "ko": "인면수",
+  "limit": 16,
+  "k_ko_auto": "인면수",
+  "hex": "1c ff a9 1c ff 79 00 ff 93 ff 00",
+  "cells": 3
+ },
+ {
+  "id": "enemy_408",
+  "cat": "enemy",
+  "idx": [
+   408
+  ],
+  "va": "0x800E03B8",
+  "len": 7,
+  "en": "Maria",
+  "refs": [
+   50436
+  ],
+  "engine": "A",
+  "ko": "마리아 라네드",
+  "limit": 16,
+  "k_ko_auto": "마리아",
+  "hex": "00 ff 75 00 ff 74 00 ff 98 00 00 ff 6a 00 ff fe 00 ff 66 ff 00",
+  "cells": 7
+ },
+ {
+  "id": "enemy_413",
+  "cat": "enemy",
+  "idx": [
+   413
+  ],
+  "va": "0x800E03A8",
+  "len": 14,
+  "en": "Water Leaper",
+  "refs": [
+   50636
+  ],
+  "engine": "A",
+  "ko": "워터 리퍼",
+  "limit": 16,
+  "k_ko_auto": "워터 리퍼",
+  "hex": "00 ff a3 00 ff ca 00 00 ff 74 00 ff d2 ff 00",
+  "cells": 5
+ },
+ {
+  "id": "enemy_414",
+  "cat": "enemy",
+  "idx": [
+   414
+  ],
+  "va": "0x800E039C",
+  "len": 11,
+  "en": "Man Eater",
+  "refs": [
+   50676
+  ],
+  "engine": "A",
+  "ko": "맨 이터",
+  "limit": 16,
+  "k_ko_auto": "맨 이터",
+  "hex": "1c ff 76 00 00 ff a9 00 ff ca ff 00",
+  "cells": 4
+ },
+ {
+  "id": "enemy_417",
+  "cat": "enemy",
+  "idx": [
+   417
+  ],
+  "va": "0x800E0390",
+  "len": 9,
+  "en": "Specter",
+  "refs": [
+   50796
+  ],
+  "engine": "A",
+  "ko": "스펙터",
+  "limit": 16,
+  "k_ko_auto": "스펙터",
+  "hex": "00 ff 95 0a ff d3 00 ff ca ff 00",
+  "cells": 3
+ },
+ {
+  "id": "enemy_418",
+  "cat": "enemy",
+  "idx": [
+   418
+  ],
+  "va": "0x800E0380",
+  "len": 14,
+  "en": "Will O' Wisp",
+  "refs": [
+   50836
+  ],
+  "engine": "A",
+  "ko": "윌 오 위스프",
+  "limit": 16,
+  "k_ko_auto": "윌 오 위스프",
+  "hex": "20 ff a5 00 00 ff 9e 00 00 ff a5 00 ff 95 00 ff d6 ff 00",
+  "cells": 7
+ },
+ {
+  "id": "enemy_420",
+  "cat": "enemy",
+  "idx": [
+   420
+  ],
+  "va": "0x800E0370",
+  "len": 15,
+  "en": "Skel. Breeder",
+  "refs": [
+   50916
+  ],
+  "engine": "A",
+  "ko": "해골 브리더",
+  "limit": 16,
+  "k_ko_auto": "스켈레톤 브리더",
+  "hex": "00 ff d9 20 ff 46 00 00 ff 85 00 ff 74 00 ff 5a ff 00",
+  "cells": 6
+ },
+ {
+  "id": "enemy_421",
+  "cat": "enemy",
+  "idx": [
+   421
+  ],
+  "va": "0x800E0360",
+  "len": 16,
+  "en": "Skeleton Beast",
+  "refs": [
+   50956
+  ],
+  "engine": "A",
+  "ko": "해골 짐승",
+  "limit": 16,
+  "k_ko_auto": "스켈레톤 비스트",
+  "hex": "00 ff d9 20 ff 46 00 3c ff b4 62 ff 95 ff 00",
+  "cells": 5
+ },
+ {
+  "id": "enemy_423",
+  "cat": "enemy",
+  "idx": [
+   423
+  ],
+  "va": "0x800E0358",
+  "len": 7,
+  "en": "Wight",
+  "refs": [
+   51036
+  ],
+  "engine": "A",
+  "ko": "와이트",
+  "limit": 16,
+  "k_ko_auto": "와이트",
+  "hex": "00 ff 9f 00 ff a9 00 ff ce ff 00",
+  "cells": 3
+ },
+ {
+  "id": "enemy_424",
+  "cat": "enemy",
+  "idx": [
+   424
+  ],
+  "va": "0x800E0350",
+  "len": 8,
+  "en": "Wraith",
+  "refs": [
+   51076
+  ],
+  "engine": "A",
+  "ko": "레이스",
+  "limit": 16,
+  "k_ko_auto": "레이스",
+  "hex": "00 ff 6d 00 ff a9 00 ff 95 ff 00",
+  "cells": 3
+ },
+ {
+  "id": "enemy_425",
+  "cat": "enemy",
+  "idx": [
+   425
+  ],
+  "va": "0x800E0340",
+  "len": 16,
+  "en": "Skel. Guardian",
+  "refs": [
+   51116
+  ],
+  "engine": "A",
+  "ko": "해골 가디언",
+  "limit": 16,
+  "k_ko_auto": "스켈레톤 가디언",
+  "hex": "00 ff d9 20 ff 46 00 00 ff 40 00 ff 67 1c ff 9b ff 00",
+  "cells": 6
+ },
+ {
+  "id": "holder",
+  "cat": "holder",
+  "idx": [
+   0
+  ],
+  "va": "0x800DC064",
+  "len": 8,
+  "en": "Holder",
+  "refs": [],
+  "code_refs": [
+   [
+    347332,
+    347336
+   ],
+   [
+    350052,
+    350056
+   ]
+  ],
+  "engine": "A",
+  "ko": "홀더",
+  "in_place": true,
+  "k_ko_auto": "홀더",
+  "hex": "20 ff dc 00 ff 5a ff 00",
+  "cells": 2
+ },
+ {
+  "id": "att",
+  "cat": "att_def",
+  "idx": [
+   0
+  ],
+  "va": "0x800DC05C",
+  "len": 4,
+  "en": "ATT",
+  "refs": [
+   11060
+  ],
+  "engine": "C",
+  "ko": "공격",
+  "k_ko": "공격력",
+  "k_ko_auto": "공격력",
+  "hex": "05 03 ff",
+  "cells": 2
+ },
+ {
+  "id": "def",
+  "cat": "att_def",
+  "idx": [
+   0
+  ],
+  "va": "0x800DC054",
+  "len": 4,
+  "en": "DEF",
+  "refs": [
+   11064
+  ],
+  "engine": "C",
+  "ko": "방어",
+  "k_ko": "방어력",
+  "k_ko_auto": "방어력",
+  "hex": "11 1c ff",
+  "cells": 2
+ }
+]

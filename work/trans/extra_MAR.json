@@ -1,0 +1,177 @@
+{
+"file": "BOSS/MAR/MAR.BIN",
+"script_start": 5156,
+"note": "Maria: cutscene engine variant 0x8018C6A8 (not hooked yet)",
+"items": [
+{
+"off": 5188,
+"en": "You seem human",
+"cap": 14,
+"path": "cutscene",
+"newline_after": true,
+"ko": "인간 같긴 한데"
+},
+{
+"off": 5205,
+"en": "and yet...",
+"cap": 10,
+"path": "cutscene",
+"newline_after": true,
+"ko": "뭔가..."
+},
+{
+"off": 5220,
+"en": "What do you here?",
+"cap": 17,
+"path": "cutscene",
+"newline_after": false,
+"ko": "여긴 무슨 일이죠?"
+},
+{
+"off": 5268,
+"en": "I've come to",
+"cap": 12,
+"path": "cutscene",
+"newline_after": true,
+"ko": "이 성을"
+},
+{
+"off": 5283,
+"en": "destroy this castle.",
+"cap": 20,
+"path": "cutscene",
+"newline_after": false,
+"ko": "파괴하러 왔다."
+},
+{
+"off": 5318,
+"en": "Then we have the",
+"cap": 16,
+"path": "cutscene",
+"newline_after": true,
+"ko": "그럼 우리 목적은"
+},
+{
+"off": 5337,
+"en": "same purpose.",
+"cap": 13,
+"path": "cutscene",
+"newline_after": true,
+"ko": "같네요."
+},
+{
+"off": 5355,
+"en": "I'll trust you for",
+"cap": 18,
+"path": "cutscene",
+"newline_after": true,
+"ko": "당분간은 믿을게요."
+},
+{
+"off": 5378,
+"en": "now. ",
+"cap": 5,
+"path": "cutscene",
+"newline_after": false,
+"ko": "저는 "
+},
+{
+"off": 5389,
+"en": "I'm Maria.",
+"cap": 10,
+"path": "cutscene",
+"newline_after": true,
+"ko": "마리아예요"
+},
+{
+"off": 5406,
+"en": "Who are you?",
+"cap": 12,
+"path": "cutscene",
+"newline_after": false,
+"ko": "당신은요?"
+},
+{
+"off": 5443,
+"en": "Alucard.",
+"cap": 8,
+"path": "cutscene",
+"newline_after": false,
+"ko": "알카드다"
+},
+{
+"off": 5466,
+"en": "Not the talkative",
+"cap": 17,
+"path": "cutscene",
+"newline_after": true,
+"ko": "말수가 적은 타입이네요."
+},
+{
+"off": 5486,
+"en": "type I can see.",
+"cap": 15,
+"path": "cutscene",
+"newline_after": true,
+"ko": "뭐, 또 만나게 되겠죠,"
+},
+{
+"off": 5506,
+"en": "Well, ",
+"cap": 6,
+"path": "cutscene",
+"newline_after": false,
+"ko": "당신이 "
+},
+{
+"off": 5516,
+"en": "perhaps we'll",
+"cap": 13,
+"path": "cutscene",
+"newline_after": true,
+"ko": "살아 있다면."
+},
+{
+"off": 5532,
+"en": "meet again ",
+"cap": 11,
+"path": "cutscene",
+"newline_after": false,
+"ko": "안녕히."
+},
+{
+"off": 5545,
+"en": "if you",
+"cap": 6,
+"path": "cutscene",
+"newline_after": true,
+"ko": " "
+},
+{
+"off": 5554,
+"en": "live that long.",
+"cap": 15,
+"path": "cutscene",
+"newline_after": true,
+"ko": " "
+},
+{
+"off": 5574,
+"en": "Farewell.",
+"cap": 9,
+"path": "cutscene",
+"newline_after": false,
+"ko": " "
+},
+{
+"off": 44640,
+"en": "Obtained ",
+"cap": 9,
+"path": "api",
+"nl": "\u0001",
+"ko": "마도기: ",
+"orig": "4f627461696e656420",
+"note": "relic orb prefix + relic name"
+}
+]
+}

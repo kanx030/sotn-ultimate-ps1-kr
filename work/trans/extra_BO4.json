@@ -1,0 +1,15 @@
+{
+ "file": "BOSS/BO4/BO4.BIN",
+ "items": [
+  {
+   "off": 213576,
+   "en": "Obtained ",
+   "cap": 9,
+   "path": "api",
+   "nl": "\u0001",
+   "ko": "마도기: ",
+   "orig": "4f627461696e656420",
+   "note": "relic orb prefix + relic name"
+  }
+ ]
+}

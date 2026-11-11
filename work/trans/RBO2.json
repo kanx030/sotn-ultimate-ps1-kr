@@ -1,0 +1,141 @@
+{
+"file": "BOSS/RBO2/RBO2.BIN",
+"alt_start": 6264,
+"items": [
+{
+"off": 6290,
+"en": "So ",
+"cap": 3,
+"after": "031879",
+"newline_after": false,
+"ko": "결국 ",
+"gap": "0318"
+},
+{
+"off": 6295,
+"en": "you've made it",
+"cap": 14,
+"after": "010304",
+"newline_after": true,
+"ko": "여기까지 왔구려...",
+"gap": "010304"
+},
+{
+"off": 6312,
+"en": "this far...",
+"cap": 11,
+"after": "010328",
+"newline_after": true,
+"ko": "아버님의 이름으로,",
+"gap": "0103280201"
+},
+{
+"off": 6328,
+"en": "In the name of your",
+"cap": 19,
+"after": "010304",
+"newline_after": true,
+"ko": "이 어리석은 짓을",
+"gap": "010304"
+},
+{
+"off": 6350,
+"en": "Father, ",
+"cap": 8,
+"after": "031863",
+"newline_after": false,
+"ko": "멈추시오.",
+"gap": "0318"
+},
+{
+"off": 6360,
+"en": "cease this",
+"cap": 10,
+"after": "010304",
+"newline_after": true,
+"ko": " ",
+"gap": "0103040202"
+},
+{
+"off": 6375,
+"en": "foolishness.",
+"cap": 12,
+"after": "033006",
+"newline_after": true,
+"ko": " ",
+"gap": "033006138dd22224010500810b093aa00a0202"
+},
+{
+"off": 6406,
+"en": "Not while there is",
+"cap": 18,
+"after": "010304",
+"newline_after": true,
+"ko": "이 몸에 숨이 붙어",
+"gap": "010304"
+},
+{
+"off": 6427,
+"en": "breath in my body.",
+"cap": 18,
+"after": "033006",
+"newline_after": true,
+"ko": "있는 한 안 된다.",
+"gap": "0330060501000b093aa10a0202"
+},
+{
+"off": 6458,
+"en": "Then for the Master,",
+"cap": 20,
+"after": "010318",
+"newline_after": true,
+"ko": "그럼 주인님을 위해,",
+"gap": "0103180204"
+},
+{
+"off": 6483,
+"en": "I'll feast on ",
+"cap": 14,
+"after": "020579",
+"newline_after": false,
+"ko": "오늘 밤 ",
+"gap": "0205"
+},
+{
+"off": 6499,
+"en": "your",
+"cap": 4,
+"after": "010304",
+"newline_after": true,
+"ko": "그대의",
+"gap": "010304"
+},
+{
+"off": 6506,
+"en": "soul this night!",
+"cap": 16,
+"after": "033006",
+"newline_after": true,
+"ko": "영혼을 먹겠소!",
+"gap": "033006080b110100000000892408800880ffff000000"
+},
+{
+"off": 6544,
+"en": " `aecd",
+"cap": 6,
+"after": "12150f",
+"newline_after": true,
+"ko": "",
+"gap": "12150ff0ff4a681fc3f58e8443037c00"
+},
+{
+"off": 6566,
+"en": "Bw",
+"cap": 2,
+"after": "135940",
+"newline_after": false,
+"ko": "",
+"gap": "135940"
+}
+]
+}

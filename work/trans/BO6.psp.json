@@ -1,0 +1,311 @@
+{
+"file": "BOSS/BO6/BO6.BIN",
+"script": "psp",
+"alt_start": 156448,
+"items": [
+{
+"off": 156474,
+"en": "I've been waiting",
+"cap": 17,
+"ko": "기다리고",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 156494,
+"en": "for you.",
+"cap": 8,
+"ko": "있었다.",
+"gap": "033806139bb55228010500810b0e9aa00cc8a6633770a6633cc3093dd40a0202",
+"newline_after": true
+},
+{
+"off": 156534,
+"en": "Richter. Why would",
+"cap": 18,
+"ko": "리히터. 어째서",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 156555,
+"en": "a Belmont ever",
+"cap": 14,
+"ko": "벨몬드가",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 156572,
+"en": "plan to resurrect",
+"cap": 17,
+"ko": "드라큘라 백작의",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 156592,
+"en": "Count Dracula?",
+"cap": 14,
+"ko": "부활을 꾀하는 거지?",
+"gap": "0fa6644111093dd60a0202",
+"newline_after": true
+},
+{
+"off": 156617,
+"en": "Answer me!",
+"cap": 10,
+"ko": "대답해라!",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 156630,
+"en": "Why is a Belmont",
+"cap": 16,
+"ko": "어째서 벨몬드가",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 156649,
+"en": "planning to",
+"cap": 11,
+"ko": "드라큘라 백작의",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 156663,
+"en": "resurrect Count",
+"cap": 15,
+"ko": "부활을",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 156681,
+"en": "Dracula?",
+"cap": 8,
+"ko": "꾀하는 거지?",
+"gap": "03580b030a060501000b093dd70a0203",
+"newline_after": true
+},
+{
+"off": 156705,
+"en": "Dracula rises once a",
+"cap": 20,
+"ko": "드라큘라는 백 년에",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 156728,
+"en": "century. One chance",
+"cap": 19,
+"ko": "한 번 부활한다. 벨몬드가",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 156750,
+"en": "for each Belmont to",
+"cap": 19,
+"ko": "빛날 기회는 단 한 번,",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 156772,
+"en": "shine, and then we're",
+"cap": 21,
+"ko": "그 뒤엔 끝나고",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 156796,
+"en": "finished, forgotten.",
+"cap": 20,
+"ko": "잊힐 뿐이지.",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 156819,
+"en": "If I bring him back",
+"cap": 19,
+"ko": "지금 그를 되살리면",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 156841,
+"en": "now, the battle can",
+"cap": 19,
+"ko": "이 싸움은",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 156863,
+"en": "last for eternity!",
+"cap": 18,
+"ko": "영원히 계속된다!",
+"gap": "03c8060e9aa00ccca6655557a6644ee105008102042e2e2e2e2e2e2e2e2e0103080b093dd80a0202",
+"newline_after": true
+},
+{
+"off": 156921,
+"en": "You have lost your",
+"cap": 18,
+"ko": "길을 잃었구나.",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 156942,
+"en": "way. So be it,",
+"cap": 14,
+"ko": "좋다,",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 156959,
+"en": "vampire hunter.",
+"cap": 15,
+"ko": "뱀파이어 헌터여.",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 156977,
+"en": "Let your battle begin",
+"cap": 21,
+"ko": "네 싸움의 상대는",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 157001,
+"en": "with me!",
+"cap": 8,
+"ko": "나다!",
+"gap": "03680b030a06080b1101143336000c9aa44ee80909910b093ee10a0380038011020b1103143336000e9aa00ccca6655886a666699d0c9aa44ddd09099103200b073c1c139bb55228010500810b093eea0a0203",
+"newline_after": true
+},
+{
+"off": 157092,
+"en": "It's over...",
+"cap": 12,
+"ko": "끝났다...",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 157107,
+"en": "Belmont.",
+"cap": 8,
+"ko": "벨몬드.",
+"gap": "03380b030a06139cc22aa8000501000b093eeb0a0204",
+"newline_after": true
+},
+{
+"off": 157137,
+"en": "So the war between",
+"cap": 18,
+"ko": "이렇게 인간과",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 157158,
+"en": "humans and vampires",
+"cap": 19,
+"ko": "뱀파이어의 전쟁도",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 157180,
+"en": "finally ends here...",
+"cap": 20,
+"ko": "여기서 끝나는가...",
+"gap": "03ff060500810b02042e2e2e2e2e2e2e2e2e2e0338060501000b093eec0a0202",
+"newline_after": true
+},
+{
+"off": 157232,
+"en": "\"What need for the",
+"cap": 18,
+"ko": "\"늑대가 다",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 157253,
+"en": "shepherd when the",
+"cap": 17,
+"ko": "사라졌으니",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 157273,
+"en": "wolves have all",
+"cap": 15,
+"ko": "양치기도 필요 없다\"",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 157291,
+"en": "gone,\" eh? My time...",
+"cap": 21,
+"ko": "...인가. 내 시대는...",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 157315,
+"en": "It's over now...",
+"cap": 16,
+"ko": "이제 끝났다...",
+"gap": "03ff0b030a06081108000c9aa44dd209099103200b073c1c139dd00228000502000b093eef0a0203",
+"newline_after": true
+},
+{
+"off": 157371,
+"en": "How inconvenient.",
+"cap": 17,
+"ko": "곤란하게 됐군.",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 157391,
+"en": "But we've only just",
+"cap": 19,
+"ko": "하지만 이제 막",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 157413,
+"en": "begun. The Master's",
+"cap": 19,
+"ko": "시작일 뿐. 주인님의",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 157435,
+"en": "ascension is at hand!",
+"cap": 21,
+"ko": "부활이 눈앞이다!",
+"gap": "03a80b",
+"newline_after": true
+}
+]
+}

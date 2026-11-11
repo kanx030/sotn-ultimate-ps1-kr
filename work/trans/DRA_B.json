@@ -1,0 +1,7068 @@
+[
+ {
+  "id": "equip_desc_000",
+  "cat": "equip_desc",
+  "idx": [
+   0
+  ],
+  "va": "0x800DE3EC",
+  "len": 25,
+  "en": "No weapon （bare hands）",
+  "refs": [
+   18848
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 168,
+  "ko": "무기 없음 （맨손）",
+  "px": 96,
+  "ko_len": 19
+ },
+ {
+  "id": "equip_desc_001",
+  "cat": "equip_desc",
+  "idx": [
+   1
+  ],
+  "va": "0x800DE3C0",
+  "len": 28,
+  "en": "Summons merman ally ［use］",
+  "refs": [
+   18900
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 198,
+  "ko": "머맨 아군을 소환 ［사용］",
+  "px": 138,
+  "ko_len": 26
+ },
+ {
+  "id": "equip_desc_002",
+  "cat": "equip_desc",
+  "idx": [
+   2
+  ],
+  "va": "0x800DE394",
+  "len": 25,
+  "en": "Summons bat ally ［use］",
+  "refs": [
+   18952
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 168,
+  "ko": "박쥐 아군을 소환 ［사용］",
+  "px": 138,
+  "ko_len": 26
+ },
+ {
+  "id": "equip_desc_003",
+  "cat": "equip_desc",
+  "idx": [
+   3
+  ],
+  "va": "0x800DE364",
+  "len": 30,
+  "en": "Summons skeleton ally ［use］",
+  "refs": [
+   19004
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 204,
+  "ko": "스켈레톤 아군을 소환 ［사용］",
+  "px": 162,
+  "ko_len": 30
+ },
+ {
+  "id": "equip_desc_004",
+  "cat": "equip_desc",
+  "idx": [
+   4
+  ],
+  "va": "0x800DE33C",
+  "len": 28,
+  "en": "Extra effective with shield",
+  "refs": [
+   19056
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 196,
+  "ko": "방패와 함께 쓰면 효과가 크다",
+  "px": 168,
+  "ko_len": 29
+ },
+ {
+  "id": "equip_desc_005",
+  "cat": "equip_desc",
+  "idx": [
+   5
+  ],
+  "va": "0x800DE310",
+  "len": 26,
+  "en": "Leather shield － low DEF",
+  "refs": [
+   19108
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 180,
+  "ko": "가죽 방패 － 방어력이 낮다",
+  "px": 156,
+  "ko_len": 27
+ },
+ {
+  "id": "equip_desc_006",
+  "cat": "equip_desc",
+  "idx": [
+   6
+  ],
+  "va": "0x800DE2E4",
+  "len": 25,
+  "en": "Armored knight’s shield",
+  "refs": [
+   19160
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 168,
+  "ko": "중장 기사의 방패",
+  "px": 96,
+  "ko_len": 17
+ },
+ {
+  "id": "equip_desc_007",
+  "cat": "equip_desc",
+  "idx": [
+   7
+  ],
+  "va": "0x800DE2C0",
+  "len": 17,
+  "en": "Hard iron shield",
+  "refs": [
+   19212
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 108,
+  "ko": "단단한 철 방패",
+  "px": 84,
+  "ko_len": 15
+ },
+ {
+  "id": "equip_desc_008",
+  "cat": "equip_desc",
+  "idx": [
+   8
+  ],
+  "va": "0x800DE290",
+  "len": 29,
+  "en": "Favorite shield of Axe Lords",
+  "refs": [
+   19264
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 204,
+  "ko": "액스 로드가 애용하는 방패",
+  "px": 150,
+  "ko_len": 26
+ },
+ {
+  "id": "equip_desc_009",
+  "cat": "equip_desc",
+  "idx": [
+   9
+  ],
+  "va": "0x800DE268",
+  "len": 24,
+  "en": "Shield with heart crest",
+  "refs": [
+   19316
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 168,
+  "ko": "하트 문장이 새겨진 방패",
+  "px": 138,
+  "ko_len": 24
+ },
+ {
+  "id": "equip_desc_010",
+  "cat": "equip_desc",
+  "idx": [
+   10
+  ],
+  "va": "0x800DE244",
+  "len": 19,
+  "en": "Unholy dark shield",
+  "refs": [
+   19368
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 126,
+  "ko": "부정한 어둠의 방패",
+  "px": 108,
+  "ko_len": 19
+ },
+ {
+  "id": "equip_desc_011",
+  "cat": "equip_desc",
+  "idx": [
+   11
+  ],
+  "va": "0x800DE218",
+  "len": 28,
+  "en": "Engraved with goddess image",
+  "refs": [
+   19420
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 208,
+  "ko": "여신상이 새겨진 방패",
+  "px": 120,
+  "ko_len": 21
+ },
+ {
+  "id": "equip_desc_012",
+  "cat": "equip_desc",
+  "idx": [
+   12
+  ],
+  "va": "0x800DE1EC",
+  "len": 28,
+  "en": "Shield used in magic ritual",
+  "refs": [
+   19472
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 188,
+  "ko": "마법 의식에 쓰인 방패",
+  "px": 126,
+  "ko_len": 22
+ },
+ {
+  "id": "equip_desc_013",
+  "cat": "equip_desc",
+  "idx": [
+   13
+  ],
+  "va": "0x800DE1C4",
+  "len": 21,
+  "en": "Gorgon headed shield",
+  "refs": [
+   19524
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 150,
+  "ko": "고르곤의 머리가 달린 방패",
+  "px": 150,
+  "ko_len": 26
+ },
+ {
+  "id": "equip_desc_014",
+  "cat": "equip_desc",
+  "idx": [
+   14
+  ],
+  "va": "0x800DE198",
+  "len": 28,
+  "en": "Shield with Knight’s crest",
+  "refs": [
+   19576
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 186,
+  "ko": "기사의 문장이 새겨진 방패",
+  "px": 150,
+  "ko_len": 26
+ },
+ {
+  "id": "equip_desc_015",
+  "cat": "equip_desc",
+  "idx": [
+   15
+  ],
+  "va": "0x800DE16C",
+  "len": 28,
+  "en": "Shield with fire properties",
+  "refs": [
+   19628
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 190,
+  "ko": "불의 속성을 지닌 방패",
+  "px": 126,
+  "ko_len": 22
+ },
+ {
+  "id": "equip_desc_016",
+  "cat": "equip_desc",
+  "idx": [
+   16
+  ],
+  "va": "0x800DE144",
+  "len": 24,
+  "en": "Strong vs． all attacks",
+  "refs": [
+   19680
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 158,
+  "ko": "모든 공격에 강하다",
+  "px": 108,
+  "ko_len": 19
+ },
+ {
+  "id": "equip_desc_017",
+  "cat": "equip_desc",
+  "idx": [
+   17
+  ],
+  "va": "0x800DE114",
+  "len": 29,
+  "en": "Summons Dawn Warriors ［２］",
+  "refs": [
+   19732
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 200,
+  "ko": "새벽의 전사들을 소환 ［양손］",
+  "px": 162,
+  "ko_len": 30
+ },
+ {
+  "id": "equip_desc_018",
+  "cat": "equip_desc",
+  "idx": [
+   18
+  ],
+  "va": "0x800DE0F4",
+  "len": 18,
+  "en": "Basic short sword",
+  "refs": [
+   19784
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 130,
+  "ko": "기본적인 단검",
+  "px": 78,
+  "ko_len": 14
+ },
+ {
+  "id": "equip_desc_019",
+  "cat": "equip_desc",
+  "idx": [
+   19
+  ],
+  "va": "0x800DE0D0",
+  "len": 19,
+  "en": "Common short sword",
+  "refs": [
+   19836
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 152,
+  "ko": "흔한 단검",
+  "px": 54,
+  "ko_len": 10
+ },
+ {
+  "id": "equip_desc_020",
+  "cat": "equip_desc",
+  "idx": [
+   20
+  ],
+  "va": "0x800DE0AC",
+  "len": 19,
+  "en": "Flat combat dagger",
+  "refs": [
+   19888
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 138,
+  "ko": "전투용 납작한 단검",
+  "px": 108,
+  "ko_len": 19
+ },
+ {
+  "id": "equip_desc_021",
+  "cat": "equip_desc",
+  "idx": [
+   21
+  ],
+  "va": "0x800DE080",
+  "len": 32,
+  "en": "Strikes enemy twice ［２ hand］",
+  "refs": [
+   19940
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 212,
+  "ko": "적을 두 번 친다 ［양손］",
+  "px": 132,
+  "ko_len": 25
+ },
+ {
+  "id": "equip_desc_022",
+  "cat": "equip_desc",
+  "idx": [
+   22
+  ],
+  "va": "0x800DE054",
+  "len": 29,
+  "en": "Effective against werebeasts",
+  "refs": [
+   19992
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 214,
+  "ko": "수인에게 효과가 크다",
+  "px": 120,
+  "ko_len": 21
+ },
+ {
+  "id": "equip_desc_023",
+  "cat": "equip_desc",
+  "idx": [
+   23
+  ],
+  "va": "0x800DE038",
+  "len": 18,
+  "en": "Long bladed sword",
+  "refs": [
+   20044
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 130,
+  "ko": "날이 긴 검",
+  "px": 60,
+  "ko_len": 11
+ },
+ {
+  "id": "equip_desc_024",
+  "cat": "equip_desc",
+  "idx": [
+   24
+  ],
+  "va": "0x800DE00C",
+  "len": 29,
+  "en": "Coin with ２ effects ［use］",
+  "refs": [
+   20096
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 188,
+  "ko": "효과가 두 가지인 동전 ［사용］",
+  "px": 168,
+  "ko_len": 31
+ },
+ {
+  "id": "equip_desc_025",
+  "cat": "equip_desc",
+  "idx": [
+   25
+  ],
+  "va": "0x800DDFDC",
+  "len": 29,
+  "en": "Shoots a magic arrow ［use］",
+  "refs": [
+   20148
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 198,
+  "ko": "마법 화살을 쏜다 ［사용］",
+  "px": 138,
+  "ko_len": 26
+ },
+ {
+  "id": "equip_desc_026",
+  "cat": "equip_desc",
+  "idx": [
+   26
+  ],
+  "va": "0x800DDFB4",
+  "len": 28,
+  "en": "Rusty red sword ［２ hand］",
+  "refs": [
+   20200
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 182,
+  "ko": "녹슬어 붉어진 검 ［양손］",
+  "px": 138,
+  "ko_len": 26
+ },
+ {
+  "id": "equip_desc_027",
+  "cat": "equip_desc",
+  "idx": [
+   27
+  ],
+  "va": "0x800DDF8C",
+  "len": 25,
+  "en": "Bamboo sword ［２ hand］",
+  "refs": [
+   20252
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 166,
+  "ko": "대나무로 만든 검 ［양손］",
+  "px": 138,
+  "ko_len": 26
+ },
+ {
+  "id": "equip_desc_028",
+  "cat": "equip_desc",
+  "idx": [
+   28
+  ],
+  "va": "0x800DDF6C",
+  "len": 24,
+  "en": "Abyssinian curved sword",
+  "refs": [
+   20304
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 176,
+  "ko": "아비시니아의 곡도",
+  "px": 102,
+  "ko_len": 18
+ },
+ {
+  "id": "equip_desc_029",
+  "cat": "equip_desc",
+  "idx": [
+   29
+  ],
+  "va": "0x800DDF48",
+  "len": 27,
+  "en": "Japanese tangerine ［use］",
+  "refs": [
+   20356
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 178,
+  "ko": "일본산 귤 ［사용］",
+  "px": 96,
+  "ko_len": 19
+ },
+ {
+  "id": "equip_desc_030",
+  "cat": "equip_desc",
+  "idx": [
+   30
+  ],
+  "va": "0x800DDF20",
+  "len": 32,
+  "en": "Crunchy delicious apple ［use］",
+  "refs": [
+   20408
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 208,
+  "ko": "아삭하고 맛있는 사과 ［사용］",
+  "px": 162,
+  "ko_len": 30
+ },
+ {
+  "id": "equip_desc_031",
+  "cat": "equip_desc",
+  "idx": [
+   31
+  ],
+  "va": "0x800DDEF8",
+  "len": 32,
+  "en": "Best when nearly rotten ［use］",
+  "refs": [
+   20460
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 218,
+  "ko": "썩기 직전이 가장 맛있다 ［사용］",
+  "px": 180,
+  "ko_len": 33
+ },
+ {
+  "id": "equip_desc_032",
+  "cat": "equip_desc",
+  "idx": [
+   32
+  ],
+  "va": "0x800DDED0",
+  "len": 30,
+  "en": "Juicy seedless grapes ［use］",
+  "refs": [
+   20512
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 196,
+  "ko": "씨 없고 즙 많은 포도 ［사용］",
+  "px": 162,
+  "ko_len": 30
+ },
+ {
+  "id": "equip_desc_033",
+  "cat": "equip_desc",
+  "idx": [
+   33
+  ],
+  "va": "0x800DDEA8",
+  "len": 28,
+  "en": "Ripe red strawberry ［use］",
+  "refs": [
+   20564
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 184,
+  "ko": "잘 익은 빨간 딸기 ［사용］",
+  "px": 144,
+  "ko_len": 27
+ },
+ {
+  "id": "equip_desc_034",
+  "cat": "equip_desc",
+  "idx": [
+   34
+  ],
+  "va": "0x800DDE80",
+  "len": 28,
+  "en": "Tart southern fruit ［use］",
+  "refs": [
+   20616
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 184,
+  "ko": "새콤한 남국의 과일 ［사용］",
+  "px": 150,
+  "ko_len": 28
+ },
+ {
+  "id": "equip_desc_035",
+  "cat": "equip_desc",
+  "idx": [
+   35
+  ],
+  "va": "0x800DDE58",
+  "len": 25,
+  "en": "Difficult to eat ［use］",
+  "refs": [
+   20668
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 156,
+  "ko": "먹기 힘들다 ［사용］",
+  "px": 108,
+  "ko_len": 21
+ },
+ {
+  "id": "equip_desc_036",
+  "cat": "equip_desc",
+  "idx": [
+   36
+  ],
+  "va": "0x800DDE30",
+  "len": 27,
+  "en": "Poisonous mushroom ［use］",
+  "refs": [
+   20720
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 186,
+  "ko": "독이 있는 버섯 ［사용］",
+  "px": 126,
+  "ko_len": 24
+ },
+ {
+  "id": "equip_desc_037",
+  "cat": "equip_desc",
+  "idx": [
+   37
+  ],
+  "va": "0x800DDE08",
+  "len": 26,
+  "en": "Japanese mushroom ［use］",
+  "refs": [
+   20772
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 182,
+  "ko": "일본의 버섯 ［사용］",
+  "px": 108,
+  "ko_len": 21
+ },
+ {
+  "id": "equip_desc_038",
+  "cat": "equip_desc",
+  "idx": [
+   38
+  ],
+  "va": "0x800DDDDC",
+  "len": 29,
+  "en": "With chocolate chips ［use］",
+  "refs": [
+   20824
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 190,
+  "ko": "초코칩이 들어 있다 ［사용］",
+  "px": 150,
+  "ko_len": 28
+ },
+ {
+  "id": "equip_desc_039",
+  "cat": "equip_desc",
+  "idx": [
+   39
+  ],
+  "va": "0x800DDDB0",
+  "len": 29,
+  "en": "Strawberry shortcake ［use］",
+  "refs": [
+   20876
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 198,
+  "ko": "딸기 쇼트케이크 ［사용］",
+  "px": 132,
+  "ko_len": 25
+ },
+ {
+  "id": "equip_desc_040",
+  "cat": "equip_desc",
+  "idx": [
+   40
+  ],
+  "va": "0x800DDD90",
+  "len": 24,
+  "en": "Strawberry tart ［use］",
+  "refs": [
+   20928
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 158,
+  "ko": "딸기 타르트 ［사용］",
+  "px": 108,
+  "ko_len": 21
+ },
+ {
+  "id": "equip_desc_041",
+  "cat": "equip_desc",
+  "idx": [
+   41
+  ],
+  "va": "0x800DDD68",
+  "len": 27,
+  "en": "With whipped cream ［use］",
+  "refs": [
+   20980
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 184,
+  "ko": "생크림을 얹었다 ［사용］",
+  "px": 132,
+  "ko_len": 25
+ },
+ {
+  "id": "equip_desc_042",
+  "cat": "equip_desc",
+  "idx": [
+   42
+  ],
+  "va": "0x800DDD48",
+  "len": 18,
+  "en": "A la mode ［use］",
+  "refs": [
+   21032
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 114,
+  "ko": "아라모드 ［사용］",
+  "px": 90,
+  "ko_len": 18
+ },
+ {
+  "id": "equip_desc_043",
+  "cat": "equip_desc",
+  "idx": [
+   43
+  ],
+  "va": "0x800DDD20",
+  "len": 28,
+  "en": "３－layer ice cream ［use］",
+  "refs": [
+   21084
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 172,
+  "ko": "３단 아이스크림 ［사용］",
+  "px": 130,
+  "ko_len": 25
+ },
+ {
+  "id": "equip_desc_044",
+  "cat": "equip_desc",
+  "idx": [
+   44
+  ],
+  "va": "0x800DDCF8",
+  "len": 23,
+  "en": "Local favorite ［use］",
+  "refs": [
+   21136
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 142,
+  "ko": "이 고장의 명물 ［사용］",
+  "px": 126,
+  "ko_len": 24
+ },
+ {
+  "id": "equip_desc_045",
+  "cat": "equip_desc",
+  "idx": [
+   45
+  ],
+  "va": "0x800DDCD0",
+  "len": 28,
+  "en": "１００％ US Grade A ［use］",
+  "refs": [
+   21188
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 166,
+  "ko": "１００％ 미국산 A등급 ［사용］",
+  "px": 160,
+  "ko_len": 31
+ },
+ {
+  "id": "equip_desc_046",
+  "cat": "equip_desc",
+  "idx": [
+   46
+  ],
+  "va": "0x800DDCAC",
+  "len": 25,
+  "en": "New York style！ ［use］",
+  "refs": [
+   21240
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 152,
+  "ko": "뉴욕 스타일！ ［사용］",
+  "px": 112,
+  "ko_len": 23
+ },
+ {
+  "id": "equip_desc_047",
+  "cat": "equip_desc",
+  "idx": [
+   47
+  ],
+  "va": "0x800DDC88",
+  "len": 25,
+  "en": "Delicious cheese ［use］",
+  "refs": [
+   21292
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 158,
+  "ko": "맛있는 치즈 ［사용］",
+  "px": 108,
+  "ko_len": 21
+ },
+ {
+  "id": "equip_desc_048",
+  "cat": "equip_desc",
+  "idx": [
+   48
+  ],
+  "va": "0x800DDC58",
+  "len": 30,
+  "en": "Increases cholesterol ［use］",
+  "refs": [
+   21344
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 192,
+  "ko": "콜레스테롤이 늘어난다 ［사용］",
+  "px": 168,
+  "ko_len": 31
+ },
+ {
+  "id": "equip_desc_049",
+  "cat": "equip_desc",
+  "idx": [
+   49
+  ],
+  "va": "0x800DDC30",
+  "len": 25,
+  "en": "Western omelette ［use］",
+  "refs": [
+   21396
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 170,
+  "ko": "웨스턴 오믈렛 ［사용］",
+  "px": 120,
+  "ko_len": 23
+ },
+ {
+  "id": "equip_desc_050",
+  "cat": "equip_desc",
+  "idx": [
+   50
+  ],
+  "va": "0x800DDC00",
+  "len": 32,
+  "en": "Eggs， toast and coffee ［use］",
+  "refs": [
+   21448
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 208,
+  "ko": "달걀， 토스트， 커피 ［사용］",
+  "px": 146,
+  "ko_len": 30
+ },
+ {
+  "id": "equip_desc_051",
+  "cat": "equip_desc",
+  "idx": [
+   51
+  ],
+  "va": "0x800DDBE0",
+  "len": 20,
+  "en": "Lunch set A ［use］",
+  "refs": [
+   21500
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 130,
+  "ko": "런치 세트 A ［사용］",
+  "px": 114,
+  "ko_len": 21
+ },
+ {
+  "id": "equip_desc_052",
+  "cat": "equip_desc",
+  "idx": [
+   52
+  ],
+  "va": "0x800DDBC0",
+  "len": 20,
+  "en": "Lunch set B ［use］",
+  "refs": [
+   21552
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 128,
+  "ko": "런치 세트 B ［사용］",
+  "px": 112,
+  "ko_len": 21
+ },
+ {
+  "id": "equip_desc_053",
+  "cat": "equip_desc",
+  "idx": [
+   53
+  ],
+  "va": "0x800DDB90",
+  "len": 33,
+  "en": "Cooked with coconut milk ［use］",
+  "refs": [
+   21604
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 228,
+  "ko": "코코넛 밀크로 만들었다 ［사용］",
+  "px": 174,
+  "ko_len": 32
+ },
+ {
+  "id": "equip_desc_054",
+  "cat": "equip_desc",
+  "idx": [
+   54
+  ],
+  "va": "0x800DDB6C",
+  "len": 19,
+  "en": "With fries ［use］",
+  "refs": [
+   21656
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 114,
+  "ko": "감자튀김을 곁들였다 ［사용］",
+  "px": 156,
+  "ko_len": 29
+ },
+ {
+  "id": "equip_desc_055",
+  "cat": "equip_desc",
+  "idx": [
+   55
+  ],
+  "va": "0x800DDB44",
+  "len": 28,
+  "en": "Spaghetti Carbonara ［use］",
+  "refs": [
+   21708
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 190,
+  "ko": "스파게티 카르보나라 ［사용］",
+  "px": 156,
+  "ko_len": 29
+ },
+ {
+  "id": "equip_desc_056",
+  "cat": "equip_desc",
+  "idx": [
+   56
+  ],
+  "va": "0x800DDB1C",
+  "len": 24,
+  "en": "Sparkling juice ［use］",
+  "refs": [
+   21760
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 146,
+  "ko": "향긋한 와인 ［사용］",
+  "px": 108,
+  "ko_len": 21
+ },
+ {
+  "id": "equip_desc_057",
+  "cat": "equip_desc",
+  "idx": [
+   57
+  ],
+  "va": "0x800DDAF8",
+  "len": 24,
+  "en": "Cool barley tea ［use］",
+  "refs": [
+   21812
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 152,
+  "ko": "시원한 맥주 ［사용］",
+  "px": 108,
+  "ko_len": 21
+ },
+ {
+  "id": "equip_desc_058",
+  "cat": "equip_desc",
+  "idx": [
+   58
+  ],
+  "va": "0x800DDAD0",
+  "len": 27,
+  "en": "Japanese green tea ［use］",
+  "refs": [
+   21864
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 180,
+  "ko": "일본 술 사케 ［사용］",
+  "px": 114,
+  "ko_len": 22
+ },
+ {
+  "id": "equip_desc_059",
+  "cat": "equip_desc",
+  "idx": [
+   59
+  ],
+  "va": "0x800DDAA4",
+  "len": 33,
+  "en": "Smelly fermented soybean ［use］",
+  "refs": [
+   21916
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 230,
+  "ko": "냄새 나는 발효 콩 ［사용］",
+  "px": 144,
+  "ko_len": 27
+ },
+ {
+  "id": "equip_desc_060",
+  "cat": "equip_desc",
+  "idx": [
+   60
+  ],
+  "va": "0x800DDA7C",
+  "len": 30,
+  "en": "Chinese ramen noodles ［use］",
+  "refs": [
+   21968
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 204,
+  "ko": "중국식 라멘 ［사용］",
+  "px": 108,
+  "ko_len": 21
+ },
+ {
+  "id": "equip_desc_061",
+  "cat": "equip_desc",
+  "idx": [
+   61
+  ],
+  "va": "0x800DDA54",
+  "len": 27,
+  "en": "Japanese miso soup ［use］",
+  "refs": [
+   22020
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 182,
+  "ko": "일본식 된장국 ［사용］",
+  "px": 120,
+  "ko_len": 23
+ },
+ {
+  "id": "equip_desc_062",
+  "cat": "equip_desc",
+  "idx": [
+   62
+  ],
+  "va": "0x800DDA30",
+  "len": 28,
+  "en": "Toro， ebi， tamago ［use］",
+  "refs": [
+   22072
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 168,
+  "ko": "참치， 새우， 달걀 ［사용］",
+  "px": 134,
+  "ko_len": 28
+ },
+ {
+  "id": "equip_desc_063",
+  "cat": "equip_desc",
+  "idx": [
+   63
+  ],
+  "va": "0x800DDA08",
+  "len": 25,
+  "en": "Chinese pork bun ［use］",
+  "refs": [
+   22124
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 164,
+  "ko": "중국식 고기만두 ［사용］",
+  "px": 132,
+  "ko_len": 25
+ },
+ {
+  "id": "equip_desc_064",
+  "cat": "equip_desc",
+  "idx": [
+   64
+  ],
+  "va": "0x800DD9D8",
+  "len": 29,
+  "en": "Chinese red bean bun ［use］",
+  "refs": [
+   22176
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 194,
+  "ko": "중국식 팥 찐빵 ［사용］",
+  "px": 126,
+  "ko_len": 24
+ },
+ {
+  "id": "equip_desc_065",
+  "cat": "equip_desc",
+  "idx": [
+   65
+  ],
+  "va": "0x800DD9A8",
+  "len": 30,
+  "en": "Vegetable steamed bun ［use］",
+  "refs": [
+   22228
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 210,
+  "ko": "야채 찐빵 ［사용］",
+  "px": 96,
+  "ko_len": 19
+ },
+ {
+  "id": "equip_desc_066",
+  "cat": "equip_desc",
+  "idx": [
+   66
+  ],
+  "va": "0x800DD97C",
+  "len": 26,
+  "en": "３ Dim Sum dishes ［use］",
+  "refs": [
+   22280
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 170,
+  "ko": "딤섬 ３접시 ［사용］",
+  "px": 106,
+  "ko_len": 21
+ },
+ {
+  "id": "equip_desc_067",
+  "cat": "equip_desc",
+  "idx": [
+   67
+  ],
+  "va": "0x800DD950",
+  "len": 30,
+  "en": "Castlevania pot roast ［use］",
+  "refs": [
+   22332
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 200,
+  "ko": "악마성 냄비 요리 ［사용］",
+  "px": 138,
+  "ko_len": 26
+ },
+ {
+  "id": "equip_desc_068",
+  "cat": "equip_desc",
+  "idx": [
+   68
+  ],
+  "va": "0x800DD92C",
+  "len": 22,
+  "en": "Sirloin steak ［use］",
+  "refs": [
+   22384
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 132,
+  "ko": "등심 스테이크 ［사용］",
+  "px": 120,
+  "ko_len": 23
+ },
+ {
+  "id": "equip_desc_069",
+  "cat": "equip_desc",
+  "idx": [
+   69
+  ],
+  "va": "0x800DD90C",
+  "len": 21,
+  "en": "Roast turkey ［use］",
+  "refs": [
+   22436
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 136,
+  "ko": "칠면조 구이 ［사용］",
+  "px": 108,
+  "ko_len": 21
+ },
+ {
+  "id": "equip_desc_070",
+  "cat": "equip_desc",
+  "idx": [
+   70
+  ],
+  "va": "0x800DD8E0",
+  "len": 28,
+  "en": "Mystery food ticket ［use］",
+  "refs": [
+   22488
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 188,
+  "ko": "수수께끼의 식권 ［사용］",
+  "px": 132,
+  "ko_len": 25
+ },
+ {
+  "id": "equip_desc_071",
+  "cat": "equip_desc",
+  "idx": [
+   71,
+   72,
+   73,
+   74
+  ],
+  "va": "0x800DD8B4",
+  "len": 28,
+  "en": "Damages all enemies ［use］",
+  "refs": [
+   22540,
+   22592,
+   22644,
+   22696
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 188,
+  "ko": "모든 적에게 피해를 준다 ［사용］",
+  "px": 180,
+  "ko_len": 33
+ },
+ {
+  "id": "equip_desc_075",
+  "cat": "equip_desc",
+  "idx": [
+   75
+  ],
+  "va": "0x800DD85C",
+  "len": 31,
+  "en": "Japanese throwing star ［use］",
+  "refs": [
+   22748
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 210,
+  "ko": "일본식 수리검 ［사용］",
+  "px": 120,
+  "ko_len": 23
+ },
+ {
+  "id": "equip_desc_076",
+  "cat": "equip_desc",
+  "idx": [
+   76
+  ],
+  "va": "0x800DD82C",
+  "len": 31,
+  "en": "Powerful throwing star ［use］",
+  "refs": [
+   22800
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 208,
+  "ko": "강력한 수리검 ［사용］",
+  "px": 120,
+  "ko_len": 23
+ },
+ {
+  "id": "equip_desc_077",
+  "cat": "equip_desc",
+  "idx": [
+   77
+  ],
+  "va": "0x800DD7F8",
+  "len": 33,
+  "en": "Razor－sharp master star ［use］",
+  "refs": [
+   22852
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 224,
+  "ko": "날카로운 달인의 수리검 ［사용］",
+  "px": 174,
+  "ko_len": 32
+ },
+ {
+  "id": "equip_desc_078",
+  "cat": "equip_desc",
+  "idx": [
+   78
+  ],
+  "va": "0x800DD7CC",
+  "len": 30,
+  "en": "Flaming throwing star ［use］",
+  "refs": [
+   22904
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 198,
+  "ko": "불타는 수리검 ［사용］",
+  "px": 120,
+  "ko_len": 23
+ },
+ {
+  "id": "equip_desc_079",
+  "cat": "equip_desc",
+  "idx": [
+   79
+  ],
+  "va": "0x800DD7A4",
+  "len": 32,
+  "en": "Creates pillar of flame ［use］",
+  "refs": [
+   22956
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 208,
+  "ko": "불기둥을 일으킨다 ［사용］",
+  "px": 144,
+  "ko_len": 27
+ },
+ {
+  "id": "equip_desc_080",
+  "cat": "equip_desc",
+  "idx": [
+   80
+  ],
+  "va": "0x800DD774",
+  "len": 29,
+  "en": "Bwaka throwing knife ［use］",
+  "refs": [
+   23008
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 198,
+  "ko": "브와카 투척 나이프 ［사용］",
+  "px": 150,
+  "ko_len": 28
+ },
+ {
+  "id": "equip_desc_081",
+  "cat": "equip_desc",
+  "idx": [
+   81
+  ],
+  "va": "0x800DD74C",
+  "len": 28,
+  "en": "Anti－aerial weapon ［use］",
+  "refs": [
+   23060
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 182,
+  "ko": "대공 무기 ［사용］",
+  "px": 96,
+  "ko_len": 19
+ },
+ {
+  "id": "equip_desc_082",
+  "cat": "equip_desc",
+  "idx": [
+   82
+  ],
+  "va": "0x800DD728",
+  "len": 23,
+  "en": "Throwing spear ［use］",
+  "refs": [
+   23112
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 152,
+  "ko": "던지는 창 ［사용］",
+  "px": 96,
+  "ko_len": 19
+ },
+ {
+  "id": "equip_desc_083",
+  "cat": "equip_desc",
+  "idx": [
+   83
+  ],
+  "va": "0x800DD708",
+  "len": 18,
+  "en": "Cursed dark sword",
+  "refs": [
+   23164
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 134,
+  "ko": "저주받은 어둠의 검",
+  "px": 108,
+  "ko_len": 19
+ },
+ {
+  "id": "equip_desc_084",
+  "cat": "equip_desc",
+  "idx": [
+   84
+  ],
+  "va": "0x800DD6DC",
+  "len": 30,
+  "en": "Poorly made sword ［２ hand］",
+  "refs": [
+   23216
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 196,
+  "ko": "조잡하게 만든 검 ［양손］",
+  "px": 138,
+  "ko_len": 26
+ },
+ {
+  "id": "equip_desc_085",
+  "cat": "equip_desc",
+  "idx": [
+   85
+  ],
+  "va": "0x800DD6B0",
+  "len": 28,
+  "en": "Iron studded brass knuckles",
+  "refs": [
+   23268
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 198,
+  "ko": "쇠징이 박힌 너클",
+  "px": 96,
+  "ko_len": 17
+ },
+ {
+  "id": "equip_desc_086",
+  "cat": "equip_desc",
+  "idx": [
+   86
+  ],
+  "va": "0x800DD68C",
+  "len": 22,
+  "en": "Sword of ancient Rome",
+  "refs": [
+   23320
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 168,
+  "ko": "고대 로마의 검",
+  "px": 84,
+  "ko_len": 15
+ },
+ {
+  "id": "equip_desc_087",
+  "cat": "equip_desc",
+  "idx": [
+   87
+  ],
+  "va": "0x800DD664",
+  "len": 26,
+  "en": "Single edged curved sword",
+  "refs": [
+   23372
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 188,
+  "ko": "외날의 곡도",
+  "px": 66,
+  "ko_len": 12
+ },
+ {
+  "id": "equip_desc_088",
+  "cat": "equip_desc",
+  "idx": [
+   88
+  ],
+  "va": "0x800DD63C",
+  "len": 26,
+  "en": "Sword of the English Navy",
+  "refs": [
+   23424
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 188,
+  "ko": "영국 해군의 검",
+  "px": 84,
+  "ko_len": 15
+ },
+ {
+  "id": "equip_desc_089",
+  "cat": "equip_desc",
+  "idx": [
+   89
+  ],
+  "va": "0x800DD620",
+  "len": 20,
+  "en": "Light cavalry sword",
+  "refs": [
+   23476
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 140,
+  "ko": "경기병의 검",
+  "px": 66,
+  "ko_len": 12
+ },
+ {
+  "id": "equip_desc_090",
+  "cat": "equip_desc",
+  "idx": [
+   90
+  ],
+  "va": "0x800DD600",
+  "len": 20,
+  "en": "Norman curved sword",
+  "refs": [
+   23528
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 150,
+  "ko": "노르만의 곡도",
+  "px": 78,
+  "ko_len": 14
+ },
+ {
+  "id": "equip_desc_091",
+  "cat": "equip_desc",
+  "idx": [
+   91
+  ],
+  "va": "0x800DD5D8",
+  "len": 26,
+  "en": "Simple mercenary’s sword",
+  "refs": [
+   23580
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 184,
+  "ko": "평범한 용병의 검",
+  "px": 96,
+  "ko_len": 17
+ },
+ {
+  "id": "equip_desc_092",
+  "cat": "equip_desc",
+  "idx": [
+   92
+  ],
+  "va": "0x800DD5A8",
+  "len": 33,
+  "en": "Plain， easy－to－use war sword ",
+  "refs": [
+   23632
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 224,
+  "ko": "수수하고 쓰기 쉬운 전투용 검",
+  "px": 168,
+  "ko_len": 29
+ },
+ {
+  "id": "equip_desc_093",
+  "cat": "equip_desc",
+  "idx": [
+   93
+  ],
+  "va": "0x800DD578",
+  "len": 32,
+  "en": "Fine sword honed to razor－edge",
+  "refs": [
+   23684
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 230,
+  "ko": "날카롭게 벼린 훌륭한 검",
+  "px": 138,
+  "ko_len": 24
+ },
+ {
+  "id": "equip_desc_094",
+  "cat": "equip_desc",
+  "idx": [
+   94
+  ],
+  "va": "0x800DD54C",
+  "len": 28,
+  "en": "Ivory handled hunting sword",
+  "refs": [
+   23736
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 198,
+  "ko": "상아 손잡이의 사냥용 검",
+  "px": 138,
+  "ko_len": 24
+ },
+ {
+  "id": "equip_desc_095",
+  "cat": "equip_desc",
+  "idx": [
+   95
+  ],
+  "va": "0x800DD524",
+  "len": 32,
+  "en": "German thrust sword ［２ hand］",
+  "refs": [
+   23788
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 218,
+  "ko": "독일의 찌르기용 검 ［양손］",
+  "px": 150,
+  "ko_len": 28
+ },
+ {
+  "id": "equip_desc_096",
+  "cat": "equip_desc",
+  "idx": [
+   96
+  ],
+  "va": "0x800DD504",
+  "len": 15,
+  "en": "Standard sword",
+  "refs": [
+   23840
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 112,
+  "ko": "표준적인 검",
+  "px": 66,
+  "ko_len": 12
+ },
+ {
+  "id": "equip_desc_097",
+  "cat": "equip_desc",
+  "idx": [
+   97
+  ],
+  "va": "0x800DD4D8",
+  "len": 26,
+  "en": "Jewel reinforced knuckles",
+  "refs": [
+   23892
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 184,
+  "ko": "보석으로 강화한 너클",
+  "px": 120,
+  "ko_len": 21
+ },
+ {
+  "id": "equip_desc_098",
+  "cat": "equip_desc",
+  "idx": [
+   98
+  ],
+  "va": "0x800DD4B0",
+  "len": 26,
+  "en": "Scotch two－handed sword ",
+  "refs": [
+   23944
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 198,
+  "ko": "스코틀랜드의 양손검",
+  "px": 114,
+  "ko_len": 20
+ },
+ {
+  "id": "equip_desc_099",
+  "cat": "equip_desc",
+  "idx": [
+   99
+  ],
+  "va": "0x800DD494",
+  "len": 20,
+  "en": "Curved Indian sword",
+  "refs": [
+   23996
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 144,
+  "ko": "인도의 곡도",
+  "px": 66,
+  "ko_len": 12
+ },
+ {
+  "id": "equip_desc_100",
+  "cat": "equip_desc",
+  "idx": [
+   100
+  ],
+  "va": "0x800DD470",
+  "len": 28,
+  "en": "Unsigned katana ［２ hand］",
+  "refs": [
+   24048
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 178,
+  "ko": "이름 없는 일본도 ［양손］",
+  "px": 138,
+  "ko_len": 26
+ },
+ {
+  "id": "equip_desc_101",
+  "cat": "equip_desc",
+  "idx": [
+   101
+  ],
+  "va": "0x800DD444",
+  "len": 31,
+  "en": "Flame－edged sword ［２ hand］",
+  "refs": [
+   24100
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 204,
+  "ko": "불꽃 모양 날의 검 ［양손］",
+  "px": 144,
+  "ko_len": 27
+ },
+ {
+  "id": "equip_desc_102",
+  "cat": "equip_desc",
+  "idx": [
+   102
+  ],
+  "va": "0x800DD420",
+  "len": 23,
+  "en": "Owned by Karate master",
+  "refs": [
+   24152
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 178,
+  "ko": "가라테 달인의 애용품",
+  "px": 120,
+  "ko_len": 21
+ },
+ {
+  "id": "equip_desc_103",
+  "cat": "equip_desc",
+  "idx": [
+   103
+  ],
+  "va": "0x800DD3F4",
+  "len": 25,
+  "en": "German two－handed sword",
+  "refs": [
+   24204
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 196,
+  "ko": "독일의 양손검",
+  "px": 78,
+  "ko_len": 14
+ },
+ {
+  "id": "equip_desc_104",
+  "cat": "equip_desc",
+  "idx": [
+   104
+  ],
+  "va": "0x800DD3CC",
+  "len": 24,
+  "en": "House of Hador heirloom",
+  "refs": [
+   24256
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 170,
+  "ko": "하도르 가문의 가보",
+  "px": 108,
+  "ko_len": 19
+ },
+ {
+  "id": "equip_desc_105",
+  "cat": "equip_desc",
+  "idx": [
+   105,
+   118
+  ],
+  "va": "0x800DD3A8",
+  "len": 22,
+  "en": "Sword forged by elves",
+  "refs": [
+   24308,
+   24984
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 160,
+  "ko": "엘프가 벼린 검",
+  "px": 84,
+  "ko_len": 15
+ },
+ {
+  "id": "equip_desc_106",
+  "cat": "equip_desc",
+  "idx": [
+   106
+  ],
+  "va": "0x800DD388",
+  "len": 23,
+  "en": "The sword named Harper",
+  "refs": [
+   24360
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 176,
+  "ko": "하퍼라는 이름의 검",
+  "px": 108,
+  "ko_len": 19
+ },
+ {
+  "id": "equip_desc_107",
+  "cat": "equip_desc",
+  "idx": [
+   107
+  ],
+  "va": "0x800DD35C",
+  "len": 27,
+  "en": "Two－handed obsidian sword",
+  "refs": [
+   24412
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 202,
+  "ko": "흑요석으로 만든 양손검",
+  "px": 132,
+  "ko_len": 23
+ },
+ {
+  "id": "equip_desc_108",
+  "cat": "equip_desc",
+  "idx": [
+   108
+  ],
+  "va": "0x800DD33C",
+  "len": 21,
+  "en": "The sword named Gram",
+  "refs": [
+   24464
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 170,
+  "ko": "그람이라는 이름의 검",
+  "px": 120,
+  "ko_len": 21
+ },
+ {
+  "id": "equip_desc_109",
+  "cat": "equip_desc",
+  "idx": [
+   109
+  ],
+  "va": "0x800DD30C",
+  "len": 31,
+  "en": "Transforms enemies into jewels",
+  "refs": [
+   24516
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 232,
+  "ko": "적을 보석으로 바꾼다",
+  "px": 120,
+  "ko_len": 21
+ },
+ {
+  "id": "equip_desc_110",
+  "cat": "equip_desc",
+  "idx": [
+   110
+  ],
+  "va": "0x800DD2E0",
+  "len": 32,
+  "en": "Black sword － strong vs． holy",
+  "refs": [
+   24568
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 216,
+  "ko": "검은 검 － 성속성에 강하다",
+  "px": 156,
+  "ko_len": 27
+ },
+ {
+  "id": "equip_desc_111",
+  "cat": "equip_desc",
+  "idx": [
+   111
+  ],
+  "va": "0x800DD2BC",
+  "len": 21,
+  "en": "Fire sword of Oberon",
+  "refs": [
+   24620
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 152,
+  "ko": "오베론의 불의 검",
+  "px": 96,
+  "ko_len": 17
+ },
+ {
+  "id": "equip_desc_112",
+  "cat": "equip_desc",
+  "idx": [
+   112
+  ],
+  "va": "0x800DD290",
+  "len": 25,
+  "en": "Lightning sword of Indra",
+  "refs": [
+   24672
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 174,
+  "ko": "인드라의 번개의 검",
+  "px": 108,
+  "ko_len": 19
+ },
+ {
+  "id": "equip_desc_113",
+  "cat": "equip_desc",
+  "idx": [
+   113
+  ],
+  "va": "0x800DD270",
+  "len": 17,
+  "en": "Ice sword of Mim",
+  "refs": [
+   24724
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 124,
+  "ko": "밈의 얼음의 검",
+  "px": 84,
+  "ko_len": 15
+ },
+ {
+  "id": "equip_desc_114",
+  "cat": "equip_desc",
+  "idx": [
+   114
+  ],
+  "va": "0x800DD23C",
+  "len": 34,
+  "en": "May ””petrify”” enemies．．．",
+  "refs": [
+   24776
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 170,
+  "ko": "적을 「석화」시킬 때가 있다．．．",
+  "px": 162,
+  "ko_len": 34
+ },
+ {
+  "id": "equip_desc_115",
+  "cat": "equip_desc",
+  "idx": [
+   115
+  ],
+  "va": "0x800DD20C",
+  "len": 33,
+  "en": "Cross hilt － strong vs． undead",
+  "refs": [
+   24828
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 222,
+  "ko": "십자 자루 － 언데드에 강하다",
+  "px": 168,
+  "ko_len": 29
+ },
+ {
+  "id": "equip_desc_116",
+  "cat": "equip_desc",
+  "idx": [
+   116
+  ],
+  "va": "0x800DD1DC",
+  "len": 30,
+  "en": "Poisoned executioner’s sword",
+  "refs": [
+   24880
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 208,
+  "ko": "독을 바른 처형인의 검",
+  "px": 126,
+  "ko_len": 22
+ },
+ {
+  "id": "equip_desc_117",
+  "cat": "equip_desc",
+  "idx": [
+   117
+  ],
+  "va": "0x800DD1BC",
+  "len": 24,
+  "en": "Powerful sword of flame",
+  "refs": [
+   24932
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 178,
+  "ko": "강력한 화염의 검",
+  "px": 96,
+  "ko_len": 17
+ },
+ {
+  "id": "equip_desc_119",
+  "cat": "equip_desc",
+  "idx": [
+   119
+  ],
+  "va": "0x800DD184",
+  "len": 25,
+  "en": "Enchanted floating sword",
+  "refs": [
+   25036
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 182,
+  "ko": "마법이 깃든 떠다니는 검",
+  "px": 138,
+  "ko_len": 24
+ },
+ {
+  "id": "equip_desc_120",
+  "cat": "equip_desc",
+  "idx": [
+   120
+  ],
+  "va": "0x800DD158",
+  "len": 28,
+  "en": "Blessed by Tulkas the Valar",
+  "refs": [
+   25088
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 204,
+  "ko": "발라 툴카스의 가호를 받았다",
+  "px": 162,
+  "ko_len": 28
+ },
+ {
+  "id": "equip_desc_121",
+  "cat": "equip_desc",
+  "idx": [
+   121
+  ],
+  "va": "0x800DD130",
+  "len": 28,
+  "en": "Gets stronger when bloodied",
+  "refs": [
+   25140
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 206,
+  "ko": "피를 머금을수록 강해진다",
+  "px": 144,
+  "ko_len": 25
+ },
+ {
+  "id": "equip_desc_122",
+  "cat": "equip_desc",
+  "idx": [
+   122
+  ],
+  "va": "0x800DD104",
+  "len": 26,
+  "en": "Feeds upon enemy’s souls",
+  "refs": [
+   25192
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 182,
+  "ko": "적의 영혼을 먹는다",
+  "px": 108,
+  "ko_len": 19
+ },
+ {
+  "id": "equip_desc_123",
+  "cat": "equip_desc",
+  "idx": [
+   123
+  ],
+  "va": "0x800DD0D8",
+  "len": 26,
+  "en": "Mother’s family heirloom",
+  "refs": [
+   25244
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 176,
+  "ko": "어머니 가문의 가보",
+  "px": 108,
+  "ko_len": 19
+ },
+ {
+  "id": "equip_desc_124",
+  "cat": "equip_desc",
+  "idx": [
+   124
+  ],
+  "va": "0x800DD0A8",
+  "len": 29,
+  "en": "Spirit sword － improves DEF",
+  "refs": [
+   25296
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 206,
+  "ko": "정령의 검 － 방어력 상승",
+  "px": 144,
+  "ko_len": 25
+ },
+ {
+  "id": "equip_desc_125",
+  "cat": "equip_desc",
+  "idx": [
+   125
+  ],
+  "va": "0x800DD07C",
+  "len": 31,
+  "en": "Power increases with game play",
+  "refs": [
+   25348
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 228,
+  "ko": "플레이할수록 위력이 오른다",
+  "px": 156,
+  "ko_len": 27
+ },
+ {
+  "id": "equip_desc_126",
+  "cat": "equip_desc",
+  "idx": [
+   126
+  ],
+  "va": "0x800DD054",
+  "len": 24,
+  "en": "Sentient sword familiar",
+  "refs": [
+   25400
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 170,
+  "ko": "의지를 지닌 검 사역마",
+  "px": 126,
+  "ko_len": 22
+ },
+ {
+  "id": "equip_desc_127",
+  "cat": "equip_desc",
+  "idx": [
+   127
+  ],
+  "va": "0x800DD028",
+  "len": 27,
+  "en": "Greatsword of Aubec ［２］",
+  "refs": [
+   25452
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 182,
+  "ko": "오벡의 대검 ［양손］",
+  "px": 108,
+  "ko_len": 21
+ },
+ {
+  "id": "equip_desc_128",
+  "cat": "equip_desc",
+  "idx": [
+   128
+  ],
+  "va": "0x800DD014",
+  "len": 12,
+  "en": "Iron cudgel",
+  "refs": [
+   25504
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 76,
+  "ko": "쇠몽둥이",
+  "px": 48,
+  "ko_len": 9
+ },
+ {
+  "id": "equip_desc_129",
+  "cat": "equip_desc",
+  "idx": [
+   129
+  ],
+  "va": "0x800DCFF0",
+  "len": 17,
+  "en": "Spiked iron club",
+  "refs": [
+   25556
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 112,
+  "ko": "가시가 돋은 쇠곤봉",
+  "px": 108,
+  "ko_len": 19
+ },
+ {
+  "id": "equip_desc_130",
+  "cat": "equip_desc",
+  "idx": [
+   130
+  ],
+  "va": "0x800DCFD4",
+  "len": 16,
+  "en": "Anointed rod   ",
+  "refs": [
+   25608
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 110,
+  "ko": "성유를 바른 지팡이",
+  "px": 108,
+  "ko_len": 19
+ },
+ {
+  "id": "equip_desc_131",
+  "cat": "equip_desc",
+  "idx": [
+   131
+  ],
+  "va": "0x800DCFAC",
+  "len": 25,
+  "en": "Flail with spiked balls ",
+  "refs": [
+   25660
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 160,
+  "ko": "가시 철구가 달린 도리깨",
+  "px": 138,
+  "ko_len": 24
+ },
+ {
+  "id": "equip_desc_132",
+  "cat": "equip_desc",
+  "idx": [
+   132
+  ],
+  "va": "0x800DCF88",
+  "len": 24,
+  "en": "Rod with lunar markings",
+  "refs": [
+   25712
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 172,
+  "ko": "달의 문양이 새겨진 지팡이",
+  "px": 150,
+  "ko_len": 26
+ },
+ {
+  "id": "equip_desc_133",
+  "cat": "equip_desc",
+  "idx": [
+   133
+  ],
+  "va": "0x800DCF60",
+  "len": 25,
+  "en": "Sikh steel throwing ring",
+  "refs": [
+   25764
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 172,
+  "ko": "시크교의 강철 투척 고리",
+  "px": 138,
+  "ko_len": 24
+ },
+ {
+  "id": "equip_desc_134",
+  "cat": "equip_desc",
+  "idx": [
+   134
+  ],
+  "va": "0x800DCF34",
+  "len": 26,
+  "en": "Flaming boomerang ［use］",
+  "refs": [
+   25816
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 174,
+  "ko": "불타는 부메랑 ［사용］",
+  "px": 120,
+  "ko_len": 23
+ },
+ {
+  "id": "equip_desc_135",
+  "cat": "equip_desc",
+  "idx": [
+   135
+  ],
+  "va": "0x800DCF08",
+  "len": 32,
+  "en": "Plate Lord’s iron ball ［use］",
+  "refs": [
+   25868
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 188,
+  "ko": "플레이트 로드의 철구 ［사용］",
+  "px": 162,
+  "ko_len": 30
+ },
+ {
+  "id": "equip_desc_136",
+  "cat": "equip_desc",
+  "idx": [
+   136
+  ],
+  "va": "0x800DCEDC",
+  "len": 28,
+  "en": "Swift upper diagonal attack",
+  "refs": [
+   25920
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 202,
+  "ko": "재빠르게 비스듬히 올려 벤다",
+  "px": 162,
+  "ko_len": 28
+ },
+ {
+  "id": "equip_desc_137",
+  "cat": "equip_desc",
+  "idx": [
+   137
+  ],
+  "va": "0x800DCEB0",
+  "len": 27,
+  "en": "Knuckles for uppercut－use",
+  "refs": [
+   25972
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 192,
+  "ko": "어퍼컷용 너클",
+  "px": 78,
+  "ko_len": 14
+ },
+ {
+  "id": "equip_desc_138",
+  "cat": "equip_desc",
+  "idx": [
+   138
+  ],
+  "va": "0x800DCE80",
+  "len": 36,
+  "en": "Powerful！ Be careful．．． ［use］",
+  "refs": [
+   26024
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 200,
+  "ko": "강력하다！ 취급 주의．．． ［사용］",
+  "px": 166,
+  "ko_len": 36
+ },
+ {
+  "id": "equip_desc_139",
+  "cat": "equip_desc",
+  "idx": [
+   139
+  ],
+  "va": "0x800DCE4C",
+  "len": 33,
+  "en": "Osafune－made katana ［２ hand］",
+  "refs": [
+   26076
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 226,
+  "ko": "오사후네의 일본도 ［양손］",
+  "px": 144,
+  "ko_len": 27
+ },
+ {
+  "id": "equip_desc_140",
+  "cat": "equip_desc",
+  "idx": [
+   140
+  ],
+  "va": "0x800DCE1C",
+  "len": 33,
+  "en": "Legendary Masamune katana ［２］",
+  "refs": [
+   26128
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 228,
+  "ko": "전설의 명도 마사무네 ［양손］",
+  "px": 162,
+  "ko_len": 30
+ },
+ {
+  "id": "equip_desc_141",
+  "cat": "equip_desc",
+  "idx": [
+   141
+  ],
+  "va": "0x800DCDF0",
+  "len": 31,
+  "en": "Bloodthirsty sword ［２ hand］",
+  "refs": [
+   26180
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 200,
+  "ko": "피에 굶주린 검 ［양손］",
+  "px": 126,
+  "ko_len": 24
+ },
+ {
+  "id": "equip_desc_142",
+  "cat": "equip_desc",
+  "idx": [
+   142
+  ],
+  "va": "0x800DCDC0",
+  "len": 31,
+  "en": "Restores ５００ hearts ［use］",
+  "refs": [
+   26232
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 188,
+  "ko": "하트 ５００ 회복 ［사용］",
+  "px": 126,
+  "ko_len": 26
+ },
+ {
+  "id": "equip_desc_143",
+  "cat": "equip_desc",
+  "idx": [
+   143
+  ],
+  "va": "0x800DCD94",
+  "len": 29,
+  "en": "Flying rune－inscribed sword",
+  "refs": [
+   26284
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 198,
+  "ko": "룬이 새겨진 날아다니는 검",
+  "px": 150,
+  "ko_len": 26
+ },
+ {
+  "id": "equip_desc_144",
+  "cat": "equip_desc",
+  "idx": [
+   144
+  ],
+  "va": "0x800DCD6C",
+  "len": 25,
+  "en": "Cures poisoning ［use］ ",
+  "refs": [
+   26336
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 160,
+  "ko": "독을 치료한다 ［사용］",
+  "px": 120,
+  "ko_len": 23
+ },
+ {
+  "id": "equip_desc_145",
+  "cat": "equip_desc",
+  "idx": [
+   145
+  ],
+  "va": "0x800DCD48",
+  "len": 23,
+  "en": "Removes curse ［use］ ",
+  "refs": [
+   26388
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 154,
+  "ko": "저주를 푼다 ［사용］",
+  "px": 108,
+  "ko_len": 21
+ },
+ {
+  "id": "equip_desc_146",
+  "cat": "equip_desc",
+  "idx": [
+   146
+  ],
+  "va": "0x800DCD20",
+  "len": 28,
+  "en": "Heals ［Familiar use only］",
+  "refs": [
+   26440
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 172,
+  "ko": "회복 ［사역마 전용］",
+  "px": 108,
+  "ko_len": 21
+ },
+ {
+  "id": "equip_desc_147",
+  "cat": "equip_desc",
+  "idx": [
+   147
+  ],
+  "va": "0x800DCCF8",
+  "len": 32,
+  "en": "Unpetrify ［Familiar use only］",
+  "refs": [
+   26492
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 202,
+  "ko": "석화 해제 ［사역마 전용］",
+  "px": 138,
+  "ko_len": 26
+ },
+ {
+  "id": "equip_desc_148",
+  "cat": "equip_desc",
+  "idx": [
+   148
+  ],
+  "va": "0x800DCCC8",
+  "len": 31,
+  "en": "Temporarily raises STR ［use］",
+  "refs": [
+   26544
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 212,
+  "ko": "일시적으로 힘 상승 ［사용］",
+  "px": 150,
+  "ko_len": 28
+ },
+ {
+  "id": "equip_desc_149",
+  "cat": "equip_desc",
+  "idx": [
+   149
+  ],
+  "va": "0x800DCC98",
+  "len": 31,
+  "en": "Temporarily raises LCK ［use］",
+  "refs": [
+   26596
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 208,
+  "ko": "일시적으로 행운 상승 ［사용］",
+  "px": 162,
+  "ko_len": 30
+ },
+ {
+  "id": "equip_desc_150",
+  "cat": "equip_desc",
+  "idx": [
+   150
+  ],
+  "va": "0x800DCC68",
+  "len": 31,
+  "en": "Temporarily raises INT ［use］",
+  "refs": [
+   26648
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 204,
+  "ko": "일시적으로 지능 상승 ［사용］",
+  "px": 162,
+  "ko_len": 30
+ },
+ {
+  "id": "equip_desc_151",
+  "cat": "equip_desc",
+  "idx": [
+   151
+  ],
+  "va": "0x800DCC38",
+  "len": 31,
+  "en": "Temporarily raises ATT ［use］",
+  "refs": [
+   26700
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 216,
+  "ko": "일시적으로 공격력 상승 ［사용］",
+  "px": 174,
+  "ko_len": 32
+ },
+ {
+  "id": "equip_desc_152",
+  "cat": "equip_desc",
+  "idx": [
+   152
+  ],
+  "va": "0x800DCC08",
+  "len": 31,
+  "en": "Temporarily raises DEF ［use］",
+  "refs": [
+   26752
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 206,
+  "ko": "일시적으로 방어력 상승 ［사용］",
+  "px": 174,
+  "ko_len": 32
+ },
+ {
+  "id": "equip_desc_153",
+  "cat": "equip_desc",
+  "idx": [
+   153
+  ],
+  "va": "0x800DCBD4",
+  "len": 33,
+  "en": "Brief resistance to fire ［use］",
+  "refs": [
+   26804
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 212,
+  "ko": "잠시 불에 내성이 생긴다 ［사용］",
+  "px": 180,
+  "ko_len": 33
+ },
+ {
+  "id": "equip_desc_154",
+  "cat": "equip_desc",
+  "idx": [
+   154
+  ],
+  "va": "0x800DCBA4",
+  "len": 32,
+  "en": "Resistance to lightning ［use］",
+  "refs": [
+   26856
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 208,
+  "ko": "번개에 내성이 생긴다 ［사용］",
+  "px": 162,
+  "ko_len": 30
+ },
+ {
+  "id": "equip_desc_155",
+  "cat": "equip_desc",
+  "idx": [
+   155
+  ],
+  "va": "0x800DCB74",
+  "len": 32,
+  "en": "Brief resistance to ice ［use］",
+  "refs": [
+   26908
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 206,
+  "ko": "잠시 얼음에 내성이 생긴다 ［사용］",
+  "px": 192,
+  "ko_len": 35
+ },
+ {
+  "id": "equip_desc_156",
+  "cat": "equip_desc",
+  "idx": [
+   156
+  ],
+  "va": "0x800DCB48",
+  "len": 28,
+  "en": "Resistance to stone ［use］",
+  "refs": [
+   26960
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 188,
+  "ko": "석화에 내성이 생긴다 ［사용］",
+  "px": 162,
+  "ko_len": 30
+ },
+ {
+  "id": "equip_desc_157",
+  "cat": "equip_desc",
+  "idx": [
+   157
+  ],
+  "va": "0x800DCB1C",
+  "len": 27,
+  "en": "Resistance to holy ［use］",
+  "refs": [
+   27012
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 176,
+  "ko": "성속성에 내성이 생긴다 ［사용］",
+  "px": 174,
+  "ko_len": 32
+ },
+ {
+  "id": "equip_desc_158",
+  "cat": "equip_desc",
+  "idx": [
+   158
+  ],
+  "va": "0x800DCAEC",
+  "len": 31,
+  "en": "Resistance to darkness ［use］",
+  "refs": [
+   27064
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 210,
+  "ko": "어둠에 내성이 생긴다 ［사용］",
+  "px": 162,
+  "ko_len": 30
+ },
+ {
+  "id": "equip_desc_159",
+  "cat": "equip_desc",
+  "idx": [
+   159
+  ],
+  "va": "0x800DCAC8",
+  "len": 25,
+  "en": "Restores some HP ［use］",
+  "refs": [
+   27116
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 170,
+  "ko": "HP를 조금 회복 ［사용］",
+  "px": 130,
+  "ko_len": 24
+ },
+ {
+  "id": "equip_desc_160",
+  "cat": "equip_desc",
+  "idx": [
+   160
+  ],
+  "va": "0x800DCA98",
+  "len": 31,
+  "en": "Restores about half HP ［use］",
+  "refs": [
+   27168
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 208,
+  "ko": "HP를 절반 정도 회복 ［사용］",
+  "px": 160,
+  "ko_len": 29
+ },
+ {
+  "id": "equip_desc_161",
+  "cat": "equip_desc",
+  "idx": [
+   161
+  ],
+  "va": "0x800DCA78",
+  "len": 24,
+  "en": "Restores all HP ［use］",
+  "refs": [
+   27220
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 150,
+  "ko": "HP를 모두 회복 ［사용］",
+  "px": 130,
+  "ko_len": 24
+ },
+ {
+  "id": "equip_desc_162",
+  "cat": "equip_desc",
+  "idx": [
+   162
+  ],
+  "va": "0x800DCA50",
+  "len": 24,
+  "en": "Restores all MP ［use］",
+  "refs": [
+   27272
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 154,
+  "ko": "MP를 모두 회복 ［사용］",
+  "px": 134,
+  "ko_len": 24
+ },
+ {
+  "id": "equip_desc_163",
+  "cat": "equip_desc",
+  "idx": [
+   163
+  ],
+  "va": "0x800DCA20",
+  "len": 31,
+  "en": "Slices cleanly through enemies",
+  "refs": [
+   27324
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 218,
+  "ko": "적을 깔끔하게 베어 낸다",
+  "px": 138,
+  "ko_len": 24
+ },
+ {
+  "id": "equip_desc_164",
+  "cat": "equip_desc",
+  "idx": [
+   164
+  ],
+  "va": "0x800DC9F4",
+  "len": 28,
+  "en": "Countless blades dice enemy",
+  "refs": [
+   27376
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 206,
+  "ko": "무수한 칼날이 적을 벤다",
+  "px": 138,
+  "ko_len": 24
+ },
+ {
+  "id": "equip_desc_165",
+  "cat": "equip_desc",
+  "idx": [
+   165
+  ],
+  "va": "0x800DC9C4",
+  "len": 35,
+  "en": "Yasutsuna－made katana ［２ hand］",
+  "refs": [
+   27428
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 238,
+  "ko": "야스츠나의 일본도 ［양손］",
+  "px": 144,
+  "ko_len": 27
+ },
+ {
+  "id": "equip_desc_166",
+  "cat": "equip_desc",
+  "idx": [
+   166
+  ],
+  "va": "0x800DC994",
+  "len": 31,
+  "en": "Enchanted library card ［use］",
+  "refs": [
+   27480
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 200,
+  "ko": "마법이 걸린 도서관 카드 ［사용］",
+  "px": 180,
+  "ko_len": 33
+ },
+ {
+  "id": "equip_desc_167",
+  "cat": "equip_desc",
+  "idx": [
+   167
+  ],
+  "va": "0x800DC96C",
+  "len": 24,
+  "en": "Resembles family shield",
+  "refs": [
+   27532
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 170,
+  "ko": "가문의 방패를 닮았다",
+  "px": 120,
+  "ko_len": 21
+ },
+ {
+  "id": "equip_desc_168",
+  "cat": "equip_desc",
+  "idx": [
+   168
+  ],
+  "va": "0x800DC944",
+  "len": 23,
+  "en": "Resembles family sword",
+  "refs": [
+   27584
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 172,
+  "ko": "가문의 검을 닮았다",
+  "px": 108,
+  "ko_len": 19
+ },
+ {
+  "id": "equip_desc_169",
+  "cat": "equip_desc",
+  "idx": [
+   169
+  ],
+  "va": "0x800DC910",
+  "len": 33,
+  "en": "Past its expiration date ［use］",
+  "refs": [
+   27636
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 214,
+  "ko": "유통 기한이 지났다 ［사용］",
+  "px": 150,
+  "ko_len": 28
+ },
+ {
+  "id": "equip_desc_170",
+  "cat": "equip_desc",
+  "idx": [
+   170
+  ],
+  "va": "0x800DC8E0",
+  "len": 31,
+  "en": "Five－star full course ［use］",
+  "refs": [
+   27688
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 194,
+  "ko": "최고급 풀코스 요리 ［사용］",
+  "px": 150,
+  "ko_len": 28
+ },
+ {
+  "id": "equip_desc_171",
+  "cat": "equip_desc",
+  "idx": [
+   171
+  ],
+  "va": "0x800DC8C4",
+  "len": 11,
+  "en": "Got it！！",
+  "refs": [
+   27740
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 54,
+  "ko": "해냈다！！",
+  "px": 44,
+  "ko_len": 11
+ },
+ {
+  "id": "equip_desc_172",
+  "cat": "equip_desc",
+  "idx": [
+   172
+  ],
+  "va": "0x800DC898",
+  "len": 28,
+  "en": "Demon spear he once favored",
+  "refs": [
+   27792
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 210,
+  "ko": "그가 예전에 애용하던 마창",
+  "px": 150,
+  "ko_len": 26
+ },
+ {
+  "id": "equip_desc_173",
+  "cat": "equip_desc",
+  "idx": [
+   173
+  ],
+  "va": "0x800DC864",
+  "len": 35,
+  "en": "Tree spirit shield， rose－scented",
+  "refs": [
+   27844
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 232,
+  "ko": "나무 정령의 방패， 장미 향기",
+  "px": 160,
+  "ko_len": 29
+ },
+ {
+  "id": "equip_desc_174",
+  "cat": "equip_desc",
+  "idx": [
+   174
+  ],
+  "va": "0x800DC834",
+  "len": 31,
+  "en": "Mysterious otherworldly dagger",
+  "refs": [
+   27896
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 224,
+  "ko": "이세계의 신비한 단검",
+  "px": 120,
+  "ko_len": 21
+ },
+ {
+  "id": "equip_desc_175",
+  "cat": "equip_desc",
+  "idx": [
+   175
+  ],
+  "va": "0x800DC808",
+  "len": 27,
+  "en": "Two blades for a clean cut",
+  "refs": [
+   27948
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 196,
+  "ko": "깔끔하게 베는 두 자루의 칼날",
+  "px": 168,
+  "ko_len": 29
+ },
+ {
+  "id": "acc_desc_000",
+  "cat": "acc_desc",
+  "idx": [
+   0,
+   26,
+   48,
+   57
+  ],
+  "va": "0x800DF228",
+  "len": 8,
+  "en": "Unequip",
+  "refs": [
+   30704,
+   31536,
+   32240,
+   32528
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 52,
+  "ko": "장비 해제",
+  "px": 54,
+  "ko_len": 10
+ },
+ {
+  "id": "acc_desc_001",
+  "cat": "acc_desc",
+  "idx": [
+   1
+  ],
+  "va": "0x800DF204",
+  "len": 19,
+  "en": "Simple cloth tunic",
+  "refs": [
+   30736
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 130,
+  "ko": "소박한 천 옷",
+  "px": 72,
+  "ko_len": 13
+ },
+ {
+  "id": "acc_desc_002",
+  "cat": "acc_desc",
+  "idx": [
+   2
+  ],
+  "va": "0x800DF1DC",
+  "len": 23,
+  "en": "Tanned leather cuirass",
+  "refs": [
+   30768
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 164,
+  "ko": "무두질한 가죽 갑옷",
+  "px": 108,
+  "ko_len": 19
+ },
+ {
+  "id": "acc_desc_003",
+  "cat": "acc_desc",
+  "idx": [
+   3
+  ],
+  "va": "0x800DF1BC",
+  "len": 15,
+  "en": "Bronze cuirass",
+  "refs": [
+   30800
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 104,
+  "ko": "청동 갑옷",
+  "px": 54,
+  "ko_len": 10
+ },
+ {
+  "id": "acc_desc_004",
+  "cat": "acc_desc",
+  "idx": [
+   4
+  ],
+  "va": "0x800DF19C",
+  "len": 13,
+  "en": "Iron cuirass",
+  "refs": [
+   30832
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 82,
+  "ko": "철 갑옷",
+  "px": 42,
+  "ko_len": 8
+ },
+ {
+  "id": "acc_desc_005",
+  "cat": "acc_desc",
+  "idx": [
+   5
+  ],
+  "va": "0x800DF17C",
+  "len": 14,
+  "en": "Steel cuirass",
+  "refs": [
+   30864
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 94,
+  "ko": "강철 갑옷",
+  "px": 54,
+  "ko_len": 10
+ },
+ {
+  "id": "acc_desc_006",
+  "cat": "acc_desc",
+  "idx": [
+   6
+  ],
+  "va": "0x800DF158",
+  "len": 19,
+  "en": "Silver breastplate",
+  "refs": [
+   30896
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 128,
+  "ko": "은 흉갑",
+  "px": 42,
+  "ko_len": 8
+ },
+ {
+  "id": "acc_desc_007",
+  "cat": "acc_desc",
+  "idx": [
+   7
+  ],
+  "va": "0x800DF138",
+  "len": 17,
+  "en": "Gold breastplate",
+  "refs": [
+   30928
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 120,
+  "ko": "금 흉갑",
+  "px": 42,
+  "ko_len": 8
+ },
+ {
+  "id": "acc_desc_008",
+  "cat": "acc_desc",
+  "idx": [
+   8
+  ],
+  "va": "0x800DF110",
+  "len": 21,
+  "en": "Platinum breastplate",
+  "refs": [
+   30960
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 148,
+  "ko": "백금 흉갑",
+  "px": 54,
+  "ko_len": 10
+ },
+ {
+  "id": "acc_desc_009",
+  "cat": "acc_desc",
+  "idx": [
+   9
+  ],
+  "va": "0x800DF0EC",
+  "len": 20,
+  "en": "Diamond breastplate",
+  "refs": [
+   30992
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 146,
+  "ko": "다이아몬드 흉갑",
+  "px": 90,
+  "ko_len": 16
+ },
+ {
+  "id": "acc_desc_010",
+  "cat": "acc_desc",
+  "idx": [
+   10
+  ],
+  "va": "0x800DF0C0",
+  "len": 32,
+  "en": "Strong vs． fire－based attacks",
+  "refs": [
+   31024
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 220,
+  "ko": "불 속성 공격에 강하다",
+  "px": 126,
+  "ko_len": 22
+ },
+ {
+  "id": "acc_desc_011",
+  "cat": "acc_desc",
+  "idx": [
+   11
+  ],
+  "va": "0x800DF090",
+  "len": 30,
+  "en": "Strong vs． lightning attacks",
+  "refs": [
+   31056
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 202,
+  "ko": "번개 속성 공격에 강하다",
+  "px": 138,
+  "ko_len": 24
+ },
+ {
+  "id": "acc_desc_012",
+  "cat": "acc_desc",
+  "idx": [
+   12
+  ],
+  "va": "0x800DF064",
+  "len": 31,
+  "en": "Strong vs． ice－based attacks",
+  "refs": [
+   31088
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 214,
+  "ko": "얼음 속성 공격에 강하다",
+  "px": 138,
+  "ko_len": 24
+ },
+ {
+  "id": "acc_desc_013",
+  "cat": "acc_desc",
+  "idx": [
+   13
+  ],
+  "va": "0x800DF038",
+  "len": 27,
+  "en": "Polished to resist stoning",
+  "refs": [
+   31120
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 184,
+  "ko": "석화를 막도록 연마되었다",
+  "px": 144,
+  "ko_len": 25
+ },
+ {
+  "id": "acc_desc_014",
+  "cat": "acc_desc",
+  "idx": [
+   14
+  ],
+  "va": "0x800DF010",
+  "len": 22,
+  "en": "Spike－breaking armor",
+  "refs": [
+   31152
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 154,
+  "ko": "가시를 부수는 갑옷",
+  "px": 108,
+  "ko_len": 19
+ },
+ {
+  "id": "acc_desc_015",
+  "cat": "acc_desc",
+  "idx": [
+   15
+  ],
+  "va": "0x800DEFE0",
+  "len": 31,
+  "en": "Resists fire， lightning， ice",
+  "refs": [
+   31184
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 186,
+  "ko": "불， 번개， 얼음에 내성",
+  "px": 122,
+  "ko_len": 24
+ },
+ {
+  "id": "acc_desc_016",
+  "cat": "acc_desc",
+  "idx": [
+   16
+  ],
+  "va": "0x800DEFB8",
+  "len": 27,
+  "en": "Impervious to evil attacks",
+  "refs": [
+   31216
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 188,
+  "ko": "사악한 공격을 막아 낸다",
+  "px": 138,
+  "ko_len": 24
+ },
+ {
+  "id": "acc_desc_017",
+  "cat": "acc_desc",
+  "idx": [
+   17
+  ],
+  "va": "0x800DEF8C",
+  "len": 26,
+  "en": "Restores HP while walking",
+  "refs": [
+   31248
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 186,
+  "ko": "걸으면 HP가 회복된다",
+  "px": 124,
+  "ko_len": 21
+ },
+ {
+  "id": "acc_desc_018",
+  "cat": "acc_desc",
+  "idx": [
+   18
+  ],
+  "va": "0x800DEF64",
+  "len": 25,
+  "en": "Strong vs． holy attacks",
+  "refs": [
+   31280
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 170,
+  "ko": "성속성 공격에 강하다",
+  "px": 120,
+  "ko_len": 21
+ },
+ {
+  "id": "acc_desc_019",
+  "cat": "acc_desc",
+  "idx": [
+   19
+  ],
+  "va": "0x800DEF38",
+  "len": 32,
+  "en": "DEF increases with map coverage",
+  "refs": [
+   31312
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 238,
+  "ko": "지도 탐색률에 따라 방어력 상승",
+  "px": 180,
+  "ko_len": 31
+ },
+ {
+  "id": "acc_desc_020",
+  "cat": "acc_desc",
+  "idx": [
+   20
+  ],
+  "va": "0x800DEF08",
+  "len": 31,
+  "en": "Increases sub－weapon strength",
+  "refs": [
+   31344
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 228,
+  "ko": "서브 웨폰의 위력 상승",
+  "px": 126,
+  "ko_len": 22
+ },
+ {
+  "id": "acc_desc_021",
+  "cat": "acc_desc",
+  "idx": [
+   21
+  ],
+  "va": "0x800DEEDC",
+  "len": 29,
+  "en": "Increases magic attack power",
+  "refs": [
+   31376
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 214,
+  "ko": "마법 공격력 상승",
+  "px": 96,
+  "ko_len": 17
+ },
+ {
+  "id": "acc_desc_022",
+  "cat": "acc_desc",
+  "idx": [
+   22
+  ],
+  "va": "0x800DEEB0",
+  "len": 30,
+  "en": "DEF goes up when damage taken",
+  "refs": [
+   31408
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 232,
+  "ko": "피해를 받으면 방어력 상승",
+  "px": 150,
+  "ko_len": 26
+ },
+ {
+  "id": "acc_desc_023",
+  "cat": "acc_desc",
+  "idx": [
+   23
+  ],
+  "va": "0x800DEE80",
+  "len": 30,
+  "en": "Embroidered nobleman’s tunic",
+  "refs": [
+   31440
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 208,
+  "ko": "자수를 놓은 귀족의 옷",
+  "px": 126,
+  "ko_len": 22
+ },
+ {
+  "id": "acc_desc_024",
+  "cat": "acc_desc",
+  "idx": [
+   24
+  ],
+  "va": "0x800DEE5C",
+  "len": 23,
+  "en": "Strongest of all armor",
+  "refs": [
+   31472
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 162,
+  "ko": "모든 갑옷 중 최강",
+  "px": 102,
+  "ko_len": 18
+ },
+ {
+  "id": "acc_desc_025",
+  "cat": "acc_desc",
+  "idx": [
+   25
+  ],
+  "va": "0x800DEE2C",
+  "len": 29,
+  "en": "Wearer becomes an Axe Knight",
+  "refs": [
+   31504
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 220,
+  "ko": "입으면 액스 나이트가 된다",
+  "px": 150,
+  "ko_len": 26
+ },
+ {
+  "id": "acc_desc_027",
+  "cat": "acc_desc",
+  "idx": [
+   27
+  ],
+  "va": "0x800DEE08",
+  "len": 24,
+  "en": "Cool looking sunglasses",
+  "refs": [
+   31568
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 168,
+  "ko": "멋진 선글라스",
+  "px": 78,
+  "ko_len": 14
+ },
+ {
+  "id": "acc_desc_028",
+  "cat": "acc_desc",
+  "idx": [
+   28
+  ],
+  "va": "0x800DEDE4",
+  "len": 20,
+  "en": "Mask used at a ball",
+  "refs": [
+   31600
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 140,
+  "ko": "무도회용 가면",
+  "px": 78,
+  "ko_len": 14
+ },
+ {
+  "id": "acc_desc_029",
+  "cat": "acc_desc",
+  "idx": [
+   29
+  ],
+  "va": "0x800DEDB8",
+  "len": 30,
+  "en": "Protects sensitive head parts",
+  "refs": [
+   31632
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 214,
+  "ko": "머리의 급소를 지켜 준다",
+  "px": 138,
+  "ko_len": 24
+ },
+ {
+  "id": "acc_desc_030",
+  "cat": "acc_desc",
+  "idx": [
+   30
+  ],
+  "va": "0x800DEDA0",
+  "len": 9,
+  "en": "Felt hat",
+  "refs": [
+   31664
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 58,
+  "ko": "펠트 모자",
+  "px": 54,
+  "ko_len": 10
+ },
+ {
+  "id": "acc_desc_031",
+  "cat": "acc_desc",
+  "idx": [
+   31
+  ],
+  "va": "0x800DED88",
+  "len": 11,
+  "en": "Velvet hat",
+  "refs": [
+   31696
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 78,
+  "ko": "벨벳 모자",
+  "px": 54,
+  "ko_len": 10
+ },
+ {
+  "id": "acc_desc_032",
+  "cat": "acc_desc",
+  "idx": [
+   32
+  ],
+  "va": "0x800DED60",
+  "len": 27,
+  "en": "Comfortable eye protection",
+  "refs": [
+   31728
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 200,
+  "ko": "착용감 좋은 보안경",
+  "px": 108,
+  "ko_len": 19
+ },
+ {
+  "id": "acc_desc_033",
+  "cat": "acc_desc",
+  "idx": [
+   33
+  ],
+  "va": "0x800DED3C",
+  "len": 19,
+  "en": "Tanned leather hat",
+  "refs": [
+   31760
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 138,
+  "ko": "무두질한 가죽 모자",
+  "px": 108,
+  "ko_len": 19
+ },
+ {
+  "id": "acc_desc_034",
+  "cat": "acc_desc",
+  "idx": [
+   34
+  ],
+  "va": "0x800DED10",
+  "len": 27,
+  "en": "Sees beyond magical curses",
+  "refs": [
+   31792
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 198,
+  "ko": "마법의 저주를 꿰뚫어 본다",
+  "px": 150,
+  "ko_len": 26
+ },
+ {
+  "id": "acc_desc_035",
+  "cat": "acc_desc",
+  "idx": [
+   35
+  ],
+  "va": "0x800DECE8",
+  "len": 28,
+  "en": "Standard adventurer’s helm",
+  "refs": [
+   31824
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 196,
+  "ko": "평범한 모험가의 투구",
+  "px": 120,
+  "ko_len": 21
+ },
+ {
+  "id": "acc_desc_036",
+  "cat": "acc_desc",
+  "idx": [
+   36
+  ],
+  "va": "0x800DECBC",
+  "len": 30,
+  "en": "Ancient ceremonial stone mask",
+  "refs": [
+   31856
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 224,
+  "ko": "고대 의식용 돌가면",
+  "px": 108,
+  "ko_len": 19
+ },
+ {
+  "id": "acc_desc_037",
+  "cat": "acc_desc",
+  "idx": [
+   37
+  ],
+  "va": "0x800DECA8",
+  "len": 8,
+  "en": "Circlet",
+  "refs": [
+   31888
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 50,
+  "ko": "서클릿",
+  "px": 36,
+  "ko_len": 7
+ },
+ {
+  "id": "acc_desc_038",
+  "cat": "acc_desc",
+  "idx": [
+   38
+  ],
+  "va": "0x800DEC7C",
+  "len": 27,
+  "en": "Restores HP by holy damage",
+  "refs": [
+   31920
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 200,
+  "ko": "성속성 피해로 HP 회복",
+  "px": 130,
+  "ko_len": 22
+ },
+ {
+  "id": "acc_desc_039",
+  "cat": "acc_desc",
+  "idx": [
+   39
+  ],
+  "va": "0x800DEC50",
+  "len": 27,
+  "en": "Restores HP by fire damage",
+  "refs": [
+   31952
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 198,
+  "ko": "불 속성 피해로 HP 회복",
+  "px": 136,
+  "ko_len": 23
+ },
+ {
+  "id": "acc_desc_040",
+  "cat": "acc_desc",
+  "idx": [
+   40
+  ],
+  "va": "0x800DEC24",
+  "len": 26,
+  "en": "Restores HP by ice damage",
+  "refs": [
+   31984
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 192,
+  "ko": "얼음 속성 피해로 HP 회복",
+  "px": 148,
+  "ko_len": 25
+ },
+ {
+  "id": "acc_desc_041",
+  "cat": "acc_desc",
+  "idx": [
+   41
+  ],
+  "va": "0x800DEBF4",
+  "len": 29,
+  "en": "Restores HP by poison damage",
+  "refs": [
+   32016
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 216,
+  "ko": "독 피해로 HP 회복",
+  "px": 106,
+  "ko_len": 18
+ },
+ {
+  "id": "acc_desc_042",
+  "cat": "acc_desc",
+  "idx": [
+   42
+  ],
+  "va": "0x800DEBC4",
+  "len": 29,
+  "en": "Heals HP by lightning damage",
+  "refs": [
+   32048
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 204,
+  "ko": "번개 속성 피해로 HP 회복",
+  "px": 148,
+  "ko_len": 25
+ },
+ {
+  "id": "acc_desc_043",
+  "cat": "acc_desc",
+  "idx": [
+   43
+  ],
+  "va": "0x800DEB94",
+  "len": 29,
+  "en": "Big HP restore by cat damage",
+  "refs": [
+   32080
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 212,
+  "ko": "고양이 피해로 HP 대폭 회복",
+  "px": 160,
+  "ko_len": 27
+ },
+ {
+  "id": "acc_desc_044",
+  "cat": "acc_desc",
+  "idx": [
+   44
+  ],
+  "va": "0x800DEB70",
+  "len": 17,
+  "en": "Immune to curses",
+  "refs": [
+   32112
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 126,
+  "ko": "저주에 걸리지 않는다",
+  "px": 120,
+  "ko_len": 21
+ },
+ {
+  "id": "acc_desc_045",
+  "cat": "acc_desc",
+  "idx": [
+   45
+  ],
+  "va": "0x800DEB40",
+  "len": 29,
+  "en": "Frightens enemy， lowers DEF",
+  "refs": [
+   32144
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 204,
+  "ko": "적을 겁주지만 방어력 저하",
+  "px": 150,
+  "ko_len": 26
+ },
+ {
+  "id": "acc_desc_046",
+  "cat": "acc_desc",
+  "idx": [
+   46
+  ],
+  "va": "0x800DEB18",
+  "len": 23,
+  "en": "Increases Intelligence",
+  "refs": [
+   32176
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 152,
+  "ko": "지능 상승",
+  "px": 54,
+  "ko_len": 10
+ },
+ {
+  "id": "acc_desc_047",
+  "cat": "acc_desc",
+  "idx": [
+   47
+  ],
+  "va": "0x800DEAEC",
+  "len": 29,
+  "en": "Wide－brimmed for protection",
+  "refs": [
+   32208
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 210,
+  "ko": "챙이 넓어 몸을 지켜 준다",
+  "px": 144,
+  "ko_len": 25
+ },
+ {
+  "id": "acc_desc_049",
+  "cat": "acc_desc",
+  "idx": [
+   49
+  ],
+  "va": "0x800DEAC0",
+  "len": 30,
+  "en": "Well－made but shabby looking",
+  "refs": [
+   32272
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 214,
+  "ko": "잘 만들었지만 초라해 보인다",
+  "px": 162,
+  "ko_len": 28
+ },
+ {
+  "id": "acc_desc_050",
+  "cat": "acc_desc",
+  "idx": [
+   50
+  ],
+  "va": "0x800DEA90",
+  "len": 29,
+  "en": "Dual colored reversible cape",
+  "refs": [
+   32304
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 198,
+  "ko": "두 가지 색의 양면 망토",
+  "px": 132,
+  "ko_len": 23
+ },
+ {
+  "id": "acc_desc_051",
+  "cat": "acc_desc",
+  "idx": [
+   51
+  ],
+  "va": "0x800DEA60",
+  "len": 30,
+  "en": "Perfect for forest camouflage",
+  "refs": [
+   32336
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 220,
+  "ko": "숲에서 위장하기에 딱 좋다",
+  "px": 150,
+  "ko_len": 26
+ },
+ {
+  "id": "acc_desc_052",
+  "cat": "acc_desc",
+  "idx": [
+   52
+  ],
+  "va": "0x800DEA30",
+  "len": 32,
+  "en": "Enchanted semi－invisible cape ",
+  "refs": [
+   32368
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 222,
+  "ko": "마법이 걸린 반투명 망토",
+  "px": 138,
+  "ko_len": 24
+ },
+ {
+  "id": "acc_desc_053",
+  "cat": "acc_desc",
+  "idx": [
+   53
+  ],
+  "va": "0x800DEA0C",
+  "len": 19,
+  "en": "Gorgeous blue cape",
+  "refs": [
+   32400
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 138,
+  "ko": "화려한 푸른 망토",
+  "px": 96,
+  "ko_len": 17
+ },
+ {
+  "id": "acc_desc_054",
+  "cat": "acc_desc",
+  "idx": [
+   54
+  ],
+  "va": "0x800DE9E0",
+  "len": 26,
+  "en": "Converts damage to hearts",
+  "refs": [
+   32432
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 198,
+  "ko": "받은 피해를 하트로 바꾼다",
+  "px": 150,
+  "ko_len": 26
+ },
+ {
+  "id": "acc_desc_055",
+  "cat": "acc_desc",
+  "idx": [
+   55
+  ],
+  "va": "0x800DE9B0",
+  "len": 29,
+  "en": "Select color ［System Menu］",
+  "refs": [
+   32464
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 200,
+  "ko": "색을 선택 ［설정 메뉴］",
+  "px": 126,
+  "ko_len": 24
+ },
+ {
+  "id": "acc_desc_056",
+  "cat": "acc_desc",
+  "idx": [
+   56
+  ],
+  "va": "0x800DE988",
+  "len": 24,
+  "en": "Black cape for vampires",
+  "refs": [
+   32496
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 172,
+  "ko": "흡혈귀용 검은 망토",
+  "px": 108,
+  "ko_len": 19
+ },
+ {
+  "id": "acc_desc_058",
+  "cat": "acc_desc",
+  "idx": [
+   58
+  ],
+  "va": "0x800DE95C",
+  "len": 29,
+  "en": "Improves status after sunset",
+  "refs": [
+   32560
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 214,
+  "ko": "해가 지면 능력치 상승",
+  "px": 126,
+  "ko_len": 22
+ },
+ {
+  "id": "acc_desc_059",
+  "cat": "acc_desc",
+  "idx": [
+   59
+  ],
+  "va": "0x800DE930",
+  "len": 30,
+  "en": "Improves status after sunrise",
+  "refs": [
+   32592
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 216,
+  "ko": "해가 뜨면 능력치 상승",
+  "px": 126,
+  "ko_len": 22
+ },
+ {
+  "id": "acc_desc_060",
+  "cat": "acc_desc",
+  "idx": [
+   60
+  ],
+  "va": "0x800DE904",
+  "len": 32,
+  "en": "Improves blood－healing ability",
+  "refs": [
+   32624
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 214,
+  "ko": "피로 회복하는 능력 향상",
+  "px": 138,
+  "ko_len": 24
+ },
+ {
+  "id": "acc_desc_061",
+  "cat": "acc_desc",
+  "idx": [
+   61
+  ],
+  "va": "0x800DE8DC",
+  "len": 27,
+  "en": "Strengthens power of cross",
+  "refs": [
+   32656
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 202,
+  "ko": "십자가의 힘을 강화",
+  "px": 108,
+  "ko_len": 19
+ },
+ {
+  "id": "acc_desc_062",
+  "cat": "acc_desc",
+  "idx": [
+   62
+  ],
+  "va": "0x800DE8B4",
+  "len": 22,
+  "en": "Ring with holy powers",
+  "refs": [
+   32688
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 158,
+  "ko": "성스러운 힘을 지닌 반지",
+  "px": 138,
+  "ko_len": 24
+ },
+ {
+  "id": "acc_desc_063",
+  "cat": "acc_desc",
+  "idx": [
+   63
+  ],
+  "va": "0x800DE890",
+  "len": 27,
+  "en": "Sparkling ring ［salable］",
+  "refs": [
+   32720
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 162,
+  "ko": "반짝이는 반지 ［판매 가능］",
+  "px": 150,
+  "ko_len": 28
+ },
+ {
+  "id": "acc_desc_064",
+  "cat": "acc_desc",
+  "idx": [
+   64,
+   65
+  ],
+  "va": "0x800DE860",
+  "len": 33,
+  "en": "Fairly valuable ring ［salable］",
+  "refs": [
+   32752,
+   32784
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 198,
+  "ko": "꽤 값진 반지 ［판매 가능］",
+  "px": 144,
+  "ko_len": 27
+ },
+ {
+  "id": "acc_desc_066",
+  "cat": "acc_desc",
+  "idx": [
+   66,
+   67,
+   68
+  ],
+  "va": "0x800DE830",
+  "len": 26,
+  "en": "Valuable ring ［salable］",
+  "refs": [
+   32816,
+   32848,
+   32880
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 158,
+  "ko": "값진 반지 ［판매 가능］",
+  "px": 126,
+  "ko_len": 24
+ },
+ {
+  "id": "acc_desc_069",
+  "cat": "acc_desc",
+  "idx": [
+   69
+  ],
+  "va": "0x800DE7F0",
+  "len": 33,
+  "en": "Highly valuable ring ［salable］",
+  "refs": [
+   32912
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 200,
+  "ko": "매우 값진 반지 ［판매 가능］",
+  "px": 156,
+  "ko_len": 29
+ },
+ {
+  "id": "acc_desc_070",
+  "cat": "acc_desc",
+  "idx": [
+   70
+  ],
+  "va": "0x800DE7C8",
+  "len": 24,
+  "en": "Jewel which brings luck",
+  "refs": [
+   32944
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 168,
+  "ko": "행운을 부르는 보석",
+  "px": 108,
+  "ko_len": 19
+ },
+ {
+  "id": "acc_desc_071",
+  "cat": "acc_desc",
+  "idx": [
+   71
+  ],
+  "va": "0x800DE798",
+  "len": 29,
+  "en": "Confers strength of ２４ men",
+  "refs": [
+   32976
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 206,
+  "ko": "２４명분의 힘을 준다",
+  "px": 114,
+  "ko_len": 21
+ },
+ {
+  "id": "acc_desc_072",
+  "cat": "acc_desc",
+  "idx": [
+   72
+  ],
+  "va": "0x800DE760",
+  "len": 42,
+  "en": "Inscription ””Wear．．．Clock．．．””",
+  "refs": [
+   33008
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 190,
+  "ko": "새긴 글귀 「끼고．．．시계．．．」",
+  "px": 144,
+  "ko_len": 35
+ },
+ {
+  "id": "acc_desc_073",
+  "cat": "acc_desc",
+  "idx": [
+   73
+  ],
+  "va": "0x800DE728",
+  "len": 40,
+  "en": "Inscription ””．．．in．．．Tower””",
+  "refs": [
+   33040
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 174,
+  "ko": "새긴 글귀 「．．．탑．．．에서」",
+  "px": 132,
+  "ko_len": 33
+ },
+ {
+  "id": "acc_desc_074",
+  "cat": "acc_desc",
+  "idx": [
+   74
+  ],
+  "va": "0x800DE6F8",
+  "len": 31,
+  "en": "Golden ring to rule over all！",
+  "refs": [
+   33072
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 196,
+  "ko": "모든 것을 지배하는 황금 반지！",
+  "px": 172,
+  "ko_len": 31
+ },
+ {
+  "id": "acc_desc_075",
+  "cat": "acc_desc",
+  "idx": [
+   75
+  ],
+  "va": "0x800DE6C8",
+  "len": 31,
+  "en": "Increases rare item appearance",
+  "refs": [
+   33104
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 222,
+  "ko": "희귀 아이템 출현율 상승",
+  "px": 138,
+  "ko_len": 24
+ },
+ {
+  "id": "acc_desc_076",
+  "cat": "acc_desc",
+  "idx": [
+   76
+  ],
+  "va": "0x800DE698",
+  "len": 30,
+  "en": "Increases MP restoration rate",
+  "refs": [
+   33136
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 214,
+  "ko": "MP 회복 속도 상승",
+  "px": 110,
+  "ko_len": 18
+ },
+ {
+  "id": "acc_desc_077",
+  "cat": "acc_desc",
+  "idx": [
+   77
+  ],
+  "va": "0x800DE66C",
+  "len": 26,
+  "en": "Reduces heart consumption",
+  "refs": [
+   33168
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 196,
+  "ko": "하트 소비량 감소",
+  "px": 96,
+  "ko_len": 17
+ },
+ {
+  "id": "acc_desc_078",
+  "cat": "acc_desc",
+  "idx": [
+   78
+  ],
+  "va": "0x800DE654",
+  "len": 8,
+  "en": "DEF＋５",
+  "refs": [
+   33200
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 46,
+  "ko": "방어력＋５",
+  "px": 56,
+  "ko_len": 11
+ },
+ {
+  "id": "acc_desc_079",
+  "cat": "acc_desc",
+  "idx": [
+   79
+  ],
+  "va": "0x800DE640",
+  "len": 8,
+  "en": "ATT＋５",
+  "refs": [
+   33232
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 56,
+  "ko": "공격력＋５",
+  "px": 56,
+  "ko_len": 11
+ },
+ {
+  "id": "acc_desc_080",
+  "cat": "acc_desc",
+  "idx": [
+   80
+  ],
+  "va": "0x800DE614",
+  "len": 25,
+  "en": "Improves heal item power",
+  "refs": [
+   33264
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 182,
+  "ko": "회복 아이템의 효과 상승",
+  "px": 138,
+  "ko_len": 24
+ },
+ {
+  "id": "acc_desc_081",
+  "cat": "acc_desc",
+  "idx": [
+   81
+  ],
+  "va": "0x800DE5E8",
+  "len": 27,
+  "en": "Increases overall strength",
+  "refs": [
+   33296
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 186,
+  "ko": "모든 능력치 상승",
+  "px": 96,
+  "ko_len": 17
+ },
+ {
+  "id": "acc_desc_082",
+  "cat": "acc_desc",
+  "idx": [
+   82
+  ],
+  "va": "0x800DE5CC",
+  "len": 17,
+  "en": "DEF＋１ ATT ＋１",
+  "refs": [
+   33328
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 110,
+  "ko": "방어력＋１ 공격력＋１",
+  "px": 114,
+  "ko_len": 22
+ },
+ {
+  "id": "acc_desc_083",
+  "cat": "acc_desc",
+  "idx": [
+   83
+  ],
+  "va": "0x800DE5A8",
+  "len": 24,
+  "en": "May absorb damage taken",
+  "refs": [
+   33360
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 184,
+  "ko": "받은 피해를 흡수할 때가 있다",
+  "px": 168,
+  "ko_len": 29
+ },
+ {
+  "id": "acc_desc_084",
+  "cat": "acc_desc",
+  "idx": [
+   84
+  ],
+  "va": "0x800DE580",
+  "len": 25,
+  "en": "Duplicates ［use］ items",
+  "refs": [
+   33392
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 162,
+  "ko": "［사용］ 아이템을 복제한다",
+  "px": 144,
+  "ko_len": 27
+ },
+ {
+  "id": "acc_desc_085",
+  "cat": "acc_desc",
+  "idx": [
+   85
+  ],
+  "va": "0x800DE554",
+  "len": 26,
+  "en": "Gemstone buckle STR＋１０",
+  "refs": [
+   33424
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 186,
+  "ko": "보석 버클 힘＋１０",
+  "px": 98,
+  "ko_len": 19
+ },
+ {
+  "id": "acc_desc_086",
+  "cat": "acc_desc",
+  "idx": [
+   86
+  ],
+  "va": "0x800DE528",
+  "len": 26,
+  "en": "Gemstone buckle STR＋１５",
+  "refs": [
+   33456
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 186,
+  "ko": "보석 버클 힘＋１５",
+  "px": 98,
+  "ko_len": 19
+ },
+ {
+  "id": "acc_desc_087",
+  "cat": "acc_desc",
+  "idx": [
+   87
+  ],
+  "va": "0x800DE500",
+  "len": 28,
+  "en": "Dwarven necklace DEF＋１５ ",
+  "refs": [
+   33488
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 190,
+  "ko": "드워프의 목걸이 방어력＋１５",
+  "px": 158,
+  "ko_len": 29
+ },
+ {
+  "id": "acc_desc_088",
+  "cat": "acc_desc",
+  "idx": [
+   88
+  ],
+  "va": "0x800DE4D0",
+  "len": 30,
+  "en": "Discreetly increases height！",
+  "refs": [
+   33520
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 198,
+  "ko": "몰래 키를 키워 준다！",
+  "px": 118,
+  "ko_len": 22
+ },
+ {
+  "id": "acc_desc_089",
+  "cat": "acc_desc",
+  "idx": [
+   89
+  ],
+  "va": "0x800DE49C",
+  "len": 33,
+  "en": "Resists fire， lightning， ice？",
+  "refs": [
+   33552
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 194,
+  "ko": "불， 번개， 얼음에 내성？",
+  "px": 130,
+  "ko_len": 26
+ },
+ {
+  "id": "acc_desc_090",
+  "cat": "acc_desc",
+  "idx": [
+   90
+  ],
+  "va": "0x800DE468",
+  "len": 33,
+  "en": "Silver shine that tears darkness",
+  "refs": [
+   33584
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 232,
+  "ko": "어둠을 찢는 은빛",
+  "px": 96,
+  "ko_len": 17
+ },
+ {
+  "id": "acc_desc_091",
+  "cat": "acc_desc",
+  "idx": [
+   91
+  ],
+  "va": "0x800DE440",
+  "len": 24,
+  "en": "Changes color over time",
+  "refs": [
+   33616
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 174,
+  "ko": "시간에 따라 색이 변한다",
+  "px": 138,
+  "ko_len": 24
+ },
+ {
+  "id": "acc_desc_092",
+  "cat": "acc_desc",
+  "idx": [
+   92
+  ],
+  "va": "0x800DE414",
+  "len": 28,
+  "en": "Lyrics to the song Nocturne",
+  "refs": [
+   33648
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 200,
+  "ko": "노래 「녹턴」의 가사",
+  "px": 108,
+  "ko_len": 21
+ },
+ {
+  "id": "relic_name_000",
+  "cat": "relic_name",
+  "idx": [
+   0
+  ],
+  "va": "0x800E0330",
+  "len": 13,
+  "en": " Soul of Bat",
+  "refs": [
+   261160
+  ],
+  "code_refs": [],
+  "limit": 120,
+  "en_px": 90,
+  "ko": " 소울 오브 배트",
+  "px": 90,
+  "ko_len": 16
+ },
+ {
+  "id": "relic_name_001",
+  "cat": "relic_name",
+  "idx": [
+   1
+  ],
+  "va": "0x800E0310",
+  "len": 12,
+  "en": "Fire of Bat",
+  "refs": [
+   261176
+  ],
+  "code_refs": [],
+  "limit": 120,
+  "en_px": 80,
+  "ko": "파이어 오브 배트",
+  "px": 96,
+  "ko_len": 17
+ },
+ {
+  "id": "relic_name_002",
+  "cat": "relic_name",
+  "idx": [
+   2
+  ],
+  "va": "0x800E02E8",
+  "len": 13,
+  "en": " Echo of Bat",
+  "refs": [
+   261192
+  ],
+  "code_refs": [],
+  "limit": 120,
+  "en_px": 92,
+  "ko": " 에코 오브 배트",
+  "px": 90,
+  "ko_len": 16
+ },
+ {
+  "id": "relic_name_003",
+  "cat": "relic_name",
+  "idx": [
+   3
+  ],
+  "va": "0x800E02C4",
+  "len": 14,
+  "en": "Force of Echo",
+  "refs": [
+   261208
+  ],
+  "code_refs": [],
+  "limit": 120,
+  "en_px": 98,
+  "ko": "크레이지 에코",
+  "px": 78,
+  "ko_len": 14
+ },
+ {
+  "id": "relic_name_004",
+  "cat": "relic_name",
+  "idx": [
+   4
+  ],
+  "va": "0x800E029C",
+  "len": 14,
+  "en": " Soul of Wolf",
+  "refs": [
+   261224
+  ],
+  "code_refs": [],
+  "limit": 120,
+  "en_px": 96,
+  "ko": " 소울 오브 울프",
+  "px": 90,
+  "ko_len": 16
+ },
+ {
+  "id": "relic_name_005",
+  "cat": "relic_name",
+  "idx": [
+   5
+  ],
+  "va": "0x800E0278",
+  "len": 14,
+  "en": "Power of Wolf",
+  "refs": [
+   261240
+  ],
+  "code_refs": [],
+  "limit": 120,
+  "en_px": 102,
+  "ko": "파워 오브 울프",
+  "px": 84,
+  "ko_len": 15
+ },
+ {
+  "id": "relic_name_006",
+  "cat": "relic_name",
+  "idx": [
+   6
+  ],
+  "va": "0x800E0254",
+  "len": 15,
+  "en": " Skill of Wolf",
+  "refs": [
+   261256
+  ],
+  "code_refs": [],
+  "limit": 120,
+  "en_px": 96,
+  "ko": " 스킬 오브 울프",
+  "px": 90,
+  "ko_len": 16
+ },
+ {
+  "id": "relic_name_007",
+  "cat": "relic_name",
+  "idx": [
+   7
+  ],
+  "va": "0x800E022C",
+  "len": 13,
+  "en": "Form of Mist",
+  "refs": [
+   261272
+  ],
+  "code_refs": [],
+  "limit": 120,
+  "en_px": 94,
+  "ko": "미스트",
+  "px": 36,
+  "ko_len": 7
+ },
+ {
+  "id": "relic_name_008",
+  "cat": "relic_name",
+  "idx": [
+   8
+  ],
+  "va": "0x800E0208",
+  "len": 15,
+  "en": " Power of Mist",
+  "refs": [
+   261288
+  ],
+  "code_refs": [],
+  "limit": 120,
+  "en_px": 108,
+  "ko": " 파워 오브 미스트",
+  "px": 102,
+  "ko_len": 18
+ },
+ {
+  "id": "relic_name_009",
+  "cat": "relic_name",
+  "idx": [
+   9
+  ],
+  "va": "0x800E01E0",
+  "len": 10,
+  "en": "Gas Cloud",
+  "refs": [
+   261304
+  ],
+  "code_refs": [],
+  "limit": 120,
+  "en_px": 74,
+  "ko": "가스 클라우드",
+  "px": 78,
+  "ko_len": 14
+ },
+ {
+  "id": "relic_name_010",
+  "cat": "relic_name",
+  "idx": [
+   10
+  ],
+  "va": "0x800E01B0",
+  "len": 13,
+  "en": " Cube of Zoe",
+  "refs": [
+   261320
+  ],
+  "code_refs": [],
+  "limit": 120,
+  "en_px": 94,
+  "ko": " 머티라이즈 큐브",
+  "px": 96,
+  "ko_len": 17
+ },
+ {
+  "id": "relic_name_011",
+  "cat": "relic_name",
+  "idx": [
+   11
+  ],
+  "va": "0x800E0188",
+  "len": 11,
+  "en": "Spirit Orb",
+  "refs": [
+   261336
+  ],
+  "code_refs": [],
+  "limit": 120,
+  "en_px": 72,
+  "ko": "영혼의 오브",
+  "px": 66,
+  "ko_len": 12
+ },
+ {
+  "id": "relic_name_012",
+  "cat": "relic_name",
+  "idx": [
+   12
+  ],
+  "va": "0x800E0164",
+  "len": 15,
+  "en": " Gravity Boots",
+  "refs": [
+   261352
+  ],
+  "code_refs": [],
+  "limit": 120,
+  "en_px": 108,
+  "ko": " 부유의 부츠",
+  "px": 72,
+  "ko_len": 13
+ },
+ {
+  "id": "relic_name_013",
+  "cat": "relic_name",
+  "idx": [
+   13
+  ],
+  "va": "0x800E0140",
+  "len": 11,
+  "en": "Leap Stone",
+  "refs": [
+   261368
+  ],
+  "code_refs": [],
+  "limit": 120,
+  "en_px": 80,
+  "ko": "비상석",
+  "px": 36,
+  "ko_len": 7
+ },
+ {
+  "id": "relic_name_014",
+  "cat": "relic_name",
+  "idx": [
+   14
+  ],
+  "va": "0x800E0114",
+  "len": 13,
+  "en": " Holy Symbol",
+  "refs": [
+   261384
+  ],
+  "code_refs": [],
+  "limit": 120,
+  "en_px": 90,
+  "ko": " 홀리 심벌",
+  "px": 60,
+  "ko_len": 11
+ },
+ {
+  "id": "relic_name_015",
+  "cat": "relic_name",
+  "idx": [
+   15
+  ],
+  "va": "0x800E00E8",
+  "len": 14,
+  "en": "Faerie Scroll",
+  "refs": [
+   261400
+  ],
+  "code_refs": [],
+  "limit": 120,
+  "en_px": 88,
+  "ko": "요정의 서",
+  "px": 54,
+  "ko_len": 10
+ },
+ {
+  "id": "relic_name_016",
+  "cat": "relic_name",
+  "idx": [
+   16
+  ],
+  "va": "0x800E00C0",
+  "len": 15,
+  "en": " Jewel of Open",
+  "refs": [
+   261416
+  ],
+  "code_refs": [],
+  "limit": 120,
+  "en_px": 110,
+  "ko": " 언록 주얼",
+  "px": 60,
+  "ko_len": 11
+ },
+ {
+  "id": "relic_name_017",
+  "cat": "relic_name",
+  "idx": [
+   17
+  ],
+  "va": "0x800E0094",
+  "len": 14,
+  "en": "Merman Statue",
+  "refs": [
+   261432
+  ],
+  "code_refs": [],
+  "limit": 120,
+  "en_px": 110,
+  "ko": "인어의 상",
+  "px": 54,
+  "ko_len": 10
+ },
+ {
+  "id": "relic_name_018",
+  "cat": "relic_name",
+  "idx": [
+   18
+  ],
+  "va": "0x800E0074",
+  "len": 10,
+  "en": " Bat Card",
+  "refs": [
+   261448
+  ],
+  "code_refs": [],
+  "limit": 120,
+  "en_px": 72,
+  "ko": " 박쥐의 정수",
+  "px": 72,
+  "ko_len": 13
+ },
+ {
+  "id": "relic_name_019",
+  "cat": "relic_name",
+  "idx": [
+   19
+  ],
+  "va": "0x800E0048",
+  "len": 11,
+  "en": "Ghost Card",
+  "refs": [
+   261464
+  ],
+  "code_refs": [],
+  "limit": 120,
+  "en_px": 84,
+  "ko": "고스트의 정수",
+  "px": 78,
+  "ko_len": 14
+ },
+ {
+  "id": "relic_name_020",
+  "cat": "relic_name",
+  "idx": [
+   20
+  ],
+  "va": "0x800E0018",
+  "len": 13,
+  "en": " Faerie Card",
+  "refs": [
+   261480
+  ],
+  "code_refs": [],
+  "limit": 120,
+  "en_px": 88,
+  "ko": " 요정의 정수",
+  "px": 72,
+  "ko_len": 13
+ },
+ {
+  "id": "relic_name_021",
+  "cat": "relic_name",
+  "idx": [
+   21
+  ],
+  "va": "0x800DFFEC",
+  "len": 11,
+  "en": "Demon Card",
+  "refs": [
+   261496
+  ],
+  "code_refs": [],
+  "limit": 120,
+  "en_px": 86,
+  "ko": "꼬마 악마의 정수",
+  "px": 96,
+  "ko_len": 17
+ },
+ {
+  "id": "relic_name_022",
+  "cat": "relic_name",
+  "idx": [
+   22
+  ],
+  "va": "0x800DFFC0",
+  "len": 12,
+  "en": " Sword Card",
+  "refs": [
+   261512
+  ],
+  "code_refs": [],
+  "limit": 120,
+  "en_px": 90,
+  "ko": " 검마의 정수",
+  "px": 72,
+  "ko_len": 13
+ },
+ {
+  "id": "relic_name_023",
+  "cat": "relic_name",
+  "idx": [
+   23
+  ],
+  "va": "0x800DFF94",
+  "len": 12,
+  "en": "Sprite Card",
+  "refs": [
+   261528
+  ],
+  "code_refs": [],
+  "limit": 120,
+  "en_px": 84,
+  "ko": "반요정의 정수",
+  "px": 78,
+  "ko_len": 14
+ },
+ {
+  "id": "relic_name_024",
+  "cat": "relic_name",
+  "idx": [
+   24
+  ],
+  "va": "0x800DFF64",
+  "len": 16,
+  "en": " Nosedevil Card",
+  "refs": [
+   261544
+  ],
+  "code_refs": [],
+  "limit": 120,
+  "en_px": 110,
+  "ko": " 코 악마의 정수",
+  "px": 90,
+  "ko_len": 16
+ },
+ {
+  "id": "relic_name_025",
+  "cat": "relic_name",
+  "idx": [
+   25
+  ],
+  "va": "0x800DFF2C",
+  "len": 14,
+  "en": "Heart of Vlad",
+  "refs": [
+   261560
+  ],
+  "code_refs": [],
+  "limit": 120,
+  "en_px": 98,
+  "ko": "심장",
+  "px": 24,
+  "ko_len": 5
+ },
+ {
+  "id": "relic_name_026",
+  "cat": "relic_name",
+  "idx": [
+   26
+  ],
+  "va": "0x800DFEF8",
+  "len": 15,
+  "en": " Tooth of Vlad",
+  "refs": [
+   261576
+  ],
+  "code_refs": [],
+  "limit": 120,
+  "en_px": 110,
+  "ko": " 손톱",
+  "px": 30,
+  "ko_len": 6
+ },
+ {
+  "id": "relic_name_027",
+  "cat": "relic_name",
+  "idx": [
+   27
+  ],
+  "va": "0x800DFECC",
+  "len": 12,
+  "en": "Rib of Vlad",
+  "refs": [
+   261592
+  ],
+  "code_refs": [],
+  "limit": 120,
+  "en_px": 82,
+  "ko": "갈비뼈",
+  "px": 36,
+  "ko_len": 7
+ },
+ {
+  "id": "relic_name_028",
+  "cat": "relic_name",
+  "idx": [
+   28
+  ],
+  "va": "0x800DFE9C",
+  "len": 14,
+  "en": " Ring of Vlad",
+  "refs": [
+   261608
+  ],
+  "code_refs": [],
+  "limit": 120,
+  "en_px": 96,
+  "ko": " 반지",
+  "px": 30,
+  "ko_len": 6
+ },
+ {
+  "id": "relic_name_029",
+  "cat": "relic_name",
+  "idx": [
+   29
+  ],
+  "va": "0x800DFE70",
+  "len": 12,
+  "en": "Eye of Vlad",
+  "refs": [
+   261624
+  ],
+  "code_refs": [],
+  "limit": 120,
+  "en_px": 84,
+  "ko": "눈알",
+  "px": 24,
+  "ko_len": 5
+ },
+ {
+  "id": "relic_name_030",
+  "cat": "relic_name",
+  "idx": [
+   30
+  ],
+  "va": "0x800DFE40",
+  "len": 15,
+  "en": "Godspeed Shoes",
+  "refs": [
+   261640
+  ],
+  "code_refs": [],
+  "limit": 120,
+  "en_px": 116,
+  "ko": "신속의 신발",
+  "px": 66,
+  "ko_len": 12
+ },
+ {
+  "id": "relic_desc_000",
+  "cat": "relic_desc",
+  "idx": [
+   0
+  ],
+  "va": "0x800E031C",
+  "len": 19,
+  "en": "Transform into Bat",
+  "refs": [
+   261164
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 142,
+  "ko": "박쥐로 변신한다",
+  "px": 90,
+  "ko_len": 16
+ },
+ {
+  "id": "relic_desc_001",
+  "cat": "relic_desc",
+  "idx": [
+   1
+  ],
+  "va": "0x800E02F8",
+  "len": 23,
+  "en": "Shoot fireballs as Bat",
+  "refs": [
+   261180
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 160,
+  "ko": "박쥐일 때 화염탄을 쏜다",
+  "px": 138,
+  "ko_len": 24
+ },
+ {
+  "id": "relic_desc_002",
+  "cat": "relic_desc",
+  "idx": [
+   2
+  ],
+  "va": "0x800E02D4",
+  "len": 17,
+  "en": "Use radar as Bat",
+  "refs": [
+   261196
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 120,
+  "ko": "박쥐일 때 음파 탐지를 쓴다",
+  "px": 156,
+  "ko_len": 27
+ },
+ {
+  "id": "relic_desc_003",
+  "cat": "relic_desc",
+  "idx": [
+   3
+  ],
+  "va": "0x800E02AC",
+  "len": 24,
+  "en": "Attack with radar waves",
+  "refs": [
+   261212
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 182,
+  "ko": "음파로 공격한다",
+  "px": 90,
+  "ko_len": 16
+ },
+ {
+  "id": "relic_desc_004",
+  "cat": "relic_desc",
+  "idx": [
+   4
+  ],
+  "va": "0x800E0288",
+  "len": 20,
+  "en": "Transform into Wolf",
+  "refs": [
+   261228
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 148,
+  "ko": "늑대로 변신한다",
+  "px": 90,
+  "ko_len": 16
+ },
+ {
+  "id": "relic_desc_005",
+  "cat": "relic_desc",
+  "idx": [
+   5
+  ],
+  "va": "0x800E0264",
+  "len": 20,
+  "en": "Run swiftly as Wolf",
+  "refs": [
+   261244
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 144,
+  "ko": "늑대일 때 빠르게 달린다",
+  "px": 138,
+  "ko_len": 24
+ },
+ {
+  "id": "relic_desc_006",
+  "cat": "relic_desc",
+  "idx": [
+   6
+  ],
+  "va": "0x800E023C",
+  "len": 21,
+  "en": "Special move as Wolf",
+  "refs": [
+   261260
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 152,
+  "ko": "늑대일 때 필살기를 쓴다",
+  "px": 138,
+  "ko_len": 24
+ },
+ {
+  "id": "relic_desc_007",
+  "cat": "relic_desc",
+  "idx": [
+   7
+  ],
+  "va": "0x800E0218",
+  "len": 20,
+  "en": "Transform into Mist",
+  "refs": [
+   261276
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 148,
+  "ko": "안개로 변신한다",
+  "px": 90,
+  "ko_len": 16
+ },
+ {
+  "id": "relic_desc_008",
+  "cat": "relic_desc",
+  "idx": [
+   8
+  ],
+  "va": "0x800E01EC",
+  "len": 28,
+  "en": "Extends Mist transform time",
+  "refs": [
+   261292
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 210,
+  "ko": "안개 변신 시간이 늘어난다",
+  "px": 150,
+  "ko_len": 26
+ },
+ {
+  "id": "relic_desc_009",
+  "cat": "relic_desc",
+  "idx": [
+   9
+  ],
+  "va": "0x800E01C0",
+  "len": 31,
+  "en": "Transform into poisonous cloud",
+  "refs": [
+   261308
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 226,
+  "ko": "독안개로 변신한다",
+  "px": 102,
+  "ko_len": 18
+ },
+ {
+  "id": "relic_desc_010",
+  "cat": "relic_desc",
+  "idx": [
+   10
+  ],
+  "va": "0x800E0194",
+  "len": 28,
+  "en": "Causes items to materialize",
+  "refs": [
+   261324
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 204,
+  "ko": "아이템을 출현시킨다",
+  "px": 114,
+  "ko_len": 20
+ },
+ {
+  "id": "relic_desc_011",
+  "cat": "relic_desc",
+  "idx": [
+   11
+  ],
+  "va": "0x800E0174",
+  "len": 19,
+  "en": "Shows enemy damage",
+  "refs": [
+   261340
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 154,
+  "ko": "적에게 준 피해를 표시한다",
+  "px": 150,
+  "ko_len": 26
+ },
+ {
+  "id": "relic_desc_012",
+  "cat": "relic_desc",
+  "idx": [
+   12
+  ],
+  "va": "0x800E014C",
+  "len": 21,
+  "en": "Wearer can jump high",
+  "refs": [
+   261356
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 152,
+  "ko": "높이 뛰어오를 수 있다",
+  "px": 126,
+  "ko_len": 22
+ },
+ {
+  "id": "relic_desc_013",
+  "cat": "relic_desc",
+  "idx": [
+   13
+  ],
+  "va": "0x800E0124",
+  "len": 26,
+  "en": "Wearer can do double jump",
+  "refs": [
+   261372
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 190,
+  "ko": "２단 점프를 할 수 있다",
+  "px": 128,
+  "ko_len": 23
+ },
+ {
+  "id": "relic_desc_014",
+  "cat": "relic_desc",
+  "idx": [
+   14
+  ],
+  "va": "0x800E00F8",
+  "len": 28,
+  "en": "Protection while underwater",
+  "refs": [
+   261388
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 202,
+  "ko": "물속에서 몸을 지켜 준다",
+  "px": 138,
+  "ko_len": 24
+ },
+ {
+  "id": "relic_desc_015",
+  "cat": "relic_desc",
+  "idx": [
+   15
+  ],
+  "va": "0x800E00D0",
+  "len": 24,
+  "en": "Displays enemy’s name ",
+  "refs": [
+   261404
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 168,
+  "ko": "적의 이름을 표시한다",
+  "px": 120,
+  "ko_len": 21
+ },
+ {
+  "id": "relic_desc_016",
+  "cat": "relic_desc",
+  "idx": [
+   16
+  ],
+  "va": "0x800E00A4",
+  "len": 27,
+  "en": "Can open locked blue doors",
+  "refs": [
+   261420
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 194,
+  "ko": "잠긴 파란 문을 열 수 있다",
+  "px": 150,
+  "ko_len": 26
+ },
+ {
+  "id": "relic_desc_017",
+  "cat": "relic_desc",
+  "idx": [
+   17
+  ],
+  "va": "0x800E0080",
+  "len": 20,
+  "en": "Summons the oarsman",
+  "refs": [
+   261436
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 160,
+  "ko": "뱃사공을 부른다",
+  "px": 90,
+  "ko_len": 16
+ },
+ {
+  "id": "relic_desc_018",
+  "cat": "relic_desc",
+  "idx": [
+   18
+  ],
+  "va": "0x800E0054",
+  "len": 29,
+  "en": "Summons ””Bat”” familiar",
+  "refs": [
+   261452
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 170,
+  "ko": "사역마 「박쥐」를 소환",
+  "px": 120,
+  "ko_len": 23
+ },
+ {
+  "id": "relic_desc_019",
+  "cat": "relic_desc",
+  "idx": [
+   19
+  ],
+  "va": "0x800E0028",
+  "len": 31,
+  "en": "Summons ””Ghost”” familiar",
+  "refs": [
+   261468
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 188,
+  "ko": "사역마 「고스트」를 소환",
+  "px": 132,
+  "ko_len": 25
+ },
+ {
+  "id": "relic_desc_020",
+  "cat": "relic_desc",
+  "idx": [
+   20
+  ],
+  "va": "0x800DFFF8",
+  "len": 32,
+  "en": "Summons ””Faerie”” familiar",
+  "refs": [
+   261484
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 186,
+  "ko": "사역마 「요정」을 소환",
+  "px": 120,
+  "ko_len": 23
+ },
+ {
+  "id": "relic_desc_021",
+  "cat": "relic_desc",
+  "idx": [
+   21
+  ],
+  "va": "0x800DFFCC",
+  "len": 31,
+  "en": "Summons ””Devil”” familiar",
+  "refs": [
+   261500
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 178,
+  "ko": "사역마 「꼬마 악마」를 소환",
+  "px": 150,
+  "ko_len": 28
+ },
+ {
+  "id": "relic_desc_022",
+  "cat": "relic_desc",
+  "idx": [
+   22
+  ],
+  "va": "0x800DFFA0",
+  "len": 31,
+  "en": "Summons ””Sword”” familiar",
+  "refs": [
+   261516
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 188,
+  "ko": "사역마 「검마」를 소환",
+  "px": 120,
+  "ko_len": 23
+ },
+ {
+  "id": "relic_desc_023",
+  "cat": "relic_desc",
+  "idx": [
+   23
+  ],
+  "va": "0x800DFF74",
+  "len": 31,
+  "en": "Summons ””Pixie”” familiar",
+  "refs": [
+   261532
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 176,
+  "ko": "사역마 「반요정」을 소환",
+  "px": 132,
+  "ko_len": 25
+ },
+ {
+  "id": "relic_desc_024",
+  "cat": "relic_desc",
+  "idx": [
+   24
+  ],
+  "va": "0x800DFF3C",
+  "len": 37,
+  "en": "Summons ””Nose－devil”” familiar",
+  "refs": [
+   261548
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 220,
+  "ko": "사역마 「코 악마」를 소환",
+  "px": 138,
+  "ko_len": 26
+ },
+ {
+  "id": "relic_desc_025",
+  "cat": "relic_desc",
+  "idx": [
+   25
+  ],
+  "va": "0x800DFF08",
+  "len": 35,
+  "en": "１ of ５ Treasures． Avoid Curse．",
+  "refs": [
+   261564
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 222,
+  "ko": "５대 보물 중 하나． 저주를 막는다．",
+  "px": 190,
+  "ko_len": 36
+ },
+ {
+  "id": "relic_desc_026",
+  "cat": "relic_desc",
+  "idx": [
+   26
+  ],
+  "va": "0x800DFED8",
+  "len": 32,
+  "en": "１ of ５ Treasures． STR ＋１０",
+  "refs": [
+   261580
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 194,
+  "ko": "５대 보물 중 하나． 힘 ＋１０",
+  "px": 152,
+  "ko_len": 30
+ },
+ {
+  "id": "relic_desc_027",
+  "cat": "relic_desc",
+  "idx": [
+   27
+  ],
+  "va": "0x800DFEAC",
+  "len": 32,
+  "en": "１ of ５ Treasures． CON ＋１０",
+  "refs": [
+   261596
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 194,
+  "ko": "５대 보물 중 하나． 체력 ＋１０",
+  "px": 164,
+  "ko_len": 32
+ },
+ {
+  "id": "relic_desc_028",
+  "cat": "relic_desc",
+  "idx": [
+   28
+  ],
+  "va": "0x800DFE7C",
+  "len": 32,
+  "en": "１ of ５ Treasures． INT ＋１０",
+  "refs": [
+   261612
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 186,
+  "ko": "５대 보물 중 하나． 지능 ＋１０",
+  "px": 164,
+  "ko_len": 32
+ },
+ {
+  "id": "relic_desc_029",
+  "cat": "relic_desc",
+  "idx": [
+   29
+  ],
+  "va": "0x800DFE50",
+  "len": 32,
+  "en": "１ of ５ Treasures． LCK ＋１０",
+  "refs": [
+   261628
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 190,
+  "ko": "５대 보물 중 하나． 행운 ＋１０",
+  "px": 164,
+  "ko_len": 32
+ },
+ {
+  "id": "relic_desc_030",
+  "cat": "relic_desc",
+  "idx": [
+   30
+  ],
+  "va": "0x800DFE28",
+  "len": 23,
+  "en": "Dash with a double tap",
+  "refs": [
+   261644
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 166,
+  "ko": "두 번 눌러 대시한다",
+  "px": 114,
+  "ko_len": 20
+ },
+ {
+  "id": "spell_name_000",
+  "cat": "spell_name",
+  "idx": [
+   0
+  ],
+  "va": "0x800DFC14",
+  "len": 19,
+  "en": "Dark Metamorphosis",
+  "refs": [
+   259968
+  ],
+  "code_refs": [],
+  "limit": 144,
+  "en_px": 144,
+  "ko": "다크 메타모포시스",
+  "px": 102,
+  "ko_len": 18
+ },
+ {
+  "id": "spell_name_001",
+  "cat": "spell_name",
+  "idx": [
+   1
+  ],
+  "va": "0x800DFBE0",
+  "len": 14,
+  "en": "Summon Spirit",
+  "refs": [
+   259996
+  ],
+  "code_refs": [],
+  "limit": 144,
+  "en_px": 104,
+  "ko": "서먼 스피릿",
+  "px": 66,
+  "ko_len": 12
+ },
+ {
+  "id": "spell_name_002",
+  "cat": "spell_name",
+  "idx": [
+   2
+  ],
+  "va": "0x800DFBB4",
+  "len": 9,
+  "en": "Hellfire",
+  "refs": [
+   260024
+  ],
+  "code_refs": [],
+  "limit": 144,
+  "en_px": 50,
+  "ko": "헬파이어",
+  "px": 48,
+  "ko_len": 9
+ },
+ {
+  "id": "spell_name_003",
+  "cat": "spell_name",
+  "idx": [
+   3
+  ],
+  "va": "0x800DFB7C",
+  "len": 13,
+  "en": "Tetra Spirit",
+  "refs": [
+   260052
+  ],
+  "code_refs": [],
+  "limit": 144,
+  "en_px": 88,
+  "ko": "테트라 스피릿",
+  "px": 78,
+  "ko_len": 14
+ },
+ {
+  "id": "spell_name_004",
+  "cat": "spell_name",
+  "idx": [
+   4
+  ],
+  "va": "0x800DFB4C",
+  "len": 12,
+  "en": "Wolf Charge",
+  "refs": [
+   260080
+  ],
+  "code_refs": [],
+  "limit": 144,
+  "en_px": 88,
+  "ko": "울프 차지",
+  "px": 54,
+  "ko_len": 10
+ },
+ {
+  "id": "spell_name_005",
+  "cat": "spell_name",
+  "idx": [
+   5
+  ],
+  "va": "0x800DFB20",
+  "len": 11,
+  "en": "Soul Steal",
+  "refs": [
+   260108
+  ],
+  "code_refs": [],
+  "limit": 144,
+  "en_px": 74,
+  "ko": "소울 스틸",
+  "px": 54,
+  "ko_len": 10
+ },
+ {
+  "id": "spell_name_006",
+  "cat": "spell_name",
+  "idx": [
+   6
+  ],
+  "va": "0x800DFAE8",
+  "len": 11,
+  "en": "Wing Smash",
+  "refs": [
+   260136
+  ],
+  "code_refs": [],
+  "limit": 144,
+  "en_px": 84,
+  "ko": "윙 스매시",
+  "px": 54,
+  "ko_len": 10
+ },
+ {
+  "id": "spell_name_007",
+  "cat": "spell_name",
+  "idx": [
+   7
+  ],
+  "va": "0x800DFAB4",
+  "len": 15,
+  "en": "Sword Brothers",
+  "refs": [
+   260164
+  ],
+  "code_refs": [],
+  "limit": 144,
+  "en_px": 112,
+  "ko": "소드 브라더스",
+  "px": 78,
+  "ko_len": 14
+ },
+ {
+  "id": "spell_desc_000",
+  "cat": "spell_desc",
+  "idx": [
+   0
+  ],
+  "va": "0x800DFBF0",
+  "len": 26,
+  "en": "Heal HP by shedding blood",
+  "refs": [
+   259976
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 180,
+  "ko": "피를 흘려 HP를 회복",
+  "px": 118,
+  "ko_len": 25
+ },
+ {
+  "id": "spell_desc_001",
+  "cat": "spell_desc",
+  "idx": [
+   1
+  ],
+  "va": "0x800DFBC0",
+  "len": 24,
+  "en": "Summons a fierce spirit",
+  "refs": [
+   260004
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 172,
+  "ko": "사나운 영혼을 소환",
+  "px": 108,
+  "ko_len": 21
+ },
+ {
+  "id": "spell_desc_002",
+  "cat": "spell_desc",
+  "idx": [
+   2
+  ],
+  "va": "0x800DFB8C",
+  "len": 30,
+  "en": "Transport and fireball attack",
+  "refs": [
+   260032
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 212,
+  "ko": "순간 이동과 화염탄 공격",
+  "px": 138,
+  "ko_len": 27
+ },
+ {
+  "id": "spell_desc_003",
+  "cat": "spell_desc",
+  "idx": [
+   3
+  ],
+  "va": "0x800DFB58",
+  "len": 21,
+  "en": "Summons four spirits",
+  "refs": [
+   260060
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 154,
+  "ko": "네 영혼을 소환",
+  "px": 84,
+  "ko_len": 17
+ },
+ {
+  "id": "spell_desc_004",
+  "cat": "spell_desc",
+  "idx": [
+   4
+  ],
+  "va": "0x800DFB2C",
+  "len": 24,
+  "en": "Powerful attack by Wolf",
+  "refs": [
+   260088
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 176,
+  "ko": "늑대의 강력한 공격",
+  "px": 108,
+  "ko_len": 21
+ },
+ {
+  "id": "spell_desc_005",
+  "cat": "spell_desc",
+  "idx": [
+   5
+  ],
+  "va": "0x800DFAF4",
+  "len": 30,
+  "en": "Steals HP from nearby enemies",
+  "refs": [
+   260116
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 222,
+  "ko": "주변 적의 HP를 빼앗는다",
+  "px": 142,
+  "ko_len": 29
+ },
+ {
+  "id": "spell_desc_006",
+  "cat": "spell_desc",
+  "idx": [
+   6
+  ],
+  "va": "0x800DFAC4",
+  "len": 23,
+  "en": "Powerful attack by Bat",
+  "refs": [
+   260144
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 170,
+  "ko": "박쥐의 강력한 공격",
+  "px": 108,
+  "ko_len": 21
+ },
+ {
+  "id": "spell_desc_007",
+  "cat": "spell_desc",
+  "idx": [
+   7
+  ],
+  "va": "0x800DFA90",
+  "len": 23,
+  "en": "Summons Sword Brothers",
+  "refs": [
+   260172
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 184,
+  "ko": "소드 브라더스를 소환",
+  "px": 120,
+  "ko_len": 23
+ },
+ {
+  "id": "sys_help_000",
+  "cat": "sys_help",
+  "idx": [
+   0
+  ],
+  "va": "0x800DC03C",
+  "len": 11,
+  "en": "？？？？？",
+  "refs": [
+   11012
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 40,
+  "ko": "？？？？？",
+  "px": 40,
+  "ko_len": 11
+ },
+ {
+  "id": "sys_help_001",
+  "cat": "sys_help",
+  "idx": [
+   1
+  ],
+  "va": "0x800DC02C",
+  "len": 15,
+  "en": "Button set－up",
+  "refs": [
+   11016
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 108,
+  "ko": "버튼 설정",
+  "px": 54,
+  "ko_len": 10
+ },
+ {
+  "id": "sys_help_002",
+  "cat": "sys_help",
+  "idx": [
+   2
+  ],
+  "va": "0x800DC004",
+  "len": 39,
+  "en": "Select front／back of reversible cloak",
+  "refs": [
+   11020
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 272,
+  "ko": "리버시블 망토의 앞뒤 선택",
+  "px": 150,
+  "ko_len": 26
+ },
+ {
+  "id": "sys_help_003",
+  "cat": "sys_help",
+  "idx": [
+   3
+  ],
+  "va": "0x800DBFEC",
+  "len": 22,
+  "en": "Custom cloak settings",
+  "refs": [
+   11024
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 164,
+  "ko": "맞춤 망토 색 설정",
+  "px": 102,
+  "ko_len": 18
+ },
+ {
+  "id": "sys_help_004",
+  "cat": "sys_help",
+  "idx": [
+   4
+  ],
+  "va": "0x800DBFD4",
+  "len": 22,
+  "en": "Window color settings",
+  "refs": [
+   11028
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 158,
+  "ko": "창 색상 설정",
+  "px": 72,
+  "ko_len": 13
+ },
+ {
+  "id": "sys_help_005",
+  "cat": "sys_help",
+  "idx": [
+   5
+  ],
+  "va": "0x800DBFC4",
+  "len": 15,
+  "en": "Sound settings",
+  "refs": [
+   11032
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 108,
+  "ko": "사운드 설정",
+  "px": 66,
+  "ko_len": 12
+ },
+ {
+  "id": "sys_help_006",
+  "cat": "sys_help",
+  "idx": [
+   6
+  ],
+  "va": "0x800DBFAC",
+  "len": 21,
+  "en": "Time from game start",
+  "refs": [
+   11036
+  ],
+  "code_refs": [],
+  "limit": 288,
+  "en_px": 162,
+  "ko": "게임 시작부터 경과 시간",
+  "px": 138,
+  "ko_len": 24
+ },
+ {
+  "id": "button_000",
+  "cat": "button",
+  "idx": [
+   0
+  ],
+  "va": "0x800DC11C",
+  "len": 37,
+  "en": "Assign the function to each button．",
+  "refs": [],
+  "code_refs": [
+   [
+    370040,
+    370044
+   ]
+  ],
+  "limit": 288,
+  "en_px": 262,
+  "ko": "모든 버튼 기능 할당",
+  "px": 114,
+  "ko_len": 20
+ },
+ {
+  "id": "save_msg_000",
+  "cat": "save_msg",
+  "idx": [
+   0
+  ],
+  "va": "0x800DC694",
+  "len": 13,
+  "en": "Data saved．",
+  "refs": [],
+  "code_refs": [
+   [
+    400192,
+    400196
+   ]
+  ],
+  "limit": 126,
+  "en_px": 84,
+  "ko": "저장했습니다．",
+  "px": 76,
+  "ko_len": 15
+ },
+ {
+  "id": "save_msg_001",
+  "cat": "save_msg",
+  "idx": [
+   1
+  ],
+  "va": "0x800DC6A4",
+  "len": 12,
+  "en": "Memory Card",
+  "refs": [],
+  "code_refs": [
+   [
+    400248,
+    400252
+   ],
+   [
+    400320,
+    400324
+   ]
+  ],
+  "limit": 126,
+  "en_px": 94,
+  "ko": "메모리 카드가",
+  "px": 78,
+  "ko_len": 14
+ },
+ {
+  "id": "save_msg_002",
+  "cat": "save_msg",
+  "idx": [
+   2
+  ],
+  "va": "0x800DC6B0",
+  "len": 14,
+  "en": "  not found．",
+  "refs": [],
+  "code_refs": [
+   [
+    400264,
+    400268
+   ]
+  ],
+  "limit": 126,
+  "en_px": 86,
+  "ko": "    없습니다．",
+  "px": 76,
+  "ko_len": 15
+ },
+ {
+  "id": "save_msg_003",
+  "cat": "save_msg",
+  "idx": [
+   3
+  ],
+  "va": "0x800DC6C0",
+  "len": 15,
+  "en": "is Defective．",
+  "refs": [],
+  "code_refs": [
+   [
+    400340,
+    400344
+   ]
+  ],
+  "limit": 126,
+  "en_px": 92,
+  "ko": "손상되었습니다．",
+  "px": 88,
+  "ko_len": 17
+ },
+ {
+  "id": "save_msg_004",
+  "cat": "save_msg",
+  "idx": [
+   4
+  ],
+  "va": "0x800DC6D0",
+  "len": 15,
+  "en": "Memory Card is",
+  "refs": [],
+  "code_refs": [
+   [
+    400396,
+    400400
+   ]
+  ],
+  "limit": 126,
+  "en_px": 112,
+  "ko": "메모리 카드가",
+  "px": 78,
+  "ko_len": 14
+ },
+ {
+  "id": "save_msg_005",
+  "cat": "save_msg",
+  "idx": [
+   5
+  ],
+  "va": "0x800DC6E0",
+  "len": 16,
+  "en": "not formatted．",
+  "refs": [],
+  "code_refs": [
+   [
+    400412,
+    400416
+   ]
+  ],
+  "limit": 126,
+  "en_px": 108,
+  "ko": "포맷되지 않았습니다．",
+  "px": 118,
+  "ko_len": 22
+ },
+ {
+  "id": "save_msg_006",
+  "cat": "save_msg",
+  "idx": [
+   6
+  ],
+  "va": "0x800DC6F0",
+  "len": 7,
+  "en": "Cannot",
+  "refs": [],
+  "code_refs": [
+   [
+    400488,
+    400492
+   ]
+  ],
+  "limit": 126,
+  "en_px": 52,
+  "ko": "파일을",
+  "px": 36,
+  "ko_len": 7
+ },
+ {
+  "id": "save_msg_007",
+  "cat": "save_msg",
+  "idx": [
+   7
+  ],
+  "va": "0x800DC6F8",
+  "len": 17,
+  "en": "overwrite file．",
+  "refs": [],
+  "code_refs": [
+   [
+    400508,
+    400512
+   ]
+  ],
+  "limit": 126,
+  "en_px": 102,
+  "ko": "덮어쓸 수 없습니다．",
+  "px": 112,
+  "ko_len": 21
+ },
+ {
+  "id": "save_msg_008",
+  "cat": "save_msg",
+  "idx": [
+   8
+  ],
+  "va": "0x800DC70C",
+  "len": 8,
+  "en": "No game",
+  "refs": [],
+  "code_refs": [
+   [
+    400532,
+    400536
+   ]
+  ],
+  "limit": 126,
+  "en_px": 58,
+  "ko": "게임 데이터가",
+  "px": 78,
+  "ko_len": 14
+ },
+ {
+  "id": "save_msg_009",
+  "cat": "save_msg",
+  "idx": [
+   9
+  ],
+  "va": "0x800DC714",
+  "len": 13,
+  "en": "data found．",
+  "refs": [],
+  "code_refs": [
+   [
+    400548,
+    400552
+   ]
+  ],
+  "limit": 126,
+  "en_px": 82,
+  "ko": "없습니다．",
+  "px": 52,
+  "ko_len": 11
+ },
+ {
+  "id": "save_msg_010",
+  "cat": "save_msg",
+  "idx": [
+   10
+  ],
+  "va": "0x800DC724",
+  "len": 13,
+  "en": "   ０ memory",
+  "refs": [],
+  "code_refs": [
+   [
+    400564,
+    400568
+   ]
+  ],
+  "limit": 126,
+  "en_px": 86,
+  "ko": "    빈 블록이",
+  "px": 78,
+  "ko_len": 14
+ },
+ {
+  "id": "save_msg_011",
+  "cat": "save_msg",
+  "idx": [
+   11
+  ],
+  "va": "0x800DC734",
+  "len": 19,
+  "en": "blocks available．",
+  "refs": [],
+  "code_refs": [
+   [
+    400580,
+    400584
+   ]
+  ],
+  "limit": 126,
+  "en_px": 114,
+  "ko": "남아 있지 않습니다．",
+  "px": 112,
+  "ko_len": 21
+ },
+ {
+  "id": "save_msg_012",
+  "cat": "save_msg",
+  "idx": [
+   12
+  ],
+  "va": "0x800DC748",
+  "len": 14,
+  "en": "  Memory card",
+  "refs": [],
+  "code_refs": [
+   [
+    400636,
+    400640
+   ]
+  ],
+  "limit": 126,
+  "en_px": 102,
+  "ko": "    메모리 카드",
+  "px": 90,
+  "ko_len": 16
+ },
+ {
+  "id": "save_msg_013",
+  "cat": "save_msg",
+  "idx": [
+   13
+  ],
+  "va": "0x800DC758",
+  "len": 17,
+  "en": "  format error．",
+  "refs": [],
+  "code_refs": [
+   [
+    400656,
+    400660
+   ]
+  ],
+  "limit": 126,
+  "en_px": 106,
+  "ko": "     포맷 오류．",
+  "px": 88,
+  "ko_len": 17
+ },
+ {
+  "id": "save_msg_014",
+  "cat": "save_msg",
+  "idx": [
+   14
+  ],
+  "va": "0x800DC76C",
+  "len": 20,
+  "en": "  Select the slot．",
+  "refs": [],
+  "code_refs": [
+   [
+    401308,
+    401312
+   ]
+  ],
+  "limit": 126,
+  "en_px": 126,
+  "ko": " 슬롯을 선택하십시오．",
+  "px": 124,
+  "ko_len": 23
+ },
+ {
+  "id": "save_msg_015",
+  "cat": "save_msg",
+  "idx": [
+   15
+  ],
+  "va": "0x800DC780",
+  "len": 9,
+  "en": " Slot １",
+  "refs": [],
+  "code_refs": [
+   [
+    401340,
+    401344
+   ]
+  ],
+  "limit": 126,
+  "en_px": 48,
+  "ko": "  슬롯 １",
+  "px": 48,
+  "ko_len": 10
+ },
+ {
+  "id": "save_msg_016",
+  "cat": "save_msg",
+  "idx": [
+   16
+  ],
+  "va": "0x800DC78C",
+  "len": 9,
+  "en": " Slot ２",
+  "refs": [],
+  "code_refs": [
+   [
+    401360,
+    401364
+   ]
+  ],
+  "limit": 126,
+  "en_px": 50,
+  "ko": "  슬롯 ２",
+  "px": 50,
+  "ko_len": 10
+ },
+ {
+  "id": "save_msg_017",
+  "cat": "save_msg",
+  "idx": [
+   17
+  ],
+  "va": "0x800DC798",
+  "len": 18,
+  "en": " Wish to format？",
+  "refs": [],
+  "code_refs": [
+   [
+    402204,
+    402208
+   ]
+  ],
+  "limit": 126,
+  "en_px": 124,
+  "ko": "  포맷하시겠습니까？",
+  "px": 116,
+  "ko_len": 21
+ },
+ {
+  "id": "save_msg_018",
+  "cat": "save_msg",
+  "idx": [
+   18
+  ],
+  "va": "0x800DC7AC",
+  "len": 18,
+  "en": " Overwrite data？",
+  "refs": [],
+  "code_refs": [
+   [
+    402244,
+    402248
+   ]
+  ],
+  "limit": 126,
+  "en_px": 124,
+  "ko": "  기록을 덮어쓸까요？",
+  "px": 122,
+  "ko_len": 22
+ },
+ {
+  "id": "save_msg_019",
+  "cat": "save_msg",
+  "idx": [
+   19
+  ],
+  "va": "0x800DC7C0",
+  "len": 18,
+  "en": "   Wish to save？",
+  "refs": [],
+  "code_refs": [
+   [
+    402284,
+    402288
+   ]
+  ],
+  "limit": 126,
+  "en_px": 118,
+  "ko": "   저장할까요？",
+  "px": 86,
+  "ko_len": 16
+ },
+ {
+  "id": "save_msg_020",
+  "cat": "save_msg",
+  "idx": [
+   20
+  ],
+  "va": "0x800DC7D4",
+  "len": 5,
+  "en": "Yes ",
+  "refs": [],
+  "code_refs": [
+   [
+    402308,
+    402312
+   ]
+  ],
+  "limit": 126,
+  "en_px": 30,
+  "ko": "예",
+  "px": 12,
+  "ko_len": 3
+ },
+ {
+  "id": "save_msg_021",
+  "cat": "save_msg",
+  "idx": [
+   21
+  ],
+  "va": "0x800DC7DC",
+  "len": 7,
+  "en": "  No  ",
+  "refs": [],
+  "code_refs": [
+   [
+    402328,
+    402332
+   ]
+  ],
+  "limit": 126,
+  "en_px": 40,
+  "ko": "아니오",
+  "px": 36,
+  "ko_len": 7
+ }
+]

@@ -1,0 +1,35 @@
+# Whitelist: only our own tools, translation sheets and docs are tracked.
+# Never commit game images, extracted game files or other patches' data.
+/*
+!/.gitignore
+!/README.md
+!/진행상황.md
+!/가능성조사.md
+!/오프닝자막.txt
+!/테스트실행.bat
+!/tools/
+!/work/
+/work/*
+!/work/trans/
+!/work/kmap.json
+!/work/fontext.json
+!/work/dra_text_report.md
+!/work/gfx_report.md
+!/work/pspk/
+/work/pspk/*
+!/work/pspk/*.py
+__pycache__/
+*.pyc
+*.bin
+*.iso
+*.chd
+*.cue
+*.state*
+*.xdelta
+!/release/
+!/release/**
+
+# third-party translation (PSP Korean V1.3) stays local
+/work/trans/*.jp.json
+!/스크린샷/
+!/스크린샷/**

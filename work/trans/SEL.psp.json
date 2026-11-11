@@ -1,0 +1,815 @@
+{
+"file": "ST/SEL/SEL.BIN",
+"script": "psp",
+"alt_start": 198160,
+"items": [
+{
+"off": 198202,
+"en": "Mankind knows little",
+"cap": 20,
+"ko": "인간은 전쟁과",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 198225,
+"en": "but war and",
+"cap": 11,
+"ko": "절망밖에",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 198239,
+"en": "desperation. ",
+"cap": 13,
+"ko": "모른다. ",
+"gap": "03",
+"newline_after": false
+},
+{
+"off": 198253,
+"en": "8What",
+"cap": 5,
+"ko": "벨몬드가",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 198261,
+"en": "other way of life",
+"cap": 17,
+"ko": "달리 어떤 삶을",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 198281,
+"en": "did Belmont know?",
+"cap": 17,
+"ko": "알았겠는가?",
+"gap": "0103",
+"newline_after": true
+},
+{
+"off": 198300,
+"en": "8He and Father chose",
+"cap": 20,
+"ko": "그와 아버지는",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 198323,
+"en": "the same path...",
+"cap": 16,
+"ko": "같은 길을 택했다...",
+"gap": "0103",
+"newline_after": true
+},
+{
+"off": 198341,
+"en": "8Farewell, homeland. I",
+"cap": 22,
+"ko": "잘 있거라, 고향이여.",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 198366,
+"en": "shall never see your",
+"cap": 20,
+"ko": "너의 아름다움을",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 198389,
+"en": "beauty again.",
+"cap": 13,
+"ko": "다시는 보지 못하리라.",
+"gap": "03380b030a06080b14333c0a1101001000073c1c138ff99aa8010500010b09422e0a0202",
+"newline_after": true
+},
+{
+"off": 198438,
+"en": "So you made it.",
+"cap": 15,
+"ko": "무사했군.",
+"gap": "0338061390077228000501000b09422f0a0204",
+"newline_after": true
+},
+{
+"off": 198472,
+"en": "Alucard!",
+"cap": 8,
+"ko": "알카드!",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 198483,
+"en": "Where's Richter?",
+"cap": 16,
+"ko": "리히터는요?",
+"gap": "0368060500010b0943300a0203",
+"newline_after": true
+},
+{
+"off": 198512,
+"en": "I'm sorry...",
+"cap": 12,
+"ko": "미안하다...",
+"gap": "0338060501000b0943310a0203",
+"newline_after": true
+},
+{
+"off": 198537,
+"en": "...Thank you. For",
+"cap": 17,
+"ko": "...고마워요. 그를",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 198557,
+"en": "stopping him. This...",
+"cap": 21,
+"ko": "막아 줘서. 이것도...",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 198581,
+"en": "must have been his",
+"cap": 18,
+"ko": "어쩌면 그의",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 198602,
+"en": "fate, somehow.",
+"cap": 14,
+"ko": "운명이었겠죠.",
+"gap": "037f0605000102042e2e2e2e2e2e2e2e2e010b0943320a0202",
+"newline_after": true
+},
+{
+"off": 198641,
+"en": "Are your travels",
+"cap": 16,
+"ko": "그럼 네 여행도",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 198660,
+"en": "over, then?",
+"cap": 11,
+"ko": "끝난 건가?",
+"gap": "0358060501000b0943330a0203",
+"newline_after": true
+},
+{
+"off": 198684,
+"en": "No. Not until I learn",
+"cap": 21,
+"ko": "아뇨. 무엇이 그를",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 198708,
+"en": "what brought him",
+"cap": 16,
+"ko": "이곳으로 이끌었는지,",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 198727,
+"en": "here, what made",
+"cap": 15,
+"ko": "무엇이 그를 그렇게",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 198745,
+"en": "him...",
+"cap": 6,
+"ko": "만들었는지 알 때까진...",
+"gap": "037806138ff99aa8010500010b0943340a0202",
+"newline_after": true
+},
+{
+"off": 198770,
+"en": "I understand.",
+"cap": 13,
+"ko": "알겠다.",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 198786,
+"en": "...Heaven guide you,",
+"cap": 20,
+"ko": "...신의 가호가 있기를,",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 198809,
+"en": "Maria. Farewell.",
+"cap": 16,
+"ko": "마리아. 잘 가라.",
+"gap": "03780b030a061390077228000501000b0943350a0203",
+"newline_after": true
+},
+{
+"off": 198847,
+"en": "Goodbye, Alucard.",
+"cap": 17,
+"ko": "잘 가요, 알카드.",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 198867,
+"en": "Heaven guide you too.",
+"cap": 21,
+"ko": "당신에게도 신의 가호를.",
+"gap": "037806080b14333c0a11031101001000073c1c138ff99aa8010500010b09",
+"newline_after": true
+},
+{
+"off": 198918,
+"en": "DI",
+"cap": 2,
+"ko": "",
+"gap": "0a0202",
+"newline_after": true
+},
+{
+"off": 198923,
+"en": "So you made it.",
+"cap": 15,
+"ko": "무사했군.",
+"gap": "0338061390077228000501000b09",
+"newline_after": true
+},
+{
+"off": 198952,
+"en": "DJ",
+"cap": 2,
+"ko": "",
+"gap": "0a0202",
+"newline_after": true
+},
+{
+"off": 198957,
+"en": "Alucard! You're all",
+"cap": 19,
+"ko": "알카드!",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 198979,
+"en": "right!",
+"cap": 6,
+"ko": "무사했군요!",
+"gap": "0368061391144aa8000502000b09",
+"newline_after": true
+},
+{
+"off": 198999,
+"en": "DO",
+"cap": 2,
+"ko": "",
+"gap": "0a0202",
+"newline_after": true
+},
+{
+"off": 199004,
+"en": "So you had to fight",
+"cap": 19,
+"ko": "결국 친아버지와",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 199026,
+"en": "your own father?",
+"cap": 16,
+"ko": "싸워야 했나?",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 199045,
+"en": "It's my fault. If I",
+"cap": 19,
+"ko": "내 탓이다. 내가",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 199067,
+"en": "hadn't been so weak,",
+"cap": 20,
+"ko": "나약하지만 않았어도",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 199090,
+"en": "we wouldn't be here.",
+"cap": 20,
+"ko": "이렇게 되진 않았을 텐데.",
+"gap": "0378060500010b09",
+"newline_after": true
+},
+{
+"off": 199118,
+"en": "EP",
+"cap": 2,
+"ko": "",
+"gap": "0a0202",
+"newline_after": true
+},
+{
+"off": 199123,
+"en": "Not so. I had my own",
+"cap": 20,
+"ko": "그렇지 않다. 내게도",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 199146,
+"en": "reasons to face him.",
+"cap": 20,
+"ko": "그와 맞설 이유가 있었다.",
+"gap": "0378060502000b09",
+"newline_after": true
+},
+{
+"off": 199174,
+"en": "EQ",
+"cap": 2,
+"ko": "",
+"gap": "0a0202",
+"newline_after": true
+},
+{
+"off": 199179,
+"en": "Still... It couldn't",
+"cap": 20,
+"ko": "그래도... 쉽지는",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 199202,
+"en": "have been easy.",
+"cap": 15,
+"ko": "않았겠지.",
+"gap": "0358060500010b09",
+"newline_after": true
+},
+{
+"off": 199225,
+"en": "ER",
+"cap": 2,
+"ko": "",
+"gap": "0a0203",
+"newline_after": true
+},
+{
+"off": 199230,
+"en": "It wasn't... But",
+"cap": 16,
+"ko": "쉽지 않았지... 하지만",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 199249,
+"en": "remember \"The only",
+"cap": 18,
+"ko": "기억해 둬라. \"악이",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 199270,
+"en": "thing necessary for",
+"cap": 19,
+"ko": "승리하는 데 필요한",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 199292,
+"en": "evil to triumph...\"",
+"cap": 19,
+"ko": "단 하나는...\"",
+"gap": "0378060502000b09",
+"newline_after": true
+},
+{
+"off": 199319,
+"en": "ES",
+"cap": 2,
+"ko": "",
+"gap": "0a0202",
+"newline_after": true
+},
+{
+"off": 199324,
+"en": "...is for good men",
+"cap": 18,
+"ko": "...선한 자들이",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 199345,
+"en": "to do nothing.",
+"cap": 14,
+"ko": "아무것도 하지 않는 것.",
+"gap": "0368061390077228000501000b09",
+"newline_after": true
+},
+{
+"off": 199373,
+"en": "ET",
+"cap": 2,
+"ko": "",
+"gap": "0a0203",
+"newline_after": true
+},
+{
+"off": 199378,
+"en": "So, what now,",
+"cap": 13,
+"ko": "이제 어쩔 거예요,",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 199394,
+"en": "Alucard?",
+"cap": 8,
+"ko": "알카드?",
+"gap": "0358060500010b09",
+"newline_after": true
+},
+{
+"off": 199410,
+"en": "EU",
+"cap": 2,
+"ko": "",
+"gap": "0a0202",
+"newline_after": true
+},
+{
+"off": 199415,
+"en": "The blood in my veins",
+"cap": 21,
+"ko": "내 핏줄에 흐르는 피는",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 199439,
+"en": "is cursed. It's",
+"cap": 15,
+"ko": "저주받았다.",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 199457,
+"en": "best for the world",
+"cap": 18,
+"ko": "이 세상을 위해서는",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 199478,
+"en": "if I disappear, now",
+"cap": 19,
+"ko": "내가 사라지는 게 낫다.",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 199500,
+"en": "and forever.",
+"cap": 12,
+"ko": "지금, 그리고 영원히.",
+"gap": "03780b030a0605010002042e2e2e2e2e2e2e2e2e010b09",
+"newline_after": true
+},
+{
+"off": 199535,
+"en": "EV",
+"cap": 2,
+"ko": "",
+"gap": "0a0204",
+"newline_after": true
+},
+{
+"off": 199540,
+"en": "...I see...",
+"cap": 11,
+"ko": "...그렇군요...",
+"gap": "0338060500010b09",
+"newline_after": true
+},
+{
+"off": 199559,
+"en": "EW",
+"cap": 2,
+"ko": "",
+"gap": "0a0203",
+"newline_after": true
+},
+{
+"off": 199564,
+"en": "Farewell, then.",
+"cap": 15,
+"ko": "그럼, 잘 있어라.",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 199582,
+"en": "We'll not meet again.",
+"cap": 21,
+"ko": "다시 만날 일은 없을 거다.",
+"gap": "037811030605010002042e2e2e11042e2e2e2e2e2e010b09",
+"newline_after": true
+},
+{
+"off": 199627,
+"en": "EX",
+"cap": 2,
+"ko": "",
+"gap": "0a0203",
+"newline_after": true
+},
+{
+"off": 199632,
+"en": "Alucard...",
+"cap": 10,
+"ko": "알카드...",
+"gap": "0338061391144aa8010502010b09",
+"newline_after": true
+},
+{
+"off": 199656,
+"en": "EY",
+"cap": 2,
+"ko": "",
+"gap": "0a0201",
+"newline_after": true
+},
+{
+"off": 199661,
+"en": "Well, are you going",
+"cap": 19,
+"ko": "쫓아갈 거야,",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 199683,
+"en": "after him, or not?",
+"cap": 18,
+"ko": "말 거야?",
+"gap": "0368060501000e8bbcc550b00cc228b00dd33b02042e2e2e11052e2e2e2e2e2e010b09",
+"newline_after": true
+},
+{
+"off": 199736,
+"en": "EZ",
+"cap": 2,
+"ko": "",
+"gap": "0a0202",
+"newline_after": true
+},
+{
+"off": 199741,
+"en": "...I'm sorry.",
+"cap": 13,
+"ko": "...미안해요.",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 199757,
+"en": "I have to follow him.",
+"cap": 21,
+"ko": "그를 따라가야겠어요.",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 199781,
+"en": "I can't just...",
+"cap": 15,
+"ko": "그냥 이대로는...",
+"gap": "0378060502010b09455b0a0202",
+"newline_after": true
+},
+{
+"off": 199809,
+"en": "It's all right! Hurry",
+"cap": 21,
+"ko": "괜찮아! 어서",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 199833,
+"en": "up and catch him. If",
+"cap": 20,
+"ko": "그를 따라잡아. 그를",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 199856,
+"en": "anyone can save him,",
+"cap": 20,
+"ko": "구할 수 있는 건",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 199879,
+"en": "you can.",
+"cap": 8,
+"ko": "너뿐이야.",
+"gap": "0378060501000b09455c0a0202",
+"newline_after": true
+},
+{
+"off": 199900,
+"en": "Thank you, Richter.",
+"cap": 19,
+"ko": "고마워요, 리히터.",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 199922,
+"en": "For everything.",
+"cap": 15,
+"ko": "그동안 고마웠어요.",
+"gap": "0378060502010b09455d0a0202",
+"newline_after": true
+},
+{
+"off": 199950,
+"en": "Thank you... Maria.",
+"cap": 19,
+"ko": "고마워... 마리아.",
+"gap": "03380b030a06080b14333c0a1106110100100014333c0a1101000b09",
+"newline_after": true
+},
+{
+"off": 199997,
+"en": "DE",
+"cap": 2,
+"ko": "",
+"gap": "0a0202",
+"newline_after": true
+},
+{
+"off": 200002,
+"en": "No, he's right.",
+"cap": 15,
+"ko": "아뇨, 그의 말이 맞아요.",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 200020,
+"en": "It's best this way.",
+"cap": 19,
+"ko": "이게 최선이에요.",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 200042,
+"en": "There's no way I",
+"cap": 16,
+"ko": "제가 그의 고통을",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 200061,
+"en": "could ever ease his",
+"cap": 19,
+"ko": "덜어 줄 방법은 없어요.",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 200083,
+"en": "pain. Maybe someday,",
+"cap": 20,
+"ko": "언젠가 어쩌면,",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 200106,
+"en": "we will meet again.",
+"cap": 19,
+"ko": "다시 만나겠죠.",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 200128,
+"en": "Who knows?",
+"cap": 10,
+"ko": "누가 알겠어요?",
+"gap": "03980b030a060502010b09",
+"newline_after": true
+},
+{
+"off": 200149,
+"en": "DF",
+"cap": 2,
+"ko": "",
+"gap": "0a0204",
+"newline_after": true
+},
+{
+"off": 200154,
+"en": "Maybe...",
+"cap": 8,
+"ko": "그럴지도...",
+"gap": "03380605010011050b09",
+"newline_after": true
+},
+{
+"off": 200172,
+"en": "DG",
+"cap": 2,
+"ko": "",
+"gap": "0a0201",
+"newline_after": true
+},
+{
+"off": 200177,
+"en": "Let's go. Everyone's",
+"cap": 20,
+"ko": "가요. 모두가",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 200200,
+"en": "waiting for us.",
+"cap": 15,
+"ko": "기다리고 있어요.",
+"gap": "0378060502010b09",
+"newline_after": true
+},
+{
+"off": 200223,
+"en": "DH",
+"cap": 2,
+"ko": "",
+"gap": "0a0201",
+"newline_after": true
+},
+{
+"off": 200228,
+"en": "Yes, let's get out",
+"cap": 18,
+"ko": "그래, 여길",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 200249,
+"en": "of here.",
+"cap": 8,
+"ko": "빠져나가자.",
+"gap": "03380b",
+"newline_after": true
+}
+]
+}

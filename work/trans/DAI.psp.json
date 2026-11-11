@@ -1,0 +1,135 @@
+{
+"file": "ST/DAI/DAI.BIN",
+"script": "psp",
+"alt_start": 261924,
+"items": [
+{
+"off": 261954,
+"en": "Alucard. Have you",
+"cap": 17,
+"ko": "알카드. 혹시",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 261974,
+"en": "seen Richter?",
+"cap": 13,
+"ko": "리히터를 봤어요?",
+"gap": "03300613922cc664010500810b0937760a0202",
+"newline_after": true
+},
+{
+"off": 262006,
+"en": "There is a Belmont",
+"cap": 18,
+"ko": "벨몬드는 여기 있다.",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 262027,
+"en": "here. You were right",
+"cap": 20,
+"ko": "네 말이 맞았어.",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 262050,
+"en": "about that.",
+"cap": 11,
+"ko": " ",
+"gap": "03300b030a060501000b0937770a0204",
+"newline_after": true
+},
+{
+"off": 262077,
+"en": "I knew it!",
+"cap": 10,
+"ko": "역시 그랬군요!",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 262090,
+"en": "Where is he?",
+"cap": 12,
+"ko": "그는 어디 있어요?",
+"gap": "0330060500810b0937780a0202",
+"newline_after": true
+},
+{
+"off": 262115,
+"en": "...The one I saw was",
+"cap": 20,
+"ko": "...내가 본 자는",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 262138,
+"en": "with the enemy.",
+"cap": 15,
+"ko": "적의 편이었다.",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 262156,
+"en": "He called himself",
+"cap": 17,
+"ko": "그는 스스로를",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 262176,
+"en": "the lord of this",
+"cap": 16,
+"ko": "이 성의 주인이라",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 262195,
+"en": "castle...",
+"cap": 9,
+"ko": "칭하더군...",
+"gap": "03300b030a060501000b0937790a0203",
+"newline_after": true
+},
+{
+"off": 262220,
+"en": "What? That's...",
+"cap": 15,
+"ko": "네? 그건...",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 262238,
+"en": "That's impossible!",
+"cap": 18,
+"ko": "그럴 리 없어요!",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 262259,
+"en": "You're wrong!",
+"cap": 13,
+"ko": "당신이 잘못 본 거예요!",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 262275,
+"en": "...I have to go!",
+"cap": 16,
+"ko": "...이만 가 봐야겠어요!",
+"gap": "010398",
+"newline_after": true
+}
+]
+}

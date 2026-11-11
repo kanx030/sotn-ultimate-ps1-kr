@@ -1,0 +1,511 @@
+{
+"file": "ST/CEN/CEN.BIN",
+"script": "psp",
+"alt_start": 54292,
+"items": [
+{
+"off": 54317,
+"en": "Alucard?",
+"cap": 8,
+"ko": "알카드?",
+"gap": "03380613811ff440010500010b093bbb0a0203",
+"newline_after": true
+},
+{
+"off": 54344,
+"en": "That voice...",
+"cap": 13,
+"ko": "그 목소리...",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 54360,
+"en": "Maria?",
+"cap": 6,
+"ko": "마리아냐?",
+"gap": "033c0b030a060501000b093bbc0a0202",
+"newline_after": true
+},
+{
+"off": 54382,
+"en": "I'm sorry. You were",
+"cap": 19,
+"ko": "미안해요. 당신 말이",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 54404,
+"en": "right. He is with the",
+"cap": 21,
+"ko": "맞았어요. 그는 적의",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 54428,
+"en": "enemy...",
+"cap": 8,
+"ko": "편이에요...",
+"gap": "0378060500010b093bbd0a0202",
+"newline_after": true
+},
+{
+"off": 54449,
+"en": "Richter Belmont,",
+"cap": 16,
+"ko": "리히터 벨몬드가",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 54468,
+"en": "in league with",
+"cap": 14,
+"ko": "드라큘라와",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 54485,
+"en": "Dracula...",
+"cap": 10,
+"ko": "손을 잡다니...",
+"gap": "0358060501000b093bbe0a0203",
+"newline_after": true
+},
+{
+"off": 54508,
+"en": "He must be under",
+"cap": 16,
+"ko": "누군가에게",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 54527,
+"en": "someone else's",
+"cap": 14,
+"ko": "조종당하는 게 분명해요.",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 54544,
+"en": "control. We can't",
+"cap": 17,
+"ko": "무슨 일이 있어도",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 54564,
+"en": "hurt him, whatever",
+"cap": 18,
+"ko": "그를 다치게 하면",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 54585,
+"en": "we do.",
+"cap": 6,
+"ko": "안 돼요.",
+"gap": "0388060500010b093bbf0a0202",
+"newline_after": true
+},
+{
+"off": 54604,
+"en": "But he must be",
+"cap": 14,
+"ko": "하지만 그를",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 54621,
+"en": "stopped.",
+"cap": 8,
+"ko": "막아야 한다.",
+"gap": "0338060501000b093cc00a0203",
+"newline_after": true
+},
+{
+"off": 54642,
+"en": "Yes, but can you?",
+"cap": 17,
+"ko": "정말 할 수 있겠어요?",
+"gap": "0360010b093ccc0a0202",
+"newline_after": true
+},
+{
+"off": 54669,
+"en": "If it must be that",
+"cap": 18,
+"ko": "꼭 그래야 한다면...",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 54690,
+"en": "way... Here. I found",
+"cap": 20,
+"ko": "이걸 찾았어요.",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 54713,
+"en": "these. Take them.",
+"cap": 17,
+"ko": "가져가요.",
+"gap": "110303480b030a060500010b093ccd0a0202",
+"newline_after": true
+},
+{
+"off": 54748,
+"en": "And these are?",
+"cap": 14,
+"ko": "이건 뭐지?",
+"gap": "0338060501000b093cce0a0202",
+"newline_after": true
+},
+{
+"off": 54775,
+"en": "If you wear them,",
+"cap": 17,
+"ko": "이걸 쓰면",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 54795,
+"en": "you can see",
+"cap": 11,
+"ko": "환영 너머를",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 54809,
+"en": "beyond illusions.",
+"cap": 17,
+"ko": "볼 수 있어요.",
+"gap": "0368060500010b093ccf0a0202",
+"newline_after": true
+},
+{
+"off": 54839,
+"en": "Thank you. I go to",
+"cap": 18,
+"ko": "고맙다. 나는",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 54860,
+"en": "find Richter. Stay,",
+"cap": 19,
+"ko": "리히터를 찾겠다. 넌",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 54882,
+"en": "and pray for him.",
+"cap": 17,
+"ko": "남아서 그를 위해 기도해라.",
+"gap": "03680b030a06080b110114011100ffff0010000901100b073c1c13822cccc0000501000b093bba0a0203",
+"newline_after": true
+},
+{
+"off": 54941,
+"en": "Alucard?",
+"cap": 8,
+"ko": "알카드?",
+"gap": "03380613811ff440010500010b093bbb0a0203",
+"newline_after": true
+},
+{
+"off": 54968,
+"en": "That voice...",
+"cap": 13,
+"ko": "그 목소리...",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 54984,
+"en": "Maria?",
+"cap": 6,
+"ko": "마리아냐?",
+"gap": "033c0b030a060501000b093bbc0a0202",
+"newline_after": true
+},
+{
+"off": 55006,
+"en": "I'm sorry. You were",
+"cap": 19,
+"ko": "미안해요. 당신 말이",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 55028,
+"en": "right. He is with the",
+"cap": 21,
+"ko": "맞았어요. 그는 적의",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 55052,
+"en": "enemy...",
+"cap": 8,
+"ko": "편이에요...",
+"gap": "0378060500010b093bbd0a0202",
+"newline_after": true
+},
+{
+"off": 55073,
+"en": "Richter Belmont,",
+"cap": 16,
+"ko": "리히터 벨몬드가",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 55092,
+"en": "in league with",
+"cap": 14,
+"ko": "드라큘라와",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 55109,
+"en": "Dracula...",
+"cap": 10,
+"ko": "손을 잡다니...",
+"gap": "0358060501000b093bbe0a0203",
+"newline_after": true
+},
+{
+"off": 55132,
+"en": "He must be under",
+"cap": 16,
+"ko": "누군가에게",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 55151,
+"en": "someone else's",
+"cap": 14,
+"ko": "조종당하는 게 분명해요.",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 55168,
+"en": "control. We can't",
+"cap": 17,
+"ko": "무슨 일이 있어도",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 55188,
+"en": "hurt him, whatever",
+"cap": 18,
+"ko": "그를 다치게 하면",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 55209,
+"en": "we do.",
+"cap": 6,
+"ko": "안 돼요.",
+"gap": "0388060500010b093bbf0a0202",
+"newline_after": true
+},
+{
+"off": 55228,
+"en": "But he must be",
+"cap": 14,
+"ko": "하지만 그를",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 55245,
+"en": "stopped.",
+"cap": 8,
+"ko": "막아야 한다.",
+"gap": "0338060501000b093cc00a0203",
+"newline_after": true
+},
+{
+"off": 55266,
+"en": "Yes, but can you?",
+"cap": 17,
+"ko": "정말 할 수 있겠어요?",
+"gap": "0360010b093cc10a0202",
+"newline_after": true
+},
+{
+"off": 55293,
+"en": "Then for all our",
+"cap": 16,
+"ko": "그렇다면 모두를 위해",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 55312,
+"en": "sakes, show me that",
+"cap": 19,
+"ko": "그럴 수 있다는 걸",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 55334,
+"en": "you will!",
+"cap": 9,
+"ko": "보여 줘요!",
+"gap": "03180b034806080b110114011100ffff000901100b073c1c13822cccc00013811ff440010501000b093cc20a0202",
+"newline_after": true
+},
+{
+"off": 55389,
+"en": "You're stronger than",
+"cap": 20,
+"ko": "당신은 저보다 강해요.",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 55412,
+"en": "I am. You can save",
+"cap": 18,
+"ko": "당신은 리히터를 구할",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 55433,
+"en": "Richter. Will you?",
+"cap": 18,
+"ko": "수 있어요. 구해 줄래요?",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 55454,
+"en": "Please...",
+"cap": 9,
+"ko": "부탁해요...",
+"gap": "03180b0358060500010b093cc30a0202",
+"newline_after": true
+},
+{
+"off": 55479,
+"en": "I can't promise that.",
+"cap": 21,
+"ko": "약속은 못 하겠다.",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 55503,
+"en": "But I will stop him.",
+"cap": 20,
+"ko": "하지만 그를 막겠다.",
+"gap": "03180b0350060501000b093ccc0a0202",
+"newline_after": true
+},
+{
+"off": 55539,
+"en": "If it must be that",
+"cap": 18,
+"ko": "꼭 그래야 한다면...",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 55560,
+"en": "way... Here. I found",
+"cap": 20,
+"ko": "이걸 찾았어요.",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 55583,
+"en": "these. Take them.",
+"cap": 17,
+"ko": "가져가요.",
+"gap": "110303480b030a060500010b093ccd0a0202",
+"newline_after": true
+},
+{
+"off": 55618,
+"en": "And these are?",
+"cap": 14,
+"ko": "이건 뭐지?",
+"gap": "0338060501000b093cce0a0202",
+"newline_after": true
+},
+{
+"off": 55645,
+"en": "If you wear them,",
+"cap": 17,
+"ko": "이걸 쓰면",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 55665,
+"en": "you can see",
+"cap": 11,
+"ko": "환영 너머를",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 55679,
+"en": "beyond illusions.",
+"cap": 17,
+"ko": "볼 수 있어요.",
+"gap": "0368060500010b093ccf0a0202",
+"newline_after": true
+},
+{
+"off": 55709,
+"en": "Thank you. I go to",
+"cap": 18,
+"ko": "고맙다. 나는",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 55730,
+"en": "find Richter. Stay,",
+"cap": 19,
+"ko": "리히터를 찾겠다. 넌",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 55752,
+"en": "and pray for him.",
+"cap": 17,
+"ko": "남아서 그를 위해 기도해라.",
+"gap": "03680b",
+"newline_after": true
+}
+]
+}

@@ -1,0 +1,780 @@
+{
+"file": "BOSS/BO6/BO6.BIN",
+"alt_start": 106704,
+"items": [
+{
+"off": 106730,
+"en": "I've been waiting",
+"cap": 17,
+"after": "010308",
+"newline_after": true,
+"ko": "기다리고",
+"gap": "010308"
+},
+{
+"off": 106750,
+"en": "for you.",
+"cap": 8,
+"after": "033006",
+"newline_after": true,
+"ko": "있었다.",
+"gap": "033006139bb55228010500810b0e9aa00cc89aa112209aa11885093dd40a0203"
+},
+{
+"off": 106790,
+"en": "So it is you...",
+"cap": 15,
+"after": "010310",
+"newline_after": true,
+"ko": "역시 너였군...",
+"gap": "0103100202"
+},
+{
+"off": 106810,
+"en": "But why is a Belmont",
+"cap": 20,
+"after": "010304",
+"newline_after": true,
+"ko": "하지만 왜 벨몬드가",
+"gap": "010304"
+},
+{
+"off": 106833,
+"en": "planning the",
+"cap": 12,
+"after": "010304",
+"newline_after": true,
+"ko": "드라큘라 백작의",
+"gap": "010304"
+},
+{
+"off": 106848,
+"en": "resurrection of",
+"cap": 15,
+"after": "010304",
+"newline_after": true,
+"ko": "부활을 꾀하는 거지?",
+"gap": "010304"
+},
+{
+"off": 106866,
+"en": "Count Dracula?",
+"cap": 14,
+"after": "0f9aa1",
+"newline_after": true,
+"ko": " ",
+"gap": "0f9aa11ddc093dd60a0203"
+},
+{
+"off": 106891,
+"en": "Answer me!",
+"cap": 10,
+"after": "010310",
+"newline_after": true,
+"ko": "대답해라!",
+"gap": "0103100202"
+},
+{
+"off": 106906,
+"en": "Why is a Belmont",
+"cap": 16,
+"after": "010304",
+"newline_after": true,
+"ko": "어째서 벨몬드가",
+"gap": "010304"
+},
+{
+"off": 106925,
+"en": "planning the",
+"cap": 12,
+"after": "010308",
+"newline_after": true,
+"ko": "드라큘라 백작의",
+"gap": "010308"
+},
+{
+"off": 106940,
+"en": "resurrection of",
+"cap": 15,
+"after": "010304",
+"newline_after": true,
+"ko": "부활을 꾀하는 거지?",
+"gap": "010304"
+},
+{
+"off": 106958,
+"en": "Count Dracula?",
+"cap": 14,
+"after": "033006",
+"newline_after": true,
+"ko": " ",
+"gap": "0330060501000b093dd70a0203"
+},
+{
+"off": 106985,
+"en": "Count Dracula rises",
+"cap": 19,
+"after": "010304",
+"newline_after": true,
+"ko": "드라큘라 백작은",
+"gap": "010304"
+},
+{
+"off": 107007,
+"en": "but once every",
+"cap": 14,
+"after": "010304",
+"newline_after": true,
+"ko": "100년에 한 번 부활해",
+"gap": "010304"
+},
+{
+"off": 107024,
+"en": "century ",
+"cap": 8,
+"after": "032861",
+"newline_after": false,
+"ko": "내 ",
+"gap": "03"
+},
+{
+"off": 107033,
+"en": "(and my role",
+"cap": 12,
+"after": "010304",
+"newline_after": true,
+"ko": "역할은 끝났다.",
+"gap": "010304"
+},
+{
+"off": 107048,
+"en": "is over. ",
+"cap": 9,
+"after": "020203",
+"newline_after": false,
+"ko": "하지만 그를 ",
+"gap": "0202031c"
+},
+{
+"off": 107061,
+"en": "If I can",
+"cap": 8,
+"after": "010304",
+"newline_after": true,
+"ko": "되살리면",
+"gap": "010304"
+},
+{
+"off": 107072,
+"en": "resurrect him,",
+"cap": 14,
+"after": "010314",
+"newline_after": true,
+"ko": "싸움은 영원히",
+"gap": "010314"
+},
+{
+"off": 107089,
+"en": "then the battle will",
+"cap": 20,
+"after": "010304",
+"newline_after": true,
+"ko": "계속될 것이다!",
+"gap": "010304"
+},
+{
+"off": 107112,
+"en": "last for eternity!",
+"cap": 18,
+"after": "033006",
+"newline_after": true,
+"ko": " ",
+"gap": "0330060e9aa00ccc9aa22dd99aa2288a05008102042e2e2e2e2e2e2e2e2e0103080b093dd80a0202"
+},
+{
+"off": 107170,
+"en": "If those are your",
+"cap": 17,
+"after": "010304",
+"newline_after": true,
+"ko": "그게 정녕",
+"gap": "010304"
+},
+{
+"off": 107190,
+"en": "true feelings then",
+"cap": 18,
+"after": "010304",
+"newline_after": true,
+"ko": "네 진심이라면,",
+"gap": "0103040203"
+},
+{
+"off": 107213,
+"en": "so be it.",
+"cap": 9,
+"after": "033006",
+"newline_after": true,
+"ko": "좋다.",
+"gap": "033006080b1101143336000c9aa44ee80909910b093ee10a0380038011020b1103143336000e9aa00ccc9aa330089aa443320c9aa44ddd09099103200b073c1c139bb55228010500810b093eea0a0203"
+},
+{
+"off": 107302,
+"en": "It's over...Belmont.",
+"cap": 20,
+"after": "033006",
+"newline_after": true,
+"ko": "끝났다... 벨몬드.",
+"gap": "033006139cc22aa8000501000b093eeb0a0203"
+},
+{
+"off": 107341,
+"en": "So ",
+"cap": 3,
+"after": "031074",
+"newline_after": false,
+"ko": "이렇게 ",
+"gap": "0310"
+},
+{
+"off": 107346,
+"en": "the war between",
+"cap": 15,
+"after": "010304",
+"newline_after": true,
+"ko": "인간과",
+"gap": "0103040204"
+},
+{
+"off": 107366,
+"en": "humans and vampires",
+"cap": 19,
+"after": "010304",
+"newline_after": true,
+"ko": "뱀파이어의 전쟁도",
+"gap": "010304"
+},
+{
+"off": 107388,
+"en": "finally ends here...",
+"cap": 20,
+"after": "033006",
+"newline_after": true,
+"ko": "마침내 끝나는가...",
+"gap": "0330060500810b02042e2e2e2e2e2e2e2e2e2e0338060501000b093eec0a0202"
+},
+{
+"off": 107440,
+"en": "What need for the",
+"cap": 17,
+"after": "010304",
+"newline_after": true,
+"ko": "늑대가 다 사라진",
+"gap": "010304"
+},
+{
+"off": 107460,
+"en": "shepherd ",
+"cap": 9,
+"after": "032077",
+"newline_after": false,
+"ko": "지금, ",
+"gap": "03"
+},
+{
+"off": 107470,
+"en": " when the",
+"cap": 9,
+"after": "010304",
+"newline_after": true,
+"ko": "양치기 따윈",
+"gap": "010304"
+},
+{
+"off": 107482,
+"en": "wolves have all",
+"cap": 15,
+"after": "010304",
+"newline_after": true,
+"ko": "필요 없지...",
+"gap": "010304"
+},
+{
+"off": 107500,
+"en": "gone...",
+"cap": 7,
+"after": "01031c",
+"newline_after": true,
+"ko": "이 세상에서",
+"gap": "01031c"
+},
+{
+"off": 107510,
+"en": "My time on this",
+"cap": 15,
+"after": "010304",
+"newline_after": true,
+"ko": "내 시간은",
+"gap": "010304"
+},
+{
+"off": 107528,
+"en": "world ",
+"cap": 6,
+"after": "032402",
+"newline_after": false,
+"ko": "다 ",
+"gap": "03240203"
+},
+{
+"off": 107538,
+"en": "has come ",
+"cap": 9,
+"after": "032074",
+"newline_after": false,
+"ko": "끝났다...",
+"gap": "03"
+},
+{
+"off": 107548,
+"en": " to",
+"cap": 3,
+"after": "010304",
+"newline_after": true,
+"ko": " ",
+"gap": "010304"
+},
+{
+"off": 107554,
+"en": "an end...",
+"cap": 9,
+"after": "033006",
+"newline_after": true,
+"ko": " ",
+"gap": "033006081108000c9aa44dd209099103200b073c1c139dd00228000502000b093eef0a0204"
+},
+{
+"off": 107600,
+"en": "You've defeated me.",
+"cap": 19,
+"after": "010318",
+"newline_after": true,
+"ko": "나를 쓰러뜨렸군.",
+"gap": "010318"
+},
+{
+"off": 107622,
+"en": "But all is ",
+"cap": 11,
+"after": "02036e",
+"newline_after": false,
+"ko": "아직 끝이 ",
+"gap": "0203"
+},
+{
+"off": 107635,
+"en": "not yet",
+"cap": 7,
+"after": "010304",
+"newline_after": true,
+"ko": "아니다.",
+"gap": "010304"
+},
+{
+"off": 107645,
+"en": "lost.",
+"cap": 5,
+"after": "010328",
+"newline_after": true,
+"ko": "드라큘라 백작의",
+"gap": "0103280203"
+},
+{
+"off": 107655,
+"en": "The resurrection of",
+"cap": 19,
+"after": "010304",
+"newline_after": true,
+"ko": "부활이 머지않았다!",
+"gap": "010304"
+},
+{
+"off": 107677,
+"en": "Count Dracula ",
+"cap": 14,
+"after": "020269",
+"newline_after": false,
+"ko": " ",
+"gap": "0202"
+},
+{
+"off": 107693,
+"en": "is at",
+"cap": 5,
+"after": "010304",
+"newline_after": true,
+"ko": " ",
+"gap": "010304"
+},
+{
+"off": 107701,
+"en": "hand!",
+"cap": 5,
+"after": "033006",
+"newline_after": true,
+"ko": " ",
+"gap": "03300608036011050320110600000000891808800880ffff000000891908800880ffff000000891a08800880ffff000000891b08800880ffff001e17"
+},
+{
+"off": 107766,
+"en": "om&'",
+"cap": 4,
+"after": "14200f",
+"newline_after": true,
+"ko": "",
+"gap": "14200ff0ff0ff0c5571009571009571009571007c464516c00"
+},
+{
+"off": 107795,
+"en": "\\FE",
+"cap": 3,
+"after": "16c005",
+"newline_after": true,
+"ko": "",
+"gap": "16c005c464516c00"
+},
+{
+"off": 107806,
+"en": "\\FE",
+"cap": 3,
+"after": "16c004",
+"newline_after": false,
+"ko": "",
+"gap": "16c004"
+},
+{
+"off": 107812,
+"en": "GeV",
+"cap": 3,
+"after": "145670",
+"newline_after": false,
+"ko": "",
+"gap": "14"
+},
+{
+"off": 107816,
+"en": "Vp",
+"cap": 2,
+"after": "034765",
+"newline_after": false,
+"ko": "",
+"gap": "03"
+},
+{
+"off": 107819,
+"en": "GeV",
+"cap": 3,
+"after": "145670",
+"newline_after": false,
+"ko": "",
+"gap": "14"
+},
+{
+"off": 107823,
+"en": "Vp",
+"cap": 2,
+"after": "034765",
+"newline_after": false,
+"ko": "",
+"gap": "03"
+},
+{
+"off": 107826,
+"en": "GeV",
+"cap": 3,
+"after": "145670",
+"newline_after": false,
+"ko": "",
+"gap": "14"
+},
+{
+"off": 107830,
+"en": "Vp",
+"cap": 2,
+"after": "034765",
+"newline_after": false,
+"ko": "",
+"gap": "03"
+},
+{
+"off": 107833,
+"en": "GeV",
+"cap": 3,
+"after": "145670",
+"newline_after": false,
+"ko": "",
+"gap": "14"
+},
+{
+"off": 107837,
+"en": "Vp",
+"cap": 2,
+"after": "023765",
+"newline_after": true,
+"ko": "",
+"gap": "0237655056380013"
+},
+{
+"off": 107847,
+"en": "vU",
+"cap": 2,
+"after": "056380",
+"newline_after": true,
+"ko": "",
+"gap": "0563800137655056380013"
+},
+{
+"off": 107860,
+"en": "vU",
+"cap": 2,
+"after": "056380",
+"newline_after": true,
+"ko": "",
+"gap": "056380004764233455638947642334556389476423345563894764233455638947532f3355614567947532f3355614567947532f3355614567947532f43511"
+},
+{
+"off": 107925,
+"en": "+EgnGe",
+"cap": 6,
+"after": "132f33",
+"newline_after": true,
+"ko": "",
+"gap": "132f3355624567a4765132f3355624567a476513"
+},
+{
+"off": 107951,
+"en": "/CQV",
+"cap": 4,
+"after": "14567a",
+"newline_after": false,
+"ko": "",
+"gap": "14"
+},
+{
+"off": 107956,
+"en": "VzGe",
+"cap": 4,
+"after": "132f43",
+"newline_after": true,
+"ko": "",
+"gap": "132f4352312b4567a4765d23d225614467a4765d23d215614467a4765d23d22115604467a4765d23db321b4467a8b55046235614367a8b55046135614367a8b5504123115604367a8b5504263321b4367a8565d5604467a8565d5604467a856321d5604467a856132122342b44676e85653362589856533625898565336258985611221423625894765564434689476556443468947655644346894765564434680004"
+},
+{
+"off": 108123,
+"en": "vUaE46p",
+"cap": 7,
+"after": "014765",
+"newline_after": true,
+"ko": "",
+"gap": "01"
+},
+{
+"off": 108131,
+"en": "GeV",
+"cap": 3,
+"after": "145343",
+"newline_after": true,
+"ko": "",
+"gap": "145343670014"
+},
+{
+"off": 108140,
+"en": "vUaE46p",
+"cap": 7,
+"after": "014765",
+"newline_after": true,
+"ko": "",
+"gap": "01"
+},
+{
+"off": 108148,
+"en": "GeV",
+"cap": 3,
+"after": "145343",
+"newline_after": true,
+"ko": "",
+"gap": "14534367002856025db8003856025db8003856025db8003856025db800"
+},
+{
+"off": 108180,
+"en": "LV",
+"cap": 2,
+"after": "1c005c",
+"newline_after": true,
+"ko": "",
+"gap": "1c005c561c005c561c005c561c0075710095710095710095710ff0ff0ff0ff0ff0ff0ff08b571009571009571009571007c464516c00"
+},
+{
+"off": 108236,
+"en": "\\FE",
+"cap": 3,
+"after": "16c005",
+"newline_after": true,
+"ko": "",
+"gap": "16c005c464516c00"
+},
+{
+"off": 108247,
+"en": "\\FE",
+"cap": 3,
+"after": "16c004",
+"newline_after": false,
+"ko": "",
+"gap": "16c004"
+},
+{
+"off": 108253,
+"en": "GeV",
+"cap": 3,
+"after": "145670",
+"newline_after": false,
+"ko": "",
+"gap": "14"
+},
+{
+"off": 108257,
+"en": "Vp",
+"cap": 2,
+"after": "034765",
+"newline_after": false,
+"ko": "",
+"gap": "03"
+},
+{
+"off": 108260,
+"en": "GeV",
+"cap": 3,
+"after": "145670",
+"newline_after": false,
+"ko": "",
+"gap": "14"
+},
+{
+"off": 108264,
+"en": "Vp",
+"cap": 2,
+"after": "034765",
+"newline_after": false,
+"ko": "",
+"gap": "03"
+},
+{
+"off": 108267,
+"en": "Ge",
+"cap": 2,
+"after": "162246",
+"newline_after": false,
+"ko": "",
+"gap": "162246568003"
+},
+{
+"off": 108275,
+"en": "GeV",
+"cap": 3,
+"after": "145670",
+"newline_after": false,
+"ko": "",
+"gap": "14"
+},
+{
+"off": 108279,
+"en": "Vp",
+"cap": 2,
+"after": "023765",
+"newline_after": true,
+"ko": "",
+"gap": "0237655056380013"
+},
+{
+"off": 108289,
+"en": "vU",
+"cap": 2,
+"after": "021125",
+"newline_after": true,
+"ko": "",
+"gap": "021125608001"
+},
+{
+"off": 108297,
+"en": "7ePV",
+"cap": 4,
+"after": "012b80",
+"newline_after": true,
+"ko": "",
+"gap": "012b800137655056380004"
+},
+{
+"off": 108312,
+"en": "vB4E",
+"cap": 4,
+"after": "112561",
+"newline_after": true,
+"ko": "",
+"gap": "11256189476423345b115608947642334556012b894764233455638947532f435642164567947532f33556041568947532f3355614"
+},
+{
+"off": 108369,
+"en": "VyGS/3UaEgnGe",
+"cap": 13,
+"after": "132f33",
+"newline_after": true,
+"ko": "",
+"gap": "132f335b2246568a4765132f33556142568a4765132f3355624567a4765132f3355624567a4765d23d5614164367a4765d23d56241468a4765d23d5634467a4765d23d5634467a8b550b13b4163367a8b550b1356041368a4762550b135614367a8b550b135614367a856022560d2246468a8b12562db42468a8565d5604467a8565d56044676e8560312b423625898b11562331258947625633362589856533625894765b12214263446794765361561413436794765125634346894765564434680004"
+},
+{
+"off": 108578,
+"en": "vUaE46p",
+"cap": 7,
+"after": "014765",
+"newline_after": true,
+"ko": "",
+"gap": "01"
+},
+{
+"off": 108586,
+"en": "Ge6\"",
+"cap": 4,
+"after": "145343",
+"newline_after": true,
+"ko": "",
+"gap": "145343670014"
+},
+{
+"off": 108596,
+"en": "vQ%`E46p",
+"cap": 8,
+"after": "014765",
+"newline_after": true,
+"ko": "",
+"gap": "01"
+},
+{
+"off": 108605,
+"en": "GeV",
+"cap": 3,
+"after": "145343",
+"newline_after": true,
+"ko": "",
+"gap": "14534367002856025db8003856025db8003856025db8003856025db800"
+},
+{
+"off": 108637,
+"en": "LV",
+"cap": 2,
+"after": "1c005c",
+"newline_after": true,
+"ko": "",
+"gap": "1c005c"
+}
+]
+}

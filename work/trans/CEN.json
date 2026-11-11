@@ -1,0 +1,294 @@
+{
+"file": "ST/CEN/CEN.BIN",
+"alt_start": 5104,
+"items": [
+{
+"off": 5129,
+"en": "Alucard?",
+"cap": 8,
+"after": "033806",
+"newline_after": true,
+"ko": "알카드?",
+"gap": "03380613811ff440010500010b093bbb0a0203"
+},
+{
+"off": 5156,
+"en": "That voice? ",
+"cap": 12,
+"after": "03104d",
+"newline_after": false,
+"ko": "그 목소리? ",
+"gap": "0310"
+},
+{
+"off": 5170,
+"en": "Maria?",
+"cap": 6,
+"after": "033806",
+"newline_after": true,
+"ko": "마리아?",
+"gap": "0338060501000b093bbc0a0203"
+},
+{
+"off": 5189,
+"en": "I'm sorry. ",
+"cap": 11,
+"after": "031002",
+"newline_after": false,
+"ko": "미안해요. ",
+"gap": "03100202"
+},
+{
+"off": 5204,
+"en": "You were",
+"cap": 8,
+"after": "010304",
+"newline_after": true,
+"ko": "당신 말이",
+"gap": "010304"
+},
+{
+"off": 5215,
+"en": "right. ",
+"cap": 7,
+"after": "032048",
+"newline_after": false,
+"ko": "맞았어요...",
+"gap": "03"
+},
+{
+"off": 5223,
+"en": " He has joined",
+"cap": 14,
+"after": "010304",
+"newline_after": true,
+"ko": " ",
+"gap": "010304"
+},
+{
+"off": 5240,
+"en": "forces with the",
+"cap": 15,
+"after": "010304",
+"newline_after": true,
+"ko": "그는 적과 한편이",
+"gap": "010304"
+},
+{
+"off": 5258,
+"en": "enemy...",
+"cap": 8,
+"after": "033006",
+"newline_after": true,
+"ko": "됐어요..",
+"gap": "0330060500010b093bbd0a0202"
+},
+{
+"off": 5279,
+"en": "So it was a Belmont",
+"cap": 19,
+"after": "010304",
+"newline_after": true,
+"ko": "그렇다면 역시",
+"gap": "010304"
+},
+{
+"off": 5301,
+"en": "after all...",
+"cap": 12,
+"after": "033006",
+"newline_after": true,
+"ko": "벨몬드였군..",
+"gap": "0330060501000b093bbe0a0203"
+},
+{
+"off": 5326,
+"en": "But someone must be",
+"cap": 19,
+"after": "010304",
+"newline_after": true,
+"ko": "하지만 분명 누군가",
+"gap": "010304"
+},
+{
+"off": 5348,
+"en": "controlling him...",
+"cap": 18,
+"after": "010320",
+"newline_after": true,
+"ko": "조종하고 있어요...",
+"gap": "0103200202"
+},
+{
+"off": 5371,
+"en": "Whatever we do, ",
+"cap": 16,
+"after": "031002",
+"newline_after": false,
+"ko": "리히터를 해쳐선",
+"gap": "03100203"
+},
+{
+"off": 5391,
+"en": "we",
+"cap": 2,
+"after": "010304",
+"newline_after": true,
+"ko": " ",
+"gap": "010304"
+},
+{
+"off": 5396,
+"en": "can't harm Richter.",
+"cap": 19,
+"after": "033006",
+"newline_after": true,
+"ko": "절대 안 돼요.",
+"gap": "0330060500010b093bbf0a0202"
+},
+{
+"off": 5428,
+"en": "But he must",
+"cap": 11,
+"after": "010304",
+"newline_after": true,
+"ko": "하지만 그를",
+"gap": "010304"
+},
+{
+"off": 5442,
+"en": "be stopped.",
+"cap": 11,
+"after": "033006",
+"newline_after": true,
+"ko": "막아야 한다",
+"gap": "0330060501000b093cc00a0203"
+},
+{
+"off": 5466,
+"en": "I know.",
+"cap": 7,
+"after": "010b09",
+"newline_after": true,
+"ko": "알아요.",
+"gap": "010b093ccc0a"
+},
+{
+"off": 5479,
+"en": "Well...",
+"cap": 7,
+"after": "031068",
+"newline_after": false,
+"ko": "그럼.. ",
+"gap": "0310"
+},
+{
+"off": 5488,
+"en": "here.",
+"cap": 5,
+"after": "010328",
+"newline_after": true,
+"ko": "이걸.",
+"gap": "0103280202"
+},
+{
+"off": 5498,
+"en": "Take these with you.",
+"cap": 20,
+"after": "110303",
+"newline_after": true,
+"ko": "이 안경을 가져가요.",
+"gap": "11030330060500010b093ccd0a0202"
+},
+{
+"off": 5533,
+"en": "What are these?",
+"cap": 15,
+"after": "033006",
+"newline_after": true,
+"ko": "이건 뭐지?",
+"gap": "0330060501000b093cce0a0202"
+},
+{
+"off": 5561,
+"en": "If you wear these,",
+"cap": 18,
+"after": "010318",
+"newline_after": true,
+"ko": "이걸 쓰면",
+"gap": "010318"
+},
+{
+"off": 5582,
+"en": "you can see beyond",
+"cap": 18,
+"after": "010304",
+"newline_after": true,
+"ko": "사악한 환영 너머를",
+"gap": "010304"
+},
+{
+"off": 5603,
+"en": "evil illusions.",
+"cap": 15,
+"after": "033006",
+"newline_after": true,
+"ko": "볼 수 있어요.",
+"gap": "0330060500010b093ccf0a0202"
+},
+{
+"off": 5631,
+"en": "Thank you.",
+"cap": 10,
+"after": "010314",
+"newline_after": true,
+"ko": "고맙다.",
+"gap": "0103140201"
+},
+{
+"off": 5646,
+"en": "'Tis best then ",
+"cap": 15,
+"after": "020269",
+"newline_after": false,
+"ko": "그럼 네 친구의 ",
+"gap": "0202"
+},
+{
+"off": 5663,
+"en": "if",
+"cap": 2,
+"after": "010304",
+"newline_after": true,
+"ko": " ",
+"gap": "010304"
+},
+{
+"off": 5668,
+"en": "you pray for the",
+"cap": 16,
+"after": "010304",
+"newline_after": true,
+"ko": "영혼을 위해",
+"gap": "010304"
+},
+{
+"off": 5687,
+"en": "soul of your friend.",
+"cap": 20,
+"after": "033006",
+"newline_after": true,
+"ko": "기도하는 게 좋겠군",
+"gap": "033006080b110114011100ffff20606165636412150ff0ff4a681fc3f58e8443037c00"
+},
+{
+"off": 5742,
+"en": "Bw",
+"cap": 2,
+"after": "135940",
+"newline_after": false,
+"ko": "",
+"gap": "135940"
+}
+]
+}

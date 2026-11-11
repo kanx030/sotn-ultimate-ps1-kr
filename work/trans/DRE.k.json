@@ -1,0 +1,232 @@
+{
+ "file": "ST/DRE/DRE.BIN",
+ "blocks": [
+  {
+   "voice": null,
+   "items": [
+    0
+   ],
+   "k_text": "",
+   "en": "Mother!!!"
+  },
+  {
+   "voice": "377b",
+   "items": [
+    1,
+    2,
+    3
+   ],
+   "k_text": "안돼,알카드. /오면안돼!",
+   "en": "That voice!  / Alucard, / it's you!"
+  },
+  {
+   "voice": "377c",
+   "items": [
+    4,
+    5
+   ],
+   "k_text": "하지만,어머님!",
+   "en": "I'm coming Mother! / I'll save you!!"
+  },
+  {
+   "voice": "377d",
+   "items": [
+    6,
+    7
+   ],
+   "k_text": "괜찮단다!내목숨으로모두에게/행복이찾아온다면,나는기쁘게/죽음을받아들이겠어.",
+   "en": "No Alucard! / Don't come here!"
+  },
+  {
+   "voice": "377e",
+   "items": [
+    8
+   ],
+   "k_text": "안됩니다,그건…",
+   "en": "But Mother!"
+  },
+  {
+   "voice": "377f",
+   "items": [
+    9,
+    10,
+    11,
+    12,
+    13
+   ],
+   "k_text": "미안하구나,알카드./너에게만괴로운일을겪게해서…/그리고,내마지막말을/마음에간직하고살아가주렴…",
+   "en": "It's all right! / If my death can save / others,  / I gladly / surrender my life."
+  },
+  {
+   "voice": "3880",
+   "items": [
+    14,
+    15
+   ],
+   "k_text": "어머니…",
+   "en": "Mother! No!... / Please! No!..."
+  },
+  {
+   "voice": "3881",
+   "items": [
+    16,
+    17,
+    18,
+    19,
+    20,
+    21
+   ],
+   "k_text": "인간을증오하도록해./그리고,죽여.",
+   "en": "Yes Alucard!  / Watch / me die  / and remember / always my last words / to you..."
+  },
+  {
+   "voice": "3882",
+   "items": [
+    22
+   ],
+   "k_text": "!!",
+   "en": "Yes Mother..."
+  },
+  {
+   "voice": "3883",
+   "items": [
+    23,
+    24,
+    25,
+    26
+   ],
+   "k_text": "계속살아가며/죄를되풀이하는것보다,/죽는편이인간에게는나은일이야./자,거기있는사람부터죽이렴.",
+   "en": "You must despise / humans.  / They are to / be your prey."
+  },
+  {
+   "voice": "3884",
+   "items": [
+    27
+   ],
+   "k_text": "아니야…",
+   "en": "What?!..."
+  },
+  {
+   "voice": "3885",
+   "items": [
+    28,
+    29,
+    30,
+    31,
+    32
+   ],
+   "k_text": "왜그러니?/알카드.",
+   "en": "Better for them to / die than to let them / compound their sins. / Begin by slaying / that one over there."
+  },
+  {
+   "voice": "3886",
+   "items": [
+    33,
+    34
+   ],
+   "k_text": "그런건/말하지않으셨을거야…",
+   "en": "No...it wasn't / like this..."
+  },
+  {
+   "voice": "3887",
+   "items": [
+    35,
+    36
+   ],
+   "k_text": "무슨소릴하는거니?/죽여서모두를행복하게해주거라.",
+   "en": "What's wrong? / Alucard?"
+  },
+  {
+   "voice": "3888",
+   "items": [
+    37,
+    38
+   ],
+   "k_text": "결코,어머니가아니야!/네놈,누구냐!랄",
+   "en": "My mother never said / such a thing..."
+  },
+  {
+   "voice": "3889",
+   "items": [
+    39,
+    40,
+    41,
+    42
+   ],
+   "k_text": "",
+   "en": "What do you mean!? / (Kill them  / and bring / them happiness!"
+  },
+  {
+   "voice": "388a",
+   "items": [
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51
+   ],
+   "k_text": "내주박을깨뜨리다니/마음에들었어.",
+   "en": "No!  / You're not /  my / mother!  / What kind of / demon are you!? / You broke free of my / spell.  / I like that."
+  },
+  {
+   "voice": "388d",
+   "items": [
+    52,
+    53,
+    54
+   ],
+   "k_text": "이,이피냄새… /어째서,밤의일족의피냄새가… /설마…    /………… 랄",
+   "en": "Demon,  / death is too / good for you!"
+  },
+  {
+   "voice": "388e",
+   "items": [
+    55,
+    56,
+    57
+   ],
+   "k_text": "이강함,그리고아름다움… /아아…틀림없어…  /당신은,백작님의…",
+   "en": "Come here little boy / and show me what / you've got."
+  },
+  {
+   "voice": "388f",
+   "items": [
+    58,
+    59,
+    60,
+    61
+   ],
+   "k_text": "꿈의세계에서의죽음은/정신의죽음이다…혼이나간채/영원히방황하도록해라.",
+   "en": "Darkling! I smell / you're blood. / You're a vampire... / Could it be..."
+  },
+  {
+   "voice": "3990",
+   "items": [
+    62,
+    63,
+    64,
+    65,
+    66,
+    67
+   ],
+   "k_text": "분돌쩔. 기힌둬상/직녀휴변/「/솔/두/생/벽니팬붙쇠붙빅/갓/줄/빅/쇠별빅별별뛰/닝릭니죄죄/탁못/빅/빼/당/맥산션솟집돋된레레붙션뿐산독니들덮쁘행/럽팬붙중즈된붙붙/코럽니/붙/틀증닐/력/채켈켈켈켈/붉술/데니/채첩달/레샤/션옷샤징붉술솟/닐/첩얇답살멋/를던던/덮돈/폴렇떻/래때짐로/닦슷큘달쥬/쥬덮칭럽던붙독던/섯링/-/닝딩/니/애/료/뢰닝쩔붙/닝/두/코쁘산줄줄/붙취/붙/준/준/행뿜…/료/려/량/출/션/럽/죠죠큘럽/죠/죠/죠/척/점럼/력습습줄/진줄/년/르즙려/켜/몸몸/큘빅/설튼귀티/달붙/속/룡/능/롯롯/니켈/죄즈/즈/원살액졌/쟁/짜렇짜렇/빨",
+   "en": "That strength,  / that / beauty... / You're the / son of  / Lord Dracula."
+  },
+  {
+   "voice": "3991",
+   "items": [
+    68,
+    69,
+    70,
+    71,
+    72
+   ],
+   "k_text": "",
+   "en": "Death in the dream / world will set your / soul  / wandering for / eternity, Demon."
+  }
+ ]
+}

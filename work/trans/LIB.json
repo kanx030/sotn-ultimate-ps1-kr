@@ -1,0 +1,798 @@
+{
+"file": "ST/LIB/LIB.BIN",
+"alt_start": 16232,
+"items": [
+{
+"off": 16274,
+"en": "It's been a long",
+"cap": 16,
+"after": "010304",
+"newline_after": true,
+"ko": "오랜 세월이",
+"gap": "010304"
+},
+{
+"off": 16293,
+"en": "time, ",
+"cap": 6,
+"after": "11016f",
+"newline_after": true,
+"ko": "지났군, ",
+"gap": "1101"
+},
+{
+"off": 16301,
+"en": "old one...",
+"cap": 10,
+"after": "033011",
+"newline_after": true,
+"ko": "노인장...",
+"gap": "0330110206138bb220080105010111060b093aa40a0205"
+},
+{
+"off": 16334,
+"en": "Oh it's you,",
+"cap": 12,
+"after": "010304",
+"newline_after": true,
+"ko": "오, 당신은",
+"gap": "010304"
+},
+{
+"off": 16349,
+"en": "Master Alucard.",
+"cap": 15,
+"after": "010308",
+"newline_after": true,
+"ko": "알카드 도련님.",
+"gap": "0103080203"
+},
+{
+"off": 16369,
+"en": "What do you need?",
+"cap": 17,
+"after": "033006",
+"newline_after": true,
+"ko": "무얼 원하십니까?",
+"gap": "0330060500800b093aa50a0203"
+},
+{
+"off": 16399,
+"en": "I need your help.",
+"cap": 17,
+"after": "033011",
+"newline_after": true,
+"ko": "도움이 필요하오.",
+"gap": "03301103060501010b093aa60a0204"
+},
+{
+"off": 16431,
+"en": "Young master,",
+"cap": 13,
+"after": "010304",
+"newline_after": true,
+"ko": "도련님,",
+"gap": "0103040203"
+},
+{
+"off": 16449,
+"en": "I cannot aid one who",
+"cap": 20,
+"after": "010304",
+"newline_after": true,
+"ko": "주인님께 맞서는",
+"gap": "0103041104"
+},
+{
+"off": 16474,
+"en": "opposes the Master.",
+"cap": 19,
+"after": "033006",
+"newline_after": true,
+"ko": "분은 돕지 못합니다.",
+"gap": "0330060500800b093aa70a0203"
+},
+{
+"off": 16506,
+"en": "You won't go",
+"cap": 12,
+"after": "010304",
+"newline_after": true,
+"ko": "보답은",
+"gap": "010304"
+},
+{
+"off": 16521,
+"en": "unrewarded...",
+"cap": 13,
+"after": "033006",
+"newline_after": true,
+"ko": "하겠소...",
+"gap": "0330060501010b093aa80a11050203"
+},
+{
+"off": 16549,
+"en": "Really? ",
+"cap": 8,
+"after": "031049",
+"newline_after": false,
+"ko": "정말요? ",
+"gap": "0310"
+},
+{
+"off": 16559,
+"en": "In that case",
+"cap": 12,
+"after": "010304",
+"newline_after": true,
+"ko": "그렇다면야",
+"gap": "010304"
+},
+{
+"off": 16574,
+"en": "just tell me ",
+"cap": 13,
+"after": "020277",
+"newline_after": false,
+"ko": "필요한 걸 ",
+"gap": "0202"
+},
+{
+"off": 16589,
+"en": "what",
+"cap": 4,
+"after": "010304",
+"newline_after": true,
+"ko": " ",
+"gap": "010304"
+},
+{
+"off": 16596,
+"en": "you need.",
+"cap": 9,
+"after": "033011",
+"newline_after": true,
+"ko": "고르시죠.",
+"gap": "0330110906080b0f84411005100009000a0b0e833ff66484400ffc84411000093bb90a110711090b180817100d150f84400ee9000000822308800880000000832608800880ffff1820612126141913088b353005"
+},
+{
+"off": 16689,
+"en": "Ku",
+"cap": 2,
+"after": "01a4b7",
+"newline_after": true,
+"ko": "",
+"gap": "01a4b756a4b7567273656f27550110024374ac0174674ac674674ac6517b25e6d1627465411001436441293b80084b7567b441249b865b441249b863b2524236c56035423116015b1569362a47123460054674ac654462a4712346634462a4712346624654e540530c27c662523341532162736567435147214b2115674b7567b441249b864445147213b2a63445147213b2a6236524235403362736465ca4341e2423b17bc66431ba4272313654674ac654462a471234663434ba42721164434ba427211631125cae24155613"
+},
+{
+"off": 16896,
+"en": "TeE4Q",
+"cap": 5,
+"after": "0e2425",
+"newline_after": false,
+"ko": "",
+"gap": "0e24255613"
+},
+{
+"off": 16906,
+"en": "TeB",
+"cap": 3,
+"after": "15a451",
+"newline_after": true,
+"ko": "",
+"gap": "15a451331264b441249b864445147213b2a6443514352315"
+},
+{
+"off": 16933,
+"en": "eCQCR1VDE5",
+"cap": 10,
+"after": "104345",
+"newline_after": false,
+"ko": "",
+"gap": "10"
+},
+{
+"off": 16944,
+"en": "CE4[56Q",
+"cap": 7,
+"after": "123511",
+"newline_after": true,
+"ko": "",
+"gap": "123511c5531625c6531351042516"
+},
+{
+"off": 16965,
+"en": "DF*G",
+"cap": 4,
+"after": "123466",
+"newline_after": false,
+"ko": "",
+"gap": "1234663434b415247216"
+},
+{
+"off": 16979,
+"en": "TS",
+"cap": 2,
+"after": "143133",
+"newline_after": false,
+"ko": "",
+"gap": "14313315"
+},
+{
+"off": 16985,
+"en": "eE1E",
+"cap": 4,
+"after": "133156",
+"newline_after": false,
+"ko": "",
+"gap": "13"
+},
+{
+"off": 16990,
+"en": "1VC",
+"cap": 3,
+"after": "145114",
+"newline_after": false,
+"ko": "",
+"gap": "145114"
+},
+{
+"off": 16996,
+"en": "4cC%66b5",
+"cap": 8,
+"after": "112516",
+"newline_after": true,
+"ko": "",
+"gap": "11251625c5503646543134123315"
+},
+{
+"off": 17018,
+"en": "dDQG!K!",
+"cap": 7,
+"after": "156443",
+"newline_after": false,
+"ko": "",
+"gap": "15"
+},
+{
+"off": 17026,
+"en": "dCQCR%e",
+"cap": 7,
+"after": "155304",
+"newline_after": true,
+"ko": "",
+"gap": "1553042301"
+},
+{
+"off": 17038,
+"en": "vQR4R3",
+"cap": 6,
+"after": "1765c5",
+"newline_after": false,
+"ko": "",
+"gap": "1765c511"
+},
+{
+"off": 17048,
+"en": "DV5",
+"cap": 3,
+"after": "124be6",
+"newline_after": true,
+"ko": "",
+"gap": "124be66a4074560451324550c64eae5101664434ba427211"
+},
+{
+"off": 17075,
+"en": "fC",
+"cap": 2,
+"after": "133532",
+"newline_after": false,
+"ko": "",
+"gap": "13"
+},
+{
+"off": 17078,
+"en": "52Vd1R6tS",
+"cap": 9,
+"after": "115231",
+"newline_after": true,
+"ko": "",
+"gap": "115231167a4015b45142536369375560cae2425c64ea330ad65335a45131566530253076643153316843153326b15560a334550e6817b375511e2425c634401e811662341511"
+},
+{
+"off": 17157,
+"en": "\"Vd1S5hC",
+"cap": 8,
+"after": "153316",
+"newline_after": true,
+"ko": "",
+"gap": "1533168331236cb3755104345be67b4764510321234456c6216812"
+},
+{
+"off": 17192,
+"en": "jA1E5",
+"cap": 5,
+"after": "176643",
+"newline_after": false,
+"ko": "",
+"gap": "17"
+},
+{
+"off": 17198,
+"en": "fC",
+"cap": 2,
+"after": "152368",
+"newline_after": false,
+"ko": "",
+"gap": "15"
+},
+{
+"off": 17201,
+"en": "#hB",
+"cap": 3,
+"after": "05e693",
+"newline_after": true,
+"ko": "",
+"gap": "05e69320236b456716512334be67cb15510e510335be6511"
+},
+{
+"off": 17228,
+"en": "jC",
+"cap": 2,
+"after": "134535",
+"newline_after": false,
+"ko": "",
+"gap": "13"
+},
+{
+"off": 17231,
+"en": "E5gC",
+"cap": 4,
+"after": "153326",
+"newline_after": false,
+"ko": "",
+"gap": "153326a156c313"
+},
+{
+"off": 17242,
+"en": "kEgE",
+"cap": 4,
+"after": "13343a",
+"newline_after": true,
+"ko": "",
+"gap": "13343a4467e6712251122ea4213b3530034313"
+},
+{
+"off": 17265,
+"en": "E5gC",
+"cap": 4,
+"after": "153016",
+"newline_after": true,
+"ko": "",
+"gap": "153016ae6ca6bc252334324a4573682224531510"
+},
+{
+"off": 17289,
+"en": "FT",
+"cap": 2,
+"after": "120034",
+"newline_after": true,
+"ko": "",
+"gap": "12003431310a"
+},
+{
+"off": 17297,
+"en": "gC",
+"cap": 2,
+"after": "156ce6",
+"newline_after": true,
+"ko": "",
+"gap": "156ce6c116d1123540e51044736ae540334510"
+},
+{
+"off": 17318,
+"en": "EBe+",
+"cap": 4,
+"after": "172567",
+"newline_after": false,
+"ko": "",
+"gap": "17"
+},
+{
+"off": 17323,
+"en": "%gC",
+"cap": 3,
+"after": "135106",
+"newline_after": true,
+"ko": "",
+"gap": "135106743153016a156c116e31324ea40143636be5404101"
+},
+{
+"off": 17350,
+"en": "DT",
+"cap": 2,
+"after": "126344",
+"newline_after": true,
+"ko": "",
+"gap": "12634474a49b8664135423167431510a69156c116f112431051044536c513475732694464a17a34664234151325674315510"
+},
+{
+"off": 17402,
+"en": "gA",
+"cap": 2,
+"after": "056ce0",
+"newline_after": true,
+"ko": "",
+"gap": "056ce000"
+},
+{
+"off": 17408,
+"en": "AA@",
+"cap": 3,
+"after": "162547",
+"newline_after": false,
+"ko": "",
+"gap": "16"
+},
+{
+"off": 17412,
+"en": "%GWnB",
+"cap": 5,
+"after": "17a472",
+"newline_after": true,
+"ko": "",
+"gap": "17a47279162247214b2134663435b41512366234523116"
+},
+{
+"off": 17440,
+"en": "zE",
+"cap": 2,
+"after": "016931",
+"newline_after": true,
+"ko": "",
+"gap": "0169313001a4016a17a176d330a3266243523b2a372a1662231ba4272e664315"
+},
+{
+"off": 17474,
+"en": "A%gC",
+"cap": 4,
+"after": "155106",
+"newline_after": true,
+"ko": "",
+"gap": "1551067a15a00251116811"
+},
+{
+"off": 17489,
+"en": "mD",
+"cap": 2,
+"after": "023026",
+"newline_after": true,
+"ko": "",
+"gap": "0230263431247214252a1562435147214b236645b14513"
+},
+{
+"off": 17514,
+"en": "gS",
+"cap": 2,
+"after": "042316",
+"newline_after": true,
+"ko": "",
+"gap": "0423167234523110014202a00243036312a15a4513313634362a17ae6533ba42726623413132566435145121500133022003c664313412142511"
+},
+{
+"off": 17574,
+"en": "VD%%",
+"cap": 4,
+"after": "103316",
+"newline_after": true,
+"ko": "",
+"gap": "1033164435147214b2365435b4151e"
+},
+{
+"off": 17593,
+"en": "eU",
+"cap": 2,
+"after": "04b154",
+"newline_after": true,
+"ko": "",
+"gap": "04b154135000c812003c66ea42123312"
+},
+{
+"off": 17611,
+"en": "VT#%",
+"cap": 4,
+"after": "106543",
+"newline_after": true,
+"ko": "",
+"gap": "10654362a4712e64431ba427265453ba427215003e00e4313511d68510674252a241164435147214b2364435147214b23003c00ecae8110074232510654362a4712e644362a4712e02546011200c510674252a2411654252a24110281101a42325106742325100"
+},
+{
+"off": 17718,
+"en": "YQ",
+"cap": 2,
+"after": "06a510",
+"newline_after": true,
+"ko": "",
+"gap": "06a5100ff02eb354001b354046d6656145462715"
+},
+{
+"off": 17740,
+"en": "kV",
+"cap": 2,
+"after": "145473",
+"newline_after": false,
+"ko": "",
+"gap": "14"
+},
+{
+"off": 17743,
+"en": "Tse",
+"cap": 3,
+"after": "041590",
+"newline_after": true,
+"ko": "",
+"gap": "0415906416274565cb5506916274565c27365026d6049096f59263570b"
+},
+{
+"off": 17775,
+"en": "EC",
+"cap": 2,
+"after": "15b156",
+"newline_after": true,
+"ko": "",
+"gap": "15b1569570b4543155612716008d849090002a85916e49a93a9634675465423225606846754654232245451627160063a985916f4ca0d2a296b4a092c2ad63cb15530a423556066cb15530a3235504"
+},
+{
+"off": 17856,
+"en": "gaP",
+"cap": 3,
+"after": "054ca0",
+"newline_after": true,
+"ko": "",
+"gap": "054ca0d2a5906d2c5a3296a4c9c3dc2ad64ea235103242517b66ea235104"
+},
+{
+"off": 17889,
+"en": "$SEV",
+"cap": 4,
+"after": "025003",
+"newline_after": true,
+"ko": "",
+"gap": "0250032c5a3296d1d2c5a2296a2c2d1c2ad644541c511334252716664541c511"
+},
+{
+"off": 17925,
+"en": "3BU@U",
+"cap": 5,
+"after": "10011d",
+"newline_after": true,
+"ko": "",
+"gap": "10011d5c05a03ca296c2d3cb2a1c5a0d694dcd3ed2ad65ac51142343562736565ac511"
+},
+{
+"off": 17965,
+"en": "B4Ed",
+"cap": 4,
+"after": "1123c2",
+"newline_after": true,
+"ko": "",
+"gap": "1123c250001d2c5a12c2a296b4dbc1b2a2c2ad693dc2e1c2ad665102"
+},
+{
+"off": 17997,
+"en": "u@EeV",
+"cap": 5,
+"after": "015665",
+"newline_after": true,
+"ko": "",
+"gap": "01"
+},
+{
+"off": 18003,
+"en": "Ve",
+"cap": 2,
+"after": "102754",
+"newline_after": true,
+"ko": "",
+"gap": "102754015b15a33425c6e2d2c5a15c01a296a3dc5b23dc2ad682d1c2e1c2ad68c2725b345b2568c272556115ae2425c6c2e2c5a24cdc2ad692d3cb2a4bcd1c2ad684dcd4edc3a96924175613145516834627562511e24b126a2e2c5a33cd2c3a9693ed2b5a04dec3a9682d1c2e1d2ad69464627362a32425c68c2527ba12510334b12692e3dc5a53cd2cd682e4dba49a93ef2cd684eca4fec3a9684765312b1223a4245c6716540ebae5114356352681d2e3dc5a05913ac2d3c9675e01c2a5902f4ec9672e4caf4ecad67ba36122530510243516"
+},
+{
+"off": 18217,
+"en": "Tc!",
+"cap": 3,
+"after": "124e22",
+"newline_after": true,
+"ko": "",
+"gap": "124e22ea12a446512691c2d1c2a5908294ced3c9672e4dca59040df4ecad664edc4aed3ca2966416130182223510c2511634765a822c53012510"
+},
+{
+"off": 18278,
+"en": "FRj\\",
+"cap": 4,
+"after": "02a296",
+"newline_after": true,
+"ko": "",
+"gap": "02a296249cf2e39a662d2c3a9605d05a1652d3ca2c2a4ca96611"
+},
+{
+"off": 18308,
+"en": "dR",
+"cap": 2,
+"after": "0ab351",
+"newline_after": true,
+"ko": "",
+"gap": "0ab35162ba3619520512"
+},
+{
+"off": 18320,
+"en": "FRjY",
+"cap": 4,
+"after": "02ad63",
+"newline_after": true,
+"ko": "",
+"gap": "02ad6339a2f1e5a164d5a2d8d2c2a5c0d632c1a5912a4ca9000416"
+},
+{
+"off": 18351,
+"en": "td",
+"cap": 2,
+"after": "162416",
+"newline_after": true,
+"ko": "",
+"gap": "1624161301"
+},
+{
+"off": 18358,
+"en": "eB",
+"cap": 2,
+"after": "104175",
+"newline_after": false,
+"ko": "",
+"gap": "10"
+},
+{
+"off": 18361,
+"en": "AuG&i)Z",
+"cap": 7,
+"after": "03b963",
+"newline_after": true,
+"ko": "",
+"gap": "03b9634ace3ca5c0d635905a03c985902a5c0d"
+},
+{
+"off": 18387,
+"en": "bY",
+"cap": 2,
+"after": "01a591",
+"newline_after": true,
+"ko": "",
+"gap": "01a5911a2cd001"
+},
+{
+"off": 18396,
+"en": "Gd",
+"cap": 2,
+"after": "116411",
+"newline_after": false,
+"ko": "",
+"gap": "116411"
+},
+{
+"off": 18401,
+"en": "iB",
+"cap": 2,
+"after": "072217",
+"newline_after": true,
+"ko": "",
+"gap": "072217221769d5a02bd635911a5c0d63d5a14bc9105905a02cd63d2a293a92a4ca96fb34100243013536d295a03b9645902a2cd64d5a13c98295a02c2963d2ad5a12cd6c476745610053316fd5a03b9655905a03c963d5a12bd8295a01c2a1162d2ad5a24ca96a17a17a16005e00049a94ab966295a03c96349a95a04ba9849a92a4ca511949a93a95a14ca102d1a292ad665905a0d6339a295a2d81a292a4c51949a03a92ad5a01102d1a5903a967294a9ad6449095a0331605912a34162390294a914a93118583858385838583858385838583644a43293a967291a293316544542311929349231164413931423321879787978797879787978797879764550e2269d23443164550ca624916"
+},
+{
+"off": 18672,
+"en": "D1eS",
+"cap": 4,
+"after": "041543",
+"newline_after": true,
+"ko": "",
+"gap": "0415433160797879787978797879787978797625512433269e5502411625513416311b45416424a2544316079787978797879787978797879760376274654231268570b4541604"
+},
+{
+"off": 18747,
+"en": "vteA",
+"cap": 4,
+"after": "163476",
+"newline_after": false,
+"ko": "",
+"gap": "1634767b3516"
+},
+{
+"off": 18757,
+"en": "$eD",
+"cap": 3,
+"after": "176273",
+"newline_after": true,
+"ko": "",
+"gap": "1762736197978797879787978797879787976051768515605136451462516625838583858385838583858385830f3b3540055838583858385838583858385838583858385838583858362561354004"
+},
+{
+"off": 18839,
+"en": "yxyxyxyxyxyxyxyxyxyxyxyy",
+"cap": 24,
+"after": "162745",
+"newline_after": true,
+"ko": "",
+"gap": "16274565c825b27166b797879787978797879787978797879787978797879787979570b4543560572166a7978797879787978797879787978797879787978797879794675465423224545b476569797879787978797879787978797879787978797879787979cb15530a"
+},
+{
+"off": 18969,
+"en": "25PV",
+"cap": 4,
+"after": "035468",
+"newline_after": true,
+"ko": "",
+"gap": "0354685838583858385838583858385838583858385838583858362ea23510"
+},
+{
+"off": 19004,
+"en": "BE4[U",
+"cap": 5,
+"after": "0c05a4",
+"newline_after": false,
+"ko": "",
+"gap": "0c05a4541c5113"
+},
+{
+"off": 19016,
+"en": "4%FTU",
+"cap": 5,
+"after": "1c059a",
+"newline_after": true,
+"ko": "",
+"gap": "1c059ac511423415b35354015246558385838583858385838583858385838583858385838583635102754015560341232425e6479787978797879787978797879787978797879787978797655702"
+},
+{
+"off": 19099,
+"en": "Ua5E",
+"cap": 4,
+"after": "1023b3",
+"newline_after": true,
+"ko": "",
+"gap": "1023b353637978797879787978797879787978797879787978797879765c5705604754513560e637978797879787978797879787978797879787978797879766cb57045411251215b12637978797879787978797879787978797879787978797879766544421312512b12635838583858385838583858385838583858385838583858365152352253012510811b12057364520302531125101"
+},
+{
+"off": 19256,
+"en": "(Ag6pUF2",
+"cap": 8,
+"after": "119520",
+"newline_after": true,
+"ko": "",
+"gap": "119520511228415733695838583858385838583858385838583858385838583858394765a6542104"
+},
+{
+"off": 19304,
+"en": "#(G6cyxyxyxyxyxyxyxyxyxyxyxyv",
+"cap": 29,
+"after": "0ba361",
+"newline_after": true,
+"ko": "",
+"gap": "0ba361664202303817"
+},
+{
+"off": 19342,
+"en": "eyxyxyxyxyxyxyxyxyxyxyxyv",
+"cap": 25,
+"after": "041613",
+"newline_after": true,
+"ko": "",
+"gap": "04161301"
+},
+{
+"off": 19371,
+"en": "gC",
+"cap": 2,
+"after": "033046",
+"newline_after": false,
+"ko": "",
+"gap": "033046"
+}
+]
+}

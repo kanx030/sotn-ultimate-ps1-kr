@@ -1,0 +1,25 @@
+{
+ "file": "ST/NO4/NO4.BIN",
+ "items": [
+  {
+   "off": 5702,
+   "en": "Something appeared near\nto the wooden bridge．",
+   "cap": 46,
+   "path": "api",
+   "nl": "\u0001",
+   "ko": "나무 다리 근처에\n무언가가 나타났다.",
+   "orig": "536f6d657468696e67206170706561726564206e65617201746f2074686520776f6f64656e206272696467658144",
+   "limit": 184
+  },
+  {
+   "off": 266296,
+   "en": "Obtained ",
+   "cap": 9,
+   "path": "api",
+   "nl": "\u0001",
+   "ko": "마도기: ",
+   "orig": "4f627461696e656420",
+   "note": "relic orb prefix + relic name"
+  }
+ ]
+}

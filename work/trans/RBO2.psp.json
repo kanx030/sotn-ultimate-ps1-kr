@@ -1,0 +1,87 @@
+{
+"file": "BOSS/RBO2/RBO2.BIN",
+"script": "psp",
+"alt_start": 110084,
+"items": [
+{
+"off": 110110,
+"en": "So you've made",
+"cap": 14,
+"ko": "결국 여기까지",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 110127,
+"en": "it this far...",
+"cap": 14,
+"ko": "오셨구려...",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 110144,
+"en": "In the name of your",
+"cap": 19,
+"ko": "부친의 이름으로,",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 110166,
+"en": "father, cease this",
+"cap": 18,
+"ko": "이 어리석은 짓을",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 110187,
+"en": "foolishness.",
+"cap": 12,
+"ko": "멈추시오.",
+"gap": "03300b030a06138dd22224010500810b093aa00a0202",
+"newline_after": true
+},
+{
+"off": 110221,
+"en": "Not while there is",
+"cap": 18,
+"ko": "이 몸에 숨이",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 110242,
+"en": "breath in my body.",
+"cap": 18,
+"ko": "붙어 있는 한 안 된다.",
+"gap": "03300b030a060501000b093aa10a0202",
+"newline_after": true
+},
+{
+"off": 110276,
+"en": "Then, for the Master,",
+"cap": 21,
+"ko": "그렇다면 주인님을 위해",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 110300,
+"en": "I'll feast on your",
+"cap": 18,
+"ko": "오늘 밤 그대의",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 110321,
+"en": "soul this night!",
+"cap": 16,
+"ko": "영혼을 먹겠소!",
+"gap": "03300b",
+"newline_after": true
+}
+]
+}

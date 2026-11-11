@@ -1,0 +1,159 @@
+{
+"file": "BOSS/BO5/BO5.BIN",
+"script": "psp",
+"alt_start": 129100,
+"items": [
+{
+"off": 129129,
+"en": "You look like you're",
+"cap": 20,
+"ko": "제법 잘 해내고",
+"gap": "0111030304",
+"newline_after": true
+},
+{
+"off": 129154,
+"en": "doing well for",
+"cap": 14,
+"ko": "있는 것 같네요.",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 129171,
+"en": "yourself.",
+"cap": 9,
+"ko": " ",
+"gap": "033806138aa992280105000102042e2e2e2e2e2e2e2e2e010b09366f0a0202",
+"newline_after": true
+},
+{
+"off": 129211,
+"en": "...And? You",
+"cap": 11,
+"ko": "...그래서?",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 129225,
+"en": "didn't come here",
+"cap": 16,
+"ko": "칭찬하러 온 건",
+"gap": "0111040304",
+"newline_after": true
+},
+{
+"off": 129246,
+"en": "to flatter me.",
+"cap": 14,
+"ko": "아닐 텐데.",
+"gap": "03380b030a060501800b0937700a11050202",
+"newline_after": true
+},
+{
+"off": 129278,
+"en": "True.",
+"cap": 5,
+"ko": "맞아요.",
+"gap": "0111060304",
+"newline_after": true
+},
+{
+"off": 129288,
+"en": "Do you know the",
+"cap": 15,
+"ko": "리히터 벨몬드라는",
+"gap": "0111070304",
+"newline_after": true
+},
+{
+"off": 129308,
+"en": "name Richter Belmont?",
+"cap": 21,
+"ko": "이름 알아요?",
+"gap": "03380b030a060500010b0937710a110e0203",
+"newline_after": true
+},
+{
+"off": 129347,
+"en": "Belmont?",
+"cap": 8,
+"ko": "벨몬드?",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 129358,
+"en": "Of course. Why?",
+"cap": 15,
+"ko": "물론이다. 왜 묻지?",
+"gap": "03680b030a060501800b0937720a11080202",
+"newline_after": true
+},
+{
+"off": 129391,
+"en": "He disappeared",
+"cap": 14,
+"ko": "그가 1년쯤 전에",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 129408,
+"en": "about a year ago.",
+"cap": 17,
+"ko": "사라졌어요.",
+"gap": "0111090304",
+"newline_after": true
+},
+{
+"off": 129430,
+"en": "I'm sure he's here",
+"cap": 18,
+"ko": "분명 지금 여기 있어요.",
+"gap": "01110a0304",
+"newline_after": true
+},
+{
+"off": 129453,
+"en": "now. If you see him,",
+"cap": 20,
+"ko": "혹시 그를 보면",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 129476,
+"en": "please let me know.",
+"cap": 19,
+"ko": "알려 줘요.",
+"gap": "0368060500010b0937730a110b0202",
+"newline_after": true
+},
+{
+"off": 129510,
+"en": "As you wish, my lady.",
+"cap": 21,
+"ko": "분부대로 하지, 아가씨.",
+"gap": "0338060501800b0937740a110c0202",
+"newline_after": true
+},
+{
+"off": 129546,
+"en": "Hmm. A gentleman",
+"cap": 16,
+"ko": "흠. 역시 신사였네요.",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 129565,
+"en": "after all. Thank you.",
+"cap": 21,
+"ko": "고마워요.",
+"gap": "031011",
+"newline_after": false
+}
+]
+}

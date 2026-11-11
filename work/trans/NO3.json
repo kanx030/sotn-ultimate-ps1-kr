@@ -1,0 +1,186 @@
+{
+"file": "ST/NO3/NO3.BIN",
+"alt_start": 19680,
+"items": [
+{
+"off": 19715,
+"en": "Ah, ",
+"cap": 4,
+"after": "031002",
+"newline_after": false,
+"ko": "아, ",
+"gap": "03100204"
+},
+{
+"off": 19723,
+"en": "Alucard.",
+"cap": 8,
+"after": "010330",
+"newline_after": true,
+"ko": "알카드 님.",
+"gap": "0103300202"
+},
+{
+"off": 19736,
+"en": "What is your",
+"cap": 12,
+"after": "010304",
+"newline_after": true,
+"ko": "여긴 무슨",
+"gap": "010304"
+},
+{
+"off": 19751,
+"en": "business here?",
+"cap": 14,
+"after": "033006",
+"newline_after": true,
+"ko": "일로 오셨소?",
+"gap": "03300613911bb888010500010b0936600a0202"
+},
+{
+"off": 19784,
+"en": "I've come to put",
+"cap": 16,
+"after": "010304",
+"newline_after": true,
+"ko": "모든 일을",
+"gap": "010304"
+},
+{
+"off": 19803,
+"en": "an end to this.",
+"cap": 15,
+"after": "033006",
+"newline_after": true,
+"ko": "끝내러 왔다.",
+"gap": "0330060501800b0936610a11020204"
+},
+{
+"off": 19833,
+"en": "Still ",
+"cap": 6,
+"after": "020362",
+"newline_after": false,
+"ko": "아직도",
+"gap": "0203"
+},
+{
+"off": 19841,
+"en": "befriending",
+"cap": 11,
+"after": "010304",
+"newline_after": true,
+"ko": " 인간과",
+"gap": "010304"
+},
+{
+"off": 19855,
+"en": "mortals...",
+"cap": 10,
+"after": "010320",
+"newline_after": true,
+"ko": "어울리시는구려..",
+"gap": "0103200202"
+},
+{
+"off": 19870,
+"en": "I'll not ask you to",
+"cap": 19,
+"after": "010304",
+"newline_after": true,
+"ko": "우리에게 돌아오라곤",
+"gap": "0103040203"
+},
+{
+"off": 19894,
+"en": "return to our side.",
+"cap": 19,
+"after": "010328",
+"newline_after": true,
+"ko": "하지 않겠소.",
+"gap": "0103280202"
+},
+{
+"off": 19918,
+"en": "But I demand you",
+"cap": 16,
+"after": "010304",
+"newline_after": true,
+"ko": "하지만 적이 되는 건",
+"gap": "010304"
+},
+{
+"off": 19937,
+"en": "cease your attack.",
+"cap": 18,
+"after": "033006",
+"newline_after": true,
+"ko": "멈추시오.",
+"gap": "0330060500010b0936620a0205"
+},
+{
+"off": 19968,
+"en": "I will not.",
+"cap": 11,
+"after": "033006",
+"newline_after": true,
+"ko": "거절한다.",
+"gap": "0330060501800b0936630a11030204"
+},
+{
+"off": 19994,
+"en": "You shall regret",
+"cap": 16,
+"after": "010304",
+"newline_after": true,
+"ko": "그 말을 후회하게",
+"gap": "010304"
+},
+{
+"off": 20013,
+"en": "those words..",
+"cap": 13,
+"after": "010318",
+"newline_after": true,
+"ko": "되실 거요..",
+"gap": "0103180203"
+},
+{
+"off": 20031,
+"en": "We will ",
+"cap": 8,
+"after": "02046d",
+"newline_after": false,
+"ko": "다시 ",
+"gap": "0204"
+},
+{
+"off": 20041,
+"en": "meet again.",
+"cap": 11,
+"after": "033017",
+"newline_after": true,
+"ko": "만나게 될 거요.",
+"gap": "033017110406080b00000000205808800880000000215a0aa00778ffff000000"
+},
+{
+"off": 20084,
+"en": " `aecd",
+"cap": 6,
+"after": "12150f",
+"newline_after": true,
+"ko": "",
+"gap": "12150ff0ff4a681fc3f58e8443037c00"
+},
+{
+"off": 20106,
+"en": "Bw",
+"cap": 2,
+"after": "135940",
+"newline_after": false,
+"ko": "",
+"gap": "135940"
+}
+]
+}

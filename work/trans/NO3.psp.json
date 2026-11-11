@@ -1,0 +1,135 @@
+{
+"file": "ST/NO3/NO3.BIN",
+"script": "psp",
+"alt_start": 226480,
+"items": [
+{
+"off": 226513,
+"en": "Ah, Alucard. ",
+"cap": 13,
+"ko": "아, 알카드 님. ",
+"gap": "03",
+"newline_after": false
+},
+{
+"off": 226527,
+"en": "0What is",
+"cap": 8,
+"ko": "여긴",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 226538,
+"en": "your business here?",
+"cap": 19,
+"ko": "무슨 일로 오셨소?",
+"gap": "033c0b030a0613911bb888010500010b0936600a0202",
+"newline_after": true
+},
+{
+"off": 226579,
+"en": "I've come to put",
+"cap": 16,
+"ko": "이 모든 것을",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 226598,
+"en": "an end to this.",
+"cap": 15,
+"ko": "끝내러 왔다.",
+"gap": "03400b030a060501800b0936610a11020202",
+"newline_after": true
+},
+{
+"off": 226631,
+"en": "Ever the insolent",
+"cap": 17,
+"ko": "여전히 건방진",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 226651,
+"en": "boy... but there'll",
+"cap": 19,
+"ko": "애송이로군... 허나",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 226673,
+"en": "be no games here. If",
+"cap": 20,
+"ko": "장난은 용납 못 하오.",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 226696,
+"en": "you will not behave,",
+"cap": 20,
+"ko": "얌전히 있지 않을거라면",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 226719,
+"en": "begone.",
+"cap": 7,
+"ko": "썩 물러가시오.",
+"gap": "03780b030a060500010b0936620a0205",
+"newline_after": true
+},
+{
+"off": 226742,
+"en": "I will do neither.",
+"cap": 18,
+"ko": "거절한다.",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 226763,
+"en": "Step aside. old man.",
+"cap": 20,
+"ko": "비켜라, 늙은이.",
+"gap": "0330060501800b0936630a11030204",
+"newline_after": true
+},
+{
+"off": 226798,
+"en": "Ha! Such arrogance.",
+"cap": 19,
+"ko": "하! 오만하기는.",
+"gap": "0103",
+"newline_after": true
+},
+{
+"off": 226819,
+"en": "0Very well...",
+"cap": 13,
+"ko": "좋소...",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 226835,
+"en": "but I shall see you",
+"cap": 19,
+"ko": "허나 곧 다시",
+"gap": "0103",
+"newline_after": true
+},
+{
+"off": 226856,
+"en": "0very soon.",
+"cap": 11,
+"ko": "만나게 될 거요.",
+"gap": "033817",
+"newline_after": false
+}
+]
+}

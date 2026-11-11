@@ -1,0 +1,15 @@
+{
+ "file": "ST/RWRP/RWRP.BIN",
+ "items": [
+  {
+   "off": 53668,
+   "en": "Obtained ",
+   "cap": 9,
+   "path": "api",
+   "nl": "\u0001",
+   "ko": "마도기: ",
+   "orig": "4f627461696e656420",
+   "note": "relic orb prefix + relic name"
+  }
+ ]
+}

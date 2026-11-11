@@ -1,0 +1,55 @@
+{
+ "file": "BOSS/BO2/BO2.BIN",
+ "blocks": [
+  {
+   "voice": null,
+   "items": [
+    0
+   ],
+   "k_text": "",
+   "en": "Who are you!!"
+  },
+  {
+   "voice": "3996",
+   "items": [
+    1,
+    2,
+    3
+   ],
+   "k_text": "나의성을더럽히는/건방진파리를때려눕혀라!",
+   "en": "Open Hell's gate! / Come forth my / servants!"
+  },
+  {
+   "voice": "3997",
+   "items": [
+    4,
+    5,
+    6,
+    7
+   ],
+   "k_text": "",
+   "en": "The scent of your / blood... / You're a / Belmont!"
+  },
+  {
+   "voice": "3998",
+   "items": [
+    8,
+    9
+   ],
+   "k_text": "",
+   "en": "Crush this flea who / invades my castle!"
+  },
+  {
+   "voice": "399e",
+   "items": [
+    10,
+    11,
+    12,
+    13,
+    14
+   ],
+   "k_text": "",
+   "en": "I'm certain that was / a Belmont.  / So he / says he's the lord / of this castle..."
+  }
+ ]
+}

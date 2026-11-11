@@ -1,0 +1,119 @@
+{
+"file": "BOSS/MAR/MAR.BIN",
+"script": "psp",
+"alt_start": 43476,
+"items": [
+{
+"off": 43508,
+"en": "Wait. Are you human?",
+"cap": 20,
+"ko": "잠깐. 당신 인간이에요?",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 43531,
+"en": "What are you doing",
+"cap": 18,
+"ko": "여기서 뭐 하는",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 43552,
+"en": "here?",
+"cap": 5,
+"ko": "거예요?",
+"gap": "0338061381155ff00105008102042e2e2e2e2e2e2e2e2e010b0936650a0203",
+"newline_after": true
+},
+{
+"off": 43588,
+"en": "I've come to destroy",
+"cap": 20,
+"ko": "이 성을 파괴하러",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 43611,
+"en": "this castle.",
+"cap": 12,
+"ko": "왔다.",
+"gap": "0338060501000b0936660a11040203",
+"newline_after": true
+},
+{
+"off": 43638,
+"en": "Likewise.",
+"cap": 9,
+"ko": "저도 마찬가지예요.",
+"gap": "0111050310",
+"newline_after": true
+},
+{
+"off": 43652,
+"en": "I'm Maria.",
+"cap": 10,
+"ko": "전 마리아예요.",
+"gap": "01110611071108031803100310",
+"newline_after": true
+},
+{
+"off": 43675,
+"en": "...And you are?",
+"cap": 15,
+"ko": "...당신은요?",
+"gap": "03380605008102042e2e2e2e2e2e2e2e2e010b0936670a0204",
+"newline_after": true
+},
+{
+"off": 43715,
+"en": "...Alucard.",
+"cap": 11,
+"ko": "...알카드다.",
+"gap": "0338060501000b0936680a11090202",
+"newline_after": true
+},
+{
+"off": 43741,
+"en": "Well, if you're a",
+"cap": 17,
+"ko": "뭐, 말솜씨보다",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 43761,
+"en": "better swordsman than",
+"cap": 21,
+"ko": "칼솜씨가 낫다면",
+"gap": "01110a0304",
+"newline_after": true
+},
+{
+"off": 43787,
+"en": "a speaker, perhaps",
+"cap": 18,
+"ko": "어쩌면",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 43808,
+"en": "I'll see you again.",
+"cap": 19,
+"ko": "또 보게 되겠죠.",
+"gap": "01110b0304",
+"newline_after": true
+},
+{
+"off": 43832,
+"en": "Farewell.",
+"cap": 9,
+"ko": "그럼 안녕히.",
+"gap": "110c03",
+"newline_after": false
+}
+]
+}

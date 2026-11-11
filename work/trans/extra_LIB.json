@@ -1,0 +1,2507 @@
+{
+ "file": "ST/LIB/LIB.BIN",
+ "items": [
+  {
+   "off": 11578,
+   "en": "Mist could pass．",
+   "cap": 17,
+   "path": "api",
+   "nl": "\u0001",
+   "ko": "안개라면 간다.",
+   "orig": "4d69737420636f756c6420706173738144",
+   "limit": 124
+  },
+  {
+   "off": 11598,
+   "en": "I have nothing to do\nwith this wall．．．",
+   "cap": 41,
+   "path": "api",
+   "nl": "\u0001",
+   "ko": "이 벽은 나와는\n상관없다…",
+   "orig": "492068617665206e6f7468696e6720746f20646f017769746820746869732077616c6c814481448144",
+   "limit": 148
+  },
+  {
+   "off": 179092,
+   "en": "Skeleton with shield and\nspear． Guards key places．",
+   "cap": 52,
+   "path": "api",
+   "nl": "@",
+   "ko": "방패와 창을 든 해골.\n요충지를 지킨다.",
+   "orig": "536b656c65746f6e207769746820736869656c6420616e64407370656172814420477561726473206b657920706c616365738144",
+   "limit": 210
+  },
+  {
+   "off": 179148,
+   "en": "Beware of contact with this\nterrible spirit of death．",
+   "cap": 54,
+   "path": "api",
+   "nl": "@",
+   "ko": "가까이 가면 위험한\n무서운 죽음의 영혼.",
+   "orig": "426577617265206f6620636f6e7461637420776974682074686973407465727269626c6520737069726974206f662064656174688144",
+   "limit": 210
+  },
+  {
+   "off": 179204,
+   "en": "The light manipulating the\ncorpse is the true body．",
+   "cap": 52,
+   "path": "api",
+   "nl": "@",
+   "ko": "시체를 조종하는 빛이\n본체이다.",
+   "orig": "546865206c69676874206d616e6970756c6174696e672074686540636f7270736520697320746865207472756520626f64798144",
+   "limit": 210
+  },
+  {
+   "off": 179260,
+   "en": "Artificial beast made from\nvarious animal bones．",
+   "cap": 49,
+   "path": "api",
+   "nl": "@",
+   "ko": "여러 동물의 뼈로 만든\n인조 짐승.",
+   "orig": "4172746966696369616c206265617374206d6164652066726f6d40766172696f757320616e696d616c20626f6e65738144",
+   "limit": 210
+  },
+  {
+   "off": 179312,
+   "en": "Skeleton of a tracker who\nwalks with Skeleton Beasts．",
+   "cap": 54,
+   "path": "api",
+   "nl": "@",
+   "ko": "해골 짐승을 데리고 다니는\n추적자의 해골.",
+   "orig": "536b656c65746f6e206f66206120747261636b65722077686f4077616c6b73207769746820536b656c65746f6e204265617374738144",
+   "limit": 210
+  },
+  {
+   "off": 179368,
+   "en": "A desecrated soul whose\nhatred never fades．",
+   "cap": 44,
+   "path": "api",
+   "nl": "@",
+   "ko": "증오가 사라지지 않는\n더럽혀진 영혼.",
+   "orig": "41206465736563726174656420736f756c2077686f736540686174726564206e657665722066616465738144",
+   "limit": 210
+  },
+  {
+   "off": 179416,
+   "en": "An immaterial ghost． Only\nholy weapons can kill it．",
+   "cap": 53,
+   "path": "api",
+   "nl": "@",
+   "ko": "실체가 없는 유령.\n성스러운 무기만 통한다.",
+   "orig": "416e20696d6d6174657269616c2067686f73748144204f6e6c7940686f6c7920776561706f6e732063616e206b696c6c2069748144",
+   "limit": 210
+  },
+  {
+   "off": 179472,
+   "en": "Giant venus fly trap that\npreys on humans， not flies．",
+   "cap": 55,
+   "path": "api",
+   "nl": "@",
+   "ko": "파리가 아닌 인간을 먹는\n거대한 파리지옥.",
+   "orig": "4769616e742076656e757320666c7920747261702074686174407072657973206f6e2068756d616e738143206e6f7420666c6965738144",
+   "limit": 210
+  },
+  {
+   "off": 179528,
+   "en": "Jolly creature of the\nriver． Tastes like chicken．",
+   "cap": 51,
+   "path": "api",
+   "nl": "@",
+   "ko": "강에 사는 명랑한 괴물.\n치킨 맛이 난다.",
+   "orig": "4a6f6c6c79206372656174757265206f6620746865407269766572814420546173746573206c696b6520636869636b656e8144",
+   "limit": 210
+  },
+  {
+   "off": 179580,
+   "en": "Vampire hunter looking for\nRichter Belmont．",
+   "cap": 44,
+   "path": "api",
+   "nl": "@",
+   "ko": "리히터 벨몬드를 찾는\n뱀파이어 헌터.",
+   "orig": "56616d706972652068756e746572206c6f6f6b696e6720666f7240526963687465722042656c6d6f6e748144",
+   "limit": 210
+  },
+  {
+   "off": 179628,
+   "en": "Always smiling due to its\nfruitful， human－faced crop．",
+   "cap": 56,
+   "path": "api",
+   "nl": "@",
+   "ko": "사람 얼굴 열매가 풍성해\n늘 미소 짓고 있다.",
+   "orig": "416c7761797320736d696c696e672064756520746f2069747340667275697466756c81432068756d616e817c66616365642063726f708144",
+   "limit": 210
+  },
+  {
+   "off": 179688,
+   "en": "The castle’s mad gardener\nkills all who ruin the garden．",
+   "cap": 58,
+   "path": "api",
+   "nl": "@",
+   "ko": "성의 미친 정원사.\n정원을 망치면 죽인다.",
+   "orig": "54686520636173746c65816673206d61642067617264656e6572406b696c6c7320616c6c2077686f207275696e207468652067617264656e8144",
+   "limit": 210
+  },
+  {
+   "off": 179748,
+   "en": "Leader of skeleton soldiers．\nIts bones broke in a duel．",
+   "cap": 57,
+   "path": "api",
+   "nl": "@",
+   "ko": "해골 병사의 대장.\n결투에서 뼈가 부러졌다.",
+   "orig": "4c6561646572206f6620736b656c65746f6e20736f6c646965727381444049747320626f6e65732062726f6b6520696e2061206475656c8144",
+   "limit": 210
+  },
+  {
+   "off": 179808,
+   "en": "Angry demon． Literally，\na man who burns．",
+   "cap": 43,
+   "path": "api",
+   "nl": "@",
+   "ko": "분노한 악마.\n말 그대로 불타는 남자.",
+   "orig": "416e6772792064656d6f6e8144204c69746572616c6c7981434061206d616e2077686f206275726e738144",
+   "limit": 210
+  },
+  {
+   "off": 179852,
+   "en": "An antique piece that\nis very valuable．",
+   "cap": 40,
+   "path": "api",
+   "nl": "@",
+   "ko": "매우 가치가 높은\n골동품.",
+   "orig": "416e20616e7469717565207069656365207468617440697320766572792076616c7561626c658144",
+   "limit": 210
+  },
+  {
+   "off": 179896,
+   "en": "A living statue． The castle’s\ncrime prevention system．",
+   "cap": 57,
+   "path": "api",
+   "nl": "@",
+   "ko": "살아 있는 석상.\n성의 방범 장치.",
+   "orig": "41206c6976696e672073746174756581442054686520636173746c65816673406372696d652070726576656e74696f6e2073797374656d8144",
+   "limit": 210
+  },
+  {
+   "off": 179956,
+   "en": "Vampire hunter． ４ beasts\nof legend． Seeks Richter．",
+   "cap": 54,
+   "path": "api",
+   "nl": "@",
+   "ko": "뱀파이어 헌터. 전설의\n4마수. 리히터를 찾는다.",
+   "orig": "56616d706972652068756e746572814420825320626561737473406f66206c6567656e648144205365656b7320526963687465728144",
+   "limit": 210
+  },
+  {
+   "off": 180012,
+   "en": "Lord of Wallachia．\nFather of Alucard．",
+   "cap": 39,
+   "path": "api",
+   "nl": "@",
+   "ko": "발라키아의 영주.\n알카드의 아버지.",
+   "orig": "4c6f7264206f662057616c6c6163686961814440466174686572206f6620416c75636172648144",
+   "limit": 210
+  },
+  {
+   "off": 180052,
+   "en": "Dark Priest of Dracula．",
+   "cap": 24,
+   "path": "api",
+   "nl": "@",
+   "ko": "드라큘라의 사제.",
+   "orig": "4461726b20507269657374206f662044726163756c618144",
+   "limit": 210
+  },
+  {
+   "off": 180080,
+   "en": "Dracula’s close friend．",
+   "cap": 25,
+   "path": "api",
+   "nl": "@",
+   "ko": "드라큘라의 친구.",
+   "orig": "44726163756c6181667320636c6f736520667269656e648144",
+   "limit": 210
+  },
+  {
+   "off": 180108,
+   "en": "High level Armor Lord．",
+   "cap": 23,
+   "path": "api",
+   "nl": "@",
+   "ko": "상급 아머 로드.",
+   "orig": "48696768206c6576656c2041726d6f72204c6f72648144",
+   "limit": 210
+  },
+  {
+   "off": 180132,
+   "en": "Magical being with plan to \nrule the netherworld．",
+   "cap": 50,
+   "path": "api",
+   "nl": "@",
+   "ko": "명계를 지배하려는\n마법 생물.",
+   "orig": "4d61676963616c206265696e67207769746820706c616e20746f204072756c6520746865206e6574686572776f726c648144",
+   "limit": 210
+  },
+  {
+   "off": 180184,
+   "en": "Rare bird．\nRuns when it sees people．",
+   "cap": 38,
+   "path": "api",
+   "nl": "@",
+   "ko": "희귀한 새.\n사람을 보면 도망친다.",
+   "orig": "52617265206269726481444052756e73207768656e20697420736565732070656f706c658144",
+   "limit": 210
+  },
+  {
+   "off": 180224,
+   "en": "Master Vampire hunter．",
+   "cap": 23,
+   "path": "api",
+   "nl": "@",
+   "ko": "뱀파이어 헌터의 달인.",
+   "orig": "4d61737465722056616d706972652068756e7465728144",
+   "limit": 210
+  },
+  {
+   "off": 180248,
+   "en": "Young female witch．",
+   "cap": 20,
+   "path": "api",
+   "nl": "@",
+   "ko": "어린 마녀.",
+   "orig": "596f756e672066656d616c652077697463688144",
+   "limit": 210
+  },
+  {
+   "off": 180272,
+   "en": "New－half ice spirit．\nServant of Galamoth．",
+   "cap": 44,
+   "path": "api",
+   "nl": "@",
+   "ko": "얼음 정령.\n갈라모스의 부하.",
+   "orig": "4e6577817c68616c66206963652073706972697481444053657276616e74206f662047616c616d6f74688144",
+   "limit": 210
+  },
+  {
+   "off": 180320,
+   "en": "Executioner of Hell．",
+   "cap": 21,
+   "path": "api",
+   "nl": "@",
+   "ko": "지옥의 사형 집행인.",
+   "orig": "457865637574696f6e6572206f662048656c6c8144",
+   "limit": 210
+  },
+  {
+   "off": 180344,
+   "en": "Beelzebub Lord of Flies．",
+   "cap": 25,
+   "path": "api",
+   "nl": "@",
+   "ko": "파리의 왕 베르제브브.",
+   "orig": "4265656c7a65627562204c6f7264206f6620466c6965738144",
+   "limit": 210
+  },
+  {
+   "off": 180372,
+   "en": "Zombie impersonating Sypha．",
+   "cap": 28,
+   "path": "api",
+   "nl": "@",
+   "ko": "사이파로 변장한 좀비.",
+   "orig": "5a6f6d62696520696d706572736f6e6174696e672053797068618144",
+   "limit": 210
+  },
+  {
+   "off": 180404,
+   "en": "Mischievous little demon．",
+   "cap": 26,
+   "path": "api",
+   "nl": "@",
+   "ko": "장난꾸러기 꼬마 악마.",
+   "orig": "4d697363686965766f7573206c6974746c652064656d6f6e8144",
+   "limit": 210
+  },
+  {
+   "off": 180432,
+   "en": "Zombie impersonating Trevor．",
+   "cap": 29,
+   "path": "api",
+   "nl": "@",
+   "ko": "트레버로 변장한 좀비.",
+   "orig": "5a6f6d62696520696d706572736f6e6174696e6720547265766f728144",
+   "limit": 210
+  },
+  {
+   "off": 180464,
+   "en": "Zombie impersonating Grant．",
+   "cap": 28,
+   "path": "api",
+   "nl": "@",
+   "ko": "그랜트로 변장한 좀비.",
+   "orig": "5a6f6d62696520696d706572736f6e6174696e67204772616e748144",
+   "limit": 210
+  },
+  {
+   "off": 180496,
+   "en": "Made from the body parts \nof powerful warriors．",
+   "cap": 48,
+   "path": "api",
+   "nl": "@",
+   "ko": "강한 전사들의 몸을\n이어 붙여 만들었다.",
+   "orig": "4d6164652066726f6d2074686520626f647920706172747320406f6620706f77657266756c2077617272696f72738144",
+   "limit": 210
+  },
+  {
+   "off": 180548,
+   "en": "Snake－headed demoness \nwith gaze of stone．",
+   "cap": 44,
+   "path": "api",
+   "nl": "@",
+   "ko": "뱀 머리의 마녀.\n눈빛으로 돌로 만든다.",
+   "orig": "536e616b65817c6865616465642064656d6f6e6573732040776974682067617a65206f662073746f6e658144",
+   "limit": 210
+  },
+  {
+   "off": 180596,
+   "en": "Advanced Venus Weed．\nFed with demon blood．",
+   "cap": 44,
+   "path": "api",
+   "nl": "@",
+   "ko": "비너스 위드의 상위종.\n악마의 피를 먹었다.",
+   "orig": "416476616e6365642056656e7573205765656481444046656420776974682064656d6f6e20626c6f6f648144",
+   "limit": 210
+  },
+  {
+   "off": 180644,
+   "en": "Ancient egyptian mummy．",
+   "cap": 24,
+   "path": "api",
+   "nl": "@",
+   "ko": "고대 이집트의 미라.",
+   "orig": "416e6369656e7420656779707469616e206d756d6d798144",
+   "limit": 210
+  },
+  {
+   "off": 180672,
+   "en": "Gruesome Demon from Hell．",
+   "cap": 26,
+   "path": "api",
+   "nl": "@",
+   "ko": "지옥의 흉측한 악마.",
+   "orig": "47727565736f6d652044656d6f6e2066726f6d2048656c6c8144",
+   "limit": 210
+  },
+  {
+   "off": 180700,
+   "en": "Armor plated war－beast．",
+   "cap": 25,
+   "path": "api",
+   "nl": "@",
+   "ko": "갑옷을 두른 전투 짐승.",
+   "orig": "41726d6f7220706c6174656420776172817c62656173748144",
+   "limit": 210
+  },
+  {
+   "off": 180728,
+   "en": "Flame demon．",
+   "cap": 13,
+   "path": "api",
+   "nl": "@",
+   "ko": "불꽃 악마.",
+   "orig": "466c616d652064656d6f6e8144",
+   "limit": 210
+  },
+  {
+   "off": 180744,
+   "en": "Evil mutated octopus．",
+   "cap": 22,
+   "path": "api",
+   "nl": "@",
+   "ko": "사악한 변이 문어.",
+   "orig": "4576696c206d757461746564206f63746f7075738144",
+   "limit": 210
+  },
+  {
+   "off": 180768,
+   "en": "Pre－intelligent bloodsucker \nwith long tongue for sucking．",
+   "cap": 60,
+   "path": "api",
+   "nl": "@",
+   "ko": "긴 혀로 피를 빠는\n원시적인 흡혈 생물.",
+   "orig": "507265817c696e74656c6c6967656e7420626c6f6f647375636b6572204077697468206c6f6e6720746f6e67756520666f72207375636b696e678144",
+   "limit": 210
+  },
+  {
+   "off": 180832,
+   "en": "Skeleton mounted on Warg．",
+   "cap": 26,
+   "path": "api",
+   "nl": "@",
+   "ko": "와그를 탄 해골.",
+   "orig": "536b656c65746f6e206d6f756e746564206f6e20576172678144",
+   "limit": 210
+  },
+  {
+   "off": 180860,
+   "en": "Skeleton with leaping attack．",
+   "cap": 30,
+   "path": "api",
+   "nl": "@",
+   "ko": "뛰어올라 공격하는 해골.",
+   "orig": "536b656c65746f6e2077697468206c656170696e672061747461636b8144",
+   "limit": 210
+  },
+  {
+   "off": 180892,
+   "en": "Angel archer．\nSlew Amalaric of the Goths．",
+   "cap": 43,
+   "path": "api",
+   "nl": "@",
+   "ko": "천사 궁수.\n고트족 아말라릭을 죽였다.",
+   "orig": "416e67656c20617263686572814440536c657720416d616c61726963206f662074686520476f7468738144",
+   "limit": 210
+  },
+  {
+   "off": 180936,
+   "en": "Rock－tossing armored \nknight．",
+   "cap": 31,
+   "path": "api",
+   "nl": "@",
+   "ko": "바위를 던지는\n갑옷 기사.",
+   "orig": "526f636b817c746f7373696e672061726d6f72656420406b6e696768748144",
+   "limit": 210
+  },
+  {
+   "off": 180968,
+   "en": "Fireball－spitting wolf．",
+   "cap": 25,
+   "path": "api",
+   "nl": "@",
+   "ko": "화염구를 뿜는 늑대.",
+   "orig": "4669726562616c6c817c7370697474696e6720776f6c668144",
+   "limit": 210
+  },
+  {
+   "off": 180996,
+   "en": "Animated skeleton of huge \ndragon．",
+   "cap": 35,
+   "path": "api",
+   "nl": "@",
+   "ko": "움직이는 거대한\n용의 해골.",
+   "orig": "416e696d6174656420736b656c65746f6e206f6620687567652040647261676f6e8144",
+   "limit": 210
+  },
+  {
+   "off": 181032,
+   "en": "Wyrm controlled by Flea Man．",
+   "cap": 29,
+   "path": "api",
+   "nl": "@",
+   "ko": "플리 맨이 조종하는 비룡.",
+   "orig": "5779726d20636f6e74726f6c6c656420627920466c6561204d616e8144",
+   "limit": 210
+  },
+  {
+   "off": 181064,
+   "en": "Wields fearsome beam \nweapon．",
+   "cap": 30,
+   "path": "api",
+   "nl": "@",
+   "ko": "무시무시한 광선\n무기를 쓴다.",
+   "orig": "5769656c64732066656172736f6d65206265616d2040776561706f6e8144",
+   "limit": 210
+  },
+  {
+   "off": 181096,
+   "en": "Half－man， half－bull．",
+   "cap": 24,
+   "path": "api",
+   "nl": "@",
+   "ko": "반은 인간, 반은 소.",
+   "orig": "48616c66817c6d616e81432068616c66817c62756c6c8144",
+   "limit": 210
+  },
+  {
+   "off": 181124,
+   "en": "White dragon ridden by Flea \nMan．",
+   "cap": 34,
+   "path": "api",
+   "nl": "@",
+   "ko": "플리 맨이 탄 백룡.",
+   "orig": "576869746520647261676f6e2072696464656e20627920466c656120404d616e8144",
+   "limit": 210
+  },
+  {
+   "off": 181160,
+   "en": "Giant vampire bat．",
+   "cap": 19,
+   "path": "api",
+   "nl": "@",
+   "ko": "거대 흡혈 박쥐.",
+   "orig": "4769616e742076616d70697265206261748144",
+   "limit": 210
+  },
+  {
+   "off": 181180,
+   "en": "Liquid creature．\nTakes black panther shape．",
+   "cap": 45,
+   "path": "api",
+   "nl": "@",
+   "ko": "액체 생물.\n검은 표범 모습을 한다.",
+   "orig": "4c697175696420637265617475726581444054616b657320626c61636b2070616e746865722073686170658144",
+   "limit": 210
+  },
+  {
+   "off": 181228,
+   "en": "Half－man， half－wolf．",
+   "cap": 24,
+   "path": "api",
+   "nl": "@",
+   "ko": "반은 인간, 반은 늑대.",
+   "orig": "48616c66817c6d616e81432068616c66817c776f6c668144",
+   "limit": 210
+  },
+  {
+   "off": 181256,
+   "en": "Fiendishly accurate archer．",
+   "cap": 28,
+   "path": "api",
+   "nl": "@",
+   "ko": "무서울 만큼 정확한 궁수.",
+   "orig": "4669656e646973686c79206163637572617465206172636865728144",
+   "limit": 210
+  },
+  {
+   "off": 181288,
+   "en": "Expert at throwing weapons．",
+   "cap": 28,
+   "path": "api",
+   "nl": "@",
+   "ko": "무기 던지기의 달인.",
+   "orig": "457870657274206174207468726f77696e6720776561706f6e738144",
+   "limit": 210
+  },
+  {
+   "off": 181320,
+   "en": "Mutated insect．\nVisible only to magicians．",
+   "cap": 44,
+   "path": "api",
+   "nl": "@",
+   "ko": "변이된 곤충.\n마법사에게만 보인다.",
+   "orig": "4d75746174656420696e7365637481444056697369626c65206f6e6c7920746f206d6167696369616e738144",
+   "limit": 210
+  },
+  {
+   "off": 181368,
+   "en": "Zombies which attack even \nwhen cut in half．",
+   "cap": 45,
+   "path": "api",
+   "nl": "@",
+   "ko": "반으로 잘려도\n공격해 오는 좀비.",
+   "orig": "5a6f6d626965732077686963682061747461636b206576656e20407768656e2063757420696e2068616c668144",
+   "limit": 210
+  },
+  {
+   "off": 181416,
+   "en": "Bomb－tossing armored \nknight．",
+   "cap": 31,
+   "path": "api",
+   "nl": "@",
+   "ko": "폭탄을 던지는\n갑옷 기사.",
+   "orig": "426f6d62817c746f7373696e672061726d6f72656420406b6e696768748144",
+   "limit": 210
+  },
+  {
+   "off": 181448,
+   "en": "Skeleton eternally chasing \nhis own skull．",
+   "cap": 43,
+   "path": "api",
+   "nl": "@",
+   "ko": "제 해골을 영원히\n쫓아다니는 해골.",
+   "orig": "536b656c65746f6e20657465726e616c6c792063686173696e672040686973206f776e20736b756c6c8144",
+   "limit": 210
+  },
+  {
+   "off": 181492,
+   "en": "Holds countless poison seeds．",
+   "cap": 30,
+   "path": "api",
+   "nl": "@",
+   "ko": "무수한 독 씨앗을 품었다.",
+   "orig": "486f6c647320636f756e746c65737320706f69736f6e2073656564738144",
+   "limit": 210
+  },
+  {
+   "off": 181524,
+   "en": "Heartless tin man．",
+   "cap": 19,
+   "path": "api",
+   "nl": "@",
+   "ko": "심장 없는 양철 인간",
+   "orig": "48656172746c6573732074696e206d616e8144",
+   "limit": 210
+  },
+  {
+   "off": 181544,
+   "en": "Monster nicknamed ””schmoo””．",
+   "cap": 34,
+   "path": "api",
+   "nl": "@",
+   "ko": "쉬무라 불리는 괴물.",
+   "orig": "4d6f6e73746572206e69636b6e616d656420816881687363686d6f6f816881688144",
+   "limit": 210
+  },
+  {
+   "off": 181580,
+   "en": "Nightmarish creature．\nComposed of many．",
+   "cap": 41,
+   "path": "api",
+   "nl": "@",
+   "ko": "악몽 같은 괴물.\n많은 것이 합쳐졌다.",
+   "orig": "4e696768746d6172697368206372656174757265814440436f6d706f736564206f66206d616e798144",
+   "limit": 210
+  },
+  {
+   "off": 181624,
+   "en": "Impaled man looking for brains．",
+   "cap": 32,
+   "path": "api",
+   "nl": "@",
+   "ko": "뇌를 찾는 꼬챙이 인간.",
+   "orig": "496d70616c6564206d616e206c6f6f6b696e6720666f7220627261696e738144",
+   "limit": 210
+  },
+  {
+   "off": 181660,
+   "en": "The cowardly lion．",
+   "cap": 19,
+   "path": "api",
+   "nl": "@",
+   "ko": "겁쟁이 사자.",
+   "orig": "54686520636f776172646c79206c696f6e8144",
+   "limit": 210
+  },
+  {
+   "off": 181680,
+   "en": "Watered with human blood．",
+   "cap": 26,
+   "path": "api",
+   "nl": "@",
+   "ko": "사람의 피로 키워졌다.",
+   "orig": "5761746572656420776974682068756d616e20626c6f6f648144",
+   "limit": 210
+  },
+  {
+   "off": 181708,
+   "en": "Gravestones possessed by \nevil spirits of dead．",
+   "cap": 48,
+   "path": "api",
+   "nl": "@",
+   "ko": "죽은 자의 악령이\n깃든 묘비.",
+   "orig": "477261766573746f6e657320706f7373657373656420627920406576696c2073706972697473206f6620646561648144",
+   "limit": 210
+  },
+  {
+   "off": 181760,
+   "en": "Female demon．\nInvades men’s dreams．",
+   "cap": 38,
+   "path": "api",
+   "nl": "@",
+   "ko": "여자 악마.\n남자의 꿈에 들어온다.",
+   "orig": "46656d616c652064656d6f6e814440496e7661646573206d656e81667320647265616d738144",
+   "limit": 210
+  },
+  {
+   "off": 181800,
+   "en": "Magic－wielding vampire．\nRules upper part of castle．",
+   "cap": 54,
+   "path": "api",
+   "nl": "@",
+   "ko": "마법을 쓰는 흡혈귀.\n성의 위쪽을 지배한다.",
+   "orig": "4d61676963817c7769656c64696e672076616d7069726581444052756c65732075707065722070617274206f6620636173746c658144",
+   "limit": 210
+  },
+  {
+   "off": 181856,
+   "en": "Master Fish－head．",
+   "cap": 19,
+   "path": "api",
+   "nl": "@",
+   "ko": "어인의 우두머리.",
+   "orig": "4d61737465722046697368817c686561648144",
+   "limit": 210
+  },
+  {
+   "off": 181876,
+   "en": "Watchdog of Hell．",
+   "cap": 18,
+   "path": "api",
+   "nl": "@",
+   "ko": "지옥의 파수견.",
+   "orig": "5761746368646f67206f662048656c6c8144",
+   "limit": 210
+  },
+  {
+   "off": 181896,
+   "en": "Thunder－wielding demon．\nCalled ””Musician from Hell””．",
+   "cap": 61,
+   "path": "api",
+   "nl": "@",
+   "ko": "번개를 다루는 악마.\n지옥의 음악가라 불린다.",
+   "orig": "5468756e646572817c7769656c64696e672064656d6f6e81444043616c6c656420816881684d7573696369616e2066726f6d2048656c6c816881688144",
+   "limit": 210
+  },
+  {
+   "off": 181960,
+   "en": "Monster created from slimy \ngel substance．",
+   "cap": 43,
+   "path": "api",
+   "nl": "@",
+   "ko": "점액질 젤로\n만들어진 괴물.",
+   "orig": "4d6f6e7374657220637265617465642066726f6d20736c696d79204067656c207375627374616e63658144",
+   "limit": 210
+  },
+  {
+   "off": 182004,
+   "en": "Demon Lord of Ravens．",
+   "cap": 22,
+   "path": "api",
+   "nl": "@",
+   "ko": "까마귀의 마왕.",
+   "orig": "44656d6f6e204c6f7264206f6620526176656e738144",
+   "limit": 210
+  },
+  {
+   "off": 182028,
+   "en": "Discus－wielding armored \nknight．",
+   "cap": 34,
+   "path": "api",
+   "nl": "@",
+   "ko": "원반을 쓰는\n갑옷 기사.",
+   "orig": "446973637573817c7769656c64696e672061726d6f72656420406b6e696768748144",
+   "limit": 210
+  },
+  {
+   "off": 182064,
+   "en": "Giant brother．\nUses huge steel hammer．",
+   "cap": 40,
+   "path": "api",
+   "nl": "@",
+   "ko": "거인 형제.\n거대한 쇠망치를 쓴다.",
+   "orig": "4769616e742062726f7468657281444055736573206875676520737465656c2068616d6d65728144",
+   "limit": 210
+  },
+  {
+   "off": 182108,
+   "en": "Giant brother．\nWields a gurkha knife．",
+   "cap": 39,
+   "path": "api",
+   "nl": "@",
+   "ko": "거인 형제.\n구르카 칼을 휘두른다.",
+   "orig": "4769616e742062726f746865728144405769656c64732061206775726b6861206b6e6966658144",
+   "limit": 210
+  },
+  {
+   "off": 182148,
+   "en": "Eldest Giant brother．\nWields two huge daggers．",
+   "cap": 48,
+   "path": "api",
+   "nl": "@",
+   "ko": "거인 형제의 장남.\n거대한 단검 두 자루를 쓴다.",
+   "orig": "456c64657374204769616e742062726f746865728144405769656c64732074776f206875676520646167676572738144",
+   "limit": 210
+  },
+  {
+   "off": 182200,
+   "en": "Ghost witches from Salem．",
+   "cap": 26,
+   "path": "api",
+   "nl": "@",
+   "ko": "세일럼의 유령 마녀.",
+   "orig": "47686f737420776974636865732066726f6d2053616c656d8144",
+   "limit": 210
+  },
+  {
+   "off": 182228,
+   "en": "Searches among graves and \nknows much wise lore．",
+   "cap": 49,
+   "path": "api",
+   "nl": "@",
+   "ko": "무덤을 뒤지는 자.\n지식이 풍부하다.",
+   "orig": "536561726368657320616d6f6e672067726176657320616e6420406b6e6f7773206d7563682077697365206c6f72658144",
+   "limit": 210
+  },
+  {
+   "off": 182280,
+   "en": "Short magic－wielding demon．\nSummons demonic allies．",
+   "cap": 54,
+   "path": "api",
+   "nl": "@",
+   "ko": "마법을 쓰는 작은 악마.\n동료 악마를 부른다.",
+   "orig": "53686f7274206d61676963817c7769656c64696e672064656d6f6e81444053756d6d6f6e732064656d6f6e696320616c6c6965738144",
+   "limit": 210
+  },
+  {
+   "off": 182336,
+   "en": "Fish head guardian．",
+   "cap": 20,
+   "path": "api",
+   "nl": "@",
+   "ko": "어인 수호자.",
+   "orig": "46697368206865616420677561726469616e8144",
+   "limit": 210
+  },
+  {
+   "off": 182360,
+   "en": "Mysterious cloaked \nswordsman．",
+   "cap": 31,
+   "path": "api",
+   "nl": "@",
+   "ko": "망토를 두른\n수수께끼의 검사.",
+   "orig": "4d7973746572696f757320636c6f616b6564204073776f7264736d616e8144",
+   "limit": 210
+  },
+  {
+   "off": 182392,
+   "en": "Bloodthirsty undead knight \nwho eternally seeks combat．",
+   "cap": 56,
+   "path": "api",
+   "nl": "@",
+   "ko": "영원히 싸움을 찾는\n피에 굶주린 망자 기사.",
+   "orig": "426c6f6f647468697273747920756e64656164206b6e69676874204077686f20657465726e616c6c79207365656b7320636f6d6261748144",
+   "limit": 210
+  },
+  {
+   "off": 182452,
+   "en": "Portable skull shrine carried \nby skeleton priests．",
+   "cap": 52,
+   "path": "api",
+   "nl": "@",
+   "ko": "해골 사제들이 메고 다니는\n해골 사당.",
+   "orig": "506f727461626c6520736b756c6c20736872696e6520636172726965642040627920736b656c65746f6e20707269657374738144",
+   "limit": 210
+  },
+  {
+   "off": 182508,
+   "en": "Shape－shifting lycanthrope．",
+   "cap": 29,
+   "path": "api",
+   "nl": "@",
+   "ko": "모습을 바꾸는 수인.",
+   "orig": "5368617065817c7368696674696e67206c7963616e7468726f70658144",
+   "limit": 210
+  },
+  {
+   "off": 182540,
+   "en": "Bull－headed monster．",
+   "cap": 22,
+   "path": "api",
+   "nl": "@",
+   "ko": "소 머리의 괴물.",
+   "orig": "42756c6c817c686561646564206d6f6e737465728144",
+   "limit": 210
+  },
+  {
+   "off": 182564,
+   "en": "Creature with head of \nwoman and body of bird．",
+   "cap": 47,
+   "path": "api",
+   "nl": "@",
+   "ko": "여자의 머리에\n새의 몸을 가진 괴물.",
+   "orig": "437265617475726520776974682068656164206f662040776f6d616e20616e6420626f6479206f6620626972648144",
+   "limit": 210
+  },
+  {
+   "off": 182612,
+   "en": "Pyromaniacal gremlin．",
+   "cap": 22,
+   "path": "api",
+   "nl": "@",
+   "ko": "불장난을 좋아하는 악마",
+   "orig": "5079726f6d616e696163616c206772656d6c696e8144",
+   "limit": 210
+  },
+  {
+   "off": 182636,
+   "en": "Grave Keeper．\nMaster of unarmed combat．",
+   "cap": 41,
+   "path": "api",
+   "nl": "@",
+   "ko": "묘지기.\n맨손 격투의 달인.",
+   "orig": "4772617665204b65657065728144404d6173746572206f6620756e61726d656420636f6d6261748144",
+   "limit": 210
+  },
+  {
+   "off": 182680,
+   "en": "Were panther skeleton．",
+   "cap": 23,
+   "path": "api",
+   "nl": "@",
+   "ko": "표범 수인의 해골.",
+   "orig": "576572652070616e7468657220736b656c65746f6e8144",
+   "limit": 210
+  },
+  {
+   "off": 182704,
+   "en": "Master of twin－bladed \ncombat．",
+   "cap": 32,
+   "path": "api",
+   "nl": "@",
+   "ko": "쌍검술의 달인.",
+   "orig": "4d6173746572206f66207477696e817c626c616465642040636f6d6261748144",
+   "limit": 210
+  },
+  {
+   "off": 182740,
+   "en": "Monster made from gel．",
+   "cap": 23,
+   "path": "api",
+   "nl": "@",
+   "ko": "젤로 만든 괴물.",
+   "orig": "4d6f6e73746572206d6164652066726f6d2067656c8144",
+   "limit": 210
+  },
+  {
+   "off": 182764,
+   "en": "Giant skeleton．",
+   "cap": 16,
+   "path": "api",
+   "nl": "@",
+   "ko": "거대한 해골.",
+   "orig": "4769616e7420736b656c65746f6e8144",
+   "limit": 210
+  },
+  {
+   "off": 182784,
+   "en": "Part horse， lion and eagle．",
+   "cap": 29,
+   "path": "api",
+   "nl": "@",
+   "ko": "말・사자・독수리의 합성수.",
+   "orig": "5061727420686f7273658143206c696f6e20616e64206561676c658144",
+   "limit": 210
+  },
+  {
+   "off": 182816,
+   "en": "Flea Man armed with axe and\nshield．",
+   "cap": 36,
+   "path": "api",
+   "nl": "@",
+   "ko": "도끼와 방패를 든\n플리 맨.",
+   "orig": "466c6561204d616e2061726d656420776974682061786520616e6440736869656c648144",
+   "limit": 210
+  },
+  {
+   "off": 182856,
+   "en": "Sword Lord wields sword \neven when banished．",
+   "cap": 45,
+   "path": "api",
+   "nl": "@",
+   "ko": "봉인되어도 검을\n휘두르는 소드 로드.",
+   "orig": "53776f7264204c6f7264207769656c64732073776f726420406576656e207768656e2062616e69736865648144",
+   "limit": 210
+  },
+  {
+   "off": 182904,
+   "en": "Heavily armored knight \nAttacks with trained owl．",
+   "cap": 50,
+   "path": "api",
+   "nl": "@",
+   "ko": "중무장한 기사.\n길들인 올빼미로 공격한다.",
+   "orig": "48656176696c792061726d6f726564206b6e69676874204041747461636b73207769746820747261696e6564206f776c8144",
+   "limit": 210
+  },
+  {
+   "off": 182956,
+   "en": "Animated mud golem．",
+   "cap": 20,
+   "path": "api",
+   "nl": "@",
+   "ko": "움직이는 진흙 인형.",
+   "orig": "416e696d61746564206d756420676f6c656d8144",
+   "limit": 210
+  },
+  {
+   "off": 182980,
+   "en": "Invisible huntress spirit．",
+   "cap": 27,
+   "path": "api",
+   "nl": "@",
+   "ko": "보이지 않는 사냥꾼 정령.",
+   "orig": "496e76697369626c652068756e7472657373207370697269748144",
+   "limit": 210
+  },
+  {
+   "off": 183008,
+   "en": "Mythological sea monster．",
+   "cap": 26,
+   "path": "api",
+   "nl": "@",
+   "ko": "신화 속 바다 괴물.",
+   "orig": "4d7974686f6c6f676963616c20736561206d6f6e737465728144",
+   "limit": 210
+  },
+  {
+   "off": 183036,
+   "en": "Naginata－wielding skeleton．",
+   "cap": 29,
+   "path": "api",
+   "nl": "@",
+   "ko": "나기나타를 든 해골.",
+   "orig": "4e6167696e617461817c7769656c64696e6720736b656c65746f6e8144",
+   "limit": 210
+  },
+  {
+   "off": 183068,
+   "en": "Evil demon－sword． Causes \npoltergeist phenomena．",
+   "cap": 51,
+   "path": "api",
+   "nl": "@",
+   "ko": "사악한 마검.\n폴터가이스트를 일으킨다.",
+   "orig": "4576696c2064656d6f6e817c73776f72648144204361757365732040706f6c7465726765697374207068656e6f6d656e618144",
+   "limit": 210
+  },
+  {
+   "off": 183120,
+   "en": "Flea Man riding on specially \ntrained war－goose．",
+   "cap": 50,
+   "path": "api",
+   "nl": "@",
+   "ko": "특별히 길들인 군용 거위를\n탄 플리 맨.",
+   "orig": "466c6561204d616e20726964696e67206f6e207370656369616c6c792040747261696e656420776172817c676f6f73658144",
+   "limit": 210
+  },
+  {
+   "off": 183172,
+   "en": "Skeleton equipped with \nspiked iron flail．",
+   "cap": 43,
+   "path": "api",
+   "nl": "@",
+   "ko": "가시 쇠도리깨를 든\n해골.",
+   "orig": "536b656c65746f6e206571756970706564207769746820407370696b65642069726f6e20666c61696c8144",
+   "limit": 210
+  },
+  {
+   "off": 183216,
+   "en": "Spirit of long－dead blue \nraven．",
+   "cap": 34,
+   "path": "api",
+   "nl": "@",
+   "ko": "오래전 죽은\n푸른 까마귀의 영혼.",
+   "orig": "537069726974206f66206c6f6e67817c6465616420626c75652040726176656e8144",
+   "limit": 210
+  },
+  {
+   "off": 183252,
+   "en": "Flesh－eating raven．",
+   "cap": 21,
+   "path": "api",
+   "nl": "@",
+   "ko": "고기를 먹는 까마귀.",
+   "orig": "466c657368817c656174696e6720726176656e8144",
+   "limit": 210
+  },
+  {
+   "off": 183276,
+   "en": "Giant skull spirit．",
+   "cap": 20,
+   "path": "api",
+   "nl": "@",
+   "ko": "거대한 해골 영혼.",
+   "orig": "4769616e7420736b756c6c207370697269748144",
+   "limit": 210
+  },
+  {
+   "off": 183300,
+   "en": "Book of ancient weapons．",
+   "cap": 25,
+   "path": "api",
+   "nl": "@",
+   "ko": "고대 무기의 책.",
+   "orig": "426f6f6b206f6620616e6369656e7420776561706f6e738144",
+   "limit": 210
+  },
+  {
+   "off": 183328,
+   "en": "Ice－wielding female spirit．",
+   "cap": 29,
+   "path": "api",
+   "nl": "@",
+   "ko": "얼음을 다루는 여자 정령.",
+   "orig": "496365817c7769656c64696e672066656d616c65207370697269748144",
+   "limit": 210
+  },
+  {
+   "off": 183360,
+   "en": "Cave－dwelling frog．",
+   "cap": 21,
+   "path": "api",
+   "nl": "@",
+   "ko": "동굴에 사는 개구리.",
+   "orig": "43617665817c6477656c6c696e672066726f678144",
+   "limit": 210
+  },
+  {
+   "off": 183384,
+   "en": "Headless skeleton．\nWields a rapier．",
+   "cap": 37,
+   "path": "api",
+   "nl": "@",
+   "ko": "머리 없는 해골.\n레이피어를 쓴다.",
+   "orig": "486561646c65737320736b656c65746f6e8144405769656c64732061207261706965728144",
+   "limit": 210
+  },
+  {
+   "off": 183424,
+   "en": "Armored guard．\nStrong in perilous areas． ",
+   "cap": 43,
+   "path": "api",
+   "nl": "@",
+   "ko": "갑옷 경비병.\n험한 곳에서 강하다.",
+   "orig": "41726d6f7265642067756172648144405374726f6e6720696e20706572696c6f7573206172656173814420",
+   "limit": 210
+  },
+  {
+   "off": 183468,
+   "en": "Heavily armored undead \nwarrior．",
+   "cap": 33,
+   "path": "api",
+   "nl": "@",
+   "ko": "중무장한\n망자 전사.",
+   "orig": "48656176696c792061726d6f72656420756e64656164204077617272696f728144",
+   "limit": 210
+  },
+  {
+   "off": 183504,
+   "en": "Toad magically enlarged by \ndemonic baptism．",
+   "cap": 45,
+   "path": "api",
+   "nl": "@",
+   "ko": "악마의 세례로\n거대해진 두꺼비.",
+   "orig": "546f6164206d61676963616c6c7920656e6c6172676564206279204064656d6f6e6963206261707469736d8144",
+   "limit": 210
+  },
+  {
+   "off": 183552,
+   "en": "Knight armed with \nGreatsword．",
+   "cap": 31,
+   "path": "api",
+   "nl": "@",
+   "ko": "대검을 든 기사.",
+   "orig": "4b6e696768742061726d656420776974682040477265617473776f72648144",
+   "limit": 210
+  },
+  {
+   "off": 183584,
+   "en": "Physical manifestations of \nbodiless tormented souls．",
+   "cap": 54,
+   "path": "api",
+   "nl": "@",
+   "ko": "몸 없이 고통받는 영혼이\n실체화한 것.",
+   "orig": "506879736963616c206d616e69666573746174696f6e73206f662040626f64696c65737320746f726d656e74656420736f756c738144",
+   "limit": 210
+  },
+  {
+   "off": 183640,
+   "en": "Slow－flying skeleton warrior．",
+   "cap": 31,
+   "path": "api",
+   "nl": "@",
+   "ko": "느리게 나는 해골 전사.",
+   "orig": "536c6f77817c666c79696e6720736b656c65746f6e2077617272696f728144",
+   "limit": 210
+  },
+  {
+   "off": 183672,
+   "en": "Book of beginner’s spells．",
+   "cap": 28,
+   "path": "api",
+   "nl": "@",
+   "ko": "초급 마법서.",
+   "orig": "426f6f6b206f6620626567696e6e6572816673207370656c6c738144",
+   "limit": 210
+  },
+  {
+   "off": 183704,
+   "en": "Armored warrior with \nnaginata．",
+   "cap": 32,
+   "path": "api",
+   "nl": "@",
+   "ko": "나기나타를 든\n갑옷 전사.",
+   "orig": "41726d6f7265642077617272696f72207769746820406e6167696e6174618144",
+   "limit": 210
+  },
+  {
+   "off": 183740,
+   "en": "Animated ape skeleton．\nHurls wooden barrels．",
+   "cap": 46,
+   "path": "api",
+   "nl": "@",
+   "ko": "움직이는 원숭이 해골.\n나무통을 던진다.",
+   "orig": "416e696d617465642061706520736b656c65746f6e8144404875726c7320776f6f64656e2062617272656c738144",
+   "limit": 210
+  },
+  {
+   "off": 183788,
+   "en": "Snake living off Scylla．",
+   "cap": 25,
+   "path": "api",
+   "nl": "@",
+   "ko": "스킬라에 기생하는 뱀.",
+   "orig": "536e616b65206c6976696e67206f6666205363796c6c618144",
+   "limit": 210
+  },
+  {
+   "off": 183816,
+   "en": "Executed soldier’s head．\nHunting for vengeance．",
+   "cap": 50,
+   "path": "api",
+   "nl": "@",
+   "ko": "처형된 병사의 머리.\n복수를 노린다.",
+   "orig": "457865637574656420736f6c64696572816673206865616481444048756e74696e6720666f722076656e6765616e63658144",
+   "limit": 210
+  },
+  {
+   "off": 183868,
+   "en": "Local barnyard owl Mutated \nby castle’s influence．",
+   "cap": 52,
+   "path": "api",
+   "nl": "@",
+   "ko": "성의 영향으로\n변이된 올빼미.",
+   "orig": "4c6f63616c206261726e79617264206f776c204d7574617465642040627920636173746c6581667320696e666c75656e63658144",
+   "limit": 210
+  },
+  {
+   "off": 183924,
+   "en": "Shape－shifting demon．",
+   "cap": 23,
+   "path": "api",
+   "nl": "@",
+   "ko": "모습을 바꾸는 악마.",
+   "orig": "5368617065817c7368696674696e672064656d6f6e8144",
+   "limit": 210
+  },
+  {
+   "off": 183948,
+   "en": "Pillar built from bleached\nskull of dragon．",
+   "cap": 44,
+   "path": "api",
+   "nl": "@",
+   "ko": "희게 바랜 용의\n두개골로 만든 기둥.",
+   "orig": "50696c6c6172206275696c742066726f6d20626c65616368656440736b756c6c206f6620647261676f6e8144",
+   "limit": 210
+  },
+  {
+   "off": 183996,
+   "en": "Skeleton archer equipped \nwith bow．",
+   "cap": 36,
+   "path": "api",
+   "nl": "@",
+   "ko": "활을 든 해골 궁수.",
+   "orig": "536b656c65746f6e2061726368657220657175697070656420407769746820626f778144",
+   "limit": 210
+  },
+  {
+   "off": 184036,
+   "en": "Fire and ice demon．\nSeems reluctant to fight．",
+   "cap": 47,
+   "path": "api",
+   "nl": "@",
+   "ko": "불과 얼음의 악마.\n싸움은 내키지 않는 듯.",
+   "orig": "4669726520616e64206963652064656d6f6e8144405365656d732072656c756374616e7420746f2066696768748144",
+   "limit": 210
+  },
+  {
+   "off": 184084,
+   "en": "Well armored axe knight．",
+   "cap": 25,
+   "path": "api",
+   "nl": "@",
+   "ko": "중무장한 도끼 기사.",
+   "orig": "57656c6c2061726d6f72656420617865206b6e696768748144",
+   "limit": 210
+  },
+  {
+   "off": 184112,
+   "en": "Mutated plant．\nSeeds petrify．",
+   "cap": 31,
+   "path": "api",
+   "nl": "@",
+   "ko": "변이 식물.\n씨앗에 석화된다.",
+   "orig": "4d75746174656420706c616e74814440536565647320706574726966798144",
+   "limit": 210
+  },
+  {
+   "off": 184144,
+   "en": "Heavily armored knight with \niron ball．",
+   "cap": 40,
+   "path": "api",
+   "nl": "@",
+   "ko": "쇠공을 든\n중무장 기사.",
+   "orig": "48656176696c792061726d6f726564206b6e696768742077697468204069726f6e2062616c6c8144",
+   "limit": 210
+  },
+  {
+   "off": 184188,
+   "en": "From Medusa’s hair．\nCan petrify．",
+   "cap": 35,
+   "path": "api",
+   "nl": "@",
+   "ko": "메두사의 머리카락.\n돌로 만든다.",
+   "orig": "46726f6d204d6564757361816673206861697281444043616e20706574726966798144",
+   "limit": 210
+  },
+  {
+   "off": 184224,
+   "en": "Skeletons equipped with \nrifles．",
+   "cap": 33,
+   "path": "api",
+   "nl": "@",
+   "ko": "소총을 든 해골.",
+   "orig": "536b656c65746f6e73206571756970706564207769746820407269666c65738144",
+   "limit": 210
+  },
+  {
+   "off": 184260,
+   "en": "Novice of twin－bladed \ncombat．",
+   "cap": 32,
+   "path": "api",
+   "nl": "@",
+   "ko": "쌍검술의 초보자.",
+   "orig": "4e6f76696365206f66207477696e817c626c616465642040636f6d6261748144",
+   "limit": 210
+  },
+  {
+   "off": 184296,
+   "en": "From Medusa’s hair．",
+   "cap": 21,
+   "path": "api",
+   "nl": "@",
+   "ko": "메두사의 머리카락.",
+   "orig": "46726f6d204d656475736181667320686169728144",
+   "limit": 210
+  },
+  {
+   "off": 184320,
+   "en": "Strange human－like creature．\nJumps like a flea．",
+   "cap": 50,
+   "path": "api",
+   "nl": "@",
+   "ko": "인간을 닮은 괴생물.\n벼룩처럼 뛰어오른다.",
+   "orig": "537472616e67652068756d616e817c6c696b652063726561747572658144404a756d7073206c696b65206120666c65618144",
+   "limit": 210
+  },
+  {
+   "off": 184372,
+   "en": "Nauseating two－headed \nbeast． Which is the head？",
+   "cap": 51,
+   "path": "api",
+   "nl": "@",
+   "ko": "구역질 나는 쌍두 짐승.\n어느 쪽이 머리일까?",
+   "orig": "4e617573656174696e672074776f817c6865616465642040626561737481442057686963682069732074686520686561648148",
+   "limit": 210
+  },
+  {
+   "off": 184424,
+   "en": "Demon with enchanted spear．",
+   "cap": 28,
+   "path": "api",
+   "nl": "@",
+   "ko": "마법 창을 든 악마.",
+   "orig": "44656d6f6e207769746820656e6368616e7465642073706561728144",
+   "limit": 210
+  },
+  {
+   "off": 184456,
+   "en": "Demonic puppet from Hell．",
+   "cap": 26,
+   "path": "api",
+   "nl": "@",
+   "ko": "지옥의 악마 인형.",
+   "orig": "44656d6f6e6963207075707065742066726f6d2048656c6c8144",
+   "limit": 210
+  },
+  {
+   "off": 184484,
+   "en": "Low level flaming ghosts．",
+   "cap": 26,
+   "path": "api",
+   "nl": "@",
+   "ko": "하급 불꽃 유령.",
+   "orig": "4c6f77206c6576656c20666c616d696e672067686f7374738144",
+   "limit": 210
+  },
+  {
+   "off": 184512,
+   "en": "Fire－breathing flying demon．",
+   "cap": 30,
+   "path": "api",
+   "nl": "@",
+   "ko": "불을 뿜는 비행 악마.",
+   "orig": "46697265817c627265617468696e6720666c79696e672064656d6f6e8144",
+   "limit": 210
+  },
+  {
+   "off": 184544,
+   "en": "Plant with razor－sharp \nleaves．",
+   "cap": 33,
+   "path": "api",
+   "nl": "@",
+   "ko": "면도날 같은 잎을 지닌\n식물.",
+   "orig": "506c616e7420776974682072617a6f72817c736861727020406c65617665738144",
+   "limit": 210
+  },
+  {
+   "off": 184580,
+   "en": "Boomerang wielding skeleton．",
+   "cap": 29,
+   "path": "api",
+   "nl": "@",
+   "ko": "부메랑을 쓰는 해골.",
+   "orig": "426f6f6d6572616e67207769656c64696e6720736b656c65746f6e8144",
+   "limit": 210
+  },
+  {
+   "off": 184612,
+   "en": "Possessed Ouija table．",
+   "cap": 23,
+   "path": "api",
+   "nl": "@",
+   "ko": "귀신 들린 위자판.",
+   "orig": "506f73736573736564204f75696a61207461626c658144",
+   "limit": 210
+  },
+  {
+   "off": 184636,
+   "en": "Bone－hurling skeleton．",
+   "cap": 24,
+   "path": "api",
+   "nl": "@",
+   "ko": "뼈를 던지는 해골.",
+   "orig": "426f6e65817c6875726c696e6720736b656c65746f6e8144",
+   "limit": 210
+  },
+  {
+   "off": 184664,
+   "en": "Eastern Church soldiers \ndispatched ３００ years ago．",
+   "cap": 54,
+   "path": "api",
+   "nl": "@",
+   "ko": "300년 전 파견된\n동방 교회의 병사.",
+   "orig": "4561737465726e2043687572636820736f6c6469657273204064697370617463686564208252824f824f2079656172732061676f8144",
+   "limit": 210
+  },
+  {
+   "off": 184720,
+   "en": "Low level axe knight．",
+   "cap": 22,
+   "path": "api",
+   "nl": "@",
+   "ko": "하급 도끼 기사.",
+   "orig": "4c6f77206c6576656c20617865206b6e696768748144",
+   "limit": 210
+  },
+  {
+   "off": 184744,
+   "en": "４－legged skeleton．\nDrips poison．",
+   "cap": 36,
+   "path": "api",
+   "nl": "@",
+   "ko": "네 발 달린 해골.\n독을 흘린다.",
+   "orig": "8253817c6c656767656420736b656c65746f6e814440447269707320706f69736f6e8144",
+   "limit": 210
+  },
+  {
+   "off": 184784,
+   "en": "Fireball－spitting Merman．\nLargest of merman kind．",
+   "cap": 52,
+   "path": "api",
+   "nl": "@",
+   "ko": "화염구를 뿜는 어인.\n어인 중 가장 크다.",
+   "orig": "4669726562616c6c817c7370697474696e67204d65726d616e8144404c617267657374206f66206d65726d616e206b696e648144",
+   "limit": 210
+  },
+  {
+   "off": 184840,
+   "en": "Ferocious skeleton \nswordsman．",
+   "cap": 31,
+   "path": "api",
+   "nl": "@",
+   "ko": "사나운 해골 검사.",
+   "orig": "4665726f63696f757320736b656c65746f6e204073776f7264736d616e8144",
+   "limit": 210
+  },
+  {
+   "off": 184872,
+   "en": "Wolves which guard castle \nentrance．",
+   "cap": 37,
+   "path": "api",
+   "nl": "@",
+   "ko": "성 입구를 지키는\n늑대.",
+   "orig": "576f6c76657320776869636820677561726420636173746c652040656e7472616e63658144",
+   "limit": 210
+  },
+  {
+   "off": 184912,
+   "en": "Magically animated skeleton．",
+   "cap": 29,
+   "path": "api",
+   "nl": "@",
+   "ko": "마법으로 움직이는 해골.",
+   "orig": "4d61676963616c6c7920616e696d6174656420736b656c65746f6e8144",
+   "limit": 210
+  },
+  {
+   "off": 184944,
+   "en": "Legendary ””creature””．\nAttacks all invaders．",
+   "cap": 51,
+   "path": "api",
+   "nl": "@",
+   "ko": "전설의 괴물.\n침입자를 모두 공격한다.",
+   "orig": "4c6567656e64617279208168816863726561747572658168816881444041747461636b7320616c6c20696e7661646572738144",
+   "limit": 210
+  },
+  {
+   "off": 184996,
+   "en": "Fresh corpses．\nMagically animated．",
+   "cap": 36,
+   "path": "api",
+   "nl": "@",
+   "ko": "갓 죽은 시체.\n마법으로 움직인다.",
+   "orig": "467265736820636f72707365738144404d61676963616c6c7920616e696d617465648144",
+   "limit": 210
+  },
+  {
+   "off": 185036,
+   "en": "Indestructible spinning skull．",
+   "cap": 31,
+   "path": "api",
+   "nl": "@",
+   "ko": "부서지지 않는 회전 해골.",
+   "orig": "496e646573747275637469626c65207370696e6e696e6720736b756c6c8144",
+   "limit": 210
+  },
+  {
+   "off": 185068,
+   "en": "Vampire bats．\nFeared as servants of evil．",
+   "cap": 43,
+   "path": "api",
+   "nl": "@",
+   "ko": "흡혈 박쥐.\n악의 하수인으로 두려워한다.",
+   "orig": "56616d7069726520626174738144404665617265642061732073657276616e7473206f66206576696c8144",
+   "limit": 210
+  },
+  {
+   "off": 185112,
+   "en": "Revives due to blood soaked\nbones．",
+   "cap": 35,
+   "path": "api",
+   "nl": "@",
+   "ko": "피를 머금은 뼈로\n되살아난다.",
+   "orig": "526576697665732064756520746f20626c6f6f6420736f616b656440626f6e65738144",
+   "limit": 210
+  },
+  {
+   "off": 185148,
+   "en": "Destroyed by Richter in １７９２．（５ years ago）",
+   "cap": 50,
+   "path": "api",
+   "nl": "@",
+   "ko": "1792년(5년 전)\n리히터에게 쓰러졌다.",
+   "orig": "44657374726f796564206279205269636874657220696e2082508256825882518144816982542079656172732061676f816a",
+   "limit": 210
+  },
+  {
+   "off": 185273,
+   "en": "Sell gem",
+   "cap": 8,
+   "path": "ascii8",
+   "ko": "보석 팔기",
+   "orig": "53656c6c2067656d",
+   "note": "raw-ASCII cell routine 0x801B191C: upper case here; libfix.py replaces the routine with a Korean bitmap blit (ko)"
+  },
+  {
+   "off": 185285,
+   "en": "Exit",
+   "cap": 4,
+   "path": "ascii8",
+   "ko": "나가기",
+   "orig": "45786974",
+   "note": "raw-ASCII cell routine 0x801B191C: upper case here; libfix.py replaces the routine with a Korean bitmap blit (ko)"
+  },
+  {
+   "off": 185293,
+   "en": "Sound test",
+   "cap": 10,
+   "path": "ascii8",
+   "ko": "사운드 테스트",
+   "orig": "536f756e642074657374",
+   "note": "raw-ASCII cell routine 0x801B191C: upper case here; libfix.py replaces the routine with a Korean bitmap blit (ko)"
+  },
+  {
+   "off": 185305,
+   "en": "Enemy list",
+   "cap": 10,
+   "path": "ascii8",
+   "ko": "적 목록",
+   "orig": "456e656d79206c697374",
+   "note": "raw-ASCII cell routine 0x801B191C: upper case here; libfix.py replaces the routine with a Korean bitmap blit (ko)"
+  },
+  {
+   "off": 185317,
+   "en": "Tactics",
+   "cap": 7,
+   "path": "ascii8",
+   "ko": "전술",
+   "orig": "54616374696373",
+   "note": "raw-ASCII cell routine 0x801B191C: upper case here; libfix.py replaces the routine with a Korean bitmap blit (ko)"
+  },
+  {
+   "off": 185329,
+   "en": "Buy item",
+   "cap": 8,
+   "path": "ascii8",
+   "ko": "아이템 구매",
+   "orig": "427579206974656d",
+   "note": "raw-ASCII cell routine 0x801B191C: upper case here; libfix.py replaces the routine with a Korean bitmap blit (ko)"
+  },
+  {
+   "off": 185580,
+   "en": "DEF",
+   "cap": 3,
+   "path": "ascii8",
+   "ko": "방어",
+   "orig": "444546",
+   "note": "raw-ASCII cell routine 0x801B191C: upper case here; libfix.py replaces the routine with a Korean bitmap blit (ko)"
+  },
+  {
+   "off": 185584,
+   "en": "ATT",
+   "cap": 3,
+   "path": "ascii8",
+   "ko": "공격",
+   "orig": "415454",
+   "note": "raw-ASCII cell routine 0x801B191C: upper case here; libfix.py replaces the routine with a Korean bitmap blit (ko)"
+  },
+  {
+   "off": 185596,
+   "en": "Not equipped",
+   "cap": 16,
+   "path": "menu8",
+   "orig": "2e4f54004551554950504544ff000000",
+   "ko": "장비 안 함"
+  },
+  {
+   "off": 185612,
+   "en": "Equipped",
+   "cap": 12,
+   "path": "menu8",
+   "orig": "2551554950504544ff000000",
+   "ko": "장비 중"
+  },
+  {
+   "off": 185624,
+   "en": "Number",
+   "cap": 8,
+   "path": "menu8",
+   "orig": "2e554d424552ff00",
+   "ko": "개수"
+  },
+  {
+   "off": 185696,
+   "en": "Contains ””Soul Steal””",
+   "cap": 27,
+   "path": "api",
+   "nl": "\u0001",
+   "ko": "소울 스틸이 적혀 있다",
+   "orig": "436f6e7461696e732081688168536f756c20537465616c81688168",
+   "limit": 240
+  },
+  {
+   "off": 185724,
+   "en": "Contains ””Tetra Spirits””",
+   "cap": 30,
+   "path": "api",
+   "nl": "\u0001",
+   "ko": "테트라 스피릿이 적혀 있다",
+   "orig": "436f6e7461696e7320816881685465747261205370697269747381688168",
+   "limit": 240
+  },
+  {
+   "off": 185756,
+   "en": "Contains ””Hellfire””",
+   "cap": 25,
+   "path": "api",
+   "nl": "\u0001",
+   "ko": "헬파이어가 적혀 있다",
+   "orig": "436f6e7461696e73208168816848656c6c6669726581688168",
+   "limit": 240
+  },
+  {
+   "off": 185784,
+   "en": "Contains ””Summon Spirit””",
+   "cap": 30,
+   "path": "api",
+   "nl": "\u0001",
+   "ko": "서먼 스피릿이 적혀 있다",
+   "orig": "436f6e7461696e73208168816853756d6d6f6e2053706972697481688168",
+   "limit": 240
+  },
+  {
+   "off": 185816,
+   "en": "Contains ””Dark Metamorphosis””",
+   "cap": 35,
+   "path": "api",
+   "nl": "\u0001",
+   "ko": "다크 메타모포시스가 적혀 있다",
+   "orig": "436f6e7461696e7320816881684461726b204d6574616d6f7270686f73697381688168",
+   "limit": 240
+  },
+  {
+   "off": 185852,
+   "en": "Basic map of Dracula’s castle",
+   "cap": 30,
+   "path": "api",
+   "nl": "\u0001",
+   "ko": "드라큘라 성의 대략적인 지도",
+   "orig": "4261736963206d6170206f662044726163756c6181667320636173746c65",
+   "limit": 240
+  },
+  {
+   "off": 185952,
+   "en": "Jewel of Open",
+   "cap": 16,
+   "path": "menu8",
+   "orig": "2a4557454c004f46002f50454eff0000",
+   "ko": "언록 주얼"
+  },
+  {
+   "off": 185968,
+   "en": "Magic Scroll 5",
+   "cap": 16,
+   "path": "menu8",
+   "orig": "2d41474943003343524f4c4c0015ff00",
+   "ko": "마법서 5"
+  },
+  {
+   "off": 185984,
+   "en": "Magic Scroll 4",
+   "cap": 16,
+   "path": "menu8",
+   "orig": "2d41474943003343524f4c4c0014ff00",
+   "ko": "마법서 4"
+  },
+  {
+   "off": 186000,
+   "en": "Magic Scroll 3",
+   "cap": 16,
+   "path": "menu8",
+   "orig": "2d41474943003343524f4c4c0013ff00",
+   "ko": "마법서 3"
+  },
+  {
+   "off": 186016,
+   "en": "Magic Scroll 2",
+   "cap": 16,
+   "path": "menu8",
+   "orig": "2d41474943003343524f4c4c0012ff00",
+   "ko": "마법서 2"
+  },
+  {
+   "off": 186032,
+   "en": "Magic Scroll 1",
+   "cap": 16,
+   "path": "menu8",
+   "orig": "2d41474943003343524f4c4c0011ff00",
+   "ko": "마법서 1"
+  },
+  {
+   "off": 186048,
+   "en": "Castle Map",
+   "cap": 12,
+   "path": "menu8",
+   "orig": "234153544c45002d4150ff00",
+   "ko": "성 지도"
+  },
+  {
+   "off": 186124,
+   "en": "Lord Dracula",
+   "cap": 16,
+   "path": "menu8",
+   "orig": "2c4f52440024524143554c41ff000000",
+   "note": "Korean does not fit in place: relocated by libfix.py (upper-case English here)",
+   "want": "드라큘라 백작",
+   "ko": "LORD DRACULA"
+  },
+  {
+   "off": 186140,
+   "en": "Shaft",
+   "cap": 8,
+   "path": "menu8",
+   "orig": "3348414654ff0000",
+   "note": "Korean does not fit in place: relocated by libfix.py (upper-case English here)",
+   "want": "샤프트",
+   "ko": "SHAFT"
+  },
+  {
+   "off": 186152,
+   "en": "Galamoth",
+   "cap": 12,
+   "path": "menu8",
+   "orig": "27414c414d4f5448ff000000",
+   "note": "Korean does not fit in place: relocated by libfix.py (upper-case English here)",
+   "want": "갈라모스",
+   "ko": "GALAMOTH"
+  },
+  {
+   "off": 186164,
+   "en": "Darkwing Bat",
+   "cap": 16,
+   "path": "menu8",
+   "orig": "2441524b57494e4700224154ff000000",
+   "note": "Korean does not fit in place: relocated by libfix.py (upper-case English here)",
+   "want": "다크윙 배트",
+   "ko": "DARKWING BAT"
+  },
+  {
+   "off": 186180,
+   "en": "Akmodan II",
+   "cap": 12,
+   "path": "menu8",
+   "orig": "214b4d4f44414e002929ff00",
+   "note": "Korean does not fit in place: relocated by libfix.py (upper-case English here)",
+   "want": "아크모단 2세",
+   "ko": "AKMODAN II"
+  },
+  {
+   "off": 186192,
+   "en": "Doppleganger40",
+   "cap": 16,
+   "path": "menu8",
+   "orig": "244f50504c4547414e4745521410ff00",
+   "ko": "도플갱어40"
+  },
+  {
+   "off": 186208,
+   "en": "Lesser Demon",
+   "cap": 16,
+   "path": "menu8",
+   "orig": "2c45535345520024454d4f4eff000000",
+   "ko": "레서 데몬"
+  },
+  {
+   "off": 186224,
+   "en": "The Creature",
+   "cap": 16,
+   "path": "menu8",
+   "orig": "344845002352454154555245ff000000",
+   "ko": "크리처"
+  },
+  {
+   "off": 186240,
+   "en": "Medusa",
+   "cap": 8,
+   "path": "menu8",
+   "orig": "2d4544555341ff00",
+   "note": "Korean does not fit in place: relocated by libfix.py (upper-case English here)",
+   "want": "메두사",
+   "ko": "MEDUSA"
+  },
+  {
+   "off": 186248,
+   "en": "Richter Belmont",
+   "cap": 20,
+   "path": "menu8",
+   "orig": "324943485445520022454c4d4f4e54ff00000000",
+   "note": "Korean does not fit in place: relocated by libfix.py (upper-case English here)",
+   "want": "리히터 벨몬드",
+   "ko": "RICHTER BELMONT"
+  },
+  {
+   "off": 186268,
+   "en": "Cerberus",
+   "cap": 12,
+   "path": "menu8",
+   "orig": "2345524245525553ff000000",
+   "note": "Korean does not fit in place: relocated by libfix.py (upper-case English here)",
+   "want": "케르베로스",
+   "ko": "CERBERUS"
+  },
+  {
+   "off": 186280,
+   "en": "Death",
+   "cap": 8,
+   "path": "menu8",
+   "orig": "2445415448ff0000",
+   "ko": "사신"
+  },
+  {
+   "off": 186288,
+   "en": "Trevor&Grant&Sypha",
+   "cap": 20,
+   "path": "menu8",
+   "orig": "345245564f52062752414e54063359504841ff00",
+   "note": "Korean does not fit in place: relocated by libfix.py (upper-case English here)",
+   "want": "트레버&그랜트&사이파",
+   "ko": "TREVOR&GRANT&SYPHA"
+  },
+  {
+   "off": 186308,
+   "en": "Karasuman",
+   "cap": 12,
+   "path": "menu8",
+   "orig": "2b41524153554d414eff0000",
+   "note": "Korean does not fit in place: relocated by libfix.py (upper-case English here)",
+   "want": "카라스만",
+   "ko": "KARASUMAN"
+  },
+  {
+   "off": 186320,
+   "en": "Succubus",
+   "cap": 12,
+   "path": "menu8",
+   "orig": "3355434355425553ff000000",
+   "note": "Korean does not fit in place: relocated by libfix.py (upper-case English here)",
+   "want": "서큐버스",
+   "ko": "SUCCUBUS"
+  },
+  {
+   "off": 186332,
+   "en": "Beelzebub",
+   "cap": 12,
+   "path": "menu8",
+   "orig": "2245454c5a45425542ff0000",
+   "note": "Korean does not fit in place: relocated by libfix.py (upper-case English here)",
+   "want": "베엘제붑",
+   "ko": "BEELZEBUB"
+  },
+  {
+   "off": 186344,
+   "en": "Hippogryph",
+   "cap": 12,
+   "path": "menu8",
+   "orig": "284950504f4752595048ff00",
+   "note": "Korean does not fit in place: relocated by libfix.py (upper-case English here)",
+   "want": "히포그리프",
+   "ko": "HIPPOGRYPH"
+  },
+  {
+   "off": 186356,
+   "en": "Slogra&Gaibon",
+   "cap": 16,
+   "path": "menu8",
+   "orig": "334c4f47524106274149424f4eff0000",
+   "note": "Korean does not fit in place: relocated by libfix.py (upper-case English here)",
+   "want": "슬로그라&가이본",
+   "ko": "SLOGRA&GAIBON"
+  },
+  {
+   "off": 186372,
+   "en": "Scylla",
+   "cap": 8,
+   "path": "menu8",
+   "orig": "3343594c4c41ff00",
+   "note": "Korean does not fit in place: relocated by libfix.py (upper-case English here)",
+   "want": "스킬라",
+   "ko": "SCYLLA"
+  },
+  {
+   "off": 186380,
+   "en": "Minotaur&Werewolf",
+   "cap": 20,
+   "path": "menu8",
+   "orig": "2d494e4f544155520637455245574f4c46ff0000",
+   "note": "Korean does not fit in place: relocated by libfix.py (upper-case English here)",
+   "want": "미노타우로스&늑대인간",
+   "ko": "MINOTAUR&WEREWOLF"
+  },
+  {
+   "off": 186400,
+   "en": "Granfaloon",
+   "cap": 12,
+   "path": "menu8",
+   "orig": "2752414e46414c4f4f4eff00",
+   "note": "Korean does not fit in place: relocated by libfix.py (upper-case English here)",
+   "want": "그랑팔룬",
+   "ko": "GRANFALOON"
+  },
+  {
+   "off": 186412,
+   "en": "Doppleganger10",
+   "cap": 16,
+   "path": "menu8",
+   "orig": "244f50504c4547414e4745521110ff00",
+   "ko": "도플갱어10"
+  },
+  {
+   "off": 186428,
+   "en": "Olrox",
+   "cap": 8,
+   "path": "menu8",
+   "orig": "2f4c524f58ff0000",
+   "note": "Korean does not fit in place: relocated by libfix.py (upper-case English here)",
+   "want": "올록스",
+   "ko": "OLROX"
+  },
+  {
+   "off": 186436,
+   "en": "Dracula",
+   "cap": 12,
+   "path": "menu8",
+   "orig": "24524143554c41ff00000000",
+   "note": "Korean does not fit in place: relocated by libfix.py (upper-case English here)",
+   "want": "드라큘라",
+   "ko": "DRACULA"
+  },
+  {
+   "off": 186656,
+   "en": "Axe",
+   "cap": 8,
+   "path": "menu8",
+   "orig": "215845ff00000000",
+   "ko": "액스"
+  },
+  {
+   "off": 186780,
+   "en": "None",
+   "cap": 8,
+   "path": "menu8",
+   "orig": "2e4f4e45ff000000",
+   "ko": "-"
+  },
+  {
+   "off": 186788,
+   "en": "HIT",
+   "cap": 8,
+   "path": "menu8",
+   "orig": "282934ff00000000",
+   "ko": "타격"
+  },
+  {
+   "off": 186796,
+   "en": "CUT",
+   "cap": 8,
+   "path": "menu8",
+   "orig": "233534ff00000000",
+   "ko": "참격"
+  },
+  {
+   "off": 186804,
+   "en": "CUR",
+   "cap": 8,
+   "path": "menu8",
+   "orig": "233532ff00000000",
+   "ko": "저주"
+  },
+  {
+   "off": 186812,
+   "en": "PSN",
+   "cap": 8,
+   "path": "menu8",
+   "orig": "30332eff00000000",
+   "ko": "독"
+  },
+  {
+   "off": 186820,
+   "en": "STN",
+   "cap": 8,
+   "path": "menu8",
+   "orig": "33342eff00000000",
+   "ko": "석화"
+  },
+  {
+   "off": 186828,
+   "en": "H2O",
+   "cap": 8,
+   "path": "menu8",
+   "orig": "28122fff00000000",
+   "ko": "물"
+  },
+  {
+   "off": 186836,
+   "en": "ICE",
+   "cap": 8,
+   "path": "menu8",
+   "orig": "292325ff00000000",
+   "ko": "얼음"
+  },
+  {
+   "off": 186844,
+   "en": "THU",
+   "cap": 8,
+   "path": "menu8",
+   "orig": "342835ff00000000",
+   "ko": "번개"
+  },
+  {
+   "off": 186852,
+   "en": "FIR",
+   "cap": 8,
+   "path": "menu8",
+   "orig": "262932ff00000000",
+   "ko": "불"
+  },
+  {
+   "off": 186860,
+   "en": "DRK",
+   "cap": 8,
+   "path": "menu8",
+   "orig": "24322bff00000000",
+   "ko": "어둠"
+  },
+  {
+   "off": 186868,
+   "en": "HOL",
+   "cap": 8,
+   "path": "menu8",
+   "orig": "282f2cff00000000",
+   "ko": "신성"
+  },
+  {
+   "off": 186876,
+   "en": "Absorb",
+   "cap": 8,
+   "path": "menu8",
+   "orig": "2142534f5242ff00",
+   "ko": "흡수"
+  },
+  {
+   "off": 186884,
+   "en": "Weak VS.",
+   "cap": 12,
+   "path": "menu8",
+   "orig": "3745414b0036330eff000000",
+   "ko": "약점"
+  },
+  {
+   "off": 186896,
+   "en": "Immune",
+   "cap": 8,
+   "path": "menu8",
+   "orig": "294d4d554e45ff00",
+   "ko": "무효"
+  },
+  {
+   "off": 186904,
+   "en": "Strong VS.",
+   "cap": 12,
+   "path": "menu8",
+   "orig": "3354524f4e470036330eff00",
+   "ko": "강함"
+  },
+  {
+   "off": 186920,
+   "en": "No.",
+   "cap": 8,
+   "path": "menu8",
+   "orig": "2e4f0eff00000000",
+   "ko": "번호"
+  },
+  {
+   "off": 186928,
+   "en": "Drop Items",
+   "cap": 12,
+   "path": "menu8",
+   "orig": "24524f50002954454d53ff00",
+   "ko": "아이템"
+  },
+  {
+   "off": 186940,
+   "en": "Exp",
+   "cap": 8,
+   "path": "menu8",
+   "orig": "255850ff00000000",
+   "ko": "경험"
+  },
+  {
+   "off": 186948,
+   "en": "Def",
+   "cap": 3,
+   "path": "menu8",
+   "noterm": true,
+   "ko": "DEF",
+   "orig": "244546",
+   "note": "suffix HP shared with another label; upper case only"
+  },
+  {
+   "off": 187044,
+   "en": "I am the wind",
+   "cap": 16,
+   "path": "menu8",
+   "orig": "2900414d005448450057494e44ff0000",
+   "ko": "나는 바람"
+  },
+  {
+   "off": 187060,
+   "en": "Metamorphosis 3",
+   "cap": 20,
+   "path": "menu8",
+   "orig": "2d4554414d4f5250484f5349530013ff00000000",
+   "ko": "변신 3"
+  },
+  {
+   "off": 187080,
+   "en": "Black Banquet",
+   "cap": 16,
+   "path": "menu8",
+   "orig": "224c41434b0022414e51554554ff0000",
+   "ko": "검은 연회"
+  },
+  {
+   "off": 187096,
+   "en": "Finale Toccata",
+   "cap": 16,
+   "path": "menu8",
+   "orig": "26494e414c4500344f4343415441ff00",
+   "ko": "피날레"
+  },
+  {
+   "off": 187112,
+   "en": "Metamorphosis 2",
+   "cap": 20,
+   "path": "menu8",
+   "orig": "2d4554414d4f5250484f5349530012ff00000000",
+   "ko": "변신 2"
+  },
+  {
+   "off": 187132,
+   "en": "Blood Relations",
+   "cap": 20,
+   "path": "menu8",
+   "orig": "224c4f4f440032454c4154494f4e53ff00000000",
+   "ko": "피의 인연"
+  },
+  {
+   "off": 187152,
+   "en": "Death Ballad",
+   "cap": 16,
+   "path": "menu8",
+   "orig": "24454154480022414c4c4144ff000000",
+   "ko": "죽음의 곡"
+  },
+  {
+   "off": 187168,
+   "en": "Heavenly Doorway",
+   "cap": 20,
+   "path": "menu8",
+   "orig": "28454156454e4c5900244f4f52574159ff000000",
+   "ko": "천상의 문"
+  },
+  {
+   "off": 187188,
+   "en": "Door to the Abyss",
+   "cap": 20,
+   "path": "menu8",
+   "orig": "244f4f5200544f00544845002142595353ff0000",
+   "ko": "심연의 문"
+  },
+  {
+   "off": 187208,
+   "en": "The Tragic Prince",
+   "cap": 20,
+   "path": "menu8",
+   "orig": "34484500345241474943003052494e4345ff0000",
+   "ko": "비극의 왕자"
+  },
+  {
+   "off": 187228,
+   "en": "Wandering Ghosts",
+   "cap": 20,
+   "path": "menu8",
+   "orig": "37414e444552494e470027484f535453ff000000",
+   "ko": "헤매는 유령"
+  },
+  {
+   "off": 187248,
+   "en": "Enchanted Banquet",
+   "cap": 20,
+   "path": "menu8",
+   "orig": "254e4348414e5445440022414e51554554ff0000",
+   "ko": "마법의 연회"
+  },
+  {
+   "off": 187268,
+   "en": "Curse Zone",
+   "cap": 12,
+   "path": "menu8",
+   "orig": "2355525345003a4f4e45ff00",
+   "note": "Korean does not fit in place: relocated by libfix.py (upper-case English here)",
+   "want": "저주의 땅",
+   "ko": "CURSE ZONE"
+  },
+  {
+   "off": 187280,
+   "en": "Dance of Pales",
+   "cap": 16,
+   "path": "menu8",
+   "orig": "24414e4345004f460030414c4553ff00",
+   "ko": "망령의 춤"
+  },
+  {
+   "off": 187296,
+   "en": "Lost Painting",
+   "cap": 16,
+   "path": "menu8",
+   "orig": "2c4f5354003041494e54494e47ff0000",
+   "note": "Korean does not fit in place: relocated by libfix.py (upper-case English here)",
+   "want": "사라진 그림",
+   "ko": "LOST PAINTING"
+  },
+  {
+   "off": 187312,
+   "en": "Silence",
+   "cap": 12,
+   "path": "menu8",
+   "orig": "33494c454e4345ff00000000",
+   "ko": "정적"
+  },
+  {
+   "off": 187324,
+   "en": "Rainbow Cemetery",
+   "cap": 20,
+   "path": "menu8",
+   "orig": "3241494e424f570023454d4554455259ff000000",
+   "ko": "무지개 묘지"
+  },
+  {
+   "off": 187344,
+   "en": "Abandoned Pit",
+   "cap": 16,
+   "path": "menu8",
+   "orig": "2142414e444f4e454400304954ff0000",
+   "note": "Korean does not fit in place: relocated by libfix.py (upper-case English here)",
+   "want": "버려진 갱도",
+   "ko": "ABANDONED PIT"
+  },
+  {
+   "off": 187360,
+   "en": "Crystal Teardrop",
+   "cap": 20,
+   "path": "menu8",
+   "orig": "2352595354414c003445415244524f50ff000000",
+   "ko": "수정 물방울"
+  },
+  {
+   "off": 187380,
+   "en": "Requiem for the Gods",
+   "cap": 24,
+   "path": "menu8",
+   "orig": "3245515549454d00464f520054484500274f4453ff000000",
+   "ko": "신들의 진혼곡"
+  },
+  {
+   "off": 187404,
+   "en": "Land of Benediction",
+   "cap": 24,
+   "path": "menu8",
+   "orig": "2c414e44004f460022454e4544494354494f4eff00000000",
+   "ko": "축복의 땅"
+  },
+  {
+   "off": 187428,
+   "en": "Festival of Servants",
+   "cap": 24,
+   "path": "menu8",
+   "orig": "264553544956414c004f460033455256414e5453ff000000",
+   "ko": "하인들의 축제"
+  },
+  {
+   "off": 187452,
+   "en": "Door of Holy Spirits",
+   "cap": 24,
+   "path": "menu8",
+   "orig": "244f4f52004f4600284f4c590033504952495453ff000000",
+   "ko": "성령의 문"
+  },
+  {
+   "off": 187476,
+   "en": "Wood Carving Partita",
+   "cap": 24,
+   "path": "menu8",
+   "orig": "374f4f440023415256494e470030415254495441ff000000",
+   "ko": "목각 파르티타"
+  },
+  {
+   "off": 187500,
+   "en": "Tower of Mist",
+   "cap": 16,
+   "path": "menu8",
+   "orig": "344f574552004f46002d495354ff0000",
+   "ko": "안개의 탑"
+  },
+  {
+   "off": 187516,
+   "en": "Marble Gallery",
+   "cap": 16,
+   "path": "menu8",
+   "orig": "2d4152424c450027414c4c455259ff00",
+   "ko": "대리석 홀"
+  },
+  {
+   "off": 187532,
+   "en": "Dance of Gold",
+   "cap": 16,
+   "path": "menu8",
+   "orig": "24414e4345004f4600274f4c44ff0000",
+   "ko": "황금의 춤"
+  },
+  {
+   "off": 187548,
+   "en": "Dracula's Castle",
+   "cap": 20,
+   "path": "menu8",
+   "orig": "24524143554c41075300234153544c45ff000000",
+   "ko": "드라큘라 성"
+  },
+  {
+   "off": 187568,
+   "en": "Prayer",
+   "cap": 8,
+   "path": "menu8",
+   "orig": "305241594552ff00",
+   "ko": "기도"
+  },
+  {
+   "off": 187576,
+   "en": "Moonlight Nocturne",
+   "cap": 20,
+   "path": "menu8",
+   "orig": "2d4f4f4e4c49474854002e4f435455524e45ff00",
+   "ko": "월광 녹턴"
+  },
+  {
+   "off": 187596,
+   "en": "Dance of Illusions",
+   "cap": 20,
+   "path": "menu8",
+   "orig": "24414e4345004f4600294c4c5553494f4e53ff00",
+   "ko": "환상의 춤"
+  },
+  {
+   "off": 187616,
+   "en": "Prologue",
+   "cap": 12,
+   "path": "menu8",
+   "orig": "30524f4c4f475545ff000000",
+   "ko": "서곡"
+  },
+  {
+   "off": 187628,
+   "en": "Metamorphosis 1",
+   "cap": 20,
+   "path": "menu8",
+   "orig": "2d4554414d4f5250484f5349530011ff00000000",
+   "ko": "변신 1"
+  },
+  {
+   "off": 189380,
+   "en": "Obtained ",
+   "cap": 9,
+   "path": "api",
+   "nl": "\u0001",
+   "ko": "마도기: ",
+   "orig": "4f627461696e656420",
+   "note": "relic orb prefix + relic name"
+  }
+ ]
+}

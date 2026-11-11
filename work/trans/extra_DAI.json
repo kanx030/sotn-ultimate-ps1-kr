@@ -1,0 +1,54 @@
+{
+ "file": "ST/DAI/DAI.BIN",
+ "items": [
+  {
+   "off": 8962,
+   "en": "Magically sealed．",
+   "cap": 18,
+   "path": "api",
+   "nl": "\u0001",
+   "ko": "마법으로 봉인됨.",
+   "orig": "4d61676963616c6c79207365616c65648144",
+   "limit": 124
+  },
+  {
+   "off": 8986,
+   "en": "Mist could pass．",
+   "cap": 17,
+   "path": "api",
+   "nl": "\u0001",
+   "ko": "안개라면 간다.",
+   "orig": "4d69737420636f756c6420706173738144",
+   "limit": 124
+  },
+  {
+   "off": 9006,
+   "en": "I have nothing to do\nwith this wall．．．",
+   "cap": 41,
+   "path": "api",
+   "nl": "\u0001",
+   "ko": "이 벽은 나와는\n상관없다…",
+   "orig": "492068617665206e6f7468696e6720746f20646f017769746820746869732077616c6c814481448144",
+   "limit": 148
+  },
+  {
+   "off": 15346,
+   "en": "I...",
+   "cap": 4,
+   "path": "cutscene",
+   "newline_after": false,
+   "ko": "나…"
+  },
+  {
+   "off": 263056,
+   "en": "Obtained ",
+   "cap": 9,
+   "path": "api",
+   "nl": "\u0001",
+   "ko": "마도기: ",
+   "orig": "4f627461696e656420",
+   "note": "relic orb prefix + relic name"
+  }
+ ],
+ "script_start": 14996
+}

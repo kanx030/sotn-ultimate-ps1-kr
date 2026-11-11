@@ -1,0 +1,159 @@
+{
+"file": "ST/NZ0/NZ0.BIN",
+"script": "psp",
+"alt_start": 198220,
+"items": [
+{
+"off": 198256,
+"en": "Alucard, wasn't it?",
+"cap": 19,
+"ko": "알카드, 맞죠?",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 198278,
+"en": "We meet again.",
+"cap": 14,
+"ko": "또 만났군요.",
+"gap": "0330061394499224010500810b09366a0a0204",
+"newline_after": true
+},
+{
+"off": 198311,
+"en": "So it seems.",
+"cap": 12,
+"ko": "그런 것 같군.",
+"gap": "0330060501000b09366b0a11040202",
+"newline_after": true
+},
+{
+"off": 198338,
+"en": "As friendly as ever,",
+"cap": 20,
+"ko": "여전히 무뚝뚝하네요.",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 198361,
+"en": "I see.",
+"cap": 6,
+"ko": " ",
+"gap": "01110503",
+"newline_after": true
+},
+{
+"off": 198371,
+"en": "XIt's strange.",
+"cap": 14,
+"ko": "이상해요.",
+"gap": "01110603",
+"newline_after": true
+},
+{
+"off": 198389,
+"en": "8This castle's",
+"cap": 14,
+"ko": "이 성,",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 198406,
+"en": "different than",
+"cap": 14,
+"ko": "제 기억과는",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 198423,
+"en": "I remember it.",
+"cap": 14,
+"ko": "달라요.",
+"gap": "03480605008102042e2e2e2e2e2e2e2e2e010b09366c0a11070202",
+"newline_after": true
+},
+{
+"off": 198464,
+"en": "This castle is a",
+"cap": 16,
+"ko": "이 성은 혼돈의",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 198483,
+"en": "creature of Chaos.",
+"cap": 18,
+"ko": "피조물이다.",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 198504,
+"en": "With each rebirth,",
+"cap": 18,
+"ko": "되살아날 때마다",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 198525,
+"en": "it takes a new form.",
+"cap": 20,
+"ko": "모습을 바꾸지.",
+"gap": "03680b030a060501000b09366d0a11080203",
+"newline_after": true
+},
+{
+"off": 198563,
+"en": "And here",
+"cap": 8,
+"ko": "그렇군요.",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 198574,
+"en": "I thought my mind",
+"cap": 17,
+"ko": "전 제가 착각한",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 198594,
+"en": "was playing tricks.",
+"cap": 19,
+"ko": "줄 알았어요.",
+"gap": "0111090304",
+"newline_after": true
+},
+{
+"off": 198618,
+"en": "Well, there's",
+"cap": 13,
+"ko": "뭐, 어쩔 수",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 198634,
+"en": "nothing for it.",
+"cap": 15,
+"ko": "없죠.",
+"gap": "01110a0304",
+"newline_after": true
+},
+{
+"off": 198654,
+"en": "Till we meet again.",
+"cap": 19,
+"ko": "그럼 또 봐요.",
+"gap": "110b03",
+"newline_after": true
+}
+]
+}

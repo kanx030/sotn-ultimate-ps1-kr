@@ -1,0 +1,999 @@
+{
+"file": "ST/SEL/SEL.BIN",
+"script_start": 45822,
+"note": "ending dialogue: cutscene engine variant 0x801C0418 (not hooked yet)",
+"items": [
+{
+"off": 45870,
+"en": "Mankind continues",
+"cap": 17,
+"path": "cutscene",
+"newline_after": true,
+"ko": "인간은 끝없이"
+},
+{
+"off": 45890,
+"en": "to fight, ",
+"cap": 10,
+"path": "cutscene",
+"newline_after": false,
+"ko": "싸우지만, "
+},
+{
+"off": 45904,
+"en": "but it is",
+"cap": 9,
+"path": "cutscene",
+"newline_after": true,
+"ko": "그것은"
+},
+{
+"off": 45916,
+"en": "a desperate fight to",
+"cap": 20,
+"path": "cutscene",
+"newline_after": true,
+"ko": "살아남기 위한 필사의"
+},
+{
+"off": 45939,
+"en": "stay alive.",
+"cap": 11,
+"path": "cutscene",
+"newline_after": true,
+"ko": "싸움이다."
+},
+{
+"off": 45958,
+"en": "I suppose that he",
+"cap": 17,
+"path": "cutscene",
+"newline_after": true,
+"ko": "아마 그는"
+},
+{
+"off": 45978,
+"en": "chose a life of",
+"cap": 15,
+"path": "cutscene",
+"newline_after": true,
+"ko": "싸움 속의 삶을"
+},
+{
+"off": 45998,
+"en": "warfare ",
+"cap": 8,
+"path": "cutscene",
+"newline_after": false,
+"ko": "택했지."
+},
+{
+"off": 46010,
+"en": "since that",
+"cap": 10,
+"path": "cutscene",
+"newline_after": true,
+"ko": " "
+},
+{
+"off": 46023,
+"en": "was the only way ",
+"cap": 17,
+"path": "cutscene",
+"newline_after": false,
+"ko": "그것이 그가 "
+},
+{
+"off": 46042,
+"en": "he",
+"cap": 2,
+"path": "cutscene",
+"newline_after": true,
+"ko": "아는"
+},
+{
+"off": 46047,
+"en": "knew.",
+"cap": 5,
+"path": "cutscene",
+"newline_after": true,
+"ko": "유일한 길."
+},
+{
+"off": 46058,
+"en": "Like you Father,",
+"cap": 16,
+"path": "cutscene",
+"newline_after": true,
+"ko": "아버지, 당신처럼"
+},
+{
+"off": 46079,
+"en": "he chose a path of",
+"cap": 18,
+"path": "cutscene",
+"newline_after": true,
+"ko": "그도 파멸의 길을"
+},
+{
+"off": 46100,
+"en": "destruction...",
+"cap": 14,
+"path": "cutscene",
+"newline_after": true,
+"ko": "택했던 거요..."
+},
+{
+"off": 46122,
+"en": "Farewell, ",
+"cap": 10,
+"path": "cutscene",
+"newline_after": false,
+"ko": "잘 "
+},
+{
+"off": 46134,
+"en": "land of my",
+"cap": 10,
+"path": "cutscene",
+"newline_after": true,
+"ko": "있거라,"
+},
+{
+"off": 46147,
+"en": "birth. ",
+"cap": 7,
+"path": "cutscene",
+"newline_after": false,
+"ko": "나의 "
+},
+{
+"off": 46156,
+"en": "Never again",
+"cap": 11,
+"path": "cutscene",
+"newline_after": true,
+"ko": "고향아."
+},
+{
+"off": 46170,
+"en": "will these eyes gaze",
+"cap": 20,
+"path": "cutscene",
+"newline_after": true,
+"ko": "두 번 다시 네 아름다움을"
+},
+{
+"off": 46193,
+"en": "upon your beauty.",
+"cap": 17,
+"path": "cutscene",
+"newline_after": false,
+"ko": "볼 일은 없으리라."
+},
+{
+"off": 46243,
+"en": "So you made it.",
+"cap": 15,
+"path": "cutscene",
+"newline_after": false,
+"ko": "무사했나 보군."
+},
+{
+"off": 46277,
+"en": "Alucard!",
+"cap": 8,
+"path": "cutscene",
+"newline_after": true,
+"ko": "알카드!"
+},
+{
+"off": 46290,
+"en": "How is ",
+"cap": 7,
+"path": "cutscene",
+"newline_after": false,
+"ko": "리히터"
+},
+{
+"off": 46299,
+"en": "Richter?",
+"cap": 8,
+"path": "cutscene",
+"newline_after": false,
+"ko": "는요?"
+},
+{
+"off": 46320,
+"en": "I'm sorry...",
+"cap": 12,
+"path": "cutscene",
+"newline_after": false,
+"ko": "미안하다..."
+},
+{
+"off": 46345,
+"en": "I ",
+"cap": 2,
+"path": "cutscene",
+"newline_after": false,
+"ko": "그"
+},
+{
+"off": 46349,
+"en": "see...",
+"cap": 6,
+"path": "cutscene",
+"newline_after": true,
+"ko": "래요.."
+},
+{
+"off": 46360,
+"en": "Thank you for",
+"cap": 13,
+"path": "cutscene",
+"newline_after": true,
+"ko": "그를 막아줘서"
+},
+{
+"off": 46378,
+"en": "stopping him...",
+"cap": 15,
+"path": "cutscene",
+"newline_after": true,
+"ko": "고마워요..."
+},
+{
+"off": 46398,
+"en": "Do you suppose that",
+"cap": 19,
+"path": "cutscene",
+"newline_after": true,
+"ko": "이것도 운명이라고"
+},
+{
+"off": 46420,
+"en": "this too is Fate?",
+"cap": 17,
+"path": "cutscene",
+"newline_after": false,
+"ko": "생각하세요?"
+},
+{
+"off": 46462,
+"en": "So your journey is",
+"cap": 18,
+"path": "cutscene",
+"newline_after": true,
+"ko": "그럼 네 여행도"
+},
+{
+"off": 46483,
+"en": "over as well then?",
+"cap": 18,
+"path": "cutscene",
+"newline_after": false,
+"ko": "끝난 건가?"
+},
+{
+"off": 46514,
+"en": "No, ",
+"cap": 4,
+"path": "cutscene",
+"newline_after": false,
+"ko": "아뇨"
+},
+{
+"off": 46520,
+"en": "not until I",
+"cap": 11,
+"path": "cutscene",
+"newline_after": true,
+"ko": ", 리히터가"
+},
+{
+"off": 46534,
+"en": "learn what caused",
+"cap": 17,
+"path": "cutscene",
+"newline_after": true,
+"ko": "미쳐 버린 원인을"
+},
+{
+"off": 46556,
+"en": "Richter's madness.",
+"cap": 18,
+"path": "cutscene",
+"newline_after": false,
+"ko": "알아낼 때까진..."
+},
+{
+"off": 46593,
+"en": "I understand...",
+"cap": 15,
+"path": "cutscene",
+"newline_after": true,
+"ko": "그렇군..."
+},
+{
+"off": 46611,
+"en": "Well then, ",
+"cap": 11,
+"path": "cutscene",
+"newline_after": false,
+"ko": "그럼 "
+},
+{
+"off": 46624,
+"en": "may the",
+"cap": 7,
+"path": "cutscene",
+"newline_after": true,
+"ko": "가는 길에"
+},
+{
+"off": 46634,
+"en": "Gods guard you along",
+"cap": 20,
+"path": "cutscene",
+"newline_after": true,
+"ko": "신의 가호가 있기를."
+},
+{
+"off": 46657,
+"en": "the way. ",
+"cap": 9,
+"path": "cutscene",
+"newline_after": false,
+"ko": "잘 "
+},
+{
+"off": 46668,
+"en": "Farewell.",
+"cap": 9,
+"path": "cutscene",
+"newline_after": false,
+"ko": "가라."
+},
+{
+"off": 46696,
+"en": "You as well Alucard.",
+"cap": 20,
+"path": "cutscene",
+"newline_after": true,
+"ko": "당신도요, 알카드."
+},
+{
+"off": 46721,
+"en": "Good-bye.",
+"cap": 9,
+"path": "cutscene",
+"newline_after": false,
+"ko": "안녕히."
+},
+{
+"off": 46765,
+"en": "So you made it.",
+"cap": 15,
+"path": "cutscene",
+"newline_after": false,
+"ko": "무사했나 보군."
+},
+{
+"off": 46799,
+"en": "Alucard!",
+"cap": 8,
+"path": "cutscene",
+"newline_after": true,
+"ko": "알카드!"
+},
+{
+"off": 46812,
+"en": "I'm glad your",
+"cap": 13,
+"path": "cutscene",
+"newline_after": true,
+"ko": "무사해서 정말 기뻐요!"
+},
+{
+"off": 46828,
+"en": "all right!",
+"cap": 10,
+"path": "cutscene",
+"newline_after": false,
+"ko": " "
+},
+{
+"off": 46857,
+"en": "I'm sorry.",
+"cap": 10,
+"path": "cutscene",
+"newline_after": true,
+"ko": "미안하다."
+},
+{
+"off": 46872,
+"en": "'Tis my fault that",
+"cap": 18,
+"path": "cutscene",
+"newline_after": true,
+"ko": "내 탓에 당신이"
+},
+{
+"off": 46893,
+"en": "you had to fight",
+"cap": 16,
+"path": "cutscene",
+"newline_after": true,
+"ko": "친아버지와"
+},
+{
+"off": 46912,
+"en": "your own father...",
+"cap": 18,
+"path": "cutscene",
+"newline_after": false,
+"ko": "싸워야만 했다..."
+},
+{
+"off": 46943,
+"en": "Fear not. ",
+"cap": 10,
+"path": "cutscene",
+"newline_after": false,
+"ko": "걱정 "
+},
+{
+"off": 46957,
+"en": "I had my",
+"cap": 8,
+"path": "cutscene",
+"newline_after": true,
+"ko": "마라."
+},
+{
+"off": 46968,
+"en": "own reasons for",
+"cap": 15,
+"path": "cutscene",
+"newline_after": true,
+"ko": "나도 그를 쓰러뜨릴"
+},
+{
+"off": 46986,
+"en": "destroying him.",
+"cap": 15,
+"path": "cutscene",
+"newline_after": false,
+"ko": "이유가 있었다."
+},
+{
+"off": 47014,
+"en": "It must have been",
+"cap": 17,
+"path": "cutscene",
+"newline_after": true,
+"ko": "그래도 당신에겐"
+},
+{
+"off": 47034,
+"en": "painful for you.",
+"cap": 16,
+"path": "cutscene",
+"newline_after": false,
+"ko": "괴로웠겠지."
+},
+{
+"off": 47063,
+"en": "Indeed. ",
+"cap": 8,
+"path": "cutscene",
+"newline_after": false,
+"ko": "그렇다."
+},
+{
+"off": 47073,
+"en": "But you must",
+"cap": 12,
+"path": "cutscene",
+"newline_after": true,
+"ko": " "
+},
+{
+"off": 47088,
+"en": "always remember ",
+"cap": 16,
+"path": "cutscene",
+"newline_after": false,
+"ko": "하지만 늘 기억해 "
+},
+{
+"off": 47106,
+"en": "that",
+"cap": 4,
+"path": "cutscene",
+"newline_after": true,
+"ko": "둬라."
+},
+{
+"off": 47113,
+"en": "the only thing",
+"cap": 14,
+"path": "cutscene",
+"newline_after": true,
+"ko": "악이 승리하는 데"
+},
+{
+"off": 47132,
+"en": "necessary for evil",
+"cap": 18,
+"path": "cutscene",
+"newline_after": true,
+"ko": "필요한 것은"
+},
+{
+"off": 47153,
+"en": "to triumph ",
+"cap": 11,
+"path": "cutscene",
+"newline_after": false,
+"ko": "선한 "
+},
+{
+"off": 47168,
+"en": "is for",
+"cap": 6,
+"path": "cutscene",
+"newline_after": true,
+"ko": "자들의"
+},
+{
+"off": 47177,
+"en": "good men to do",
+"cap": 14,
+"path": "cutscene",
+"newline_after": true,
+"ko": "침묵뿐이다..."
+},
+{
+"off": 47194,
+"en": "nothing...",
+"cap": 10,
+"path": "cutscene",
+"newline_after": false,
+"ko": " "
+},
+{
+"off": 47217,
+"en": "I understand.",
+"cap": 13,
+"path": "cutscene",
+"newline_after": false,
+"ko": "명심하지."
+},
+{
+"off": 47249,
+"en": "Alucard, ",
+"cap": 9,
+"path": "cutscene",
+"newline_after": false,
+"ko": "알카드, "
+},
+{
+"off": 47262,
+"en": "what will",
+"cap": 9,
+"path": "cutscene",
+"newline_after": true,
+"ko": "이제"
+},
+{
+"off": 47274,
+"en": "you do now?",
+"cap": 11,
+"path": "cutscene",
+"newline_after": false,
+"ko": "뭘 할 거죠?"
+},
+{
+"off": 47298,
+"en": "The blood that flows",
+"cap": 20,
+"path": "cutscene",
+"newline_after": true,
+"ko": "내 핏줄에 흐르는 이 피는"
+},
+{
+"off": 47321,
+"en": "in my veins is",
+"cap": 14,
+"path": "cutscene",
+"newline_after": true,
+"ko": "저주받았다."
+},
+{
+"off": 47338,
+"en": "cursed. ",
+"cap": 8,
+"path": "cutscene",
+"newline_after": false,
+"ko": "이 세상을 "
+},
+{
+"off": 47350,
+"en": "'Twould be",
+"cap": 10,
+"path": "cutscene",
+"newline_after": true,
+"ko": "위해서는"
+},
+{
+"off": 47363,
+"en": "best for this world",
+"cap": 19,
+"path": "cutscene",
+"newline_after": true,
+"ko": "내가 영원히"
+},
+{
+"off": 47387,
+"en": "if I were to",
+"cap": 12,
+"path": "cutscene",
+"newline_after": true,
+"ko": "사라지는 게 낫다."
+},
+{
+"off": 47402,
+"en": "disappear forever.",
+"cap": 18,
+"path": "cutscene",
+"newline_after": false,
+"ko": " "
+},
+{
+"off": 47445,
+"en": "I see...",
+"cap": 8,
+"path": "cutscene",
+"newline_after": false,
+"ko": "그래요..."
+},
+{
+"off": 47466,
+"en": "Farewell then. ",
+"cap": 15,
+"path": "cutscene",
+"newline_after": false,
+"ko": "잘 "
+},
+{
+"off": 47485,
+"en": "We'll",
+"cap": 5,
+"path": "cutscene",
+"newline_after": true,
+"ko": "있어라."
+},
+{
+"off": 47493,
+"en": "not meet again.",
+"cap": 15,
+"path": "cutscene",
+"newline_after": false,
+"ko": "다시 만날 일은 없다."
+},
+{
+"off": 47537,
+"en": "Alucard...",
+"cap": 10,
+"path": "cutscene",
+"newline_after": false,
+"ko": "알카드..."
+},
+{
+"off": 47566,
+"en": "Don't you ",
+"cap": 10,
+"path": "cutscene",
+"newline_after": false,
+"ko": "그를 "
+},
+{
+"off": 47580,
+"en": "want to go",
+"cap": 10,
+"path": "cutscene",
+"newline_after": true,
+"ko": "쫓아가지"
+},
+{
+"off": 47593,
+"en": "after him, ",
+"cap": 11,
+"path": "cutscene",
+"newline_after": false,
+"ko": "않을 거야, "
+},
+{
+"off": 47608,
+"en": "Maria?",
+"cap": 6,
+"path": "cutscene",
+"newline_after": false,
+"ko": "마리아?"
+},
+{
+"off": 47654,
+"en": "I'm sorry...",
+"cap": 12,
+"path": "cutscene",
+"newline_after": true,
+"ko": "미안해요..."
+},
+{
+"off": 47671,
+"en": "I can't let him",
+"cap": 15,
+"path": "cutscene",
+"newline_after": true,
+"ko": "그를 제 삶에서"
+},
+{
+"off": 47691,
+"en": "disappear ",
+"cap": 10,
+"path": "cutscene",
+"newline_after": false,
+"ko": "떠나보낼 수는 "
+},
+{
+"off": 47703,
+"en": "from my ",
+"cap": 8,
+"path": "cutscene",
+"newline_after": true,
+"ko": "없어요."
+},
+{
+"off": 47714,
+"en": "life.",
+"cap": 5,
+"path": "cutscene",
+"newline_after": false,
+"ko": " "
+},
+{
+"off": 47732,
+"en": "It's all right.",
+"cap": 15,
+"path": "cutscene",
+"newline_after": true,
+"ko": "괜찮아."
+},
+{
+"off": 47750,
+"en": "Go after him.",
+"cap": 13,
+"path": "cutscene",
+"newline_after": true,
+"ko": "그를 쫓아가."
+},
+{
+"off": 47766,
+"en": "Perhaps you can save",
+"cap": 20,
+"path": "cutscene",
+"newline_after": true,
+"ko": "어쩌면 그의 괴로운"
+},
+{
+"off": 47789,
+"en": "his haunted soul.",
+"cap": 17,
+"path": "cutscene",
+"newline_after": false,
+"ko": "영혼을 구할 거야."
+},
+{
+"off": 47819,
+"en": "Thank you Richter...",
+"cap": 20,
+"path": "cutscene",
+"newline_after": true,
+"ko": "고마워요, 리히터..."
+},
+{
+"off": 47842,
+"en": "Fare thee well.",
+"cap": 15,
+"path": "cutscene",
+"newline_after": false,
+"ko": "잘 지내요."
+},
+{
+"off": 47870,
+"en": "And yourself,",
+"cap": 13,
+"path": "cutscene",
+"newline_after": true,
+"ko": "너도 잘 지내,"
+},
+{
+"off": 47886,
+"en": "dear Lady.",
+"cap": 10,
+"path": "cutscene",
+"newline_after": false,
+"ko": "아가씨."
+},
+{
+"off": 47926,
+"en": "No, ",
+"cap": 4,
+"path": "cutscene",
+"newline_after": false,
+"ko": "아니요, "
+},
+{
+"off": 47934,
+"en": "it's best this",
+"cap": 14,
+"path": "cutscene",
+"newline_after": true,
+"ko": "이대로가 좋아요."
+},
+{
+"off": 47951,
+"en": "way. ",
+"cap": 5,
+"path": "cutscene",
+"newline_after": false,
+"ko": "그의 "
+},
+{
+"off": 47958,
+"en": "I can't ease",
+"cap": 12,
+"path": "cutscene",
+"newline_after": true,
+"ko": "고통을 덜 수 없어요."
+},
+{
+"off": 47973,
+"en": "his torment. ",
+"cap": 13,
+"path": "cutscene",
+"newline_after": false,
+"ko": "언젠가 우리 "
+},
+{
+"off": 47988,
+"en": "Someday",
+"cap": 7,
+"path": "cutscene",
+"newline_after": true,
+"ko": "다시"
+},
+{
+"off": 47998,
+"en": "perhaps ",
+"cap": 8,
+"path": "cutscene",
+"newline_after": false,
+"ko": "만날 "
+},
+{
+"off": 48008,
+"en": "we will ",
+"cap": 8,
+"path": "cutscene",
+"newline_after": false,
+"ko": "거예요."
+},
+{
+"off": 48018,
+"en": "meet",
+"cap": 4,
+"path": "cutscene",
+"newline_after": true,
+"ko": " "
+},
+{
+"off": 48025,
+"en": "again, ",
+"cap": 7,
+"path": "cutscene",
+"newline_after": false,
+"ko": "그리고 그땐 "
+},
+{
+"off": 48036,
+"en": "and on that",
+"cap": 11,
+"path": "cutscene",
+"newline_after": true,
+"ko": "아마..."
+},
+{
+"off": 48050,
+"en": "day ",
+"cap": 4,
+"path": "cutscene",
+"newline_after": false,
+"ko": " "
+},
+{
+"off": 48056,
+"en": "maybe...",
+"cap": 8,
+"path": "cutscene",
+"newline_after": false,
+"ko": " "
+},
+{
+"off": 48077,
+"en": "I see...",
+"cap": 8,
+"path": "cutscene",
+"newline_after": false,
+"ko": "그렇군.."
+},
+{
+"off": 48100,
+"en": "Let's go. ",
+"cap": 10,
+"path": "cutscene",
+"newline_after": false,
+"ko": "가요."
+},
+{
+"off": 48114,
+"en": "Everyone's",
+"cap": 10,
+"path": "cutscene",
+"newline_after": true,
+"ko": " "
+},
+{
+"off": 48127,
+"en": "waiting for us.",
+"cap": 15,
+"path": "cutscene",
+"newline_after": false,
+"ko": "모두가 기다리고 있어요."
+},
+{
+"off": 48155,
+"en": "Yes, ",
+"cap": 5,
+"path": "cutscene",
+"newline_after": false,
+"ko": "그래,"
+},
+{
+"off": 48164,
+"en": "let's ",
+"cap": 6,
+"path": "cutscene",
+"newline_after": false,
+"ko": " "
+},
+{
+"off": 48172,
+"en": "get",
+"cap": 3,
+"path": "cutscene",
+"newline_after": true,
+"ko": " "
+},
+{
+"off": 48178,
+"en": "out of here.",
+"cap": 12,
+"path": "cutscene",
+"newline_after": false,
+"ko": "어서 여길 나가자."
+}
+]
+}

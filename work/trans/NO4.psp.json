@@ -1,0 +1,55 @@
+{
+"file": "ST/NO4/NO4.BIN",
+"script": "psp",
+"alt_start": 264816,
+"items": [
+{
+"off": 264838,
+"en": "Welcome aboard, O",
+"cap": 17,
+"ko": "어서 타십시오, 왕자님.",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 264858,
+"en": "Prince. Shall I guide",
+"cap": 21,
+"ko": "강 건너편까지",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 264882,
+"en": "thee 'cross the river?",
+"cap": 22,
+"ko": "모셔다 드릴까요?",
+"gap": "03300b030a06080b140111110700090110073c18138cc33000000500000b0950040a0202",
+"newline_after": true
+},
+{
+"off": 264940,
+"en": "Thy destiny awaits,",
+"cap": 19,
+"ko": "운명이 기다리고",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 264962,
+"en": "O Prince.",
+"cap": 9,
+"ko": "있습니다, 왕자님.",
+"gap": "03300b030a06080b140111110700000000",
+"newline_after": true
+},
+{
+"off": 264988,
+"en": "TS",
+"cap": 2,
+"ko": "",
+"gap": "188070",
+"newline_after": false
+}
+]
+}

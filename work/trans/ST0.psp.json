@@ -1,0 +1,231 @@
+{
+"file": "ST/ST0/ST0.BIN",
+"script": "psp",
+"alt_start": 162280,
+"items": [
+{
+"off": 162309,
+"en": "Dracula. Die now, and",
+"cap": 21,
+"ko": "드라큘라! 사라져라!",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 162333,
+"en": "leave this world!",
+"cap": 17,
+"ko": "이 세상을 떠나라!",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 162353,
+"en": "You'll never belong",
+"cap": 19,
+"ko": "네가 있을 곳은",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 162375,
+"en": "here!",
+"cap": 5,
+"ko": "여기가 아니다!",
+"gap": "03400b030a06138ffeebb0010501810b0935590a0203",
+"newline_after": true
+},
+{
+"off": 162402,
+"en": "Oh, but this world",
+"cap": 18,
+"ko": "하지만 이 세상이",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 162423,
+"en": "invited me. Your own",
+"cap": 20,
+"ko": "날 불렀다. 너희 인간이",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 162446,
+"en": "kind called me forth",
+"cap": 20,
+"ko": "찬양과 공물을 바치며",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 162469,
+"en": "with praise and",
+"cap": 15,
+"ko": "날 불러냈다.",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 162487,
+"en": "tribute.",
+"cap": 8,
+"ko": " ",
+"gap": "03400b030a060500000b09355a0a110a0204",
+"newline_after": true
+},
+{
+"off": 162513,
+"en": "Tribute? You're a",
+"cap": 17,
+"ko": "공물이라고? 너는",
+"gap": "01110b0304",
+"newline_after": true
+},
+{
+"off": 162535,
+"en": "thief. You steal",
+"cap": 16,
+"ko": "도둑이다.",
+"gap": "01110c0304",
+"newline_after": true
+},
+{
+"off": 162556,
+"en": "men's souls, their",
+"cap": 18,
+"ko": "사람들의 영혼과",
+"gap": "01110d0304",
+"newline_after": true
+},
+{
+"off": 162579,
+"en": "freedom...",
+"cap": 10,
+"ko": "자유를 훔치지...",
+"gap": "0340060501810b09355b0a0202",
+"newline_after": true
+},
+{
+"off": 162602,
+"en": "Freedom is always",
+"cap": 17,
+"ko": "자유란 언제나",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 162622,
+"en": "sacrificed to faith,",
+"cap": 20,
+"ko": "신앙에 바쳐지는 법,",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 162645,
+"en": "good hunter. Or are",
+"cap": 19,
+"ko": "사냥꾼이여.",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 162667,
+"en": "you truly here by",
+"cap": 17,
+"ko": "너는 정말 스스로",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 162687,
+"en": "choice?",
+"cap": 7,
+"ko": "원해서 왔느냐?",
+"gap": "03300b030a060500000b09355c0a110e0203",
+"newline_after": true
+},
+{
+"off": 162712,
+"en": "All I'm here for",
+"cap": 16,
+"ko": "내가 여기 온 건",
+"gap": "01110f0304",
+"newline_after": true
+},
+{
+"off": 162733,
+"en": "is you. To hell",
+"cap": 15,
+"ko": "오직 너 때문이다.",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 162751,
+"en": "with your heresy!",
+"cap": 17,
+"ko": "궤변은 집어치워라!",
+"gap": "0111100304",
+"newline_after": true
+},
+{
+"off": 162773,
+"en": "You're nothing but a",
+"cap": 20,
+"ko": "너는 인류에게",
+"gap": "01110411110304",
+"newline_after": true
+},
+{
+"off": 162800,
+"en": "blight on mankind.",
+"cap": 18,
+"ko": "재앙일 뿐이다!",
+"gap": "03401112060501810b09355d0a0203",
+"newline_after": true
+},
+{
+"off": 162833,
+"en": "Ha! Mankind. A",
+"cap": 14,
+"ko": "하! 인류라. 증오와",
+"gap": "0111050304",
+"newline_after": true
+},
+{
+"off": 162852,
+"en": "cesspit of hatred and",
+"cap": 21,
+"ko": "거짓으로 가득 찬",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 162876,
+"en": "lies. Fight for them,",
+"cap": 21,
+"ko": "시궁창이지. 그렇다면",
+"gap": "01100811060304",
+"newline_after": true
+},
+{
+"off": 162904,
+"en": "then, and die for",
+"cap": 17,
+"ko": "놈들을 위해 싸우고",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 162924,
+"en": "their sins!",
+"cap": 11,
+"ko": "죄와 함께 죽어라!",
+"gap": "03400b",
+"newline_after": true
+}
+]
+}

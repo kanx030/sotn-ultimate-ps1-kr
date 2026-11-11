@@ -1,0 +1,399 @@
+{
+"file": "ST/RCEN/RCEN.BIN",
+"script": "psp",
+"alt_start": 106636,
+"items": [
+{
+"off": 106666,
+"en": "Ugh... No!",
+"cap": 10,
+"ko": "으윽... 안 돼!",
+"gap": "0103380b030a06138eecc770010500010b0941130a0202",
+"newline_after": true
+},
+{
+"off": 106699,
+"en": "Your beloved darkness",
+"cap": 21,
+"ko": "네가 사랑하는 어둠이",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 106723,
+"en": "awaits you.",
+"cap": 11,
+"ko": "기다리고 있다.",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 106737,
+"en": "Dwell there for all",
+"cap": 19,
+"ko": "그곳에서 영원히",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 106759,
+"en": "eternity!",
+"cap": 9,
+"ko": "머물러라!",
+"gap": "0398060501800b0941190a0203",
+"newline_after": true
+},
+{
+"off": 106781,
+"en": "Ha... I die",
+"cap": 11,
+"ko": "하... 나는 이기고",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 106795,
+"en": "victorious... Count",
+"cap": 19,
+"ko": "죽는다... 드라큘라",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 106817,
+"en": "Dracula rises even",
+"cap": 18,
+"ko": "백작께서 지금",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 106838,
+"en": "now! Let him purge",
+"cap": 18,
+"ko": "부활하신다! 그분이",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 106859,
+"en": "the world in flames!",
+"cap": 20,
+"ko": "세상을 불길로 정화하리라!",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 106882,
+"en": "Hahaha!",
+"cap": 7,
+"ko": "하하하!",
+"gap": "03980355061108080b0010001409910b073c1c138ff99ff0000501800b093ffe0a0203",
+"newline_after": true
+},
+{
+"off": 106924,
+"en": "All hail the son of",
+"cap": 19,
+"ko": "주인님의 아드님께",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 106946,
+"en": "our Master!",
+"cap": 11,
+"ko": "경의를!",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 106960,
+"en": "Stronger than the",
+"cap": 17,
+"ko": "가장 강한 사냥꾼보다도",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 106980,
+"en": "mightiest hunter!",
+"cap": 17,
+"ko": "강하시군!",
+"gap": "0368060e81177aa89aa220059aa22aac138eecc770010500010b0940080a0202",
+"newline_after": true
+},
+{
+"off": 107029,
+"en": "So you were the one",
+"cap": 19,
+"ko": "벨몬드를 조종한 건",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 107051,
+"en": "controlling Belmont.",
+"cap": 20,
+"ko": "네놈이었군.",
+"gap": "0358060501800b0940090a0204",
+"newline_after": true
+},
+{
+"off": 107084,
+"en": "Yes. The dark priest",
+"cap": 20,
+"ko": "그렇다. 나는 어둠의",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 107107,
+"en": "called Shaft, come to",
+"cap": 21,
+"ko": "사제 샤프트. 세상을",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 107131,
+"en": "cleanse the world in",
+"cap": 20,
+"ko": "혼돈의 용광로에서",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 107154,
+"en": "the forge of chaos.",
+"cap": 19,
+"ko": "정화하러 왔노라.",
+"gap": "03b80f9aa22ff3138eecc770010500010b093fff0a0203",
+"newline_after": true
+},
+{
+"off": 107196,
+"en": "So you are the",
+"cap": 14,
+"ko": "네가 샤프트라는",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 107213,
+"en": "one called Shaft?",
+"cap": 17,
+"ko": "자인가?",
+"gap": "0368060501800b0940000a0204",
+"newline_after": true
+},
+{
+"off": 107243,
+"en": "I am he.",
+"cap": 8,
+"ko": "그렇다.",
+"gap": "03380b030a060500010b0940010a0202",
+"newline_after": true
+},
+{
+"off": 107267,
+"en": "You made Belmont",
+"cap": 16,
+"ko": "벨몬드를 이 성의",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 107286,
+"en": "lord of the castle.",
+"cap": 19,
+"ko": "주인으로 삼았지.",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 107308,
+"en": "Why?",
+"cap": 4,
+"ko": "왜지?",
+"gap": "03280b030a060501800b0940020a0203",
+"newline_after": true
+},
+{
+"off": 107328,
+"en": "Because we tire of",
+"cap": 18,
+"ko": "사냥꾼들과 그들의",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 107349,
+"en": "these hunters and",
+"cap": 17,
+"ko": "성스러운 힘에는",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 107369,
+"en": "their holy power. If",
+"cap": 20,
+"ko": "질렸거든. 그들끼리",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 107392,
+"en": "they would but turn",
+"cap": 19,
+"ko": "서로 싸우게 된다면",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 107414,
+"en": "on one another...",
+"cap": 17,
+"ko": "어떻겠나...",
+"gap": "03ff060500010b0940030a0202",
+"newline_after": true
+},
+{
+"off": 107444,
+"en": "...Then the strongest",
+"cap": 21,
+"ko": "...그중 가장 강한",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 107468,
+"en": "one among them would",
+"cap": 20,
+"ko": "자가 나머지를",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 107491,
+"en": "eliminate the rest.",
+"cap": 19,
+"ko": "없애겠지.",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 107513,
+"en": "Belmont.",
+"cap": 8,
+"ko": "벨몬드 말이군.",
+"gap": "03f8060501800b0940040a0203",
+"newline_after": true
+},
+{
+"off": 107534,
+"en": "Yes. So I converted",
+"cap": 19,
+"ko": "그렇다. 그래서 놈을",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 107556,
+"en": "him, brought him here",
+"cap": 21,
+"ko": "타락시켜 이곳에 두고",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 107580,
+"en": "to lure the rest,",
+"cap": 17,
+"ko": "나머지를 끌어들여",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 107600,
+"en": "to force them all to",
+"cap": 20,
+"ko": "모두 싸우다 죽게",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 107623,
+"en": "fight and die.",
+"cap": 14,
+"ko": "만든 것이다.",
+"gap": "03ff060500010b0940050a0202",
+"newline_after": true
+},
+{
+"off": 107650,
+"en": "But you never planned",
+"cap": 21,
+"ko": "하지만 나는 네 계획에",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 107674,
+"en": "for me. And now",
+"cap": 15,
+"ko": "없었겠지. 결국",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 107692,
+"en": "you've failed.",
+"cap": 14,
+"ko": "너는 실패했다.",
+"gap": "0388060501800b0940060a0203",
+"newline_after": true
+},
+{
+"off": 107719,
+"en": "Ha! Your human soul",
+"cap": 19,
+"ko": "하! 네 인간의 영혼도",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 107741,
+"en": "is frail as his was.",
+"cap": 20,
+"ko": "그놈만큼 나약하다.",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 107764,
+"en": "You'll take his",
+"cap": 15,
+"ko": "네가 그 자리를",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 107782,
+"en": "place-- I'll tear",
+"cap": 17,
+"ko": "대신하라-- 그 영혼을",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 107802,
+"en": "that soul apart!",
+"cap": 16,
+"ko": "찢어 주마!",
+"gap": "038f11",
+"newline_after": false
+}
+]
+}

@@ -1,0 +1,65 @@
+악마성 드라큘라 X 월하의 야상곡 얼티메이트 (PS1 v1.2) 한글 패치
+==========================================================
+
+이 패치는 팬 개조판 "SOTN Ultimate (PS1 Version) v1.2"를 한글로 옮긴 것입니다.
+대사, 메뉴, 아이템, 지역 이름, 제목 화면 그림까지 모두 한글로 바꿨습니다.
+
+
+필요한 파일
+-----------
+SOTN Ultimate (PS1 Version) v1.2.bin  (원본 이미지, 한 트랙짜리)
+  MD5: b8b9cd07c9251919bcf02c8ebbb4602b
+
+※ 게임 이미지는 함께 주지 않습니다. 직접 준비해 주세요.
+
+
+적용 방법
+---------
+1. xdelta 패치 프로그램을 준비합니다. (예: Delta Patcher, xdelta UI, xdelta3)
+2. 원본 파일: SOTN Ultimate (PS1 Version) v1.2.bin
+   패치 파일: SOTN_Ultimate_KR.xdelta
+3. 결과 파일 이름을 SOTN_Ultimate_KR.bin 으로 저장합니다.
+4. 함께 든 SOTN_Ultimate_KR.cue 를 같은 폴더에 두고, cue 파일로 실행합니다.
+   결과 MD5: fd46b0272f8db216d4a7188c7a7bba4a
+
+명령줄 예:
+  xdelta3 -d -s "SOTN Ultimate (PS1 Version) v1.2.bin" SOTN_Ultimate_KR.xdelta SOTN_Ultimate_KR.bin
+
+
+주요 내용
+---------
+- 음성 설정(설정 > 추가 설정 > 음성)마다 따로 맞춘 대본
+  · PS1 영어 음성: 새턴판 북미 대본 기준 번역
+  · PSP 영어 음성: PSP 재녹음 대사에 맞춘 새 번역
+  · 일본어 음성: PSP 한글판 번역, 일본어 음성 타이밍에 맞춤
+- 일본어 음성일 때 오프닝 자막에 일본판 낭독이 함께 나옵니다.
+- 켤 때 코나미 영상을 건너뛰어 제목 화면이 빨리 뜹니다.
+- 모든 한글은 갈무리 글꼴로 통일했습니다.
+
+
+확인된 실행 환경
+----------------
+RetroArch + SwanStation 코어에서 시험했습니다.
+실제 기기에서는 시험하지 않았습니다.
+
+
+알아 둘 점
+----------
+- 다른 버전(이전 패치나 영문판)에서 만든 "상태 저장"은 쓰지 마세요.
+  메모리 카드 저장은 그대로 쓸 수 있습니다.
+
+
+글꼴
+----
+갈무리(Galmuri) - 이민서, SIL Open Font License 1.1
+Noto Sans KR / Noto Serif KR - Google, SIL Open Font License 1.1
+(게임 안에는 이 글꼴로 그린 그림만 들어 있습니다.)
+
+
+고마운 분들
+-----------
+SOTN Ultimate 제작자, 플스1·새턴·PSP 한글판 제작자분들께 감사드립니다.
+번역 용어와 말투는 기존 한글판을 많이 참고했습니다.
+
+이 패치는 비영리 팬 작업입니다.
+악마성 드라큘라 X 월하의 야상곡 © 1997 KONAMI

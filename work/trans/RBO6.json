@@ -1,0 +1,788 @@
+{
+"file": "BOSS/RBO6/RBO6.BIN",
+"alt_start": 5920,
+"items": [
+{
+"off": 5947,
+"en": "Father...",
+"cap": 9,
+"after": "033006",
+"newline_after": true,
+"ko": "아버지...",
+"gap": "03300613911eebbc000501000b09411d0a11020202"
+},
+{
+"off": 5977,
+"en": "Well met, ",
+"cap": 10,
+"after": "03086d",
+"newline_after": false,
+"ko": "반갑구나, ",
+"gap": "0308"
+},
+{
+"off": 5989,
+"en": "my son!",
+"cap": 7,
+"after": "010320",
+"newline_after": true,
+"ko": "아들아!",
+"gap": "0103200203"
+},
+{
+"off": 6001,
+"en": "It's been a long",
+"cap": 16,
+"after": "010304",
+"newline_after": true,
+"ko": "오랜만이구나.",
+"gap": "010304"
+},
+{
+"off": 6020,
+"en": "time.",
+"cap": 5,
+"after": "033006",
+"newline_after": true,
+"ko": " ",
+"gap": "0330060500010b09411e0a0202"
+},
+{
+"off": 6038,
+"en": "I was hoping ",
+"cap": 13,
+"after": "020177",
+"newline_after": true,
+"ko": "두 번 다시 ",
+"gap": "0201"
+},
+{
+"off": 6053,
+"en": "we",
+"cap": 2,
+"after": "010304",
+"newline_after": true,
+"ko": "만나지",
+"gap": "010304"
+},
+{
+"off": 6058,
+"en": "would not see each",
+"cap": 18,
+"after": "010304",
+"newline_after": true,
+"ko": "않기를 바랐건만.",
+"gap": "010304"
+},
+{
+"off": 6079,
+"en": "other again. ",
+"cap": 13,
+"after": "032049",
+"newline_after": false,
+"ko": "허나 여기서 보낼 ",
+"gap": "03"
+},
+{
+"off": 6093,
+"en": " I can't",
+"cap": 8,
+"after": "010304",
+"newline_after": true,
+"ko": "수는",
+"gap": "010304"
+},
+{
+"off": 6104,
+"en": "allow you to leave",
+"cap": 18,
+"after": "010304",
+"newline_after": true,
+"ko": "없소, 아버지.",
+"gap": "010304"
+},
+{
+"off": 6125,
+"en": "here, ",
+"cap": 6,
+"after": "030402",
+"newline_after": false,
+"ko": " ",
+"gap": "03040202"
+},
+{
+"off": 6135,
+"en": "Father.",
+"cap": 7,
+"after": "033006",
+"newline_after": true,
+"ko": " ",
+"gap": "0330060501000b09411f0a0203"
+},
+{
+"off": 6155,
+"en": "You have ever been",
+"cap": 18,
+"after": "010304",
+"newline_after": true,
+"ko": "너는 언제나",
+"gap": "0103040202"
+},
+{
+"off": 6178,
+"en": "the ally of humans.",
+"cap": 19,
+"after": "01032c",
+"newline_after": true,
+"ko": "인간의 편이었지.",
+"gap": "01032c0202"
+},
+{
+"off": 6202,
+"en": "Have you forgotten",
+"cap": 18,
+"after": "010304",
+"newline_after": true,
+"ko": "놈들이 네 어미에게",
+"gap": "010304"
+},
+{
+"off": 6223,
+"en": "what they did to",
+"cap": 16,
+"after": "010304",
+"newline_after": true,
+"ko": "한 짓을 잊었느냐?",
+"gap": "010304"
+},
+{
+"off": 6242,
+"en": "your Mother?",
+"cap": 12,
+"after": "033006",
+"newline_after": true,
+"ko": " ",
+"gap": "0330060500010b0942200a0202"
+},
+{
+"off": 6267,
+"en": "Think you I would",
+"cap": 17,
+"after": "010304",
+"newline_after": true,
+"ko": "내가 그런 일을",
+"gap": "010304"
+},
+{
+"off": 6287,
+"en": "forget such a thing?",
+"cap": 20,
+"after": "01031c",
+"newline_after": true,
+"ko": "잊을 것 같소?",
+"gap": "01031c"
+},
+{
+"off": 6310,
+"en": "No. ",
+"cap": 4,
+"after": "032402",
+"newline_after": false,
+"ko": "아니. ",
+"gap": "03240202"
+},
+{
+"off": 6318,
+"en": "But neither do",
+"cap": 14,
+"after": "010304",
+"newline_after": true,
+"ko": "그들에게 복수할",
+"gap": "010304"
+},
+{
+"off": 6335,
+"en": "I seek revenge",
+"cap": 14,
+"after": "010304",
+"newline_after": true,
+"ko": "생각도 없소.",
+"gap": "010304"
+},
+{
+"off": 6352,
+"en": "against them.",
+"cap": 13,
+"after": "033006",
+"newline_after": true,
+"ko": " ",
+"gap": "0330060501000b0942210a0204"
+},
+{
+"off": 6378,
+"en": "Still uttering the",
+"cap": 18,
+"after": "010304",
+"newline_after": true,
+"ko": "아직도 그런",
+"gap": "010304"
+},
+{
+"off": 6399,
+"en": "same nonsense. ",
+"cap": 15,
+"after": "031802",
+"newline_after": false,
+"ko": "헛소리를 ",
+"gap": "03180202"
+},
+{
+"off": 6418,
+"en": "No",
+"cap": 2,
+"after": "010304",
+"newline_after": true,
+"ko": "하느냐.",
+"gap": "010304"
+},
+{
+"off": 6423,
+"en": "matter. ",
+"cap": 8,
+"after": "032002",
+"newline_after": false,
+"ko": "상관없다.",
+"gap": "03200203"
+},
+{
+"off": 6435,
+"en": "Now is the",
+"cap": 10,
+"after": "010304",
+"newline_after": true,
+"ko": " ",
+"gap": "010304"
+},
+{
+"off": 6448,
+"en": "time to put aside",
+"cap": 17,
+"after": "010310",
+"newline_after": true,
+"ko": "이제 네 나약한 인간의",
+"gap": "010310"
+},
+{
+"off": 6468,
+"en": "your weak ",
+"cap": 10,
+"after": "020468",
+"newline_after": false,
+"ko": "반쪽을 버리고 ",
+"gap": "0204"
+},
+{
+"off": 6480,
+"en": "human side",
+"cap": 10,
+"after": "010318",
+"newline_after": true,
+"ko": "나와 함께",
+"gap": "010318"
+},
+{
+"off": 6493,
+"en": "and join me ",
+"cap": 12,
+"after": "031069",
+"newline_after": false,
+"ko": "세상을 다시 ",
+"gap": "0310"
+},
+{
+"off": 6507,
+"en": "in",
+"cap": 2,
+"after": "010304",
+"newline_after": true,
+"ko": "만들자!",
+"gap": "010304"
+},
+{
+"off": 6512,
+"en": "remaking this world!",
+"cap": 20,
+"after": "033010",
+"newline_after": true,
+"ko": " ",
+"gap": "033010091107060500010b0942220a0203"
+},
+{
+"off": 6549,
+"en": "Dracula, ",
+"cap": 9,
+"after": "032002",
+"newline_after": false,
+"ko": "드라큘라,",
+"gap": "03200202"
+},
+{
+"off": 6562,
+"en": "in the name",
+"cap": 11,
+"after": "010304",
+"newline_after": true,
+"ko": " 어머니의",
+"gap": "010304"
+},
+{
+"off": 6576,
+"en": "of my Mother, ",
+"cap": 14,
+"after": "031049",
+"newline_after": false,
+"ko": "이름으로 ",
+"gap": "0310"
+},
+{
+"off": 6592,
+"en": "I will",
+"cap": 6,
+"after": "010304",
+"newline_after": true,
+"ko": "당신을",
+"gap": "010304"
+},
+{
+"off": 6601,
+"en": "defeat you again.",
+"cap": 17,
+"after": "033006",
+"newline_after": true,
+"ko": "다시 물리치겠다.",
+"gap": "033006080b180514333a1101000c811dd22709099003200b073c1c139111133c010500010b0942240a0203"
+},
+{
+"off": 6661,
+"en": "Go back whence you ",
+"cap": 19,
+"after": "010304",
+"newline_after": true,
+"ko": "네가 왔던 곳으로 가라!",
+"gap": "010304"
+},
+{
+"off": 6683,
+"en": "came!",
+"cap": 5,
+"after": "010314",
+"newline_after": true,
+"ko": "어머니의 영혼을",
+"gap": "010314"
+},
+{
+"off": 6691,
+"en": "Trouble the soul of",
+"cap": 19,
+"after": "010304",
+"newline_after": true,
+"ko": "그만 괴롭혀라!",
+"gap": "010304"
+},
+{
+"off": 6713,
+"en": "my Mother no more!",
+"cap": 18,
+"after": "033006",
+"newline_after": true,
+"ko": " ",
+"gap": "03300613911eebbc000501000b0942250a03180204"
+},
+{
+"off": 6752,
+"en": "How? ",
+"cap": 5,
+"after": "038048",
+"newline_after": true,
+"ko": "왜지?",
+"gap": "0380486f772069732003100203"
+},
+{
+"off": 6759,
+"en": "How is ",
+"cap": 7,
+"gap": "0310",
+"newline_after": false,
+"ko": " "
+},
+{
+"off": 6770,
+"en": "that I",
+"cap": 6,
+"after": "010304",
+"newline_after": true,
+"ko": "어째서",
+"gap": "0103040202"
+},
+{
+"off": 6781,
+"en": "have been so",
+"cap": 12,
+"after": "010304",
+"newline_after": true,
+"ko": "내가 이렇게",
+"gap": "0103040203"
+},
+{
+"off": 6798,
+"en": "defeated?",
+"cap": 9,
+"after": "033806",
+"newline_after": true,
+"ko": "패했느냐?",
+"gap": "0338060500010b0942260a0202"
+},
+{
+"off": 6820,
+"en": "You have been doomed",
+"cap": 20,
+"after": "010304",
+"newline_after": true,
+"ko": "사랑하는 마음을",
+"gap": "010304"
+},
+{
+"off": 6843,
+"en": "ever since you lost",
+"cap": 19,
+"after": "010304",
+"newline_after": true,
+"ko": "잃은 그 순간부터",
+"gap": "010304"
+},
+{
+"off": 6865,
+"en": "the ability to love.",
+"cap": 20,
+"after": "033006",
+"newline_after": true,
+"ko": "당신은 이미 진 거요.",
+"gap": "0330060501000b0942270a0204"
+},
+{
+"off": 6898,
+"en": "Ah",
+"cap": 2,
+"after": "02082e",
+"newline_after": false,
+"ko": "아",
+"gap": "02082e2e2e020403"
+},
+{
+"off": 6908,
+"en": "@sarcasm.",
+"cap": 9,
+"after": "010330",
+"newline_after": true,
+"ko": "비꼬는군",
+"gap": "0103300203"
+},
+{
+"off": 6922,
+"en": "'For what profit is",
+"cap": 19,
+"after": "010304",
+"newline_after": true,
+"ko": "\"사람이 온 세상을",
+"gap": "010304"
+},
+{
+"off": 6944,
+"en": "it to man ",
+"cap": 10,
+"after": "031869",
+"newline_after": false,
+"ko": "얻고도 제 ",
+"gap": "0318"
+},
+{
+"off": 6956,
+"en": "if he",
+"cap": 5,
+"after": "010304",
+"newline_after": true,
+"ko": "영혼을",
+"gap": "010304"
+},
+{
+"off": 6964,
+"en": "gains the world,",
+"cap": 16,
+"after": "010304",
+"newline_after": true,
+"ko": "잃으면 무슨 소용이",
+"gap": "010304"
+},
+{
+"off": 6983,
+"en": "and loses his own",
+"cap": 17,
+"after": "010304",
+"newline_after": true,
+"ko": "있으랴\"",
+"gap": "010304"
+},
+{
+"off": 7003,
+"en": "soul'?. ",
+"cap": 8,
+"after": "03584d",
+"newline_after": false,
+"ko": "마태복음",
+"gap": "03"
+},
+{
+"off": 7012,
+"en": "XMatthew ",
+"cap": 9,
+"after": "032002",
+"newline_after": true,
+"ko": " ",
+"gap": "0320020231363a032032360103200203"
+},
+{
+"off": 7037,
+"en": "I believe.",
+"cap": 10,
+"after": "033006",
+"newline_after": true,
+"ko": "이었던가.",
+"gap": "0330060500010b02042e2e2e2e2e2e2e2e2e0338060501000b0942280a0202"
+},
+{
+"off": 7078,
+"en": "Tell me. ",
+"cap": 9,
+"after": "010348",
+"newline_after": true,
+"ko": "말해라.",
+"gap": "0103480203"
+},
+{
+"off": 7092,
+"en": "What... ",
+"cap": 8,
+"after": "031057",
+"newline_after": false,
+"ko": "리사는..",
+"gap": "0310"
+},
+{
+"off": 7102,
+"en": "What were",
+"cap": 9,
+"after": "010304",
+"newline_after": true,
+"ko": " 리사는",
+"gap": "010304"
+},
+{
+"off": 7114,
+"en": "Lisa's last words?",
+"cap": 18,
+"after": "033806",
+"newline_after": true,
+"ko": "마지막에 뭐라더냐?",
+"gap": "0338060500010b0942290a0202"
+},
+{
+"off": 7145,
+"en": "She said ",
+"cap": 9,
+"after": "030822",
+"newline_after": false,
+"ko": "어머니는 ",
+"gap": "0308"
+},
+{
+"off": 7156,
+"en": "\"Do not",
+"cap": 7,
+"after": "010304",
+"newline_after": true,
+"ko": "\"인간을",
+"gap": "010304"
+},
+{
+"off": 7166,
+"en": "hate humans. ",
+"cap": 13,
+"after": "031802",
+"newline_after": true,
+"ko": "미워하지 ",
+"gap": "03180201"
+},
+{
+"off": 7183,
+"en": "If you",
+"cap": 6,
+"after": "010304",
+"newline_after": true,
+"ko": "마렴.",
+"gap": "010304"
+},
+{
+"off": 7192,
+"en": "cannot live with",
+"cap": 16,
+"after": "010304",
+"newline_after": true,
+"ko": "함께 살 수 없다면,",
+"gap": "010304"
+},
+{
+"off": 7211,
+"en": "them, ",
+"cap": 6,
+"after": "020274",
+"newline_after": false,
+"ko": "적어도 ",
+"gap": "0202"
+},
+{
+"off": 7219,
+"en": "then at least",
+"cap": 13,
+"after": "010304",
+"newline_after": true,
+"ko": "해치지는 말렴.",
+"gap": "010304"
+},
+{
+"off": 7235,
+"en": "do them no harm.",
+"cap": 16,
+"after": "010320",
+"newline_after": true,
+"ko": "그들의 삶은",
+"gap": "0103"
+},
+{
+"off": 7253,
+"en": " For their's is",
+"cap": 15,
+"after": "010304",
+"newline_after": true,
+"ko": "이미 고단하단다.\"",
+"gap": "010304"
+},
+{
+"off": 7271,
+"en": "already a hard lot.\"",
+"cap": 20,
+"after": "010320",
+"newline_after": true,
+"ko": "그리고 당신을",
+"gap": "0103"
+},
+{
+"off": 7293,
+"en": " She also said to",
+"cap": 17,
+"after": "010304",
+"newline_after": true,
+"ko": "영원히 사랑할 거라",
+"gap": "010304"
+},
+{
+"off": 7313,
+"en": "tell you ",
+"cap": 9,
+"after": "031002",
+"newline_after": true,
+"ko": "전해 달라고 ",
+"gap": "03100201"
+},
+{
+"off": 7326,
+"en": "that she",
+"cap": 8,
+"after": "010304",
+"newline_after": true,
+"ko": "하셨소...",
+"gap": "010304"
+},
+{
+"off": 7337,
+"en": "would love you ",
+"cap": 15,
+"after": "020266",
+"newline_after": false,
+"ko": " ",
+"gap": "0202"
+},
+{
+"off": 7354,
+"en": "for",
+"cap": 3,
+"after": "010304",
+"newline_after": true,
+"ko": " ",
+"gap": "010304"
+},
+{
+"off": 7360,
+"en": "all of eternity...",
+"cap": 18,
+"after": "033006",
+"newline_after": true,
+"ko": " ",
+"gap": "0330060501000b09422a0a0204"
+},
+{
+"off": 7391,
+"en": "Lisa, ",
+"cap": 6,
+"after": "032002",
+"newline_after": false,
+"ko": "리사, ",
+"gap": "03200202"
+},
+{
+"off": 7401,
+"en": "forgive me.",
+"cap": 11,
+"after": "010330",
+"newline_after": true,
+"ko": "용서해 다오",
+"gap": "01033011080203"
+},
+{
+"off": 7419,
+"en": "Farewell my son...",
+"cap": 18,
+"after": "03300b",
+"newline_after": true,
+"ko": "잘 가라, 아들아...",
+"gap": "03300b060800000000892808800bb00000008c2c08800bb0ffff000000892908800880ffff0000"
+},
+{
+"off": 7476,
+"en": " `aecd",
+"cap": 6,
+"after": "12150f",
+"newline_after": true,
+"ko": "",
+"gap": "12150ff0ff4a681fc3f58e8443037c00"
+},
+{
+"off": 7498,
+"en": "Bw",
+"cap": 2,
+"after": "135940",
+"newline_after": false,
+"ko": "",
+"gap": "135940"
+}
+]
+}

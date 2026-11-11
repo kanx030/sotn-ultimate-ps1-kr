@@ -1,0 +1,25 @@
+{
+ "file": "ST/NO0/NO0.BIN",
+ "items": [
+  {
+   "off": 10186,
+   "en": "Magically sealed．",
+   "cap": 18,
+   "path": "api",
+   "nl": "\u0001",
+   "ko": "마법으로 봉인됨.",
+   "orig": "4d61676963616c6c79207365616c65648144",
+   "limit": 124
+  },
+  {
+   "off": 268912,
+   "en": "Obtained ",
+   "cap": 9,
+   "path": "api",
+   "nl": "\u0001",
+   "ko": "마도기: ",
+   "orig": "4f627461696e656420",
+   "note": "relic orb prefix + relic name"
+  }
+ ]
+}

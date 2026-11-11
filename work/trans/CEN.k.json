@@ -1,0 +1,114 @@
+{
+ "file": "ST/CEN/CEN.BIN",
+ "blocks": [
+  {
+   "voice": "3bba",
+   "items": [
+    0
+   ],
+   "k_text": "미안해요.  /역시,   /당신이말한대로였어요…",
+   "en": "Alucard?"
+  },
+  {
+   "voice": "3bbb",
+   "items": [
+    1,
+    2
+   ],
+   "k_text": "역시,벨몬드였던건가…",
+   "en": "That voice?  / Maria?"
+  },
+  {
+   "voice": "3bbc",
+   "items": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "k_text": "그의의지라고는생각하기힘들어요…/하지만,제힘으로는,그를…/리히터를막을수없어요.",
+   "en": "I'm sorry.  / You were / right.  /  He has joined / forces with the / enemy..."
+  },
+  {
+   "voice": "3bbd",
+   "items": [
+    9,
+    10
+   ],
+   "k_text": "그래도,막아야만해.",
+   "en": "So it was a Belmont / after all..."
+  },
+  {
+   "voice": "3bbe",
+   "items": [
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "k_text": "알고있어요.",
+   "en": "But someone must be / controlling him... / Whatever we do,  / we / can't harm Richter."
+  },
+  {
+   "voice": "3bbf",
+   "items": [
+    16,
+    17
+   ],
+   "k_text": "",
+   "en": "But he must / be stopped."
+  },
+  {
+   "voice": "3cc0",
+   "items": [
+    18
+   ],
+   "k_text": "",
+   "en": "I know."
+  },
+  {
+   "voice": "3ccc",
+   "items": [
+    19,
+    20,
+    21
+   ],
+   "k_text": "몸에지니고있으면,사악한환상을/간파핥수있을거예요.",
+   "en": "Well... / here. / Take these with you."
+  },
+  {
+   "voice": "3ccd",
+   "items": [
+    22
+   ],
+   "k_text": "그렇군. /그럼,놈이죽지않고끝나기를/기도하고있도록해.",
+   "en": "What are these?"
+  },
+  {
+   "voice": "3cce",
+   "items": [
+    23,
+    24,
+    25
+   ],
+   "k_text": "",
+   "en": "If you wear these, / you can see beyond / evil illusions."
+  },
+  {
+   "voice": "3ccf",
+   "items": [
+    26,
+    27,
+    28,
+    29,
+    30,
+    31
+   ],
+   "k_text": "척-./정소./윈,속-….",
+   "en": "Thank you. / 'Tis best then  / if / you pray for the / soul of your friend. / Bw"
+  }
+ ]
+}

@@ -1,0 +1,645 @@
+{
+"file": "ST/ST0/ST0.BIN",
+"alt_start": 10712,
+"items": [
+{
+"off": 10741,
+"en": "Die monster.",
+"cap": 12,
+"after": "01031c",
+"newline_after": true,
+"ko": "",
+"gap": "01031c0202"
+},
+{
+"off": 10758,
+"en": "You don't belong",
+"cap": 16,
+"after": "010308",
+"newline_after": true,
+"ko": "",
+"gap": "010308"
+},
+{
+"off": 10777,
+"en": "in this world!",
+"cap": 14,
+"after": "033006",
+"newline_after": true,
+"ko": "",
+"gap": "033006138ffeebb0010501810b0935590a0203"
+},
+{
+"off": 10810,
+"en": "It was not by my",
+"cap": 16,
+"after": "010304",
+"newline_after": true,
+"ko": "",
+"gap": "010304"
+},
+{
+"off": 10829,
+"en": "hand that I am once",
+"cap": 19,
+"after": "010304",
+"newline_after": true,
+"ko": "",
+"gap": "010304"
+},
+{
+"off": 10851,
+"en": "again given flesh.",
+"cap": 18,
+"after": "010330",
+"newline_after": true,
+"ko": "",
+"gap": "0103"
+},
+{
+"off": 10871,
+"en": "0I was called here",
+"cap": 18,
+"after": "010304",
+"newline_after": true,
+"ko": "",
+"gap": "010304"
+},
+{
+"off": 10892,
+"en": "by ",
+"cap": 3,
+"after": "031002",
+"newline_after": false,
+"ko": "",
+"gap": "03100205"
+},
+{
+"off": 10899,
+"en": "humans ",
+"cap": 7,
+"after": "031002",
+"newline_after": false,
+"ko": "",
+"gap": "03100203"
+},
+{
+"off": 10910,
+"en": "who",
+"cap": 3,
+"after": "010304",
+"newline_after": true,
+"ko": "",
+"gap": "010304"
+},
+{
+"off": 10916,
+"en": "wish to pay me",
+"cap": 14,
+"after": "010318",
+"newline_after": true,
+"ko": "",
+"gap": "010318"
+},
+{
+"off": 10933,
+"en": "tribute.",
+"cap": 8,
+"after": "033006",
+"newline_after": true,
+"ko": "",
+"gap": "0330060500000b09355a0a110a0204"
+},
+{
+"off": 10956,
+"en": "Tribute!?!",
+"cap": 10,
+"after": "010320",
+"newline_after": true,
+"ko": "",
+"gap": "010320110b0204"
+},
+{
+"off": 10973,
+"en": "You steal men's",
+"cap": 15,
+"after": "010304",
+"newline_after": true,
+"ko": "",
+"gap": "010304"
+},
+{
+"off": 10991,
+"en": "souls ",
+"cap": 6,
+"after": "030c11",
+"newline_after": false,
+"ko": "",
+"gap": "030c110c0202"
+},
+{
+"off": 11003,
+"en": "and make them",
+"cap": 13,
+"after": "010304",
+"newline_after": true,
+"ko": "",
+"gap": "010304110d"
+},
+{
+"off": 11021,
+"en": "your slaves!",
+"cap": 12,
+"after": "033006",
+"newline_after": true,
+"ko": "",
+"gap": "0330060501810b09355b0a0202"
+},
+{
+"off": 11046,
+"en": "Perhaps the same",
+"cap": 16,
+"after": "010304",
+"newline_after": true,
+"ko": "",
+"gap": "010304"
+},
+{
+"off": 11065,
+"en": "could be said",
+"cap": 13,
+"after": "010304",
+"newline_after": true,
+"ko": "",
+"gap": "010304"
+},
+{
+"off": 11081,
+"en": "of",
+"cap": 2,
+"after": "020320",
+"newline_after": false,
+"ko": "",
+"gap": "0203"
+},
+{
+"off": 11085,
+"en": " all religions...",
+"cap": 17,
+"after": "033006",
+"newline_after": true,
+"ko": "",
+"gap": "0330060500000b09355c0a0203110e"
+},
+{
+"off": 11117,
+"en": "Your words are as",
+"cap": 17,
+"after": "010304",
+"newline_after": true,
+"ko": "",
+"gap": "010304110f"
+},
+{
+"off": 11139,
+"en": "empty as your soul!",
+"cap": 19,
+"after": "010328",
+"newline_after": true,
+"ko": "",
+"gap": "0103281110"
+},
+{
+"off": 11163,
+"en": "Mankind ill needs a",
+"cap": 19,
+"after": "010304",
+"newline_after": true,
+"ko": "",
+"gap": "010304110411110204"
+},
+{
+"off": 11191,
+"en": "savior such as you!",
+"cap": 19,
+"after": "033011",
+"newline_after": true,
+"ko": "",
+"gap": "03301112060501810b09355d0a0203"
+},
+{
+"off": 11225,
+"en": "What is a man?",
+"cap": 14,
+"after": "010310",
+"newline_after": true,
+"ko": "",
+"gap": "010310110503200203"
+},
+{
+"off": 11248,
+"en": "A miserable little",
+"cap": 18,
+"after": "010304",
+"newline_after": true,
+"ko": "",
+"gap": "010304"
+},
+{
+"off": 11269,
+"en": "pile of secrets.",
+"cap": 16,
+"after": "010328",
+"newline_after": true,
+"ko": "",
+"gap": "01032802021008"
+},
+{
+"off": 11292,
+"en": "But enough ",
+"cap": 11,
+"after": "110674",
+"newline_after": true,
+"ko": "",
+"gap": "1106"
+},
+{
+"off": 11305,
+"en": "talk...",
+"cap": 7,
+"after": "010318",
+"newline_after": true,
+"ko": "",
+"gap": "010318"
+},
+{
+"off": 11315,
+"en": "Have at you!",
+"cap": 12,
+"after": "03300b",
+"newline_after": true,
+"ko": "",
+"gap": "03300b0614311f11020800000000811708800880ffff000000"
+},
+{
+"off": 11352,
+"en": "It was Richter Belmont,",
+"cap": 23,
+"after": "010d74",
+"newline_after": true,
+"ko": "",
+"gap": "010d"
+},
+{
+"off": 11377,
+"en": "the legendary vampire hunter,",
+"cap": 29,
+"after": "010877",
+"newline_after": true,
+"ko": "",
+"gap": "0108"
+},
+{
+"off": 11408,
+"en": "who succeeded in finally ending",
+"cap": 31,
+"after": "010d74",
+"newline_after": true,
+"ko": "",
+"gap": "010d"
+},
+{
+"off": 11441,
+"en": "the menace of Count Dracula,",
+"cap": 28,
+"after": "01084c",
+"newline_after": true,
+"ko": "",
+"gap": "0108"
+},
+{
+"off": 11471,
+"en": "Lord of the Vampires who had been",
+"cap": 33,
+"after": "010c62",
+"newline_after": true,
+"ko": "",
+"gap": "010c"
+},
+{
+"off": 11506,
+"en": "brought back from the grave by",
+"cap": 30,
+"after": "011774",
+"newline_after": true,
+"ko": "",
+"gap": "0117"
+},
+{
+"off": 11538,
+"en": "the dark priest Shaft.",
+"cap": 22,
+"after": "020848",
+"newline_after": false,
+"ko": "",
+"gap": "0208"
+},
+{
+"off": 11562,
+"en": "However, one night 4 years later,",
+"cap": 33,
+"after": "010c75",
+"newline_after": true,
+"ko": "",
+"gap": "010c"
+},
+{
+"off": 11597,
+"en": "under the glare of a full moon,",
+"cap": 31,
+"after": "010b52",
+"newline_after": true,
+"ko": "",
+"gap": "010b"
+},
+{
+"off": 11630,
+"en": "Richter mysteriously vanished.",
+"cap": 30,
+"after": "020c57",
+"newline_after": false,
+"ko": "",
+"gap": "020c"
+},
+{
+"off": 11662,
+"en": "With no idea of where to begin",
+"cap": 30,
+"after": "011468",
+"newline_after": true,
+"ko": "",
+"gap": "0114"
+},
+{
+"off": 11694,
+"en": "her search, Maria Renard",
+"cap": 24,
+"after": "011673",
+"newline_after": true,
+"ko": "",
+"gap": "0116"
+},
+{
+"off": 11720,
+"en": "set out to look for him.",
+"cap": 24,
+"after": "010849",
+"newline_after": true,
+"ko": "",
+"gap": "0108"
+},
+{
+"off": 11746,
+"en": "It was then that fate intervened.",
+"cap": 33,
+"after": "020543",
+"newline_after": false,
+"ko": "",
+"gap": "0205"
+},
+{
+"off": 11781,
+"en": "Castlevania, the castle of Dracula,",
+"cap": 35,
+"after": "010a77",
+"newline_after": true,
+"ko": "",
+"gap": "010a"
+},
+{
+"off": 11818,
+"en": "which is rumored to appear once",
+"cap": 31,
+"after": "011565",
+"newline_after": true,
+"ko": "",
+"gap": "0115"
+},
+{
+"off": 11851,
+"en": "every century, suddenly",
+"cap": 23,
+"after": "01076d",
+"newline_after": true,
+"ko": "",
+"gap": "0107"
+},
+{
+"off": 11876,
+"en": "materialized from out of the mist",
+"cap": 33,
+"after": "011361",
+"newline_after": true,
+"ko": "",
+"gap": "0113"
+},
+{
+"off": 11911,
+"en": "as if to show her the way.",
+"cap": 26,
+"after": "02094d",
+"newline_after": false,
+"ko": "",
+"gap": "0209"
+},
+{
+"off": 11939,
+"en": "Meanwhile, powerful forces were",
+"cap": 31,
+"after": "011173",
+"newline_after": true,
+"ko": "",
+"gap": "0111"
+},
+{
+"off": 11972,
+"en": "struggling for the soul of",
+"cap": 26,
+"after": "011b61",
+"newline_after": true,
+"ko": "",
+"gap": "011b"
+},
+{
+"off": 12000,
+"en": "a man named Alucard.",
+"cap": 20,
+"after": "010d54",
+"newline_after": true,
+"ko": "",
+"gap": "010d"
+},
+{
+"off": 12022,
+"en": "The very same Alucard who had",
+"cap": 29,
+"after": "010974",
+"newline_after": true,
+"ko": "",
+"gap": "0109"
+},
+{
+"off": 12053,
+"en": "teamed up with Trevor Belmont to",
+"cap": 32,
+"after": "011062",
+"newline_after": true,
+"ko": "",
+"gap": "0110"
+},
+{
+"off": 12087,
+"en": "battle his immortal father,",
+"cap": 27,
+"after": "011343",
+"newline_after": true,
+"ko": "",
+"gap": "0113"
+},
+{
+"off": 12116,
+"en": "Count Vlad Tepes Dracula.",
+"cap": 25,
+"after": "020341",
+"newline_after": false,
+"ko": "",
+"gap": "0203"
+},
+{
+"off": 12143,
+"en": "Alucard, in order to purge the world",
+"cap": 36,
+"after": "010e6f",
+"newline_after": true,
+"ko": "",
+"gap": "010e"
+},
+{
+"off": 12181,
+"en": "of his own cursed blood line,",
+"cap": 29,
+"after": "010768",
+"newline_after": true,
+"ko": "",
+"gap": "0107"
+},
+{
+"off": 12212,
+"en": "had submerged his vampiric powers",
+"cap": 33,
+"after": "010661",
+"newline_after": true,
+"ko": "",
+"gap": "0106"
+},
+{
+"off": 12247,
+"en": "and entered into what was supposed",
+"cap": 34,
+"after": "011474",
+"newline_after": true,
+"ko": "",
+"gap": "0114"
+},
+{
+"off": 12283,
+"en": "to be an eternal slumber.",
+"cap": 25,
+"after": "010842",
+"newline_after": true,
+"ko": "",
+"gap": "0108"
+},
+{
+"off": 12310,
+"en": "But now, he is awake and aware of",
+"cap": 33,
+"after": "011074",
+"newline_after": true,
+"ko": "",
+"gap": "0110"
+},
+{
+"off": 12345,
+"en": "the evil once again at work",
+"cap": 27,
+"after": "012069",
+"newline_after": true,
+"ko": "",
+"gap": "01"
+},
+{
+"off": 12373,
+"en": " in his homeland.",
+"cap": 17,
+"after": "020954",
+"newline_after": false,
+"ko": "",
+"gap": "0209"
+},
+{
+"off": 12392,
+"en": "The time has once again come for",
+"cap": 32,
+"after": "010c74",
+"newline_after": true,
+"ko": "",
+"gap": "010c"
+},
+{
+"off": 12426,
+"en": "the forces of Good and Evil to",
+"cap": 30,
+"after": "010b65",
+"newline_after": true,
+"ko": "",
+"gap": "010b"
+},
+{
+"off": 12458,
+"en": "engage in their ancient battle.",
+"cap": 31,
+"after": "010544",
+"newline_after": true,
+"ko": "",
+"gap": "0105"
+},
+{
+"off": 12491,
+"en": "Dracula's castle beckons for you...",
+"cap": 35,
+"after": "020f41",
+"newline_after": false,
+"ko": "",
+"gap": "020f"
+},
+{
+"off": 12528,
+"en": "And no man can say who shall",
+"cap": 28,
+"after": "011d65",
+"newline_after": true,
+"ko": "",
+"gap": "011d656d6572676520766963746f72696f75732e000000001f11"
+},
+{
+"off": 12582,
+"en": "+,!*oa",
+"cap": 6,
+"after": "0f61e5",
+"newline_after": false,
+"ko": "",
+"gap": "0f61e5"
+}
+]
+}

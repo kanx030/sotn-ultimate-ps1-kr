@@ -1,0 +1,249 @@
+{
+"file": "ST/TOP/TOP.BIN",
+"alt_start": 11272,
+"items": [
+{
+"off": 11300,
+"en": "No...",
+"cap": 5,
+"after": "010320",
+"newline_after": true,
+"ko": "안 돼",
+"gap": "01032011020202"
+},
+{
+"off": 11312,
+"en": "What ",
+"cap": 5,
+"after": "110468",
+"newline_after": false,
+"ko": "내가 ",
+"gap": "1104"
+},
+{
+"off": 11319,
+"en": "have I done...",
+"cap": 14,
+"after": "033006",
+"newline_after": true,
+"ko": "무슨 짓을...",
+"gap": "0330061388866bb4000501000b093ff10a0203"
+},
+{
+"off": 11352,
+"en": "Thank you Alucard,",
+"cap": 18,
+"after": "010318",
+"newline_after": true,
+"ko": "알카드, 리히터를",
+"gap": "010318"
+},
+{
+"off": 11373,
+"en": "for saving Richter.",
+"cap": 19,
+"after": "033006",
+"newline_after": true,
+"ko": "구해 줘서 고마워요.",
+"gap": "0330060502810b093ff20a0203"
+},
+{
+"off": 11405,
+"en": "Alucard!?",
+"cap": 9,
+"after": "010330",
+"newline_after": true,
+"ko": "알카드!?",
+"gap": "01033011030202"
+},
+{
+"off": 11421,
+"en": "The same Alucard",
+"cap": 16,
+"after": "010304",
+"newline_after": true,
+"ko": "설마, 내 선조",
+"gap": "010304"
+},
+{
+"off": 11440,
+"en": "who fought alongside",
+"cap": 20,
+"after": "010304",
+"newline_after": true,
+"ko": "트레버 벨몬드와",
+"gap": "010304"
+},
+{
+"off": 11463,
+"en": "my ancestor ",
+"cap": 12,
+"after": "032054",
+"newline_after": false,
+"ko": "함께 ",
+"gap": "03"
+},
+{
+"off": 11476,
+"en": " Trevor",
+"cap": 7,
+"after": "010304",
+"newline_after": true,
+"ko": "싸웠던",
+"gap": "010304"
+},
+{
+"off": 11486,
+"en": "Belmont?...",
+"cap": 11,
+"after": "010320",
+"newline_after": true,
+"ko": "그 알카드?...",
+"gap": "0103200203"
+},
+{
+"off": 11502,
+"en": "That was over",
+"cap": 13,
+"after": "010304",
+"newline_after": true,
+"ko": "그건 300년도",
+"gap": "010304"
+},
+{
+"off": 11518,
+"en": "300 years ago!",
+"cap": 14,
+"after": "033006",
+"newline_after": true,
+"ko": "더 전 일이다!",
+"gap": "0330061387799334000500800b093ff30a0202"
+},
+{
+"off": 11551,
+"en": "No time for small",
+"cap": 17,
+"after": "010304",
+"newline_after": true,
+"ko": "잡담할 시간 없다.",
+"gap": "010304"
+},
+{
+"off": 11571,
+"en": "talk. ",
+"cap": 6,
+"after": "031049",
+"newline_after": false,
+"ko": "너를 조종한 ",
+"gap": "0310"
+},
+{
+"off": 11579,
+"en": "Is the person",
+"cap": 13,
+"after": "010304",
+"newline_after": true,
+"ko": "자가",
+"gap": "010304"
+},
+{
+"off": 11595,
+"en": "who controlled you",
+"cap": 18,
+"after": "010304",
+"newline_after": true,
+"ko": "저기 저 성에 있나?",
+"gap": "0103040201"
+},
+{
+"off": 11618,
+"en": "in that castle over",
+"cap": 19,
+"after": "010304",
+"newline_after": true,
+"ko": " ",
+"gap": "010304"
+},
+{
+"off": 11640,
+"en": "there?",
+"cap": 6,
+"after": "033006",
+"newline_after": true,
+"ko": " ",
+"gap": "0330060502810b093ff40a0202"
+},
+{
+"off": 11659,
+"en": "Yes, ",
+"cap": 5,
+"after": "031049",
+"newline_after": false,
+"ko": "그래, ",
+"gap": "0310"
+},
+{
+"off": 11666,
+"en": "I think so...",
+"cap": 13,
+"after": "033006",
+"newline_after": true,
+"ko": "아마도...",
+"gap": "03300611060500000b093ff50a0203"
+},
+{
+"off": 11694,
+"en": "Maria, ",
+"cap": 7,
+"after": "031002",
+"newline_after": false,
+"ko": "마리아, ",
+"gap": "03100202"
+},
+{
+"off": 11705,
+"en": "take Richter",
+"cap": 12,
+"after": "010304",
+"newline_after": true,
+"ko": "리히터를",
+"gap": "010304"
+},
+{
+"off": 11720,
+"en": "and leave here.",
+"cap": 15,
+"after": "010310",
+"newline_after": true,
+"ko": "데리고 떠나라.",
+"gap": "010310"
+},
+{
+"off": 11738,
+"en": "I'll finish this.",
+"cap": 17,
+"after": "033006",
+"newline_after": true,
+"ko": "내가 끝내겠다.",
+"gap": "0330061388866bb4010501010b093ff60a0203"
+},
+{
+"off": 11774,
+"en": "All right...",
+"cap": 12,
+"after": "010310",
+"newline_after": true,
+"ko": "알겠어요...",
+"gap": "010310"
+},
+{
+"off": 11789,
+"en": "Good luck.",
+"cap": 10,
+"after": "033011",
+"newline_after": false,
+"ko": "조심해요.",
+"gap": "033011"
+}
+]
+}

@@ -1,0 +1,33 @@
+{
+"file": "ST/NO4/NO4.BIN",
+"alt_start": 21332,
+"items": [
+{
+"off": 21354,
+"en": "I'll take you to a ",
+"cap": 19,
+"after": "010304",
+"newline_after": true,
+"ko": "당신에게",
+"gap": "010304"
+},
+{
+"off": 21376,
+"en": "place which might be ",
+"cap": 21,
+"after": "010304",
+"newline_after": true,
+"ko": "흥미로울 만한 곳으로",
+"gap": "010304"
+},
+{
+"off": 21400,
+"en": "interesting for you.",
+"cap": 20,
+"after": "033006",
+"newline_after": true,
+"ko": "안내해 드리지요.",
+"gap": "033006"
+}
+]
+}

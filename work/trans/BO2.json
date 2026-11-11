@@ -1,0 +1,141 @@
+{
+"file": "BOSS/BO2/BO2.BIN",
+"alt_start": 7372,
+"items": [
+{
+"off": 7408,
+"en": "Who are you!!",
+"cap": 13,
+"after": "033006",
+"newline_after": true,
+"ko": "누구냐!!",
+"gap": "03300613922bb994010501810b0939960a11030203"
+},
+{
+"off": 7442,
+"en": "Open Hell's gate!",
+"cap": 17,
+"after": "010314",
+"newline_after": true,
+"ko": "열려라, 지옥문!",
+"gap": "010314"
+},
+{
+"off": 7462,
+"en": "Come forth my",
+"cap": 13,
+"after": "010304",
+"newline_after": true,
+"ko": "나와라, 나의",
+"gap": "010304"
+},
+{
+"off": 7478,
+"en": "servants!",
+"cap": 9,
+"after": "033011",
+"newline_after": true,
+"ko": "종들이여!",
+"gap": "03301104060500000b0939970a0202"
+},
+{
+"off": 7502,
+"en": "The scent of your",
+"cap": 17,
+"after": "010304",
+"newline_after": true,
+"ko": "이 피 냄새...",
+"gap": "010304"
+},
+{
+"off": 7522,
+"en": "blood...",
+"cap": 8,
+"after": "031059",
+"newline_after": false,
+"ko": "네놈은 ",
+"gap": "0310"
+},
+{
+"off": 7532,
+"en": "You're a",
+"cap": 8,
+"after": "010304",
+"newline_after": true,
+"ko": "바로",
+"gap": "010304"
+},
+{
+"off": 7543,
+"en": "Belmont!",
+"cap": 8,
+"after": "033006",
+"newline_after": true,
+"ko": "벨몬드!",
+"gap": "0330060501810b0939980a02041105"
+},
+{
+"off": 7566,
+"en": "Crush this flea who",
+"cap": 19,
+"after": "010304",
+"newline_after": true,
+"ko": "내 성을 침범한",
+"gap": "010304"
+},
+{
+"off": 7588,
+"en": "invades my castle!",
+"cap": 18,
+"after": "033006",
+"newline_after": true,
+"ko": "벌레를 짓밟아라!",
+"gap": "033006110808034011060b14311d0003201000073c1413911ee114000500000b09399e0a0202"
+},
+{
+"off": 7644,
+"en": "I'm certain that was",
+"cap": 20,
+"after": "010304",
+"newline_after": true,
+"ko": "틀림없다, 그건",
+"gap": "0103040203"
+},
+{
+"off": 7669,
+"en": "a Belmont. ",
+"cap": 11,
+"after": "031853",
+"newline_after": false,
+"ko": "벨몬드였다.",
+"gap": "0318"
+},
+{
+"off": 7682,
+"en": "So he",
+"cap": 5,
+"after": "010304",
+"newline_after": true,
+"ko": " ",
+"gap": "010304"
+},
+{
+"off": 7690,
+"en": "says he's the lord",
+"cap": 18,
+"after": "010304",
+"newline_after": true,
+"ko": "그가 이 성의",
+"gap": "010304"
+},
+{
+"off": 7711,
+"en": "of this castle...",
+"cap": 17,
+"after": "033006",
+"newline_after": true,
+"ko": "주인이라는 건가...",
+"gap": "033006"
+}
+]
+}

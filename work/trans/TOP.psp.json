@@ -1,0 +1,159 @@
+{
+"file": "ST/TOP/TOP.BIN",
+"script": "psp",
+"alt_start": 166284,
+"items": [
+{
+"off": 166312,
+"en": "No...",
+"cap": 5,
+"ko": "안 돼...",
+"gap": "01110211040304",
+"newline_after": true
+},
+{
+"off": 166324,
+"en": "What have I done...?",
+"cap": 20,
+"ko": "내가 무슨 짓을...?",
+"gap": "03700b030a061388866bb4000501000b093ff10a0203",
+"newline_after": true
+},
+{
+"off": 166366,
+"en": "You saved him,",
+"cap": 14,
+"ko": "그를 구해 줬군요,",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 166383,
+"en": "Alucard. Thank you",
+"cap": 18,
+"ko": "알카드. 정말",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 166404,
+"en": "so much.",
+"cap": 8,
+"ko": "고마워요.",
+"gap": "0368060502810b093ff20a02021103",
+"newline_after": true
+},
+{
+"off": 166427,
+"en": "Alucard?! The",
+"cap": 13,
+"ko": "알카드?! 설마",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 166443,
+"en": "Alucard? You can't",
+"cap": 18,
+"ko": "그 알카드? 말도 안 돼.",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 166464,
+"en": "be. That was over 300",
+"cap": 21,
+"ko": "그건 300년도 더 된",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 166488,
+"en": "years ago!",
+"cap": 10,
+"ko": "일이야!",
+"gap": "03680b030a061387799334000500800b093ff30a0202",
+"newline_after": true
+},
+{
+"off": 166520,
+"en": "Never mind that.",
+"cap": 16,
+"ko": "그건 됐다.",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 166539,
+"en": "Is the man who",
+"cap": 14,
+"ko": "너를 조종하던 자가",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 166556,
+"en": "controlled you in",
+"cap": 17,
+"ko": "저 성에",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 166576,
+"en": "that castle?",
+"cap": 12,
+"ko": "있나?",
+"gap": "0368060502810b093ff40a0202",
+"newline_after": true
+},
+{
+"off": 166601,
+"en": "Yes, I think so...",
+"cap": 18,
+"ko": "그래, 아마도...",
+"gap": "03380611060500000b093ff50a0202",
+"newline_after": true
+},
+{
+"off": 166634,
+"en": "Maria, take Richter",
+"cap": 19,
+"ko": "마리아, 리히터를",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 166656,
+"en": "and leave here.",
+"cap": 15,
+"ko": "데리고 여길 떠나라.",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 166674,
+"en": "I'll finish this.",
+"cap": 17,
+"ko": "끝은 내가 내겠다.",
+"gap": "03680b030a061388866bb4010501010b093ff60a0203",
+"newline_after": true
+},
+{
+"off": 166713,
+"en": "All right...",
+"cap": 12,
+"ko": "알겠어요...",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 166728,
+"en": "Good luck.",
+"cap": 10,
+"ko": "행운을 빌게요.",
+"gap": "033811",
+"newline_after": false
+}
+]
+}

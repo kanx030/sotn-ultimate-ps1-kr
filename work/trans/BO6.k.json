@@ -1,0 +1,140 @@
+{
+ "file": "BOSS/BO6/BO6.BIN",
+ "blocks": [
+  {
+   "voice": "3dd3",
+   "items": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "k_text": "",
+   "en": "I've been waiting / for you. / So it is you... / But why is a Belmont / planning the / resurrection of / Count Dracula? / Answer me! / Why is a Belmont / planning the / resurrection of / Count Dracula?"
+  },
+  {
+   "voice": "3dd7",
+   "items": [
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+   ],
+   "k_text": "",
+   "en": "Count Dracula rises / but once every / century  / (and my role / is over.  / If I can / resurrect him, / then the battle will / last for eternity!"
+  },
+  {
+   "voice": "3dd8",
+   "items": [
+    21,
+    22,
+    23
+   ],
+   "k_text": "",
+   "en": "If those are your / true feelings then / so be it."
+  },
+  {
+   "voice": "3eea",
+   "items": [
+    24
+   ],
+   "k_text": "사냥감이없는지금, /사냥꾼은불필요하다… /이미,이곳에는내가있을장소는/없었던걸지도모르겠군…",
+   "en": "It's over...Belmont."
+  },
+  {
+   "voice": "3eeb",
+   "items": [
+    25,
+    26,
+    27,
+    28
+   ],
+   "k_text": "",
+   "en": "So  / the war between / humans and vampires / finally ends here..."
+  },
+  {
+   "voice": "3eec",
+   "items": [
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38
+   ],
+   "k_text": "",
+   "en": "What need for the / shepherd  /  when the / wolves have all / gone... / My time on this / world  / has come  /  to / an end..."
+  },
+  {
+   "voice": "3eef",
+   "items": [
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85
+   ],
+   "k_text": "",
+   "en": "You've defeated me. / But all is  / not yet / lost. / The resurrection of / Count Dracula  / is at / hand! / om&' / \\FE / \\FE / GeV / Vp / GeV / Vp / GeV / Vp / GeV / Vp / vU / vU / +EgnGe / /CQV / VzGe / vUaE46p / GeV / vUaE46p / GeV / LV / \\FE / \\FE / GeV / Vp / GeV / Vp / Ge / GeV / Vp / vU / 7ePV / vB4E / VyGS/3UaEgnGe / vUaE46p / Ge6\" / vQ%`E46p / GeV / LV"
+  }
+ ]
+}

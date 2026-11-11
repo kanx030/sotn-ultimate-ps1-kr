@@ -1,0 +1,119 @@
+{
+"file": "BOSS/BO2/BO2.BIN",
+"script": "psp",
+"alt_start": 139116,
+"items": [
+{
+"off": 139152,
+"en": "Who are you?!",
+"cap": 13,
+"ko": "누구냐?!",
+"gap": "033c0613922bb994010501810b0939960a11030203",
+"newline_after": true
+},
+{
+"off": 139186,
+"en": "Servants, come forth",
+"cap": 20,
+"ko": "나의 종들이여,",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 139209,
+"en": "from the gates of",
+"cap": 17,
+"ko": "지옥의 문에서",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 139229,
+"en": "Hell!",
+"cap": 5,
+"ko": "나오너라!",
+"gap": "03801104060500000b0939970a0202",
+"newline_after": true
+},
+{
+"off": 139249,
+"en": "...Your blood.",
+"cap": 14,
+"ko": "...네 피.",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 139266,
+"en": "The scent of your",
+"cap": 17,
+"ko": "네 피의 냄새...",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 139286,
+"en": "blood... You're a",
+"cap": 17,
+"ko": "네놈은",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 139306,
+"en": "Belmont!",
+"cap": 8,
+"ko": "벨몬드로구나!",
+"gap": "03300b030a060501810b0939980a11050204",
+"newline_after": true
+},
+{
+"off": 139332,
+"en": "Attack! Rid my castle",
+"cap": 21,
+"ko": "쳐라! 내 성에서 이",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 139356,
+"en": "of this pest!",
+"cap": 13,
+"ko": "해충을 없애라!",
+"gap": "03300b030a06110808034011060b14311d0003201000073c1413911ee114000500000b09399e0a0203",
+"newline_after": true
+},
+{
+"off": 139410,
+"en": "A Belmont for",
+"cap": 13,
+"ko": "틀림없이",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 139426,
+"en": "certain. So he says",
+"cap": 19,
+"ko": "벨몬드다. 그가 이 성의",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 139448,
+"en": "he's the lord of this",
+"cap": 21,
+"ko": "주인이라고",
+"gap": "010304",
+"newline_after": true
+},
+{
+"off": 139472,
+"en": "castle...",
+"cap": 9,
+"ko": "하는 건가...",
+"gap": "033006",
+"newline_after": true
+}
+]
+}

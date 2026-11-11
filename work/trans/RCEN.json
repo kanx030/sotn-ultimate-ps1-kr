@@ -1,0 +1,645 @@
+{
+"file": "ST/RCEN/RCEN.BIN",
+"alt_start": 6060,
+"items": [
+{
+"off": 6090,
+"en": "Ugh...",
+"cap": 6,
+"after": "03286e",
+"newline_after": false,
+"ko": "윽.. ",
+"gap": "03"
+},
+{
+"off": 6097,
+"en": "(no!",
+"cap": 4,
+"after": "010330",
+"newline_after": true,
+"ko": "안 돼!",
+"gap": "01033006138eecc770010500010b0941130a0202"
+},
+{
+"off": 6121,
+"en": "You claim to love",
+"cap": 17,
+"after": "010304",
+"newline_after": true,
+"ko": "어둠을 사랑한다고 했지.",
+"gap": "010304"
+},
+{
+"off": 6141,
+"en": "the darkness. ",
+"cap": 14,
+"after": "032047",
+"newline_after": false,
+"ko": "그럼 그 ",
+"gap": "03"
+},
+{
+"off": 6156,
+"en": " Go",
+"cap": 3,
+"after": "010304",
+"newline_after": true,
+"ko": "속에서",
+"gap": "010304"
+},
+{
+"off": 6162,
+"en": "then and dwell there",
+"cap": 20,
+"after": "010304",
+"newline_after": true,
+"ko": "영원히 머물러라!",
+"gap": "010304"
+},
+{
+"off": 6185,
+"en": "for all eternity!",
+"cap": 17,
+"after": "033006",
+"newline_after": true,
+"ko": " ",
+"gap": "0330060501800b0941190a"
+},
+{
+"off": 6213,
+"en": "Bu...",
+"cap": 5,
+"after": "030802",
+"newline_after": false,
+"ko": "하..",
+"gap": "03080203"
+},
+{
+"off": 6222,
+"en": "but my goal is",
+"cap": 14,
+"after": "010304",
+"newline_after": true,
+"ko": "하지만 목적은",
+"gap": "010304"
+},
+{
+"off": 6239,
+"en": "achieved...",
+"cap": 11,
+"after": "010328",
+"newline_after": true,
+"ko": "이루었다...",
+"gap": "0103280203"
+},
+{
+"off": 6255,
+"en": "Count Dracula is",
+"cap": 16,
+"after": "010304",
+"newline_after": true,
+"ko": "드라큘라 님께서",
+"gap": "010304"
+},
+{
+"off": 6274,
+"en": "come to purify this",
+"cap": 19,
+"after": "010304",
+"newline_after": true,
+"ko": "이 타락한 세상을",
+"gap": "010304"
+},
+{
+"off": 6296,
+"en": "corrupt world ",
+"cap": 14,
+"after": "032877",
+"newline_after": false,
+"ko": "혼돈의 불꽃",
+"gap": "03"
+},
+{
+"off": 6311,
+"en": "(with",
+"cap": 5,
+"after": "010304",
+"newline_after": true,
+"ko": "으로",
+"gap": "010304"
+},
+{
+"off": 6319,
+"en": "the searing flames",
+"cap": 18,
+"after": "010304",
+"newline_after": true,
+"ko": "깨끗이 정화하러",
+"gap": "010304"
+},
+{
+"off": 6340,
+"en": "of chaos!",
+"cap": 9,
+"after": "033006",
+"newline_after": true,
+"ko": "오신다!",
+"gap": "0330061108080b0010001409910b073c1c138ff99ff0000501800b093ffe0a0204"
+},
+{
+"off": 6382,
+"en": "You have done well",
+"cap": 18,
+"after": "010304",
+"newline_after": true,
+"ko": "여기까지 오다니",
+"gap": "010304"
+},
+{
+"off": 6403,
+"en": "in making it ",
+"cap": 13,
+"after": "020374",
+"newline_after": false,
+"ko": "대단하군.",
+"gap": "0203"
+},
+{
+"off": 6418,
+"en": "this",
+"cap": 4,
+"after": "010304",
+"newline_after": true,
+"ko": " ",
+"gap": "010304"
+},
+{
+"off": 6425,
+"en": "far. ",
+"cap": 5,
+"after": "031849",
+"newline_after": false,
+"ko": "과연 우리 ",
+"gap": "0318"
+},
+{
+"off": 6432,
+"en": "I would expect",
+"cap": 14,
+"after": "010304",
+"newline_after": true,
+"ko": "주인님의",
+"gap": "010304"
+},
+{
+"off": 6449,
+"en": "no less from ",
+"cap": 13,
+"after": "020374",
+"newline_after": false,
+"ko": "아드님답군.",
+"gap": "0203"
+},
+{
+"off": 6464,
+"en": "the",
+"cap": 3,
+"after": "010304",
+"newline_after": true,
+"ko": " ",
+"gap": "010304"
+},
+{
+"off": 6470,
+"en": "son of our Master.",
+"cap": 18,
+"after": "033006",
+"newline_after": true,
+"ko": " ",
+"gap": "0330060e81177aa881199668811aa227138eecc770010500010b0940080a0202"
+},
+{
+"off": 6520,
+"en": "So you are the one",
+"cap": 18,
+"after": "010304",
+"newline_after": true,
+"ko": "네가 바로 벨몬드를",
+"gap": "010304"
+},
+{
+"off": 6541,
+"en": "who was controlling",
+"cap": 19,
+"after": "010304",
+"newline_after": true,
+"ko": "조종하던 자로군.",
+"gap": "010304"
+},
+{
+"off": 6563,
+"en": "Belmont.",
+"cap": 8,
+"after": "033006",
+"newline_after": true,
+"ko": " ",
+"gap": "0330060501800b0940090a0204"
+},
+{
+"off": 6584,
+"en": "Yes. ",
+"cap": 5,
+"after": "032849",
+"newline_after": false,
+"ko": "그래 ",
+"gap": "03"
+},
+{
+"off": 6590,
+"en": "(I am the dark",
+"cap": 14,
+"after": "010304",
+"newline_after": true,
+"ko": "나는 어둠의",
+"gap": "010304"
+},
+{
+"off": 6607,
+"en": "priest called Shaft.",
+"cap": 20,
+"after": "010328",
+"newline_after": true,
+"ko": "사제, 샤프트라 한다.",
+"gap": "0103280203"
+},
+{
+"off": 6632,
+"en": "This world must be",
+"cap": 18,
+"after": "010304",
+"newline_after": true,
+"ko": "이 세상은 혼돈의",
+"gap": "010304"
+},
+{
+"off": 6653,
+"en": "cleansed ",
+"cap": 9,
+"after": "031002",
+"newline_after": false,
+"ko": "용광로 ",
+"gap": "03100204"
+},
+{
+"off": 6666,
+"en": "in the",
+"cap": 6,
+"after": "010304",
+"newline_after": true,
+"ko": "속에서",
+"gap": "010304"
+},
+{
+"off": 6675,
+"en": "forge of chaos.",
+"cap": 15,
+"after": "0f811a",
+"newline_after": true,
+"ko": "정화돼야 한다.",
+"gap": "0f811aa66d138eecc770010500010b093fff0a0203"
+},
+{
+"off": 6711,
+"en": "So you are the one",
+"cap": 18,
+"after": "030463",
+"newline_after": false,
+"ko": "그렇다면 네가 ",
+"gap": "0304"
+},
+{
+"off": 6731,
+"en": "called Shaft?",
+"cap": 13,
+"after": "033006",
+"newline_after": true,
+"ko": "샤프트인가?",
+"gap": "0330060501800b0940000a0204"
+},
+{
+"off": 6757,
+"en": "I am he.",
+"cap": 8,
+"after": "033806",
+"newline_after": true,
+"ko": "그렇다.",
+"gap": "0338060500010b0940010a0202"
+},
+{
+"off": 6778,
+"en": "Why did you make",
+"cap": 16,
+"after": "010304",
+"newline_after": true,
+"ko": "어째서 벨몬드를",
+"gap": "010304"
+},
+{
+"off": 6797,
+"en": "Belmont lord of",
+"cap": 15,
+"after": "010304",
+"newline_after": true,
+"ko": "이 성의 성주로",
+"gap": "010304"
+},
+{
+"off": 6815,
+"en": "this castle?",
+"cap": 12,
+"after": "033006",
+"newline_after": true,
+"ko": "삼은 거지?",
+"gap": "0330060501800b0940020a0204"
+},
+{
+"off": 6840,
+"en": "For centuries,",
+"cap": 14,
+"after": "010314",
+"newline_after": true,
+"ko": "수백 년 동안",
+"gap": "0103140203"
+},
+{
+"off": 6859,
+"en": "vampire hunters have",
+"cap": 20,
+"after": "010304",
+"newline_after": true,
+"ko": "뱀파이어 헌터들은",
+"gap": "010304"
+},
+{
+"off": 6882,
+"en": "defeated evil with",
+"cap": 18,
+"after": "010304",
+"newline_after": true,
+"ko": "신성한 힘으로 악을",
+"gap": "0103040205"
+},
+{
+"off": 6905,
+"en": "holy power. ",
+"cap": 12,
+"after": "032802",
+"newline_after": false,
+"ko": "쳐 왔다. ",
+"gap": "03280203"
+},
+{
+"off": 6921,
+"en": "But ",
+"cap": 4,
+"after": "032869",
+"newline_after": false,
+"ko": "허나",
+"gap": "03"
+},
+{
+"off": 6926,
+"en": "(if",
+"cap": 3,
+"after": "010304",
+"newline_after": true,
+"ko": " ",
+"gap": "010304"
+},
+{
+"off": 6932,
+"en": "two vampire hunters",
+"cap": 19,
+"after": "010318",
+"newline_after": true,
+"ko": "두 뱀파이어 헌터가",
+"gap": "010318"
+},
+{
+"off": 6954,
+"en": "were to fight",
+"cap": 13,
+"after": "010304",
+"newline_after": true,
+"ko": "서로 싸운다면",
+"gap": "0103040202"
+},
+{
+"off": 6972,
+"en": "each other...",
+"cap": 13,
+"after": "033006",
+"newline_after": true,
+"ko": "어찌 될까...",
+"gap": "0330060500010b0940030a0202"
+},
+{
+"off": 6998,
+"en": "But Belmont's power",
+"cap": 19,
+"after": "010304",
+"newline_after": true,
+"ko": "허나 벨몬드의 힘은",
+"gap": "010304"
+},
+{
+"off": 7020,
+"en": "is supreme among",
+"cap": 16,
+"after": "010304",
+"newline_after": true,
+"ko": "뱀파이어 헌터 중",
+"gap": "010304"
+},
+{
+"off": 7039,
+"en": "vampire hunters.",
+"cap": 16,
+"after": "010318",
+"newline_after": true,
+"ko": "최강이다.",
+"gap": "010318"
+},
+{
+"off": 7058,
+"en": "None other could",
+"cap": 16,
+"after": "010304",
+"newline_after": true,
+"ko": "누구도 그를",
+"gap": "010304"
+},
+{
+"off": 7077,
+"en": "defeat him.",
+"cap": 11,
+"after": "033006",
+"newline_after": true,
+"ko": "못 이긴다.",
+"gap": "0330060501800b0940040a0205"
+},
+{
+"off": 7101,
+"en": "Exactly. ",
+"cap": 9,
+"after": "032002",
+"newline_after": false,
+"ko": "그렇다.",
+"gap": "03200203"
+},
+{
+"off": 7114,
+"en": "That's why",
+"cap": 10,
+"after": "010304",
+"newline_after": true,
+"ko": " ",
+"gap": "010304"
+},
+{
+"off": 7127,
+"en": "I removed him as a",
+"cap": 18,
+"after": "010304",
+"newline_after": true,
+"ko": "그래서 놈을 이 성의",
+"gap": "010304"
+},
+{
+"off": 7148,
+"en": "threat ",
+"cap": 7,
+"after": "030862",
+"newline_after": false,
+"ko": "성주로 ",
+"gap": "0308"
+},
+{
+"off": 7157,
+"en": "by making him",
+"cap": 13,
+"after": "01030c",
+"newline_after": true,
+"ko": "앉혀서",
+"gap": "01030c"
+},
+{
+"off": 7173,
+"en": "into lord of this",
+"cap": 17,
+"after": "010304",
+"newline_after": true,
+"ko": "위협을 제거한 것이다.",
+"gap": "010304"
+},
+{
+"off": 7193,
+"en": "castle.",
+"cap": 7,
+"after": "033806",
+"newline_after": true,
+"ko": " ",
+"gap": "0338060500010b0940050a0202"
+},
+{
+"off": 7213,
+"en": "But your plan has",
+"cap": 17,
+"after": "010304",
+"newline_after": true,
+"ko": "하지만 네 계획도",
+"gap": "010304"
+},
+{
+"off": 7233,
+"en": "failed.",
+"cap": 7,
+"after": "033006",
+"newline_after": true,
+"ko": "끝났다.",
+"gap": "0330060501800b0940060a0204"
+},
+{
+"off": 7253,
+"en": "Has it indeed?",
+"cap": 14,
+"after": "010318",
+"newline_after": true,
+"ko": "과연 그럴까?",
+"gap": "0103180203"
+},
+{
+"off": 7272,
+"en": "We'll see what",
+"cap": 14,
+"after": "010304",
+"newline_after": true,
+"ko": "네 나약한 인간 반쪽을",
+"gap": "010304"
+},
+{
+"off": 7289,
+"en": "happens after I",
+"cap": 15,
+"after": "010304",
+"newline_after": true,
+"ko": "부수면 어찌 될지",
+"gap": "010304"
+},
+{
+"off": 7307,
+"en": "destroy ",
+"cap": 8,
+"after": "032079",
+"newline_after": false,
+"ko": "두고 ",
+"gap": "03"
+},
+{
+"off": 7316,
+"en": " your weak",
+"cap": 10,
+"after": "010308",
+"newline_after": true,
+"ko": "보자.",
+"gap": "01030811010204"
+},
+{
+"off": 7333,
+"en": "human side.",
+"cap": 11,
+"after": "033806",
+"newline_after": true,
+"ko": " ",
+"gap": "033806080b11021700ffff0000008c2308800880ffff0000"
+},
+{
+"off": 7368,
+"en": " `aecd",
+"cap": 6,
+"after": "12150f",
+"newline_after": true,
+"ko": "",
+"gap": "12150ff0ff4a681fc3f58e8443037c00"
+},
+{
+"off": 7390,
+"en": "Bw",
+"cap": 2,
+"after": "135940",
+"newline_after": false,
+"ko": "",
+"gap": "135940"
+}
+]
+}

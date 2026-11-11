@@ -1,0 +1,663 @@
+{
+"file": "ST/DRE/DRE.BIN",
+"alt_start": 5832,
+"items": [
+{
+"off": 5861,
+"en": "Mother!!!",
+"cap": 9,
+"after": "033006",
+"newline_after": true,
+"ko": "어머니!!!",
+"gap": "03300613888dd88c000501000b09377b0a0204"
+},
+{
+"off": 5889,
+"en": "That voice! ",
+"cap": 12,
+"after": "031002",
+"newline_after": false,
+"ko": "그 목소리! ",
+"gap": "03100203"
+},
+{
+"off": 5905,
+"en": "Alucard,",
+"cap": 8,
+"after": "010310",
+"newline_after": true,
+"ko": "알카드,",
+"gap": "0103101102"
+},
+{
+"off": 5918,
+"en": "it's you!",
+"cap": 9,
+"after": "033006",
+"newline_after": true,
+"ko": "너로구나!",
+"gap": "0330060500010b09377c0a0202"
+},
+{
+"off": 5940,
+"en": "I'm coming Mother!",
+"cap": 18,
+"after": "010314",
+"newline_after": true,
+"ko": "어머니, 지금 가요!",
+"gap": "010314"
+},
+{
+"off": 5961,
+"en": "I'll save you!!",
+"cap": 15,
+"after": "033006",
+"newline_after": true,
+"ko": "구해 드릴게요!!",
+"gap": "03300605010011010b09377d0a110a0204"
+},
+{
+"off": 5993,
+"en": "No Alucard!",
+"cap": 11,
+"after": "010310",
+"newline_after": true,
+"ko": "안 돼!",
+"gap": "010310110b"
+},
+{
+"off": 6009,
+"en": "Don't come here!",
+"cap": 16,
+"after": "033006",
+"newline_after": true,
+"ko": "오지 마, 알카드!",
+"gap": "0330060500010b09377e0a0202"
+},
+{
+"off": 6038,
+"en": "But Mother!",
+"cap": 11,
+"after": "033006",
+"newline_after": true,
+"ko": "하지만...!",
+"gap": "0330060501000b09377f0a0203"
+},
+{
+"off": 6062,
+"en": "It's all right!",
+"cap": 15,
+"after": "010308",
+"newline_after": true,
+"ko": "괜찮단다!",
+"gap": "010308"
+},
+{
+"off": 6080,
+"en": "If my death can save",
+"cap": 20,
+"after": "010304",
+"newline_after": true,
+"ko": "내 죽음으로 사람들을",
+"gap": "010304"
+},
+{
+"off": 6103,
+"en": "others, ",
+"cap": 8,
+"after": "030802",
+"newline_after": false,
+"ko": "살린다면",
+"gap": "03080204"
+},
+{
+"off": 6115,
+"en": "I gladly",
+"cap": 8,
+"after": "010304",
+"newline_after": true,
+"ko": " 기꺼이",
+"gap": "010304"
+},
+{
+"off": 6126,
+"en": "surrender my life.",
+"cap": 18,
+"after": "033006",
+"newline_after": true,
+"ko": "목숨을 바치마.",
+"gap": "0330060500010b0938800a0203"
+},
+{
+"off": 6157,
+"en": "Mother! No!...",
+"cap": 14,
+"after": "010310",
+"newline_after": true,
+"ko": "어머니! 안 돼!",
+"gap": "010310"
+},
+{
+"off": 6174,
+"en": "Please! No!...",
+"cap": 14,
+"after": "033806",
+"newline_after": true,
+"ko": "제발! 안 돼...",
+"gap": "0338060501000b0938810a110c0203"
+},
+{
+"off": 6203,
+"en": "Yes Alucard! ",
+"cap": 13,
+"after": "032002",
+"newline_after": false,
+"ko": "그래, 알카드!",
+"gap": "03200204"
+},
+{
+"off": 6220,
+"en": "Watch",
+"cap": 5,
+"after": "010304",
+"newline_after": true,
+"ko": " 내가",
+"gap": "010304"
+},
+{
+"off": 6228,
+"en": "me die ",
+"cap": 7,
+"after": "031802",
+"newline_after": false,
+"ko": "죽는 걸",
+"gap": "03180203"
+},
+{
+"off": 6239,
+"en": "and remember",
+"cap": 12,
+"after": "010304",
+"newline_after": true,
+"ko": " 지켜보렴.",
+"gap": "010304"
+},
+{
+"off": 6254,
+"en": "always my last words",
+"cap": 20,
+"after": "010304",
+"newline_after": true,
+"ko": "내 마지막 말을 꼭",
+"gap": "010304"
+},
+{
+"off": 6277,
+"en": "to you...",
+"cap": 9,
+"after": "033006",
+"newline_after": true,
+"ko": "잊지 말렴",
+"gap": "0330060500010b0938820a0203"
+},
+{
+"off": 6299,
+"en": "Yes Mother...",
+"cap": 13,
+"after": "033006",
+"newline_after": true,
+"ko": "네, 어머니...",
+"gap": "0330060501000b0938830a0204"
+},
+{
+"off": 6325,
+"en": "You must despise",
+"cap": 16,
+"after": "010304",
+"newline_after": true,
+"ko": "인간을 증오해야 한단다.",
+"gap": "010304"
+},
+{
+"off": 6344,
+"en": "humans. ",
+"cap": 8,
+"after": "110d03",
+"newline_after": false,
+"ko": "그들은 네 ",
+"gap": "110d03240203"
+},
+{
+"off": 6358,
+"en": "They are to",
+"cap": 11,
+"after": "010304",
+"newline_after": true,
+"ko": "먹이란다.",
+"gap": "010304"
+},
+{
+"off": 6372,
+"en": "be your prey.",
+"cap": 13,
+"after": "033006",
+"newline_after": true,
+"ko": " ",
+"gap": "0330060500010b0938840a0202"
+},
+{
+"off": 6398,
+"en": "What?!...",
+"cap": 9,
+"after": "033006",
+"newline_after": true,
+"ko": "네?!...",
+"gap": "0330060501000b0938850a0202"
+},
+{
+"off": 6420,
+"en": "Better for them to",
+"cap": 18,
+"after": "010304",
+"newline_after": true,
+"ko": "그들이 죄를 더 쌓게",
+"gap": "010304"
+},
+{
+"off": 6441,
+"en": "die than to let them",
+"cap": 20,
+"after": "010304",
+"newline_after": true,
+"ko": "두느니 죽는 편이 낫단다.",
+"gap": "010304"
+},
+{
+"off": 6464,
+"en": "compound their sins.",
+"cap": 20,
+"after": "010330",
+"newline_after": true,
+"ko": "우선 저기 저",
+"gap": "0103300203"
+},
+{
+"off": 6489,
+"en": "Begin by slaying",
+"cap": 16,
+"after": "010304",
+"newline_after": true,
+"ko": "인간부터 죽이렴.",
+"gap": "010304"
+},
+{
+"off": 6508,
+"en": "that one over there.",
+"cap": 20,
+"after": "033006",
+"newline_after": true,
+"ko": " ",
+"gap": "0330060500010b0938860a0203"
+},
+{
+"off": 6541,
+"en": "No...it wasn't",
+"cap": 14,
+"after": "010308",
+"newline_after": true,
+"ko": "아니... 이건",
+"gap": "010308"
+},
+{
+"off": 6558,
+"en": "like this...",
+"cap": 12,
+"after": "033006",
+"newline_after": true,
+"ko": "아니었어...",
+"gap": "0330060501000b0938870a0203"
+},
+{
+"off": 6583,
+"en": "What's wrong?",
+"cap": 13,
+"after": "010318",
+"newline_after": true,
+"ko": "왜 그러니?",
+"gap": "010318"
+},
+{
+"off": 6599,
+"en": "Alucard?",
+"cap": 8,
+"after": "033006",
+"newline_after": true,
+"ko": "알카드?",
+"gap": "0330060500010b0938880a0203"
+},
+{
+"off": 6620,
+"en": "My mother never said",
+"cap": 20,
+"after": "010304",
+"newline_after": true,
+"ko": "어머니는 그런 말을",
+"gap": "010304"
+},
+{
+"off": 6643,
+"en": "such a thing...",
+"cap": 15,
+"after": "033006",
+"newline_after": true,
+"ko": "하지 않았어...",
+"gap": "0330060501000b0938890a0202"
+},
+{
+"off": 6671,
+"en": "What do you mean!?",
+"cap": 18,
+"after": "010328",
+"newline_after": true,
+"ko": "무슨 소리니!?",
+"gap": "0103"
+},
+{
+"off": 6691,
+"en": "(Kill them ",
+"cap": 11,
+"after": "031061",
+"newline_after": false,
+"ko": "죽여서 ",
+"gap": "0310"
+},
+{
+"off": 6704,
+"en": "and bring",
+"cap": 9,
+"after": "010304",
+"newline_after": true,
+"ko": "그들에게",
+"gap": "010304"
+},
+{
+"off": 6716,
+"en": "them happiness!",
+"cap": 15,
+"after": "033006",
+"newline_after": true,
+"ko": "행복을 주렴!",
+"gap": "0330060500010b09388a0a0202"
+},
+{
+"off": 6744,
+"en": "No! ",
+"cap": 4,
+"after": "031059",
+"newline_after": false,
+"ko": "아냐!",
+"gap": "0310"
+},
+{
+"off": 6750,
+"en": "You're not",
+"cap": 10,
+"after": "110320",
+"newline_after": false,
+"ko": " ",
+"gap": "1103"
+},
+{
+"off": 6762,
+"en": " my",
+"cap": 3,
+"after": "010304",
+"newline_after": true,
+"ko": " ",
+"gap": "010304"
+},
+{
+"off": 6768,
+"en": "mother! ",
+"cap": 8,
+"after": "031857",
+"newline_after": false,
+"ko": "넌 내 ",
+"gap": "0318"
+},
+{
+"off": 6778,
+"en": "What kind of",
+"cap": 12,
+"after": "010304",
+"newline_after": true,
+"ko": "어머니가 아니다!",
+"gap": "010304"
+},
+{
+"off": 6793,
+"en": "demon are you!?",
+"cap": 15,
+"after": "033006",
+"newline_after": true,
+"ko": "무슨 악마냐!?",
+"gap": "0330060813899bb00c000b1104033809388b0a0308073c1c05020011060202"
+},
+{
+"off": 6839,
+"en": "You broke free of my",
+"cap": 20,
+"after": "010304",
+"newline_after": true,
+"ko": "내 주문을 깨다니,",
+"gap": "010304"
+},
+{
+"off": 6862,
+"en": "spell. ",
+"cap": 7,
+"after": "032002",
+"newline_after": false,
+"ko": "마음에 ",
+"gap": "03200203"
+},
+{
+"off": 6873,
+"en": "I like that.",
+"cap": 12,
+"after": "033006",
+"newline_after": true,
+"ko": "드는구나.",
+"gap": "0330060500010b09388d0a0203"
+},
+{
+"off": 6898,
+"en": "Demon, ",
+"cap": 7,
+"after": "031064",
+"newline_after": false,
+"ko": "악마여,",
+"gap": "0310"
+},
+{
+"off": 6907,
+"en": "death is too",
+"cap": 12,
+"after": "010304",
+"newline_after": true,
+"ko": " ",
+"gap": "010304"
+},
+{
+"off": 6922,
+"en": "good for you!",
+"cap": 13,
+"after": "033006",
+"newline_after": true,
+"ko": "죽음도 과분하다!",
+"gap": "0330060502000b09388e0a11070203"
+},
+{
+"off": 6950,
+"en": "Come here little boy",
+"cap": 20,
+"after": "010304",
+"newline_after": true,
+"ko": "이리 오렴, 꼬마야.",
+"gap": "010304"
+},
+{
+"off": 6973,
+"en": "and show me what",
+"cap": 16,
+"after": "010304",
+"newline_after": true,
+"ko": "네 실력을 보여 주렴.",
+"gap": "0103041108"
+},
+{
+"off": 6994,
+"en": "you've got.",
+"cap": 11,
+"after": "033006",
+"newline_after": true,
+"ko": " ",
+"gap": "033006080b11090014099103200b0c811dd11a1000073c1c13899bb00c000e81166cc4811bb888811bb9900502000f811bb9930502800b09388f0a0202"
+},
+{
+"off": 7066,
+"en": "Darkling! I smell",
+"cap": 17,
+"after": "010304",
+"newline_after": true,
+"ko": "귀여운 것!",
+"gap": "010304"
+},
+{
+"off": 7086,
+"en": "you're blood.",
+"cap": 13,
+"after": "010314",
+"newline_after": true,
+"ko": "네 피 냄새가 나.",
+"gap": "0103140204"
+},
+{
+"off": 7104,
+"en": "You're a vampire...",
+"cap": 19,
+"after": "010320",
+"newline_after": true,
+"ko": "넌 뱀파이어구나...",
+"gap": "0103200203"
+},
+{
+"off": 7128,
+"en": "Could it be...",
+"cap": 14,
+"after": "033006",
+"newline_after": true,
+"ko": "설마...",
+"gap": "033006138880000c010e81166cc4811bbffc811cc0040500010f811cc00705008102042e2e2e2e2e2e2e2e2e03300613899bb00c000e81166cc4811cc228811cc3300502000f811cc3330502800b0939900a0203"
+},
+{
+"off": 7226,
+"en": "That strength, ",
+"cap": 15,
+"after": "031074",
+"newline_after": false,
+"ko": "그 힘, 그 ",
+"gap": "0310"
+},
+{
+"off": 7243,
+"en": "that",
+"cap": 4,
+"after": "010304",
+"newline_after": true,
+"ko": "미모...",
+"gap": "010304"
+},
+{
+"off": 7250,
+"en": "beauty...",
+"cap": 9,
+"after": "031059",
+"newline_after": false,
+"ko": "넌 드라큘라 ",
+"gap": "0310"
+},
+{
+"off": 7261,
+"en": "You're the",
+"cap": 10,
+"after": "010304",
+"newline_after": true,
+"ko": "백작의",
+"gap": "010304"
+},
+{
+"off": 7274,
+"en": "son of ",
+"cap": 7,
+"after": "02044c",
+"newline_after": false,
+"ko": "아들이구나",
+"gap": "0204"
+},
+{
+"off": 7283,
+"en": "Lord Dracula.",
+"cap": 13,
+"after": "033006",
+"newline_after": true,
+"ko": " ",
+"gap": "0330060e81166cc4811cc990811cc9980500010f811cc99b0500810b0939910a0202"
+},
+{
+"off": 7330,
+"en": "Death in the dream",
+"cap": 18,
+"after": "010304",
+"newline_after": true,
+"ko": "꿈속의 죽음이",
+"gap": "010304"
+},
+{
+"off": 7351,
+"en": "world will set your",
+"cap": 19,
+"after": "010304",
+"newline_after": true,
+"ko": "네 영혼을 영원히",
+"gap": "010304"
+},
+{
+"off": 7373,
+"en": "soul ",
+"cap": 5,
+"after": "020377",
+"newline_after": false,
+"ko": "떠돌",
+"gap": "0203"
+},
+{
+"off": 7380,
+"en": "wandering for",
+"cap": 13,
+"after": "010304",
+"newline_after": true,
+"ko": "게 하리라,",
+"gap": "010304"
+},
+{
+"off": 7396,
+"en": "eternity, Demon.",
+"cap": 16,
+"after": "033006",
+"newline_after": true,
+"ko": "악마여.",
+"gap": "033006"
+}
+]
+}
