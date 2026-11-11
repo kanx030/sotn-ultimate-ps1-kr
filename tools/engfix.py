@@ -11,6 +11,7 @@ Every edit asserts the US bytes first and is skipped when already applied (idemp
   young." is painted into the 256x256 8bpp background (file 0x8000-0x17FFF, CLUT at 0x1A000). The English
   ink (+3 px halo) is inpainted from the surrounding sand (diffusion + seeded noise, quantised to the CLUT),
   then GO_TEXT is drawn in Galmuri11 (cream fill, 1 px dark outline), centred on the same two rows.
+  The blackletter GAME OVER sprites (file 0x0000-0x3FFF) are redrawn as 게임오버 (see gameover_title).
 - DRA status screen name (g_MenuStr[0] "ALUCARD" / [42] "ALUCART" when the Alucart set is worn), drawn by
   MenuDrawStr(str, 0x80, 0x28) at 0x800F521C: 알카드 / 알카트 in Galmuri11 (11 px, as large as the English
   word looks) instead of 7 px Galmuri7. The word is cut into 8x7 tiles; each tile is a g7 "carrier"
@@ -135,16 +136,54 @@ def gameover_image(us):
     return img.tobytes(), rgb
 
 
+GO_TITLE = '게임오버'                 # replaces the 8 blackletter cells G A M E O V E R (32x32 each, 4bpp)
+GO_TITLE_SIZE = (24, 48)               # glyph body h, w inside each 64x32 cell pair
+
+
+def gameover_title():
+    """F_GO 0x0000-0x3FFF: 256x128 4bpp, 8 letters x 4 rows. Each letter is drawn in place (sprites sit
+    side by side, 32 px apart) and the rows are glow steps. Original encoding: D = 1 on the letter body,
+    2..6 on 1-px rings outward; row k shows D + (3 - k), cut off above 6. Each Hangul syllable takes two
+    cells (64x32), so the 8 sprites read 게 임 오 버 with no code change."""
+    import numpy as np, gfx
+    from PIL import Image
+    h, w = GO_TITLE_SIZE
+    sheet = np.zeros((128, 256), np.uint8)
+    for i, ch in enumerate(GO_TITLE):
+        c = gfx.noto(ch, 40, 600, serif=True)
+        m = np.asarray(Image.fromarray((c * 255).astype(np.uint8)).resize((w, h), Image.LANCZOS)) > 110
+        cur = np.zeros((32, 64), bool)
+        cur[(32 - h) // 2:(32 - h) // 2 + h, (64 - w) // 2:(64 - w) // 2 + w] = m
+        D = np.zeros((32, 64), np.uint8); D[cur] = 1
+        for v in range(2, 7):
+            n = gfx.dilate(cur); D[n & ~cur] = v; cur = n
+        for k in range(4):
+            val = D.astype(int) + (3 - k); val[(D == 0) | (val > 6)] = 0
+            sheet[k * 32:(k + 1) * 32, i * 64:(i + 1) * 64] = val
+    return bytes((sheet[:, 0::2] | (sheet[:, 1::2] << 4)).astype(np.uint8).ravel())
+
+
 def _gameover(d):
     import hashlib, os
     us = open(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'work', 'U', 'BIN', 'F_GO.BIN'), 'rb').read()
     new, _ = gameover_image(us)
+    title = gameover_title()
+    out = []
     cur = bytes(d[GO_BG:GO_BG + 0x10000])
     if cur == new:
-        return 'F_GO quote: already'
-    assert cur == us[GO_BG:GO_BG + 0x10000], 'F_GO background is not US'
-    d[GO_BG:GO_BG + 0x10000] = new
-    return 'F_GO quote -> ' + ' / '.join(GO_TEXT)
+        out.append('quote: already')
+    else:
+        assert cur == us[GO_BG:GO_BG + 0x10000], 'F_GO background is not US'
+        d[GO_BG:GO_BG + 0x10000] = new
+        out.append('quote -> ' + ' / '.join(GO_TEXT))
+    cur = bytes(d[0:0x4000])
+    if cur == title:
+        out.append('title: already')
+    else:
+        assert cur == us[0:0x4000], 'F_GO title letters are not US'
+        d[0:0x4000] = title
+        out.append('title -> ' + GO_TITLE)
+    return 'F_GO ' + ', '.join(out)
 
 
 NAME_CALL = 0x800F521C                 # jal MenuDrawStr (status name)
