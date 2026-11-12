@@ -33,6 +33,13 @@
 
 개조판 정보: [romhacking.net](https://www.romhacking.net/hacks/10241/) · [제작 소스(GitHub)](https://github.com/renanbianchi/sotn-ultimate)
 
+## 에뮬레이터 설정 (덕스테이션·안드로이드)
+- 패치 결과 MD5가 위 값과 같은지 먼저 확인 (원본 판에 맞는 배포: v1.4 → `ult-v1.4`, v1.2 → `v1.0`)
+- .bin 이름을 바꾸면 .cue의 FILE 줄도 같이 바꾸고, .cue로 열기
+- 실제 PS1 바이오스(북미 SCPH-1001 권장), 빠른 부팅 끄기 권장, CD 읽기·탐색 가속 끄기, 8MB 램 끄기
+- CHD는 .cue에서 변환
+- 덕스테이션 데스크톱판(안드로이드판과 같은 핵심)에서 .cue/.bin/CHD, 빠른 부팅 켬/끔, 북미·일본 바이오스 모두 동작 확인
+
 ## 화면
 | | |
 |---|---|
