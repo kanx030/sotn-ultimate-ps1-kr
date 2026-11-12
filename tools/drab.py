@@ -32,14 +32,15 @@ OUT = os.path.join(WORK, 'trans', 'DRA_B.json')
 FONTEXT = os.path.join(WORK, 'fontext.json')
 BASE = 0x800A0000
 
-EQUIP, EQUIP_N, EQUIP_S = 0x800A499C, 228, 0x34
-ACC, ACC_N, ACC_S = 0x800A77EC, 93, 0x20
-RELIC, RELIC_N, RELIC_S = 0x800DFC28, 31, 0x10
-SPELL, SPELL_N, SPELL_S = 0x800DF780, 8, 0x1C
-SYSHELP, SYSHELP_N = 0x800A2B04, 7
-BUTTON = 0x800DC11C
-SAVE_LO, SAVE_HI = 0x800DC694, 0x800DC7E4      # Data saved... "  No  "
-EMPTY = 0x800DC800                             # "" used by unused table entries
+from addrmap import dra as _R                  # v1.2 addresses -> current base (signature-checked)
+EQUIP, EQUIP_N, EQUIP_S = _R(0x800A499C), 228, 0x34
+ACC, ACC_N, ACC_S = _R(0x800A77EC), 93, 0x20
+RELIC, RELIC_N, RELIC_S = _R(0x800DFC28), 31, 0x10
+SPELL, SPELL_N, SPELL_S = _R(0x800DF780), 8, 0x1C
+SYSHELP, SYSHELP_N = _R(0x800A2B04), 7
+BUTTON = _R(0x800DC11C)
+SAVE_LO, SAVE_HI = _R(0x800DC694), _R(0x800DC7E4)      # Data saved... "  No  "
+EMPTY = _R(0x800DC800)                             # "" used by unused table entries
 
 LIMIT = {'equip_desc': 288, 'acc_desc': 288, 'relic_desc': 288, 'spell_desc': 288,
          'sys_help': 288, 'button': 288, 'relic_name': 120,
@@ -284,7 +285,7 @@ def load():
 def save(items):
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     tmp = OUT + '.tmp'
-    with open(tmp, 'w', encoding='utf-8') as f:
+    with open(tmp, 'w', encoding='utf-8', newline='\n') as f:
         json.dump(items, f, ensure_ascii=False, indent=1)
     os.replace(tmp, OUT)
 

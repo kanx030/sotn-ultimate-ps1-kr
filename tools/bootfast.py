@@ -12,9 +12,11 @@ import struct, os
 
 FILES = ('ST/SEL/SEL.BIN', 'BIN/SELRIC2.BIN')
 BASE = 0x80180000
-VA = 0x801BD018
+import addrmap
+VA = addrmap.ovl('ST/SEL/SEL.BIN', 0x801BD018)          # v1.2 0x801BD018 (v1.4 +0x10)
+EPI = addrmap.ovl('ST/SEL/SEL.BIN', 0x801BD05C)         # v1.2 0x801BD05C
 ORIG = struct.pack('<II', 0x3C018004, 0xAC22BDE0)      # lui at,0x8004 ; sw v0,-0x4220(at)
-NEW = struct.pack('<II', 0x08000000 | ((0x801BD05C >> 2) & 0x3FFFFFF),   # j 0x801BD05C (epilogue -> title)
+NEW = struct.pack('<II', 0x08000000 | ((EPI >> 2) & 0x3FFFFFF),   # j EPI (epilogue -> title)
                   0x34100001)                          # ori s0,zero,1  (delay slot: new game state = 1)
 
 def patch(rel, data):

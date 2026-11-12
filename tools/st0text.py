@@ -159,7 +159,8 @@ CRAWL = [
 ]
 
 CRAWL_CENTER = 54          # mean centre of the English lines, in 4-px VRAM units (base 0x200)
-CRAWL_X0 = 0x316AC         # ST0 0x801B16AC: ori v0,zero,0x216 (x of the first line; later lines: "01/02 xx" arg)
+import addrmap
+CRAWL_X0 = addrmap.ovl('ST/ST0/ST0.BIN', 0x801B16AC) - 0x80180000   # v1.2 0x801B16AC: ori v0,zero,0x216 (x of the first line; later lines: "01/02 xx" arg)
 
 def crawl_units(b):
     """advance of an encoded crawl line: every glyph (Hangul or ASCII) 3 units = 12 px, a space 2 units."""

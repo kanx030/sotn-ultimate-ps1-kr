@@ -41,6 +41,10 @@ RUNS = [
     (0x303dc, b'Formatting completed' + D, '포맷 완료．', 23),
     (0x303f4, b'Formatting error' + D, '포맷 오류．', 19),
 ]
+import addrmap
+RUNS_V12 = RUNS
+RUNS = addrmap.remap_runs('ST/SEL/SEL.BIN', RUNS)        # offsets above are v1.2's; current base found by bytes
+SLOT_OFF = RUNS[[r[0] for r in RUNS_V12].index(0x303cc)][0]
 
 def patch(sel):
     import credits                            # ending staff roll (headers / roles in Korean)
@@ -52,7 +56,7 @@ if __name__ == '__main__':
     for off, en, ko, cap in RUNS:
         try:
             b = enc(ko); print('%x %2d/%2d %s %s' % (off, len(b), cap, 'OK ' if len(b) <= cap else 'BAD', ko))
-            if off == 0x303cc: assert b[8:10] == b'\x82P', b
+            if off == SLOT_OFF: assert b[8:10] == b'\x82P', b
         except KeyError as e:
             bad.append(str(e)); print('%x MISSING %s %s' % (off, e, ko))
     print('missing', bad)

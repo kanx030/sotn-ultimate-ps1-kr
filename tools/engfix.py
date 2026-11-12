@@ -21,13 +21,14 @@ Every edit asserts the US bytes first and is skipped when already applied (idemp
   7 px lower; v0 at the call is the game's "Alucart set worn" flag. DRA_A keeps 알카드/알카트 as fallback.
 """
 import os, struct
+from addrmap import dra as _R      # DRA address of the old base (v1.2) -> current base, signature-checked
 
 FILES = ('DRA.BIN', 'ST/SEL/SEL.BIN', 'BIN/SELRIC2.BIN', 'BIN/F_GO.BIN')
 LOG = []
 
 DRA = 0x800A0000
-SPELL_OR = 0x800F59FC              # 13 words: o / r MenuDrawChar calls
-MENU_DRAW_STR = 0x800F4494
+SPELL_OR = _R(0x800F59FC)              # 13 words: o / r MenuDrawChar calls
+MENU_DRAW_STR = _R(0x800F4494)
 
 
 def _w(*ws):
@@ -40,6 +41,7 @@ def _spell_or(d):
     o = SPELL_OR - DRA
     us = bytes.fromhex('4f000434c02810002128a502213040020dd1030c213860020100102652000434'
                        'c02810002128a502213040020dd1030c21386002')
+    import addrmap; us = addrmap.port_code(us)                 # MenuDrawChar moved in v1.4
     s = draa.encode_a('또는') + b'\xff\x00'
     assert len(s) <= 16, s.hex()
     s = s + bytes(16 - len(s))
@@ -71,7 +73,7 @@ def _sel_tags(d, name):
     rp_off = 16 + len(c) + 1
     new[rp_off:rp_off + len(rp)] = rp
     assert rp_off + len(rp) < 32 and len(m) < 8 and len(r) < 8
-    ins = 0x32F5C                                   # addiu a0,a0,0x7ED8 (Replay)
+    ins = __import__('addrmap').get('ST/SEL/SEL.BIN')(0x32F5C)   # v1.2 0x32F5C: addiu a0,a0,0x7ED8 (Replay)
     ins_us = struct.pack('<I', 0x24847ED8)
     ins_new = struct.pack('<I', 0x24840000 | (0x7EC0 + rp_off))
     cur = bytes(d[T:T + 32])
@@ -256,7 +258,7 @@ def _gameover(d):
     return 'F_GO ' + ', '.join(out)
 
 
-NAME_CALL = 0x800F521C                 # jal MenuDrawStr (status name)
+NAME_CALL = _R(0x800F521C)                 # jal MenuDrawStr (status name)
 NAME_X, NAME_Y, NAME_W_US = 0x80, 0x28, 56
 CARRIERS = '꺠꼐떄뗴뛔뺴뼤쀄쨰쪠쮀뙈컈턔퍠뽸'
 CARRIER_CV = list(range(0xE3, 0xEC)) + list(range(0xF0, 0xFC))
@@ -314,7 +316,7 @@ def _alloc(d, n):
     raise SystemExit('engfix: no DRA room (%d bytes)' % n)
 
 
-GO_ROW_TIMERS = (0x800E4D70, 0x800E4DD8)   # step 7: "ori v0,zero,4" = passes per glow row (one pass a frame)
+GO_ROW_TIMERS = (_R(0x800E4D70), _R(0x800E4DD8))   # step 7: "ori v0,zero,4" = passes per glow row (one pass a frame)
 GO_ROW_FRAMES = 60                         # 4 -> 60: 3 row changes over 3 s; with the fade-in, white -> blood red in ~4 s
 
 
@@ -336,7 +338,7 @@ def _status_name(d):
     from asm import Asm, jal_word
     names = name_setup()                   # registers the carrier glyphs in any case
     cur = bytes(d[NAME_CALL - DRA:NAME_CALL - DRA + 4])
-    if cur != jal_word(0x800F4494):
+    if cur != jal_word(_R(0x800F4494)):
         return 'status name: already'
     blob = b''
     offs = {}
@@ -361,9 +363,9 @@ def _status_name(d):
     a.label('draw')
     x = NAME_X + (NAME_W_US - W) // 2
     a.addu('a0', 's0', 'zero'); a.ori('a1', 'zero', x); a.ori('a2', 'zero', NAME_Y - 2)
-    a.jal(0x800F4494); a.addu('a3', 's1', 'zero')
+    a.jal(_R(0x800F4494)); a.addu('a3', 's1', 'zero')
     a.addu('a0', 's0', 's2'); a.ori('a1', 'zero', x); a.ori('a2', 'zero', NAME_Y + 5)
-    a.jal(0x800F4494); a.addu('a3', 's1', 'zero')
+    a.jal(_R(0x800F4494)); a.addu('a3', 's1', 'zero')
     a.lw('ra', 16, 'sp'); a.lw('s0', 20, 'sp'); a.lw('s1', 24, 'sp'); a.lw('s2', 28, 'sp')
     a.jr('ra'); a.addiu('sp', 'sp', 32)
     code = a.assemble()
@@ -373,8 +375,8 @@ def _status_name(d):
     return 'status name 알카드/알카트 big (code %08X, %d tiles)' % (code_va, len(set(CARRIERS) & set(__import__('g7').CUSTOM)))
 
 
-ENGC_CALL = 0x800F7748            # set renderer 0x800F76F4: jal 0x80104EDC (glyph -> 12x16 4bpp cell)
-GLYPH_API = 0x80104EDC
+ENGC_CALL = _R(0x800F7748)            # set renderer 0x800F76F4: jal 0x80104EDC (glyph -> 12x16 4bpp cell)
+GLYPH_API = _R(0x80104EDC)
 GLYPH_BUF = 0x80137EF8            # the API's 96-byte output buffer (6 bytes x 16 rows)
 ENGC_INK = 8                      # full ink of the API's cells (value 4 looked grey on screen; 8 = K's white)
 ENGC_TOP = 2                      # Galmuri11 rows 2..12 (K's 16x15 glyph: rows 0..14, same centre)

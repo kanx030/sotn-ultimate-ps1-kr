@@ -16,6 +16,7 @@ Changes:
 The relic menu on/off toggle is left as is (user's choice): switched off = normal walk.
 """
 import struct
+from addrmap import dra as _R      # DRA address of the old base (v1.2) -> current base, signature-checked
 
 FILES = ('DRA.BIN',)
 LOG = []
@@ -28,11 +29,11 @@ def _w(*ws):
 
 EDITS = [
     # (va, US words, new words, label)
-    (0x8010D214,
+    (_R(0x8010D214),
      _w(0x3C028013, 0x8C4262AC),            # lui v0,0x8013 ; lw v0,0x62AC(v0)   (double-tap timer)
      _w(0x3C028007, 0x8C422EFC),            # lui v0,0x8007 ; lw v0,0x2EFC(v0)   (demo_timer)
      'walk start: timer -> demo_timer'),
-    (0x8010D22C,
+    (_R(0x8010D22C),
      _w(0x1040000E),                        # beqz v0,0x8010D268 (no timer -> plain walk)
      _w(0x1440000E),                        # bnez v0,0x8010D268 (cutscene pad -> plain walk)
      'walk start: dash unless demo'),

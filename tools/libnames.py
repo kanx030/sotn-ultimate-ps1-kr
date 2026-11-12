@@ -25,7 +25,8 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 BASE = 0x80180000
 TABLE = 0x1A60
-HEAD = 0x801BA5C8 - BASE
+import addrmap
+HEAD = addrmap.ovl('ST/LIB/LIB.BIN', 0x801BA5C8) - BASE      # v1.2 0x801BA5C8
 HEAD_US = bytes.fromhex('0000c39000000000')              # lbu v1,0(a2); nop
 FID = 7                                                   # build.CUTSCENE_FILES index of ST/LIB/LIB.BIN
 # (pointer-table slot, US string address, US bytes incl. FF 00 and padding up to the next field, Korean)

@@ -47,6 +47,15 @@ def _put(d, off, orig, new, what):
 
 
 # ------------------------------------------------------------------ 1. small 8x8 font
+import addrmap as _am
+def _o(off):
+    """v1.2 SEL file offset -> current base (SEL and SELRIC2 share the layout)."""
+    n = _am.get('ST/SEL/SEL.BIN')(off)
+    assert n is not None, hex(off)
+    return n
+def _v(va):
+    return 0x80180000 + _o(va - 0x80180000)
+
 SMALL_SHEET = 0x30000                   # F_TITLE1 block holding the 8x8 sheet (VRAM 896,256)
 SMALL_FIRST = 0x60                      # first kana cell we take over
 SMALL_LAST = 0xDF
@@ -117,9 +126,9 @@ AREA_KO = {
 # from the table 0x801AFBC4 (8-byte entries: name pointer, track) into the pool 0x801AFD24-0x801B005C, plus three
 # fixed strings (lui/addiu refs). The classic series song titles (I Am the Wind, Bloody Tears / Beginning /
 # Vampire Killer remixes) keep their English titles (like 'I AM THE WIND' in the staff roll; also no cells left).
-SOUND_TABLE = 0x2FBC4
+SOUND_TABLE = _o(0x2FBC4)
 SOUND_COUNT = 44
-SOUND_POOL = (0x2FD24, 0x3005C)
+SOUND_POOL = (_o(0x2FD24), _o(0x3005C))
 SOUND_KO = {
     'Maria Battle': '마리아 결전', 'Chaconne C Moll': '샤콘 C단조', 'The Old Librarian': '늙은 사서',
     'Metamorphosis III': '변신 III', 'Black Banquet': '검은 연회', 'Final Toccata': '피날레',
@@ -135,7 +144,7 @@ SOUND_KO = {
     "Dracula's Castle": '드라큘라 성', 'Prayer': '기도', 'Moonlight Nocturne': '월하의 야상곡',
     'Dance of Illusions': '환상의 춤', 'Prologue': '서곡', 'Metamorphosis': '변신',
 }
-SOUND_FIXED = [(0x3005C, 'Now playing', '연주 중'), (0x3006C, 'Play/Stop', '연주/정지'), (0x30078, 'Back', '뒤로')]
+SOUND_FIXED = [(_o(0x3005C), 'Now playing', '연주 중'), (_o(0x3006C), 'Play/Stop', '연주/정지'), (_o(0x30078), 'Back', '뒤로')]
 # extra cells for Hangul once 0x60-0xDF are full: kanji / odd cells of the US sheet in the ASCII range
 # ($ * ; < > @ \ ^ ` { | } DEL) - no SEL text draws those characters.
 SMALL_EXTRA = [0x04, 0x0A, 0x1B, 0x1C, 0x1E, 0x20, 0x3C, 0x3E, 0x40, 0x5B, 0x5C, 0x5D, 0x5F]
@@ -380,10 +389,10 @@ def patch_tiles(d, U):
 
 
 # ------------------------------------------------------------------ 3. gothic 16x16 strings
-GOTHIC_DRAWER = 0x801BB7D0          # unused 12x16-font drawer, 44 instructions -> new Korean gothic drawer
-GOTHIC_DRAWER_END = 0x801BB880
+GOTHIC_DRAWER = _v(0x801BB7D0)         # unused 12x16-font drawer, 44 instructions -> new Korean gothic drawer
+GOTHIC_DRAWER_END = _v(0x801BB880)
 SEL_BASE = 0x80180000
-SPRITE = 0x801BB6A4                 # (x, y, w, h, [u, v, clut, tpage, flag, colour] on the stack)
+SPRITE = _v(0x801BB6A4)                # (x, y, w, h, [u, v, clut, tpage, flag, colour] on the stack)
 GOTHIC_TPAGE = 0xD                  # VRAM (832,0) 4bpp = F_SEL 0x28000-0x2FFFF
 GOTHIC_CLUT = 0x200                 # same palette as the US gothic letters
 # empty 16x16 cells of that page (checked against F_SEL and a VRAM dump of the SEL screen)
@@ -393,33 +402,33 @@ GOTHIC_BLANK = 0xFF                 # left empty: the space character
 
 # string (SEL file offset, US bytes incl. NUL, Korean)
 GOTHIC_STRINGS = [
-    (0x27EF8, b'select\0', '그대의'),
-    (0x27F00, b'your\0', '운명을'),
-    (0x27F08, b'destiny\0', '선택하라'),
-    (0x300CC, b'new game\0', '새 게임'),
-    (0x300D8, b'used\0', '사용 중'),
-    (0x300E0, b'no data\0', '데이터 없음'),
-    (0x300E8, b'no\0', '카드'),
-    (0x300EC, b'card\0', '없음'),
-    (0x30080, b'sound mode\0', '사운드 모드'),   # sound-mode screen title (own drawer 0x801B32EC, see SOUND_TITLE)
+    (_o(0x27EF8), b'select\0', '그대의'),
+    (_o(0x27F00), b'your\0', '운명을'),
+    (_o(0x27F08), b'destiny\0', '선택하라'),
+    (_o(0x300CC), b'new game\0', '새 게임'),
+    (_o(0x300D8), b'used\0', '사용 중'),
+    (_o(0x300E0), b'no data\0', '데이터 없음'),
+    (_o(0x300E8), b'no\0', '카드'),
+    (_o(0x300EC), b'card\0', '없음'),
+    (_o(0x30080), b'sound mode\0', '사운드 모드'),   # sound-mode screen title (own drawer 0x801B32EC, see SOUND_TITLE)
 ]
 # call sites of the US drawer 0x801BB8BC that draw the strings above
-GOTHIC_CALLS = [0x801B3408, 0x801B3420, 0x801B3438, 0x801B70C0, 0x801B7188, 0x801B71A0]
+GOTHIC_CALLS = [_v(x) for x in (0x801B3408, 0x801B3420, 0x801B3438, 0x801B70C0, 0x801B7188, 0x801B71A0)]
 # x re-centring: (va, US instruction, new instruction)
 GOTHIC_X = [
-    (0x801B3400, 0x340500F0, 0x34050108),   # 'select'  x 240 -> 264 (centre 288, 3 cells)
-    (0x801B3418, 0x34050100, 0x34050108),   # 'your'    x 256 -> 264
-    (0x801B3430, 0x340500E8, 0x34050100),   # 'destiny' x 232 -> 256 (4 cells)
-    (0x801B708C, 0x340500A0, 0x340500A0),   # 'used'    x 160 (4 cells, centre 192) unchanged
-    (0x801B709C, 0x34050088, 0x34050090),   # 'no data' x 136 -> 144 (6 cells)
-    (0x801B70B8, 0x34050080, 0x340500A0),   # 'new game' x 128 -> 160 (4 cells)
-    (0x801B7198, 0x02E02821, 0x26E50010),   # 'card' x = s7 -> s7 + 16 (2 cells under 'no')
+    (_v(0x801B3400), 0x340500F0, 0x34050108),   # 'select'  x 240 -> 264 (centre 288, 3 cells)
+    (_v(0x801B3418), 0x34050100, 0x34050108),   # 'your'    x 256 -> 264
+    (_v(0x801B3430), 0x340500E8, 0x34050100),   # 'destiny' x 232 -> 256 (4 cells)
+    (_v(0x801B708C), 0x340500A0, 0x340500A0),   # 'used'    x 160 (4 cells, centre 192) unchanged
+    (_v(0x801B709C), 0x34050088, 0x34050090),   # 'no data' x 136 -> 144 (6 cells)
+    (_v(0x801B70B8), 0x34050080, 0x340500A0),   # 'new game' x 128 -> 160 (4 cells)
+    (_v(0x801B7198), 0x02E02821, 0x26E50010),   # 'card' x = s7 -> s7 + 16 (2 cells under 'no')
 ]
 # sound-mode title: 0x801B5DC4 draws 'sound mode' with the page-0xC a-z drawer 0x801B32EC (a3 = clut 0x200)
 # -> the Korean gothic drawer (a3 = sprite flag 1 like its other callers), x 0x70 -> 0x90 (6 cells, centre 192)
-SOUND_TITLE = [(0x801B5DCC, 0x34050070, 0x34050090),
-               (0x801B5DD4, 0x0C06CCBB, 0x0C000000 | ((GOTHIC_DRAWER >> 2) & 0x3FFFFFF)),
-               (0x801B5DD8, 0x34070200, 0x34070001)]
+SOUND_TITLE = [(_v(0x801B5DCC), 0x34050070, 0x34050090),
+               (_v(0x801B5DD4), 0x0C000000 | ((_v(0x801B32EC) >> 2) & 0x3FFFFFF), 0x0C000000 | ((GOTHIC_DRAWER >> 2) & 0x3FFFFFF)),
+               (_v(0x801B5DD8), 0x34070200, 0x34070001)]
 
 
 def _gothic_syllables():
@@ -477,7 +486,7 @@ def patch_gothic(d, U):
     n = GOTHIC_DRAWER_END - GOTHIC_DRAWER
     code = _gothic_code_safe()
     _put(d, o, U[o:o + n], code + U[o + len(code):o + n], 'gothic drawer')
-    old = jal_word(0x801BB8BC)
+    old = jal_word(_v(0x801BB8BC))
     for va in GOTHIC_CALLS:
         _put(d, va - SEL_BASE, old, jal_word(GOTHIC_DRAWER), 'gothic call %08X' % va)
     for va, a, b in GOTHIC_X:
@@ -586,7 +595,7 @@ def patch_sel(d, name):
     U = gfx._u('ST/SEL/SEL.BIN') if name == 'BIN/SELRIC2.BIN' else gfx._u(name)
     UR = gfx._u(name)
     # SELRIC2 = SEL with a different ending cutscene (0xC71A-0xD5EE); everything used here is identical
-    for a, b in ((0x27D00, 0x30110), (0x2D518, 0x2F4F0), (0x33000, 0x3C000), (0x128, 0x3A8), AREA_POOL):
+    for a, b in ((0x27D00, 0x2F4F0), (_o(0x2F54C), _o(0x30110)), (0x2D518, 0x2F4F0), (_o(0x33000), _o(0x3C000)), (0x128, 0x3A8), AREA_POOL):
         assert UR[a:b] == U[a:b], (name, hex(a))
     patch_small_strings(d, UR)
     patch_sound(d, UR)

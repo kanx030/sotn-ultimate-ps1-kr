@@ -22,6 +22,7 @@ saved region work/narrsrc/jp_crawl_region.bin (env SOTN_JP_REGION) is used: the 
 image (e.g. the v1.0 release = original + xdelta); it holds the same stream (checked by the same md5).
 python narration.py [wav]   -> extract + decode to work/narr/*.wav for listening (checks only)"""
 import os, sys, struct, hashlib
+from addrmap import dra as _R      # DRA address of the old base (v1.2) -> current base, signature-checked
 sys.path.insert(0, os.path.dirname(__file__))
 from asm import Asm
 
@@ -31,14 +32,17 @@ JP_DISC = os.environ.get('SOTN_JP_DISC') or os.path.join(
 REGION = os.environ.get('SOTN_JP_REGION') or os.path.join(ROOT, 'work', 'narrsrc', 'jp_crawl_region.bin')
 SEC = 2352
 JP_XA_LBA = 47643          # SD/XA_STR1 on the JP disc (Rev 0 and Rev 2)
-U_XA_LBA = 51894           # SD/XA_STR1 on Ultimate (= DRA XA base 0x80138F20)
+def _xa_lba():
+    import iso, base
+    return [e for e in iso.Img(base.SRC_IMG).walk() if e['path'].upper().startswith('/SD/XA_STR1')][0]['lba']
+U_XA_LBA = _xa_lba()       # SD/XA_STR1 on Ultimate (= DRA XA base 0x80138F20): v1.2 51894, v1.4 52588
 JP_OFF, JP_LEN, FILE, CHAN, VOL, KIND = 0x64D0, 0x1893, 0x1E, 6, 0x7A, 2   # JP DRA 0x800BD390 entry 0x33D
 GROUPS = 1966              # channel-6 sectors with file 0x1E (~104.9 s; len 0x1893 = frames)
 TAIL = 75                  # extra interleave groups copied after the stream (drive read-ahead)
 NSEC = (GROUPS + TAIL) * 8
 STREAM_MD5 = '92396d6e5eea57c2887ca4b912cddfb3'   # md5 of the 1966 stream sectors [16:2352] (Rev 2 dump; hash only)
 ENT_RAM = None             # set by build (font area)
-LOOK = 0x80131C7C
+LOOK = _R(0x80131C7C)
 ORIG_LOOK = bytes.fromhex('3f0002340b002216000000000980023caf7b4290000000002800423005004014'
                           '000000000e80023ce420422480c7040800000000')
 
@@ -87,13 +91,21 @@ def entry(lba0):
 def patch_dra(dra, ent_ram):
     dra = bytearray(dra)
     o = LOOK - 0x800A0000
-    assert dra[o:o + 52] == ORIG_LOOK, dra[o:o + 52].hex()
+    w = lambda k: struct.unpack_from('<I', dra, o + 4 * k)[0]
+    # the original 13 words with the alternate entry (lui/addiu) and the j target masked (they move per version)
+    cur = bytearray(dra[o:o + 52]); ref = bytearray(ORIG_LOOK)
+    for k in (9, 10, 11):
+        cur[4 * k:4 * k + 2] = ref[4 * k:4 * k + 2] = b'\0\0'
+    cur[44:47] = ref[44:47] = b'\0\0\0'
+    assert cur == ref, dra[o:o + 52].hex()
+    alt = ((w(9) & 0xFFFF) << 16) + (((w(10) & 0xFFFF) ^ 0x8000) - 0x8000)
+    jt = (LOOK & 0xF0000000) | ((w(11) & 0x3FFFFFF) << 2)
     a = Asm(LOOK)
     a.lui('v0', 0x8009); a.lbu('v0', 0x7BAF, 'v0'); a.addiu('v1', 's1', -0x3F); a.andi('v0', 'v0', 0x28)
     a.sll('at', 'v1', 5)
-    a.bne('v0', 'at', 0x80131CB0); a.lui('v0', 0x800E)
-    a.bne('v1', 'zero', 'is40'); a.addiu('v0', 'v0', 0x20E4)
-    a.j(0x80131E00); a.nop()
+    a.bne('v0', 'at', LOOK + 0x34); a.lui('v0', (alt + 0x8000) >> 16)
+    a.bne('v1', 'zero', 'is40'); a.addiu('v0', 'v0', alt & 0xFFFF)
+    a.j(jt); a.nop()
     a.label('is40')
     a.lui('s4', (ent_ram + 0x8000) >> 16); a.addiu('s4', 's4', ent_ram & 0xFFFF)
     c = a.assemble(); assert len(c) == 52

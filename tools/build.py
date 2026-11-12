@@ -2,6 +2,7 @@
 python build.py <out.bin>
 """
 import sys, os, struct, shutil, json
+from addrmap import dra as _R      # DRA address of the old base (v1.2) -> current base, signature-checked
 sys.path.insert(0, os.path.dirname(__file__))
 from asm import Asm, jal_word
 import imgpatch
@@ -154,18 +155,22 @@ TEST = False
 CHEATS = True                                  # cheat window + Richter/Maria pause cheats (release too, user 11-12)
 
 ST0HELP_RAM = EXT_RAM + 0x200
+import addrmap
+ST0_GLYPH = addrmap.ovl('ST/ST0/ST0.BIN', 0x801B17F8)          # crawl GetGlyph wrapper (v1.2 0x801B17F8)
+ST0_SCRIPT_PTR = addrmap.ovl_var('ST/ST0/ST0.BIN', 0x801C2AF8)  # crawl script pointer (BSS, v1.2 0x801C2AF8)
 
 def st0help_code():
     a = Asm(ST0HELP_RAM)
     a.sltiu('v0', 'a1', 0x80)
     a.bne('v0', 'zero', 'asc'); a.nop()
-    a.lui('t0', 0x801C); a.lw('t1', 0x2AF8, 't0'); a.nop()
-    a.lbu('t2', 0, 't1'); a.addiu('t1', 't1', 1); a.sw('t1', 0x2AF8, 't0')
+    sp = ST0_SCRIPT_PTR
+    a.lui('t0', (sp + 0x8000) >> 16); a.lw('t1', sp & 0xFFFF, 't0'); a.nop()
+    a.lbu('t2', 0, 't1'); a.addiu('t1', 't1', 1); a.sw('t1', sp & 0xFFFF, 't0')
     a.sll('a0', 'a1', 8); a.or_('a0', 'a0', 't2')
     a.lui('v0', 0x8004); a.lw('v0', -14336, 'v0'); a.nop()
     a.jr('v0'); a.addu('a1', 'zero', 'zero')
     a.label('asc')
-    a.j(0x801B1800); a.addiu('sp', 'sp', -24)
+    a.j(ST0_GLYPH + 8); a.addiu('sp', 'sp', -24)
     return a.assemble()
 
 # Cutscene text engine (ST0 type; also NO3, NO4, DAI, TOP, CEN, bosses ... see cutscene.py): bytes >= 0x15
@@ -271,8 +276,10 @@ def kst0_code():
     return a.assemble()
 
 # engine variants without the ST0 char signature: (char routine va, exit va, cursor va, variant)
-VARIANTS = {'ST/SEL/SEL.BIN': (0x801C0440, 0x801C07D4, 0x801C54AE, 1),
-            'BOSS/MAR/MAR.BIN': (0x8018C6A8, 0x8018CCB4, 0x8019B30A, 2)}
+def _variant(f, c, ex, cur, var):             # v1.2 addresses -> current base (code by signature, cursor by its code refs)
+    return (addrmap.ovl(f, c), addrmap.ovl(f, ex), addrmap.ovl_var(f, cur), var)
+VARIANTS = {'ST/SEL/SEL.BIN': _variant('ST/SEL/SEL.BIN', 0x801C0440, 0x801C07D4, 0x801C54AE, 1),
+            'BOSS/MAR/MAR.BIN': _variant('BOSS/MAR/MAR.BIN', 0x8018C6A8, 0x8018CCB4, 0x8019B30A, 2)}
 
 def ktab():
     out = b''
@@ -429,7 +436,7 @@ def patch_names(data, fid=None):
 def patch_st0(st0):
     st0 = bytearray(patch_cutscene(st0, 0, 'ST0'))
     # opening crawl: GetGlyph wrapper reads 2-byte Korean (second byte via the script pointer 0x801C2AF8)
-    o = 0x801B17F8 - 0x80180000
+    o = ST0_GLYPH - 0x80180000
     assert st0[o:o + 8] == bytes.fromhex('e8ffbd27ff008530')
     st0[o:o + 4] = struct.pack('<I', (2 << 26) | ((ST0HELP_RAM >> 2) & 0x3FFFFFF))
     return bytes(st0)
@@ -441,14 +448,14 @@ def patch_dra(dra):
     dra = draa.patch_dra_a(dra)                # engine A (8x8 names/labels) + engine C (12x16 labels)
     dra = bytearray(dra)
     import g7
-    o = 0x800F44D4 - 0x800A0000                # MenuDrawStr: lbu a0,0(s0); addiu s0,s0,1 -> jal G7S0; nop
+    o = _R(0x800F44D4) - 0x800A0000                # MenuDrawStr: lbu a0,0(s0); addiu s0,s0,1 -> jal G7S0; nop
     assert dra[o:o + 8] == bytes.fromhex('0000049201001026'), dra[o:o + 8].hex()
     dra[o:o + 8] = jal_word(g7.entries()['G7S0']) + bytes(4)
-    o = 0x64EF8
+    o = _R(0x80104EF8) - 0x800A0000             # jal 0x80015218 (font glyph lookup) -> our lookup
     assert dra[o:o + 4] == jal_word(0x80015218)
     dra[o:o + 4] = jal_word(LOOKUP_RAM)
     if TEST:
-        o = 0x800E6914 - 0x800A0000
+        o = _R(0x800E6914) - 0x800A0000
         assert dra[o:o + 4] == jal_word(0x80015288)
         dra[o:o + 4] = jal_word(PADHOOK_RAM)
     if CHEATS:
@@ -460,7 +467,7 @@ def patch_dra(dra):
         assert dra[o:o + 4] == jal_word(cheatmenu.PAUSE_HUD), dra[o:o + 4].hex()
         dra[o:o + 4] = jal_word(cheatmenu.labels()['pause'])
         import extraopt                        # System help entry 7 = row 6 (치트 in test builds): own help line
-        o = 0x800A2B20 - 0x800A0000
+        o = _R(0x800A2B20) - 0x800A0000
         assert dra[o:o + 4] == struct.pack('<I', 0x8016DC00), dra[o:o + 4].hex()
         dra[o:o + 4] = struct.pack('<I', extraopt.CHEAT_HELP_VA)
         cheatmenu.blob()                       # registers its syllables with g7 before the EXE is built

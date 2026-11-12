@@ -29,6 +29,7 @@ patch() asserts the original bytes and returns data unchanged for other paths.
 `python banner.py` patches the US files in memory and prints what changed.
 """
 import os, sys, struct
+from addrmap import dra as _R      # DRA address of the old base (v1.2) -> current base, signature-checked
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from asm import Asm
@@ -75,11 +76,12 @@ DRAW_ORIG = bytes.fromhex(
     '0e0088a5 0d0082a1 190084a1 180084a1 260087a5 320080a5 0a0086a5 00008c8d'
     '00000008 0800ad25 0400ad25 e9ff8015 00000000'.replace(' ', ''))
 
-DRA_Y = (0x8011D7CC, 0x340200CC, 0x340200D2)       # ori v0,zero,0xcc -> 0xd2  (overlay cell y)
-DRA_W = (0x8011D7FC, 0x2C42000D, 0x2C420000)       # sltiu v0,v0,13 -> 0       (no 12 px cells)
+DRA_Y = (_R(0x8011D7CC), 0x340200CC, 0x340200D2)       # ori v0,zero,0xcc -> 0xd2  (overlay cell y)
+DRA_W = (_R(0x8011D7FC), 0x2C42000D, 0x2C420000)       # sltiu v0,v0,13 -> 0       (no 12 px cells)
 
 LIB = 'ST/LIB/LIB.BIN'
-SHOP = 0x801B19C4
+import addrmap
+SHOP = addrmap.ovl('ST/LIB/LIB.BIN', 0x801B19C4)       # v1.2 0x801B19C4
 SHOP_LEN = 79 * 4
 SHOP_ORIG_HEAD = bytes.fromhex('c0ffbd27 5000ad97 2148a003 21500000 3f000234'.replace(' ', ''))
 SHOP_ORIG_TAIL = bytes.fromhex('21108000 4000bd27 0800e003 00000000'.replace(' ', ''))
@@ -130,7 +132,7 @@ def _collect_code(s):
     return code + b'\0' * (n - len(code))
 
 
-DRA_COLLECT = (0x8011D4E8, 0x8011D564)
+DRA_COLLECT = (_R(0x8011D4E8), _R(0x8011D564))
 
 
 def _dra_collect_code():
@@ -300,6 +302,11 @@ def patch(path, data):
     d = bytearray(data)
     s = BCT[p]
     o = s - OVL
+    if _mask(bytes(d[o:o + len(BCT_ORIG)])) != _mask(BCT_ORIG):     # moved (other base version): signature search
+        m = _mask(BCT_ORIG)
+        hits = [i for i in range(0, len(d) - len(BCT_ORIG), 4) if _mask(bytes(d[i:i + len(BCT_ORIG)])) == m]
+        assert len(hits) == 1, (p, 'BottomCornerText: %d signature matches' % len(hits))
+        o = hits[0]; s = OVL + o
     assert _mask(bytes(d[o:o + len(BCT_ORIG)])) == _mask(BCT_ORIG), (p, 'BottomCornerText head')
     assert _mask(bytes(d[o + DRAW[0]:o + DRAW[1]])) == _mask(DRAW_ORIG), (p, 'BottomCornerText draw loop')
     d[o + COLLECT[0]:o + COLLECT[1]] = _collect_code(s)

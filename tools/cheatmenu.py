@@ -8,16 +8,17 @@ Hooks (code/data at CHEAT_RAM, copied there by the EXE boot stub, build.stub_cod
   * ARC_F2 (extraopt._cheat_entry, through guard thunks): System cursor call -> sysnav (row 6 + Cross opens),
     '추가 설정' label draw -> sysdraw ('치트' label + window input/close), context content draw -> ctxdraw."""
 import os, sys, struct
+from addrmap import dra as _R      # DRA address of the old base (v1.2) -> current base, signature-checked
 sys.path.insert(0, os.path.dirname(__file__))
 from asm import Asm, _i, _r, R
 
 CHEAT_RAM = 0x8009C000
 CHEAT_SIZE = 0x1000
-HOOK_VA = 0x800E6960                # jal 800E67F4 inside ReadPads
-PADREP = 0x800E67F4
-NAV = 0x800F7E44                    # menu cursor up/down (cursor*, count, 0) with sound
-CURSORDRAW = 0x800F3AD0             # menu cursor bar (ctx, idx, x, y, w, h, gap, 1)
-CTXDRAW_ORIG = 0x800F4E50           # the borrowed context slot's original content routine
+HOOK_VA = _R(0x800E6960)                # jal 800E67F4 inside ReadPads
+PADREP = _R(0x800E67F4)
+NAV = _R(0x800F7E44)                    # menu cursor up/down (cursor*, count, 0) with sound
+CURSORDRAW = _R(0x800F3AD0)             # menu cursor bar (ctx, idx, x, y, w, h, gap, 1)
+CTXDRAW_ORIG = _R(0x800F4E50)           # the borrowed context slot's original content routine
 ARC_RESTORE = 0x8016DD24            # ARC_F2: restore the slot's rect (after the close animation)
 SYS_ITEM = 6                        # System menu: '치트' row (추가 설정 moves to 7)
 ENABLED = False                     # set by build.py --test (ARC_F2 System-menu entry is test-only)
@@ -26,8 +27,8 @@ MENUSTEP = 0x800978F8
 SLOT = 0x80137766                   # menu context: x, y, w, h (s16) ... +0x1C anim state (3 open.., 0 idle, 1 close.., 2 closed)
 SND = 0x8003C7DC                    # PlaySfx pointer
 COLORFLAG = 0x8013784C
-MENUDRAWSTR = 0x800F4494
-EXPTAB = 0x800E0B7C                 # next-level EXP = EXPTAB[level]
+MENUDRAWSTR = _R(0x800F4494)
+EXPTAB = _R(0x800E0B7C)                 # next-level EXP = EXPTAB[level]
 ST = 0x80097964                     # relics
 GODSPEED = 0x8003C0DC               # relic #30 Godspeed Shoes (Ultimate: own byte; 1 owned, 2 on)
 SPELLS = 0x80097982
@@ -47,8 +48,8 @@ HK_HP, HK_HEART = 0x0C, 0x03        # L1+R1 -> HP refill, L2+R2 -> hearts refill
 RM_HP, RM_HEART = 0x10, 0x20        # FLAGS bits (refilled only while PLAYCHAR != 0)
 
 # pause hint (Richter / Maria): DRA step 0x70 (paused) calls the HUD update 0x801002AC from 0x800F1680
-PAUSE_HOOK_VA = 0x800F1680
-PAUSE_HUD = 0x801002AC
+PAUSE_HOOK_VA = _R(0x800F1680)
+PAUSE_HUD = _R(0x801002AC)
 PLAYCHAR = 0x8003C9A0               # 0 = Alucard (pause opens the menu), else Richter / Maria
 HINT1 = 'L1+R1: HP 무한 %s'
 HINT2 = 'L2+R2: 하트 무한 %s'

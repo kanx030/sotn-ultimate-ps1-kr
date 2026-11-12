@@ -5,7 +5,7 @@
   "idx": [
    0
   ],
-  "va": "0x800DE408",
+  "va": "0x800DE468",
   "len": 12,
   "en": "Empty hand",
   "refs": [
@@ -26,7 +26,7 @@
   "idx": [
    1
   ],
-  "va": "0x800DE3DC",
+  "va": "0x800DE43C",
   "len": 16,
   "en": "Monster vial 1",
   "refs": [
@@ -47,7 +47,7 @@
   "idx": [
    2
   ],
-  "va": "0x800DE3B0",
+  "va": "0x800DE410",
   "len": 16,
   "en": "Monster vial 2",
   "refs": [
@@ -68,7 +68,7 @@
   "idx": [
    3
   ],
-  "va": "0x800DE384",
+  "va": "0x800DE3E4",
   "len": 16,
   "en": "Monster vial 3",
   "refs": [
@@ -89,7 +89,7 @@
   "idx": [
    4
   ],
-  "va": "0x800DE358",
+  "va": "0x800DE3B8",
   "len": 12,
   "en": "Shield rod",
   "refs": [
@@ -110,7 +110,7 @@
   "idx": [
    5
   ],
-  "va": "0x800DE32C",
+  "va": "0x800DE38C",
   "len": 16,
   "en": "Leather shield",
   "refs": [
@@ -131,7 +131,7 @@
   "idx": [
    6
   ],
-  "va": "0x800DE300",
+  "va": "0x800DE360",
   "len": 15,
   "en": "Knight shield",
   "refs": [
@@ -152,7 +152,7 @@
   "idx": [
    7
   ],
-  "va": "0x800DE2D4",
+  "va": "0x800DE334",
   "len": 13,
   "en": "Iron shield",
   "refs": [
@@ -173,7 +173,7 @@
   "idx": [
    8
   ],
-  "va": "0x800DE2B0",
+  "va": "0x800DE310",
   "len": 16,
   "en": "AxeLord shield",
   "refs": [
@@ -194,7 +194,7 @@
   "idx": [
    9
   ],
-  "va": "0x800DE280",
+  "va": "0x800DE2E0",
   "len": 15,
   "en": "Herald shield",
   "refs": [
@@ -215,7 +215,7 @@
   "idx": [
    10
   ],
-  "va": "0x800DE258",
+  "va": "0x800DE2B8",
   "len": 13,
   "en": "Dark shield",
   "refs": [
@@ -236,7 +236,7 @@
   "idx": [
    11
   ],
-  "va": "0x800DE234",
+  "va": "0x800DE294",
   "len": 16,
   "en": "Goddess shield",
   "refs": [
@@ -257,7 +257,7 @@
   "idx": [
    12
   ],
-  "va": "0x800DE208",
+  "va": "0x800DE268",
   "len": 15,
   "en": "Shaman shield",
   "refs": [
@@ -278,7 +278,7 @@
   "idx": [
    13
   ],
-  "va": "0x800DE1DC",
+  "va": "0x800DE23C",
   "len": 15,
   "en": "Medusa shield",
   "refs": [
@@ -299,7 +299,7 @@
   "idx": [
    14
   ],
-  "va": "0x800DE1B4",
+  "va": "0x800DE214",
   "len": 14,
   "en": "Skull shield",
   "refs": [
@@ -320,7 +320,7 @@
   "idx": [
    15
   ],
-  "va": "0x800DE188",
+  "va": "0x800DE1E8",
   "len": 13,
   "en": "Fire shield",
   "refs": [
@@ -341,7 +341,7 @@
   "idx": [
    16
   ],
-  "va": "0x800DE15C",
+  "va": "0x800DE1BC",
   "len": 16,
   "en": "Alucard shield",
   "refs": [
@@ -362,7 +362,7 @@
   "idx": [
    17
   ],
-  "va": "0x800DE134",
+  "va": "0x800DE194",
   "len": 15,
   "en": "Sword of Dawn",
   "refs": [
@@ -383,7 +383,7 @@
   "idx": [
    18
   ],
-  "va": "0x800DE108",
+  "va": "0x800DE168",
   "len": 10,
   "en": "Basilard",
   "refs": [
@@ -404,7 +404,7 @@
   "idx": [
    19
   ],
-  "va": "0x800DE0E4",
+  "va": "0x800DE144",
   "len": 13,
   "en": "Short sword",
   "refs": [
@@ -425,7 +425,7 @@
   "idx": [
    20
   ],
-  "va": "0x800DE0C0",
+  "va": "0x800DE120",
   "len": 14,
   "en": "Combat knife",
   "refs": [
@@ -446,7 +446,7 @@
   "idx": [
    21
   ],
-  "va": "0x800DE0A0",
+  "va": "0x800DE100",
   "len": 10,
   "en": "Nunchaku",
   "refs": [
@@ -467,7 +467,7 @@
   "idx": [
    22
   ],
-  "va": "0x800DE074",
+  "va": "0x800DE0D4",
   "len": 11,
   "en": "Were Bane",
   "refs": [
@@ -488,7 +488,7 @@
   "idx": [
    23
   ],
-  "va": "0x800DE04C",
+  "va": "0x800DE0AC",
   "len": 8,
   "en": "Rapier",
   "refs": [
@@ -509,7 +509,7 @@
   "idx": [
    24
   ],
-  "va": "0x800DE02C",
+  "va": "0x800DE08C",
   "len": 12,
   "en": "Karma Coin",
   "refs": [
@@ -530,7 +530,7 @@
   "idx": [
    25
   ],
-  "va": "0x800DDFFC",
+  "va": "0x800DE05C",
   "len": 15,
   "en": "Magic Missile",
   "refs": [
@@ -551,7 +551,7 @@
   "idx": [
    26
   ],
-  "va": "0x800DDFD0",
+  "va": "0x800DE030",
   "len": 10,
   "en": "Red Rust",
   "refs": [
@@ -572,7 +572,7 @@
   "idx": [
    27
   ],
-  "va": "0x800DDFA8",
+  "va": "0x800DE008",
   "len": 11,
   "en": "Takemitsu",
   "refs": [
@@ -593,7 +593,7 @@
   "idx": [
    28
   ],
-  "va": "0x800DDF84",
+  "va": "0x800DDFE4",
   "len": 8,
   "en": "Shotel",
   "refs": [
@@ -614,7 +614,7 @@
   "idx": [
    29
   ],
-  "va": "0x800DDF64",
+  "va": "0x800DDFC4",
   "len": 8,
   "en": "Orange",
   "refs": [
@@ -635,7 +635,7 @@
   "idx": [
    30
   ],
-  "va": "0x800DDF40",
+  "va": "0x800DDFA0",
   "len": 7,
   "en": "Apple",
   "refs": [
@@ -656,7 +656,7 @@
   "idx": [
    31
   ],
-  "va": "0x800DDF18",
+  "va": "0x800DDF78",
   "len": 8,
   "en": "Banana",
   "refs": [
@@ -677,7 +677,7 @@
   "idx": [
    32
   ],
-  "va": "0x800DDEF0",
+  "va": "0x800DDF50",
   "len": 8,
   "en": "Grapes",
   "refs": [
@@ -698,7 +698,7 @@
   "idx": [
    33
   ],
-  "va": "0x800DDEC4",
+  "va": "0x800DDF24",
   "len": 12,
   "en": "Strawberry",
   "refs": [
@@ -719,7 +719,7 @@
   "idx": [
    34
   ],
-  "va": "0x800DDE9C",
+  "va": "0x800DDEFC",
   "len": 11,
   "en": "Pineapple",
   "refs": [
@@ -740,7 +740,7 @@
   "idx": [
    35
   ],
-  "va": "0x800DDE74",
+  "va": "0x800DDED4",
   "len": 9,
   "en": "Peanuts",
   "refs": [
@@ -761,7 +761,7 @@
   "idx": [
    36
   ],
-  "va": "0x800DDE4C",
+  "va": "0x800DDEAC",
   "len": 11,
   "en": "Toadstool",
   "refs": [
@@ -782,7 +782,7 @@
   "idx": [
    37
   ],
-  "va": "0x800DDE24",
+  "va": "0x800DDE84",
   "len": 10,
   "en": "Shiitake",
   "refs": [
@@ -803,7 +803,7 @@
   "idx": [
    38
   ],
-  "va": "0x800DDDFC",
+  "va": "0x800DDE5C",
   "len": 12,
   "en": "Cheesecake",
   "refs": [
@@ -824,7 +824,7 @@
   "idx": [
    39
   ],
-  "va": "0x800DDDD0",
+  "va": "0x800DDE30",
   "len": 11,
   "en": "Shortcake",
   "refs": [
@@ -845,7 +845,7 @@
   "idx": [
    40
   ],
-  "va": "0x800DDDA8",
+  "va": "0x800DDE08",
   "len": 6,
   "en": "Tart",
   "refs": [
@@ -866,7 +866,7 @@
   "idx": [
    41
   ],
-  "va": "0x800DDD84",
+  "va": "0x800DDDE4",
   "len": 9,
   "en": "Parfait",
   "refs": [
@@ -887,7 +887,7 @@
   "idx": [
    42
   ],
-  "va": "0x800DDD5C",
+  "va": "0x800DDDBC",
   "len": 9,
   "en": "Pudding",
   "refs": [
@@ -908,7 +908,7 @@
   "idx": [
    43
   ],
-  "va": "0x800DDD3C",
+  "va": "0x800DDD9C",
   "len": 11,
   "en": "Ice cream",
   "refs": [
@@ -929,7 +929,7 @@
   "idx": [
    44
   ],
-  "va": "0x800DDD10",
+  "va": "0x800DDD70",
   "len": 13,
   "en": "Frankfurter",
   "refs": [
@@ -950,7 +950,7 @@
   "idx": [
    45
   ],
-  "va": "0x800DDCEC",
+  "va": "0x800DDD4C",
   "len": 11,
   "en": "Hamburger",
   "refs": [
@@ -971,7 +971,7 @@
   "idx": [
    46
   ],
-  "va": "0x800DDCC8",
+  "va": "0x800DDD28",
   "len": 7,
   "en": "Pizza",
   "refs": [
@@ -992,7 +992,7 @@
   "idx": [
    47
   ],
-  "va": "0x800DDCA4",
+  "va": "0x800DDD04",
   "len": 8,
   "en": "Cheese",
   "refs": [
@@ -1013,7 +1013,7 @@
   "idx": [
    48
   ],
-  "va": "0x800DDC78",
+  "va": "0x800DDCD8",
   "len": 14,
   "en": "Ham and eggs",
   "refs": [
@@ -1034,7 +1034,7 @@
   "idx": [
    49
   ],
-  "va": "0x800DDC4C",
+  "va": "0x800DDCAC",
   "len": 10,
   "en": "Omelette",
   "refs": [
@@ -1055,7 +1055,7 @@
   "idx": [
    50
   ],
-  "va": "0x800DDC20",
+  "va": "0x800DDC80",
   "len": 13,
   "en": "Morning set",
   "refs": [
@@ -1076,7 +1076,7 @@
   "idx": [
    51
   ],
-  "va": "0x800DDBF4",
+  "va": "0x800DDC54",
   "len": 9,
   "en": "Lunch A",
   "refs": [
@@ -1097,7 +1097,7 @@
   "idx": [
    52
   ],
-  "va": "0x800DDBD4",
+  "va": "0x800DDC34",
   "len": 9,
   "en": "Lunch B",
   "refs": [
@@ -1118,7 +1118,7 @@
   "idx": [
    53
   ],
-  "va": "0x800DDBB4",
+  "va": "0x800DDC14",
   "len": 12,
   "en": "Curry rice",
   "refs": [
@@ -1139,7 +1139,7 @@
   "idx": [
    54
   ],
-  "va": "0x800DDB80",
+  "va": "0x800DDBE0",
   "len": 13,
   "en": "Gyros plate",
   "refs": [
@@ -1160,7 +1160,7 @@
   "idx": [
    55
   ],
-  "va": "0x800DDB60",
+  "va": "0x800DDBC0",
   "len": 11,
   "en": "Spaghetti",
   "refs": [
@@ -1181,7 +1181,7 @@
   "idx": [
    56
   ],
-  "va": "0x800DDB34",
+  "va": "0x800DDB94",
   "len": 13,
   "en": "Grape juice",
   "refs": [
@@ -1202,7 +1202,7 @@
   "idx": [
    57
   ],
-  "va": "0x800DDB10",
+  "va": "0x800DDB70",
   "len": 12,
   "en": "Barley tea",
   "refs": [
@@ -1223,7 +1223,7 @@
   "idx": [
    58
   ],
-  "va": "0x800DDAEC",
+  "va": "0x800DDB4C",
   "len": 11,
   "en": "Green tea",
   "refs": [
@@ -1244,7 +1244,7 @@
   "idx": [
    59
   ],
-  "va": "0x800DDAC8",
+  "va": "0x800DDB28",
   "len": 7,
   "en": "Natou",
   "refs": [
@@ -1265,7 +1265,7 @@
   "idx": [
    60
   ],
-  "va": "0x800DDA9C",
+  "va": "0x800DDAFC",
   "len": 7,
   "en": "Ramen",
   "refs": [
@@ -1286,7 +1286,7 @@
   "idx": [
    61
   ],
-  "va": "0x800DDA70",
+  "va": "0x800DDAD0",
   "len": 11,
   "en": "Miso soup",
   "refs": [
@@ -1307,7 +1307,7 @@
   "idx": [
    62
   ],
-  "va": "0x800DDA4C",
+  "va": "0x800DDAAC",
   "len": 7,
   "en": "Sushi",
   "refs": [
@@ -1328,7 +1328,7 @@
   "idx": [
    63
   ],
-  "va": "0x800DDA24",
+  "va": "0x800DDA84",
   "len": 10,
   "en": "Pork bun",
   "refs": [
@@ -1349,7 +1349,7 @@
   "idx": [
    64
   ],
-  "va": "0x800DD9F8",
+  "va": "0x800DDA58",
   "len": 14,
   "en": "Red bean bun",
   "refs": [
@@ -1370,7 +1370,7 @@
   "idx": [
    65
   ],
-  "va": "0x800DD9C8",
+  "va": "0x800DDA28",
   "len": 13,
   "en": "Chinese bun",
   "refs": [
@@ -1391,7 +1391,7 @@
   "idx": [
    66
   ],
-  "va": "0x800DD998",
+  "va": "0x800DD9F8",
   "len": 13,
   "en": "Dim Sum set",
   "refs": [
@@ -1412,7 +1412,7 @@
   "idx": [
    67
   ],
-  "va": "0x800DD970",
+  "va": "0x800DD9D0",
   "len": 11,
   "en": "Pot roast",
   "refs": [
@@ -1433,7 +1433,7 @@
   "idx": [
    68
   ],
-  "va": "0x800DD944",
+  "va": "0x800DD9A4",
   "len": 9,
   "en": "Sirloin",
   "refs": [
@@ -1454,7 +1454,7 @@
   "idx": [
    69
   ],
-  "va": "0x800DD924",
+  "va": "0x800DD984",
   "len": 8,
   "en": "Turkey",
   "refs": [
@@ -1475,7 +1475,7 @@
   "idx": [
    70
   ],
-  "va": "0x800DD8FC",
+  "va": "0x800DD95C",
   "len": 13,
   "en": "Meal ticket",
   "refs": [
@@ -1496,7 +1496,7 @@
   "idx": [
    71
   ],
-  "va": "0x800DD8D0",
+  "va": "0x800DD930",
   "len": 14,
   "en": "Neutron bomb",
   "refs": [
@@ -1517,7 +1517,7 @@
   "idx": [
    72
   ],
-  "va": "0x800DD8A4",
+  "va": "0x800DD904",
   "len": 15,
   "en": "Power of Sire",
   "refs": [
@@ -1538,7 +1538,7 @@
   "idx": [
    73
   ],
-  "va": "0x800DD898",
+  "va": "0x800DD8F8",
   "len": 11,
   "en": "Pentagram",
   "refs": [
@@ -1559,7 +1559,7 @@
   "idx": [
    74
   ],
-  "va": "0x800DD888",
+  "va": "0x800DD8E8",
   "len": 15,
   "en": "Bat Pentagram",
   "refs": [
@@ -1580,7 +1580,7 @@
   "idx": [
    75
   ],
-  "va": "0x800DD87C",
+  "va": "0x800DD8DC",
   "len": 10,
   "en": "Shuriken",
   "refs": [
@@ -1601,7 +1601,7 @@
   "idx": [
    76
   ],
-  "va": "0x800DD84C",
+  "va": "0x800DD8AC",
   "len": 16,
   "en": "Cross shuriken",
   "refs": [
@@ -1622,7 +1622,7 @@
   "idx": [
    77
   ],
-  "va": "0x800DD81C",
+  "va": "0x800DD87C",
   "len": 14,
   "en": "Buffalo star",
   "refs": [
@@ -1643,7 +1643,7 @@
   "idx": [
    78
   ],
-  "va": "0x800DD7EC",
+  "va": "0x800DD84C",
   "len": 12,
   "en": "Flame star",
   "refs": [
@@ -1664,7 +1664,7 @@
   "idx": [
    79
   ],
-  "va": "0x800DD7C4",
+  "va": "0x800DD824",
   "len": 5,
   "en": "TNT",
   "refs": [
@@ -1685,7 +1685,7 @@
   "idx": [
    80
   ],
-  "va": "0x800DD794",
+  "va": "0x800DD7F4",
   "len": 13,
   "en": "Bwaka knife",
   "refs": [
@@ -1706,7 +1706,7 @@
   "idx": [
    81
   ],
-  "va": "0x800DD768",
+  "va": "0x800DD7C8",
   "len": 11,
   "en": "Boomerang",
   "refs": [
@@ -1727,7 +1727,7 @@
   "idx": [
    82
   ],
-  "va": "0x800DD740",
+  "va": "0x800DD7A0",
   "len": 9,
   "en": "Javelin",
   "refs": [
@@ -1748,7 +1748,7 @@
   "idx": [
    83
   ],
-  "va": "0x800DD71C",
+  "va": "0x800DD77C",
   "len": 9,
   "en": "Tyrfing",
   "refs": [
@@ -1769,7 +1769,7 @@
   "idx": [
    84
   ],
-  "va": "0x800DD6FC",
+  "va": "0x800DD75C",
   "len": 10,
   "en": "Namakura",
   "refs": [
@@ -1790,7 +1790,7 @@
   "idx": [
    85
   ],
-  "va": "0x800DD6CC",
+  "va": "0x800DD72C",
   "len": 16,
   "en": "Knuckle duster",
   "refs": [
@@ -1811,7 +1811,7 @@
   "idx": [
    86
   ],
-  "va": "0x800DD6A4",
+  "va": "0x800DD704",
   "len": 9,
   "en": "Gladius",
   "refs": [
@@ -1832,7 +1832,7 @@
   "idx": [
    87
   ],
-  "va": "0x800DD680",
+  "va": "0x800DD6E0",
   "len": 10,
   "en": "Scimitar",
   "refs": [
@@ -1853,7 +1853,7 @@
   "idx": [
    88
   ],
-  "va": "0x800DD658",
+  "va": "0x800DD6B8",
   "len": 9,
   "en": "Cutlass",
   "refs": [
@@ -1874,7 +1874,7 @@
   "idx": [
    89
   ],
-  "va": "0x800DD634",
+  "va": "0x800DD694",
   "len": 7,
   "en": "Saber",
   "refs": [
@@ -1895,7 +1895,7 @@
   "idx": [
    90
   ],
-  "va": "0x800DD614",
+  "va": "0x800DD674",
   "len": 10,
   "en": "Falchion",
   "refs": [
@@ -1916,7 +1916,7 @@
   "idx": [
    91
   ],
-  "va": "0x800DD5F4",
+  "va": "0x800DD654",
   "len": 12,
   "en": "Broadsword",
   "refs": [
@@ -1937,7 +1937,7 @@
   "idx": [
    92
   ],
-  "va": "0x800DD5CC",
+  "va": "0x800DD62C",
   "len": 10,
   "en": "Bekatowa",
   "refs": [
@@ -1958,7 +1958,7 @@
   "idx": [
    93
   ],
-  "va": "0x800DD598",
+  "va": "0x800DD5F8",
   "len": 16,
   "en": "Damascus sword",
   "refs": [
@@ -1979,7 +1979,7 @@
   "idx": [
    94
   ],
-  "va": "0x800DD568",
+  "va": "0x800DD5C8",
   "len": 14,
   "en": "Hunter sword",
   "refs": [
@@ -2000,7 +2000,7 @@
   "idx": [
    95
   ],
-  "va": "0x800DD544",
+  "va": "0x800DD5A4",
   "len": 7,
   "en": "Estoc",
   "refs": [
@@ -2021,7 +2021,7 @@
   "idx": [
    96
   ],
-  "va": "0x800DD514",
+  "va": "0x800DD574",
   "len": 15,
   "en": "Bastard sword",
   "refs": [
@@ -2042,7 +2042,7 @@
   "idx": [
    97
   ],
-  "va": "0x800DD4F4",
+  "va": "0x800DD554",
   "len": 16,
   "en": "Jewel knuckles",
   "refs": [
@@ -2063,7 +2063,7 @@
   "idx": [
    98
   ],
-  "va": "0x800DD4CC",
+  "va": "0x800DD52C",
   "len": 10,
   "en": "Claymore",
   "refs": [
@@ -2084,7 +2084,7 @@
   "idx": [
    99
   ],
-  "va": "0x800DD4A8",
+  "va": "0x800DD508",
   "len": 8,
   "en": "Talwar",
   "refs": [
@@ -2105,7 +2105,7 @@
   "idx": [
    100
   ],
-  "va": "0x800DD48C",
+  "va": "0x800DD4EC",
   "len": 8,
   "en": "Katana",
   "refs": [
@@ -2126,7 +2126,7 @@
   "idx": [
    101
   ],
-  "va": "0x800DD464",
+  "va": "0x800DD4C4",
   "len": 11,
   "en": "Flamberge",
   "refs": [
@@ -2147,7 +2147,7 @@
   "idx": [
    102
   ],
-  "va": "0x800DD438",
+  "va": "0x800DD498",
   "len": 11,
   "en": "Iron Fist",
   "refs": [
@@ -2168,7 +2168,7 @@
   "idx": [
    103
   ],
-  "va": "0x800DD410",
+  "va": "0x800DD470",
   "len": 13,
   "en": "Zwei hander",
   "refs": [
@@ -2189,7 +2189,7 @@
   "idx": [
    104
   ],
-  "va": "0x800DD3E4",
+  "va": "0x800DD444",
   "len": 16,
   "en": "Sword of Hador",
   "refs": [
@@ -2210,7 +2210,7 @@
   "idx": [
    105
   ],
-  "va": "0x800DD3C0",
+  "va": "0x800DD420",
   "len": 9,
   "en": "Luminus",
   "refs": [
@@ -2231,7 +2231,7 @@
   "idx": [
    106
   ],
-  "va": "0x800DD3A0",
+  "va": "0x800DD400",
   "len": 8,
   "en": "Harper",
   "refs": [
@@ -2252,7 +2252,7 @@
   "idx": [
    107
   ],
-  "va": "0x800DD378",
+  "va": "0x800DD3D8",
   "len": 16,
   "en": "Obsidian sword",
   "refs": [
@@ -2273,7 +2273,7 @@
   "idx": [
    108
   ],
-  "va": "0x800DD354",
+  "va": "0x800DD3B4",
   "len": 6,
   "en": "Gram",
   "refs": [
@@ -2294,7 +2294,7 @@
   "idx": [
    109
   ],
-  "va": "0x800DD32C",
+  "va": "0x800DD38C",
   "len": 13,
   "en": "Jewel sword",
   "refs": [
@@ -2315,7 +2315,7 @@
   "idx": [
    110
   ],
-  "va": "0x800DD300",
+  "va": "0x800DD360",
   "len": 10,
   "en": "Mormegil",
   "refs": [
@@ -2336,7 +2336,7 @@
   "idx": [
    111
   ],
-  "va": "0x800DD2D4",
+  "va": "0x800DD334",
   "len": 11,
   "en": "Firebrand",
   "refs": [
@@ -2357,7 +2357,7 @@
   "idx": [
    112
   ],
-  "va": "0x800DD2AC",
+  "va": "0x800DD30C",
   "len": 14,
   "en": "Thunderbrand",
   "refs": [
@@ -2378,7 +2378,7 @@
   "idx": [
    113
   ],
-  "va": "0x800DD284",
+  "va": "0x800DD2E4",
   "len": 10,
   "en": "Icebrand",
   "refs": [
@@ -2399,7 +2399,7 @@
   "idx": [
    114
   ],
-  "va": "0x800DD260",
+  "va": "0x800DD2C0",
   "len": 13,
   "en": "Stone sword",
   "refs": [
@@ -2420,7 +2420,7 @@
   "idx": [
    115
   ],
-  "va": "0x800DD230",
+  "va": "0x800DD290",
   "len": 12,
   "en": "Holy sword",
   "refs": [
@@ -2441,7 +2441,7 @@
   "idx": [
    116
   ],
-  "va": "0x800DD1FC",
+  "va": "0x800DD25C",
   "len": 14,
   "en": "Terminus Est",
   "refs": [
@@ -2462,7 +2462,7 @@
   "idx": [
    117
   ],
-  "va": "0x800DD1D4",
+  "va": "0x800DD234",
   "len": 8,
   "en": "Marsil",
   "refs": [
@@ -2483,7 +2483,7 @@
   "idx": [
    118
   ],
-  "va": "0x800DD1B0",
+  "va": "0x800DD210",
   "len": 12,
   "en": "Dark Blade",
   "refs": [
@@ -2504,7 +2504,7 @@
   "idx": [
    119
   ],
-  "va": "0x800DD1A0",
+  "va": "0x800DD200",
   "len": 14,
   "en": "Heaven sword",
   "refs": [
@@ -2525,7 +2525,7 @@
   "idx": [
    120
   ],
-  "va": "0x800DD174",
+  "va": "0x800DD1D4",
   "len": 16,
   "en": "Fist of Tulkas",
   "refs": [
@@ -2546,7 +2546,7 @@
   "idx": [
    121
   ],
-  "va": "0x800DD14C",
+  "va": "0x800DD1AC",
   "len": 10,
   "en": "Gurthang",
   "refs": [
@@ -2567,7 +2567,7 @@
   "idx": [
    122
   ],
-  "va": "0x800DD120",
+  "va": "0x800DD180",
   "len": 13,
   "en": "Mourneblade",
   "refs": [
@@ -2588,7 +2588,7 @@
   "idx": [
    123
   ],
-  "va": "0x800DD0F4",
+  "va": "0x800DD154",
   "len": 15,
   "en": "Alucard sword",
   "refs": [
@@ -2609,7 +2609,7 @@
   "idx": [
    124
   ],
-  "va": "0x800DD0C8",
+  "va": "0x800DD128",
   "len": 15,
   "en": "Mablung Sword",
   "refs": [
@@ -2630,7 +2630,7 @@
   "idx": [
    125
   ],
-  "va": "0x800DD09C",
+  "va": "0x800DD0FC",
   "len": 11,
   "en": "Badelaire",
   "refs": [
@@ -2651,7 +2651,7 @@
   "idx": [
    126
   ],
-  "va": "0x800DD06C",
+  "va": "0x800DD0CC",
   "len": 16,
   "en": "Sword Familiar",
   "refs": [
@@ -2672,7 +2672,7 @@
   "idx": [
    127
   ],
-  "va": "0x800DD044",
+  "va": "0x800DD0A4",
   "len": 13,
   "en": "Great Sword",
   "refs": [
@@ -2693,7 +2693,7 @@
   "idx": [
    128
   ],
-  "va": "0x800DD020",
+  "va": "0x800DD080",
   "len": 6,
   "en": "Mace",
   "refs": [
@@ -2714,7 +2714,7 @@
   "idx": [
    129
   ],
-  "va": "0x800DD004",
+  "va": "0x800DD064",
   "len": 13,
   "en": "Morningstar",
   "refs": [
@@ -2735,7 +2735,7 @@
   "idx": [
    130
   ],
-  "va": "0x800DCFE4",
+  "va": "0x800DD044",
   "len": 10,
   "en": "Holy rod",
   "refs": [
@@ -2756,7 +2756,7 @@
   "idx": [
    131
   ],
-  "va": "0x800DCFC8",
+  "va": "0x800DD028",
   "len": 12,
   "en": "Star flail",
   "refs": [
@@ -2777,7 +2777,7 @@
   "idx": [
    132
   ],
-  "va": "0x800DCFA0",
+  "va": "0x800DD000",
   "len": 10,
   "en": "Moon rod",
   "refs": [
@@ -2798,7 +2798,7 @@
   "idx": [
    133
   ],
-  "va": "0x800DCF7C",
+  "va": "0x800DCFDC",
   "len": 9,
   "en": "Chakram",
   "refs": [
@@ -2819,7 +2819,7 @@
   "idx": [
    134
   ],
-  "va": "0x800DCF50",
+  "va": "0x800DCFB0",
   "len": 16,
   "en": "Fire boomerang",
   "refs": [
@@ -2840,7 +2840,7 @@
   "idx": [
    135
   ],
-  "va": "0x800DCF28",
+  "va": "0x800DCF88",
   "len": 11,
   "en": "Iron ball",
   "refs": [
@@ -2861,7 +2861,7 @@
   "idx": [
    136
   ],
-  "va": "0x800DCEF8",
+  "va": "0x800DCF58",
   "len": 16,
   "en": "Holbein dagger",
   "refs": [
@@ -2882,7 +2882,7 @@
   "idx": [
    137
   ],
-  "va": "0x800DCECC",
+  "va": "0x800DCF2C",
   "len": 15,
   "en": "Blue knuckles",
   "refs": [
@@ -2903,7 +2903,7 @@
   "idx": [
    138
   ],
-  "va": "0x800DCEA4",
+  "va": "0x800DCF04",
   "len": 10,
   "en": "Dynamite",
   "refs": [
@@ -2924,7 +2924,7 @@
   "idx": [
    139
   ],
-  "va": "0x800DCE70",
+  "va": "0x800DCED0",
   "len": 16,
   "en": "Osafune katana",
   "refs": [
@@ -2945,7 +2945,7 @@
   "idx": [
    140
   ],
-  "va": "0x800DCE40",
+  "va": "0x800DCEA0",
   "len": 10,
   "en": "Masamune",
   "refs": [
@@ -2966,7 +2966,7 @@
   "idx": [
    141
   ],
-  "va": "0x800DCE10",
+  "va": "0x800DCE70",
   "len": 10,
   "en": "Muramasa",
   "refs": [
@@ -2987,7 +2987,7 @@
   "idx": [
    142
   ],
-  "va": "0x800DCDE0",
+  "va": "0x800DCE40",
   "len": 15,
   "en": "Heart Refresh",
   "refs": [
@@ -3008,7 +3008,7 @@
   "idx": [
    143
   ],
-  "va": "0x800DCDB4",
+  "va": "0x800DCE14",
   "len": 11,
   "en": "Runesword",
   "refs": [
@@ -3029,7 +3029,7 @@
   "idx": [
    144
   ],
-  "va": "0x800DCD88",
+  "va": "0x800DCDE8",
   "len": 11,
   "en": "Antivenom",
   "refs": [
@@ -3050,7 +3050,7 @@
   "idx": [
    145
   ],
-  "va": "0x800DCD60",
+  "va": "0x800DCDC0",
   "len": 9,
   "en": "Uncurse",
   "refs": [
@@ -3071,7 +3071,7 @@
   "idx": [
    146
   ],
-  "va": "0x800DCD3C",
+  "va": "0x800DCD9C",
   "len": 12,
   "en": "Life apple",
   "refs": [
@@ -3092,7 +3092,7 @@
   "idx": [
    147
   ],
-  "va": "0x800DCD18",
+  "va": "0x800DCD78",
   "len": 8,
   "en": "Hammer",
   "refs": [
@@ -3113,7 +3113,7 @@
   "idx": [
    148
   ],
-  "va": "0x800DCCE8",
+  "va": "0x800DCD48",
   "len": 13,
   "en": "Str. potion",
   "refs": [
@@ -3134,7 +3134,7 @@
   "idx": [
    149
   ],
-  "va": "0x800DCCB8",
+  "va": "0x800DCD18",
   "len": 13,
   "en": "Luck potion",
   "refs": [
@@ -3155,7 +3155,7 @@
   "idx": [
    150
   ],
-  "va": "0x800DCC88",
+  "va": "0x800DCCE8",
   "len": 14,
   "en": "Smart potion",
   "refs": [
@@ -3176,7 +3176,7 @@
   "idx": [
    151
   ],
-  "va": "0x800DCC58",
+  "va": "0x800DCCB8",
   "len": 15,
   "en": "Attack potion",
   "refs": [
@@ -3197,7 +3197,7 @@
   "idx": [
    152
   ],
-  "va": "0x800DCC28",
+  "va": "0x800DCC88",
   "len": 15,
   "en": "Shield potion",
   "refs": [
@@ -3218,7 +3218,7 @@
   "idx": [
    153
   ],
-  "va": "0x800DCBF8",
+  "va": "0x800DCC58",
   "len": 13,
   "en": "Resist fire",
   "refs": [
@@ -3239,7 +3239,7 @@
   "idx": [
    154
   ],
-  "va": "0x800DCBC4",
+  "va": "0x800DCC24",
   "len": 16,
   "en": "Resist thunder",
   "refs": [
@@ -3260,7 +3260,7 @@
   "idx": [
    155
   ],
-  "va": "0x800DCB94",
+  "va": "0x800DCBF4",
   "len": 13,
   "en": "Resist ice ",
   "refs": [
@@ -3281,7 +3281,7 @@
   "idx": [
    156
   ],
-  "va": "0x800DCB64",
+  "va": "0x800DCBC4",
   "len": 14,
   "en": "Resist stone",
   "refs": [
@@ -3302,7 +3302,7 @@
   "idx": [
    157
   ],
-  "va": "0x800DCB38",
+  "va": "0x800DCB98",
   "len": 13,
   "en": "Resist holy",
   "refs": [
@@ -3323,7 +3323,7 @@
   "idx": [
    158
   ],
-  "va": "0x800DCB0C",
+  "va": "0x800DCB6C",
   "len": 13,
   "en": "Resist dark",
   "refs": [
@@ -3344,7 +3344,7 @@
   "idx": [
    159
   ],
-  "va": "0x800DCAE4",
+  "va": "0x800DCB44",
   "len": 8,
   "en": "Potion",
   "refs": [
@@ -3365,7 +3365,7 @@
   "idx": [
    160
   ],
-  "va": "0x800DCAB8",
+  "va": "0x800DCB18",
   "len": 13,
   "en": "High potion",
   "refs": [
@@ -3386,7 +3386,7 @@
   "idx": [
    161
   ],
-  "va": "0x800DCA90",
+  "va": "0x800DCAF0",
   "len": 8,
   "en": "Elixir",
   "refs": [
@@ -3407,7 +3407,7 @@
   "idx": [
    162
   ],
-  "va": "0x800DCA68",
+  "va": "0x800DCAC8",
   "len": 13,
   "en": "Manna prism",
   "refs": [
@@ -3428,7 +3428,7 @@
   "idx": [
    163
   ],
-  "va": "0x800DCA40",
+  "va": "0x800DCAA0",
   "len": 14,
   "en": "Vorpal blade",
   "refs": [
@@ -3449,7 +3449,7 @@
   "idx": [
    164
   ],
-  "va": "0x800DCA10",
+  "va": "0x800DCA70",
   "len": 13,
   "en": "Crissaegrim",
   "refs": [
@@ -3470,7 +3470,7 @@
   "idx": [
    165
   ],
-  "va": "0x800DC9E8",
+  "va": "0x800DCA48",
   "len": 11,
   "en": "Yasutsuna",
   "refs": [
@@ -3491,7 +3491,7 @@
   "idx": [
    166
   ],
-  "va": "0x800DC9B4",
+  "va": "0x800DCA14",
   "len": 14,
   "en": "Library card",
   "refs": [
@@ -3512,7 +3512,7 @@
   "idx": [
    167
   ],
-  "va": "0x800DC984",
+  "va": "0x800DC9E4",
   "len": 16,
   "en": "Alucart shield",
   "refs": [
@@ -3533,7 +3533,7 @@
   "idx": [
    168
   ],
-  "va": "0x800DC95C",
+  "va": "0x800DC9BC",
   "len": 15,
   "en": "Alucart sword",
   "refs": [
@@ -3554,7 +3554,7 @@
   "idx": [
    169
   ],
-  "va": "0x800DC934",
+  "va": "0x800DC994",
   "len": 13,
   "en": "Smelly rice",
   "refs": [
@@ -3573,7 +3573,7 @@
   "idx": [
    170
   ],
-  "va": "0x800DC900",
+  "va": "0x800DC960",
   "len": 16,
   "en": "Delicious meal",
   "refs": [
@@ -3592,7 +3592,7 @@
   "idx": [
    171
   ],
-  "va": "0x800DC8D0",
+  "va": "0x800DC930",
   "len": 14,
   "en": "Signed board",
   "refs": [
@@ -3611,7 +3611,7 @@
   "idx": [
    172
   ],
-  "va": "0x800DC8B4",
+  "va": "0x800DC914",
   "len": 15,
   "en": "Alucard spear",
   "refs": [
@@ -3630,7 +3630,7 @@
   "idx": [
    173
   ],
-  "va": "0x800DC888",
+  "va": "0x800DC8E8",
   "len": 16,
   "en": "Woodland shld.",
   "refs": [
@@ -3649,7 +3649,7 @@
   "idx": [
    174
   ],
-  "va": "0x800DC854",
+  "va": "0x800DC8B4",
   "len": 15,
   "en": "Astral dagger",
   "refs": [
@@ -3668,7 +3668,7 @@
   "idx": [
    175
   ],
-  "va": "0x800DC824",
+  "va": "0x800DC884",
   "len": 16,
   "en": "Double bl. axe",
   "refs": [
@@ -3690,7 +3690,7 @@
    48,
    57
   ],
-  "va": "0x800DF230",
+  "va": "0x800DF290",
   "len": 6,
   "en": "----",
   "refs": [
@@ -3714,7 +3714,7 @@
   "idx": [
    1
   ],
-  "va": "0x800DF218",
+  "va": "0x800DF278",
   "len": 13,
   "en": "Cloth tunic",
   "refs": [
@@ -3735,7 +3735,7 @@
   "idx": [
    2
   ],
-  "va": "0x800DF1F4",
+  "va": "0x800DF254",
   "len": 14,
   "en": "Hide cuirass",
   "refs": [
@@ -3756,7 +3756,7 @@
   "idx": [
    3
   ],
-  "va": "0x800DF1CC",
+  "va": "0x800DF22C",
   "len": 16,
   "en": "Bronze cuirass",
   "refs": [
@@ -3777,7 +3777,7 @@
   "idx": [
    4
   ],
-  "va": "0x800DF1AC",
+  "va": "0x800DF20C",
   "len": 14,
   "en": "Iron cuirass",
   "refs": [
@@ -3798,7 +3798,7 @@
   "idx": [
    5
   ],
-  "va": "0x800DF18C",
+  "va": "0x800DF1EC",
   "len": 15,
   "en": "Steel cuirass",
   "refs": [
@@ -3819,7 +3819,7 @@
   "idx": [
    6
   ],
-  "va": "0x800DF16C",
+  "va": "0x800DF1CC",
   "len": 14,
   "en": "Silver plate",
   "refs": [
@@ -3840,7 +3840,7 @@
   "idx": [
    7
   ],
-  "va": "0x800DF14C",
+  "va": "0x800DF1AC",
   "len": 12,
   "en": "Gold plate",
   "refs": [
@@ -3861,7 +3861,7 @@
   "idx": [
    8
   ],
-  "va": "0x800DF128",
+  "va": "0x800DF188",
   "len": 15,
   "en": "Platinum mail",
   "refs": [
@@ -3882,7 +3882,7 @@
   "idx": [
    9
   ],
-  "va": "0x800DF100",
+  "va": "0x800DF160",
   "len": 15,
   "en": "Diamond plate",
   "refs": [
@@ -3903,7 +3903,7 @@
   "idx": [
    10
   ],
-  "va": "0x800DF0E0",
+  "va": "0x800DF140",
   "len": 11,
   "en": "Fire mail",
   "refs": [
@@ -3924,7 +3924,7 @@
   "idx": [
    11
   ],
-  "va": "0x800DF0B0",
+  "va": "0x800DF110",
   "len": 16,
   "en": "Lightning mail",
   "refs": [
@@ -3945,7 +3945,7 @@
   "idx": [
    12
   ],
-  "va": "0x800DF084",
+  "va": "0x800DF0E4",
   "len": 10,
   "en": "Ice mail",
   "refs": [
@@ -3966,7 +3966,7 @@
   "idx": [
    13
   ],
-  "va": "0x800DF054",
+  "va": "0x800DF0B4",
   "len": 16,
   "en": "Mirror cuirass",
   "refs": [
@@ -3987,7 +3987,7 @@
   "idx": [
    14
   ],
-  "va": "0x800DF028",
+  "va": "0x800DF088",
   "len": 15,
   "en": "Spike Breaker",
   "refs": [
@@ -4008,7 +4008,7 @@
   "idx": [
    15
   ],
-  "va": "0x800DF000",
+  "va": "0x800DF060",
   "len": 14,
   "en": "Alucard mail",
   "refs": [
@@ -4029,7 +4029,7 @@
   "idx": [
    16
   ],
-  "va": "0x800DEFD4",
+  "va": "0x800DF034",
   "len": 12,
   "en": "Dark armor",
   "refs": [
@@ -4050,7 +4050,7 @@
   "idx": [
    17
   ],
-  "va": "0x800DEFA8",
+  "va": "0x800DF008",
   "len": 14,
   "en": "Healing mail",
   "refs": [
@@ -4071,7 +4071,7 @@
   "idx": [
    18
   ],
-  "va": "0x800DEF80",
+  "va": "0x800DEFE0",
   "len": 11,
   "en": "Holy mail",
   "refs": [
@@ -4092,7 +4092,7 @@
   "idx": [
    19
   ],
-  "va": "0x800DEF58",
+  "va": "0x800DEFB8",
   "len": 12,
   "en": "Walk armor",
   "refs": [
@@ -4113,7 +4113,7 @@
   "idx": [
    20
   ],
-  "va": "0x800DEF28",
+  "va": "0x800DEF88",
   "len": 16,
   "en": "Brilliant mail",
   "refs": [
@@ -4134,7 +4134,7 @@
   "idx": [
    21
   ],
-  "va": "0x800DEEFC",
+  "va": "0x800DEF5C",
   "len": 11,
   "en": "Mojo mail",
   "refs": [
@@ -4155,7 +4155,7 @@
   "idx": [
    22
   ],
-  "va": "0x800DEED0",
+  "va": "0x800DEF30",
   "len": 12,
   "en": "Fury plate",
   "refs": [
@@ -4176,7 +4176,7 @@
   "idx": [
    23
   ],
-  "va": "0x800DEEA0",
+  "va": "0x800DEF00",
   "len": 15,
   "en": "Dracula tunic",
   "refs": [
@@ -4197,7 +4197,7 @@
   "idx": [
    24
   ],
-  "va": "0x800DEE74",
+  "va": "0x800DEED4",
   "len": 12,
   "en": "God's Garb",
   "refs": [
@@ -4218,7 +4218,7 @@
   "idx": [
    25
   ],
-  "va": "0x800DEE4C",
+  "va": "0x800DEEAC",
   "len": 16,
   "en": "Axe Lord armor",
   "refs": [
@@ -4239,7 +4239,7 @@
   "idx": [
    27
   ],
-  "va": "0x800DEE20",
+  "va": "0x800DEE80",
   "len": 12,
   "en": "Sunglasses",
   "refs": [
@@ -4260,7 +4260,7 @@
   "idx": [
    28
   ],
-  "va": "0x800DEDF8",
+  "va": "0x800DEE58",
   "len": 15,
   "en": "Ballroom mask",
   "refs": [
@@ -4281,7 +4281,7 @@
   "idx": [
    29
   ],
-  "va": "0x800DEDD8",
+  "va": "0x800DEE38",
   "len": 10,
   "en": "Bandanna",
   "refs": [
@@ -4302,7 +4302,7 @@
   "idx": [
    30
   ],
-  "va": "0x800DEDAC",
+  "va": "0x800DEE0C",
   "len": 10,
   "en": "Felt hat",
   "refs": [
@@ -4323,7 +4323,7 @@
   "idx": [
    31
   ],
-  "va": "0x800DED94",
+  "va": "0x800DEDF4",
   "len": 12,
   "en": "Velvet hat",
   "refs": [
@@ -4344,7 +4344,7 @@
   "idx": [
    32
   ],
-  "va": "0x800DED7C",
+  "va": "0x800DEDDC",
   "len": 9,
   "en": "Goggles",
   "refs": [
@@ -4365,7 +4365,7 @@
   "idx": [
    33
   ],
-  "va": "0x800DED50",
+  "va": "0x800DEDB0",
   "len": 13,
   "en": "Leather hat",
   "refs": [
@@ -4386,7 +4386,7 @@
   "idx": [
    34
   ],
-  "va": "0x800DED2C",
+  "va": "0x800DED8C",
   "len": 14,
   "en": "Holy glasses",
   "refs": [
@@ -4407,7 +4407,7 @@
   "idx": [
    35
   ],
-  "va": "0x800DED04",
+  "va": "0x800DED64",
   "len": 12,
   "en": "Steel helm",
   "refs": [
@@ -4428,7 +4428,7 @@
   "idx": [
    36
   ],
-  "va": "0x800DECDC",
+  "va": "0x800DED3C",
   "len": 12,
   "en": "Stone mask",
   "refs": [
@@ -4449,7 +4449,7 @@
   "idx": [
    37
   ],
-  "va": "0x800DECB0",
+  "va": "0x800DED10",
   "len": 9,
   "en": "Circlet",
   "refs": [
@@ -4470,7 +4470,7 @@
   "idx": [
    38
   ],
-  "va": "0x800DEC98",
+  "va": "0x800DECF8",
   "len": 14,
   "en": "Gold circlet",
   "refs": [
@@ -4491,7 +4491,7 @@
   "idx": [
    39
   ],
-  "va": "0x800DEC6C",
+  "va": "0x800DECCC",
   "len": 14,
   "en": "Ruby circlet",
   "refs": [
@@ -4512,7 +4512,7 @@
   "idx": [
    40
   ],
-  "va": "0x800DEC40",
+  "va": "0x800DECA0",
   "len": 14,
   "en": "Opal circlet",
   "refs": [
@@ -4533,7 +4533,7 @@
   "idx": [
    41
   ],
-  "va": "0x800DEC14",
+  "va": "0x800DEC74",
   "len": 15,
   "en": "Topaz circlet",
   "refs": [
@@ -4554,7 +4554,7 @@
   "idx": [
    42
   ],
-  "va": "0x800DEBE4",
+  "va": "0x800DEC44",
   "len": 15,
   "en": "Beryl circlet",
   "refs": [
@@ -4575,7 +4575,7 @@
   "idx": [
    43
   ],
-  "va": "0x800DEBB4",
+  "va": "0x800DEC14",
   "len": 16,
   "en": "Cat-eye circl.",
   "refs": [
@@ -4596,7 +4596,7 @@
   "idx": [
    44
   ],
-  "va": "0x800DEB84",
+  "va": "0x800DEBE4",
   "len": 16,
   "en": "Coral circlet ",
   "refs": [
@@ -4617,7 +4617,7 @@
   "idx": [
    45
   ],
-  "va": "0x800DEB60",
+  "va": "0x800DEBC0",
   "len": 13,
   "en": "Dragon helm",
   "refs": [
@@ -4638,7 +4638,7 @@
   "idx": [
    46
   ],
-  "va": "0x800DEB30",
+  "va": "0x800DEB90",
   "len": 14,
   "en": "Silver crown",
   "refs": [
@@ -4659,7 +4659,7 @@
   "idx": [
    47
   ],
-  "va": "0x800DEB0C",
+  "va": "0x800DEB6C",
   "len": 12,
   "en": "Wizard hat",
   "refs": [
@@ -4680,7 +4680,7 @@
   "idx": [
    49
   ],
-  "va": "0x800DEAE0",
+  "va": "0x800DEB40",
   "len": 12,
   "en": "Cloth cape",
   "refs": [
@@ -4701,7 +4701,7 @@
   "idx": [
    50
   ],
-  "va": "0x800DEAB0",
+  "va": "0x800DEB10",
   "len": 15,
   "en": "Reverse cloak",
   "refs": [
@@ -4722,7 +4722,7 @@
   "idx": [
    51
   ],
-  "va": "0x800DEA80",
+  "va": "0x800DEAE0",
   "len": 13,
   "en": "Elven cloak",
   "refs": [
@@ -4743,7 +4743,7 @@
   "idx": [
    52
   ],
-  "va": "0x800DEA50",
+  "va": "0x800DEAB0",
   "len": 15,
   "en": "Crystal cloak",
   "refs": [
@@ -4764,7 +4764,7 @@
   "idx": [
    53
   ],
-  "va": "0x800DEA20",
+  "va": "0x800DEA80",
   "len": 13,
   "en": "Royal cloak",
   "refs": [
@@ -4785,7 +4785,7 @@
   "idx": [
    54
   ],
-  "va": "0x800DE9FC",
+  "va": "0x800DEA5C",
   "len": 13,
   "en": "Blood cloak",
   "refs": [
@@ -4806,7 +4806,7 @@
   "idx": [
    55
   ],
-  "va": "0x800DE9D0",
+  "va": "0x800DEA30",
   "len": 16,
   "en": "Joseph's cloak",
   "refs": [
@@ -4827,7 +4827,7 @@
   "idx": [
    56
   ],
-  "va": "0x800DE9A0",
+  "va": "0x800DEA00",
   "len": 16,
   "en": "Twilight cloak",
   "refs": [
@@ -4848,7 +4848,7 @@
   "idx": [
    58
   ],
-  "va": "0x800DE97C",
+  "va": "0x800DE9DC",
   "len": 11,
   "en": "Moonstone",
   "refs": [
@@ -4869,7 +4869,7 @@
   "idx": [
    59
   ],
-  "va": "0x800DE950",
+  "va": "0x800DE9B0",
   "len": 10,
   "en": "Sunstone",
   "refs": [
@@ -4890,7 +4890,7 @@
   "idx": [
    60
   ],
-  "va": "0x800DE924",
+  "va": "0x800DE984",
   "len": 12,
   "en": "Bloodstone",
   "refs": [
@@ -4911,7 +4911,7 @@
   "idx": [
    61
   ],
-  "va": "0x800DE8F8",
+  "va": "0x800DE958",
   "len": 12,
   "en": "Staurolite",
   "refs": [
@@ -4932,7 +4932,7 @@
   "idx": [
    62
   ],
-  "va": "0x800DE8CC",
+  "va": "0x800DE92C",
   "len": 15,
   "en": "Ring of Pales",
   "refs": [
@@ -4953,7 +4953,7 @@
   "idx": [
    63
   ],
-  "va": "0x800DE8AC",
+  "va": "0x800DE90C",
   "len": 8,
   "en": "Zircon",
   "refs": [
@@ -4974,7 +4974,7 @@
   "idx": [
    64
   ],
-  "va": "0x800DE884",
+  "va": "0x800DE8E4",
   "len": 12,
   "en": "Aquamarine",
   "refs": [
@@ -4995,7 +4995,7 @@
   "idx": [
    65
   ],
-  "va": "0x800DE854",
+  "va": "0x800DE8B4",
   "len": 11,
   "en": "Turquoise",
   "refs": [
@@ -5016,7 +5016,7 @@
   "idx": [
    66
   ],
-  "va": "0x800DE84C",
+  "va": "0x800DE8AC",
   "len": 6,
   "en": "Onyx",
   "refs": [
@@ -5037,7 +5037,7 @@
   "idx": [
    67
   ],
-  "va": "0x800DE828",
+  "va": "0x800DE888",
   "len": 8,
   "en": "Garnet",
   "refs": [
@@ -5058,7 +5058,7 @@
   "idx": [
    68
   ],
-  "va": "0x800DE820",
+  "va": "0x800DE880",
   "len": 6,
   "en": "Opal",
   "refs": [
@@ -5079,7 +5079,7 @@
   "idx": [
    69
   ],
-  "va": "0x800DE814",
+  "va": "0x800DE874",
   "len": 9,
   "en": "Diamond",
   "refs": [
@@ -5100,7 +5100,7 @@
   "idx": [
    70
   ],
-  "va": "0x800DE7E0",
+  "va": "0x800DE840",
   "len": 14,
   "en": "Lapis lazuli",
   "refs": [
@@ -5121,7 +5121,7 @@
   "idx": [
    71
   ],
-  "va": "0x800DE7B8",
+  "va": "0x800DE818",
   "len": 14,
   "en": "Ring of Ares",
   "refs": [
@@ -5142,7 +5142,7 @@
   "idx": [
    72
   ],
-  "va": "0x800DE78C",
+  "va": "0x800DE7EC",
   "len": 11,
   "en": "Gold Ring",
   "refs": [
@@ -5163,7 +5163,7 @@
   "idx": [
    73
   ],
-  "va": "0x800DE750",
+  "va": "0x800DE7B0",
   "len": 13,
   "en": "Silver Ring",
   "refs": [
@@ -5184,7 +5184,7 @@
   "idx": [
    74
   ],
-  "va": "0x800DE718",
+  "va": "0x800DE778",
   "len": 15,
   "en": "Ring of Varda",
   "refs": [
@@ -5205,7 +5205,7 @@
   "idx": [
    75
   ],
-  "va": "0x800DE6E8",
+  "va": "0x800DE748",
   "len": 16,
   "en": "Ring of Arcana",
   "refs": [
@@ -5226,7 +5226,7 @@
   "idx": [
    76
   ],
-  "va": "0x800DE6B8",
+  "va": "0x800DE718",
   "len": 16,
   "en": "Mystic pendant",
   "refs": [
@@ -5247,7 +5247,7 @@
   "idx": [
    77
   ],
-  "va": "0x800DE688",
+  "va": "0x800DE6E8",
   "len": 14,
   "en": "Heart broach",
   "refs": [
@@ -5268,7 +5268,7 @@
   "idx": [
    78
   ],
-  "va": "0x800DE65C",
+  "va": "0x800DE6BC",
   "len": 15,
   "en": "Necklace of J",
   "refs": [
@@ -5289,7 +5289,7 @@
   "idx": [
    79
   ],
-  "va": "0x800DE648",
+  "va": "0x800DE6A8",
   "len": 10,
   "en": "Gauntlet",
   "refs": [
@@ -5310,7 +5310,7 @@
   "idx": [
    80
   ],
-  "va": "0x800DE630",
+  "va": "0x800DE690",
   "len": 14,
   "en": "Ankh of Life",
   "refs": [
@@ -5331,7 +5331,7 @@
   "idx": [
    81
   ],
-  "va": "0x800DE604",
+  "va": "0x800DE664",
   "len": 16,
   "en": "Ring of Feanor",
   "refs": [
@@ -5352,7 +5352,7 @@
   "idx": [
    82
   ],
-  "va": "0x800DE5E0",
+  "va": "0x800DE640",
   "len": 7,
   "en": "Medal",
   "refs": [
@@ -5373,7 +5373,7 @@
   "idx": [
    83
   ],
-  "va": "0x800DE5C0",
+  "va": "0x800DE620",
   "len": 10,
   "en": "Talisman",
   "refs": [
@@ -5394,7 +5394,7 @@
   "idx": [
    84
   ],
-  "va": "0x800DE59C",
+  "va": "0x800DE5FC",
   "len": 12,
   "en": "Duplicator",
   "refs": [
@@ -5415,7 +5415,7 @@
   "idx": [
    85
   ],
-  "va": "0x800DE570",
+  "va": "0x800DE5D0",
   "len": 14,
   "en": "King's stone",
   "refs": [
@@ -5436,7 +5436,7 @@
   "idx": [
    86
   ],
-  "va": "0x800DE544",
+  "va": "0x800DE5A4",
   "len": 16,
   "en": "Covenant stone",
   "refs": [
@@ -5457,7 +5457,7 @@
   "idx": [
    87
   ],
-  "va": "0x800DE51C",
+  "va": "0x800DE57C",
   "len": 11,
   "en": "Nauglamir",
   "refs": [
@@ -5478,7 +5478,7 @@
   "idx": [
    88
   ],
-  "va": "0x800DE4F0",
+  "va": "0x800DE550",
   "len": 14,
   "en": "Secret boots",
   "refs": [
@@ -5499,7 +5499,7 @@
   "idx": [
    89
   ],
-  "va": "0x800DE4C0",
+  "va": "0x800DE520",
   "len": 14,
   "en": "Alucart mail",
   "refs": [
@@ -5520,9 +5520,9 @@
   "idx": [
    90
   ],
-  "va": "0x800DE48C",
+  "va": "0x800DE4EC",
   "len": 15,
-  "en": "Glaring Cloth",
+  "en": "Glaring cloth",
   "refs": [
    33580
   ],
@@ -5539,9 +5539,9 @@
   "idx": [
    91
   ],
-  "va": "0x800DE458",
+  "va": "0x800DE4B8",
   "len": 16,
-  "en": "Rainbow Mantle",
+  "en": "Rainbow mantle",
   "refs": [
    33612
   ],
@@ -5558,7 +5558,7 @@
   "idx": [
    92
   ],
-  "va": "0x800DE430",
+  "va": "0x800DE490",
   "len": 13,
   "en": "Lyrics card",
   "refs": [
@@ -5577,7 +5577,7 @@
   "idx": [
    0
   ],
-  "va": "0x800DF774",
+  "va": "0x800DF7D4",
   "len": 9,
   "en": "ALUCARD",
   "refs": [
@@ -5593,7 +5593,7 @@
   "idx": [
    1
   ],
-  "va": "0x800DF76C",
+  "va": "0x800DF7CC",
   "len": 5,
   "en": "STR",
   "refs": [
@@ -5613,7 +5613,7 @@
   "idx": [
    2
   ],
-  "va": "0x800DF764",
+  "va": "0x800DF7C4",
   "len": 5,
   "en": "CON",
   "refs": [
@@ -5633,7 +5633,7 @@
   "idx": [
    3
   ],
-  "va": "0x800DF75C",
+  "va": "0x800DF7BC",
   "len": 5,
   "en": "INT",
   "refs": [
@@ -5653,7 +5653,7 @@
   "idx": [
    4
   ],
-  "va": "0x800DF754",
+  "va": "0x800DF7B4",
   "len": 5,
   "en": "LCK",
   "refs": [
@@ -5674,7 +5674,7 @@
    5,
    44
   ],
-  "va": "0x800DF74C",
+  "va": "0x800DF7AC",
   "len": 5,
   "en": "EXP",
   "refs": [
@@ -5695,7 +5695,7 @@
   "idx": [
    6
   ],
-  "va": "0x800DF744",
+  "va": "0x800DF7A4",
   "len": 6,
   "en": "NEXT",
   "refs": [
@@ -5715,7 +5715,7 @@
   "idx": [
    7
   ],
-  "va": "0x800DF73C",
+  "va": "0x800DF79C",
   "len": 6,
   "en": "GOLD",
   "refs": [
@@ -5736,7 +5736,7 @@
    8,
    43
   ],
-  "va": "0x800DF734",
+  "va": "0x800DF794",
   "len": 7,
   "en": "LEVEL",
   "refs": [
@@ -5757,7 +5757,7 @@
   "idx": [
    9
   ],
-  "va": "0x800DF72C",
+  "va": "0x800DF78C",
   "len": 6,
   "en": "TIME",
   "refs": [
@@ -5777,7 +5777,7 @@
   "idx": [
    10
   ],
-  "va": "0x800DF724",
+  "va": "0x800DF784",
   "len": 7,
   "en": "ROOMS",
   "refs": [
@@ -5797,7 +5797,7 @@
   "idx": [
    11
   ],
-  "va": "0x800DF71C",
+  "va": "0x800DF77C",
   "len": 7,
   "en": "KILLS",
   "refs": [
@@ -5817,7 +5817,7 @@
   "idx": [
    12
   ],
-  "va": "0x800DF718",
+  "va": "0x800DF778",
   "len": 4,
   "en": "HP",
   "refs": [
@@ -5833,7 +5833,7 @@
   "idx": [
    13
   ],
-  "va": "0x800DF714",
+  "va": "0x800DF774",
   "len": 4,
   "en": "MP",
   "refs": [
@@ -5849,7 +5849,7 @@
   "idx": [
    14
   ],
-  "va": "0x800DF70C",
+  "va": "0x800DF76C",
   "len": 7,
   "en": "HEART",
   "refs": [
@@ -5869,7 +5869,7 @@
   "idx": [
    15
   ],
-  "va": "0x800DF704",
+  "va": "0x800DF764",
   "len": 8,
   "en": "STATUS",
   "refs": [
@@ -5889,7 +5889,7 @@
   "idx": [
    16
   ],
-  "va": "0x800DF6F0",
+  "va": "0x800DF750",
   "len": 17,
   "en": "Button settings",
   "refs": [
@@ -5909,7 +5909,7 @@
   "idx": [
    17
   ],
-  "va": "0x800DF6E0",
+  "va": "0x800DF740",
   "len": 14,
   "en": "Cloak lining",
   "refs": [
@@ -5929,7 +5929,7 @@
   "idx": [
    18
   ],
-  "va": "0x800DF6D0",
+  "va": "0x800DF730",
   "len": 13,
   "en": "Cloak color",
   "refs": [
@@ -5949,7 +5949,7 @@
   "idx": [
    19
   ],
-  "va": "0x800DF6C8",
+  "va": "0x800DF728",
   "len": 7,
   "en": "{65}{65}{65}{65}{65}",
   "refs": [
@@ -5965,7 +5965,7 @@
   "idx": [
    20
   ],
-  "va": "0x800DF6BC",
+  "va": "0x800DF71C",
   "len": 10,
   "en": "Exterior",
   "refs": [
@@ -5985,7 +5985,7 @@
   "idx": [
    21
   ],
-  "va": "0x800DF6B4",
+  "va": "0x800DF714",
   "len": 8,
   "en": "Lining",
   "refs": [
@@ -6005,7 +6005,7 @@
   "idx": [
    22
   ],
-  "va": "0x800DF6A8",
+  "va": "0x800DF708",
   "len": 12,
   "en": "Right hand",
   "refs": [
@@ -6025,7 +6025,7 @@
   "idx": [
    23
   ],
-  "va": "0x800DF69C",
+  "va": "0x800DF6FC",
   "len": 11,
   "en": "Left hand",
   "refs": [
@@ -6045,7 +6045,7 @@
   "idx": [
    24
   ],
-  "va": "0x800DF694",
+  "va": "0x800DF6F4",
   "len": 6,
   "en": "Jump",
   "refs": [
@@ -6065,7 +6065,7 @@
   "idx": [
    25
   ],
-  "va": "0x800DF688",
+  "va": "0x800DF6E8",
   "len": 9,
   "en": "Special",
   "refs": [
@@ -6085,7 +6085,7 @@
   "idx": [
    26
   ],
-  "va": "0x800DF680",
+  "va": "0x800DF6E0",
   "len": 6,
   "en": "Wolf",
   "refs": [
@@ -6105,7 +6105,7 @@
   "idx": [
    27
   ],
-  "va": "0x800DF678",
+  "va": "0x800DF6D8",
   "len": 6,
   "en": "Mist",
   "refs": [
@@ -6126,7 +6126,7 @@
    28,
    46
   ],
-  "va": "0x800DF670",
+  "va": "0x800DF6D0",
   "len": 5,
   "en": "Bat",
   "refs": [
@@ -6147,7 +6147,7 @@
   "idx": [
    29
   ],
-  "va": "0x800DF668",
+  "va": "0x800DF6C8",
   "len": 6,
   "en": "{b6}{b2}{ca}{c2}",
   "refs": [
@@ -6167,7 +6167,7 @@
   "idx": [
    30
   ],
-  "va": "0x800DF660",
+  "va": "0x800DF6C0",
   "len": 8,
   "en": "Normal",
   "refs": [
@@ -6187,7 +6187,7 @@
   "idx": [
    31
   ],
-  "va": "0x800DF654",
+  "va": "0x800DF6B4",
   "len": 9,
   "en": "Reverse",
   "refs": [
@@ -6207,7 +6207,7 @@
   "idx": [
    32
   ],
-  "va": "0x800DF64C",
+  "va": "0x800DF6AC",
   "len": 7,
   "en": "Sound",
   "refs": [
@@ -6227,7 +6227,7 @@
   "idx": [
    33
   ],
-  "va": "0x800DF644",
+  "va": "0x800DF6A4",
   "len": 8,
   "en": "Stereo",
   "refs": [
@@ -6247,7 +6247,7 @@
   "idx": [
    34
   ],
-  "va": "0x800DF63C",
+  "va": "0x800DF69C",
   "len": 6,
   "en": "Mono",
   "refs": [
@@ -6267,7 +6267,7 @@
   "idx": [
    35
   ],
-  "va": "0x800DF62C",
+  "va": "0x800DF68C",
   "len": 14,
   "en": "Window color",
   "refs": [
@@ -6287,7 +6287,7 @@
   "idx": [
    36
   ],
-  "va": "0x800DF61C",
+  "va": "0x800DF67C",
   "len": 13,
   "en": "Time attack",
   "refs": [
@@ -6307,7 +6307,7 @@
   "idx": [
    37
   ],
-  "va": "0x800DF614",
+  "va": "0x800DF674",
   "len": 6,
   "en": "GOOD",
   "refs": [
@@ -6327,7 +6327,7 @@
   "idx": [
    38
   ],
-  "va": "0x800DF60C",
+  "va": "0x800DF66C",
   "len": 8,
   "en": "POISON",
   "refs": [
@@ -6347,7 +6347,7 @@
   "idx": [
    39
   ],
-  "va": "0x800DF604",
+  "va": "0x800DF664",
   "len": 7,
   "en": "STONE",
   "refs": [
@@ -6367,7 +6367,7 @@
   "idx": [
    40
   ],
-  "va": "0x800DF5FC",
+  "va": "0x800DF65C",
   "len": 7,
   "en": "CURSE",
   "refs": [
@@ -6387,7 +6387,7 @@
   "idx": [
    41
   ],
-  "va": "0x800DF5DC",
+  "va": "0x800DF63C",
   "len": 32,
   "en": "------------------------------",
   "refs": [
@@ -6403,7 +6403,7 @@
   "idx": [
    42
   ],
-  "va": "0x800DF5D0",
+  "va": "0x800DF630",
   "len": 9,
   "en": "ALUCART",
   "refs": [
@@ -6419,7 +6419,7 @@
   "idx": [
    45
   ],
-  "va": "0x800DF5C4",
+  "va": "0x800DF624",
   "len": 9,
   "en": "alucart",
   "refs": [
@@ -6439,7 +6439,7 @@
   "idx": [
    47
   ],
-  "va": "0x800DF5BC",
+  "va": "0x800DF61C",
   "len": 7,
   "en": "Ghost",
   "refs": [
@@ -6459,7 +6459,7 @@
   "idx": [
    48
   ],
-  "va": "0x800DF5B4",
+  "va": "0x800DF614",
   "len": 8,
   "en": "Faerie",
   "refs": [
@@ -6479,7 +6479,7 @@
   "idx": [
    49
   ],
-  "va": "0x800DF5AC",
+  "va": "0x800DF60C",
   "len": 7,
   "en": "Demon",
   "refs": [
@@ -6499,7 +6499,7 @@
   "idx": [
    50
   ],
-  "va": "0x800DF5A4",
+  "va": "0x800DF604",
   "len": 7,
   "en": "Sword",
   "refs": [
@@ -6519,7 +6519,7 @@
   "idx": [
    51
   ],
-  "va": "0x800DF59C",
+  "va": "0x800DF5FC",
   "len": 8,
   "en": "Sprite",
   "refs": [
@@ -6539,7 +6539,7 @@
   "idx": [
    52
   ],
-  "va": "0x800DF590",
+  "va": "0x800DF5F0",
   "len": 9,
   "en": "N.Devil",
   "refs": [
@@ -6559,7 +6559,7 @@
   "idx": [
    53
   ],
-  "va": "0x800DF574",
+  "va": "0x800DF5D4",
   "len": 25,
   "en": "Richter defeats Dracula",
   "refs": [
@@ -6579,7 +6579,7 @@
   "idx": [
    54
   ],
-  "va": "0x800DF564",
+  "va": "0x800DF5C4",
   "len": 14,
   "en": "Defeat Olrox",
   "refs": [
@@ -6599,7 +6599,7 @@
   "idx": [
    55
   ],
-  "va": "0x800DF54C",
+  "va": "0x800DF5AC",
   "len": 24,
   "en": "Defeat Doppleganger 10",
   "refs": [
@@ -6619,7 +6619,7 @@
   "idx": [
    56
   ],
-  "va": "0x800DF538",
+  "va": "0x800DF598",
   "len": 19,
   "en": "Defeat Granfaloon",
   "refs": [
@@ -6639,7 +6639,7 @@
   "idx": [
    57
   ],
-  "va": "0x800DF518",
+  "va": "0x800DF578",
   "len": 30,
   "en": "Defeat Minotaur and Werewolf",
   "refs": [
@@ -6659,7 +6659,7 @@
   "idx": [
    58
   ],
-  "va": "0x800DF508",
+  "va": "0x800DF568",
   "len": 15,
   "en": "Defeat Scylla",
   "refs": [
@@ -6679,7 +6679,7 @@
   "idx": [
    59
   ],
-  "va": "0x800DF4EC",
+  "va": "0x800DF54C",
   "len": 26,
   "en": "Defeat Slogra and Gaibon",
   "refs": [
@@ -6699,7 +6699,7 @@
   "idx": [
    60
   ],
-  "va": "0x800DF4D8",
+  "va": "0x800DF538",
   "len": 19,
   "en": "Defeat Hippogryph",
   "refs": [
@@ -6719,7 +6719,7 @@
   "idx": [
    61
   ],
-  "va": "0x800DF4C4",
+  "va": "0x800DF524",
   "len": 18,
   "en": "Defeat Beelzebub",
   "refs": [
@@ -6739,7 +6739,7 @@
   "idx": [
    62
   ],
-  "va": "0x800DF4B0",
+  "va": "0x800DF510",
   "len": 17,
   "en": "Defeat Succubus",
   "refs": [
@@ -6759,7 +6759,7 @@
   "idx": [
    63
   ],
-  "va": "0x800DF49C",
+  "va": "0x800DF4FC",
   "len": 18,
   "en": "Defeat Karasuman",
   "refs": [
@@ -6779,7 +6779,7 @@
   "idx": [
    64
   ],
-  "va": "0x800DF47C",
+  "va": "0x800DF4DC",
   "len": 30,
   "en": "Defeat Trevor, Grant & Sypha",
   "refs": [
@@ -6799,7 +6799,7 @@
   "idx": [
    65
   ],
-  "va": "0x800DF46C",
+  "va": "0x800DF4CC",
   "len": 14,
   "en": "Defeat Death",
   "refs": [
@@ -6819,7 +6819,7 @@
   "idx": [
    66
   ],
-  "va": "0x800DF458",
+  "va": "0x800DF4B8",
   "len": 17,
   "en": "Defeat Cerberus",
   "refs": [
@@ -6839,7 +6839,7 @@
   "idx": [
    67
   ],
-  "va": "0x800DF440",
+  "va": "0x800DF4A0",
   "len": 22,
   "en": "Save Richter Belmont",
   "refs": [
@@ -6859,7 +6859,7 @@
   "idx": [
    68
   ],
-  "va": "0x800DF430",
+  "va": "0x800DF490",
   "len": 15,
   "en": "Defeat Medusa",
   "refs": [
@@ -6879,7 +6879,7 @@
   "idx": [
    69
   ],
-  "va": "0x800DF418",
+  "va": "0x800DF478",
   "len": 21,
   "en": "Defeat the Creature",
   "refs": [
@@ -6899,7 +6899,7 @@
   "idx": [
    70
   ],
-  "va": "0x800DF400",
+  "va": "0x800DF460",
   "len": 21,
   "en": "Defeat Lesser Demon",
   "refs": [
@@ -6919,7 +6919,7 @@
   "idx": [
    71
   ],
-  "va": "0x800DF3E8",
+  "va": "0x800DF448",
   "len": 24,
   "en": "Defeat Doppleganger 40",
   "refs": [
@@ -6939,7 +6939,7 @@
   "idx": [
    72
   ],
-  "va": "0x800DF3D4",
+  "va": "0x800DF434",
   "len": 19,
   "en": "Defeat Akmodan II",
   "refs": [
@@ -6959,7 +6959,7 @@
   "idx": [
    73
   ],
-  "va": "0x800DF3BC",
+  "va": "0x800DF41C",
   "len": 21,
   "en": "Defeat Darkwing Bat",
   "refs": [
@@ -6979,7 +6979,7 @@
   "idx": [
    74
   ],
-  "va": "0x800DF3A8",
+  "va": "0x800DF408",
   "len": 17,
   "en": "Defeat Galamoth",
   "refs": [
@@ -6999,7 +6999,7 @@
   "idx": [
    75
   ],
-  "va": "0x800DF394",
+  "va": "0x800DF3F4",
   "len": 18,
   "en": "Final Save point",
   "refs": [
@@ -7019,7 +7019,7 @@
   "idx": [
    76
   ],
-  "va": "0x800DF380",
+  "va": "0x800DF3E0",
   "len": 20,
   "en": "Meeting with Death",
   "refs": [
@@ -7039,7 +7039,7 @@
   "idx": [
    77
   ],
-  "va": "0x800DF360",
+  "va": "0x800DF3C0",
   "len": 29,
   "en": "Get Holy Glasses from Maria",
   "refs": [
@@ -7059,7 +7059,7 @@
   "idx": [
    78
   ],
-  "va": "0x800DF340",
+  "va": "0x800DF3A0",
   "len": 31,
   "en": "Meeting with Master Librarian",
   "refs": [
@@ -7079,7 +7079,7 @@
   "idx": [
    79
   ],
-  "va": "0x800DF328",
+  "va": "0x800DF388",
   "len": 21,
   "en": "First Maria meeting",
   "refs": [
@@ -7099,7 +7099,7 @@
   "idx": [
    85
   ],
-  "va": "0x800DF6A8",
+  "va": "0x800DF708",
   "len": 12,
   "en": "Right hand",
   "refs": [
@@ -7120,7 +7120,7 @@
   "idx": [
    86
   ],
-  "va": "0x800DF31C",
+  "va": "0x800DF37C",
   "len": 12,
   "en": " Left hand",
   "refs": [
@@ -7141,7 +7141,7 @@
   "idx": [
    87
   ],
-  "va": "0x800DF310",
+  "va": "0x800DF370",
   "len": 9,
   "en": "   Head",
   "refs": [
@@ -7162,7 +7162,7 @@
   "idx": [
    88
   ],
-  "va": "0x800DF304",
+  "va": "0x800DF364",
   "len": 9,
   "en": "   Body",
   "refs": [
@@ -7183,7 +7183,7 @@
   "idx": [
    89
   ],
-  "va": "0x800DF2F8",
+  "va": "0x800DF358",
   "len": 10,
   "en": "   Cloak",
   "refs": [
@@ -7205,7 +7205,7 @@
    90,
    91
   ],
-  "va": "0x800DF2EC",
+  "va": "0x800DF34C",
   "len": 10,
   "en": "   Other",
   "refs": [
@@ -7227,7 +7227,7 @@
   "idx": [
    92
   ],
-  "va": "0x800DF2E4",
+  "va": "0x800DF344",
   "len": 7,
   "en": "Equip",
   "refs": [
@@ -7248,7 +7248,7 @@
   "idx": [
    93
   ],
-  "va": "0x800DF2DC",
+  "va": "0x800DF33C",
   "len": 8,
   "en": "Spells",
   "refs": [
@@ -7269,7 +7269,7 @@
   "idx": [
    94
   ],
-  "va": "0x800DF2D4",
+  "va": "0x800DF334",
   "len": 8,
   "en": "Relics",
   "refs": [
@@ -7290,7 +7290,7 @@
   "idx": [
    95
   ],
-  "va": "0x800DF2CC",
+  "va": "0x800DF32C",
   "len": 8,
   "en": "System",
   "refs": [
@@ -7311,7 +7311,7 @@
   "idx": [
    96
   ],
-  "va": "0x800DF2C0",
+  "va": "0x800DF320",
   "len": 11,
   "en": "Familiars",
   "refs": [
@@ -7332,7 +7332,7 @@
   "idx": [
    97
   ],
-  "va": "0x800DF2B0",
+  "va": "0x800DF310",
   "len": 15,
   "en": "Familiar List",
   "refs": [
@@ -7353,7 +7353,7 @@
   "idx": [
    98
   ],
-  "va": "0x800DF29C",
+  "va": "0x800DF2FC",
   "len": 20,
   "en": "Special Moves List",
   "refs": [
@@ -7374,7 +7374,7 @@
   "idx": [
    99
   ],
-  "va": "0x800DF290",
+  "va": "0x800DF2F0",
   "len": 9,
   "en": "S.sword",
   "refs": [
@@ -7395,7 +7395,7 @@
   "idx": [
    100
   ],
-  "va": "0x800DF5A4",
+  "va": "0x800DF604",
   "len": 7,
   "en": "Sword",
   "refs": [
@@ -7416,7 +7416,7 @@
   "idx": [
    101
   ],
-  "va": "0x800DF284",
+  "va": "0x800DF2E4",
   "len": 9,
   "en": "Throw 1",
   "refs": [
@@ -7437,7 +7437,7 @@
   "idx": [
    102
   ],
-  "va": "0x800DF27C",
+  "va": "0x800DF2DC",
   "len": 6,
   "en": "Fist",
   "refs": [
@@ -7458,7 +7458,7 @@
   "idx": [
    103
   ],
-  "va": "0x800DF274",
+  "va": "0x800DF2D4",
   "len": 6,
   "en": "Club",
   "refs": [
@@ -7479,7 +7479,7 @@
   "idx": [
    104
   ],
-  "va": "0x800DF268",
+  "va": "0x800DF2C8",
   "len": 10,
   "en": "Two-hand",
   "refs": [
@@ -7500,7 +7500,7 @@
   "idx": [
    105
   ],
-  "va": "0x800DF260",
+  "va": "0x800DF2C0",
   "len": 6,
   "en": "Food",
   "refs": [
@@ -7521,7 +7521,7 @@
   "idx": [
    106
   ],
-  "va": "0x800DF258",
+  "va": "0x800DF2B8",
   "len": 6,
   "en": "Bomb",
   "refs": [
@@ -7542,7 +7542,7 @@
   "idx": [
    107
   ],
-  "va": "0x800DF24C",
+  "va": "0x800DF2AC",
   "len": 9,
   "en": "Throw 2",
   "refs": [
@@ -7563,7 +7563,7 @@
   "idx": [
    108
   ],
-  "va": "0x800DF244",
+  "va": "0x800DF2A4",
   "len": 8,
   "en": "Shield",
   "refs": [
@@ -7584,7 +7584,7 @@
   "idx": [
    109
   ],
-  "va": "0x800DF238",
+  "va": "0x800DF298",
   "len": 10,
   "en": "Medicine",
   "refs": [
@@ -7606,7 +7606,7 @@
    6,
    246
   ],
-  "va": "0x800E0B6C",
+  "va": "0x800E0BCC",
   "len": 12,
   "en": "Axe Knight",
   "refs": [
@@ -7628,7 +7628,7 @@
   "idx": [
    9
   ],
-  "va": "0x800E0B60",
+  "va": "0x800E0BC0",
   "len": 12,
   "en": "Sword Lord",
   "refs": [
@@ -7649,7 +7649,7 @@
   "idx": [
    11
   ],
-  "va": "0x800E0B54",
+  "va": "0x800E0BB4",
   "len": 11,
   "en": "Skelerang",
   "refs": [
@@ -7670,7 +7670,7 @@
   "idx": [
    13
   ],
-  "va": "0x800E0B44",
+  "va": "0x800E0BA4",
   "len": 15,
   "en": "Bloody Zombie",
   "refs": [
@@ -7692,7 +7692,7 @@
    14,
    15
   ],
-  "va": "0x800E0B34",
+  "va": "0x800E0B94",
   "len": 15,
   "en": "Flying Zombie",
   "refs": [
@@ -7714,7 +7714,7 @@
   "idx": [
    16
   ],
-  "va": "0x800E0B24",
+  "va": "0x800E0B84",
   "len": 15,
   "en": "Diplocephalus",
   "refs": [
@@ -7735,7 +7735,7 @@
   "idx": [
    20
   ],
-  "va": "0x800E0B18",
+  "va": "0x800E0B78",
   "len": 12,
   "en": "Owl Knight",
   "refs": [
@@ -7756,7 +7756,7 @@
   "idx": [
    22
   ],
-  "va": "0x800E0B10",
+  "va": "0x800E0B70",
   "len": 5,
   "en": "Owl",
   "refs": [
@@ -7777,7 +7777,7 @@
   "idx": [
    23
   ],
-  "va": "0x800E0B00",
+  "va": "0x800E0B60",
   "len": 14,
   "en": "Lesser Demon",
   "refs": [
@@ -7799,7 +7799,7 @@
    27,
    29
   ],
-  "va": "0x800E0AF8",
+  "va": "0x800E0B58",
   "len": 8,
   "en": "Merman",
   "refs": [
@@ -7821,7 +7821,7 @@
   "idx": [
    31
   ],
-  "va": "0x800E0AF0",
+  "va": "0x800E0B50",
   "len": 8,
   "en": "Gorgon",
   "refs": [
@@ -7842,7 +7842,7 @@
   "idx": [
    34
   ],
-  "va": "0x800E0AE4",
+  "va": "0x800E0B44",
   "len": 12,
   "en": "Armor Lord",
   "refs": [
@@ -7863,7 +7863,7 @@
   "idx": [
    37
   ],
-  "va": "0x800E0AD4",
+  "va": "0x800E0B34",
   "len": 15,
   "en": "Black Panther",
   "refs": [
@@ -7884,7 +7884,7 @@
   "idx": [
    38
   ],
-  "va": "0x800E0AC4",
+  "va": "0x800E0B24",
   "len": 14,
   "en": "Dark Octopus",
   "refs": [
@@ -7905,7 +7905,7 @@
   "idx": [
    40
   ],
-  "va": "0x800E0AB8",
+  "va": "0x800E0B18",
   "len": 10,
   "en": "Flea Man",
   "refs": [
@@ -7926,7 +7926,7 @@
   "idx": [
    41
   ],
-  "va": "0x800E0AAC",
+  "va": "0x800E0B0C",
   "len": 12,
   "en": "Flea Armor",
   "refs": [
@@ -7947,7 +7947,7 @@
   "idx": [
    43
   ],
-  "va": "0x800E0A9C",
+  "va": "0x800E0AFC",
   "len": 14,
   "en": "White Dragon",
   "refs": [
@@ -7969,7 +7969,7 @@
    45,
    46
   ],
-  "va": "0x800E0A90",
+  "va": "0x800E0AF0",
   "len": 10,
   "en": "Bone Ark",
   "refs": [
@@ -7991,7 +7991,7 @@
   "idx": [
    48
   ],
-  "va": "0x800E0A84",
+  "va": "0x800E0AE4",
   "len": 12,
   "en": "Flea Rider",
   "refs": [
@@ -8012,7 +8012,7 @@
   "idx": [
    49
   ],
-  "va": "0x800E0A78",
+  "va": "0x800E0AD8",
   "len": 12,
   "en": "Marionette",
   "refs": [
@@ -8034,7 +8034,7 @@
    50,
    55
   ],
-  "va": "0x800E0A70",
+  "va": "0x800E0AD0",
   "len": 7,
   "en": "Olrox",
   "refs": [
@@ -8056,7 +8056,7 @@
   "idx": [
    61
   ],
-  "va": "0x800E0A60",
+  "va": "0x800E0AC0",
   "len": 14,
   "en": "Wereskeleton",
   "refs": [
@@ -8077,7 +8077,7 @@
   "idx": [
    64
   ],
-  "va": "0x800DF670",
+  "va": "0x800DF6D0",
   "len": 5,
   "en": "Bat",
   "refs": [
@@ -8098,7 +8098,7 @@
   "idx": [
    65
   ],
-  "va": "0x800E0A50",
+  "va": "0x800E0AB0",
   "len": 13,
   "en": "Large Slime",
   "refs": [
@@ -8119,7 +8119,7 @@
   "idx": [
    66
   ],
-  "va": "0x800E0A48",
+  "va": "0x800E0AA8",
   "len": 7,
   "en": "Slime",
   "refs": [
@@ -8140,7 +8140,7 @@
   "idx": [
    67
   ],
-  "va": "0x800E0A38",
+  "va": "0x800E0A98",
   "len": 15,
   "en": "Phantom Skull",
   "refs": [
@@ -8161,7 +8161,7 @@
   "idx": [
    68
   ],
-  "va": "0x800E0A28",
+  "va": "0x800E0A88",
   "len": 13,
   "en": "Flail Guard",
   "refs": [
@@ -8182,7 +8182,7 @@
   "idx": [
    70
   ],
-  "va": "0x800E0A18",
+  "va": "0x800E0A78",
   "len": 16,
   "en": "Blood Skeleton",
   "refs": [
@@ -8203,7 +8203,7 @@
   "idx": [
    71
   ],
-  "va": "0x800E0A08",
+  "va": "0x800E0A68",
   "len": 16,
   "en": "Hellfire Beast",
   "refs": [
@@ -8224,7 +8224,7 @@
   "idx": [
    75
   ],
-  "va": "0x800E09FC",
+  "va": "0x800E0A5C",
   "len": 10,
   "en": "Skeleton",
   "refs": [
@@ -8246,7 +8246,7 @@
    77,
    78
   ],
-  "va": "0x800E09EC",
+  "va": "0x800E0A4C",
   "len": 13,
   "en": "Discus Lord",
   "refs": [
@@ -8268,7 +8268,7 @@
   "idx": [
    79
   ],
-  "va": "0x800E09E0",
+  "va": "0x800E0A40",
   "len": 12,
   "en": "Fire Demon",
   "refs": [
@@ -8289,7 +8289,7 @@
   "idx": [
    81
   ],
-  "va": "0x800E09D0",
+  "va": "0x800E0A30",
   "len": 14,
   "en": "Spittle Bone",
   "refs": [
@@ -8310,7 +8310,7 @@
   "idx": [
    83
   ],
-  "va": "0x800E09C0",
+  "va": "0x800E0A20",
   "len": 14,
   "en": "Skeleton Ape",
   "refs": [
@@ -8331,7 +8331,7 @@
   "idx": [
    85
   ],
-  "va": "0x800E09B4",
+  "va": "0x800E0A14",
   "len": 12,
   "en": "Stone Rose",
   "refs": [
@@ -8352,7 +8352,7 @@
   "idx": [
    88
   ],
-  "va": "0x800E09A8",
+  "va": "0x800E0A08",
   "len": 11,
   "en": "Ectoplasm",
   "refs": [
@@ -8374,7 +8374,7 @@
    90,
    183
   ],
-  "va": "0x800E0998",
+  "va": "0x800E09F8",
   "len": 13,
   "en": "Bone Pillar",
   "refs": [
@@ -8396,7 +8396,7 @@
   "idx": [
    93
   ],
-  "va": "0x800E0988",
+  "va": "0x800E09E8",
   "len": 13,
   "en": "Spear Guard",
   "refs": [
@@ -8417,7 +8417,7 @@
   "idx": [
    97
   ],
-  "va": "0x800E097C",
+  "va": "0x800E09DC",
   "len": 12,
   "en": "Plate Lord",
   "refs": [
@@ -8438,7 +8438,7 @@
   "idx": [
    99
   ],
-  "va": "0x800E096C",
+  "va": "0x800E09CC",
   "len": 14,
   "en": "Frozen Shade",
   "refs": [
@@ -8459,7 +8459,7 @@
   "idx": [
    102
   ],
-  "va": "0x800E095C",
+  "va": "0x800E09BC",
   "len": 13,
   "en": "Bone Musket",
   "refs": [
@@ -8480,7 +8480,7 @@
   "idx": [
    104
   ],
-  "va": "0x800E0950",
+  "va": "0x800E09B0",
   "len": 11,
   "en": "Dodo Bird",
   "refs": [
@@ -8501,7 +8501,7 @@
   "idx": [
    105
   ],
-  "va": "0x800E0940",
+  "va": "0x800E09A0",
   "len": 15,
   "en": "Bone Scimitar",
   "refs": [
@@ -8522,7 +8522,7 @@
   "idx": [
    106
   ],
-  "va": "0x800E0938",
+  "va": "0x800E0998",
   "len": 6,
   "en": "Toad",
   "refs": [
@@ -8543,7 +8543,7 @@
   "idx": [
    107
   ],
-  "va": "0x800E0930",
+  "va": "0x800E0990",
   "len": 6,
   "en": "Frog",
   "refs": [
@@ -8564,7 +8564,7 @@
   "idx": [
    108
   ],
-  "va": "0x800E0920",
+  "va": "0x800E0980",
   "len": 13,
   "en": "Bone Archer",
   "refs": [
@@ -8585,7 +8585,7 @@
   "idx": [
    110
   ],
-  "va": "0x800E0918",
+  "va": "0x800E0978",
   "len": 8,
   "en": "Zombie",
   "refs": [
@@ -8606,7 +8606,7 @@
   "idx": [
    111
   ],
-  "va": "0x800E0908",
+  "va": "0x800E0968",
   "len": 14,
   "en": "Grave Keeper",
   "refs": [
@@ -8627,7 +8627,7 @@
   "idx": [
    113
   ],
-  "va": "0x800E08FC",
+  "va": "0x800E095C",
   "len": 11,
   "en": "Tombstone",
   "refs": [
@@ -8648,7 +8648,7 @@
   "idx": [
    114
   ],
-  "va": "0x800E08F0",
+  "va": "0x800E0950",
   "len": 12,
   "en": "Blue Raven",
   "refs": [
@@ -8669,7 +8669,7 @@
   "idx": [
    115
   ],
-  "va": "0x800E08E4",
+  "va": "0x800E0944",
   "len": 12,
   "en": "Black Crow",
   "refs": [
@@ -8690,7 +8690,7 @@
   "idx": [
    116
   ],
-  "va": "0x800E08D4",
+  "va": "0x800E0934",
   "len": 14,
   "en": "Jack O'Bones",
   "refs": [
@@ -8711,7 +8711,7 @@
   "idx": [
    118
   ],
-  "va": "0x800E08C4",
+  "va": "0x800E0924",
   "len": 14,
   "en": "Bone Halberd",
   "refs": [
@@ -8732,7 +8732,7 @@
   "idx": [
    120
   ],
-  "va": "0x800E08BC",
+  "va": "0x800E091C",
   "len": 8,
   "en": "Yorick",
   "refs": [
@@ -8753,7 +8753,7 @@
   "idx": [
    121
   ],
-  "va": "0x800E08B4",
+  "va": "0x800E0914",
   "len": 7,
   "en": "Skull",
   "refs": [
@@ -8774,7 +8774,7 @@
   "idx": [
    122
   ],
-  "va": "0x800E08A4",
+  "va": "0x800E0904",
   "len": 14,
   "en": "Blade Master",
   "refs": [
@@ -8795,7 +8795,7 @@
   "idx": [
    124
   ],
-  "va": "0x800E0894",
+  "va": "0x800E08F4",
   "len": 15,
   "en": "Blade Soldier",
   "refs": [
@@ -8816,7 +8816,7 @@
   "idx": [
    126
   ],
-  "va": "0x800E0884",
+  "va": "0x800E08E4",
   "len": 15,
   "en": "Nova Skeleton",
   "refs": [
@@ -8837,7 +8837,7 @@
   "idx": [
    128
   ],
-  "va": "0x800E0874",
+  "va": "0x800E08D4",
   "len": 14,
   "en": "Winged Guard",
   "refs": [
@@ -8859,7 +8859,7 @@
    129,
    138
   ],
-  "va": "0x800E0864",
+  "va": "0x800E08C4",
   "len": 16,
   "en": "Spectral Sword",
   "refs": [
@@ -8881,7 +8881,7 @@
   "idx": [
    130
   ],
-  "va": "0x800E0854",
+  "va": "0x800E08B4",
   "len": 13,
   "en": "Poltergeist",
   "refs": [
@@ -8902,7 +8902,7 @@
   "idx": [
    131
   ],
-  "va": "0x800E0848",
+  "va": "0x800E08A8",
   "len": 9,
   "en": "Lossoth",
   "refs": [
@@ -8923,7 +8923,7 @@
   "idx": [
    133
   ],
-  "va": "0x800E0834",
+  "va": "0x800E0894",
   "len": 17,
   "en": "Valhalla Knight",
   "refs": [
@@ -8944,7 +8944,7 @@
   "idx": [
    136
   ],
-  "va": "0x800E0820",
+  "va": "0x800E0880",
   "len": 17,
   "en": "Spectral Sword ",
   "refs": [
@@ -8965,7 +8965,7 @@
   "idx": [
    137
   ],
-  "va": "0x800E0810",
+  "va": "0x800E0870",
   "len": 14,
   "en": "Puppet Sword",
   "refs": [
@@ -8986,7 +8986,7 @@
   "idx": [
    139
   ],
-  "va": "0x800E0808",
+  "va": "0x800E0868",
   "len": 7,
   "en": "Spear",
   "refs": [
@@ -9007,7 +9007,7 @@
   "idx": [
    140
   ],
-  "va": "0x800DF244",
+  "va": "0x800DF2A4",
   "len": 8,
   "en": "Shield",
   "refs": [
@@ -9028,7 +9028,7 @@
   "idx": [
    141
   ],
-  "va": "0x800E07FC",
+  "va": "0x800E085C",
   "len": 12,
   "en": "Orobourous",
   "refs": [
@@ -9049,7 +9049,7 @@
   "idx": [
    142
   ],
-  "va": "0x800E07F0",
+  "va": "0x800E0850",
   "len": 10,
   "en": "Oruburos",
   "refs": [
@@ -9070,7 +9070,7 @@
   "idx": [
    143
   ],
-  "va": "0x800E07E0",
+  "va": "0x800E0840",
   "len": 16,
   "en": "Oruburos Rider",
   "refs": [
@@ -9092,7 +9092,7 @@
    144,
    145
   ],
-  "va": "0x800E07D0",
+  "va": "0x800E0830",
   "len": 14,
   "en": "Dragon Rider",
   "refs": [
@@ -9114,7 +9114,7 @@
   "idx": [
    146
   ],
-  "va": "0x800E07C8",
+  "va": "0x800E0828",
   "len": 8,
   "en": "Dhuron",
   "refs": [
@@ -9135,7 +9135,7 @@
   "idx": [
    148
   ],
-  "va": "0x800E07BC",
+  "va": "0x800E081C",
   "len": 11,
   "en": "Fire Warg",
   "refs": [
@@ -9156,7 +9156,7 @@
   "idx": [
    151
   ],
-  "va": "0x800E07B0",
+  "va": "0x800E0810",
   "len": 12,
   "en": "Warg Rider",
   "refs": [
@@ -9177,7 +9177,7 @@
   "idx": [
    153
   ],
-  "va": "0x800E07A4",
+  "va": "0x800E0804",
   "len": 12,
   "en": "Cave Troll",
   "refs": [
@@ -9198,7 +9198,7 @@
   "idx": [
    156
   ],
-  "va": "0x800DF5BC",
+  "va": "0x800DF61C",
   "len": 7,
   "en": "Ghost",
   "refs": [
@@ -9219,7 +9219,7 @@
   "idx": [
    157
   ],
-  "va": "0x800E0798",
+  "va": "0x800E07F8",
   "len": 11,
   "en": "Thornweed",
   "refs": [
@@ -9241,7 +9241,7 @@
    158,
    159
   ],
-  "va": "0x800E078C",
+  "va": "0x800E07EC",
   "len": 12,
   "en": "Corpseweed",
   "refs": [
@@ -9264,7 +9264,7 @@
    161,
    162
   ],
-  "va": "0x800E0780",
+  "va": "0x800E07E0",
   "len": 12,
   "en": "Venus Weed",
   "refs": [
@@ -9286,7 +9286,7 @@
   "idx": [
    165
   ],
-  "va": "0x800E0770",
+  "va": "0x800E07D0",
   "len": 13,
   "en": "Bomb Knight",
   "refs": [
@@ -9307,7 +9307,7 @@
   "idx": [
    167
   ],
-  "va": "0x800E0760",
+  "va": "0x800E07C0",
   "len": 13,
   "en": "Rock Knight",
   "refs": [
@@ -9329,7 +9329,7 @@
    169,
    379
   ],
-  "va": "0x800E0754",
+  "va": "0x800E07B4",
   "len": 9,
   "en": "Dracula",
   "refs": [
@@ -9351,7 +9351,7 @@
   "idx": [
    172
   ],
-  "va": "0x800E0744",
+  "va": "0x800E07A4",
   "len": 15,
   "en": "Greater Demon",
   "refs": [
@@ -9372,7 +9372,7 @@
   "idx": [
    175
   ],
-  "va": "0x800E073C",
+  "va": "0x800E079C",
   "len": 6,
   "en": "Warg",
   "refs": [
@@ -9393,7 +9393,7 @@
   "idx": [
    178
   ],
-  "va": "0x800E0730",
+  "va": "0x800E0790",
   "len": 9,
   "en": "Slinger",
   "refs": [
@@ -9414,7 +9414,7 @@
   "idx": [
    180
   ],
-  "va": "0x800E0720",
+  "va": "0x800E0780",
   "len": 14,
   "en": "Corner Guard",
   "refs": [
@@ -9435,7 +9435,7 @@
   "idx": [
    182
   ],
-  "va": "0x800E0714",
+  "va": "0x800E0774",
   "len": 11,
   "en": "Bitterfly",
   "refs": [
@@ -9456,7 +9456,7 @@
   "idx": [
    185
   ],
-  "va": "0x800E0704",
+  "va": "0x800E0764",
   "len": 13,
   "en": "Spiked Ball",
   "refs": [
@@ -9477,7 +9477,7 @@
   "idx": [
    186
   ],
-  "va": "0x800DCD18",
+  "va": "0x800DCD78",
   "len": 8,
   "en": "Hammer",
   "refs": [
@@ -9498,7 +9498,7 @@
   "idx": [
    188
   ],
-  "va": "0x800E06FC",
+  "va": "0x800E075C",
   "len": 8,
   "en": "Gurkha",
   "refs": [
@@ -9519,7 +9519,7 @@
   "idx": [
    190
   ],
-  "va": "0x800E06F4",
+  "va": "0x800E0754",
   "len": 7,
   "en": "Blade",
   "refs": [
@@ -9540,7 +9540,7 @@
   "idx": [
    193
   ],
-  "va": "0x800E06E4",
+  "va": "0x800E0744",
   "len": 13,
   "en": "Ouija Table",
   "refs": [
@@ -9561,7 +9561,7 @@
   "idx": [
    195
   ],
-  "va": "0x800E06D4",
+  "va": "0x800E0734",
   "len": 16,
   "en": "Sniper of Goth",
   "refs": [
@@ -9583,7 +9583,7 @@
    198,
    199
   ],
-  "va": "0x800E06C8",
+  "va": "0x800E0728",
   "len": 10,
   "en": "Galamoth",
   "refs": [
@@ -9605,7 +9605,7 @@
   "idx": [
    203
   ],
-  "va": "0x800E06BC",
+  "va": "0x800E071C",
   "len": 12,
   "en": "Minotaurus",
   "refs": [
@@ -9627,7 +9627,7 @@
    206,
    389
   ],
-  "va": "0x800E06B0",
+  "va": "0x800E0710",
   "len": 10,
   "en": "Werewolf",
   "refs": [
@@ -9649,7 +9649,7 @@
   "idx": [
    211
   ],
-  "va": "0x800E06A0",
+  "va": "0x800E0700",
   "len": 14,
   "en": "Paranthropus",
   "refs": [
@@ -9670,7 +9670,7 @@
   "idx": [
    214
   ],
-  "va": "0x800E0698",
+  "va": "0x800E06F8",
   "len": 8,
   "en": "Mudman",
   "refs": [
@@ -9691,7 +9691,7 @@
   "idx": [
    216
   ],
-  "va": "0x800E0688",
+  "va": "0x800E06E8",
   "len": 14,
   "en": "Ghost Dancer",
   "refs": [
@@ -9712,7 +9712,7 @@
   "idx": [
    217
   ],
-  "va": "0x800E0678",
+  "va": "0x800E06D8",
   "len": 13,
   "en": "Frozen Half",
   "refs": [
@@ -9733,7 +9733,7 @@
   "idx": [
    221
   ],
-  "va": "0x800E0668",
+  "va": "0x800E06C8",
   "len": 13,
   "en": "Salem Witch",
   "refs": [
@@ -9754,7 +9754,7 @@
   "idx": [
    224
   ],
-  "va": "0x800E065C",
+  "va": "0x800E06BC",
   "len": 9,
   "en": "Azaghal",
   "refs": [
@@ -9775,7 +9775,7 @@
   "idx": [
    225
   ],
-  "va": "0x800E0650",
+  "va": "0x800E06B0",
   "len": 9,
   "en": "Gremlin",
   "refs": [
@@ -9796,7 +9796,7 @@
   "idx": [
    227
   ],
-  "va": "0x800E0640",
+  "va": "0x800E06A0",
   "len": 14,
   "en": "Hunting Girl",
   "refs": [
@@ -9817,7 +9817,7 @@
   "idx": [
    228
   ],
-  "va": "0x800E0630",
+  "va": "0x800E0690",
   "len": 14,
   "en": "Vandal Sword",
   "refs": [
@@ -9838,7 +9838,7 @@
   "idx": [
    229
   ],
-  "va": "0x800E0628",
+  "va": "0x800E0688",
   "len": 8,
   "en": "Salome",
   "refs": [
@@ -9859,7 +9859,7 @@
   "idx": [
    233
   ],
-  "va": "0x800E0620",
+  "va": "0x800E0680",
   "len": 8,
   "en": "Ctulhu",
   "refs": [
@@ -9880,7 +9880,7 @@
   "idx": [
    236
   ],
-  "va": "0x800E0614",
+  "va": "0x800E0674",
   "len": 9,
   "en": "Malachi",
   "refs": [
@@ -9901,7 +9901,7 @@
   "idx": [
    239
   ],
-  "va": "0x800E060C",
+  "va": "0x800E066C",
   "len": 7,
   "en": "Harpy",
   "refs": [
@@ -9922,7 +9922,7 @@
   "idx": [
    243
   ],
-  "va": "0x800E0604",
+  "va": "0x800E0664",
   "len": 8,
   "en": "Slogra",
   "refs": [
@@ -9943,7 +9943,7 @@
   "idx": [
    247
   ],
-  "va": "0x800E05F8",
+  "va": "0x800E0658",
   "len": 11,
   "en": "Spellbook",
   "refs": [
@@ -9965,7 +9965,7 @@
    249,
    251
   ],
-  "va": "0x800E05EC",
+  "va": "0x800E064C",
   "len": 12,
   "en": "Magic Tome",
   "refs": [
@@ -9987,7 +9987,7 @@
   "idx": [
    253
   ],
-  "va": "0x800E05DC",
+  "va": "0x800E063C",
   "len": 16,
   "en": "Doppleganger10",
   "refs": [
@@ -10008,7 +10008,7 @@
   "idx": [
    254
   ],
-  "va": "0x800E05D4",
+  "va": "0x800E0634",
   "len": 8,
   "en": "Gaibon",
   "refs": [
@@ -10029,7 +10029,7 @@
   "idx": [
    261
   ],
-  "va": "0x800E05C8",
+  "va": "0x800E0628",
   "len": 12,
   "en": "Skull Lord",
   "refs": [
@@ -10050,7 +10050,7 @@
   "idx": [
    262
   ],
-  "va": "0x800E05C0",
+  "va": "0x800E0620",
   "len": 6,
   "en": "Lion",
   "refs": [
@@ -10071,7 +10071,7 @@
   "idx": [
    264
   ],
-  "va": "0x800E05B4",
+  "va": "0x800E0614",
   "len": 9,
   "en": "Tin man",
   "refs": [
@@ -10092,7 +10092,7 @@
   "idx": [
    267
   ],
-  "va": "0x800E05A8",
+  "va": "0x800E0608",
   "len": 12,
   "en": "Akmodan II",
   "refs": [
@@ -10113,7 +10113,7 @@
   "idx": [
    271
   ],
-  "va": "0x800E0598",
+  "va": "0x800E05F8",
   "len": 16,
   "en": "Cloaked knight",
   "refs": [
@@ -10134,7 +10134,7 @@
   "idx": [
    273
   ],
-  "va": "0x800E0588",
+  "va": "0x800E05E8",
   "len": 14,
   "en": "Darkwing Bat",
   "refs": [
@@ -10155,7 +10155,7 @@
   "idx": [
    277
   ],
-  "va": "0x800E057C",
+  "va": "0x800E05DC",
   "len": 10,
   "en": "Fishhead",
   "refs": [
@@ -10176,7 +10176,7 @@
   "idx": [
    280
   ],
-  "va": "0x800E0570",
+  "va": "0x800E05D0",
   "len": 11,
   "en": "Karasuman",
   "refs": [
@@ -10197,7 +10197,7 @@
   "idx": [
    284
   ],
-  "va": "0x800E0568",
+  "va": "0x800E05C8",
   "len": 5,
   "en": "Imp",
   "refs": [
@@ -10218,7 +10218,7 @@
   "idx": [
    285
   ],
-  "va": "0x800E0558",
+  "va": "0x800E05B8",
   "len": 13,
   "en": "Balloon pod",
   "refs": [
@@ -10239,7 +10239,7 @@
   "idx": [
    287
   ],
-  "va": "0x800E0550",
+  "va": "0x800E05B0",
   "len": 8,
   "en": "Scylla",
   "refs": [
@@ -10260,7 +10260,7 @@
   "idx": [
    294
   ],
-  "va": "0x800E0540",
+  "va": "0x800E05A0",
   "len": 13,
   "en": "Scylla wyrm",
   "refs": [
@@ -10282,7 +10282,7 @@
    295,
    296
   ],
-  "va": "0x800E0534",
+  "va": "0x800E0594",
   "len": 12,
   "en": "Granfaloon",
   "refs": [
@@ -10304,7 +10304,7 @@
   "idx": [
    300
   ],
-  "va": "0x800E0528",
+  "va": "0x800E0588",
   "len": 12,
   "en": "Hippogryph",
   "refs": [
@@ -10326,7 +10326,7 @@
    303,
    304
   ],
-  "va": "0x800E0518",
+  "va": "0x800E0578",
   "len": 13,
   "en": "Medusa Head",
   "refs": [
@@ -10348,7 +10348,7 @@
   "idx": [
    305
   ],
-  "va": "0x800E0510",
+  "va": "0x800E0570",
   "len": 8,
   "en": "Archer",
   "refs": [
@@ -10369,7 +10369,7 @@
   "idx": [
    307
   ],
-  "va": "0x800E04FC",
+  "va": "0x800E055C",
   "len": 17,
   "en": "Richter Belmont",
   "refs": [
@@ -10390,7 +10390,7 @@
   "idx": [
    322
   ],
-  "va": "0x800E04F0",
+  "va": "0x800E0550",
   "len": 11,
   "en": "Scarecrow",
   "refs": [
@@ -10411,7 +10411,7 @@
   "idx": [
    323
   ],
-  "va": "0x800E04E8",
+  "va": "0x800E0548",
   "len": 8,
   "en": "Schmoo",
   "refs": [
@@ -10432,7 +10432,7 @@
   "idx": [
    324
   ],
-  "va": "0x800E04DC",
+  "va": "0x800E053C",
   "len": 11,
   "en": "Beezelbub",
   "refs": [
@@ -10453,7 +10453,7 @@
   "idx": [
    328
   ],
-  "va": "0x800E04CC",
+  "va": "0x800E052C",
   "len": 13,
   "en": "Fake Trevor",
   "refs": [
@@ -10474,7 +10474,7 @@
   "idx": [
    334
   ],
-  "va": "0x800E04C0",
+  "va": "0x800E0520",
   "len": 12,
   "en": "Fake Grant",
   "refs": [
@@ -10495,7 +10495,7 @@
   "idx": [
    337
   ],
-  "va": "0x800E04B4",
+  "va": "0x800E0514",
   "len": 12,
   "en": "Fake Sypha",
   "refs": [
@@ -10516,7 +10516,7 @@
   "idx": [
    342
   ],
-  "va": "0x800E04A8",
+  "va": "0x800E0508",
   "len": 10,
   "en": "Succubus",
   "refs": [
@@ -10537,7 +10537,7 @@
   "idx": [
    350
   ],
-  "va": "0x800E0498",
+  "va": "0x800E04F8",
   "len": 13,
   "en": "Killer Fish",
   "refs": [
@@ -10558,7 +10558,7 @@
   "idx": [
    351
   ],
-  "va": "0x800E0490",
+  "va": "0x800E04F0",
   "len": 7,
   "en": "Shaft",
   "refs": [
@@ -10580,7 +10580,7 @@
    356,
    361
   ],
-  "va": "0x800E0488",
+  "va": "0x800E04E8",
   "len": 7,
   "en": "Death",
   "refs": [
@@ -10602,7 +10602,7 @@
   "idx": [
    363
   ],
-  "va": "0x800E047C",
+  "va": "0x800E04DC",
   "len": 10,
   "en": "Cerberos",
   "refs": [
@@ -10623,7 +10623,7 @@
   "idx": [
    366
   ],
-  "va": "0x800E0474",
+  "va": "0x800E04D4",
   "len": 8,
   "en": "Medusa",
   "refs": [
@@ -10644,7 +10644,7 @@
   "idx": [
    370
   ],
-  "va": "0x800E0464",
+  "va": "0x800E04C4",
   "len": 14,
   "en": "The Creature",
   "refs": [
@@ -10665,7 +10665,7 @@
   "idx": [
    372
   ],
-  "va": "0x800E0454",
+  "va": "0x800E04B4",
   "len": 16,
   "en": "Doppleganger40",
   "refs": [
@@ -10686,7 +10686,7 @@
   "idx": [
    384
   ],
-  "va": "0x800E0444",
+  "va": "0x800E04A4",
   "len": 13,
   "en": "Stone Skull",
   "refs": [
@@ -10707,7 +10707,7 @@
   "idx": [
    386
   ],
-  "va": "0x800E0438",
+  "va": "0x800E0498",
   "len": 10,
   "en": "Minotaur",
   "refs": [
@@ -10729,7 +10729,7 @@
    392,
    393
   ],
-  "va": "0x800E0424",
+  "va": "0x800E0484",
   "len": 17,
   "en": "Blue Venus Weed",
   "refs": [
@@ -10751,7 +10751,7 @@
   "idx": [
    396
   ],
-  "va": "0x800E0418",
+  "va": "0x800E0478",
   "len": 10,
   "en": "Guardian",
   "refs": [
@@ -10774,7 +10774,7 @@
    415,
    416
   ],
-  "va": "0x800E040C",
+  "va": "0x800E046C",
   "len": 10,
   "en": "Gargoyle",
   "refs": [
@@ -10795,7 +10795,7 @@
   "idx": [
    401
   ],
-  "va": "0x800E03FC",
+  "va": "0x800E045C",
   "len": 14,
   "en": "Copper Armor",
   "refs": [
@@ -10814,7 +10814,7 @@
   "idx": [
    402
   ],
-  "va": "0x800E03F4",
+  "va": "0x800E0454",
   "len": 7,
   "en": "Ifrit",
   "refs": [
@@ -10833,7 +10833,7 @@
   "idx": [
    404
   ],
-  "va": "0x800E03E0",
+  "va": "0x800E0440",
   "len": 17,
   "en": "Skeleton Leader",
   "refs": [
@@ -10852,7 +10852,7 @@
   "idx": [
    405
   ],
-  "va": "0x800E03D4",
+  "va": "0x800E0434",
   "len": 10,
   "en": "Gardener",
   "refs": [
@@ -10871,7 +10871,7 @@
   "idx": [
    406
   ],
-  "va": "0x800E03C0",
+  "va": "0x800E0420",
   "len": 17,
   "en": "Human Face Tree",
   "refs": [
@@ -10890,7 +10890,7 @@
   "idx": [
    408
   ],
-  "va": "0x800E03B8",
+  "va": "0x800E0418",
   "len": 7,
   "en": "Maria",
   "refs": [
@@ -10909,7 +10909,7 @@
   "idx": [
    413
   ],
-  "va": "0x800E03A8",
+  "va": "0x800E0408",
   "len": 14,
   "en": "Water Leaper",
   "refs": [
@@ -10928,7 +10928,7 @@
   "idx": [
    414
   ],
-  "va": "0x800E039C",
+  "va": "0x800E03FC",
   "len": 11,
   "en": "Man Eater",
   "refs": [
@@ -10947,7 +10947,7 @@
   "idx": [
    417
   ],
-  "va": "0x800E0390",
+  "va": "0x800E03F0",
   "len": 9,
   "en": "Specter",
   "refs": [
@@ -10966,7 +10966,7 @@
   "idx": [
    418
   ],
-  "va": "0x800E0380",
+  "va": "0x800E03E0",
   "len": 14,
   "en": "Will O' Wisp",
   "refs": [
@@ -10985,7 +10985,7 @@
   "idx": [
    420
   ],
-  "va": "0x800E0370",
+  "va": "0x800E03D0",
   "len": 15,
   "en": "Skel. Breeder",
   "refs": [
@@ -11004,7 +11004,7 @@
   "idx": [
    421
   ],
-  "va": "0x800E0360",
+  "va": "0x800E03C0",
   "len": 16,
   "en": "Skeleton Beast",
   "refs": [
@@ -11023,7 +11023,7 @@
   "idx": [
    423
   ],
-  "va": "0x800E0358",
+  "va": "0x800E03B8",
   "len": 7,
   "en": "Wight",
   "refs": [
@@ -11042,7 +11042,7 @@
   "idx": [
    424
   ],
-  "va": "0x800E0350",
+  "va": "0x800E03B0",
   "len": 8,
   "en": "Wraith",
   "refs": [
@@ -11061,7 +11061,7 @@
   "idx": [
    425
   ],
-  "va": "0x800E0340",
+  "va": "0x800E03A0",
   "len": 16,
   "en": "Skel. Guardian",
   "refs": [
@@ -11080,18 +11080,18 @@
   "idx": [
    0
   ],
-  "va": "0x800DC064",
+  "va": "0x800DC0BC",
   "len": 8,
   "en": "Holder",
   "refs": [],
   "code_refs": [
    [
-    347332,
-    347336
+    347216,
+    347220
    ],
    [
-    350052,
-    350056
+    349936,
+    349940
    ]
   ],
   "engine": "A",
@@ -11107,7 +11107,7 @@
   "idx": [
    0
   ],
-  "va": "0x800DC05C",
+  "va": "0x800DC0B4",
   "len": 4,
   "en": "ATT",
   "refs": [
@@ -11126,7 +11126,7 @@
   "idx": [
    0
   ],
-  "va": "0x800DC054",
+  "va": "0x800DC0AC",
   "len": 4,
   "en": "DEF",
   "refs": [

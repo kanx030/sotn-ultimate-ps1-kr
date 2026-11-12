@@ -24,6 +24,7 @@ entry hook: a string starting FE dx dy is drawn with engine C (indices follow) a
 labels switch engine without touching the call sites. dx/dy copy K's positions for the same call.
 """
 import os, sys, json, struct
+from addrmap import dra as _R      # DRA address of the old base (v1.2) -> current base, signature-checked
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from asm import Asm, _i, jal_word
@@ -49,7 +50,7 @@ TABLES = {
     'enemy': ((0x800A8544, 426, 0x28), (0x800A8908, 400, 0x28)),
 }
 LIMIT = {'equip': 16, 'acc': 16, 'enemy': 16}   # inventory: 128 px (count at x+128); enemy: same width
-HOLDER = 0x800DC064            # "Holder" (button config 0x800F4CC8, status 0x800F5768): rewritten in place
+HOLDER = _R(0x800DC064)            # "Holder" (button config 0x800F4CC8, status 0x800F5768): rewritten in place
 FONT_RAM_K = (0x801F0000, 0x80200000, 0x243E8)   # K names live in K's font RAM block (K exe file offset)
 
 FGAME_SHEET = (0x30000, 0x32000)
@@ -252,15 +253,15 @@ for _n in range(11):
     ENGC[99 + _n] = (0x2D8C + 4 * _n, 0, -4)
 K_SETS = (0x2D64, 0x2D68, 0x2D6C)        # K ptrs to the three 16-glyph set strings
 K_ATT, K_DEF = 0x2D70, 0x2D74
-U_SETPTR, U_ATT, U_DEF = 0x2B30, 0x2B34, 0x2B38
+U_SETPTR, U_ATT, U_DEF = (_R(0x800A2B30) - BASE, _R(0x800A2B34) - BASE, _R(0x800A2B38) - BASE)
 
 # ------------------------------------------------------------------ code patch points (US file offsets)
-OVL_Y = 0x800F4544                       # addiu a2,a2,-8  -> -2 (K 0x800F6B48)
-MDS = 0x800F4494                         # MenuDrawStr entry
+OVL_Y = _R(0x800F4544)                       # addiu a2,a2,-8  -> -2 (K 0x800F6B48)
+MDS = _R(0x800F4494)                         # MenuDrawStr entry
 MDS_ORIG = bytes.fromhex('d8ffbd272000b4af1380143c')
-LABEL = 0x800F4364                       # 12x16 label drawer
-SETR = 0x800F76F4                        # 2-byte set renderer
-SETCALL = 0x800F9DEC                     # jal 0x800F76F4 (a0 = *0x800A2B30, a1 = 0)
+LABEL = _R(0x800F4364)                       # 12x16 label drawer
+SETR = _R(0x800F76F4)                        # 2-byte set renderer
+SETCALL = _R(0x800F9DEC)                     # jal 0x800F76F4 (a0 = *0x800A2B30, a1 = 0)
 FLAG = 0x8013784C                        # MenuDrawSprite grey/combo colour flag
 
 
@@ -376,8 +377,8 @@ def build_entries():
             e['limit'] = LIMIT[cat]
         ents.append(e)
     ents.append({'id': 'holder', 'cat': 'holder', 'idx': [0], 'va': HOLDER, 'len': 8, 'en': 'Holder',
-                 'refs': [], 'code_refs': [[0x800F4CC4 - BASE, 0x800F4CC8 - BASE],
-                                           [0x800F5764 - BASE, 0x800F5768 - BASE]],
+                 'refs': [], 'code_refs': [[_R(0x800F4CC4) - BASE, _R(0x800F4CC8) - BASE],
+                                           [_R(0x800F5764) - BASE, _R(0x800F5768) - BASE]],
                  'engine': 'A', 'ko': '홀더', 'in_place': True})
     for nm, kp, up in (('att', K_ATT, U_ATT), ('def', K_DEF, U_DEF)):
         idx = k_index(kp)
@@ -546,7 +547,7 @@ def _other_file_refs(lo, hi):
 
 EQUIP_ICON = (0x800A499C + 0x2C, 0x34, 228)
 ACC_ICON = (0x800A77EC + 0x18, 0x20, 93)
-RELIC_ICON = (0x800DFC28 + 0x08, 0x10, 31)
+RELIC_ICON = (_R(0x800DFC28) + 0x08, 0x10, 31)
 ICON_BASE = 0x800C5324
 ICON_FREE = (276, 320)
 
@@ -556,7 +557,7 @@ def _referenced(U):
     """all addresses in the string/icon areas named by a data word or a lui/addiu|ori pair in US DRA."""
     global _REFD
     if _REFD is None:
-        lo, hi = 0x800C0000, 0x800E2000
+        lo, hi = 0x800C0000, 0x800E2100
         r = set(_data_ptrs(U, lo, hi))
         for o in range(0x40000, len(U) - 4, 4):
             x = w32(U, o)
@@ -621,7 +622,7 @@ def patch_dra_a(dra, ents=None, report=None):
     chk(SETR, bytes.fromhex('d0ffbd27'))
     chk(SETCALL - 8, bytes.fromhex('0a80043c302b848c') + jal_word(SETR) + bytes.fromhex('21280000'))
     chk(UTXT_COPY, UTXT_COPY_ORIG)
-    assert w32(dra, U_SETPTR) == 0x800DC048
+    assert w32(dra, U_SETPTR) == _R(0x800DC048)
     # ---- free pool: English spans of strings we replace (not shared with engine B, not in place)
     bsp = _b_spans()
     pool = [e for e in todo if not e.get('in_place')]
@@ -630,11 +631,11 @@ def patch_dra_a(dra, ents=None, report=None):
         for x, y in bsp:
             assert b <= x or y <= a, ('overlaps engine-B span', e['id'])
     extra = []                                       # ATT/DEF set string 0x800DC048 (ＡＴＤＥＦ + NUL)
-    so = 0x800DC048 - BASE
+    so = _R(0x800DC048) - BASE
     setlen = U.index(b'\0', so) - so + 1
-    extra.append({'id': 'set_en', 'va': 0x800DC048, 'len': setlen, 'refs': [U_SETPTR]})
+    extra.append({'id': 'set_en', 'va': _R(0x800DC048), 'len': setlen, 'refs': [U_SETPTR]})
     for x, y in bsp:
-        assert 0x800DC048 + setlen <= x or y <= 0x800DC048
+        assert _R(0x800DC048) + setlen <= x or y <= _R(0x800DC048)
     probs = _check_refs(U, pool + extra)
     assert not probs, probs[:10]
     free = []
@@ -722,7 +723,7 @@ def patch_dra_a(dra, ents=None, report=None):
 #     DRA 0x800E3D3C copies the variant picked by an option bit over dest every time it runs.
 # Both write English into our Korean strings (dest follows the relocated pointers), so the whole function is
 # made to return at once (it only does text). DRA's copier is disabled as well (patch_dra_a).
-SEL_TABLES = {0: (0x800A499C, 0x34), 1: (0x800A77EC, 0x20), 2: (0x800A8544, 0x28), 3: (0x800DFC28, 0x10)}
+SEL_TABLES = {0: (0x800A499C, 0x34), 1: (0x800A77EC, 0x20), 2: (0x800A8544, 0x28), 3: (_R(0x800DFC28), 0x10)}
 
 
 def sel_writes(dra, sel):
@@ -732,18 +733,23 @@ def sel_writes(dra, sel):
         b = SEL_TABLES.get(t, (0x800A838C, 4))[0]
         return b + off
     for k in range(23):
-        t, cl, off, skip, al, adv, _ = struct.unpack_from('<BBHBBBB', sel, 0x2F994 + 8 * k)
+        t, cl, off, skip, al, adv, _ = struct.unpack_from('<BBHBBBB', sel, SEL_TAB1 + 8 * k)
         out.append((field(t, off), 4))
     for k in range(9):
-        b0, _, off, ln, _ = struct.unpack_from('<BBHBB', sel, 0x2FAE4 + 6 * k)
+        b0, _, off, ln, _ = struct.unpack_from('<BBHBB', sel, SEL_TAB2 + 6 * k)
         f = field(b0 & 7, off)
         out.append((w32(dra, f - BASE) + (b0 >> 3), ln))
     return out
 
 
-SEL_FUNC = 0x337AC                       # file offset of 0x801B37AC
+import addrmap as _am
+SEL_FUNC_VA = _am.ovl('ST/SEL/SEL.BIN', 0x801B37AC)      # v1.2 0x801B37AC
+SEL_FUNC = SEL_FUNC_VA - 0x80180000
+SEL_CALL = _am.ovl('ST/SEL/SEL.BIN', 0x801B3A30) - 0x80180000   # v1.2 0x801B3A30: jal SEL_FUNC
+SEL_TAB1 = _am.ovl('ST/SEL/SEL.BIN', 0x801AF994) - 0x80180000
+SEL_TAB2 = _am.ovl('ST/SEL/SEL.BIN', 0x801AFAE4) - 0x80180000
 SEL_FUNC_ORIG = bytes.fromhex('c0ffbd273400b5af1380153c')
-UTXT_COPY = 0x800E3D3C
+UTXT_COPY = _R(0x800E3D3C)
 UTXT_COPY_ORIG = bytes.fromhex('5854033c1380083c')
 
 
@@ -753,8 +759,8 @@ def patch_sel(name, data):
         return data
     o = SEL_FUNC
     assert data[o:o + len(SEL_FUNC_ORIG)] == SEL_FUNC_ORIG, (name, data[o:o + 12].hex())
-    j = struct.pack('<I', (3 << 26) | ((0x801B37AC >> 2) & 0x3FFFFFF))
-    assert data[0x801B3A30 - 0x80180000:0x801B3A30 - 0x80180000 + 4] == j, name
+    j = struct.pack('<I', (3 << 26) | ((SEL_FUNC_VA >> 2) & 0x3FFFFFF))
+    assert data[SEL_CALL:SEL_CALL + 4] == j, name
     return data[:o] + bytes.fromhex('0800e00300000000') + data[o + 8:]
 
 
