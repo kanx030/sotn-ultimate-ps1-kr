@@ -12,6 +12,34 @@ SOTN Ultimate (PS1 Version) v1.2.bin  (원본 이미지, 한 트랙짜리)
 
 ※ 게임 이미지는 함께 주지 않습니다. 직접 준비해 주세요.
 
+원본 이미지 만드는 법
+--------------------
+이 패치의 원본 "SOTN Ultimate (PS1 Version) v1.2.bin"은 팬 개조판 제작 페이지(builder.html)로
+직접 만듭니다. 세 가지 게임 디스크 이미지가 필요합니다.
+
+  1. PS1 북미판 - Castlevania: Symphony of the Night (SLUS-00067)
+     파일: Castlevania - Symphony of the Night (USA) (Track 1).bin   (Redump, 데이터 트랙만)
+     MD5: acbb3a2e4a8f865f363dc06df147afa2
+
+  2. 새턴 일본판 - 악마성 드라큘라 X 월하의 야상곡 (T-9527G, 1.400판)
+     파일: Akumajou Dracula X - Gekka no Yasoukyoku (Japan) (Track 01).bin   (Redump, 데이터 트랙만)
+     MD5: 32f037579707e192320db6e8f24ef571
+
+  3. PSP 북미판 - Castlevania: The Dracula X Chronicles (ULUS-10277)
+     파일: Castlevania - The Dracula X Chronicles (USA).iso   (유럽판은 안 됨)
+     MD5: 9734bc89f4956324c28df897e25f1a71
+
+만드는 순서
+  1. 반드시 v1.2판 제작 페이지를 받습니다 (v1.3, v1.4로 만든 이미지에는 이 패치가 맞지 않습니다).
+     https://archive.org/download/castlevania_sotn_ultimate_v1_2  ->  builder.html
+  2. builder.html을 PC의 크롬/엣지/파이어폭스로 열고, 위 세 이미지를 끌어다 놓습니다.
+  3. "Build the disc"를 누르고 기다린 뒤 .bin과 .cue를 저장합니다.
+  4. 결과 MD5가 b8b9cd07c9251919bcf02c8ebbb4602b 이면 이 한글 패치를 적용할 수 있습니다.
+
+개조판 정보
+  - romhacking.net: https://www.romhacking.net/hacks/10241/
+  - 제작 소스(GitHub): https://github.com/renanbianchi/sotn-ultimate
+
 
 적용 방법
 ---------
@@ -20,7 +48,7 @@ SOTN Ultimate (PS1 Version) v1.2.bin  (원본 이미지, 한 트랙짜리)
    패치 파일: SOTN_Ultimate_KR.xdelta
 3. 결과 파일 이름을 SOTN_Ultimate_KR.bin 으로 저장합니다.
 4. 함께 든 SOTN_Ultimate_KR.cue 를 같은 폴더에 두고, cue 파일로 실행합니다.
-   결과 MD5: 8991fbb733e6b8f5b316ad508c3cf648
+   결과 MD5: 2c35696f65e0a178f9de1c6d9902609f
 
 명령줄 예:
   xdelta3 -d -s "SOTN Ultimate (PS1 Version) v1.2.bin" SOTN_Ultimate_KR.xdelta SOTN_Ultimate_KR.bin
@@ -48,6 +76,17 @@ SOTN Ultimate (PS1 Version) v1.2.bin  (원본 이미지, 한 트랙짜리)
 - 일시정지 메뉴 큰 글씨를 갈무리 글꼴로 정리
 - 리히터·마리아 이름표 한글 다듬음, 불러오는 중 화면 "얼티메이트" 글씨 정리
 - 신속의 신발: 켜 두면 두 번 누르지 않아도 늘 달림 (마도기 메뉴에서 끌 수 있음)
+- 치트 추가 (아래 "치트" 참고)
+
+
+치트
+----
+- 알카드: 일시정지 -> 설정 -> "치트"
+  HP/MP/하트 무한, 무적, 골드 999999, 마도기 전부(신속의 신발 포함), 마법 전부,
+  아이템 전부 9개, 장비 전부 9개, 능력치 99, 레벨 업
+- 리히터·마리아: 일시정지 화면에서
+  L1+R1 = HP 무한 켜기/끄기,  L2+R2 = 하트 무한 켜기/끄기
+  (화면에 켬/끔이 표시됩니다. 일시정지 중에만 바꿀 수 있습니다.)
 
 
 확인된 실행 환경

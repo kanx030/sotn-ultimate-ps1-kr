@@ -78,7 +78,7 @@ def stub_code():
     a.label('l')
     a.lw('t3', 0, 't0'); a.addiu('t0', 't0', 4); a.sw('t3', 0, 't1')
     a.bne('t0', 't2', 'l'); a.addiu('t1', 't1', 4)
-    if TEST:                                   # cheat menu blob (test builds): EXE BSS -> free RAM below DRA
+    if CHEATS:                                 # cheat menu blob: EXE BSS -> free RAM below DRA
         import cheatmenu
         a.li('t0', CHEAT_SRC); a.li('t1', cheatmenu.CHEAT_RAM); a.li('t2', CHEAT_SRC + cheatmenu.CHEAT_SIZE)
         a.label('c')
@@ -128,7 +128,7 @@ def patch_exe(exe):
     o = exe_off(FONT_SRC); exe[o:o + 0xF000] = font
     st = stub_code(); o = exe_off(STUB_VA); exe[o:o + len(st)] = st
     assert STUB_VA + len(st) <= CHEAT_SRC
-    if TEST:
+    if CHEATS:
         import cheatmenu
         _, cb = cheatmenu.blob(); o = exe_off(CHEAT_SRC)
         assert not any(exe[o:o + cheatmenu.CHEAT_SIZE]); exe[o:o + len(cb)] = cb
@@ -150,6 +150,7 @@ def padhook_code():
     return a.assemble()
 
 TEST = False
+CHEATS = True                                  # cheat window + Richter/Maria pause cheats (release too, user 11-12)
 
 ST0HELP_RAM = EXT_RAM + 0x200
 
@@ -449,6 +450,7 @@ def patch_dra(dra):
         o = 0x800E6914 - 0x800A0000
         assert dra[o:o + 4] == jal_word(0x80015288)
         dra[o:o + 4] = jal_word(PADHOOK_RAM)
+    if CHEATS:
         import cheatmenu                       # cheat window (per-frame toggles hook)
         o = cheatmenu.HOOK_VA - 0x800A0000
         assert dra[o:o + 4] == jal_word(cheatmenu.PADREP)
@@ -576,6 +578,7 @@ def main(out):
 if __name__ == '__main__':
     if '--test' in sys.argv:
         TEST = True; sys.argv.remove('--test')
+    if CHEATS:
         import cheatmenu; cheatmenu.ENABLED = True
     main(sys.argv[1])
 

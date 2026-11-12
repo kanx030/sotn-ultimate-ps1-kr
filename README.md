@@ -9,12 +9,28 @@
 - 원본: `SOTN Ultimate (PS1 Version) v1.2.bin` (MD5 `b8b9cd07c9251919bcf02c8ebbb4602b`)
 - 게임 이미지는 제공하지 않습니다.
 
+## 원본 이미지 만드는 법
+원본 `SOTN Ultimate (PS1 Version) v1.2.bin`은 개조판 제작 페이지(`builder.html`)로 직접 만듭니다. 디스크 이미지 세 개가 필요합니다.
+
+| 게임 | 파일 (Redump 등) | MD5 |
+|---|---|---|
+| PS1 북미판 Castlevania: Symphony of the Night (SLUS-00067) | `Castlevania - Symphony of the Night (USA) (Track 1).bin` | `acbb3a2e4a8f865f363dc06df147afa2` |
+| 새턴 일본판 악마성 드라큘라 X 월하의 야상곡 (T-9527G, 1.400판) | `Akumajou Dracula X - Gekka no Yasoukyoku (Japan) (Track 01).bin` | `32f037579707e192320db6e8f24ef571` |
+| PSP 북미판 Castlevania: The Dracula X Chronicles (ULUS-10277) | `Castlevania - The Dracula X Chronicles (USA).iso` | `9734bc89f4956324c28df897e25f1a71` |
+
+1. **v1.2판** 제작 페이지를 받습니다: [archive.org - SOTN Ultimate v1.2](https://archive.org/download/castlevania_sotn_ultimate_v1_2) (`builder.html`). v1.3·v1.4로 만든 이미지에는 이 패치가 맞지 않습니다.
+2. `builder.html`을 PC 브라우저로 열고 세 이미지를 끌어다 놓은 뒤 "Build the disc"를 누릅니다.
+3. 저장한 .bin의 MD5가 `b8b9cd07c9251919bcf02c8ebbb4602b`이면 됩니다.
+
+개조판 정보: [romhacking.net](https://www.romhacking.net/hacks/10241/) · [제작 소스(GitHub)](https://github.com/renanbianchi/sotn-ultimate)
+
 ## 화면
 | | |
 |---|---|
 | ![제목](스크린샷/1_제목화면.png) | ![캐릭터 선택](스크린샷/7_캐릭터선택.png) |
 | ![PS1 영어 음성 대사](스크린샷/3_대사_PS1영어음성.png) | ![PSP 음성 대사](스크린샷/5_대사_PSP음성.png) |
 | ![일본어 음성 대사](스크린샷/4_대사_일본어음성.png) | ![불러오는 중](스크린샷/2_불러오는중.png) |
+| ![알카드 치트 창](스크린샷/6_치트메뉴.png) | ![리히터·마리아 치트](스크린샷/8_리히터마리아치트.png) |
 
 ## 특징
 - 음성 설정마다 따로 맞춘 대본: PS1 영어 음성, PSP 영어 음성, 일본어 음성
@@ -22,8 +38,16 @@
 - 켤 때 코나미 영상을 건너뛰어 제목 화면이 빨리 뜸
 - 모든 한글은 갈무리 글꼴(OFL)로 통일
 
+## 치트
+- **알카드:** 일시정지 → 설정 → **치트**
+  - HP/MP/하트 무한, 무적, 골드 999999, 마도기 전부(신속의 신발 포함), 마법 전부, 아이템 전부 9개, 장비 전부 9개, 능력치 99, 레벨 업
+- **리히터·마리아:** 일시정지 화면에서
+  - **L1+R1**: HP 무한 켜기/끄기
+  - **L2+R2**: 하트 무한 켜기/끄기
+  - 화면에 지금 켜졌는지(켬/끔) 표시됩니다. 일시정지 중에만 바꿀 수 있습니다.
+
 ## 저장소 구성
-- `tools/` 빌드 도구 (Python). 진입점 `tools/build.py <out.bin>` (`--test`는 시험용 치트 메뉴와 입력 훅 포함)
+- `tools/` 빌드 도구 (Python). 진입점 `tools/build.py <out.bin>` (`--test`는 시험용 입력 훅 포함)
 - `work/trans/` 번역 시트 (PS1 영어 음성 `*.json`, PSP 음성 `*.psp.json`, 메뉴·설명 `DRA_*.json` 등)
 - `오프닝자막.txt` 오프닝 자막 편집용 텍스트
 - `진행상황.md` 작업 기록
