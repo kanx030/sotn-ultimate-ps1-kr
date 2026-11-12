@@ -20,7 +20,7 @@ SOTN Ultimate (PS1 Version) v1.2.bin  (원본 이미지, 한 트랙짜리)
    패치 파일: SOTN_Ultimate_KR.xdelta
 3. 결과 파일 이름을 SOTN_Ultimate_KR.bin 으로 저장합니다.
 4. 함께 든 SOTN_Ultimate_KR.cue 를 같은 폴더에 두고, cue 파일로 실행합니다.
-   결과 MD5: 98627159890bdf936a4c02d4868be6b5
+   결과 MD5: 5472d56a18dfdc8ea1719d2d4b5c4963
 
 명령줄 예:
   xdelta3 -d -s "SOTN Ultimate (PS1 Version) v1.2.bin" SOTN_Ultimate_KR.xdelta SOTN_Ultimate_KR.bin
@@ -46,7 +46,7 @@ v1.1 바뀐 점
 - 게임오버 문구 "영원한 안식" (흰색에서 핏빛으로 물듦)
 - 상태 변화 알림 글자 뒤 네모 상자 제거
 - 일시정지 메뉴 큰 글씨를 갈무리 글꼴로 정리
-- 마리아로 시작할 때 이름표 한글
+- 리히터·마리아 이름표 한글 다듬음, 불러오는 중 화면 "얼티메이트" 글씨 정리
 - 신속의 신발: 켜 두면 두 번 누르지 않아도 늘 달림 (마도기 메뉴에서 끌 수 있음)
 
 
