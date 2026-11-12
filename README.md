@@ -1,35 +1,35 @@
 # 악마성 드라큘라 X 월하의 야상곡 얼티메이트 (PS1) 한글화
 
-팬 개조판 **SOTN Ultimate (PS1 Version) v1.2** 를 한글로 옮기는 패치와 그 제작 도구입니다.
+팬 개조판 **SOTN Ultimate (PS1 Version) v1.4** 를 한글로 옮기는 패치와 그 제작 도구입니다.
 대사, 메뉴, 아이템, 지역 이름, 제목·불러오는 중 화면 그림까지 한글로 바꿨습니다.
 
 ## 받기
-[배포 페이지](../../releases)에서 xdelta 패치를 받아 원본 이미지에 적용하세요. 자세한 방법은 압축 파일 안 `읽어주세요.txt`에 있습니다.
+[배포 페이지](../../releases)에서 **원본 판에 맞는** xdelta 패치를 받아 원본 이미지에 적용하세요 (최신: `ult-v1.4`). 자세한 방법은 압축 파일 안 `읽어주세요.txt`에 있습니다.
 
-- 원본: `SOTN Ultimate (PS1 Version) v1.2.bin` (683,034,912바이트)
-  - CRC32 `ecac98b7`
-  - MD5 `b8b9cd07c9251919bcf02c8ebbb4602b`
-  - SHA-1 `77c9db3ec51146511e80a3014561facde7942555`
-  - SHA-256 `72d3f35621984a80fa6a16fd2ca12083fb5d02072c09f456746910dab4d1a244`
+- 원본: `SOTN Ultimate (PS1 Version) v1.4.bin` (704,762,688바이트)
+  - CRC32 `9b22d649`
+  - MD5 `901d74656aedbd8da3050d6a3716f32f`
+  - SHA-1 `23bf226690c43663c93f75c4c82bb051d6eb15e1`
+  - SHA-256 `c6ee705c8dc5f8beee0a11f7fc531eb671d7c02eeef0f6f23527dc4f2a925b4c`
 - 패치 결과: `SOTN_Ultimate_KR.bin`
-  - CRC32 `55775ba5`
-  - MD5 `2c35696f65e0a178f9de1c6d9902609f`
-  - SHA-1 `7b806cd2185ec500d27f7c34ef0102c3ec3e0d64`
-  - SHA-256 `c084a745daaa37351a86067b5665bec313a04e88a6f31289e5cee25110369680`
+  - CRC32 `8d0c6dad`
+  - MD5 `07c2f2090a9db3cf002dc0ec58c052e7`
+  - SHA-1 `7240c481dcdb0670237bfbd6d4f8cb979ba49f18`
+  - SHA-256 `6f543d6e3a0220b655a01eed1dcf2ad7bcc46ffb2b4fa4a35ce56c70915fab60`
 - 게임 이미지는 제공하지 않습니다.
 
 ## 원본 이미지 만드는 법
-원본 `SOTN Ultimate (PS1 Version) v1.2.bin`은 개조판 제작 페이지(`builder.html`)로 직접 만듭니다. 디스크 이미지 세 개가 필요합니다.
+원본 `SOTN Ultimate (PS1 Version) v1.4.bin`은 개조판 제작 페이지(`builder.html`)로 직접 만듭니다. 디스크 이미지 세 개가 필요합니다.
 
 | 게임 | 파일 (Redump 등) | 크기 · CRC32 · MD5 |
 |---|---|---|
 | PS1 북미판 Castlevania: Symphony of the Night (SLUS-00067) | `Castlevania - Symphony of the Night (USA) (Track 1).bin` | 538,655,040 · `05be47b2` · `acbb3a2e4a8f865f363dc06df147afa2` |
-| 새턴 일본판 악마성 드라큘라 X 월하의 야상곡 (T-9527G, 1.400판) | `Akumajou Dracula X - Gekka no Yasoukyoku (Japan) (Track 01).bin` | 481,720,176 · `f1b74601` · `32f037579707e192320db6e8f24ef571` |
+| 새턴 일본판 악마성 드라큘라 X 월하의 야상곡 (T-9527G, 1.400판) | `Akumajou Dracula X - Gekka no Yasoukyoku (Japan) (2M) (Track 1).bin` | 481,720,176 · `f1b74601` · `32f037579707e192320db6e8f24ef571` |
 | PSP 북미판 Castlevania: The Dracula X Chronicles (ULUS-10277) | `Castlevania - The Dracula X Chronicles (USA).iso` | 1,111,359,488 · `26316f37` · `9734bc89f4956324c28df897e25f1a71` |
 
-1. **v1.2판** 제작 페이지를 받습니다: [archive.org - SOTN Ultimate v1.2](https://archive.org/download/castlevania_sotn_ultimate_v1_2) (`builder.html`). v1.3·v1.4로 만든 이미지에는 이 패치가 맞지 않습니다.
+1. **v1.4판** 제작 페이지를 받습니다: [GitHub - SOTN Ultimate v1.4](https://github.com/renanbianchi/sotn-ultimate/releases/tag/v1.4) (`builder.html`). 패치는 원본 판마다 따로 배포합니다 (v1.4용 `ult-v1.4`, v1.2용 `v1.0`).
 2. `builder.html`을 PC 브라우저로 열고 세 이미지를 끌어다 놓은 뒤 "Build the disc"를 누릅니다.
-3. 저장한 .bin의 MD5가 `b8b9cd07c9251919bcf02c8ebbb4602b`이면 됩니다.
+3. 저장한 .bin의 MD5가 `901d74656aedbd8da3050d6a3716f32f`이면 됩니다.
 
 개조판 정보: [romhacking.net](https://www.romhacking.net/hacks/10241/) · [제작 소스(GitHub)](https://github.com/renanbianchi/sotn-ultimate)
 

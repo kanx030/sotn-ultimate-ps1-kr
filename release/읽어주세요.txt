@@ -1,23 +1,23 @@
-악마성 드라큘라 X 월하의 야상곡 얼티메이트 (PS1 v1.2) 한글 패치 v1.0
+악마성 드라큘라 X 월하의 야상곡 얼티메이트 (PS1 v1.4) 한글 패치
 ==========================================================
 
-이 패치는 팬 개조판 "SOTN Ultimate (PS1 Version) v1.2"를 한글로 옮긴 것입니다.
+이 패치는 팬 개조판 "SOTN Ultimate (PS1 Version) v1.4"를 한글로 옮긴 것입니다.
 대사, 메뉴, 아이템, 지역 이름, 제목 화면 그림까지 모두 한글로 바꿨습니다.
 
 
 필요한 파일
 -----------
-SOTN Ultimate (PS1 Version) v1.2.bin  (원본 이미지, 한 트랙짜리, 683,034,912바이트)
-  CRC32  : ecac98b7
-  MD5    : b8b9cd07c9251919bcf02c8ebbb4602b
-  SHA-1  : 77c9db3ec51146511e80a3014561facde7942555
-  SHA-256: 72d3f35621984a80fa6a16fd2ca12083fb5d02072c09f456746910dab4d1a244
+SOTN Ultimate (PS1 Version) v1.4.bin  (원본 이미지, 한 트랙짜리, 704,762,688바이트)
+  CRC32  : 9b22d649
+  MD5    : 901d74656aedbd8da3050d6a3716f32f
+  SHA-1  : 23bf226690c43663c93f75c4c82bb051d6eb15e1
+  SHA-256: c6ee705c8dc5f8beee0a11f7fc531eb671d7c02eeef0f6f23527dc4f2a925b4c
 
 ※ 게임 이미지는 함께 주지 않습니다. 직접 준비해 주세요.
 
 원본 이미지 만드는 법
 --------------------
-이 패치의 원본 "SOTN Ultimate (PS1 Version) v1.2.bin"은 팬 개조판 제작 페이지(builder.html)로
+이 패치의 원본 "SOTN Ultimate (PS1 Version) v1.4.bin"은 팬 개조판 제작 페이지(builder.html)로
 직접 만듭니다. 세 가지 게임 디스크 이미지가 필요합니다.
 
   1. PS1 북미판 - Castlevania: Symphony of the Night (SLUS-00067)
@@ -25,7 +25,7 @@ SOTN Ultimate (PS1 Version) v1.2.bin  (원본 이미지, 한 트랙짜리, 683,0
      크기 538,655,040바이트  CRC32 05be47b2  MD5 acbb3a2e4a8f865f363dc06df147afa2
 
   2. 새턴 일본판 - 악마성 드라큘라 X 월하의 야상곡 (T-9527G, 1.400판)
-     파일: Akumajou Dracula X - Gekka no Yasoukyoku (Japan) (Track 01).bin   (Redump, 데이터 트랙만)
+     파일: Akumajou Dracula X - Gekka no Yasoukyoku (Japan) (2M) (Track 1).bin   (Redump, 데이터 트랙만)
      크기 481,720,176바이트  CRC32 f1b74601  MD5 32f037579707e192320db6e8f24ef571
 
   3. PSP 북미판 - Castlevania: The Dracula X Chronicles (ULUS-10277)
@@ -33,11 +33,11 @@ SOTN Ultimate (PS1 Version) v1.2.bin  (원본 이미지, 한 트랙짜리, 683,0
      크기 1,111,359,488바이트  CRC32 26316f37  MD5 9734bc89f4956324c28df897e25f1a71
 
 만드는 순서
-  1. 반드시 v1.2판 제작 페이지를 받습니다 (v1.3, v1.4로 만든 이미지에는 이 패치가 맞지 않습니다).
-     https://archive.org/download/castlevania_sotn_ultimate_v1_2  ->  builder.html
+  1. 반드시 v1.4판 제작 페이지를 받습니다 (다른 판으로 만든 이미지에는 이 패치가 맞지 않습니다).
+     https://github.com/renanbianchi/sotn-ultimate/releases/tag/v1.4  ->  builder.html
   2. builder.html을 PC의 크롬/엣지/파이어폭스로 열고, 위 세 이미지를 끌어다 놓습니다.
   3. "Build the disc"를 누르고 기다린 뒤 .bin과 .cue를 저장합니다.
-  4. 결과 MD5가 b8b9cd07c9251919bcf02c8ebbb4602b 이면 이 한글 패치를 적용할 수 있습니다.
+  4. 결과 MD5가 901d74656aedbd8da3050d6a3716f32f 이면 이 한글 패치를 적용할 수 있습니다.
 
 개조판 정보
   - romhacking.net: https://www.romhacking.net/hacks/10241/
@@ -47,17 +47,17 @@ SOTN Ultimate (PS1 Version) v1.2.bin  (원본 이미지, 한 트랙짜리, 683,0
 적용 방법
 ---------
 1. xdelta 패치 프로그램을 준비합니다. (예: Delta Patcher, xdelta UI, xdelta3)
-2. 원본 파일: SOTN Ultimate (PS1 Version) v1.2.bin
+2. 원본 파일: SOTN Ultimate (PS1 Version) v1.4.bin
    패치 파일: SOTN_Ultimate_KR.xdelta
 3. 결과 파일 이름을 SOTN_Ultimate_KR.bin 으로 저장합니다.
 4. 함께 든 SOTN_Ultimate_KR.cue 를 같은 폴더에 두고, cue 파일로 실행합니다.
-   결과 CRC32  : 55775ba5
-   결과 MD5    : 2c35696f65e0a178f9de1c6d9902609f
-   결과 SHA-1  : 7b806cd2185ec500d27f7c34ef0102c3ec3e0d64
-   결과 SHA-256: c084a745daaa37351a86067b5665bec313a04e88a6f31289e5cee25110369680
+   결과 CRC32  : 8d0c6dad
+   결과 MD5    : 07c2f2090a9db3cf002dc0ec58c052e7
+   결과 SHA-1  : 7240c481dcdb0670237bfbd6d4f8cb979ba49f18
+   결과 SHA-256: 6f543d6e3a0220b655a01eed1dcf2ad7bcc46ffb2b4fa4a35ce56c70915fab60
 
 명령줄 예:
-  xdelta3 -d -s "SOTN Ultimate (PS1 Version) v1.2.bin" SOTN_Ultimate_KR.xdelta SOTN_Ultimate_KR.bin
+  xdelta3 -d -s "SOTN Ultimate (PS1 Version) v1.4.bin" SOTN_Ultimate_KR.xdelta SOTN_Ultimate_KR.bin
 
 
 주요 내용
@@ -71,8 +71,9 @@ SOTN Ultimate (PS1 Version) v1.2.bin  (원본 이미지, 한 트랙짜리, 683,0
 - 모든 한글은 갈무리 글꼴로 통일했습니다. (게임오버 문구만 함렛 글꼴)
 
 
-2026-11-12 갱신 (전체 검수 반영)
--------------------------------
+원본 v1.4 대응 (2026-11-13)
+---------------------------
+- 얼티메이트 v1.4 원본에 맞춰 다시 만듦 (새로 생긴 영어 글자 없음)
 - 리히터 결전 장면(왕좌의 방)에서 영어·PSP 음성일 때 대사가 깨지고 멈추던 문제 수정
   (같은 원인으로 샤프트·서큐버스·엔딩 대본의 분기도 바로잡음)
 - 남은 영어 번역: 중앙부 마리아 장면 2개, 뱃사공 두 번째 대사, 리히터 보스 설정용 엔딩,
