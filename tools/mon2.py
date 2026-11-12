@@ -31,9 +31,11 @@ def move_all(pids):
 
 if __name__ == '__main__':
     if '--watch' in sys.argv:
+        p, t = set(), 0
         while True:
-            p = own_pids()
+            if time.time() - t > 4:                 # process list via PowerShell is slow: refresh every ~4 s
+                p, t = own_pids(), time.time()
             if p: move_all(p)
-            time.sleep(1)
+            time.sleep(0.3)
     else:
         print(move_all(own_pids()))
