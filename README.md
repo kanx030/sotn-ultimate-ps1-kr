@@ -36,6 +36,7 @@
 ## 글꼴
 - 갈무리(Galmuri) © Lee Minseo, SIL OFL 1.1
 - Noto Sans KR / Noto Serif KR © Google, SIL OFL 1.1
+- 함렛(Hahmlet) © The Hahmlet Project Authors, SIL OFL 1.1 (게임오버 문구)
 
 ## 고마운 분들
 SOTN Ultimate 제작자, 플스1·새턴·PSP 한글판 제작자분들께 감사드립니다.
