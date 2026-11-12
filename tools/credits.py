@@ -97,7 +97,7 @@ def patch(data):
 
 if __name__ == '__main__':
     sys.stdout.reconfigure(encoding='utf-8')
-    u = open(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'work', 'U', 'ST', 'SEL', 'SEL.BIN'), 'rb').read()
+    u = __import__('base').uread('ST/SEL/SEL.BIN')
     p = patch(u)
     used = len(p[START:END + 1].rstrip(b'\0')) + 1
     print('credits: %d of %d bytes' % (used, END + 1 - START))

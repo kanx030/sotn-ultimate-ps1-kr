@@ -231,7 +231,7 @@ def gameover_title():
 
 def _gameover(d):
     import hashlib, os
-    us = open(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'work', 'U', 'BIN', 'F_GO.BIN'), 'rb').read()
+    us = open(__import__('base').upath('BIN/F_GO.BIN'), 'rb').read()
     new, _ = gameover_image(us)
     title = gameover_title()
     out = []
@@ -473,7 +473,7 @@ def patch(rel, data):
 if __name__ == '__main__':
     import os, sys
     sys.stdout.reconfigure(encoding='utf-8')
-    U = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'work', 'U')
+    U = __import__('base').U
     for f in FILES:
         a = patch(f, open(os.path.join(U, *f.split('/')), 'rb').read())
         b = patch(f, a)

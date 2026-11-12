@@ -30,10 +30,11 @@ from asm import Asm, _i, jal_word
 
 ROOT = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..'))
 WORK = os.path.join(ROOT, 'work')
-U_DRA = os.path.join(WORK, 'U', 'DRA.BIN')
+import base as _base
+U_DRA = os.path.join(_base.U, 'DRA.BIN')
 K_DRA = os.path.join(WORK, 'K', 'DRA.BIN')
 K_EXE = os.path.join(WORK, 'K', 'SLPM_860.23')
-U_FGAME = os.path.join(WORK, 'U', 'BIN', 'F_GAME.BIN')
+U_FGAME = os.path.join(_base.U, 'BIN', 'F_GAME.BIN')
 K_FGAME = os.path.join(WORK, 'K', 'BIN', 'F_GAME.BIN')
 OUT = os.path.join(WORK, 'trans', 'DRA_A.json')
 DRA_B = os.path.join(WORK, 'trans', 'DRA_B.json')
@@ -530,7 +531,7 @@ def _check_refs(U, ents):
 def _other_file_refs(lo, hi):
     """aligned words in other US files pointing into the English string area."""
     hits = []
-    for root, _, files in os.walk(os.path.join(WORK, 'U')):
+    for root, _, files in os.walk(_base.U):
         for f in files:
             p = os.path.join(root, f)
             if os.path.samefile(p, U_DRA) or f.startswith('XA_') or f.endswith(('.VB', '.STR')):
@@ -904,7 +905,7 @@ def check():
     ram, disc = os.path.join(WORK, 'ram_dra_menu_testK.bin'), os.path.join(WORK, 'testK_DRA.BIN')
     if os.path.exists(ram) and os.path.exists(disc):
         R, T = _rd(ram), _rd(disc)
-        sel = _rd(os.path.join(WORK, 'U', 'ST', 'SEL', 'SEL.BIN'))
+        sel = _rd(os.path.join(_base.U, 'ST', 'SEL', 'SEL.BIN'))
         expl = set()
         for a, n in sel_writes(T, sel):
             expl.update(range(a - BASE, a - BASE + n))
@@ -947,7 +948,7 @@ def check():
     img.save(PREVIEW)
     print('preview ->', PREVIEW)
     for f in ('ST/SEL/SEL.BIN', 'BIN/SELRIC2.BIN'):
-        x = _rd(os.path.join(WORK, 'U', *f.split('/')))
+        x = _rd(os.path.join(_base.U, *f.split('/')))
         import seltext
         y = patch_sel(f, seltext.patch(x) if f.startswith('ST') else x)
         print('patch_sel', f, 'ok')

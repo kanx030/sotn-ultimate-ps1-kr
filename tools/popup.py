@@ -146,7 +146,7 @@ US_REGION_SHA1 = None
 def _us_sha1():
     global US_REGION_SHA1
     if US_REGION_SHA1 is None:
-        us = open(os.path.join(WORK, 'U', 'BIN', 'F_GAME.BIN'), 'rb').read()
+        us = open(__import__('base').upath('BIN/F_GAME.BIN'), 'rb').read()
         US_REGION_SHA1 = _check_region(us[BLOCK:BLOCK + 0x2000])
     return US_REGION_SHA1
 
@@ -181,7 +181,7 @@ def patch_dra_popup(dra):
 def preview(path):
     import numpy as np
     from PIL import Image
-    fg = open(os.path.join(WORK, 'U', 'BIN', 'F_GAME.BIN'), 'rb').read()
+    fg = open(__import__('base').upath('BIN/F_GAME.BIN'), 'rb').read()
     out = []
     for blk in (fg[BLOCK:BLOCK + 0x2000], patch_block(fg[BLOCK:BLOCK + 0x2000])):
         a = np.frombuffer(blk, np.uint8); out.append(np.stack([a & 15, a >> 4], 1).reshape(128, 128)[64:128])
@@ -195,7 +195,7 @@ if __name__ == '__main__':
     R = layout()
     for k in WORDS:
         print('%-16s %-8s %s' % (k, WORDS[k], R[k]))
-    dra = open(os.path.join(WORK, 'U', 'DRA.BIN'), 'rb').read()
+    dra = open(__import__('base').upath('DRA.BIN'), 'rb').read()
     nd = patch_dra_popup(dra)
     for i, (k, _) in enumerate(ENTRIES):
         print(i, k, nd[TABLE + i * 8:TABLE + i * 8 + 8].hex())

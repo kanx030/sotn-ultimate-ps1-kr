@@ -14,7 +14,7 @@ Paths found (see extraapply.py):
 import os, sys, re, json, struct, glob
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..')
-U = os.path.join(ROOT, 'work', 'U')
+from base import U
 TR = os.path.join(ROOT, 'work', 'trans')
 B = 0x80180000
 

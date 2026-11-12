@@ -100,6 +100,6 @@ def _cheat_entry(d, o):
     rep(0x8016E140, w(0x14620006), w(0x1462001C))          # step 0x10F with a non-추가 설정 width: keep it open
 
 if __name__ == '__main__':
-    p = os.path.join(draa.WORK, 'U', 'BIN', 'ARC_F2.BIN')
+    p = __import__('base').upath('BIN/ARC_F2.BIN')
     out = patch('BIN/ARC_F2.BIN', open(p, 'rb').read())
     print('ok', sum(a != b for a, b in zip(out, open(p, 'rb').read())), 'bytes changed')

@@ -155,7 +155,7 @@ def main():
     h = hashlib.md5(b''.join(s[16:] for s in channel(reg))).hexdigest()
     print('JP narration stream: %d sectors, %.1f s, md5 %s' % (GROUPS, len(jp) / 2 / 37800, h))
     write_wav(os.path.join(od, 'jp_narration_33D.wav'), jp)
-    u = iso.Img(os.path.join(ROOT, '원본롬', 'SOTN Ultimate (PS1 Version) v1.2.bin'))
+    u = iso.Img(__import__('base').SRC_IMG)
     us = [u.raw(U_XA_LBA + 0x2BC80 + 4 + 8 * g) for g in range(GROUPS)]
     us = [s for s in us if s[16:18] == bytes([6, 4])]
     um = decode(us)

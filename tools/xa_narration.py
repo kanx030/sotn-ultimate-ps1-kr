@@ -10,7 +10,7 @@ python xa_narration.py [K image] [Ultimate image]"""
 import sys, os, struct, hashlib
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..')
 K_IMG = sys.argv[1] if len(sys.argv) > 1 else os.path.join(ROOT, 'work', 'SOTN_K.bin')
-U_IMG = sys.argv[2] if len(sys.argv) > 2 else os.path.join(ROOT, '원본롬', 'SOTN Ultimate (PS1 Version) v1.2.bin')
+U_IMG = sys.argv[2] if len(sys.argv) > 2 else __import__('base').SRC_IMG
 K_XA, U_XA = 47643, 51894            # SD/XA_STR1 LBAs (work/list_K.txt, list_U.txt)
 
 def entry(dra, base, xid):
@@ -20,9 +20,9 @@ def entry(dra, base, xid):
 
 def main():
     kd = open(os.path.join(ROOT, 'work', 'K', 'DRA.BIN'), 'rb').read()
-    ud = open(os.path.join(ROOT, 'work', 'U', 'DRA.BIN'), 'rb').read()
+    ud = open(__import__('base').upath('DRA.BIN'), 'rb').read()
     ks = open(os.path.join(ROOT, 'work', 'K', 'ST', 'ST0', 'ST0.BIN'), 'rb').read()
-    us = open(os.path.join(ROOT, 'work', 'U', 'ST', 'ST0', 'ST0.BIN'), 'rb').read()
+    us = open(__import__('base').upath('ST/ST0/ST0.BIN'), 'rb').read()
     kid = struct.unpack_from('<I', ks, 0x305B0)[0] & 0xFFFF
     uid = struct.unpack_from('<I', us, 0x30F44)[0] & 0xFFFF
     print('crawl XA id: JP %#x  Ultimate %#x' % (kid, uid))

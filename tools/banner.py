@@ -34,7 +34,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from asm import Asm
 
 ROOT = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..'))
-U = os.path.join(ROOT, 'work', 'U')
+from base import U
 OVL = 0x80180000
 DRA_BASE = 0x800A0000
 

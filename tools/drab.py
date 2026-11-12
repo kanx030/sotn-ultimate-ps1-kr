@@ -27,7 +27,7 @@ import kmap
 
 ROOT = kmap.ROOT
 WORK = kmap.WORK
-DRA = os.path.join(WORK, 'U', 'DRA.BIN')
+DRA = __import__('base').upath('DRA.BIN')
 OUT = os.path.join(WORK, 'trans', 'DRA_B.json')
 FONTEXT = os.path.join(WORK, 'fontext.json')
 BASE = 0x800A0000

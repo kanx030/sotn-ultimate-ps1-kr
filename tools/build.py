@@ -7,9 +7,10 @@ from asm import Asm, jal_word
 import imgpatch
 
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..')
-SRC_IMG = os.path.join(ROOT, '원본롬', 'SOTN Ultimate (PS1 Version) v1.2.bin')  # 원본롬
+import base
+SRC_IMG = base.SRC_IMG                 # 원본롬 (base version: base.py / env SOTN_BASE)
 K = os.path.join(ROOT, 'work', 'K')
-U = os.path.join(ROOT, 'work', 'U')
+U = base.U
 
 # RAM layout
 FONT_RAM = 0x801F0000

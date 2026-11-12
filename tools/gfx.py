@@ -21,7 +21,7 @@ import numpy as np
 
 ROOT = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..'))
 WORK = os.path.join(ROOT, 'work')
-U_DIR = os.path.join(WORK, 'U')
+from base import U as U_DIR
 K_DIR = os.path.join(WORK, 'K')
 GALMURI = os.path.join(WORK, 'dl', 'galmuri')
 FONTS_DIR = os.path.join(os.environ.get('WINDIR', r'C:\Windows'), 'Fonts')

@@ -176,7 +176,7 @@ if __name__ == '__main__':
     enc = build.bank().encode
     for nm in sys.argv[1:] or ['ST0']:
         d = json.load(open(os.path.join(HERE, '..', 'work', 'trans', nm + '.jp.json'), encoding='utf-8'))
-        data = open(os.path.join(HERE, '..', 'work', 'U', *d['file'].split('/')), 'rb').read()
+        data = open(__import__('base').upath(d['file']), 'rb').read()
         e, p = plan(nm, data, d, enc)
         print(nm, 'edits', len(e), 'prefix bytes', sum(len(x) for x in p.values()))
     for r in REPORT:

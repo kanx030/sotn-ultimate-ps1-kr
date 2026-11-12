@@ -8,8 +8,8 @@ for fn in glob.glob(os.path.join(W, 'trans', '*.json')):
     if bn.startswith('DRA') or bn.endswith('.k.json'): continue
     d = json.load(open(fn, encoding='utf-8'))
     if isinstance(d, dict): done.add(d['file'])
-for f in sorted(glob.glob(os.path.join(W, 'U', '**', '*.BIN'), recursive=True)):
-    rel = os.path.relpath(f, os.path.join(W, 'U')).replace(os.sep, '/')
+for f in sorted(glob.glob(os.path.join(__import__('base').U, '**', '*.BIN'), recursive=True)):
+    rel = os.path.relpath(f, __import__('base').U).replace(os.sep, '/')
     x = open(f, 'rb').read()
     runs = [m.group() for m in re.finditer(rb"[A-Za-z][A-Za-z ,.'!?\-]{9,}", x) if re.search(rb'[a-z]{3} [a-z]{2,}', m.group())]
     if len(runs) >= 3:

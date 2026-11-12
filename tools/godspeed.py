@@ -57,7 +57,7 @@ def patch(rel, data):
 if __name__ == '__main__':
     import os, sys
     sys.stdout.reconfigure(encoding='utf-8')
-    U = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'work', 'U')
+    U = __import__('base').U
     a = patch('DRA.BIN', open(os.path.join(U, 'DRA.BIN'), 'rb').read())
     assert patch('DRA.BIN', a) == a
     print('\n'.join(LOG))
