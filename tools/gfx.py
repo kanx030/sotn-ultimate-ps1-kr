@@ -311,6 +311,20 @@ def patch_hud_status(d, name):
     _log(name, "HUD 'DEAD' / 'STONE', ON/OFF toggles (0x38000)", B.commit())
 
 
+# '리히터' hand-drawn in the style of _MARIA_PLATE (2px strokes, 2px syllable gaps): bold(galmuri) joined the
+# 'ㅌ' middle bar to the 'ㅓ' stub (터 read as one blob) and cut the 'ㅓ' stem to 1px -> 1px gap ㅌ|ㅓ here.
+_RICHTER_PLATE = np.array([[c == '#' for c in r] for r in (
+    '######.##....##...##..######...##',
+    '....##.##..######.##..##.......##',
+    '....##.##.........##..##.......##',
+    '######.##...####..##..######...##',
+    '##.....##..##..##.##..##.....####',
+    '##.....##..##..##.##..##.......##',
+    '##.....##..##..##.##..##.......##',
+    '######.##...####..##..######...##',
+    '.......##.........##...........##')])
+
+
 def patch_richter_hud(d, name):
     """F_GAME2 0x18000: 'RICHTER REST x00' and 'PAUSE PUSH START' panels (bg 9, text F)."""
     B = Blocks(d, name, [0x18000])
@@ -318,7 +332,7 @@ def patch_richter_hud(d, name):
     # panel 1: name + REST
     o[47:51, 106:125] = 9                  # 'REST' -> blank
     o[47:58, 66:104] = 9                   # 'RICHTER'
-    m = bold(galmuri('리히터', 9, spacing=1))
+    m = _RICHTER_PLATE
     paste(o, np.where(m, 15, 9).astype(np.uint8), 66 + (38 - m.shape[1]) // 2, 48)
     # panel 2: PAUSE PUSH START
     o[70:82, 66:126] = 9
@@ -457,6 +471,11 @@ def _mono_text(text, px, weight):
 def _ultimate_small():
     """'얼티메이트' as RGBA, Saturn style (gradient fill, 1 px dark outline), pixel-sharp."""
     m = _mono_text('얼티메이트', FG_ULT_PX, 900).astype(np.float32)
+    # Black 12 px fills the 5-row 'ㄹ' of '얼' solid (rows 6-10, x 2-9: read as a blob) -> 1 px bars with 1 px gaps
+    # (the gaps take the dark outline colour), 2 px side strokes like the rest of the word
+    assert m.shape == (11, 55) and m[6:11, 2:10].all(), 'Ultimate small: unexpected 얼 rendering'
+    m[6:11, 2:10] = np.array([[c == '#' for c in r] for r in
+                              ('########', '......##', '########', '##......', '########')], np.float32)
     H, W = m.shape
     c = np.zeros((H + 2, W + 2), np.float32)
     c[1:-1, 1:-1] = m

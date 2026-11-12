@@ -42,6 +42,17 @@ GOLD = 0x80097C04
 B_CROSS, B_CANCEL = 0x40, 0x30
 HOTKEY_HELD, HOTKEY_TAP = 0x07, 0x08    # L2+R2+L1 held, R1 tapped (Select = map, not usable); any character
 
+# pause hint (Richter / Maria): DRA step 0x70 (paused) calls the HUD update 0x801002AC from 0x800F1680
+PAUSE_HOOK_VA = 0x800F1680
+PAUSE_HUD = 0x801002AC
+PLAYCHAR = 0x8003C9A0               # 0 = Alucard (pause opens the menu), else Richter / Maria
+HINT1 = '치트: L2+R2+L1 잡고 R1'
+HINT2 = '무적·HP·하트 무한: %s'
+HINT_Y = (40, 52)                   # screen rows under the HUD '일시정지' plate (plate ends ~ y 36)
+HINT_OT = 0x1E2                     # below the HUD (0x1F0..): MenuDrawStr's tpage DR_MODE must not share a HUD slot
+                                    # (at 0x1FF it re-textured the '일시정지' plate with the font sheet)
+SCREEN_W = 256
+
 ITEMS = ['HP/MP/하트 무한', '무적', '골드 999999', '마도기 전부', '마법 전부', '아이템 전부 9개', '장비 전부 9개',
          '능력치 99', '레벨 업', '닫기']
 N = len(ITEMS)
@@ -227,6 +238,26 @@ def _gen(L):
     a.lw('ra', 56, 'sp'); a.nop()
     a.jr('ra'); a.addiu('sp', 'sp', 64)
 
+    # ---------------------------------------------------------------- pause (replaces jal PAUSE_HUD in step 0x70)
+    a.label('pause')
+    a.addiu('sp', 'sp', -24); a.sw('ra', 16, 'sp')
+    a.jal(PAUSE_HUD); a.nop()
+    a.li32('at', PLAYCHAR); a.lw('t0', 0, 'at'); a.nop()
+    a.beq('t0', 'zero', 'pz_x'); a.nop()                 # Alucard: menu screen, no hint
+    a.li32('at', COLORFLAG); a.sw('zero', 0, 'at')
+    a.la('a0', 's_h1'); a.ori('a1', 'zero', _hx(HINT1)); a.ori('a2', 'zero', HINT_Y[0])
+    a.la('a3', 'hctx'); a.jal(MENUDRAWSTR); a.nop()
+    a.la('t0', 'vars'); a.lw('t0', FLAGS, 't0'); a.nop(); a.andi('t0', 't0', 3)
+    a.la('a0', 's_h2off')
+    a.beq('t0', 'zero', 'pz_d'); a.nop()
+    a.la('a0', 's_h2on')
+    a.label('pz_d')
+    a.ori('a1', 'zero', _hx(HINT2 % '켬')); a.ori('a2', 'zero', HINT_Y[1])
+    a.la('a3', 'hctx'); a.jal(MENUDRAWSTR); a.nop()
+    a.label('pz_x')
+    a.lw('ra', 16, 'sp'); a.nop()
+    a.jr('ra'); a.addiu('sp', 'sp', 24)
+
     # ---------------------------------------------------------------- invincibility (filled by INVULN list)
     a.label('invuln')                            # keep the player's invincibility timer topped up
     a.la('t0', 'invtab')
@@ -321,11 +352,18 @@ def _gen(L):
         a.data(struct.pack('<II', addr, val))
     def S(lab, txt):
         a.label(lab); a.data(_enc(txt))
+    S('s_h1', HINT1); S('s_h2on', HINT2 % '켬'); S('s_h2off', HINT2 % '끔')
+    a.label('hctx')                              # menu context for the hint: clip rect = whole screen, ot HINT_OT
+    a.data(struct.pack('<4h4h4h2h', 0, 0, 0, 0, 0, 0, 0x200, 0x100, 0, 0, 0, 0, HINT_OT - 2, 0) + bytes(4))
     S('s_sys', '치트'); S('s_on', '켬'); S('s_off', '끔'); S('s_ok', '완료')
     for k, t in enumerate(ITEMS): S('i%d' % k, t)
     a.label('itab')
     for k in range(N): a.data(struct.pack('<I', L.get('i%d' % k, 0)))
     return a
+
+def _hx(t):
+    return (SCREEN_W - 8 * len(t)) // 2
+
 
 INVULN = [(0x80072F1C, 4)]   # g_Player.timers[PL_T_INVINCIBLE], kept topped up while 무적 is on (warg walk-through test)
 

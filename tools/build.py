@@ -453,6 +453,9 @@ def patch_dra(dra):
         o = cheatmenu.HOOK_VA - 0x800A0000
         assert dra[o:o + 4] == jal_word(cheatmenu.PADREP)
         dra[o:o + 4] = jal_word(cheatmenu.CHEAT_RAM)
+        o = cheatmenu.PAUSE_HOOK_VA - 0x800A0000     # paused (step 0x70): Richter / Maria cheat hint lines
+        assert dra[o:o + 4] == jal_word(cheatmenu.PAUSE_HUD), dra[o:o + 4].hex()
+        dra[o:o + 4] = jal_word(cheatmenu.labels()['pause'])
         import extraopt                        # System help entry 7 = row 6 (치트 in test builds): own help line
         o = 0x800A2B20 - 0x800A0000
         assert dra[o:o + 4] == struct.pack('<I', 0x8016DC00), dra[o:o + 4].hex()
