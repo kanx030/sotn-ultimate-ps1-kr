@@ -40,6 +40,7 @@ EXP = 0x80097C00
 GOLD = 0x80097C04
 
 B_CROSS, B_CANCEL = 0x40, 0x30
+HOTKEY_HELD, HOTKEY_TAP = 0x07, 0x08    # L2+R2+L1 held, R1 tapped (Select = map, not usable); any character
 
 ITEMS = ['HP/MP/하트 무한', '무적', '골드 999999', '마도기 전부', '마법 전부', '아이템 전부 9개', '장비 전부 9개',
          '능력치 99', '레벨 업', '닫기']
@@ -74,6 +75,20 @@ def _gen(L):
     a.addiu('sp', 'sp', -32); a.sw('ra', 24, 'sp'); a.sw('s0', 16, 'sp')
     a.jal(PADREP); a.nop()
     a.la('s0', 'vars')
+    # hotkey L2+R2+L1 held + R1 tapped: HP/MP/hearts refill + invincibility both on (or both off if either
+    # is on). Richter / Maria have no pause menu (only '일시정지'), so they cannot open the cheat window.
+    a.li32('t9', PADS); a.lhu('t1', 0, 't9'); a.lhu('t2', 4, 't9'); a.nop()
+    a.andi('t1', 't1', HOTKEY_HELD); a.ori('at', 'zero', HOTKEY_HELD)
+    a.bne('t1', 'at', 'hk_x'); a.andi('t2', 't2', HOTKEY_TAP)
+    a.beq('t2', 'zero', 'hk_x'); a.nop()
+    a.lw('t0', FLAGS, 's0'); a.nop(); a.andi('t1', 't0', 3)
+    a.beq('t1', 'zero', 'hk_on'); a.ori('t0', 't0', 3)    # delay slot: both on
+    a.xori('t0', 't0', 3)                                  # one was on -> both off
+    a.label('hk_on')
+    a.sw('t0', FLAGS, 's0')
+    a.li32('at', SND); a.lw('t1', 0, 'at'); a.nop()
+    a.jalr('t1'); a.ori('a0', 'zero', 0x633)
+    a.label('hk_x')
     a.lw('t0', FLAGS, 's0'); a.nop()
     a.andi('t1', 't0', 1)
     a.beq('t1', 'zero', 'c1'); a.nop()

@@ -3,10 +3,36 @@ The block keeps its start; opcodes are copied unchanged; the unused tail is fill
 Pointers anywhere in the file that point inside the block are moved with the bytes.
 Timing: a speed opcode right before a run is scaled (Korean is shorter than English); runs that end a line get
 invisible trailing spaces to make up the missing character time, as far as the block's spare bytes allow."""
-import struct
+import struct, bisect
 BASE = 0x80180000
 OPS = (0x02, 0x03, 0x11)
 PAD = 0x0D
+RELOC = []          # (old ptr pos, old target, new ptr pos, new target) of every nibble pointer moved
+
+def _scan(data, start, end, run_offs):
+    """Walk the block with the interpreter opcode table -> (sorted [(pos, len)] of commands, {ptr pos: target}).
+    Starts from the nearest dub-script start before the block when that walk reaches the block (so a first run
+    that begins with an argument byte is seen), else from the block start; after a stop (end + padding or a byte
+    that is no opcode) it restarts at the next run. Pointers of the dub scripts outside the block are included."""
+    import scriptcheck as sc
+    args = sc.arg_table(data)
+    cmds, ptrs = [], {}
+    i = start
+    for _, s, _e in sorted(sc.scripts(data), key=lambda x: -x[1]):
+        if start - 0x3000 <= s <= start:
+            sc.walk(data, s, end, args)
+            if max(sc.walk.bnd) >= start:
+                i = s; break
+    while i < end:
+        sc.walk(data, i, end, args, ptrs, cmds)
+        q = max(sc.walk.bnd)
+        nxt = [o for o in run_offs if o > q]
+        if not nxt: break
+        i = nxt[0]
+    for p, t in sc.script_ptrs(data).items():
+        if not (start <= p < end): ptrs.setdefault(p, t)
+    cmds = sorted(set(c for c in cmds if c[0] + c[1] > start))
+    return cmds, ptrs
 
 def chars(b):
     n = i = 0
@@ -28,13 +54,22 @@ def repack(data, start, runs, encode, end=None, timing=True, prefix=None):
     start = runs[0][0]
     if end is None:
         end = runs[-1][0] + runs[-1][1]
-    # pass 1: encoded text per run (keep a leading opcode-argument byte)
+    # the block's control stream (interpreter opcode table): command spans + nibble pointers (0x0C/0x0E/0x0F/0x13)
+    cspan, ptrs = _scan(data, start, end, [r[0] for r in runs])
+    cpos = [c[0] for c in cspan]
+    # pass 1: encoded text per run (keep leading bytes that are really arguments of the command before the run,
+    # e.g. '03 28' wait 0x28 = '(' or '11 02 03 28': the extractor took them for text)
     plan = []
     for off, ln, ko in runs:
         keep = b''
-        if data[off - 1] in OPS and data[off - 2] not in OPS:
-            keep = bytes([data[off]]); c0 = chr(data[off])
-            if ko[:1] == c0: ko = ko[1:]
+        k = bisect.bisect_left(cpos, off) - 1
+        if k >= 0 and cspan[k][0] < off < cspan[k][0] + cspan[k][1]:
+            keep = bytes(data[off:min(cspan[k][0] + cspan[k][1], off + ln)])
+        elif not cspan and data[off - 1] in OPS and data[off - 2] not in OPS:   # no scan: old guess
+            keep = bytes([data[off]])
+        if keep:
+            c0 = keep.decode('latin-1')
+            if ko.startswith(c0): ko = ko[len(c0):]
             ko = ko.lstrip() or ' '
         b = keep + (prefix or {}).get(off, b'') + encode(ko, 10 ** 6)   # prefix: opcodes (jptiming)
         spd = off - 1 if (data[off - 2] == 0x02 and 1 <= data[off - 1] <= 0x20 and data[off - 3] not in OPS) else None
@@ -73,6 +108,16 @@ def repack(data, start, runs, encode, end=None, timing=True, prefix=None):
     assert len(out) <= end - start
     out += bytes([PAD]) * (end - start - len(out))
     data[start:end] = out
+    # nibble pointers (switch tables, jumps, end markers) that point into the block follow their target
+    import scriptcheck as sc
+    for p, t in sorted(ptrs.items()):
+        if not (start <= t < end): continue
+        if t not in omap: raise Overflow('pointer @%x -> %x not mappable' % (p, t))
+        np_ = start + omap[p] if start <= p < end else p
+        old = sc.nib_enc(t)
+        assert bytes(data[np_:np_ + 4]) == old, (hex(p), hex(np_), data[np_:np_ + 4].hex(), old.hex())
+        data[np_:np_ + 4] = sc.nib_enc(start + omap[t])
+        RELOC.append((p, t, np_, start + omap[t]))
     # pointers into the block
     for o in range(0, len(data) - 3, 4):
         if start <= o < end: continue

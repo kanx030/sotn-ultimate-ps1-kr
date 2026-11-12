@@ -327,6 +327,33 @@ def patch_richter_hud(d, name):
     _log(name, "Richter HUD 'RICHTER/REST', 'PAUSE PUSH START' (0x18000)", B.commit())
 
 
+# '마리아' in the style of bold(galmuri 9) used for '리히터', drawn by hand: bold(galmuri) cuts off the last column
+# (the 'ㅏ' stub of '아') and leaves '마' a 1px stub that is lost on screen -> 2px stubs here.
+_MARIA_PLATE = np.array([[c == '#' for c in r] for r in (
+    '######.##....######.##..####..##..',
+    '##..##.##........##.##.##..##.##..',
+    '##..##.##........##.##.##..##.##..',
+    '##..##.##....######.##.##..##.##..',
+    '##..##.####..##.....##.##..##.####',
+    '##..##.##....##.....##.##..##.##..',
+    '##..##.##....##.....##.##..##.##..',
+    '######.##....######.##..####..##..',
+    '.......##...........##........##..')])
+
+
+def patch_maria_hud(d, name):
+    """F_GAME2 0x6000: Ultimate's 'MARIA' HUD name plate (rows 12-27, x 40-103; inner bg 9, letters F at rows
+    16-23 x 54-89; ornaments at x <= 49 / >= 94) -> '마리아' like the Richter plate. Found by matching the
+    plate pixels in VRAM (Maria start, VRAM row 400) against the file. F_GAME2 goes to VRAM at boot only:
+    check on a freshly booted game, not on an old state."""
+    B = Blocks(d, name, [0x6000])
+    o = B.img[0x6000]
+    o[15:25, 51:93] = 9
+    m = _MARIA_PLATE
+    paste(o, np.where(m, 15, 9).astype(np.uint8), 51 + (42 - m.shape[1]) // 2, 15 + (10 - m.shape[0]) // 2)
+    _log(name, "Maria HUD name plate 'MARIA' (0x6000)", B.commit())
+
+
 # '얼티메이트' added to the K logo the way the Saturn Korean Ultimate patch did it (stat/titlelogo4.py):
 # orange fill, light top -> red-orange bottom, dark brown outline, under the right part of the logo.
 ULT_TOP_RGB, ULT_BOT_RGB, ULT_OUT_RGB = (255, 184, 80), (216, 72, 16), (48, 16, 0)
@@ -530,6 +557,7 @@ def patch_fgame(d, name):
     patch_hud_status(d, name)
     if name.endswith('F_GAME2.BIN'):
         patch_richter_hud(d, name)
+        patch_maria_hud(d, name)
 
 
 # ------------------------------------------------------------------ F_TITLE1
@@ -1115,6 +1143,8 @@ def previews():
         if tag == 'f_game2':
             _pair(blk_get(U, 0x18000)[40:86, 60:128], blk_get(P, 0x18000)[40:86, 60:128],
                   os.path.join(PREVIEW, 'f_game2_richter_hud.png'), 5)
+            _pair(blk_get(U, 0x6000)[8:32, 40:120], blk_get(P, 0x6000)[8:32, 40:120],
+                  os.path.join(PREVIEW, 'f_game2_maria_hud.png'), 5)
         # logo in real colours
         ims = []
         for D in (U, P):
