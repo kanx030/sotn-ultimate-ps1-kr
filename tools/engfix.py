@@ -373,12 +373,95 @@ def _status_name(d):
     return 'status name 알카드/알카트 big (code %08X, %d tiles)' % (code_va, len(set(CARRIERS) & set(__import__('g7').CUSTOM)))
 
 
+ENGC_CALL = 0x800F7748            # set renderer 0x800F76F4: jal 0x80104EDC (glyph -> 12x16 4bpp cell)
+GLYPH_API = 0x80104EDC
+GLYPH_BUF = 0x80137EF8            # the API's 96-byte output buffer (6 bytes x 16 rows)
+ENGC_INK = 8                      # full ink of the API's cells (value 4 looked grey on screen; 8 = K's white)
+ENGC_TOP = 2                      # Galmuri11 rows 2..12 (K's 16x15 glyph: rows 0..14, same centre)
+
+
+def engc_cells():
+    """code -> 16 row words (bit 15 = column 0) for every engine-C set syllable, drawn in Galmuri11."""
+    import draa, kmap, gfx
+    out = {}
+    for s in draa.k_engc_set():
+        for k in range(16):
+            code = (s[2 * k] << 8) | s[2 * k + 1]
+            ch = kmap.decode(s[2 * k:2 * k + 2])
+            if code == 0x8140 or not ch.strip() or code in out:
+                continue
+            m = gfx.galmuri(ch, 11)
+            h, w = m.shape
+            assert w <= 12 and ENGC_TOP + h <= 16, (ch, m.shape)
+            rows = [0] * 16
+            for y in range(h):
+                for x in range(w):
+                    if m[y, x]:
+                        rows[ENGC_TOP + y] |= 0x8000 >> x
+            out[code] = rows
+    return out
+
+
+def _engc_galmuri(d):
+    """Engine-C labels (pause menu 장비/필살기/..., equipment categories, list headers, 공격/방어) were K's
+    16x15 glyphs squeezed to 12 px by the game (vowel bars far from the consonant, text up to the cell top).
+    The set renderer's glyph call now goes to a small lookup that writes Galmuri11 (OFL) cells for the set
+    syllables into the API buffer; any other code falls through to the original API."""
+    from asm import Asm, jal_word
+    o = ENGC_CALL - DRA
+    if bytes(d[o:o + 4]) != jal_word(GLYPH_API):
+        return 'engine-C Galmuri11: already'
+    cells = engc_cells()
+    codes = sorted(cells)
+    tab = b''.join(struct.pack('<H', c) for c in codes)
+    bmp = b''.join(struct.pack('<16H', *cells[c]) for c in codes)
+    tab_va = _alloc(d, len(tab)); d[tab_va - DRA:tab_va - DRA + len(tab)] = tab
+    bmp_va = _alloc(d, len(bmp)); d[bmp_va - DRA:bmp_va - DRA + len(bmp)] = bmp
+    code_va = _alloc(d, 4 * 48)
+    a = Asm(code_va)
+    def la(r, va):
+        a.lui(r, (va + 0x8000) >> 16); a.addiu(r, r, va & 0xFFFF)
+    la('t0', tab_va); a.ori('t1', 'zero', len(codes)); a.addu('t2', 'zero', 'zero')
+    a.label('find')
+    a.lhu('t3', 0, 't0'); a.addiu('t0', 't0', 2)
+    a.beq('t3', 'a0', 'hit'); a.nop()
+    a.addiu('t2', 't2', 1)
+    a.bne('t2', 't1', 'find'); a.nop()
+    a.j(GLYPH_API); a.nop()                       # not ours: original glyph API (a0/a1 untouched)
+    a.label('hit')
+    la('t0', bmp_va); a.sll('t2', 't2', 5); a.addu('t0', 't0', 't2')
+    la('v0', GLYPH_BUF); a.addu('t9', 'v0', 'zero')
+    a.ori('t1', 'zero', 16)
+    a.label('row')
+    a.lhu('t3', 0, 't0'); a.addiu('t0', 't0', 2)
+    a.ori('t4', 'zero', 6)
+    a.label('pair')
+    a.srl('t5', 't3', 15); a.andi('t5', 't5', 1)
+    a.srl('t6', 't3', 14); a.andi('t6', 't6', 1)
+    a.sll('t5', 't5', 3)                          # ENGC_INK = 8 in the low nibble (even x)
+    a.sll('t6', 't6', 7)                          # 8 << 4 in the high nibble (odd x)
+    a.or_('t5', 't5', 't6')
+    a.sb('t5', 0, 't9'); a.addiu('t9', 't9', 1)
+    a.sll('t3', 't3', 2); a.andi('t3', 't3', 0xFFFF)
+    a.addiu('t4', 't4', -1)
+    a.bne('t4', 'zero', 'pair'); a.nop()
+    a.addiu('t1', 't1', -1)
+    a.bne('t1', 'zero', 'row'); a.nop()
+    a.jr('ra'); a.nop()
+    code = a.assemble()
+    assert ENGC_INK == 8 and len(code) <= 4 * 48, len(code)
+    d[code_va - DRA:code_va - DRA + len(code)] = code
+    d[o:o + 4] = jal_word(code_va)
+    return 'engine-C labels in Galmuri11 (%d cells, code %08X)' % (len(codes), code_va)
+
+
 def patch(rel, data):
     d = bytearray(data)
     if rel == 'DRA.BIN':
         LOG.append(_spell_or(d))
         if getattr(__import__('draa'), 'LAST_FREE', None) is not None:
             LOG.append(_status_name(d))
+            LOG.append(_engc_galmuri(d))
         LOG.append(_gameover_slow(d))
     elif rel in ('ST/SEL/SEL.BIN', 'BIN/SELRIC2.BIN'):
         LOG.append(_sel_tags(d, rel))

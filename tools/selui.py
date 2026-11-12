@@ -490,10 +490,31 @@ def patch_gothic(d, U):
         _put(d, off, en, new + bytes(len(en) - len(new)), 'gothic ' + en.decode())
 
 
+# hand-drawn cells: Noto Serif 900's 모 at 13 px has serif ears on the ㅁ and a 1-px counter -> read as 보
+GOTHIC_HAND = {
+    '모': ['..##########..',
+           '..##########..',
+           '..##......##..',
+           '..##......##..',
+           '..##......##..',
+           '..##......##..',
+           '..##########..',
+           '..##########..',
+           '......##......',
+           '......##......',
+           '##############',
+           '##############'],
+}
+
+
 def gothic_cell(ch):
     """16x16 cell in the US gothic style: outline 2, fill 5 with 4/3 on the lighter edges."""
-    cov = gfx.fit_noto(ch, 13, 14, weight=900, serif=True)
-    ink = gfx.bold(cov >= 0.42)
+    if ch in GOTHIC_HAND:
+        ink = np.array([[c == '#' for c in r] for r in GOTHIC_HAND[ch]], bool)
+        cov = ink.astype(np.float32)
+    else:
+        cov = gfx.fit_noto(ch, 13, 14, weight=900, serif=True)
+        ink = gfx.bold(cov >= 0.42)
     cov = np.maximum(cov, np.pad(cov, ((0, 0), (1, 0)))[:, :-1])
     H, W = ink.shape
     m = np.zeros((16, 16), bool)

@@ -107,6 +107,9 @@ def _glyphs():
 
 
 CUSTOM = {}           # carrier syllable -> 7-byte tile (engfix: big status-screen name drawn as 8x7 tiles)
+# hand-drawn replacements for Galmuri7 glyphs that read badly at 7 px
+# 숏 (숏 소드): Galmuri7 stacks ㅅ/ㅛ/ㅅ with no gap (looked like a star) -> two small ㅅ with a blank row
+CUSTOM['숏'] = bytes([0b00010000, 0b01101100, 0b00101000, 0b11111110, 0b00000000, 0b00010000, 0b01101100])
 
 def glyph(ch):
     """7 bytes: rows 0..6 of the 8x8 cell, bit 7 = column 0. Baseline = bottom of row 6 (like the sheet's A-Z)."""
