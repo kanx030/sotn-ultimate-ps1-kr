@@ -46,10 +46,15 @@ def make_sector(lba, payload, submode=0x08, eof=False):
     return build_form1(s, payload)
 
 class Patcher:
+    """Builds into <dst>.part and renames it over <dst> in close(): <dst> is never a half-patched image.
+    (Before: dst was first overwritten with the untouched source image and then patched file by file for a
+    minute or two; an emulator running that image meanwhile read original files - e.g. after a game over the
+    title reloaded SEL/F_TITLE0/F_TITLE1 and showed the English logo, test/qa_full/LOGO.md.)"""
     def __init__(self, src, dst):
-        if src != dst:
-            shutil.copyfile(src, dst)
-        self.img = iso.Img(dst, 'r+b')
+        self.dst = dst
+        self.part = dst + '.part'
+        shutil.copyfile(src, self.part)
+        self.img = iso.Img(self.part, 'r+b')
         self.entries = {e['path'].upper(): e for e in self.img.walk()}
 
     def write_file(self, path, data):
@@ -77,4 +82,17 @@ class Patcher:
         e['size'] = size
 
     def close(self):
+        import time
         self.img.f.close()
+        for i in range(6):
+            try:
+                os.replace(self.part, self.dst)
+                return
+            except PermissionError:
+                time.sleep(0.5)
+        # dst is held open (an emulator running it: Windows refuses the rename). Copy the finished image over
+        # it instead - a ~2 s window in which a reader sees old-build/new-build sectors, both fully patched,
+        # instead of the original English files for the whole build.
+        print('warning: %s is in use (emulator?) - copied the finished image over it; reboot the emulator' % self.dst)
+        shutil.copyfile(self.part, self.dst)
+        os.remove(self.part)
