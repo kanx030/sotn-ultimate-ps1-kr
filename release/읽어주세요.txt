@@ -7,8 +7,11 @@
 
 필요한 파일
 -----------
-SOTN Ultimate (PS1 Version) v1.2.bin  (원본 이미지, 한 트랙짜리)
-  MD5: b8b9cd07c9251919bcf02c8ebbb4602b
+SOTN Ultimate (PS1 Version) v1.2.bin  (원본 이미지, 한 트랙짜리, 683,034,912바이트)
+  CRC32  : ecac98b7
+  MD5    : b8b9cd07c9251919bcf02c8ebbb4602b
+  SHA-1  : 77c9db3ec51146511e80a3014561facde7942555
+  SHA-256: 72d3f35621984a80fa6a16fd2ca12083fb5d02072c09f456746910dab4d1a244
 
 ※ 게임 이미지는 함께 주지 않습니다. 직접 준비해 주세요.
 
@@ -19,15 +22,15 @@ SOTN Ultimate (PS1 Version) v1.2.bin  (원본 이미지, 한 트랙짜리)
 
   1. PS1 북미판 - Castlevania: Symphony of the Night (SLUS-00067)
      파일: Castlevania - Symphony of the Night (USA) (Track 1).bin   (Redump, 데이터 트랙만)
-     MD5: acbb3a2e4a8f865f363dc06df147afa2
+     크기 538,655,040바이트  CRC32 05be47b2  MD5 acbb3a2e4a8f865f363dc06df147afa2
 
   2. 새턴 일본판 - 악마성 드라큘라 X 월하의 야상곡 (T-9527G, 1.400판)
      파일: Akumajou Dracula X - Gekka no Yasoukyoku (Japan) (Track 01).bin   (Redump, 데이터 트랙만)
-     MD5: 32f037579707e192320db6e8f24ef571
+     크기 481,720,176바이트  CRC32 f1b74601  MD5 32f037579707e192320db6e8f24ef571
 
   3. PSP 북미판 - Castlevania: The Dracula X Chronicles (ULUS-10277)
      파일: Castlevania - The Dracula X Chronicles (USA).iso   (유럽판은 안 됨)
-     MD5: 9734bc89f4956324c28df897e25f1a71
+     크기 1,111,359,488바이트  CRC32 26316f37  MD5 9734bc89f4956324c28df897e25f1a71
 
 만드는 순서
   1. 반드시 v1.2판 제작 페이지를 받습니다 (v1.3, v1.4로 만든 이미지에는 이 패치가 맞지 않습니다).
@@ -48,7 +51,10 @@ SOTN Ultimate (PS1 Version) v1.2.bin  (원본 이미지, 한 트랙짜리)
    패치 파일: SOTN_Ultimate_KR.xdelta
 3. 결과 파일 이름을 SOTN_Ultimate_KR.bin 으로 저장합니다.
 4. 함께 든 SOTN_Ultimate_KR.cue 를 같은 폴더에 두고, cue 파일로 실행합니다.
-   결과 MD5: 2c35696f65e0a178f9de1c6d9902609f
+   결과 CRC32  : 55775ba5
+   결과 MD5    : 2c35696f65e0a178f9de1c6d9902609f
+   결과 SHA-1  : 7b806cd2185ec500d27f7c34ef0102c3ec3e0d64
+   결과 SHA-256: c084a745daaa37351a86067b5665bec313a04e88a6f31289e5cee25110369680
 
 명령줄 예:
   xdelta3 -d -s "SOTN Ultimate (PS1 Version) v1.2.bin" SOTN_Ultimate_KR.xdelta SOTN_Ultimate_KR.bin

@@ -6,17 +6,26 @@
 ## 받기
 [배포 페이지](../../releases)에서 xdelta 패치를 받아 원본 이미지에 적용하세요. 자세한 방법은 압축 파일 안 `읽어주세요.txt`에 있습니다.
 
-- 원본: `SOTN Ultimate (PS1 Version) v1.2.bin` (MD5 `b8b9cd07c9251919bcf02c8ebbb4602b`)
+- 원본: `SOTN Ultimate (PS1 Version) v1.2.bin` (683,034,912바이트)
+  - CRC32 `ecac98b7`
+  - MD5 `b8b9cd07c9251919bcf02c8ebbb4602b`
+  - SHA-1 `77c9db3ec51146511e80a3014561facde7942555`
+  - SHA-256 `72d3f35621984a80fa6a16fd2ca12083fb5d02072c09f456746910dab4d1a244`
+- 패치 결과: `SOTN_Ultimate_KR.bin`
+  - CRC32 `55775ba5`
+  - MD5 `2c35696f65e0a178f9de1c6d9902609f`
+  - SHA-1 `7b806cd2185ec500d27f7c34ef0102c3ec3e0d64`
+  - SHA-256 `c084a745daaa37351a86067b5665bec313a04e88a6f31289e5cee25110369680`
 - 게임 이미지는 제공하지 않습니다.
 
 ## 원본 이미지 만드는 법
 원본 `SOTN Ultimate (PS1 Version) v1.2.bin`은 개조판 제작 페이지(`builder.html`)로 직접 만듭니다. 디스크 이미지 세 개가 필요합니다.
 
-| 게임 | 파일 (Redump 등) | MD5 |
+| 게임 | 파일 (Redump 등) | 크기 · CRC32 · MD5 |
 |---|---|---|
-| PS1 북미판 Castlevania: Symphony of the Night (SLUS-00067) | `Castlevania - Symphony of the Night (USA) (Track 1).bin` | `acbb3a2e4a8f865f363dc06df147afa2` |
-| 새턴 일본판 악마성 드라큘라 X 월하의 야상곡 (T-9527G, 1.400판) | `Akumajou Dracula X - Gekka no Yasoukyoku (Japan) (Track 01).bin` | `32f037579707e192320db6e8f24ef571` |
-| PSP 북미판 Castlevania: The Dracula X Chronicles (ULUS-10277) | `Castlevania - The Dracula X Chronicles (USA).iso` | `9734bc89f4956324c28df897e25f1a71` |
+| PS1 북미판 Castlevania: Symphony of the Night (SLUS-00067) | `Castlevania - Symphony of the Night (USA) (Track 1).bin` | 538,655,040 · `05be47b2` · `acbb3a2e4a8f865f363dc06df147afa2` |
+| 새턴 일본판 악마성 드라큘라 X 월하의 야상곡 (T-9527G, 1.400판) | `Akumajou Dracula X - Gekka no Yasoukyoku (Japan) (Track 01).bin` | 481,720,176 · `f1b74601` · `32f037579707e192320db6e8f24ef571` |
+| PSP 북미판 Castlevania: The Dracula X Chronicles (ULUS-10277) | `Castlevania - The Dracula X Chronicles (USA).iso` | 1,111,359,488 · `26316f37` · `9734bc89f4956324c28df897e25f1a71` |
 
 1. **v1.2판** 제작 페이지를 받습니다: [archive.org - SOTN Ultimate v1.2](https://archive.org/download/castlevania_sotn_ultimate_v1_2) (`builder.html`). v1.3·v1.4로 만든 이미지에는 이 패치가 맞지 않습니다.
 2. `builder.html`을 PC 브라우저로 열고 세 이미지를 끌어다 놓은 뒤 "Build the disc"를 누릅니다.
