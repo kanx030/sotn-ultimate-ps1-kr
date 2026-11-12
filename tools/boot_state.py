@@ -6,7 +6,7 @@ import ra
 import numpy as np
 from PIL import Image
 cue = sys.argv[1]
-os.system('taskkill /im retroarch.exe /f >nul 2>&1'); time.sleep(1)
+__import__('ra').kill_own(); time.sleep(1)
 ra.subprocess.Popen([ra.RA, '--config', ra.CFG, '-L', ra.CORE, cue])
 time.sleep(25)
 ra.press('start:0.3 wait:4 start:0.3 wait:4 cross:0.3 wait:3 right:0.2 wait:1 cross:0.3 wait:3')

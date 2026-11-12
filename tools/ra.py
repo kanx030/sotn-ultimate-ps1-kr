@@ -12,11 +12,20 @@ RA = r'I:\AttractMode\emulators\RetroArch\retroarch.exe'
 CORE = r'I:\AttractMode\emulators\RetroArch\cores\swanstation_libretro.dll'
 CFG = r'E:\SOTNKR\test\ra.cfg'
 LOG = r'E:\SOTNKR\test\ra.log'
+# own ports (SGKR sessions use 55355-55357): ra.cfg 55365, ra2.cfg 55366; override with SOTN_RA_PORT
+PORT = int(os.environ.get('SOTN_RA_PORT', '55365'))
+
+def kill_own():
+    """Kill only RetroArch processes started for this project (command line mentions SOTNKR).
+    Other sessions (e.g. the SGKR project) run their own RetroArch on this shared PC: never kill by name."""
+    ps = ("Get-CimInstance Win32_Process -Filter \"name='retroarch.exe'\" | "
+          "Where-Object { $_.CommandLine -match 'SOTNKR' } | ForEach-Object { Stop-Process -Id $_.ProcessId -Force }")
+    subprocess.run(['powershell', '-NoProfile', '-Command', ps], capture_output=True)
 
 def cmd(c, reply=False, timeout=2.0):
     s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     s.settimeout(timeout)
-    s.sendto(c.encode(), ('127.0.0.1', 55355))
+    s.sendto(c.encode(), ('127.0.0.1', PORT))
     if reply:
         try:
             return s.recvfrom(65536)[0].decode(errors='replace')
@@ -157,6 +166,6 @@ if __name__ == '__main__':
     elif a == 'snap':
         snap(sys.argv[2])
     elif a == 'kill':
-        os.system('taskkill /im retroarch.exe /f >nul 2>&1')
+        kill_own()
 
 

@@ -2,7 +2,7 @@
 JP=1 -> sets the JP-dub flag. Prints 'voiceid time'. python ptrtime.py <cue>"""
 import sys,time,os,struct,re; sys.path.insert(0,os.path.dirname(__file__)); import ra
 cue=sys.argv[1]; JP=os.environ.get('JP')
-os.system('taskkill /im retroarch.exe /f >nul 2>&1'); time.sleep(1)
+__import__('ra').kill_own(); time.sleep(1)
 ra.subprocess.Popen([ra.RA,'--config',ra.CFG,'-L',ra.CORE,cue])
 time.sleep(15); ra.cmd('LOAD_STATE'); time.sleep(12)
 if JP: ra.cmd('WRITE_CORE_RAM %x 20'%0x97BAF)

@@ -4,7 +4,7 @@ sys.path.insert(0, os.path.dirname(__file__))
 import ra, ramsync
 from PIL import Image
 cue, out, seq = sys.argv[1], sys.argv[2], sys.argv[3]
-os.system('taskkill /im retroarch.exe /f >nul 2>&1'); time.sleep(1)
+__import__('ra').kill_own(); time.sleep(1)
 ra.subprocess.Popen([ra.RA, '--config', ra.CFG, '-L', ra.CORE, cue])
 time.sleep(15); ra.cmd('LOAD_STATE'); time.sleep(12)
 ramsync.sync('ST/NO3/NO3.BIN')

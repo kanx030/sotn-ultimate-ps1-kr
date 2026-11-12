@@ -12,7 +12,7 @@ PTR = 0x801C2AF8
 
 
 def run(cue, delay):
-    os.system('taskkill /im retroarch.exe /f >nul 2>&1'); time.sleep(1)
+    __import__('ra').kill_own(); time.sleep(1)
     ra.subprocess.Popen([ra.RA, '--config', ra.CFG, '-L', ra.CORE, cue])
     time.sleep(15); ra.cmd('LOAD_STATE'); time.sleep(delay)
     ra.cmd('WRITE_CORE_RAM %x 20' % 0x97BAF)

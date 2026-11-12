@@ -3,7 +3,7 @@ import sys, time, os
 sys.path.insert(0, os.path.dirname(__file__))
 import ra, st0text
 cue, out = sys.argv[1], sys.argv[2]
-os.system('taskkill /im retroarch.exe /f >nul 2>&1'); time.sleep(1)
+__import__('ra').kill_own(); time.sleep(1)
 ra.subprocess.Popen([ra.RA, '--config', ra.CFG, '-L', ra.CORE, cue])
 time.sleep(25)
 ra.press('start:0.3 wait:4 start:0.3 wait:4')

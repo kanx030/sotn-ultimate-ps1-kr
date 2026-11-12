@@ -4,7 +4,7 @@ import sys, time, os, struct
 sys.path.insert(0, os.path.dirname(__file__))
 import ra
 cue, out = sys.argv[1], sys.argv[2]; secs = float(sys.argv[3]) if len(sys.argv) > 3 else 150
-os.system('taskkill /im retroarch.exe /f >nul 2>&1'); time.sleep(1)
+__import__('ra').kill_own(); time.sleep(1)
 ra.subprocess.Popen([ra.RA, '--config', ra.CFG, '-L', ra.CORE, cue])
 time.sleep(15); ra.cmd('LOAD_STATE'); time.sleep(12)
 ra.setpad(ra.BTN['left'] | ra.BTN['up']); time.sleep(16)
