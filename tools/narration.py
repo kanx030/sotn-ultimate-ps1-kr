@@ -17,7 +17,9 @@ and makes DRA's XA lookup return a new entry for index 0x40 (id 0x340) when the 
   file 0x1E, channel 6, volume 0x7A, 2}. The player computes LBA = XA base + offset + channel.
 
 The audio is copyrighted game data: it only goes into the built image (and so into the release xdelta);
-never into git. Disc path: env SOTN_JP_DISC, else the Rev 2 track 1 in the project root.
+never into git. Disc path: env SOTN_JP_DISC, else the Rev 2 track 1 in the project root. Without the disc the
+saved region work/narrsrc/jp_crawl_region.bin (env SOTN_JP_REGION) is used: the raw region cut from a built
+image (e.g. the v1.0 release = original + xdelta); it holds the same stream (checked by the same md5).
 python narration.py [wav]   -> extract + decode to work/narr/*.wav for listening (checks only)"""
 import os, sys, struct, hashlib
 sys.path.insert(0, os.path.dirname(__file__))
@@ -26,6 +28,7 @@ from asm import Asm
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..')
 JP_DISC = os.environ.get('SOTN_JP_DISC') or os.path.join(
     ROOT, 'Akumajou Dracula X - Gekka no Yasoukyoku (Japan) (Rev 2) (Track 1).bin')
+REGION = os.environ.get('SOTN_JP_REGION') or os.path.join(ROOT, 'work', 'narrsrc', 'jp_crawl_region.bin')
 SEC = 2352
 JP_XA_LBA = 47643          # SD/XA_STR1 on the JP disc (Rev 0 and Rev 2)
 U_XA_LBA = 51894           # SD/XA_STR1 on Ultimate (= DRA XA base 0x80138F20)
@@ -40,12 +43,13 @@ ORIG_LOOK = bytes.fromhex('3f0002340b002216000000000980023caf7b42900000000028004
                           '000000000e80023ce420422480c7040800000000')
 
 def disc_ok(path=JP_DISC):
-    return os.path.exists(path)
+    return os.path.exists(path) or os.path.exists(REGION)
 
 def read_region(path=JP_DISC):
     """Raw interleaved region (NSEC sectors) from the JP disc; checks the stream's subheaders."""
-    with open(path, 'rb') as f:
-        f.seek((JP_XA_LBA + JP_OFF) * SEC)
+    src, at = (path, (JP_XA_LBA + JP_OFF) * SEC) if os.path.exists(path) else (REGION, 0)
+    with open(src, 'rb') as f:
+        f.seek(at)
         reg = f.read(NSEC * SEC)
     assert len(reg) == NSEC * SEC, 'JP disc too short'
     h = hashlib.md5()
