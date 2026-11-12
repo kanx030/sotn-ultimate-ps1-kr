@@ -342,18 +342,18 @@ def patch_richter_hud(d, name):
     _log(name, "Richter HUD 'RICHTER/REST', 'PAUSE PUSH START' (0x18000)", B.commit())
 
 
-# '마리아' in the style of bold(galmuri 9) used for '리히터', drawn by hand: bold(galmuri) cuts off the last column
-# (the 'ㅏ' stub of '아') and leaves '마' a 1px stub that is lost on screen -> 2px stubs here.
+# '마리아' = bold(galmuri('마리아', 9)) like the Richter plate (same size), except 아's ㅏ: bold() cut its stub
+# off at the last column -> 1px vertical + 1px stub, like 터's ㅓ.
 _MARIA_PLATE = np.array([[c == '#' for c in r] for r in (
-    '######.##....######.##..####..##..',
-    '##..##.##........##.##.##..##.##..',
-    '##..##.##........##.##.##..##.##..',
-    '##..##.##....######.##.##..##.##..',
-    '##..##.####..##.....##.##..##.####',
-    '##..##.##....##.....##.##..##.##..',
-    '##..##.##....##.....##.##..##.##..',
-    '######.##....######.##..####..##..',
-    '.......##...........##........##..')])
+    '######.##..######.##...####..#.',
+    '##..##.##......##.##..##..##.#.',
+    '##..##.##......##.##..##..##.#.',
+    '##..##.##..######.##..##..##.#.',
+    '##..##.###.##.....##..##..##.##',
+    '##..##.##..##.....##..##..##.#.',
+    '##..##.##..##.....##..##..##.#.',
+    '######.##..######.##...####..#.',
+    '.......##.........##.........#.')])
 
 
 def patch_maria_hud(d, name):

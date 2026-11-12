@@ -29,6 +29,7 @@ COLORFLAG = 0x8013784C
 MENUDRAWSTR = 0x800F4494
 EXPTAB = 0x800E0B7C                 # next-level EXP = EXPTAB[level]
 ST = 0x80097964                     # relics
+GODSPEED = 0x8003C0DC               # relic #30 Godspeed Shoes (Ultimate: own byte; 1 owned, 2 on)
 SPELLS = 0x80097982
 HAND = 0x8009798A
 BODY = 0x80097A3A                   # body counts follow Ultimate's 176 hand counts
@@ -310,6 +311,7 @@ def _gen(L):
     a.label('r_w')
     a.sb('t0', 0, 't1'); a.addiu('t1', 't1', 1); a.addiu('t2', 't2', 1)
     a.sltiu('at', 't2', 30); a.bne('at', 'zero', 'r_lp'); a.nop()
+    a.li32('t1', GODSPEED); a.ori('t0', 'zero', 3); a.sb('t0', 0, 't1')   # relic #30 (Ultimate keeps it apart)
     a.b('a_ret'); a.nop()
     a.label('a_spell')
     a.li32('t1', SPELLS); a.ori('t0', 'zero', 0x80)
