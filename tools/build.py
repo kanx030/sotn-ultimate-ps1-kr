@@ -517,7 +517,7 @@ def main(out):
     for fid, f in enumerate(CUTSCENE_FILES):
         d = patch_cutscene(read(os.path.join(U, *f.split('/'))), fid, f)
         if f == 'ST/ST0/ST0.BIN':
-            d = st0text.patch(patch_st0(read(os.path.join(U, 'ST', 'ST0', 'ST0.BIN'))))
+            d = gfx.patch_file(f, st0text.patch(patch_st0(read(os.path.join(U, 'ST', 'ST0', 'ST0.BIN')))))   # + prologue HUD plate
             import transapply
             d, _ = transapply._apply(f, d, '.jp.json')
             d, _ = transapply._apply(f, d, '.psp.json')

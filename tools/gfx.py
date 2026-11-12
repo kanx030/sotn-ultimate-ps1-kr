@@ -30,7 +30,7 @@ NOTO_SERIF = os.path.join(FONTS_DIR, 'NotoSerifKR-VF.ttf')
 PREVIEW = os.path.join(WORK, 'gfx_preview')
 
 GFX_FILES = ['BIN/F_GAME.BIN', 'BIN/F_GAME2.BIN', 'BIN/F_TITLE0.BIN', 'BIN/F_TITLE1.BIN', 'ST/SEL/F_SEL.BIN',
-             'ST/SEL/SEL.BIN', 'DRA.BIN', 'BIN/F_PROLO0.BIN']
+             'ST/SEL/SEL.BIN', 'DRA.BIN', 'BIN/F_PROLO0.BIN', 'BIN/MARIA2.BIN']
 
 LOG = []          # (file, what, status) - filled by patch_file, used for the report / previews
 
@@ -326,19 +326,23 @@ _RICHTER_PLATE = np.array([[c == '#' for c in r] for r in (   # bold(galmuri('�
     '.......##.........##.........#')])
 
 
-def patch_richter_hud(d, name):
-    """F_GAME2 0x18000: 'RICHTER REST x00' and 'PAUSE PUSH START' panels (bg 9, text F)."""
-    B = Blocks(d, name, [0x18000])
-    o = B.img[0x18000]
+def _rest_panels(o, plate):
+    """Richter-style HUD block (F_GAME2 0x18000 layout): name + 'REST x00' panel and 'PAUSE PUSH START' panel
+    (bg 9, text F). 'REST' blanked, name -> plate centred in the name area, PAUSE -> '일시정지'."""
     # panel 1: name + REST
     o[47:51, 106:125] = 9                  # 'REST' -> blank
-    o[47:58, 66:104] = 9                   # 'RICHTER'
-    m = _RICHTER_PLATE
-    paste(o, np.where(m, 15, 9).astype(np.uint8), 66 + (38 - m.shape[1]) // 2, 48)
+    o[47:58, 66:104] = 9                   # name ('RICHTER' / 'MARIA')
+    paste(o, np.where(plate, 15, 9).astype(np.uint8), 66 + (38 - plate.shape[1]) // 2, 48)
     # panel 2: PAUSE PUSH START
     o[70:82, 66:126] = 9
     m = bold(galmuri('일시정지', 9, spacing=1))
     paste(o, np.where(m, 15, 9).astype(np.uint8), 66 + (60 - m.shape[1]) // 2, 71)
+
+
+def patch_richter_hud(d, name):
+    """F_GAME2 0x18000: 'RICHTER REST x00' and 'PAUSE PUSH START' panels (bg 9, text F)."""
+    B = Blocks(d, name, [0x18000])
+    _rest_panels(B.img[0x18000], _RICHTER_PLATE)
     _log(name, "Richter HUD 'RICHTER/REST', 'PAUSE PUSH START' (0x18000)", B.commit())
 
 
@@ -367,6 +371,35 @@ def patch_maria_hud(d, name):
     m = _MARIA_PLATE
     paste(o, np.where(m, 15, 9).astype(np.uint8), 51 + (42 - m.shape[1]) // 2, 15 + (10 - m.shape[0]) // 2)
     _log(name, "Maria HUD name plate 'MARIA' (0x6000)", B.commit())
+
+
+# Overlays that upload their own copy of the F_GAME2 0x18000 HUD block (same layout, compressed 128x128 stream):
+# - MARIA2.BIN (PSP Maria's overlay, loaded at 0x8013C000) at game start -> VRAM (704,256): 'MARIA REST x00'.
+#   Found from the panel pixels in VRAM (fresh boot, PSP Maria) by decompressing every stream of the file.
+# - ST0.BIN (prologue, Richter) 'RICHTER REST x00'. Found by the same stream scan over every file.
+# Re-compressed in place (must fit the original stream).
+HUD_STREAMS = {'BIN/MARIA2.BIN': (0x14DFC, '_MARIA_PLATE', 'PSP Maria'),
+               'ST/ST0/ST0.BIN': (0x14448, '_RICHTER_PLATE', 'prologue Richter')}
+
+
+def patch_hud_stream(d, name):
+    a, plate, who = HUD_STREAMS[name]
+    U = _u(name)
+    out, orig_len = decompress(U, a)
+    ok = len(out) == 16384 and bytes(d[a:a + orig_len]) == U[a:a + orig_len]
+    if ok:
+        img = np.array(out, np.uint8).reshape(128, 128)
+        ok = (img[47:51, 106:125] == 15).sum() > 20     # 'REST' still there (base layout check)
+    if ok:
+        _rest_panels(img, globals()[plate])
+        c = compress(img)
+        o2, _ = decompress(c)
+        assert np.array_equal(np.array(o2[:16384], np.uint8).reshape(128, 128), img) and len(o2) == 16384
+        ok = len(c) <= orig_len
+        if ok:
+            d[a:a + len(c)] = c
+            d[a + len(c):a + orig_len] = bytes(orig_len - len(c))
+    _log(name, "%s HUD name/REST, 'PAUSE PUSH START' (compressed, 0x%X)" % (who, a), ok)
 
 
 # '얼티메이트' added to the K logo the way the Saturn Korean Ultimate patch did it (stat/titlelogo4.py):
@@ -1101,6 +1134,8 @@ def patch_file(path: str, data: bytes) -> bytes:
         fn = patch_dra
     elif name == 'BIN/F_PROLO0.BIN':
         fn = patch_prolo0
+    elif name in HUD_STREAMS:
+        fn = patch_hud_stream
     else:
         return data
     d = bytearray(data)
