@@ -1,0 +1,228 @@
+===== v1.3
+SOTN Ultimate (PS1 Version) v1.3
+================================
+
+Fixes, Saturn details we had missed, the Saturn horse sounds, and the
+source code. Thanks to everyone who played v1.2 and sent reports.
+
+Getting it
+----------
+
+v1.3 is a full new build: open the new builder.html and build the disc again
+from the same three discs as before (PS1 US, Saturn JP, PSP US). There is no
+patch from v1.2 to v1.3. Saves from v1.2 work in v1.3.
+
+If you play with emulator save states: states made with v1.2 hold the old
+version's code and will not work properly in v1.3 (crashes or odd
+behaviour). Before updating, save your game with an in-game save point
+(memory card), then in v1.3 load that save and make new states from there.
+
+The page checks the result: its MD5 must be
+d91b259ffca3de1d3449a48755f0818e (checksums.txt has the other values).
+
+Fixes
+-----
+
+- Terminus Est and Mourneblade: the slash did not appear and the sword did
+  no damage. Both now slash and hit, in either hand.
+- Maria: hit sounds could cut out while playing as Maria. The sound
+  priorities are revised so her hits always play.
+- Cursed Prison: the Spear Guards always used their PS1 voices. They now
+  follow the dub you chose (PS1, PSP or Japanese).
+- Pixie and Nose Devil: with the PS1 dub they spoke Japanese. They now use
+  the PSP's English voices, as with the PSP dub.
+- Olrox's Quarters (both dubs, since v1.1): the Owl Knight's taunt, attack
+  and pain sounds were silent, and some Owl Knight, owl and Gurkha sounds
+  played the wrong clip. Every sound there is back in its place.
+- Japanese dub: the in-game voices (grunts, bosses, familiars) now play at
+  the exact pitch of the Japanese PS1 release. v1.2 got close; this matches
+  it. Doppleganger's lines, which could be far off in both dubs, are fixed
+  too.
+- Prologue, Japanese dub: skipping the Richter / Dracula dialogue with START
+  could leave Richter walking left in place with no fight music. Fixed.
+- Prologue music: after a Richter or Maria game, resetting and starting an
+  Alucard game could lose the Dracula fight music. Fixed.
+- Castle Entrance map: after the Alchemy Laboratory, the map could still
+  show the old save room's door over the Underground Garden passage
+  (Richter and both Marias, and Alucard in an unbroken run). Fixed.
+- Cursed Prison (and Soul Prison, Underground Garden): items dropping onto
+  the stone pedestal a Red Gargoyle leaves behind (coin bags, hearts,
+  equipment...) were drawn behind it. They are now drawn in front.
+- PSP Maria: pressing Triangle after a drop kick with no crash available
+  left her stuck on the ground. She now returns to her crouch.
+- Rainbow Mantle: every so often the cape flashed a different colour for a
+  moment. The port had copied a small bug from the Saturn's own cape code
+  (its colour wave could overflow into the next colour). The colours now
+  shift smoothly.
+
+New
+---
+
+- Horse ride (Richter and Maria): the Saturn's own hoofbeat while
+  galloping, and the Saturn's full neigh when the horse rears at the gate,
+  made from your Saturn disc.
+- Saturn balance, more of the Saturn's own rules:
+  - Jewel Sword: each jewel worn as an accessory adds to its attack, as on
+    the Saturn (Zircon +1, Aquamarine +3, Turquoise +6, Onyx +10, Garnet
+    +16, Opal +23, Diamond +32; two jewels add up).
+  - Weapon reach: the Saturn's hitboxes for the Basilard, Holy Rod, Star
+    Flail, Nunchaku and Runesword, and longer punches for the four knuckle
+    weapons and bare hands.
+  - Level-up: if MP was full, it refills to the new maximum.
+  - Richter: a new game starts with 100 HP (the prologue stays at 50).
+  - Saturn Maria: a new game starts with the Dragon Helm (games already
+    started keep what they have).
+  PS1 balance keeps the PS1's values for all of these.
+- Source code: the mod's full source is now public under the AGPL, as a
+  fork of sotn-decomp: https://github.com/renanbianchi/sotn-ultimate
+  The README there credits everyone whose work it uses.
+
+Known
+-----
+
+- Sunstone and Moonstone follow the Saturn's real-time clock on the Saturn.
+  The PS1 has no clock, so they follow play time instead.
+- Nose Devil, English voices: the PSP has only four English lines for him
+  (the Japanese pack has more), so he speaks less often than in Japanese.
+
+===== v1.4
+SOTN Ultimate (PS1 Version) v1.4
+================================
+
+Fixes from your reports, Saturn Maria's new button layout, and the Saturn
+shaft on the first visit to the Castle Entrance. Thanks to everyone who
+played v1.3 and sent reports, and to Sakitoshi for Maria's button
+layout.
+
+Getting it
+----------
+
+v1.4 is a full new build: open the new builder.html and build the disc again
+from the same three discs as before (PS1 US, Saturn JP, PSP US). There is no
+patch from v1.3 to v1.4. Saves from v1.3 work in v1.4.
+
+If you play with emulator save states: states made with v1.3 hold the old
+version's code and will not work properly in v1.4 (crashes or odd
+behaviour). Before updating, save your game with an in-game save point
+(memory card), then in v1.4 load that save and make new states from there.
+
+The page checks the result: its MD5 must be
+901d74656aedbd8da3050d6a3716f32f (checksums.txt has the other values).
+
+Fixes
+-----
+
+- Castle Entrance, first visit: until v1.3 the first visit (Death's
+  encounter, and every Richter and Maria game after the horse ride) was the
+  retail Entrance, and the Saturn shaft to the Underground Garden only
+  opened on later visits. The Entrance now has the Saturn shaft, its
+  candelabras and the moved save room from the very first visit, as on the
+  Saturn, with the castle map to match.
+
+- Royal Chapel confessional: leaving in the middle of the priest's prayer
+  left the Chapel without music until the next area. The music now comes
+  back. The good priest's prayer is voiced.
+
+- Saturn Maria: after many hits in a row (the Mermen at the Castle
+  Entrance, for example) her sounds could go silent until the next area.
+  Fixed.
+
+- Saturn Maria: her shot and fireball sounds were quieter than on the
+  Saturn. They now play at the Saturn's level.
+
+- Saturn Maria: holy water's flames now fall off ledges at the Saturn's
+  speed.
+
+- Saturn Maria: she was drawn 1 pixel too low, her feet inside the floor.
+  She now stands on it, as on the Saturn.
+
+- Stereo: the original game starts every new game in mono, and only
+  Alucard has a menu to change it, so Richter and Maria were stuck in
+  mono. A new game now starts in stereo, and Richter and Maria saves
+  load in stereo (older saves too). Alucard saves keep his setting.
+
+- Saturn music: the short pause when a track goes back to its loop (every
+  4 to 5 minutes) came in the middle of the music. It now falls at the
+  quietest moment of each track's loop, after a short fade-out: on the
+  Cursed Prison, in a silent bar.
+
+- Richter: the axe item crash could leave him stuck when used under an exit
+  in the ceiling. Fixed.
+
+- God Speed Shoes: attacking with a weapon no longer stops the sprint, as on
+  the Saturn.
+
+- Wing Smash: the Saturn's unlimited Wing Smash (until a wall or your MP
+  runs out) now applies to the Saturn balance only. The PS1 balance has the
+  retail time limit again.
+
+- Underground Garden: the Human Face Tree was drawn in front of dropped
+  items. Items are now drawn in front of it.
+
+- Cursed Prison: a burnt-out candle could be drawn over coin bags and other
+  drops. Fixed.
+
+- Inventory: loading a save put every Saturn item at the end of Alucard's
+  item lists, wherever you had sorted it. Saves made with v1.4 keep your
+  order. (Older saves load with them at the end once more; sort them and
+  save again.)
+
+- Librarian, Enemy List: the Man Eater's rare drop showed as "Sound"
+  instead of the Woodland Shield (and the Gargoyle's Double Blade Axe the
+  same way). Both names are right now.
+
+- Item names: "Glaring cloth" and "Rainbow mantle", in the game's own
+  style.
+
+New
+---
+
+- Saturn Maria's buttons: Circle kicks (slide kick when running), Triangle
+  or R1 backdashes, and her specials end with Square or Circle. This layout
+  was first asked for and made by Sakitoshi in his fork of this mod.
+  Thank you, Sakitoshi!
+
+- God Speed Shoes: Soul Steal and Dark Metamorphosis can be cast while
+  sprinting. (The Saturn does not allow this; it makes them usable with the
+  shoes on.)
+
+- Builder: checks the size of your Saturn and PSP dumps and tells you if one
+  is not the expected image.
+
+- Builder: each disc now has its own Choose button. Some Android browsers
+  could not pick the three discs at once; add them one at a time instead.
+  Phones are still not officially supported: try it at your own risk (it
+  needs a lot of free memory).
+
+Good to know
+------------
+
+- Saturn Maria's guard: hold Square for about 6 seconds and a white diamond
+  flashes in front of her: an invisible shield against enemy projectiles,
+  kept while you hold Square and for 5 seconds after. When it runs out, a
+  shrinking diamond shows it is gone. That diamond is the guard, not a
+  glitch (README, section 4).
+
+- Controller: play in DIGITAL mode. With a DualShock in analog mode (analog
+  light on) SOTN gets wrong or no input, as in the original game.
+
+- Boss Maria with the PS1 dub speaks Japanese on purpose: the PS1 never
+  recorded an English voice for her fight. Choose the PSP dub for English.
+
+Known
+-----
+
+- Woodland Shield combos (the vine special with the Shield Rod, and the
+  Mablung Sword's) work with the Saturn balance only, on purpose: the PS1
+  balance keeps the PS1's rules.
+- Saturn music in the new areas: a short pause (about half a second)
+  every 4 to 5 minutes, when the stream seeks back into the loop. It now
+  falls at a quiet moment, but it is still there (README, section 11).
+- After an ending, the castle map keeps only the rooms of your last save:
+  the ending reloads that save to mark it cleared, as in the original game.
+  Save before the final fight to keep everything you explored.
+- Sunstone and Moonstone follow the Saturn's real-time clock on the Saturn.
+  The PS1 has no clock, so they follow play time instead.
+- Nose Devil, English voices: the PSP has only four English lines for him
+  (the Japanese pack has more), so he speaks less often than in Japanese.
+
