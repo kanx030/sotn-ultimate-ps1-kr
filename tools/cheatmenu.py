@@ -40,15 +40,18 @@ EXP = 0x80097C00
 GOLD = 0x80097C04
 
 B_CROSS, B_CANCEL = 0x40, 0x30
-HOTKEY_HELD, HOTKEY_TAP = 0x07, 0x08    # L2+R2+L1 held, R1 tapped (Select = map, not usable); any character
+# Richter / Maria pause screen toggles (nothing else reads pads there): both held, one of them newly tapped.
+# They use their own FLAGS bits so Alucard's cheat window (bits 0/1) is untouched.
+HK_HP, HK_HEART = 0x0C, 0x03        # L1+R1 -> HP refill, L2+R2 -> hearts refill
+RM_HP, RM_HEART = 0x10, 0x20        # FLAGS bits (refilled only while PLAYCHAR != 0)
 
 # pause hint (Richter / Maria): DRA step 0x70 (paused) calls the HUD update 0x801002AC from 0x800F1680
 PAUSE_HOOK_VA = 0x800F1680
 PAUSE_HUD = 0x801002AC
 PLAYCHAR = 0x8003C9A0               # 0 = Alucard (pause opens the menu), else Richter / Maria
-HINT1 = '치트: L2+R2+L1 잡고 R1'
-HINT2 = '무적·HP·하트 무한: %s'
-HINT_Y = (40, 52)                   # screen rows under the HUD '일시정지' plate (plate ends ~ y 36)
+HINT1 = 'L1+R1: HP 무한 %s'
+HINT2 = 'L2+R2: 하트 무한 %s'
+HINT_Y = (50, 62)                   # screen rows under the HUD '일시정지' plate (plate ends ~ y 36)
 HINT_OT = 0x1E2                     # below the HUD (0x1F0..): MenuDrawStr's tpage DR_MODE must not share a HUD slot
                                     # (at 0x1FF it re-textured the '일시정지' plate with the font sheet)
 SCREEN_W = 256
@@ -86,20 +89,6 @@ def _gen(L):
     a.addiu('sp', 'sp', -32); a.sw('ra', 24, 'sp'); a.sw('s0', 16, 'sp')
     a.jal(PADREP); a.nop()
     a.la('s0', 'vars')
-    # hotkey L2+R2+L1 held + R1 tapped: HP/MP/hearts refill + invincibility both on (or both off if either
-    # is on). Richter / Maria have no pause menu (only '일시정지'), so they cannot open the cheat window.
-    a.li32('t9', PADS); a.lhu('t1', 0, 't9'); a.lhu('t2', 4, 't9'); a.nop()
-    a.andi('t1', 't1', HOTKEY_HELD); a.ori('at', 'zero', HOTKEY_HELD)
-    a.bne('t1', 'at', 'hk_x'); a.andi('t2', 't2', HOTKEY_TAP)
-    a.beq('t2', 'zero', 'hk_x'); a.nop()
-    a.lw('t0', FLAGS, 's0'); a.nop(); a.andi('t1', 't0', 3)
-    a.beq('t1', 'zero', 'hk_on'); a.ori('t0', 't0', 3)    # delay slot: both on
-    a.xori('t0', 't0', 3)                                  # one was on -> both off
-    a.label('hk_on')
-    a.sw('t0', FLAGS, 's0')
-    a.li32('at', SND); a.lw('t1', 0, 'at'); a.nop()
-    a.jalr('t1'); a.ori('a0', 'zero', 0x633)
-    a.label('hk_x')
     a.lw('t0', FLAGS, 's0'); a.nop()
     a.andi('t1', 't0', 1)
     a.beq('t1', 'zero', 'c1'); a.nop()
@@ -111,6 +100,18 @@ def _gen(L):
     a.beq('t1', 'zero', 'c2'); a.nop()
     a.jal('invuln'); a.nop()
     a.label('c2')
+    # Richter / Maria toggles (set on their pause screen): HP and hearts refilled separately
+    a.li32('at', PLAYCHAR); a.lw('t1', 0, 'at'); a.nop()
+    a.beq('t1', 'zero', 'c4'); a.nop()
+    a.lw('t0', FLAGS, 's0'); a.li32('t9', HP)
+    a.andi('t1', 't0', RM_HP)
+    a.beq('t1', 'zero', 'c3'); a.nop()
+    a.lw('t2', 4, 't9'); a.nop(); a.sw('t2', 0, 't9')
+    a.label('c3')
+    a.andi('t1', 't0', RM_HEART)
+    a.beq('t1', 'zero', 'c4'); a.nop()
+    a.lw('t2', 12, 't9'); a.nop(); a.sw('t2', 8, 't9')
+    a.label('c4')
     a.lw('s0', 16, 'sp'); a.lw('ra', 24, 'sp'); a.nop()
     a.jr('ra'); a.addiu('sp', 'sp', 32)
 
@@ -244,16 +245,27 @@ def _gen(L):
     a.jal(PAUSE_HUD); a.nop()
     a.li32('at', PLAYCHAR); a.lw('t0', 0, 'at'); a.nop()
     a.beq('t0', 'zero', 'pz_x'); a.nop()                 # Alucard: menu screen, no hint
-    a.li32('at', COLORFLAG); a.sw('zero', 0, 'at')
-    a.la('a0', 's_h1'); a.ori('a1', 'zero', _hx(HINT1)); a.ori('a2', 'zero', HINT_Y[0])
-    a.la('a3', 'hctx'); a.jal(MENUDRAWSTR); a.nop()
-    a.la('t0', 'vars'); a.lw('t0', FLAGS, 't0'); a.nop(); a.andi('t0', 't0', 3)
-    a.la('a0', 's_h2off')
-    a.beq('t0', 'zero', 'pz_d'); a.nop()
-    a.la('a0', 's_h2on')
-    a.label('pz_d')
-    a.ori('a1', 'zero', _hx(HINT2 % '켬')); a.ori('a2', 'zero', HINT_Y[1])
-    a.la('a3', 'hctx'); a.jal(MENUDRAWSTR); a.nop()
+    # L1+R1 / L2+R2 (both held, one of them just pressed): toggle HP / hearts refill. Richter / Maria have
+    # no pause menu, so this is their way to the cheats; only here (paused), never while playing.
+    for k, (combo, bit) in enumerate(((HK_HP, RM_HP), (HK_HEART, RM_HEART))):
+        a.li32('t9', PADS); a.lhu('t1', 0, 't9'); a.lhu('t2', 4, 't9'); a.nop()
+        a.andi('t1', 't1', combo); a.ori('at', 'zero', combo)
+        a.bne('t1', 'at', 'pz_n%d' % k); a.andi('t2', 't2', combo)
+        a.beq('t2', 'zero', 'pz_n%d' % k); a.nop()
+        a.la('t9', 'vars'); a.lw('t0', FLAGS, 't9'); a.nop(); a.xori('t0', 't0', bit)
+        a.sw('t0', FLAGS, 't9')
+        a.li32('at', SND); a.lw('t1', 0, 'at'); a.nop()
+        a.jalr('t1'); a.ori('a0', 'zero', 0x633)
+        a.label('pz_n%d' % k)
+    for k, (bit, hint) in enumerate(((RM_HP, HINT1), (RM_HEART, HINT2))):
+        a.li32('at', COLORFLAG); a.sw('zero', 0, 'at')
+        a.la('t0', 'vars'); a.lw('t0', FLAGS, 't0'); a.nop(); a.andi('t0', 't0', bit)
+        a.la('a0', 's_h%doff' % (k + 1))
+        a.beq('t0', 'zero', 'pz_d%d' % k); a.nop()
+        a.la('a0', 's_h%don' % (k + 1))
+        a.label('pz_d%d' % k)
+        a.ori('a1', 'zero', _hx(hint % '켬')); a.ori('a2', 'zero', HINT_Y[k])
+        a.la('a3', 'hctx'); a.jal(MENUDRAWSTR); a.nop()
     a.label('pz_x')
     a.lw('ra', 16, 'sp'); a.nop()
     a.jr('ra'); a.addiu('sp', 'sp', 24)
@@ -352,7 +364,7 @@ def _gen(L):
         a.data(struct.pack('<II', addr, val))
     def S(lab, txt):
         a.label(lab); a.data(_enc(txt))
-    S('s_h1', HINT1); S('s_h2on', HINT2 % '켬'); S('s_h2off', HINT2 % '끔')
+    S('s_h1on', HINT1 % '켬'); S('s_h1off', HINT1 % '끔'); S('s_h2on', HINT2 % '켬'); S('s_h2off', HINT2 % '끔')
     a.label('hctx')                              # menu context for the hint: clip rect = whole screen, ot HINT_OT
     a.data(struct.pack('<4h4h4h2h', 0, 0, 0, 0, 0, 0, 0x200, 0x100, 0, 0, 0, 0, HINT_OT - 2, 0) + bytes(4))
     S('s_sys', '치트'); S('s_on', '켬'); S('s_off', '끔'); S('s_ok', '완료')
