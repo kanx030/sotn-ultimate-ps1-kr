@@ -113,6 +113,63 @@ AREA_KO = {
 }
 
 
+# Sound mode (Ultimate, file-menu 'Sound mode'): 44 track names drawn by 0x801B4260 (same 8x8 sheet, page 0x1E)
+# from the table 0x801AFBC4 (8-byte entries: name pointer, track) into the pool 0x801AFD24-0x801B005C, plus three
+# fixed strings (lui/addiu refs). The classic series song titles (I Am the Wind, Bloody Tears / Beginning /
+# Vampire Killer remixes) keep their English titles (like 'I AM THE WIND' in the staff roll; also no cells left).
+SOUND_TABLE = 0x2FBC4
+SOUND_COUNT = 44
+SOUND_POOL = (0x2FD24, 0x3005C)
+SOUND_KO = {
+    'Maria Battle': '마리아 결전', 'Chaconne C Moll': '샤콘 C단조', 'The Old Librarian': '늙은 사서',
+    'Metamorphosis III': '변신 III', 'Black Banquet': '검은 연회', 'Final Toccata': '피날레',
+    'Metamorphosis II': '변신 II', 'Blood Relations': '피의 인연', 'Death Ballad': '사신의 곡',
+    'Heavenly Doorway': '천상의 문', 'The Door to the Abyss': '심연의 문', 'The Tragic Prince': '비극의 왕자',
+    'Wandering Ghosts': '방황하는 유령', 'Enchanted Banquet': '마성의 연회', 'Curse Zone': '저주의 영역',
+    'Dance of Pales': '망령의 춤', 'Lost Painting': '사라진 회화', 'Silence': '정적',
+    'Rainbow Cemetery': '무지개 묘지', 'Abandoned Pit': '버려진 광산', 'Crystal Teardrops': '수정의 눈물',
+    'Requiem for the Gods': '신들의 진혼곡', 'Land of Benediction': '축복의 대지',
+    'Festival of Servants': '하인들의 축제', 'Door of Holy Spirits': '성령의 문',
+    'Wood Carving Partita': '목각 모음곡', 'Nocturne (JP)': '야상곡 (JP)', 'Nocturne': '야상곡',
+    'Tower of Mist': '안개의 탑', 'Marble Gallery': '대리석 회랑', 'Dance of Gold': '황금의 춤',
+    "Dracula's Castle": '드라큘라 성', 'Prayer': '기도', 'Moonlight Nocturne': '월하의 야상곡',
+    'Dance of Illusions': '환상의 춤', 'Prologue': '서곡', 'Metamorphosis': '변신',
+}
+SOUND_FIXED = [(0x3005C, 'Now playing', '연주 중'), (0x3006C, 'Play/Stop', '연주/정지'), (0x30078, 'Back', '뒤로')]
+# extra cells for Hangul once 0x60-0xDF are full: kanji / odd cells of the US sheet in the ASCII range
+# ($ * ; < > @ \ ^ ` { | } DEL) - no SEL text draws those characters.
+SMALL_EXTRA = [0x04, 0x0A, 0x1B, 0x1C, 0x1E, 0x20, 0x3C, 0x3E, 0x40, 0x5B, 0x5C, 0x5D, 0x5F]
+
+
+def patch_sound(d, U):
+    t0, t1 = SOUND_TABLE, SOUND_TABLE + SOUND_COUNT * 8
+    p0, p1 = SOUND_POOL
+    assert bytes(d[t0:t1]) == U[t0:t1] and bytes(d[p0:p1]) == U[p0:p1], 'sound-mode table/pool changed'
+    for o in range(0, len(U) - 3, 4):            # only the table points into the pool
+        if not (t0 <= o < t1):
+            assert not (0x80180000 + p0 <= struct.unpack_from('<I', U, o)[0] < 0x80180000 + p1), hex(o)
+    pool = bytearray()
+    tab = bytearray(U[t0:t1])
+    nko = 0
+    for i in range(SOUND_COUNT):
+        en = _small_us_at(U, struct.unpack_from('<I', U, t0 + 8 * i)[0])
+        ko = SOUND_KO.get(en)
+        nko += ko is not None
+        struct.pack_into('<I', tab, 8 * i, 0x80180000 + p0 + len(pool))
+        pool += small_enc(ko) if ko else small_us(en)
+        pool += b'\0' * (-len(pool) % 4)
+    assert len(pool) <= p1 - p0, len(pool)
+    d[p0:p1] = bytes(pool) + bytes(p1 - p0 - len(pool))
+    d[t0:t1] = tab
+    for off, en, ko in SOUND_FIXED:
+        orig = small_us(en)
+        new = small_enc(ko)
+        cap = _small_cap(U, off, len(orig))
+        assert len(new) <= cap, (en, ko)
+        _put(d, off, U[off:off + cap], new + bytes(cap - len(new)), 'sound ' + en)
+    LOG.append(('SEL', 'sound mode: %d of %d track names Korean, pool %d of %d bytes' % (nko, SOUND_COUNT, len(pool), p1 - p0)))
+
+
 def _small_us_at(U, va):
     o = va - 0x80180000
     e = U.index(255, o)
@@ -151,6 +208,7 @@ def patch_areas(d, U):
 def _small_syllables():
     out = []
     texts = [ko for _, _, ko in SMALL_STRINGS] + [k for v in AREA_KO.values() for k in v]
+    texts += list(SOUND_KO.values()) + [ko for _, _, ko in SOUND_FIXED]     # appended: older cells keep their codes
     for ko in texts:
         for ch in ko:
             if 0xAC00 <= ord(ch) <= 0xD7A3 and ch not in out:
@@ -158,8 +216,9 @@ def _small_syllables():
     return out
 
 
-SMALL_CELLS = {ch: SMALL_FIRST + i for i, ch in enumerate(_small_syllables())}
-assert SMALL_FIRST + len(SMALL_CELLS) - 1 <= SMALL_LAST
+SMALL_CODES = list(range(SMALL_FIRST, SMALL_LAST + 1)) + SMALL_EXTRA
+SMALL_CELLS = dict(zip(_small_syllables(), SMALL_CODES))
+assert len(SMALL_CELLS) == len(_small_syllables()), ('8x8 cells full', len(_small_syllables()), len(SMALL_CODES))
 
 
 def small_us(text):
@@ -173,7 +232,7 @@ def small_enc(text):
             out.append(SMALL_CELLS[ch])
         else:
             c = ord(ch) - 0x20
-            assert 0 <= c < 0x60, ch
+            assert 0 <= c < 0x60 and c not in SMALL_CELLS.values(), ch   # cell taken by a Hangul syllable
             out.append(c)
     return bytes(out) + b'\xff'
 
@@ -342,6 +401,7 @@ GOTHIC_STRINGS = [
     (0x300E0, b'no data\0', '데이터 없음'),
     (0x300E8, b'no\0', '카드'),
     (0x300EC, b'card\0', '없음'),
+    (0x30080, b'sound mode\0', '사운드 모드'),   # sound-mode screen title (own drawer 0x801B32EC, see SOUND_TITLE)
 ]
 # call sites of the US drawer 0x801BB8BC that draw the strings above
 GOTHIC_CALLS = [0x801B3408, 0x801B3420, 0x801B3438, 0x801B70C0, 0x801B7188, 0x801B71A0]
@@ -355,6 +415,11 @@ GOTHIC_X = [
     (0x801B70B8, 0x34050080, 0x340500A0),   # 'new game' x 128 -> 160 (4 cells)
     (0x801B7198, 0x02E02821, 0x26E50010),   # 'card' x = s7 -> s7 + 16 (2 cells under 'no')
 ]
+# sound-mode title: 0x801B5DC4 draws 'sound mode' with the page-0xC a-z drawer 0x801B32EC (a3 = clut 0x200)
+# -> the Korean gothic drawer (a3 = sprite flag 1 like its other callers), x 0x70 -> 0x90 (6 cells, centre 192)
+SOUND_TITLE = [(0x801B5DCC, 0x34050070, 0x34050090),
+               (0x801B5DD4, 0x0C06CCBB, 0x0C000000 | ((GOTHIC_DRAWER >> 2) & 0x3FFFFFF)),
+               (0x801B5DD8, 0x34070200, 0x34070001)]
 
 
 def _gothic_syllables():
@@ -417,6 +482,8 @@ def patch_gothic(d, U):
         _put(d, va - SEL_BASE, old, jal_word(GOTHIC_DRAWER), 'gothic call %08X' % va)
     for va, a, b in GOTHIC_X:
         _put(d, va - SEL_BASE, struct.pack('<I', a), struct.pack('<I', b), 'gothic x %08X' % va)
+    for va, a, b in SOUND_TITLE:
+        _put(d, va - SEL_BASE, struct.pack('<I', a), struct.pack('<I', b), 'sound title %08X' % va)
     for off, en, ko in GOTHIC_STRINGS:
         new = gothic_enc(ko)
         assert len(new) <= len(en), (ko, len(new), len(en))
@@ -501,6 +568,7 @@ def patch_sel(d, name):
     for a, b in ((0x27D00, 0x30110), (0x2D518, 0x2F4F0), (0x33000, 0x3C000), (0x128, 0x3A8), AREA_POOL):
         assert UR[a:b] == U[a:b], (name, hex(a))
     patch_small_strings(d, UR)
+    patch_sound(d, UR)
     patch_tiles(d, UR)
     patch_gothic(d, UR)
     patch_areas(d, UR)

@@ -43,7 +43,8 @@ RUNS = [
 ]
 
 def patch(sel):
-    return patch_runs(sel, RUNS, terminate=True)
+    import credits                            # ending staff roll (headers / roles in Korean)
+    return credits.patch(patch_runs(sel, RUNS, terminate=True))
 
 if __name__ == '__main__':
     sys.stdout.reconfigure(encoding='utf-8')

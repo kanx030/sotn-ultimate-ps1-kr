@@ -487,7 +487,9 @@ def main(out):
         if rel in extraopt.FILES: data = extraopt.patch(rel, data)   # Ultimate 'Extra settings' menu (ARC_F2)
         import engfix                           # leftover English (spell combo 'or', SEL file tags, game over)
         if rel in engfix.FILES: data = engfix.patch(rel, data)
-        import bootfast                         # skip the Konami logo movie at boot (SEL/SELRIC2)
+        import godspeed                         # Godspeed Shoes (relic #30): always dash (no double tap), toggle kept
+        if rel in godspeed.FILES: data = godspeed.patch(rel, data)
+        import bootfast                        # skip the Konami logo movie at boot (SEL/SELRIC2)
         if rel in bootfast.FILES: data = bootfast.patch(rel, data)
         written.add(rel); _wf(iso_path, data)
     p.write_file = write_file
@@ -517,6 +519,7 @@ def main(out):
             import libnames; d = libnames.patch(f, d)
         if f == 'ST/SEL/SEL.BIN':
             d = gfx.patch_file(f, draa.patch_sel(f, seltext.patch(d)))
+            sel_done = d                        # SELRIC2 = this + its own ending sprite bytes (see below)
         p.write_file('/' + f + ';1', d)
         done_extra.add(f)
     if CUTSCENE_SKIPPED:
@@ -524,7 +527,19 @@ def main(out):
     import transapply
     if transapply.TRIMMED:
         print('trimmed to fit:', transapply.TRIMMED)
-    try:
+    # BIN/SELRIC2.BIN (ending file when the Boss-Richter option / RIC2 name is set) is SEL.BIN byte for byte except
+    # sprite/palette data at 0xC71A-0xCD54 and 0xD5EC-0xD5F4 -> take the fully patched SEL (ending lines, PSP/JP
+    # scripts, sound mode, credits, graphics) and put those bytes back.
+    r2u = read(os.path.join(U, 'BIN', 'SELRIC2.BIN')); su = read(os.path.join(U, 'ST', 'SEL', 'SEL.BIN'))
+    rdiff = [i for i in range(len(su)) if su[i] != r2u[i]] if len(su) == len(r2u) else None
+    if rdiff is not None and len(rdiff) < 0x1000 and len(sel_done) == len(su) and all(sel_done[i] == su[i] for i in rdiff):
+        r2 = bytearray(sel_done)
+        for i in rdiff: r2[i] = r2u[i]
+        p.write_file('/BIN/SELRIC2.BIN;1', bytes(r2))
+        print('SELRIC2: SEL patches + %d own bytes' % len(rdiff))
+    else:
+      print('SELRIC2: layout differs from SEL, old partial patch')
+      try:
         r2 = read(os.path.join(U, 'BIN', 'SELRIC2.BIN'))
         try:
             r2 = seltext.patch(r2)              # same messages if the file matches SEL's layout
@@ -532,7 +547,7 @@ def main(out):
             pass
         import selui
         p.write_file('/BIN/SELRIC2.BIN;1', selui.patch('BIN/SELRIC2.BIN', draa.patch_sel('BIN/SELRIC2.BIN', r2)))
-    except KeyError as e:
+      except KeyError as e:
         print('SEL text skipped (missing glyph):', e)
     for gf in gfx.GFX_FILES:                    # graphics-only files (title, select screen ...)
         if gf in ('DRA.BIN', 'BIN/F_GAME.BIN', 'BIN/F_GAME2.BIN', 'ST/SEL/SEL.BIN'): continue

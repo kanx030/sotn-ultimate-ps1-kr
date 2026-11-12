@@ -23,13 +23,23 @@ def _apply(path, data, suffix):
         if not ko: continue
         en = it['en'].encode()
         assert data[it['off']:it['off'] + len(en)] == en, (name, hex(it['off']))
-        runs.append((it['off'], len(en), ko))
+        runs.append((it['off'], len(en), ko, it.get('block', 0)))   # block: separate script (own repack)
     if suffix == '.json':                         # extra cutscene lines in the same script block: pack together
         ex = os.path.join(TR, 'extra_%s.json' % name)
         if os.path.exists(ex):
             for it in json.load(open(ex, encoding='utf-8'))['items']:
                 if it.get('path') == 'cutscene' and it.get('ko'):
-                    runs.append((it['off'], it['cap'], it['ko']))
+                    runs.append((it['off'], it['cap'], it['ko'], 0))
+    import build, repack
+    groups = sorted(set(r[3] for r in runs))
+    if len(groups) > 1:                           # several scripts in one sheet: each block re-packed on its own,
+        n = 0                                     # so a later script's start (code lui/addiu) never moves
+        for g in groups:
+            data, k = _pack(name, data, d, suffix, [r[:3] for r in runs if r[3] == g]); n += k
+        return bytes(data), n
+    return _pack(name, data, d, suffix, [r[:3] for r in runs])
+
+def _pack(name, data, d, suffix, runs):
     import build, repack
     prefix = None
     if suffix == '.jp.json':                      # JP dub: typing speed/waits from the PSP Korean script

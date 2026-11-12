@@ -28,6 +28,28 @@
 "newline_after": true,
 "ko": "안내해 드리지요.",
 "gap": "033006"
+},
+{
+"off": 21453,
+"en": "I'll guide you to meet ",
+"cap": 23,
+"after": "010308",
+"newline_after": true,
+"ko": "당신의 운명을",
+"gap": "010308",
+"block": 1,
+"note": "Ultimate PS1-dub script 0x801853b7"
+},
+{
+"off": 21479,
+"en": "your destiny.",
+"cap": 13,
+"after": "033006",
+"newline_after": true,
+"ko": "만나게 해 드리지요.",
+"gap": "033006",
+"block": 1,
+"note": "Ultimate PS1-dub script 0x801853b7"
 }
 ]
 }
