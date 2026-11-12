@@ -8,10 +8,12 @@
 !/오프닝자막.txt
 !/테스트실행.bat
 !/tools/
+!/docs/
 !/work/
 /work/*
 !/work/trans/
 !/work/kmap.json
+!/work/bases.json
 !/work/fontext.json
 !/work/dra_text_report.md
 !/work/gfx_report.md
