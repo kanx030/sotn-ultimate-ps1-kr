@@ -20,7 +20,7 @@ SOTN Ultimate (PS1 Version) v1.2.bin  (원본 이미지, 한 트랙짜리)
    패치 파일: SOTN_Ultimate_KR.xdelta
 3. 결과 파일 이름을 SOTN_Ultimate_KR.bin 으로 저장합니다.
 4. 함께 든 SOTN_Ultimate_KR.cue 를 같은 폴더에 두고, cue 파일로 실행합니다.
-   결과 MD5: 7bb4174565e464f51be3e9e94f60b3d9
+   결과 MD5: 8991fbb733e6b8f5b316ad508c3cf648
 
 명령줄 예:
   xdelta3 -d -s "SOTN Ultimate (PS1 Version) v1.2.bin" SOTN_Ultimate_KR.xdelta SOTN_Ultimate_KR.bin
