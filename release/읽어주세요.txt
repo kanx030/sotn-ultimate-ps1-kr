@@ -51,10 +51,10 @@ SOTN Ultimate (PS1 Version) v1.4.bin  (원본 이미지, 한 트랙짜리, 704,7
    패치 파일: SOTN_Ultimate_KR.xdelta
 3. 결과 파일 이름을 SOTN_Ultimate_KR.bin 으로 저장합니다.
 4. 함께 든 SOTN_Ultimate_KR.cue 를 같은 폴더에 두고, cue 파일로 실행합니다.
-   결과 CRC32  : 8d0c6dad
-   결과 MD5    : 07c2f2090a9db3cf002dc0ec58c052e7
-   결과 SHA-1  : 7240c481dcdb0670237bfbd6d4f8cb979ba49f18
-   결과 SHA-256: 6f543d6e3a0220b655a01eed1dcf2ad7bcc46ffb2b4fa4a35ce56c70915fab60
+   결과 CRC32  : 0aae2f26
+   결과 MD5    : abf047bb600cb7b7143f9ec385c58eb8
+   결과 SHA-1  : 82c8bd1d1b7db0b658b20391a214e3cd1e70e5ce
+   결과 SHA-256: 56ef3b14c046fa0fd08e95bdb7e98e8a2ea5b94b51405d9cc0e7f93a9c55b633
 
 명령줄 예:
   xdelta3 -d -s "SOTN Ultimate (PS1 Version) v1.4.bin" SOTN_Ultimate_KR.xdelta SOTN_Ultimate_KR.bin
@@ -84,6 +84,7 @@ SOTN Ultimate (PS1 Version) v1.4.bin  (원본 이미지, 한 트랙짜리, 704,7
 - 리히터·마리아 이름표 한글 다듬음, 불러오는 중 화면 "얼티메이트" 글씨 정리
 - 신속의 신발: 켜 두면 두 번 누르지 않아도 늘 달림 (마도기 메뉴에서 끌 수 있음)
 - 치트 추가 (아래 "치트" 참고)
+- PSP 마리아·프롤로그 리히터 이름표 한글 (MARIA/RICHTER REST, PAUSE PUSH START)
 
 
 치트
@@ -102,6 +103,8 @@ SOTN Ultimate (PS1 Version) v1.4.bin  (원본 이미지, 한 트랙짜리, 704,7
   (원본 판이 다르면 맞는 배포를 받아야 합니다: v1.4 원본 -> ult-v1.4, v1.2 원본 -> v1.0)
 - .bin 이름을 바꿨다면 .cue 안의 FILE 줄 이름도 똑같이 바꾸세요. 두 파일은 같은 폴더에 두고 .cue로 엽니다.
 - 바이오스는 반드시 북미판 실제 PS1 바이오스 SCPH-1001을 쓰세요 (내장·대체 바이오스 사용 금지).
+  (시험 결과: 북미 1001·7001·7003·PSone(101), 유럽 7502도 동작. 일본 5500·7000은 북미판 디스크를
+   거부해 원본 얼티메이트도 켜지지 않습니다.)
 - 빠른 부팅은 끄는 것이 가장 안전합니다.
 - CD 읽기·탐색 가속은 끄기(1배속), 8MB 램 끄기, 치트 끄기.
 - 압축(CHD)으로 바꿀 때는 .cue에서 변환하세요.
