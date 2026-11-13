@@ -25,6 +25,11 @@ OPS = (0x02, 0x03, 0x11)
 # turn stays on the voice.
 SCALE = 0.8          # x ~1.07 (PS1 types ~56 chars-frames/s, measured) = ~0.86 of the PSP pace
 FINAL_MAX = 16
+# 11-13: per-line mapping gave speeds far too fast / slow inside a page (PSP waits fell on one of our lines);
+# uniform = page voice time (PSP schedule) / our chars, no extra waits between lines
+UNIFORM = True
+UMAX = 20        # slowest typing (frames/char): a lone short word is not dragged over a long clip
+VFILL = 0.85     # typing ends at 85% of the JP voice clip (jpvoice.length)
 ARGS = {0x02: 1, 0x03: 1, 0x11: 1, 0x10: 1, 0x05: 2, 0x09: 2, 0x07: 1, 0x08: 1, 0x16: 1, 0x0b: 0}
 REPORT = []
 _P = None
@@ -103,13 +108,18 @@ def plan(name, data, d, encode):
         if not v:
             continue
         b = fill.pick(v, name)
-        if not b:
+        key = (b['voice'], b['off']) if b else None
+        if key in _IDX:
+            (ts, sps), te, fw, _ = _IDX[key]
+        elif UNIFORM:                                   # no PSP page: the JP voice length alone is enough
+            b = {'voice': None}; ts, sps, te, fw = [0], [1], 0, 0
+        else:
             continue
-        key = (b['voice'], b['off'])
-        if key not in _IDX:
-            continue
-        (ts, sps), te, fw, _ = _IDX[key]
+        import jpvoice
+        vlen = jpvoice.length(g['voice'] if g['voice'] and gi > 0 else v) or te * SCALE   # JP voice length (frames)
         ks = [k for k in g['items'] if items[k].get('ko')]
+        if UNIFORM and not ts:
+            ts, sps = [0], [1]
         if not ks or not ts:
             continue
         # our characters per item (blank ' ' items carry no text)
@@ -120,6 +130,11 @@ def plan(name, data, d, encode):
         N = sum(cnt); M = len(ts)
         if N == 0:
             continue
+        if UNIFORM:
+            import jpvoice
+            vl = jpvoice.length(g['voice'] if g['voice'] and gi > 0 else v) or te * SCALE
+            if VFILL * vl / N < 2.5 and N >= 20:
+                continue        # page holds several voices (switch branches, e.g. BO6 3dd3): keep its own timing
 
         def span(j, c):                                 # PSP chars covered by our chars j..j+c-1
             a = min(M - 1, int(j * M / N))
@@ -148,6 +163,8 @@ def plan(name, data, d, encode):
             start = ts[a] * SCALE
             sp = max(1, min(0x30, int(round(SCALE * sum(sps[a:bb + 1]) / c))))
             wait = start - cur_t if idx > 0 else 0
+            if UNIFORM:                                 # one speed for the whole page: typing spans the voice
+                sp = max(1, min(UMAX, int(VFILL * vlen / N))); wait = 0
             w = max(0, min(255, int(round(wait))))
             if idx > 0 and wt_pos is not None:
                 edits[wt_pos] = max(1, w)
@@ -165,9 +182,11 @@ def plan(name, data, d, encode):
         # final wait after the last item of the page
         last = items[ks[-1]]
         e = last['off'] + len(last['en'].encode())
-        if data[e] == 0x03 and fw:
+        if data[e] == 0x03 and UNIFORM:
+            edits[e + 1] = 4
+        elif data[e] == 0x03 and fw:
             edits[e + 1] = max(1, min(FINAL_MAX, int(round(fw + (te * SCALE - cur_t)))))
-        REPORT.append((name, g['voice'], b['voice'], round(te * SCALE), round(cur_t), page_rep))
+        REPORT.append((name, g['voice'], b['voice'], round(vlen if UNIFORM else te * SCALE), round(cur_t), page_rep))
     return edits, prefix
 
 

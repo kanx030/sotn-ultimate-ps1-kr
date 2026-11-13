@@ -39,8 +39,9 @@ WORDS = {
     'PROTECTION FROM': '내성 획득:', 'DOWN': '하락', 'DEFENCE': '방어력', 'OFFENCE': '공격력', 'LUCK': '행운',
     'INTELLIGENCE': '지능', 'STRENGTH': '힘', 'FIRE': '불꽃', 'ICE': '얼음', 'THUNDER': '번개', 'HOLY': '신성',
     'DARK': '어둠',
-    # present in the sheet but not referenced by the table (kept translated for completeness)
-    'CRITICAL': '크리티컬!', 'PHYSICAL': '물리',
+    # present in the sheet but not referenced by the table: CRITICAL is drawn by its own code at the original
+    # spot (u 32..65, v 74..81) -> pinned there (11-13: it showed '내성 획득:' after the re-pack)
+    'CRITICAL': '크리티컬', 'PHYSICAL': '물리',
 }
 # table entry -> (word, original 8 bytes)
 ENTRIES = [
@@ -111,12 +112,17 @@ def word_image(s):
         im[y][xx + 1] = 4 if y < 4 else 5
     return im
 
+PIN = {'CRITICAL': (32, 74, 66, 82)}     # fixed rects (drawn by code, not by the table)
+
 def layout():
     """Shelf-pack every word: rect = 1 blank column + box (as the original: u0 = blank col, u1 exclusive)."""
-    order = sorted(WORDS, key=lambda k: -len(word_image(WORDS[k])[0]))
+    order = sorted((k for k in WORDS if k not in PIN), key=lambda k: -len(word_image(WORDS[k])[0]))
     free = {v: (REGION[0], KEEP[0] if v == KEEP[1] else REGION[2]) for v in BANDS}
     used = {v: free[v][0] for v in BANDS}
     rects = {}
+    for k, r in PIN.items():
+        assert len(word_image(WORDS[k])[0]) + 1 <= r[2] - r[0], k
+        assert used[r[1]] == r[0]; rects[k] = r; used[r[1]] = r[2]
     for k in order:
         w = len(word_image(WORDS[k])[0]) + 1
         for v in BANDS:

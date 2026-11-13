@@ -127,7 +127,7 @@ def press(seq):
 
 def snap(out):
     import glob
-    d = r'E:\SOTNKR\test\screenshots'
+    d = os.environ.get('SOTN_RA_SHOTS', r'E:\SOTNKR\test\screenshots')
     before = set(glob.glob(d + r'\*.png'))
     cmd('SCREENSHOT')
     for _ in range(50):

@@ -198,8 +198,8 @@ def kst0_code():
     a = Asm(KST0_RAM)
     a.sll('t8', 't9', 4)
     a.li('t9', KTAB_RAM); a.addu('t8', 't8', 't9')        # t8 = entry
-    a.lhu('at', 14, 't8')                                  # variant: 0 = char a2/ptr s1, 1 = a1/s0, 2 = a1/s1
-    a.addu('t3', 's1', 'zero')
+    a.lbu('at', 14, 't8')                                  # variant: 0 = char a2/ptr s1, 1 = a1/s0, 2 = a1/s1
+    a.addu('t3', 's1', 'zero')                             # (byte 15 = line counter offset from the cursor)
     a.beq('at', 'zero', 'v0k'); a.nop()
     a.addu('a2', 'a1', 'zero')
     a.ori('v0', 'zero', 1)
@@ -255,8 +255,9 @@ def kst0_code():
     a.bne('at', 'zero', 'rowl'); a.nop()
     # RECT at KBUF+0x80: x = cursor, y = ybase + 12*line, w, h = 12
     a.lw('t8', 0x8C, 't9'); a.nop()
-    a.lw('t0', 8, 't8'); a.nop()
-    a.lhu('t1', 0, 't0'); a.lhu('t2', 4, 't0'); a.nop()
+    a.lw('t0', 8, 't8'); a.lbu('t2', 15, 't8')            # line counter: cursor + 4 (NO4's old engine: + 2)
+    a.lhu('t1', 0, 't0'); a.addu('t2', 't2', 't0')
+    a.lhu('t2', 0, 't2')
     a.sh('t1', 0x80, 't9')
     a.lh('t4', 12, 't8')
     a.sll('t3', 't2', 3); a.sll('t2', 't2', 2); a.addu('t3', 't3', 't2'); a.addu('t3', 't3', 't4')
@@ -281,14 +282,18 @@ def _variant(f, c, ex, cur, var):             # v1.2 addresses -> current base (
 VARIANTS = {'ST/SEL/SEL.BIN': _variant('ST/SEL/SEL.BIN', 0x801C0440, 0x801C07D4, 0x801C54AE, 1),
             'BOSS/MAR/MAR.BIN': _variant('BOSS/MAR/MAR.BIN', 0x8018C6A8, 0x8018CCB4, 0x8019B30A, 2)}
 
+# offset of the line counter from the text cursor: NO4 (ferryman, older engine: opcode 01 does line += 1 at
+# cursor + 2, y = 384 + 12 * line) - with + 4 every Korean line was drawn on the same row
+LINE_OFF = {'ST/NO4/NO4.BIN': 2}
+
 def ktab():
     out = b''
     for f in CUTSCENE_FILES:
         if f in VARIANTS:
             c, ex, cur, var = VARIANTS[f]
-            out += struct.pack('<IIIhH', c + 8, ex, cur, 384, var); continue
+            out += struct.pack('<IIIhBB', c + 8, ex, cur, 384, var, 4); continue
         p = cutscene.params(read(os.path.join(U, *f.split('/'))))
-        out += struct.pack('<IIIhH', p['ret'], p['exit'], p['cursor'], p['ybase'] or 384, 0)
+        out += struct.pack('<IIIhBB', p['ret'], p['exit'], p['cursor'], p['ybase'] or 384, 0, LINE_OFF.get(f, 4))
     return out
 
 # Galmuri glyph bank for all cutscene text (font slots 1600..2047)
@@ -397,10 +402,28 @@ def name_pool():
     assert NAME_POOL + len(out) <= KBUF_RAM, len(out)
     return out, addr
 
+def name_regs(data):
+    """NO4 (older engine): its speaker-name loop keeps x in a1 and the constant 8 in a3 (newer engines: x in a3,
+    8 in a1). Swap a1 <-> a3 in that loop so the NAME_SIG hook (which moves a3) fits it too."""
+    data = bytearray(data)
+    h = [i for i in range(0, len(data) - 24, 4) if data[i:i + 16] == NAME_SIG and data[i + 20:i + 24] == bytes.fromhex('0400a524')]
+    if len(h) != 1: return bytes(data)
+    s0 = h[0] - 0x18
+    assert struct.unpack_from('<I', data, s0)[0] == 0x34050038, hex(s0)        # ori a1,zero,0x38 (start x)
+    sw = {5: 7, 7: 5}
+    for o in range(s0, h[0] + 0x64, 4):
+        x = struct.unpack_from('<I', data, o)[0]
+        if x >> 26 in (2, 3) or x == 0: continue
+        rs, rt, rd = (x >> 21) & 31, (x >> 16) & 31, (x >> 11) & 31
+        x = (x & ~((31 << 21) | (31 << 16))) | (sw.get(rs, rs) << 21) | (sw.get(rt, rt) << 16)
+        if x >> 26 == 0: x = (x & ~(31 << 11)) | (sw.get(rd, rd) << 11)
+        struct.pack_into('<I', data, o, x)
+    return bytes(data)
+
 def name_heads():
     out = b''
     for f in CUTSCENE_FILES:
-        x = read(os.path.join(U, *f.split('/')))
+        x = name_regs(read(os.path.join(U, *f.split('/'))))
         h = [i for i in range(0, len(x) - 24, 4) if x[i:i + 16] == NAME_SIG and x[i + 20:i + 24] == bytes.fromhex('0400e724')]
         out += struct.pack('<I', 0x80180000 + h[0] if len(h) == 1 else 0)
     return out
@@ -413,6 +436,7 @@ def nameh_code():
 
 def patch_names(data, fid=None):
     if os.environ.get('NO_NAMES'): return data, 0
+    data = name_regs(data)
     orig = data; data = bytearray(data); _, addr = name_pool(); n = 0
     for en, ko in NAMES:
         pat = bytes(ord(c) - 0x20 for c in en) + b'\xff\x00'
