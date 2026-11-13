@@ -51,10 +51,10 @@ SOTN Ultimate (PS1 Version) v1.4.bin  (원본 이미지, 한 트랙짜리, 704,7
    패치 파일: SOTN_Ultimate_KR.xdelta
 3. 결과 파일 이름을 SOTN_Ultimate_KR.bin 으로 저장합니다.
 4. 함께 든 SOTN_Ultimate_KR.cue 를 같은 폴더에 두고, cue 파일로 실행합니다.
-   결과 CRC32  : d605e918
-   결과 MD5    : 8f6c01eb45b9f14f84bddff4b86e7aa5
-   결과 SHA-1  : eaf39e7477034dd2eb7a7c90beed2b04cc1ee803
-   결과 SHA-256: fa6012f2bf8d0940301c401aec3c640ed6c34a19fa9d3328c95a1e359007d260
+   결과 CRC32  : af7a15f7
+   결과 MD5    : 3f3afc73ac3d820190e995f83706e439
+   결과 SHA-1  : 16bf96cbffa04a7a2ef1c8d91bb0e23cefe66a67
+   결과 SHA-256: f0afefcfac23794fe5a6d7212031eaf45821bb3f8115095741d352878ce754b8
 
 명령줄 예:
   xdelta3 -d -s "SOTN Ultimate (PS1 Version) v1.4.bin" SOTN_Ultimate_KR.xdelta SOTN_Ultimate_KR.bin
@@ -73,6 +73,7 @@ SOTN Ultimate (PS1 Version) v1.4.bin  (원본 이미지, 한 트랙짜리, 704,7
 
 업데이트 (2026-11-14)
 ----------------------
+- (긴급 패치) 신속의 신발을 켜면 지하 동굴 상자를 밀 수 없던 문제 수정
 - 일본어 음성: 자막이 실제 음성 길이에 맞춰 찍히도록 속도를 새로 맞춤
 - 일본어 음성: 서큐버스·샤프트·드라큘라·뱃사공 장면 번역과 줄바꿈 다듬음
 - 일본어 음성: 마리아가 알카드·리히터에게 존댓말, 리히터전 "대답해라!" 오역 수정, 선조 이름 랄프
