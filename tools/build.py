@@ -581,6 +581,8 @@ def main(out):
     p.close()
     cue = os.path.splitext(out)[0] + '.cue'
     open(cue, 'w').write('FILE "%s" BINARY\n  TRACK 01 MODE2/2352\n    INDEX 01 00:00:00\n' % os.path.basename(out))
+    import repack as _rp
+    for _b, _o, _n in _rp.CODE_RELOC: print('  script address in code @%x: %x -> %x' % (_b, _o, _n))
     print('built', out)
 
 if __name__ == '__main__':

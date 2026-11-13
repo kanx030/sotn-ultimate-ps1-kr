@@ -42,7 +42,7 @@ def _apply(path, data, suffix):
 def _pack(name, data, d, suffix, runs):
     import build, repack
     prefix = None
-    if suffix == '.jp.json':                      # JP dub: typing speed/waits from the PSP Korean script
+    if suffix == '.jp.json' and d.get('jptiming', True):   # JP dub: typing speed/waits from the PSP Korean script
         import jptiming
         try:
             edits, prefix = jptiming.plan(name, data, d, build.bank().encode)

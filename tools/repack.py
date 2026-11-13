@@ -124,4 +124,37 @@ def repack(data, start, runs, encode, end=None, timing=True, prefix=None):
         v = struct.unpack_from('<I', data, o)[0] - BASE
         if start < v < end and v in omap:
             struct.pack_into('<I', data, o, BASE + start + omap[v])
+    _reloc_code(data, start, end, omap, set(cpos))
     return bytes(data)
+
+CODE_RELOC = []     # (addiu va, old target va, new target va): code immediates moved with their script command
+
+def _reloc_code(data, start, end, omap, cmd_starts):
+    """Code that names a script command by address (lui rt,hi ; addiu/ori rx,rt,lo), e.g. BO2's post-fight
+    script start 0x80181DC5 or 'has the script reached X' checks: move the immediate with the command.
+    Only targets that are command starts inside the block; the lui half must stay the same (else: error)."""
+    w = lambda a: struct.unpack_from('<I', data, a)[0]
+    for a in range(0, len(data) - 4, 4):
+        if start - 4 < a < end: continue
+        x = w(a)
+        if x >> 26 != 15: continue
+        rt, hi = (x >> 16) & 31, x & 0xFFFF
+        if not 0x8018 <= hi <= 0x801C: continue
+        for b in range(a + 4, min(len(data) - 4, a + 48), 4):
+            if start - 4 < b < end: break
+            y = w(b)
+            op = y >> 26
+            if op in (9, 13) and (y >> 21) & 31 == rt:
+                lo = y & 0xFFFF
+                va = (hi << 16) + (lo - 0x10000 if op == 9 and lo & 0x8000 else lo)
+                t = va - BASE
+                if start < t < end and t in cmd_starts and t in omap and omap[t] != t - start:
+                    nva = BASE + start + omap[t]
+                    nhi = (nva + (0x8000 if op == 9 else 0)) >> 16
+                    if nhi != hi:
+                        raise Overflow('code @%x -> %x: new target %x needs another lui' % (BASE + b, va, nva))
+                    struct.pack_into('<I', data, b, (y & 0xFFFF0000) | (nva & 0xFFFF))
+                    CODE_RELOC.append((BASE + b, va, nva))
+                break
+            if op in (15, 9, 13, 35, 33, 32, 36, 37) and (y >> 16) & 31 == rt:
+                break                                   # rt overwritten
