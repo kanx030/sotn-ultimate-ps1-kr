@@ -12,10 +12,10 @@
   - SHA-1 `23bf226690c43663c93f75c4c82bb051d6eb15e1`
   - SHA-256 `c6ee705c8dc5f8beee0a11f7fc531eb671d7c02eeef0f6f23527dc4f2a925b4c`
 - 패치 결과: `SOTN_Ultimate_KR.bin`
-  - CRC32 `43e37aad`
-  - MD5 `7e42a9eccc070bc6cf9c53aa34aae869`
-  - SHA-1 `4d8882c5f3759a3441ec4c95159c178199645322`
-  - SHA-256 `e43f938a02f7a37a21b57a0a79e16954a4da3ed4dffdccb2b8ae69afd4e27cbb`
+  - CRC32 `d605e918`
+  - MD5 `8f6c01eb45b9f14f84bddff4b86e7aa5`
+  - SHA-1 `eaf39e7477034dd2eb7a7c90beed2b04cc1ee803`
+  - SHA-256 `fa6012f2bf8d0940301c401aec3c640ed6c34a19fa9d3328c95a1e359007d260`
 - 게임 이미지는 제공하지 않습니다.
 
 ## 원본 이미지 만드는 법
@@ -27,14 +27,14 @@
 | 새턴 일본판 악마성 드라큘라 X 월하의 야상곡 (T-9527G, 1.400판) | `Akumajou Dracula X - Gekka no Yasoukyoku (Japan) (2M) (Track 1).bin` | 481,720,176 · `f1b74601` · `32f037579707e192320db6e8f24ef571` |
 | PSP 북미판 Castlevania: The Dracula X Chronicles (ULUS-10277) | `Castlevania - The Dracula X Chronicles (USA).iso` | 1,111,359,488 · `26316f37` · `9734bc89f4956324c28df897e25f1a71` |
 
-1. **v1.4판** 제작 페이지를 받습니다: [GitHub - SOTN Ultimate v1.4](https://github.com/renanbianchi/sotn-ultimate/releases/tag/v1.4) (`builder.html`). 패치는 원본 판마다 따로 배포합니다 (v1.4용 `ult-v1.4`, v1.2용 `v1.0`).
+1. **v1.4판** 제작 페이지를 받습니다: [GitHub - SOTN Ultimate v1.4](https://github.com/renanbianchi/sotn-ultimate/releases/tag/v1.4) (`builder.html`). 패치는 원본 v1.4 전용입니다 (배포 `ult-v1.4`).
 2. `builder.html`을 PC 브라우저로 열고 세 이미지를 끌어다 놓은 뒤 "Build the disc"를 누릅니다.
 3. 저장한 .bin의 MD5가 `901d74656aedbd8da3050d6a3716f32f`이면 됩니다.
 
 개조판 정보: [romhacking.net](https://www.romhacking.net/hacks/10241/) · [제작 소스(GitHub)](https://github.com/renanbianchi/sotn-ultimate)
 
 ## 에뮬레이터 설정 (덕스테이션·안드로이드)
-- 패치 결과 MD5가 위 값과 같은지 먼저 확인 (원본 판에 맞는 배포: v1.4 → `ult-v1.4`, v1.2 → `v1.0`)
+- 패치 결과 MD5가 위 값과 같은지 먼저 확인 (원본은 v1.4여야 합니다)
 - .bin 이름을 바꾸면 .cue의 FILE 줄도 같이 바꾸고, .cue로 열기
 - **바이오스는 반드시 북미판 실제 PS1 바이오스 SCPH-1001을 쓰세요** (내장·대체 바이오스 사용 금지)
   - 바이오스별 확인 결과: [docs/bios.md](docs/bios.md) — 북미 바이오스는 모두 동작, 일본 SCPH-5500·7000은 북미 디스크를 거부(원본·정품도 같음)
