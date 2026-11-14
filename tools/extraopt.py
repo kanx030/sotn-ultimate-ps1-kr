@@ -15,7 +15,7 @@ import draa, drab, fontext
 
 FILES = ('BIN/ARC_F2.BIN',)
 BASE = 0x8013C000
-HELP_KO = '보스 버전, 게임 밸런스, 음성 설정'
+HELP_KO = '보스 버전, 밸런스, 음성, 버튼 설정'   # 버튼 = btnopt.py's 5th row
 CHEAT_HELP_KO = '무적, 무한, 아이템 등 테스트용 치트'   # --test builds: help line of the 치트 row
 CHEAT_HELP_VA = 0x8016FE00                          # ARC_F2 zero tail (thunks start at 0x8016FF00)
 fontext.ensure(''.join(c for c in HELP_KO + CHEAT_HELP_KO if fontext.is_hangul(c)))   # extension glyphs (밸) before the font is written

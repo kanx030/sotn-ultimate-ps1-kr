@@ -86,6 +86,11 @@ def stub_code():
         a.label('c')
         a.lw('t3', 0, 't0'); a.addiu('t0', 't0', 4); a.sw('t3', 0, 't1')
         a.bne('t0', 't2', 'c'); a.addiu('t1', 't1', 4)
+    import btnopt                              # menu button layout option: EXE BSS -> 0x8009E000
+    a.li('t0', btnopt.BTN_SRC); a.li('t1', btnopt.BTN_RAM); a.li('t2', btnopt.BTN_SRC + btnopt.BTN_SIZE)
+    a.label('b')
+    a.lw('t3', 0, 't0'); a.addiu('t0', 't0', 4); a.sw('t3', 0, 't1')
+    a.bne('t0', 't2', 'b'); a.addiu('t1', 't1', 4)
     a.j(ORIG_ENTRY); a.nop()
     return a.assemble()
 
@@ -134,6 +139,10 @@ def patch_exe(exe):
         import cheatmenu
         _, cb = cheatmenu.blob(); o = exe_off(CHEAT_SRC)
         assert not any(exe[o:o + cheatmenu.CHEAT_SIZE]); exe[o:o + len(cb)] = cb
+    import btnopt, cheatmenu                    # menu button layout option (code + site tables, after all overlays)
+    bb = btnopt.blob(exe, exe_off, CHEAT_SRC, cheatmenu.CHEAT_RAM, cheatmenu.CHEAT_SIZE); o = exe_off(btnopt.BTN_SRC)
+    assert not any(exe[o:o + btnopt.BTN_SIZE]); exe[o:o + len(bb)] = bb
+    print(btnopt.LOG[-1])
     exe[0x10:0x14] = struct.pack('<I', STUB_VA)          # pc0
     # InitHeap(0x801F0000) writes a header over glyph 0 (U+3000 space); lookup maps 0x8140 to a blank glyph.
     return bytes(exe)
@@ -495,6 +504,8 @@ def patch_dra(dra):
         assert dra[o:o + 4] == struct.pack('<I', 0x8016DC00), dra[o:o + 4].hex()
         dra[o:o + 4] = struct.pack('<I', extraopt.CHEAT_HELP_VA)
         cheatmenu.blob()                       # registers its syllables with g7 before the EXE is built
+    import cheatmenu, btnopt                   # menu button layout option: ReadPads call -> btnopt -> previous target
+    btnopt.hook_dra(dra, cheatmenu.HOOK_VA)
     import narration                           # JP dub: crawl XA 0x340 -> JP narrated stream (appended by main)
     if narration.ENABLED:
         dra = bytearray(narration.patch_dra(dra, NARR_ENT_RAM))
@@ -532,6 +543,8 @@ def main(out):
         if rel in boxpush.FILES: data = boxpush.patch(rel, data)
         import bootfast                        # skip the Konami logo movie at boot (SEL/SELRIC2)
         if rel in bootfast.FILES: data = bootfast.patch(rel, data)
+        import btnopt                           # button layout option: 추가 설정 row, SEL new-game hook, site records
+        if rel in btnopt.FILES: data = btnopt.patch(rel, data)
         import oxswap                           # Circle confirm / Cross cancel + MAR skip fix (last: edits our built bytes)
         if rel in oxswap.FILES: data = oxswap.patch(rel, data)
         written.add(rel); _wf(iso_path, data)

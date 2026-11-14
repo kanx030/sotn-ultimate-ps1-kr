@@ -1,4 +1,4 @@
-악마성 드라큘라 X 월하의 야상곡 얼티메이트 (PS1 v1.4) 한글 패치
+악마성 드라큘라 X 월하의 야상곡 얼티메이트 (PS1 v1.4) 한글 패치 v2.0
 ==========================================================
 
 이 패치는 팬 개조판 "SOTN Ultimate (PS1 Version) v1.4"를 한글로 옮긴 것입니다.
@@ -51,10 +51,10 @@ SOTN Ultimate (PS1 Version) v1.4.bin  (원본 이미지, 한 트랙짜리, 704,7
    패치 파일: SOTN_Ultimate_KR.xdelta
 3. 결과 파일 이름을 SOTN_Ultimate_KR.bin 으로 저장합니다.
 4. 함께 든 SOTN_Ultimate_KR.cue 를 같은 폴더에 두고, cue 파일로 실행합니다.
-   결과 CRC32  : ce3b4c02
-   결과 MD5    : d74a10fc566c178b6f1994f1f1975d0d
-   결과 SHA-1  : 83983b0b6502960076f3a47f7a7102bad570879d
-   결과 SHA-256: 7952f5edc85001572bd37ab8a612a6832fb6f3ed9015475b6c9b4ef7362e3ca2
+   결과 CRC32  : ff258746
+   결과 MD5    : 15a462cb80bf1837b27bd88f5dca71fe
+   결과 SHA-1  : 08d48f927c341cc1b387de7cdcced9e5fef3fc22
+   결과 SHA-256: 62d80ee537edc1e77ff3082d0e79aa532522987d3897a254aae94d2b161ae058
 
 명령줄 예:
   xdelta3 -d -s "SOTN Ultimate (PS1 Version) v1.4.bin" SOTN_Ultimate_KR.xdelta SOTN_Ultimate_KR.bin
@@ -70,6 +70,11 @@ SOTN Ultimate (PS1 Version) v1.4.bin  (원본 이미지, 한 트랙짜리, 704,7
 - 켤 때 코나미 영상을 건너뛰어 제목 화면이 빨리 뜹니다.
 - 모든 한글은 갈무리 글꼴로 통일했습니다. (게임오버 문구만 함렛 글꼴)
 
+
+v2.0 (2026-11-15)
+-----------------
+- 버튼 배치를 고를 수 있게 함: 일시정지 → 설정 → 추가 설정 → "버튼" (○ 결정 / × 결정, 세이브에 저장)
+  제목·파일 선택 화면은 마지막으로 플레이한 설정을 따릅니다 (전원을 켜면 ○ 결정).
 
 업데이트 (2026-11-15)
 ----------------------

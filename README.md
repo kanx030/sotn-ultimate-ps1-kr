@@ -1,4 +1,4 @@
-# 악마성 드라큘라 X 월하의 야상곡 얼티메이트 (PS1) 한글화
+# 악마성 드라큘라 X 월하의 야상곡 얼티메이트 (PS1) 한글화 v2.0
 
 팬 개조판 **SOTN Ultimate (PS1 Version) v1.4** 를 한글로 옮기는 패치와 그 제작 도구입니다.
 대사, 메뉴, 아이템, 지역 이름, 제목·불러오는 중 화면 그림까지 한글로 바꿨습니다.
@@ -12,10 +12,10 @@
   - SHA-1 `23bf226690c43663c93f75c4c82bb051d6eb15e1`
   - SHA-256 `c6ee705c8dc5f8beee0a11f7fc531eb671d7c02eeef0f6f23527dc4f2a925b4c`
 - 패치 결과: `SOTN_Ultimate_KR.bin`
-  - CRC32 `ce3b4c02`
-  - MD5 `d74a10fc566c178b6f1994f1f1975d0d`
-  - SHA-1 `83983b0b6502960076f3a47f7a7102bad570879d`
-  - SHA-256 `7952f5edc85001572bd37ab8a612a6832fb6f3ed9015475b6c9b4ef7362e3ca2`
+  - CRC32 `ff258746`
+  - MD5 `15a462cb80bf1837b27bd88f5dca71fe`
+  - SHA-1 `08d48f927c341cc1b387de7cdcced9e5fef3fc22`
+  - SHA-256 `62d80ee537edc1e77ff3082d0e79aa532522987d3897a254aae94d2b161ae058`
 - 게임 이미지는 제공하지 않습니다.
 
 ## 원본 이미지 만드는 법
