@@ -12,10 +12,10 @@
   - SHA-1 `23bf226690c43663c93f75c4c82bb051d6eb15e1`
   - SHA-256 `c6ee705c8dc5f8beee0a11f7fc531eb671d7c02eeef0f6f23527dc4f2a925b4c`
 - 패치 결과: `SOTN_Ultimate_KR.bin`
-  - CRC32 `af7a15f7`
-  - MD5 `3f3afc73ac3d820190e995f83706e439`
-  - SHA-1 `16bf96cbffa04a7a2ef1c8d91bb0e23cefe66a67`
-  - SHA-256 `f0afefcfac23794fe5a6d7212031eaf45821bb3f8115095741d352878ce754b8`
+  - CRC32 `4c55d96a`
+  - MD5 `a17c75639ffa208d14f24f4fb2e6e595`
+  - SHA-1 `395754540d79b19fe4268b4f52808652e7675429`
+  - SHA-256 `a1072336625090b9880d537b360a403962b519a91ca148d9232c98ffa4fd48a1`
 - 게임 이미지는 제공하지 않습니다.
 
 ## 원본 이미지 만드는 법

@@ -51,10 +51,10 @@ SOTN Ultimate (PS1 Version) v1.4.bin  (원본 이미지, 한 트랙짜리, 704,7
    패치 파일: SOTN_Ultimate_KR.xdelta
 3. 결과 파일 이름을 SOTN_Ultimate_KR.bin 으로 저장합니다.
 4. 함께 든 SOTN_Ultimate_KR.cue 를 같은 폴더에 두고, cue 파일로 실행합니다.
-   결과 CRC32  : af7a15f7
-   결과 MD5    : 3f3afc73ac3d820190e995f83706e439
-   결과 SHA-1  : 16bf96cbffa04a7a2ef1c8d91bb0e23cefe66a67
-   결과 SHA-256: f0afefcfac23794fe5a6d7212031eaf45821bb3f8115095741d352878ce754b8
+   결과 CRC32  : 4c55d96a
+   결과 MD5    : a17c75639ffa208d14f24f4fb2e6e595
+   결과 SHA-1  : 395754540d79b19fe4268b4f52808652e7675429
+   결과 SHA-256: a1072336625090b9880d537b360a403962b519a91ca148d9232c98ffa4fd48a1
 
 명령줄 예:
   xdelta3 -d -s "SOTN Ultimate (PS1 Version) v1.4.bin" SOTN_Ultimate_KR.xdelta SOTN_Ultimate_KR.bin
@@ -73,6 +73,8 @@ SOTN Ultimate (PS1 Version) v1.4.bin  (원본 이미지, 한 트랙짜리, 704,7
 
 업데이트 (2026-11-14)
 ----------------------
+- (긴급 패치) 부유 지하 묘지에서 프로즌 하프를 처치한 뒤 메뉴·세이브가 먹통이 되고 하단 이름이 깨지던 문제 수정
+- 막힌 길 문구 다듬음 ("안개면 통과한다" 등)
 - (긴급 패치) 신속의 신발을 켜면 지하 동굴 상자를 밀 수 없던 문제 수정
 - 일본어 음성: 자막이 실제 음성 길이에 맞춰 찍히도록 속도를 새로 맞춤
 - 일본어 음성: 서큐버스·샤프트·드라큘라·뱃사공 장면 번역과 줄바꿈 다듬음

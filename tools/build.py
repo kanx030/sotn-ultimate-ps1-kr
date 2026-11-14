@@ -526,6 +526,8 @@ def main(out):
         if rel in engfix.FILES: data = engfix.patch(rel, data)
         import godspeed                         # Godspeed Shoes (relic #30): always dash (no double tap), toggle kept
         if rel in godspeed.FILES: data = godspeed.patch(rel, data)
+        import stackfix                         # AllocPrimitives without recursion (deep stack clobbered our font/g7 area)
+        if rel in stackfix.FILES: data = stackfix.patch(rel, data)
         import boxpush                          # crates (NO4/RNO4) also move while dashing (always-dash shoes)
         if rel in boxpush.FILES: data = boxpush.patch(rel, data)
         import bootfast                        # skip the Konami logo movie at boot (SEL/SELRIC2)

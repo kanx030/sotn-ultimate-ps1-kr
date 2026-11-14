@@ -98,5 +98,4 @@ python -I tools/ultimate_update.py bases          # 지원 원본 목록
 ## 참고
 
 - 지원 원본 목록: `work/bases.json` (판 → 이미지 경로, MD5, 크기). build가 자동 기록.
-- v1.2 원본 builder는 GitHub에 없고 archive.org(castlevania_sotn_ultimate_v1_2)에만 있음.
 - v1.4 builder로 검증: 결과 MD5 `901d74656aedbd8da3050d6a3716f32f`가 사용자 빌드와 일치.
