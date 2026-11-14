@@ -532,6 +532,8 @@ def main(out):
         if rel in boxpush.FILES: data = boxpush.patch(rel, data)
         import bootfast                        # skip the Konami logo movie at boot (SEL/SELRIC2)
         if rel in bootfast.FILES: data = bootfast.patch(rel, data)
+        import oxswap                           # Circle confirm / Cross cancel + MAR skip fix (last: edits our built bytes)
+        if rel in oxswap.FILES: data = oxswap.patch(rel, data)
         written.add(rel); _wf(iso_path, data)
     p.write_file = write_file
     import popup
