@@ -49,6 +49,18 @@
   - `Akumajou Dracula X - Gekka no Yasoukyoku (Japan) (2M)` (T-9527G)
   - `Castlevania - The Dracula X Chronicles (USA)` (ULUS-10277)
 
+### 원본 만드는 법
+원본 `SOTN Ultimate (PS1 Version) v1.4.bin`은 개조판 제작 페이지(`builder.html`)로 직접 만듭니다. 위 디스크 세 개가 필요합니다.
+
+1. [SOTN Ultimate v1.4 배포 페이지](https://github.com/renanbianchi/sotn-ultimate/releases/tag/v1.4)에서 `builder.html`을 받습니다.
+2. `builder.html`을 PC 브라우저(크롬·엣지)로 엽니다.
+3. 세 디스크 이미지를 각 칸의 Choose 단추로 고르거나 끌어다 놓습니다.
+   - PS1 북미판: `Castlevania - Symphony of the Night (USA) (Track 1).bin`
+   - 새턴 일본판: `Akumajou Dracula X - Gekka no Yasoukyoku (Japan) (2M) (Track 1).bin`
+   - PSP 북미판: `Castlevania - The Dracula X Chronicles (USA).iso`
+4. "Build the disc"를 누르고 끝나면 저장합니다(몇 분 걸립니다).
+5. 저장한 bin의 CRC32·SHA-256이 아래 값과 같은지 확인합니다.
+
 | 항목 | 값 |
 |---|---|
 | CRC32 | `9B22D649` |
