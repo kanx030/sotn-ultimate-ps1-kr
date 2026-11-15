@@ -1,4 +1,4 @@
-# 악마성 드라큘라 X 월하의 야상곡 얼티메이트 (PS1) — 한글 패치 v2.0 (원본 v1.4용)
+# 악마성 드라큘라 X 월하의 야상곡 얼티메이트 (PS1) — 한글 패치 v2.0.1 (원본 v1.4용)
 
 <p align="center"><img src="images/title.png" width="480" alt="한글 제목 화면"></p>
 
@@ -6,7 +6,7 @@
 
 **목표는 '영어 0개'.** 대사, 메뉴, 아이템, 지역 이름, 제목·불러오는 중 화면 그림까지 한글로 바꿨습니다.
 
-**[⬇ 패치 내려받기 (v2.0)](https://github.com/kanx030/sotn-ultimate-ps1-kr/releases/tag/ult-v1.4)** · 적용 방법은 [아래](#패치하는-법)를 보세요.
+**[⬇ 패치 내려받기 (v2.0.1)](https://github.com/kanx030/sotn-ultimate-ps1-kr/releases/tag/ult-v1.4)** · 적용 방법은 [아래](#패치하는-법)를 보세요.
 
 ## 특징
 
@@ -74,9 +74,9 @@
      - xdelta3 (명령줄, 공식 배포): https://github.com/jmacd/xdelta/releases (윈도우는 `xdelta3-…-windows-x86_64.zip`)
    - **xdelta UI 로 적용**
      1. xdelta UI 를 실행하고 'Apply Patch' 탭을 엽니다.
-     2. Patch 에 `sotn_ult_kr_v2.0_v1.4.xdelta`, Source File 에 원본 bin, Output File 에 `sotn_kr.bin` 을 지정합니다.
+     2. Patch 에 `sotn_ult_kr_v2.0.1_v1.4.xdelta`, Source File 에 원본 bin, Output File 에 `sotn_kr.bin` 을 지정합니다.
      3. 'Patch' 를 누르면 `sotn_kr.bin` 이 만들어집니다.
-   - **xdelta3 로 적용**: `xdelta3 -d -s "SOTN Ultimate (PS1 Version) v1.4.bin" sotn_ult_kr_v2.0_v1.4.xdelta sotn_kr.bin`
+   - **xdelta3 로 적용**: `xdelta3 -d -s "SOTN Ultimate (PS1 Version) v1.4.bin" sotn_ult_kr_v2.0.1_v1.4.xdelta sotn_kr.bin`
 3. 아래 내용을 메모장에 붙여 넣어 `sotn_kr.cue` 로 저장하고, `sotn_kr.bin` 과 같은 폴더에 둔 뒤 cue 파일로 실행합니다.
 
 ```
