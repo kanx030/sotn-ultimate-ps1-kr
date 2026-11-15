@@ -112,7 +112,8 @@ FILE "sotn_kr.bin" BINARY
 ## 출처
 - SOTN Ultimate (PS1 Version): renanbianchi — [romhacking.net](https://www.romhacking.net/hacks/10241/) · [GitHub](https://github.com/renanbianchi/sotn-ultimate)
 - 글꼴: 갈무리(Galmuri) © Lee Minseo, Noto Sans KR / Noto Serif KR © Google, 함렛(Hahmlet) © The Hahmlet Project Authors — 모두 SIL OFL 1.1
-- 한글 패처에 들어 있는 xdelta 3.1.0(GPL-2.0)과 chdman 0.215(MAME, GPL-2.0 이상)의 라이선스는 압축 파일의 `라이선스.txt`·`GPL-2.0.txt` 를 보세요.
+- 한글 패처 소스는 [patcher/](patcher/) 폴더에 GPL-2.0 이상으로 공개합니다(빌드 방법 `patcher/build.txt`).
+- 한글 패처에 들어 있는 xdelta 3.1.0(GPL-2.0), chdman 0.215(MAME, GPL-2.0 이상), [RomForge](https://github.com/sinjunyoung/RomForge)(sinjunyoung, GPL-2.0) v2.0.4 의 chdman.dll 라이선스는 압축 파일의 `라이선스.txt`·`GPL-2.0.txt` 를 보세요.
 - 버튼 배치(○ 결정)와 마리아 대화 건너뛰기 수정은 사용자분이 보내 주신 수정을 반영했습니다.
 
 비영리 팬 작업입니다. 악마성 드라큘라 X 월하의 야상곡 © 1997 KONAMI
