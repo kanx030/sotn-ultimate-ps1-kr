@@ -6,7 +6,7 @@
 
 **목표는 '영어 0개'.** 대사, 메뉴, 아이템, 지역 이름, 제목·불러오는 중 화면 그림까지 한글로 바꿨습니다.
 
-**[⬇ 패치 내려받기 (v2.0.1)](https://github.com/kanx030/sotn-ultimate-ps1-kr/releases/tag/ult-v1.4)** · 적용 방법은 [아래](#패치하는-법)를 보세요.
+**[⬇ 패치 내려받기 (v2.0.1)](https://github.com/kanx030/sotn-ultimate-ps1-kr/releases/tag/ult-v1.4)** · 한글 패처로 새로 패치하거나 예전 한글판을 업데이트할 수 있습니다. [아래](#패치하는-법)를 보세요.
 
 ## 특징
 
@@ -67,6 +67,21 @@
 | SHA-256 | `C6EE705C8DC5F8BEEE0A11F7FC531EB671D7C02EEEF0F6F23527DC4F2A925B4C` |
 
 ## 패치하는 법
+
+### 방법 1: 한글 패처 (권장)
+<p align="center"><img src="images/patcher.png" width="420" alt="한글 패처"></p>
+
+1. 릴리스에서 `SOTN_Ultimate_KR_Patcher_v2.0.1.zip` 을 받아 풀고, `월하_한글패처.exe` 와 `patch` 폴더를 같은 곳에 둡니다.
+2. `월하_한글패처.exe` 를 실행하고 롬 파일이 있는 폴더를 고릅니다. **bin/cue, CHD, iso** 를 알아서 찾고,
+   **원본인지 예전 한글판인지, 몇 번째 판인지** 확인해서 알맞은 패치를 고릅니다.
+3. 원본이면 저장 방식(BIN/CUE 또는 CHD)과 이름을 정하고 [패치 시작]을 누릅니다.
+4. **예전 한글판이면 원본 없이 최신 판으로 업데이트**됩니다. '예전 한글판이면 그 파일을 최신 판으로 바꾸기'를 켜 두면
+   원래 자리에서 같은 이름·같은 형식(CHD 는 CHD 로)으로 바뀌어, 에뮬레이터 목록을 다시 정리할 필요가 없습니다.
+   - 업데이트할 수 있는 판: 11-14 업데이트, 11-14 1차·2차 긴급 패치, 11-15 긴급 패치, v2.0
+   - 11-13 판은 업데이트할 수 없으니 원본으로 새로 패치해 주세요.
+5. 결과가 최신 한글판과 똑같은지 패처가 CRC32·SHA-256·MD5 로 확인합니다. 확인 전에는 원래 파일을 건드리지 않습니다.
+
+### 방법 2: xdelta 로 직접 (원본에서 새로 만들 때만)
 1. 원본 bin 의 CRC32·SHA-256 이 위 값과 같은지 확인합니다.
 2. xdelta 로 패치를 적용합니다.
    - **받는 곳**
@@ -97,6 +112,7 @@ FILE "sotn_kr.bin" BINARY
 ## 출처
 - SOTN Ultimate (PS1 Version): renanbianchi — [romhacking.net](https://www.romhacking.net/hacks/10241/) · [GitHub](https://github.com/renanbianchi/sotn-ultimate)
 - 글꼴: 갈무리(Galmuri) © Lee Minseo, Noto Sans KR / Noto Serif KR © Google, 함렛(Hahmlet) © The Hahmlet Project Authors — 모두 SIL OFL 1.1
+- 한글 패처에 들어 있는 xdelta 3.1.0(GPL-2.0)과 chdman 0.215(MAME, GPL-2.0 이상)의 라이선스는 압축 파일의 `라이선스.txt`·`GPL-2.0.txt` 를 보세요.
 - 버튼 배치(○ 결정)와 마리아 대화 건너뛰기 수정은 사용자분이 보내 주신 수정을 반영했습니다.
 
 비영리 팬 작업입니다. 악마성 드라큘라 X 월하의 야상곡 © 1997 KONAMI
