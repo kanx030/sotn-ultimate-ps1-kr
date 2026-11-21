@@ -19,7 +19,7 @@ import threading
 import zlib
 
 CHUNK = 4 * 1024 * 1024
-VERSION = "v2.0.4"
+VERSION = "v2.1"
 DEFAULT_NAME = "SOTN Ultimate (Korean)"
 CUE_TEXT = 'FILE "{name}.bin" BINARY\n  TRACK 01 MODE2/2352\n    INDEX 01 00:00:00\n'
 
@@ -91,8 +91,8 @@ def expected_text():
     o, t = original(), db()["target"]
     ks = [i["label"] for i in db()["images"] if i["kind"] == "korean"]
     return (f"・원본: {o['title']}\n  크기 {o['size']:,} 바이트, CRC32 {o['crc32']}\n  SHA-256 {o['sha256']}\n"
-            f"・업데이트할 수 있는 예전 한글판: {', '.join(ks)}\n"
-            f"・최신 한글판 {VERSION}: CRC32 {t['crc32']}, MD5 {t['md5']}")
+            + (f"・업데이트할 수 있는 예전 한글판: {', '.join(ks)}\n" if ks else "")
+            + f"・최신 한글판 {VERSION}: CRC32 {t['crc32']}, MD5 {t['md5']}")
 
 
 # ---------------------------------------------------------------- cue
@@ -493,7 +493,7 @@ def run_patch(src, out_dir, name, fmt, log, progress, cancel, replace=False):
     for d in ([src_dir] if replace else []) + [out_dir]:
         if not _writable(d):
             raise PatchError(f"이 폴더에 파일을 쓸 수 없습니다 (권한 또는 읽기 전용):\n{d}\n\n다른 폴더를 골라 주세요.")
-    need = t["size"] * (3 if is_chd else 2) + (64 << 20)
+    need = t["size"] * (4 if is_chd else 3) + (64 << 20)   # + one in-between image for chained updates
     tmp = pick_tmp(dest_dir, need, log)
     if os.path.splitdrive(dest_dir)[0].lower() != os.path.splitdrive(tmp)[0].lower() and \
             shutil.disk_usage(dest_dir).free < t["size"] + (64 << 20):
@@ -568,23 +568,29 @@ def run_patch(src, out_dir, name, fmt, log, progress, cancel, replace=False):
         if replace and who["kind"] != "korean":
             replace = False
             log("원본이므로 원본은 그대로 두고 새 파일을 만듭니다.")
-        patch = patch_path(who["patch"])
+        chain = who["patch"] if isinstance(who["patch"], list) else [who["patch"]]
+        patches = [patch_path(pf) for pf in chain]   # 원본 v1.4용 예전 판: 먼저 v2.0.4 로, 다시 최신으로 (이어 붙이기)
 
         # 3) 패치
         out_bin = os.path.join(tmp, "result.bin")
-        log(("업데이트 패치" if who["kind"] == "korean" else "한글 패치") + " 적용 중 (xdelta)...")
-        progress("패치 적용", 0)
+        cur = srcbin
+        for n, patch in enumerate(patches):
+            step = os.path.join(tmp, "step%d.bin" % n) if n + 1 < len(patches) else out_bin
+            log(("업데이트 패치" if who["kind"] == "korean" else "한글 패치") + " 적용 중 (xdelta%s)..."
+                % (" %d/%d" % (n + 1, len(patches)) if len(patches) > 1 else ""))
+            progress("패치 적용", 0)
 
-        def poll():
-            try:
-                progress("패치 적용", min(1.0, os.path.getsize(out_bin) / t["size"]))
-            except OSError:
-                pass
-        rc, lines = run_tool([xdelta, "-d", "-f", "-B", "402653184", "-s", srcbin, patch, out_bin], cancel, poll=poll)
-        if rc != 0:
-            raise PatchError("패치 적용에 실패했습니다 (xdelta 오류).\n" + "\n".join(lines[-5:]))
-        if os.path.dirname(srcbin) == tmp:
-            os.remove(srcbin)
+            def poll(step=step):
+                try:
+                    progress("패치 적용", min(1.0, os.path.getsize(step) / t["size"]))
+                except OSError:
+                    pass
+            rc, lines = run_tool([xdelta, "-d", "-f", "-B", "402653184", "-s", cur, patch, step], cancel, poll=poll)
+            if rc != 0:
+                raise PatchError("패치 적용에 실패했습니다 (xdelta 오류).\n" + "\n".join(lines[-5:]))
+            if os.path.dirname(cur) == tmp:
+                os.remove(cur)
+            cur = step
 
         # 4) 결과 확인
         log("결과 이미지 확인 중...")
