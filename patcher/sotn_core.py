@@ -19,7 +19,7 @@ import threading
 import zlib
 
 CHUNK = 4 * 1024 * 1024
-VERSION = "v2.1.7"
+VERSION = "v2.2"
 DEFAULT_NAME = "SOTN Ultimate (Korean)"
 CUE_TEXT = 'FILE "{name}.bin" BINARY\n  TRACK 01 MODE2/2352\n    INDEX 01 00:00:00\n'
 
